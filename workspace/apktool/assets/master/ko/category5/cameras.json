@@ -1,0 +1,62 @@
+{
+	"version":3.8,
+	"root_url":"master/common",
+	"camera": [
+		{
+			"camera_id":501,
+			"version":1.1,
+			"product_name":"Z 7",
+			"name_img":"logo_z7_img_3x.png",
+			"real_img":"z7_img_3x.png"
+		},
+		{
+			"camera_id":502,
+			"version":1.1,
+			"product_name":"Z 6",
+			"name_img":"logo_z6_img_3x.png",
+			"real_img":"z6_img_3x.png"
+		},
+		{
+			"camera_id":503,
+			"version":1,
+			"product_name":"Z 50",
+			"name_img":"logo_z50_img_3x.png",
+			"real_img":"z50_img_3x.png"
+		},
+		{
+			"camera_id":504,
+			"version":1,
+			"product_name":"Z 5",
+			"name_img":"logo_z5_img_3x.png",
+			"real_img":"z5_img_3x.png"
+		},
+		{
+			"camera_id":505,
+			"version":1,
+			"product_name":"Z 7II",
+			"name_img":"logo_z7ii_img_3x.png",
+			"real_img":"z7ii_img_3x.png"
+		},
+		{
+			"camera_id":506,
+			"version":1,
+			"product_name":"Z 6II",
+			"name_img":"logo_z6ii_img_3x.png",
+			"real_img":"z6ii_img_3x.png"
+		},
+		{
+			"camera_id":507,
+			"version":1,
+			"product_name":"Z fc",
+			"name_img":"logo_zfc_img_3x.png",
+			"real_img":"zfc_img_3x.png"
+		},
+		{
+			"camera_id":508,
+			"version":1,
+			"product_name":"Z 30",
+			"name_img":"logo_z30_img_3x.png",
+			"real_img":"z30_img_3x.png"
+		}
+	]
+}

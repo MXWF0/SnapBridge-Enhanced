@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ListView android:id="@id/tableview" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" android:fadeScrollbars="false" />
+</RelativeLayout>

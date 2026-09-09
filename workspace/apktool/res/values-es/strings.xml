@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_REMOTE_INTERRUPTED_RECORDING_MOVIE_BY_CAMERA">Grabación cancelada.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_BATTERY">Batería baja; no se puede iniciar la fotografía remota.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_EXPOSURE_MODE">Modo de disparo incompatible seleccionado; no se puede iniciar la fotografía remota. Seleccione el modo P, S, A o M.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_LIVEVIEW_ON">No se puede iniciar la fotografía remota. Compruebe la cámara. La fotografía remota no se puede utilizar si el modo live view se encuentra activo en la cámara o si la cámara está llevando a cabo disparos.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_MEMORY_CARD">No se puede iniciar la fotografía remota. Compruebe la tarjeta de memoria.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_POWER_OFF">Señal de cámara perdida.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_TEMPERATURE">No se puede iniciar la fotografía remota. Espere a que la cámara o el adaptador móvil inalámbrico se enfríen.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_ZOOM_LENS">No se puede iniciar la fotografía remota. Objetivo retraído.</string>
+    <string name="MID_ABOUT_BOKEH_BLUR">Bokeh y difuminar movimiento</string>
+    <string name="MID_ABOUT_BOKEH_BLUR_DESC">La cámara aj. bokeh/difum. mov. según sujeto y escena selec.</string>
+    <string name="MID_ACCESS_LOCATION_PRECISE">A continuación se le pedirá que proporcione permiso para acceder a los datos de ubicación. Seleccione “Precisa” para permitir el acceso a la ubicación precisa del dispositivo.</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_CHECK">Acepto el uso de Adobe Analytics</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_OFF">Rechazar</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_ON">Aceptar</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_DESC">Esta aplicación usa Adobe Analytics para ayudar a analizar los datos de uso. %s</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_ITEM">Analizar datos de uso</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA">La cámara está ocupada. Intente volver a conectarse después de finalizar la grabación de vídeo o la reproducción.</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA_PLEASE_CAMERA_ON">Los ajustes de disparo no se pueden cargar en la cámara. Encienda la cámara, prepare la cámara para los disparos e inténtelo de nuevo.</string>
+    <string name="MID_ALLERT_BEFORE_8MP_DOWNLOAD">El uso de la cámara para grabar o ver vídeos puede interrumpir la descarga. Compruebe el estado de la cámara.</string>
+    <string name="MID_APPROXIMATE">Aproximada</string>
+    <string name="MID_APPS_MV2_INFO">"La aplicación del visor de Nikon Manual Viewer 2 puede usarse para descargar y visualizar manuales de las cámaras SLR digitales de Nikon.
+Descargar el manual de su cámara le proporciona la seguridad de saber que podrá consultarlo en cualquier momento y lugar, con o sin conexión a Internet."</string>
+    <string name="MID_APPS_MV2_NAME">Manual Viewer 2</string>
+    <string name="MID_APPS_NIS_INFO">Esta aplicación gratuita para el servicio de compartición de fotos NIKON IMAGE SPACE de Nikon hará que se sienta más cerca de sus fotos y mejorará su disfrute posdisparo. Tiene como finalidad cumplir con tres simples misiones: visualizar, organizar y compartir fotos; logrando que los amantes de las fotos de todo el globo disfruten de ellas más cómoda, agradable y organizadamente.</string>
+    <string name="MID_APPS_NIS_NAME">NIKON IMAGE SPACE</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLACK">Negro</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLUE">Azul</string>
+    <string name="MID_APP_CD_COLOR_LIST_BROWN">Marrón</string>
+    <string name="MID_APP_CD_COLOR_LIST_DARKGRAY">Gris oscuro</string>
+    <string name="MID_APP_CD_COLOR_LIST_WHITE">Blanco</string>
+    <string name="MID_APP_CD_COLOR_TITLE">Color</string>
+    <string name="MID_APP_CD_CREDIT_ADD">Añadir créditos</string>
+    <string name="MID_APP_CD_CREDIT_NOTE">Incruste información de disparo o comentarios en las imágenes.</string>
+    <string name="MID_APP_CD_CREDIT_POSITION">Posición</string>
+    <string name="MID_APP_CD_CREDIT_PREV">Vista previa</string>
+    <string name="MID_APP_CD_CREDIT_TYPE">Tipo</string>
+    <string name="MID_APP_CD_FONT_LIST_BOLD">Negrita</string>
+    <string name="MID_APP_CD_FONT_LIST_ITALIC">Cursiva</string>
+    <string name="MID_APP_CD_FONT_LIST_NORMAL">Normal</string>
+    <string name="MID_APP_CD_FONT_TITLE">Estilo</string>
+    <string name="MID_APP_CD_POS_LEFT_BOTTOM">Inferior izquierda</string>
+    <string name="MID_APP_CD_POS_LEFT_TOP">Superior izquierda</string>
+    <string name="MID_APP_CD_POS_RIGHT_BOTTOM">Inferior derecha</string>
+    <string name="MID_APP_CD_POS_RIGHT_TOP">Superior derecha</string>
+    <string name="MID_APP_CD_SIZE_LIST_BIG">Grande</string>
+    <string name="MID_APP_CD_SIZE_LIST_MIDDLE">Mediano</string>
+    <string name="MID_APP_CD_SIZE_LIST_SMALL">Pequeño</string>
+    <string name="MID_APP_CD_SIZE_TITLE">Tamaño</string>
+    <string name="MID_APP_CD_TEXT_TITLE">Introducir descripción</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_COMMENT">Comentario de imagen</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_DATE">Hora de disparo</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_INDEX">Información del archivo/foto</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_LIST_INFO">Información de la foto</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_PHOTOGRAPHER_AND_COPYRIGHT">Fotógrafo/titular de derechos de autor</string>
+    <string name="MID_APP_CD_TYPE_TITLE">Tipo de crédito</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_COMMENT">Comentario</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_SNAPBRIDGE_LOGO">Logotipo de SnapBridge</string>
+    <string name="MID_APP_CD_USER_SETTING_TITLE">Configuración del usuario</string>
+    <string name="MID_APP_CREDIT">Mostrar créditos</string>
+    <string name="MID_APP_HASH">Añadir hashtag</string>
+    <string name="MID_APP_NIKONID_SETTING">Nikon ID inscripción/edición de perfil</string>
+    <string name="MID_APP_PRIVACY_POLICY">Política de privacidad</string>
+    <string name="MID_APP_PRIVACY_POLICY_CHECK">Acepte los términos de la Política de privacidad</string>
+    <string name="MID_APP_PRIVACY_POLICY_DESC">Lea \"Política de privacidad\" que rige la manipulación de los datos del usuario de la aplicación.</string>
+    <string name="MID_APP_SUPPORT_SITE">Soporte</string>
+    <string name="MID_APP_TERMS_OF_USE">Acuerdo de licencia</string>
+    <string name="MID_APP_TERMS_OF_USE_AGREEMENT_CHECK">Acepte el Acuerdo de Licencia de aplicación</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MSG">Lea el Acuerdo de licencia.</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MUST_READ_MSG">Leer el acuerdo de licencia (Obligatorio)</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC">Para más información acerca de los Términos del servicio y otros acuerdos para los diferentes servicios que participan en el uso de esta aplicación, consulte “Acuerdo de licencia”.</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC_TERMS_OF_USE">Acuerdo de licencia</string>
+    <string name="MID_ASK_BLUR">Movimiento: ¿Cómo desea expresar el movimiento?</string>
+    <string name="MID_ASK_BOKEH">Bokeh/profundidad de campo: ¿Desea suavizar los fondos?</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE">El tipo de conexión de enlace automático ha cambiado con las actualizaciones del firmware de la cámara y los ajustes deben actualizarse.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE_SYNCOFF">El tipo de conexión para el modo de enlace ha cambiado con las actualizaciones del firmware de la cámara y las opciones de la pantalla del modo enlace han sido actualizadas.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_TITLE">Cambio del tipo de conexión</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED">Falló la actualización de los ajustes</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED_TEXT">Compruebe que Bluetooth esté activado en la cámara y vuelva a intentarlo.</string>
+    <string name="MID_AUTOLINK_CHANGE_SUCCEEDED">Ajustes actualizados</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_BUTTON">Proceder</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_MESSAGE">Debe cambiar los ajustes de la cámara para permitir el uso del modo de enlace “segundo plano”. ¿Proceder?</string>
+    <string name="MID_AUTOLINK_MODE">Modo de enlace</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND">Segundo plano</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND_DISCRIPTION">"Enlace a la cámara incluso cuando su dispositivo inteligente se encuentre en el modo de reposo. Los datos de ubicación serán añadidos a las imágenes de la cámara antes de la descarga.
+La aplicación se conectará a la cámara al seleccionar este modo."</string>
+    <string name="MID_AUTOLINK_MODE_CHANGNG">Actualizando ajustes…</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND">Primer plano</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_DISCRIPTION">"Enlace a la cámara mientras la aplicación se está ejecutando. Los datos de ubicación serán añadidos a las imágenes únicamente después de la descarga.
+Se reduce el agotamiento de la batería de la cámara."</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_SAVING">Primer plano</string>
+    <string name="MID_AUTOLINK_SIZE">Tamaño de descarga</string>
+    <string name="MID_AUTOLINK_TIME_DISCRIPTION">El reloj de la cámara se ajustará a la hora y zona horaria del dispositivo inteligente.</string>
+    <string name="MID_AUTO_TRANSFER_WIFI">Descarga automática (Wi-Fi)</string>
+    <string name="MID_BACK_TO_HOME">Volver a la lista de bancos de configuración</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_MOVIE">Cámara lista para la grabación de vídeo</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_REMOTE">No se puede completar la operación. Compruebe los ajustes de la cámara.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE">Control remoto no disponible</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE_BY_CAMERA">El control remoto no está disponible. Compruebe el estado de la cámara.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_STILL">Cámara lista para la toma de fotografías</string>
+    <string name="MID_BLE_REMOTE_ALERT_CAN_START_AFTER_FINISH_SENDING">El control remoto comenzará cuando se haya completado la descarga.</string>
+    <string name="MID_BLE_REMOTE_BULBE_SHOOTING">Fotografía en modo Bulb en curso</string>
+    <string name="MID_BLE_REMOTE_CAMERA_STATE_ERROR">Compruebe los ajustes de la cámara.</string>
+    <string name="MID_BLE_REMOTE_CHANGE_MODE">Opciones de control remoto</string>
+    <string name="MID_BLE_REMOTE_CONFIRM_FINISH">¿Finalizar control remoto Bluetooth?</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_RETURN">Las operaciones de disparo actualmente en curso continuarán. Para volver a la pantalla de disparo, toque “Control remoto Bluetooth”.</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_SHOOTING">Los disparos continuarán después de que se cierre la aplicación</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE">Tome imágenes remotamente mientras encuadra las tomas en la pantalla de la cámara, o reproduzca las imágenes en televisores u otras pantallas.</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE_CHANGE">Use el botón para alternar entre las dos opciones.</string>
+    <string name="MID_BLE_REMOTE_END_DATE_TIME">Día/hora de finalización</string>
+    <string name="MID_BLE_REMOTE_END_HALF_PRESS">Finalizar pulsar hasta la mitad</string>
+    <string name="MID_BLE_REMOTE_END_SHOOTING">Fin del disparo</string>
+    <string name="MID_BLE_REMOTE_FINISH_TIME_SHOOTING">Tocar el disparador para finalizar</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT">Disparo con desplazamiento de foco</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT_SHOOTING">Disparo con desplazamiento de foco en curso</string>
+    <string name="MID_BLE_REMOTE_INTERVAL">Disparo a intervalos</string>
+    <string name="MID_BLE_REMOTE_INTERVAL_SHOOTING">Disparo a intervalos en curso</string>
+    <string name="MID_BLE_REMOTE_NUMBER_SHOTS">Número de intervalos restantes</string>
+    <string name="MID_BLE_REMOTE_PRESS_HALF_BUTTON">Pulsar hasta la mitad</string>
+    <string name="MID_BLE_REMOTE_SHOOTING">Disparo en curso</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_GUIDE">Ajustar las opciones de disparo en la cámara</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_SHOOTING">Otras opciones de disparo</string>
+    <string name="MID_BLE_REMOTE_START_SHOOTING">Inicio del disparo</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE">Grabación de vídeo time-lapse</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE_SHOOTING">Grabación de vídeo time-lapse en curso</string>
+    <string name="MID_BLE_REMOTE_TIME_SHOOTING">Fotografía en modo Time en curso</string>
+    <string name="MID_BLE_REMOTE_WIFI_CANCEL">Cambie a Bluetooth antes de utilizar el control remoto Bluetooth.</string>
+    <string name="MID_BLUR_SAMPLE">Movimiento: Ejemplo</string>
+    <string name="MID_BOKEH_SAMPLE">Bokeh: Ejemplo</string>
+    <string name="MID_BUTTON_GO_TO_CHUTORIAL">Ver tutoriales</string>
+    <string name="MID_BUTTON_GO_TO_HELP">Vea la descripción de la ayuda.</string>
+    <string name="MID_BUTTON_RESET_SHOTTING_SETTING">Restaurar los ajustes de disparo de la cámara</string>
+    <string name="MID_CAMERA_CONNECTION_AUTO_TRANSFER_IN_PROGRESS">Descarga automática en curso…(%1$d/%2$d)</string>
+    <string name="MID_CAMERA_CONNECTION_CONNECTING_TO_CAMERA">Conectándose a la cámara.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER">Preparando imágenes para la descarga automática. Por favor, espere.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER_SUMMARY">Preparando imágenes para la descarga automática</string>
+    <string name="MID_CAMERA_CONNECTION_UNABLE_TO_RECEIVE_BLUETOOTH_SIGNAL">Cámara Bluetooth no detectada. Compruebe que el Bluetooth esté habilitado en la cámara.</string>
+    <string name="MID_CAMERA_CONNECTION_WAITING_CAMERA_RESPONSE">Cámara Bluetooth detectada. Pueden usarse las funciones de la aplicación.</string>
+    <string name="MID_CAMERA_IMPORTING_TITLE">Descargando imágenes…</string>
+    <string name="MID_CAM_ACTIVE_BLE_REMOTE">Control remoto Bluetooth</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_MSG">Por favor, espere.</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_TITLE">Preparando la cámara…</string>
+    <string name="MID_CAM_ACTIVE_CHANGE_WIFI_DLG_TITLE">Habilitar el Wi-Fi de la cámara</string>
+    <string name="MID_CAM_ACTIVE_DLG_CHANGE_WIFI_DLG_MSG_1">"Debe cambiar a Wi-Fi para utilizar esta función.
+Nota: El cambio podría requerir cierto tiempo."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_1">"¿Finalizar emparejamiento con esta cámara?
+Nota: Solamente puede conectarse a la cámara si está emparejada con su dispositivo."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_3">Use la opción “olvidar” en la sección Bluetooth de la aplicación Settings de iOS para eliminar la cámara de la lista de dispositivos emparejados, de lo contrario, no será capaz de volver a emparejarse con la cámara.</string>
+    <string name="MID_CAM_ACTIVE_DLG_TITLE">¿Finalizar emparejamiento?</string>
+    <string name="MID_CAM_ACTIVE_IMPORT">Descargar imágenes</string>
+    <string name="MID_CAM_ACTIVE_REMOTE">Fotografía remota</string>
+    <string name="MID_CAM_ACTIVE_SERIAL">Núm. de serie</string>
+    <string name="MID_CAM_ACTIVE_SYNC">Opciones enlace automático</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_0">"Iniciando Wi-Fi en la cámara.
+Por favor, espere."</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_1">"Conectándose a la cámara mediante Wi-Fi.
+Por favor, espere."</string>
+    <string name="MID_CAM_ADD_LIMIT_NUMBER_OF_CAMERA_PAIRING">SnapBridge puede almacenar información de emparejamiento para hasta 5 cámaras</string>
+    <string name="MID_CAM_ADD_PAIRING">Agregar cámara</string>
+    <string name="MID_CAM_CHANGE_REMOTE">Cambiar a fotografía remota</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTED">Conectado a la cámara.</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTING">"Conectándose a la cámara.
+Por favor, espere."</string>
+    <string name="MID_CAM_CONNECT_MSG_WAIT_RES">Pulse el botón OK de la cámara cuando visualice un código de autenticación en la pantalla de la cámara.</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTED">Emparejamiento completado</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTING">Conectándose a la cámara…</string>
+    <string name="MID_CAM_NORMAL_MODE">Salir del modo AP Wi-Fi</string>
+    <string name="MID_CAM_PAIRING_CATEGORY_OTHER">Otro</string>
+    <string name="MID_CAM_PAIRING_NOTE_COOLPIX">"Seleccione Conectar con dispos. inteligente en el menú de red de la cámara.
+
+Siga las instrucciones en pantalla hasta que aparezca el nombre de la cámara."</string>
+    <string name="MID_CAM_PAIRING_NOTE_C_ML">"Seleccione “Conectar con dispos. inteligente” > “Conexión Wi-Fi” en el menú de configuración o de red en la cámara.
+Nota: En algunas cámaras, esta opción se encuentra en el menú “Wi-Fi”.
+
+Seleccione “Establecer conexión Wi-Fi” para visualizar el SSID y la contraseña de la cámara."</string>
+    <string name="MID_CAM_PAIRING_NOTE_DRS">"Seleccione Conectar con dispos. inteligente en el menú de configuración de la cámara.
+
+Siga las instrucciones en pantalla hasta que aparezca el nombre de la cámara."</string>
+    <string name="MID_CAM_PAIRING_NOTE_KM80">"Seleccione Conectar con dispos. inteligente en el menú de configuración de la cámara.
+
+Siga las instrucciones en pantalla hasta que aparezca el nombre de la cámara
+ 
+.Nota: El emparejamiento solamente puede realizarse si hay introducida una tarjeta de memoria en la cámara."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML1DSLR2">"Seleccione “Conectar con dispos. inteligente” en el menú de configuración de la cámara.
+
+Seleccione “Emparejamiento (Bluetooth)”.
+
+Siga las instrucciones en pantalla hasta que se muestre el nombre de la cámara."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML2">"Seleccione “Conectar con dispos. inteligente” en el menú de red de la cámara.
+
+Seleccione “Emparejamiento (Bluetooth)”.
+
+Siga las instrucciones en pantalla hasta que se muestre el nombre de la cámara."</string>
+    <string name="MID_CAM_PAIRING_SELECT_LB">Seleccione la cámara para la conexión.</string>
+    <string name="MID_CAM_PAIRING_SELECT_TITLE">Conectar a la cámara</string>
+    <string name="MID_CAM_SYMC_OFF_CONFIRM">Deshabilitar las tres opciones “Descarga automática”, “Relojes” y “Datos de ubicación” también deshabilita “Enlace automático”.</string>
+    <string name="MID_CAM_SYMC_OFF_SYNC_INFO">"Al habilitar el enlace automático, la descarga automática y la sincronización del reloj y la ubicación continuarán incluso si el dispositivo inteligente está en el modo reposo.
+Si no está usando estas funciones, deshabilite el enlace automático para reducir el agotamiento de la batería."</string>
+    <string name="MID_CAM_SYNC_ALERT_TIME_SYNC">Debido a que los datos de ubicación se agregan a las imágenes basándose en la hora y fecha de grabación, “Relojes” no se puede deshabilitar mientras “Datos de ubicación” esté habilitado.</string>
+    <string name="MID_CAM_SYNC_AUTO_TRANS">Descarga automática</string>
+    <string name="MID_CAM_SYNC_POS_SYNC">Datos de ubicación</string>
+    <string name="MID_CAM_SYNC_REQUIRES_TIME_SYNC">Debido a que los datos de ubicación se agregan a las imágenes basándose en la hora y fecha de grabación, “Relojes” no se puede deshabilitar mientras “Datos de ubicación” esté habilitado.</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY">Modo de ahorro de energía</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY_SETTINGS">Ahorro de energía</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID">El dispositivo inteligente suspenderá el enlace de los datos de ubicación para reducir el agotamiento de la batería si no se realiza ninguna operación durante un período establecido. El uso del dispositivo restablece el enlace.</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID_OLD">"El dispositivo inteligente suspenderá los enlaces en segundo plano para reducir el agotamiento de la batería si está fuera del alcance de la cámara durante el período establecido.
+El enlace se restablecerá al iniciar SnapBridge."</string>
+    <string name="MID_CAM_SYNC_SYNC_LB">Enlace automático</string>
+    <string name="MID_CAM_SYNC_TIME_SYNC">Relojes</string>
+    <string name="MID_CAM_SYNC_TITLE">Opciones de enlace</string>
+    <string name="MID_CAM_WIFI_MODE">Wi-Fi mode</string>
+    <string name="MID_CAM_WIFI_MODE1">Modo Wi-Fi</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK">Verifique la compatibilidad de la cámara y las funciones compatibles</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK_STATUS0">Inicie Wireless Mobile Utility.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG">Algunas cámaras admiten algunas de las funciones de SnapBridge sin emparejamiento.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_CONNECTED">Conectado a la cámara mediante Wi-Fi.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_NOT_CONNECTED">No conectado a la cámara. Inicie la aplicación de ajustes del dispositivo inteligente y compruebe los ajustes Wi-Fi.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS0">Conéctese a esta cámara usando Wireless Mobile Utility.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS1">Seleccione el modo Wi-Fi para descargar imágenes o controlar cámaras de forma remota sin emparejarlas.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE0">¿Conectarse a la cámara usando Wi-Fi?</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_CONNECTED">Conexión Wi-Fi establecida</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS0">Uso de Wi-Fi con cámaras no compatibles</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS1">Cámara conectada no emparejada</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT0">Toque aquí para una conexión Wi-Fi puntual.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT1">Nota: Algunas funciones no son compatibles.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT2">"Inicie la aplicación de ajustes en el dispositivo inteligente y seleccione los ajustes Wi-Fi.
+
+Después de seleccionar el SSID mostrado por la cámara, introduzca la contraseña visualizada en la cámara.
+
+Vuelva a la aplicación SnapBridge una vez establecida la conexión."</string>
+    <string name="MID_CAM_WIFI_MODE_TITLE">Conexión Wi-Fi</string>
+    <string name="MID_CANCEL">Cancelar</string>
+    <string name="MID_CANNOT_LOGIN_DUE_TO_MAINTENANCE_MSG">El inicio de sesión no está disponible actualmente debido a mantenimiento. Vuelva a intentarlo más tarde.</string>
+    <string name="MID_CANNOT_SIGN_UP_DUE_TO_MAINTENANCE_MSG">El registro no está disponible actualmente debido a mantenimiento. Vuelva a intentarlo más tarde.</string>
+    <string name="MID_CD_EDIT_LOGO_LB">Imagen del logotipo</string>
+    <string name="MID_CHANNEL_RETRY_GETTING_CHANNEL">Actualizar información</string>
+    <string name="MID_CHOICE_CONNECTABLE_CAMERA">Elegir entre cámaras conectables</string>
+    <string name="MID_CHOICE_RESIDENCE_CHINA">China continental</string>
+    <string name="MID_CHOICE_RESIDENCE_DECISION">OK</string>
+    <string name="MID_CHOICE_RESIDENCE_LABEL">País/región</string>
+    <string name="MID_CHOICE_RESIDENCE_OTHER">Otros países/regiones</string>
+    <string name="MID_CHOICE_USE_NIS_NO">Ahora no</string>
+    <string name="MID_CHOICE_USE_NIS_YES">Usar</string>
+    <string name="MID_CLD_ACCOUNT">Cuenta</string>
+    <string name="MID_CLD_ACCOUNT_LOGOUT">Cerrar sesión</string>
+    <string name="MID_CLD_ACCOUNT_TITLE">Cuenta</string>
+    <string name="MID_CLD_ALREADY_REGISTERED">El ID ya existe</string>
+    <string name="MID_CLD_CLMEULA_TITLE">Política de privacidad</string>
+    <string name="MID_CLD_FINISH_FINISH_INFO">Ya puede cargar imágenes en NIKON IMAGE SPACE. Sin embargo, aún no ha finalizado el registro de un Nikon ID.</string>
+    <string name="MID_CLD_FINISH_FINISH_TITLE">Para finalizar el registro, haga clic en el enlace del cuerpo del correo electrónico que le hemos enviado.</string>
+    <string name="MID_CLD_FINISH_INFO">Su registro se cancelará automáticamente si no completa el proceso en 30 días.</string>
+    <string name="MID_CLD_INSTALL_APP">Instalar aplicación</string>
+    <string name="MID_CLD_INVALID_EMAIL_ADDRESS_OR_PASSWORD">ID o contraseña incorrectos. Reintroducir.</string>
+    <string name="MID_CLD_INVALID_MAIL_ADDRESS">Dirección de correo electrónico no válida. Introduzca una dirección válida.</string>
+    <string name="MID_CLD_INVALID_PASS">Las contraseñas no coinciden. Vuelva a intentarlo.</string>
+    <string name="MID_CLD_INVALID_PASSWORD">Contraseña no válida. Introduzca una contraseña válida.</string>
+    <string name="MID_CLD_LAUNCH_APP">Iniciar una aplicación</string>
+    <string name="MID_CLD_LOGIN_DIALOG_TEXT">¿Ver el sitio web de Nikon ID en un navegador web?</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIKON_ID">Editar o eliminar el Nikon ID</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIS">Editar o eliminar información de la cuenta de NIKON IMAGE SPACE</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_MSG">Iniciando sesión. Por favor, espere.</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_TITLE">Iniciando sesión…</string>
+    <string name="MID_CLD_LOGIN_LOG_IN">Iniciar sesión</string>
+    <string name="MID_CLD_LOGIN_PRIVILEGE_OF_NIKON_ID">Ventajas del registro para un Nikon ID</string>
+    <string name="MID_CLD_LOGIN_SIGN_UP">Crear una cuenta de Nikon ID</string>
+    <string name="MID_CLD_LOGIN_STEP_TITLE">Cuenta de Nikon ID</string>
+    <string name="MID_CLD_LOGOUT_TO_UNSUBSCRIBE_FROM_NIKON_ID">Cierre sesión antes de editar o eliminar su Nikon ID.</string>
+    <string name="MID_CLD_MAIL_ADDRESS">Correo electrónico</string>
+    <string name="MID_CLD_MAIL_AGREE_AND_NEXT">Acepto las Condiciones de uso</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_MSG">"Estamos verificando su dirección de correo electrónico.
+Por favor, espere."</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_TITLE">Verificando dirección de correo electrónico…</string>
+    <string name="MID_CLD_MAIL_MAIL_INPUT">Dirección de correo electrónico</string>
+    <string name="MID_CLD_MAIL_STEP_INFO2">"Introduzca la dirección de correo electrónico que usará para su Nikon ID.
+Los usuarios existentes deben introducir la dirección actualmente usada para NIKON IMAGE SPACE."</string>
+    <string name="MID_CLD_MAIL_STEP_TITLE">Registrar dirección de correo electrónico</string>
+    <string name="MID_CLD_NIKON_ID">Nikon ID</string>
+    <string name="MID_CLD_NIKON_ID_TERMS_OF_SERVICE">Nikon ID</string>
+    <string name="MID_CLD_NIS_INFO2">Las imágenes transferidas a su dispositivo inteligente pueden cargarse automáticamente a NIKON IMAGE SPACE. Puede cargar un número ilimitado de imágenes de 2 megapíxeles.</string>
+    <string name="MID_CLD_NIS_TITLE">Carga automática ilimitada</string>
+    <string name="MID_CLD_NOTICE_REGISTRATION_PROCESSING_TITLE">Registrándose…</string>
+    <string name="MID_CLD_NOT_AUTHORIZED">Autenticación fallida. Es posible que haya algún problema con el servidor o la red.</string>
+    <string name="MID_CLD_PASSWORD">Contraseña</string>
+    <string name="MID_CLD_PASS_CHECKING_PASS_TITLE">Verificando contraseña…</string>
+    <string name="MID_CLD_PASS_CONFIRM">Confirmar contraseña</string>
+    <string name="MID_CLD_PASS_FOGOT_PASS">¿Olvidó su contraseña?</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_INFO">"Introduzca su contraseña de NIKON IMAGE SPACE para confirmar su registro.
+.Nota: De 8 a 15 caracteres"</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_TITLE">Contraseña de NIKON IMAGE SPACE</string>
+    <string name="MID_CLD_PASS_PASS_TEXT">De 8 a 15 caracteres</string>
+    <string name="MID_CLD_PASS_STEP_INFO">"Seleccione su contraseña de Nikon ID.
+.Nota: De 8 a 15 caracteres"</string>
+    <string name="MID_CLD_PASS_STEP_TITLE">Seleccione una contraseña</string>
+    <string name="MID_CLD_PASS_TITLE">Registrarse para un Nikon ID</string>
+    <string name="MID_CLD_PROVISIONAL_REGISTRATION_FINISHED_TITLE">Registro completo</string>
+    <string name="MID_CLD_SET_PRODUCT_INFO">Requerido</string>
+    <string name="MID_CLD_START">Iniciar</string>
+    <string name="MID_CLD_SYNC_AREA">Región</string>
+    <string name="MID_CLD_SYNC_FIRMWARE_VERSION">Versión del firmware</string>
+    <string name="MID_CLD_SYNC_LANGUAGE">Idioma</string>
+    <string name="MID_CLD_SYNC_PRODUCT_NAME">Nombre del producto</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PROCUCT_INFO">Se incluirá la siguiente información:</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PRODUCT_INDEX">Registro de productos relacionados</string>
+    <string name="MID_CLD_SYNC_SERIAL_NUMBER">Número de serie</string>
+    <string name="MID_CLD_SYNC_TIMEZONE_TITLE">Zona horaria</string>
+    <string name="MID_CLD_TERMS_OF_SERVICE">Condiciones de uso</string>
+    <string name="MID_CLD_UNDER_MAINTENANCE">Autenticación fallida. El servidor se encuentra en proceso de mantenimiento.</string>
+    <string name="MID_CLD_UPDATE_APPLICATION_TO_LOGIN_OR_INITIALIZE_NID">Los procedimientos de registro y de inicio de sesión de Nikon ID han cambiado. Actualice a la versión más reciente de la aplicación y vuelva a intentarlo.</string>
+    <string name="MID_CLD_UPLOAD">Carga automática</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_INDEX">Cargar imágenes automáticamente cuando:</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON">Conectado solo a través de Wi-Fi</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON_DESC">Los ajustes se pueden configurar de tal modo que las imágenes se carguen automáticamente solo a través de Wi-Fi. Las cargas podrían tener grandes cantidades de datos; tenga cuidado de no exceder los límites de datos de su proveedor.</string>
+    <string name="MID_CLD_UPLOAD_INFO">Las imágenes descargadas de la cámara pueden cargarse automáticamente en NIKON IMAGE SPACE.</string>
+    <string name="MID_COMMON_1">1</string>
+    <string name="MID_COMMON_10">10</string>
+    <string name="MID_COMMON_11">11</string>
+    <string name="MID_COMMON_1800S">1.800 seg.</string>
+    <string name="MID_COMMON_2">2</string>
+    <string name="MID_COMMON_2M">2 M</string>
+    <string name="MID_COMMON_3">3</string>
+    <string name="MID_COMMON_300S">300 seg.</string>
+    <string name="MID_COMMON_4">4</string>
+    <string name="MID_COMMON_5">5</string>
+    <string name="MID_COMMON_6">6</string>
+    <string name="MID_COMMON_600S">600 seg.</string>
+    <string name="MID_COMMON_7">7</string>
+    <string name="MID_COMMON_8">8</string>
+    <string name="MID_COMMON_9">9</string>
+    <string name="MID_COMMON_ADVANCED_SETTINGS">Ajustes avanzados</string>
+    <string name="MID_COMMON_ALWAYS_ON">Siempre activado</string>
+    <string name="MID_COMMON_ASC">ASCII</string>
+    <string name="MID_COMMON_AUTHENTICATION">Autenticación/Cifrado</string>
+    <string name="MID_COMMON_AUTO">Automático</string>
+    <string name="MID_COMMON_AUTO_POWEROFF_DELAY">Retardo de apagado automático</string>
+    <string name="MID_COMMON_AUTO_TRANSFER_ONLY_WHILE_CONNECTED">Descarga automática (solamente durante la conexión)</string>
+    <string name="MID_COMMON_CAMERA_TO_CONNECT">Cámaras a conectar</string>
+    <string name="MID_COMMON_CANCEL">Cancelar</string>
+    <string name="MID_COMMON_CHANNEL">Canal</string>
+    <string name="MID_COMMON_CLOSE">Cerrar</string>
+    <string name="MID_COMMON_CONFIRM">Confirmar</string>
+    <string name="MID_COMMON_CONFIRM_TARGET_CAMERA">Comprobar las cámaras compatibles</string>
+    <string name="MID_COMMON_CONNECTABLE_CAMERA">Cámaras conectables</string>
+    <string name="MID_COMMON_CONNECTING_CAMERA">Cámaras conectadas</string>
+    <string name="MID_COMMON_CONNECT_BUSY_DLG_MSG">Cámara ocupada</string>
+    <string name="MID_COMMON_CONNECT_ERR_ACCESS_DENIED">La cámara no está lista para la conexión. Seleccione el modo de reproducción en la cámara y vuelva a intentarlo.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG1">Cámara no encontrada. Consulte la ayuda en línea.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG2">El Wi-Fi de la cámara está desactivado.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG3">No puede conectarse; la cámara está gestionando actualmente otra conexión. Vuelva a intentarlo después de leer la ayuda en línea para obtener información sobre cómo solucionar el problema.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG4">La conexión a la cámara ha fallado. Vuelva a intentarlo después de leer la ayuda en línea para obtener información sobre cómo solucionar el problema.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG5">Se ha producido un error</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG6">El emparejamiento ha fallado. Si el resultado no es el previsto, consulte la ayuda en línea.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG7">"La cámara está conectada a otro dispositivo.
+Seleccione su dispositivo inteligente en la lista Bluetooth > Dispositivos emparejados. Si la cámara no está actualmente emparejada con su dispositivo, vuelva a emparejar la cámara y el dispositivo inteligente."</string>
+    <string name="MID_COMMON_CONNECT_ERR_DURING_SHOOTING">No se puede iniciar la fotografía remota. Finalice los disparos en la cámara y vuelva a intentarlo.</string>
+    <string name="MID_COMMON_COUNTRY_CODE">es</string>
+    <string name="MID_COMMON_DESTRUCTION">Descartar</string>
+    <string name="MID_COMMON_DHCP_CLIENT_IP_ADRESS">Dirección IP del cliente DHCP</string>
+    <string name="MID_COMMON_DHCP_SERVER_IP_ADRESS">Dirección IP del servidor DHCP</string>
+    <string name="MID_COMMON_DISCARD_SETTING">Descartar ajustes</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_CLIENT">Introduzca la dirección IP del cliente DHCP.</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_SERVER">Introduzca la dirección IP del servidor DHCP.</string>
+    <string name="MID_COMMON_ENTER_SUBNET_MASK">Introduzca la máscara de subred.</string>
+    <string name="MID_COMMON_FIRM">Actualización del firmware</string>
+    <string name="MID_COMMON_GO_TO_OS_SETTINGS">Vaya a Ajustes</string>
+    <string name="MID_COMMON_HELP">Ayuda</string>
+    <string name="MID_COMMON_HEX">HEX</string>
+    <string name="MID_COMMON_INITIALIZE">Restaurar</string>
+    <string name="MID_COMMON_LANGUAGE_CODE">es</string>
+    <string name="MID_COMMON_LOGIN">Conectado</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG">No se pudo conectar</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG2">No se pudo conectar. Es posible que haya algún problema con el servidor o la red.</string>
+    <string name="MID_COMMON_NEXT">Siguiente</string>
+    <string name="MID_COMMON_NICKNAME">Apodo</string>
+    <string name="MID_COMMON_NO">No</string>
+    <string name="MID_COMMON_NOFIFICATION_BATTERY_ALERT1">La carga de la batería de la cámara es baja.</string>
+    <string name="MID_COMMON_NONE">Ninguno</string>
+    <string name="MID_COMMON_NOP">---</string>
+    <string name="MID_COMMON_NOTICE">Aviso</string>
+    <string name="MID_COMMON_NOTIFICATION_CAMERA_ERROR">"Enlace automático deshabilitado (modo de ahorro de energía).
+El enlace automático se reanudará al iniciar SnapBridge."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG1">"El espacio de almacenamiento de NIKON IMAGE SPACE está lleno.
+Carga automática abortada."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG2">"No se pudo iniciar sesión.
+Carga automática abortada."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG3">"NIKON IMAGE SPACE se encuentra actualmente bajo mantenimiento.
+Carga automática abortada."</string>
+    <string name="MID_COMMON_NOTIFICATION_STOP">Adquisición de datos de ubicación suspendida. Inicie la aplicación para reiniciar.</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_ERROR">Descarga en curso</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_STOP">Descarga cancelada</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_SUCCESS">Descarga completa</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG1">"El dispositivo inteligente se está quedando sin espacio de almacenamiento.
+Descarga suspendida."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG2">"Acceso al destino denegado.
+Descarga suspendida."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG3">"Fallo al guardar los datos.
+Descarga suspendida."</string>
+    <string name="MID_COMMON_OFF">Desact.</string>
+    <string name="MID_COMMON_OK">OK</string>
+    <string name="MID_COMMON_ON">Activado</string>
+    <string name="MID_COMMON_OPEN">ABIERTO</string>
+    <string name="MID_COMMON_OPEN_BROWSER">Abrir en navegador</string>
+    <string name="MID_COMMON_ORIGINAL">Original</string>
+    <string name="MID_COMMON_PAIRING">Emparejar con la cámara</string>
+    <string name="MID_COMMON_PASSWORD">Contraseña</string>
+    <string name="MID_COMMON_PASSWORD_ENTLY">Entrada de contraseña</string>
+    <string name="MID_COMMON_PASSWORD_HEX">Contraseña (HEX)</string>
+    <string name="MID_COMMON_PBC">PBC</string>
+    <string name="MID_COMMON_PIN">PIN</string>
+    <string name="MID_COMMON_POSITION_PRECISION">Precisión</string>
+    <string name="MID_COMMON_REBOOT">Reiniciar</string>
+    <string name="MID_COMMON_RELEASE">Borrar</string>
+    <string name="MID_COMMON_RELEASE_WIFI_STATION_MODE">Salir del modo STA Wi-Fi</string>
+    <string name="MID_COMMON_SAVED_CAMERA">Cámaras guardadas</string>
+    <string name="MID_COMMON_SAVE_DIR">Destino</string>
+    <string name="MID_COMMON_SAVE_VALUE_NOT_SD">Memoria interna</string>
+    <string name="MID_COMMON_SAVE_VALUE_SD">Carpeta especificada</string>
+    <string name="MID_COMMON_SETTING">Ajustes</string>
+    <string name="MID_COMMON_SIMPLE_SHOTTING_SETTING">Configuración disparo fácil</string>
+    <string name="MID_COMMON_SKIP">Omitir</string>
+    <string name="MID_COMMON_SLOT1">Ranura 1</string>
+    <string name="MID_COMMON_SSID">SSID</string>
+    <string name="MID_COMMON_START_WIFI_CONNECT">Conectar Wi-Fi</string>
+    <string name="MID_COMMON_SUBNET_MASK">Máscara de subred</string>
+    <string name="MID_COMMON_UPDATE">Actualización</string>
+    <string name="MID_COMMON_VERSION">Ver. %s</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE">Modo AP Wi-Fi</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE_CONNECT">Conexión del modo AP Wi-Fi</string>
+    <string name="MID_COMMON_WIFI_CONNECT_SETTING">Ajustes de conexión Wi-Fi</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE">Modo STA Wi-Fi</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE_CONNECT">Conexión del modo STA Wi-Fi</string>
+    <string name="MID_COMMON_WMU_CONFIG">Ajustes de WMA</string>
+    <string name="MID_COMMON_WMU_INFO">Información de WMA</string>
+    <string name="MID_COMMON_WPA2_PSK_AES">WPA2-PSK-AES</string>
+    <string name="MID_COMMON_WPS_MODE">Modo WPS</string>
+    <string name="MID_COMMON_WPS_PIN">WPS PIN</string>
+    <string name="MID_COMMON_YES">Sí</string>
+    <string name="MID_CONFIG_PASSWORD_ENTLY">Elija el método utilizado para introducir contraseñas.</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_ASC">"Seleccione una contraseña (clave de cifrado) para el adaptador móvil inalámbrico.
+Las contraseñas pueden tener entre 8 y 63 caracteres."</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_HEX">"Introduzca una contraseña para el adaptador móvil inalámbrico.
+Introduzca una contraseña hexadecimal de 64 dígitos."</string>
+    <string name="MID_CONFIG_SECURITY_OF_WMA">Elija el protocolo de seguridad utilizado por el adaptador móvil inalámbrico.</string>
+    <string name="MID_CONFIG_SLEEP_NO_WIFI_CONNECTION">Seleccione el retardo antes de que el dispositivo entre en el modo de suspensión cuando no haya conexión Wi-Fi.</string>
+    <string name="MID_CONFIG_SSID_OF_WMA">Seleccione un SSID para el adaptador móvil inalámbrico.</string>
+    <string name="MID_CONFIG_WIRELESS_CHANNEL">Seleccione un canal inalámbrico.</string>
+    <string name="MID_CONFIG_WPS_MODE">Seleccione el modo WPS para el adaptador móvil inalámbrico.</string>
+    <string name="MID_CONFIG_WPS_PIN">Seleccione el WPS PIN para el adaptador móvil inalámbrico.</string>
+    <string name="MID_CONFIRMED">Carga</string>
+    <string name="MID_CONFIRM_DELETE">El banco seleccionado no puede recuperarse una vez eliminado. ¿ACEPTAR?</string>
+    <string name="MID_CONFIRM_DIAL_GAID">Compr. dial modo cámara</string>
+    <string name="MID_CONFIRM_DIAL_IS_SET">Antes de cargar los ajustes en la cámara, instale un objetivo y pulse el disparador hasta la mitad para asegurarse de que el autofoco esté activado. Después de confirmar que el dial está en la posición correcta, toque el botón “Carga” a continuación para cargar los ajustes en la cámara.</string>
+    <string name="MID_CONFIRM_REBOOT_WMA">¿Aplicar los ajustes y reiniciar el adaptador móvil inalámbrico?</string>
+    <string name="MID_CONFIRM_SETTING">"Si está satisfecho con su selección,
+guarde sus ajustes."</string>
+    <string name="MID_CONFIRM_SETTING_DESC">La aplicación adaptará estos ajustes a la cámara de destino durante la carga.</string>
+    <string name="MID_CONNECT_CAMERA_ALWAYS">"Establezca una conexión siempre disponible a la cámara.
+Elija esta opción para acceder a toda la gama de funciones inalámbricas."</string>
+    <string name="MID_CONNECT_CAMERA_TEMPORARY">Establezca una conexión única a la cámara.</string>
+    <string name="MID_CONNECT_WIFI_WPA3_ERROR">El SO no es compatible con WPA3-SAE. Cambie los ajustes de Wi-Fi de la cámara. Para obtener más información, consulte la ayuda en línea.</string>
+    <string name="MID_CREATE_SET">Nuevo banco de ajustes</string>
+    <string name="MID_CREATE_SET_TIP">Tocar este botón para crear un nuevo banco de ajustes</string>
+    <string name="MID_CURRENT_SETTING">Ajustes actuales</string>
+    <string name="MID_DATA_GETTING">"Obteniendo información…
+Por favor, espere."</string>
+    <string name="MID_DATE_CREATED">Fecha de creación:</string>
+    <string name="MID_DEFOCUS">Suavizar fondos</string>
+    <string name="MID_DELETE">Borrar</string>
+    <string name="MID_DELETE_NIS_ACCOUNT">Borrar mi cuenta NIKON IMAGE SPACE</string>
+    <string name="MID_DIAL_GAID1">Girar el dial situado en la parte superior de la cámara hacia</string>
+    <string name="MID_DIAL_GAID2" />
+    <string name="MID_DIAL_GAID_ZFC">Gire los diales en la parte superior de la cámara a las posiciones que se muestran.</string>
+    <string name="MID_DIAL_GAID_ZFC_SS">Ajuste el dial de velocidad de obturación a “1/3 STEP” y gire el dial de control principal para seleccionar una velocidad de obturación de 15 s (15\").</string>
+    <string name="MID_DOWNLOAD_FINISH">La descarga ha finalizado</string>
+    <string name="MID_EDIT">Ajustar la configuración</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_DESC">¿Cancelar cambios?</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_TITLE">Confirmar cancelación</string>
+    <string name="MID_EDIT_PROCESS">Cambiar ajustes</string>
+    <string name="MID_EMPH_BLUR">Crear rastros de movimiento largos (requiere un trípode)</string>
+    <string name="MID_END_OF_INTEGRARION_NIS_ACCOUNT">Enlace de finalización de NIKON IMAGE SPACE</string>
+    <string name="MID_EXECUTE_RESET_SHOOTING_SETTING">Restaurar ajustes de disparo</string>
+    <string name="MID_EXPLANATION_WMA">WMA: Adaptador móvil inalámbrico</string>
+    <string name="MID_FAILED_CONNECT">No se pudo conectar. Compruebe la cámara y vuelva a intentarlo.</string>
+    <string name="MID_FAILED_CONNECT_TITLE">Error de conexión</string>
+    <string name="MID_FILE_SIZE">Tamaño de archivo: %.1f MB</string>
+    <string name="MID_FILTER_SORT_CHANGING">Aplicando cambios...</string>
+    <string name="MID_FILTER_SORT_CONFIRM_RAW_TRANSFER">La descarga de imágenes RAW lleva tiempo. ¿Proceder?</string>
+    <string name="MID_FILTER_SORT_DATE_NONE">Deshabilitado</string>
+    <string name="MID_FILTER_SORT_DATE_ON_DOWN">Habilitado (descendente)</string>
+    <string name="MID_FILTER_SORT_DATE_ON_UP">Habilitado (ascendente)</string>
+    <string name="MID_FILTER_SORT_DATE_VIEW">Ordenar por fecha</string>
+    <string name="MID_FILTER_SORT_DISP_SETTING">Opciones de pantalla</string>
+    <string name="MID_FILTER_SORT_FILE_MOVIE">Vídeos</string>
+    <string name="MID_FILTER_SORT_FILE_STILL">Fotos</string>
+    <string name="MID_FILTER_SORT_FILE_STILL_MOVIE">Fotos y vídeos</string>
+    <string name="MID_FILTER_SORT_FILE_TYPE">Archivo</string>
+    <string name="MID_FILTER_SORT_FILTER">Filtrar</string>
+    <string name="MID_FILTER_SORT_FOLDER">Carpeta</string>
+    <string name="MID_FILTER_SORT_HEIF_AND_VIDEOS">HEIF y vídeos</string>
+    <string name="MID_FILTER_SORT_HOW_TO_DISPLAY_RAW">Para ver imágenes RAW, modifique estos ajustes de visualización.</string>
+    <string name="MID_FILTER_SORT_IMAGE_QUALITY">Calidad de imagen</string>
+    <string name="MID_FILTER_SORT_JPEG_AND_MOVIE">Vídeos y fotos JPEG</string>
+    <string name="MID_FILTER_SORT_PROTECTED">Imágenes protegidas</string>
+    <string name="MID_FILTER_SORT_QUALITY_HEIF">HEIF</string>
+    <string name="MID_FILTER_SORT_QUALITY_JPEG">JPEG</string>
+    <string name="MID_FILTER_SORT_QUALITY_RAW">RAW</string>
+    <string name="MID_FILTER_SORT_RATED">Imágenes clasificadas</string>
+    <string name="MID_FILTER_SORT_RAW_AND_MOVIE">Vídeos y fotos RAW</string>
+    <string name="MID_FILTER_SORT_RESULT">Resultados filtrados : %s</string>
+    <string name="MID_FILTER_SORT_SLOT_ALL">Todas las carpetas en la tarjeta de la ranura actual</string>
+    <string name="MID_FILTER_SORT_WARNING_RAW">Pueden seleccionarse un máximo de 100 imágenes cuando se ha elegido la opción RAW para la calidad de imagen. Las imágenes RAW tardan más tiempo en descargarse.</string>
+    <string name="MID_FILTER_SORT_WARNING_SELECTED_OVER">No se pueden seleccionar más de 100 imágenes al elegir RAW para calidad de imagen.</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING">Rest. aj. disparo completado</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING_DESC">Los ajustes de disparo de la cámara se han restaurado.</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_CHECK">Acepto el uso de Google Analytics para Firebase</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_OFF">Rechazar</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_ON">Aceptar</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DESC">Esta aplicación usa Google Analytics para Firebase para ayudar a analizar los datos de uso. %s</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DETAIL">Detalles</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_ITEM">Analizar datos de uso</string>
+    <string name="MID_FIRMWARE_VERSION">Versión del firmware</string>
+    <string name="MID_FOR_A_WHILE_WAIT_PLEASE">Por favor, espere.</string>
+    <string name="MID_FWU_ACCESS_WEB_SITE">Nota: Las actualizaciones del firmware para esta cámara no se pueden realizar desde un teléfono inteligente o tableta.</string>
+    <string name="MID_FWU_AGREE_AND_DOWNLOAD">Aceptar y descargar</string>
+    <string name="MID_FWU_ALERT_CONNECT_WIFI">• Durante la fase de “Transferir”, la conexión Wi-Fi de su teléfono inteligente o tableta cambiará temporalmente a la cámara.</string>
+    <string name="MID_FWU_ALERT_NOT_CLOSE">• No salga de este cuadro de diálogo. Si lo hace, se cancelará la actualización del firmware.</string>
+    <string name="MID_FWU_BATTERY_OVER_80">• La batería está cargada (>80 %)</string>
+    <string name="MID_FWU_CAN_DOWNLOAD">Puede descargar nuevo firmware para su ordenador.</string>
+    <string name="MID_FWU_CAN_TRANSFER">Puede transferir el nuevo firmware a la cámara y actualizar el firmware.</string>
+    <string name="MID_FWU_CONFIRM_VERSION_UP">Detalles</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_FILE_SIZE">La actualización tiene un tamaño de %.1f MB. Se recomienda el uso de Wi-Fi.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_PAUSE">¿Interrumpir la descarga?</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_MSG">La descarga ha finalizado y la transferencia comenzará al reanudar.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_TITLE">¿Interrumpir la transferencia?</string>
+    <string name="MID_FWU_DIALOG_DOWNLOAD">Descargar</string>
+    <string name="MID_FWU_DIALOG_FW_DOWNLOAD">Descargar firmware</string>
+    <string name="MID_FWU_DOWNLOAD">Descargar</string>
+    <string name="MID_FWU_ERROR_BATTERY_NOT_ENOUGH">Las actualizaciones del firmware no pueden realizarse si el nivel de carga de la batería de la cámara es inferior al 80 %. Cargue la batería y vuelva a intentarlo.</string>
+    <string name="MID_FWU_ERROR_CAMERA_STATUS">La cámara no está lista para la actualización del firmware. Compruebe el estado de la cámara y vuelva a intentarlo.</string>
+    <string name="MID_FWU_ERROR_CARD_PROTECTED">La tarjeta de memoria está protegida contra la escritura. Desbloquee la tarjeta de memoria y vuelva a intentarlo.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_FULL">Se ha producido un error. Compruebe la tarjeta de memoria.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_OFF">No hay ninguna tarjeta de memoria introducida en la cámara. Introduzca una tarjeta de memoria y vuelva a intentarlo.</string>
+    <string name="MID_FWU_ERROR_NETWORK">Error de red. Vuelva a intentarlo con una señal mejor.</string>
+    <string name="MID_FWU_ERROR_POWER_OFF">La cámara está apagada. Encienda la cámara y vuelva a intentarlo.</string>
+    <string name="MID_FWU_ERROR_SERVER">Existe un problema con el servidor. Vuelva a intentarlo más tarde.</string>
+    <string name="MID_FWU_ERROR_UNKNOWN">Error desconocido.</string>
+    <string name="MID_FWU_FIRMWARE_UPDATE_NOTICE">Aviso de actualización del firmware</string>
+    <string name="MID_FWU_MEMORY_CARD_ON">• Hay introducida una tarjeta de memoria</string>
+    <string name="MID_FWU_NEED_CAMERA_OPERATION">SnapBridge no es necesario durante el resto de la actualización. Toque “OK” y, a continuación, utilice la cámara para completar la actualización.</string>
+    <string name="MID_FWU_NEED_CONDITIONS">Antes de proceder, compruebe que:</string>
+    <string name="MID_FWU_NEW_FIRMWARE_VER">Nuevo firmware:</string>
+    <string name="MID_FWU_NOTIFY_DESCRIBE">Hay disponible un nuevo firmware para su cámara.</string>
+    <string name="MID_FWU_NOTIFY_RESTART">Ir</string>
+    <string name="MID_FWU_NOTIFY_START">Ir</string>
+    <string name="MID_FWU_PAUSE">Actualización en pausa.</string>
+    <string name="MID_FWU_POWER_ON">• La cámara está encendida</string>
+    <string name="MID_FWU_RESTART">Reanudar</string>
+    <string name="MID_FWU_TAKE_FEW_MIN">Esta operación tardará unos minutos.</string>
+    <string name="MID_FWU_TITLE">Actualización del firmware</string>
+    <string name="MID_FWU_TITLE_STRING_FORMAT">Actualización del firmware(%s)</string>
+    <string name="MID_FWU_TRANSFER">Transferir</string>
+    <string name="MID_FWU_VERSION_UP">Actualizar</string>
+    <string name="MID_GALLERY_DATE">dd/MM</string>
+    <string name="MID_GALLERY_SELECT_PHOTO">Seleccionar fotos</string>
+    <string name="MID_GUIDANCE_DIALOG_AFTER">Más tarde</string>
+    <string name="MID_HASH_ADD_NOTE">Los hashtags se pueden agregar automáticamente en el campo de entrada al compartir una imagen.</string>
+    <string name="MID_HAVENT_SENT_TO_CAMERA_YET">Este banco de ajustes nunca se ha enviado a la cámara.</string>
+    <string name="MID_HOWTO_USER_SETTING">Aplicar aj. cargados cámara</string>
+    <string name="MID_ICP_NUMBER">沪ICP备10016366号-20A</string>
+    <string name="MID_IMPORTANT_NOTICE">Aviso importante</string>
+    <string name="MID_IMPORT_ALERT_MSG0">Se cancelará la descarga Wi-Fi después de un período establecido si la aplicación está ejecutándose en segundo plano.</string>
+    <string name="MID_IMPORT_ALERT_MSG1">No volver a mostrar este mensaje</string>
+    <string name="MID_IMPORT_ALERT_MSG2">Podrá descargar más imágenes al completar la descarga actual.</string>
+    <string name="MID_IMPORT_ALERT_MSG4">No se pueden descargar vídeos con un tamaño superior a 4 GB.</string>
+    <string name="MID_IMPORT_ALL_SELECT">Seleccionar todo</string>
+    <string name="MID_IMPORT_CANCEL_SELECT">Anular selección</string>
+    <string name="MID_IMPORT_CONFIRM_RETRY" />
+    <string name="MID_IMPORT_ERR_MSG">"La aplicación no tiene permiso para acceder a las imágenes y no puede ser utilizada.
+Para modificar los permisos de esta aplicación, vaya a \"Ajustes\" > \"Privacidad\" > \"Fotos\" en el dispositivo inteligente."</string>
+    <string name="MID_IMPORT_EXEC_IMPORT">Descargar</string>
+    <string name="MID_IMPORT_FOLDER_ALL">Todas las carpetas</string>
+    <string name="MID_IMPORT_ORIGINAL_FILE">Formato original</string>
+    <string name="MID_IMPORT_SELECT">Seleccionar</string>
+    <string name="MID_IMPORT_SELECT_DESC">Seleccione la carpeta que desea ver.</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_MGS">"No se ha podido obtener información.
+Por favor, espere y vuelva a intentarlo más tarde."</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_TITLE">No se ha podido obtener información.</string>
+    <string name="MID_IMPORT_SIZE_2M">2 megapíxeles</string>
+    <string name="MID_IMPORT_SIZE_8M">8 megapíxeles (4K)</string>
+    <string name="MID_IMPORT_SPECIFIED_PICTURE">Descargar imágenes marcadas para la descarga</string>
+    <string name="MID_IMPORT_SUSPEND_ERROR" />
+    <string name="MID_INITIALIZE_SETTING">Restablecer ajustes</string>
+    <string name="MID_INPUT_NAME">Introduzca un nombre nuevo.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_8MP_PICTURES">Descarga finalizada. La cámara no está lista para descargar archivos de 8 megapíxeles. Vuelva a intentarlo después de preparar la cámara para la descarga finalizando la reproducción de vídeo, la fotografía y similares.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_A_8MP_PICTURE">La cámara no está lista para descargar archivos de 8 megapíxeles. Vuelva a intentarlo después de preparar la cámara para la descarga finalizando la reproducción de vídeo, la fotografía y similares.</string>
+    <string name="MID_LAST_CAMERA">Cámara utilizada por última vez por el banco:</string>
+    <string name="MID_LAST_LENS">Objetivo utilizado por última vez por el banco:</string>
+    <string name="MID_LIKE">Favoritos</string>
+    <string name="MID_LINK_SPEED">Velocidad del enlace</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_MSG">Live view siempre está activo durante la grabación de vídeo.</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_TITLE">Cambiando a live view para la grabación de vídeo.</string>
+    <string name="MID_LOGIN_TO_NIS">"NIKON IMAGE SPACE
+Iniciar sesión"</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_DUE_TO_TERMS_UPDATED_MSG">El Acuerdo de licencia o el Aviso sobre privacidad se han actualizado. Inicie sesión de nuevo para confirmar las actualizaciones.</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_MSG">Inicie sesión de nuevo.</string>
+    <string name="MID_MANUAL_LOCATION_SYNC">Descargar datos de ubicación</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING">Descargando datos de ubicación</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING_SUB">"Descargando datos de ubicación en la cámara.
+Espere."</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_FAILED">Fallo al descargar datos de ubicación</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_SUCCESS">Descarga de datos de ubicación finalizada</string>
+    <string name="MID_MENU_TITLE">Opciones de la aplicación</string>
+    <string name="MID_MENU_TUTORIAL_TITLE">Ayuda</string>
+    <string name="MID_MK_CHANNEL_NOT_LOGIN">No conectado</string>
+    <string name="MID_MK_CHANNEL_TITLE">Avisos</string>
+    <string name="MID_MOTIF">Sujeto y escena</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT">Desfiles nocturnos</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT_DESC">Capturar tomas int. desfiles nocturnos</string>
+    <string name="MID_MOTIF_COOKING">Alimentos</string>
+    <string name="MID_MOTIF_EATING">Alimentos</string>
+    <string name="MID_MOTIF_EATING_DESC">Resaltar los alimentos y suavizar fondo</string>
+    <string name="MID_MOTIF_EATING_OUT">Comidas de 3 platos</string>
+    <string name="MID_MOTIF_EATING_OUT_DESC">Cap. tomas intensas/brillantes alimentos</string>
+    <string name="MID_MOTIF_FLOWERS">Flores y plantas</string>
+    <string name="MID_MOTIF_FOR_AUCTION">Subastas en línea</string>
+    <string name="MID_MOTIF_FOR_AUCTION_DESC">Capt. tomas brill./inten. desee vender</string>
+    <string name="MID_MOTIF_LANDSCAPE">Paisajes</string>
+    <string name="MID_MOTIF_MAGIC_HOUR">Puestas de sol</string>
+    <string name="MID_MOTIF_MAGIC_HOUR_DESC">Resaltar puestas de sol</string>
+    <string name="MID_MOTIF_NATURE">Paisajes naturales</string>
+    <string name="MID_MOTIF_NATURE_DESC">Produce tomas comp. brill. col. Natur.</string>
+    <string name="MID_MOTIF_NIGHT">Paisajes nocturnos</string>
+    <string name="MID_MOTIF_NIGHT_DESC">Capturar paisajes nocturnos intensos</string>
+    <string name="MID_MOTIF_NIGHT_VIEWING">Paisajes nocturnos</string>
+    <string name="MID_MOTIF_PERSON">Personas</string>
+    <string name="MID_MOTIF_PERSON_NIGHT">Retratos nocturnos</string>
+    <string name="MID_MOTIF_PERSON_NIGHT_DESC">Resalte sujetos retrato tomas nocturnas</string>
+    <string name="MID_MOTIF_PET">Mascotas</string>
+    <string name="MID_MOTIF_PET_INDOOR">Mascotas</string>
+    <string name="MID_MOTIF_PET_INDOOR_DESC">Para mascotas estáticas</string>
+    <string name="MID_MOTIF_PET_OUTDOOR">Mascotas activas</string>
+    <string name="MID_MOTIF_PET_OUTDOOR_DESC">“Congelar” movimiento con mascotas activas</string>
+    <string name="MID_MOTIF_PLANT">Flores</string>
+    <string name="MID_MOTIF_PLANT_DESC">Capt. tomas intensas/brillantes flores</string>
+    <string name="MID_MOTIF_PORTRAIT">Retratos</string>
+    <string name="MID_MOTIF_PORTRAIT_DESC">Disparar sujeto principal en el centro</string>
+    <string name="MID_MOTIF_RECORDS">Retratos lug. emblem./grupos</string>
+    <string name="MID_MOTIF_RECORDS_DESC">Disparar a los sujetos y al fondo juntos</string>
+    <string name="MID_MOTIF_RELATIVES">Condiciones de contraluz</string>
+    <string name="MID_MOTIF_RELATIVES_DESC">Aclarar rostros a contraluz</string>
+    <string name="MID_MOTIF_RIVER">Cuerpos de agua</string>
+    <string name="MID_MOTIF_RIVER_DESC">Capturar el movimiento de caudal de agua</string>
+    <string name="MID_MOTIF_SELECTED">Sujeto y escena seleccionados:</string>
+    <string name="MID_MOTIF_SELFY">Autorretratos</string>
+    <string name="MID_MOTIF_SELFY_DESC">Dispararse a uno mismo en el centro</string>
+    <string name="MID_MOTIF_SMALL_ITEMS">Objetos pequeños</string>
+    <string name="MID_MOTIF_SMALL_ITEMS_DESC">Res. obj. pequeños tomas brill./intensas</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR">Deportes de interior</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR_DESC">“Congelar” mov. tomas sujetos movimiento</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR">Deportes al aire libre</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR_DESC">“Congelar” mov. tomas sujetos movimiento</string>
+    <string name="MID_MOTIF_STARS">Cielos nocturnos (requiere un trípode)</string>
+    <string name="MID_MOTIF_STARS_DESC">Capt. brillo estrellas exp. prolongadas</string>
+    <string name="MID_MOTIF_STILL_LIFE">Producto</string>
+    <string name="MID_MOTIF_STREET">Edificios y paisajes urbanos</string>
+    <string name="MID_MOTIF_STREET_DESC">Capt. edificios/pais. urb. detalles def.</string>
+    <string name="MID_MOTIF_TREE_VIEWING">Flores de cerezo</string>
+    <string name="MID_MOTIF_TREE_VIEWING_DESC">Capt. to. lum./int. árb. flor/hoj. otoño</string>
+    <string name="MID_MOTION_BLUR">Crear rastros de movimiento</string>
+    <string name="MID_MOVE_TO_AUTOMATIC_ALIGNMENT_SETTING">Abrir las opciones de enlace automático</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_BLUETOOTH">"Los permisos de Bluetooth (Dispositivos cercanos) están deshabilitados.
+Habilite los permisos de Bluetooth (Dispositivos cercanos) en los ajustes de su dispositivo."</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_LOCATION">"Los permisos de ubicación están deshabilitados.
+Habilite los permisos de ubicación en los ajustes de su dispositivo."</string>
+    <string name="MID_MSG_ATTACH_LOCATION_WIFI_MODE">"Los datos de ubicación adquiridos por el dispositivo inteligente se pueden añadir a las imágenes cuando se descargan.
+Debido a que los datos de ubicación se obtienen justo antes de la descarga, si selecciona la opción “Descargar imágenes”, los datos de ubicación de las imágenes podrían diferir de las ubicaciones en las que se grabaron las imágenes."</string>
+    <string name="MID_MSG_CAMERA_IS_ALWAYS_CONNECT">"Una vez completado el emparejamiento, la conexión a la cámara permanecerá disponible en todo momento.
+Puede usar la función de descarga automática de imágenes."</string>
+    <string name="MID_MSG_CANNOT_CHOICE_RESIDENCE_LATER">"Seleccione su región de residencia.
+
+Si posteriormente necesita cambiar su región, vuelva a instalar la aplicación."</string>
+    <string name="MID_MSG_CANNOT_SEARCH_BLUETOOTH">Cámara Bluetooth no detectada. Compruebe que Bluetooth esté habilitado en la cámara.</string>
+    <string name="MID_MSG_CANNOT_SEND_SETTING">Los ajustes de disparo no se pueden transmitir a la cámara durante la descarga de imágenes.</string>
+    <string name="MID_MSG_CONFIRM_ACCESSPOINT_NOTE">"Compruebe si los puntos de acceso seleccionados en la cámara y en el dispositivo son los mismos. En caso contrario, inicie los %s Wi-Fi desde la aplicación de ajustes del dispositivo inteligente y seleccione el punto de acceso seleccionado en la cámara.
+
+Toque “Conectar Wi-Fi” para visualizar una lista de las cámaras que se pueden conectar. Seleccione la cámara a conectar en la lista."</string>
+    <string name="MID_MSG_CONFIRM_CANCEL_CONNECTING">¿Desea desconectar esta cámara?</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_TEMPORARILY">"Establezca una conexión directa única a la cámara para permitir la fotografía remota y descargar imágenes.
+Para obtener más información, consulte la ayuda en línea."</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_VIA__WIFI_ONLY">Utilice únicamente Wi-Fi para conectarse a la cámara.</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_WHILE_CONNECTED_TO_INTERNET">"Al conectar la cámara para habilitar las descargar automáticas, la fotografía remota y las descargas de imágenes, se mantiene una conexión a Internet.
+Para obtener más información, consulte la ayuda en línea."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE">"Al conectarse a la cámara mediante Wi-Fi, seleccione “Crear perfil” para “Conectar con dispos. inteligente” > “Conexión Wi-Fi (STA mode)” en el menú de red de la cámara.
+Para obtener más información, consulte la %s."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_HELP">ayuda en línea</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_SETTING">Ajustes</string>
+    <string name="MID_MSG_CONTENT_ERROR">"Texto de entrada incorrecto. 
+Confirme."</string>
+    <string name="MID_MSG_ENABLE_WIFI_ICON">"Toque el icono Wi-Fi para conectar la cámara mediante Wi-Fi.
+Para obtener más información, consulte la ayuda en línea."</string>
+    <string name="MID_MSG_END_WIFI_CONNECTION">¿Terminar la conexión Wi-Fi?</string>
+    <string name="MID_MSG_GO_TO_HINT">Toque aquí para obtener información sobre cómo disparar.</string>
+    <string name="MID_MSG_HOW_TO_SETTING_WIFI_STATION_MODE_NOTE">"Seleccione “Conexión Wi-Fi (STA mode)” en el menú de configuración de la cámara o de red y configure los ajustes. Para obtener más información, consulte la página de ayuda en línea.
+%s
+
+Seleccione el punto de acceso elegido en el paso 1."</string>
+    <string name="MID_MSG_INITIALIZE">¿Restablecer los ajustes a los valores predeterminados?</string>
+    <string name="MID_MSG_INVALID_SUBNET_MASK_ERROR">"La dirección IP y la máscara de subred especificadas no son compatibles.
+Introduzca valores compatibles."</string>
+    <string name="MID_MSG_IP_ADDRESS_COLLISION_ERROR">La dirección IP del servidor es demasiado similar a la dirección IP del cliente. Seleccione direcciones IP que difieran en al menos 4.</string>
+    <string name="MID_MSG_IP_ADDRESS_ERROR">Dirección IP inválida.</string>
+    <string name="MID_MSG_LOGOUT_TO_DELETE_NIS_ID">Para borrar su cuenta de NIKON IMAGE SPACE, deberá cerrar sesión.</string>
+    <string name="MID_MSG_MISS_PASSWORD">La contraseña introducida no cumple con los requisitos de ajuste.</string>
+    <string name="MID_MSG_NIS_IN_CHINA_HAS_ENDED">La carga desde \"SnapBridge\" a \"NIKON IMAGE SPACE\" en China continental ha finalizado.</string>
+    <string name="MID_MSG_NIS_PROSEDURE_FOR_RESUMING">"Este mensaje está destinado a aquellos que no hayan iniciado sesión durante más de un año. Cualquier foto o vídeo que haya cargado previamente ha sido eliminado de este sitio, y ni dichas fotos o vídeos ni ningún álbum o portada de álbum que haya creado podrán recuperarse.
+Use un navegador web para iniciar sesión en NIKON IMAGE SPACE y recuperar su cuenta."</string>
+    <string name="MID_MSG_NOT_MATCH_MODE_DIAL_SETTING">Para cámaras sin dial en la parte superior, configure el modo de disparo según el procedimiento especificado para su modelo.</string>
+    <string name="MID_MSG_NO_PASSWORD">No ha especificado ninguna contraseña. Introduzca una contraseña.</string>
+    <string name="MID_MSG_OPEN_AUTOMATIC_ALIGNMENT_SETTING">El enlace automático ha sido desactivado. Se puede reactivar a través de las opciones de enlace automático.</string>
+    <string name="MID_MSG_PARAMETER_SEND_FAILED">La cámara está ocupada. Intente volver a conectarse después de finalizar la grabación o reproducción de vídeo.</string>
+    <string name="MID_MSG_PAUSE_CONNECT_WITH_CAMERA">"¿Cancelar la conexión a la cámara?
+Toque de nuevo el icono para reanudar la conexión."</string>
+    <string name="MID_MSG_PLEASE_TAP_CAMERA_OK_BUTTON">Pulse el botón OK de la cámara cuando haya finalizado el emparejamiento.</string>
+    <string name="MID_MSG_REBOOT_APPLICATION_FOR_NIKON_ID">Los procedimientos de registro e inicio de sesión de Nikon ID han cambiado. Vuelva a iniciar la aplicación e inténtelo de nuevo.</string>
+    <string name="MID_MSG_RESTART_AFTER_IMPORTING">En este momento se están descargando imágenes desde la cámara mediante Wi-Fi. Vuelva a intentarlo cuando la descarga haya finalizado.</string>
+    <string name="MID_MSG_RESUME_CONNECT_WITH_CAMERA">¿Reanudar la conexión a la cámara?</string>
+    <string name="MID_MSG_SELECT_ACCESS_NOTIFICATION_FROM_DEVICE_SETTING">"Si no permite notificaciones desde “SnapBridge”, es posible que no pueda descargar imágenes ni añadir datos de ubicación.
+ 
+Vaya a los ajustes del dispositivo y permita el acceso a las notificaciones."</string>
+    <string name="MID_MSG_SELECT_ALLOW_NOTIFICATION">Si no permite todas las notificaciones de “SnapBridge”, es posible que no pueda descargar imágenes ni añadir datos de ubicación. Seleccione “Permitir” para las notificaciones.</string>
+    <string name="MID_MSG_SEND_SHOTTING_SETTING_DURING_TRANSFERING_IMAGE">"Las imágenes se están descargando actualmente desde la cámara a través de Wi-Fi.
+Los ajustes de carga estarán disponibles una vez completada la descarga."</string>
+    <string name="MID_MSG_START_IMPORT_SPECIFIED_PICTURE">La cámara guarda las imágenes marcadas para la descarga. Inicio de la descarga de imágenes.</string>
+    <string name="MID_MSG_SUBNET_MASK_ERROR">Máscara de subred inválida.</string>
+    <string name="MID_MSG_UPLOAD_RESET">Cargue los ajustes predeterminados en la cámara para restaurar sus ajustes de disparo iniciales.</string>
+    <string name="MID_NEWS_GET_CHANNEL_FAILED">No se pueden obtener noticias.</string>
+    <string name="MID_NEWS_GET_CHANNEL_NONE">No hay noticias.</string>
+    <string name="MID_NEW_PRODUCTS_INFO_LINK">Aquí encontrará disponible información sobre el producto nuevo</string>
+    <string name="MID_NEW_PRODUCT_DATA_DOWNLOAD">Descarga de datos de imagen de un producto nuevo</string>
+    <string name="MID_NEXT">Siguiente</string>
+    <string name="MID_NICKNAME_INPUT_NOTE">Este apodo será visualizado por las cámaras a las que se haya conectado el dispositivo.</string>
+    <string name="MID_NICKNAME_INPUT_TITLE">Apodo del dispositivo inteligente</string>
+    <string name="MID_NICKNAME_WARN_INFO">Los apodos deben tener al menos 1 carácter.</string>
+    <string name="MID_NID_PRIVACY_POLICY_ITEM">Aviso sobre privacidad</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_BLUETOOTH_TEXT">Descarga Bluetooth en curso</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_BLUETOOTH_TEXT">Descarga Bluetooth en curso, Datos de ubicación actualmente en uso.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_READY_TEXT">Preparando imágenes para la descarga automática, Datos de ubicación actualmente en uso.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_WIFI_TEXT">Descarga de Wi-Fi en curso, Datos de ubicación actualmente en uso.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_NO_LOCATION_TEXT">En espera…</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_READY_TEXT">Preparando imágenes para la descarga automática</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_TEXT">Datos de ubicación actualmente en uso.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_WIFI_TEXT">Descarga de Wi-Fi en curso</string>
+    <string name="MID_NOT_USED">Este banco no se ha cargado en una cámara.</string>
+    <string name="MID_NO_BLUR">“Congelar” movimiento</string>
+    <string name="MID_NO_SET">No hay bancos de ajustes disponibles. Toque el botón situado debajo a la derecha para crear uno.</string>
+    <string name="MID_NUMBER_USE">Usado:</string>
+    <string name="MID_OK">ACEPTAR</string>
+    <string name="MID_OPEN_OS_SETTING">Abrir la aplicación de ajustes del dispositivo</string>
+    <string name="MID_PAN_FOCUS">Mantener todo nítido</string>
+    <string name="MID_PARAM_DETAIL">Ajustes aplicados a la cámara</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID">Para poder usar las funciones de “SnapBridge” es necesario acceder a “Fotos”. Seleccione “Permitir acceso a todas las fotos”.</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID_14">Se requiere el acceso a “fotos y vídeos” para el uso de las funciones de “SnapBridge”. Seleccione “Permitir todos”.</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_IOS17">Es necesario acceder a la biblioteca de fotos para utilizar las funciones de “SnapBridge”. Seleccione “Permitir acceso total”.</string>
+    <string name="MID_PERMISSION_ALLOW_BACKGROUND_RUNNING">SnapBridge necesita permiso para ejecutarse en segundo plano.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS">Permita a su teléfono inteligente acceder a su ubicación de modo que pueda emparejarse con la cámara.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING">Vaya a los ajustes del dispositivo y permita el acceso a la ubicación.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING_FOR_R">"En Android, debe otorgar permiso para acceder a los servicios de ubicación con el fin de utilizar las funciones de emparejamiento y Bluetooth.
+Conceda permiso para acceder a los servicios de ubicación en la aplicación “Ajustes” de su dispositivo."</string>
+    <string name="MID_PERMISSION_ALLOW_PHOTO_ACCESS_ANDROID_14">La transferencia de imágenes requiere el acceso a “fotos y vídeos”. Conceda permiso en la aplicación “Ajustes” de su dispositivo.</string>
+    <string name="MID_PERMISSION_ALLOW_STORAGE_ACCESS_IN_DEVICE_SETTING">SnapBridge requiere acceso de almacenamiento para descargar imágenes. Vaya a los ajustes del dispositivo y permita el acceso al almacenamiento.</string>
+    <string name="MID_PERMISSION_ALWAYS_ALLOW_LOCATION_ACCESS">Con dispositivos Android, debe otorgar permiso de acceso a los servicios de ubicación para usar las funciones de Bluetooth y de emparejamiento.</string>
+    <string name="MID_PERMISSION_ENABLE_DEVICE_LOCATION">Para utilizar esta aplicación, habilite los datos de ubicación de su dispositivo.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALLOW">En el siguiente cuadro de diálogo, seleccione “PERMITIR”</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALWAYS_ALLOW_FOR_R">A continuación se le pedirá que permita acceso a los servicios de ubicación. Toque “Mientras se usa la aplicación”.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_WIFI_ON">Activar Wi-Fi</string>
+    <string name="MID_PERMISSION_NOT_GRANTED">La aplicación carece de los permisos necesarios. Vaya a “SnapBridge” en la aplicación de configuración del dispositivo y habilite los permisos necesarios.</string>
+    <string name="MID_POS_GPS_LIST_HIGH">Alta (alta precisión)</string>
+    <string name="MID_POS_GPS_LIST_HIGH_MIN">Alta</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE">Media</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE_MIN">Media</string>
+    <string name="MID_POS_GPS_LIST_ROUGH">Baja</string>
+    <string name="MID_POS_GPS_LIST_ROUGH_MIN">Baja</string>
+    <string name="MID_POS_GPS_NOTE">Seleccionar “Alta” aumenta el agotamiento de las baterías de la cámara y del dispositivo inteligente. No seleccione “Alta” cuando se encuentre en vehículos en movimiento, tales como coches o trenes. Seleccionar “Baja” reduce la frecuencia de actualización de los datos de ubicación, sin embargo, disminuye el agotamiento de la batería del dispositivo inteligente.</string>
+    <string name="MID_POWERZOOM_SPEED">Velocidad del zoom motorizado</string>
+    <string name="MID_PRECISE">Precisa</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MSG">Lea la Política de privacidad.</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MUST_READ_MSG">Leer la política de privacidad (Obligatorio)</string>
+    <string name="MID_PROHIBIT_OPEN_WMA_MENU">Al conectarse a cámaras con Wi-Fi integrado, ajuste la configuración desde los menús de la cámara.</string>
+    <string name="MID_PTP_REMOTE_DESCRIBE">Tome imágenes remotamente mientras encuadra las tomas en el dispositivo inteligente.</string>
+    <string name="MID_READ_HINTS">Ver consejos de disparo detallado</string>
+    <string name="MID_REMOTE_CAMERA_SETTING">Ajustes de la cámara</string>
+    <string name="MID_REMOTE_MOVIE_NOT_SUPPORT_MODE">Modo de disparo: El modo seleccionado no está disponible durante la grabación remota de vídeos. En su lugar se usará el modo P.</string>
+    <string name="MID_REMOTE_NOT_START_REMOTE_BY_OLD_FTZ_FW">Ver. firmware del adaptador de montura FTZ incompatible. Actualizar firmware de FTZ.</string>
+    <string name="MID_REMOTE_NOT_TRANSFER_TIFF">TIFF seleccionado para calidad de imagen en la cámara. Las fotos pueden tomarse remotamente, sin embargo, no se descargarán en el dispositivo inteligente.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_DESC">Descargue imágenes automáticamente después de los disparos.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_INDEX">Descargar imágenes</string>
+    <string name="MID_REMOTE_SETTINGS_LIVE_VIEW_ENABLED">Live view</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_SECONDS">s</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_TITLE">Opciones del disparador automático</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_DESC">La imagen será capturada 3 segundos después de tocar el icono.</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_INDEX">Disparador automático</string>
+    <string name="MID_REMOTE_SIZE_ONLY_2M_8M_JPEG_OR_2M_HEIF">Incluso si opta por descargar imágenes en su formato original, las imágenes RAW se descargarán como imágenes JPEG de 2 u 8 megapíxeles o como imágenes HEIF de 2 megapíxeles.</string>
+    <string name="MID_REMOTE_SIZE_ONLY_JPEG">Las imágenes RAW se descargarán como imágenes JPEG de 2 megapíxeles incluso si ha optado por descargar imágenes en su formato original.</string>
+    <string name="MID_REMOTE_TRANS_SIZE">Seleccionar tamaño de descarga</string>
+    <string name="MID_REMOTE_WB_CLOUDY">Nublado</string>
+    <string name="MID_REMOTE_WB_DIRECT_SUNLIGHT">Luz directa del sol</string>
+    <string name="MID_REMOTE_WB_FLASH">Flash</string>
+    <string name="MID_REMOTE_WB_FLUORESCENT">Fluorescente</string>
+    <string name="MID_REMOTE_WB_INCANDESCENT">Incandescente</string>
+    <string name="MID_REMOTE_WB_SHADE">Sombra</string>
+    <string name="MID_RENAME">Renombrar</string>
+    <string name="MID_REQUEST_DELETE_SETS">Tendrá que borrar un banco antes de crear más</string>
+    <string name="MID_RESET_SHOOTING_SETTING">Restaurar ajustes disparo</string>
+    <string name="MID_RESTART_APP_DUE_TO_BACKGROUND_STOPPED_MSG">El proceso en segundo plano ha sido suspendido. Vuelva a abrir la aplicación.</string>
+    <string name="MID_RETET_SHOTTING_SETTING_DESC">Restaura los ajustes de disparo de la cámara a sus valores predeterminados.</string>
+    <string name="MID_SAVE">Guardar</string>
+    <string name="MID_SAVED_NUM_LIMIT">La lista de bancos está llena</string>
+    <string name="MID_SAVE_AS">Guardar ajustes como</string>
+    <string name="MID_SAVE_DESC">Introducir un nombre para el banco de ajustes</string>
+    <string name="MID_SAVE_EDITED">Guardar cambios</string>
+    <string name="MID_SAVE_TITLE">Asig. nombre banco ajust.</string>
+    <string name="MID_SELECTED">Ajustes seleccionados</string>
+    <string name="MID_SELECT_CONNECTION">Seleccione el método utilizado para conectarse a la cámara.</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALBANIA">Albania</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALGERIA">Argelia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ANDORRA">Andorra</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ARGENTINA">Argentina</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRALIA">Australia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRIA">Austria</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BAHRAIN">Baréin</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BANGLADESH">Bangladés</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BELGIUM">Bélgica</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOLIVIA">Bolivia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOSNIA_HERZEGOVINA">Bosnia y Herzegovina</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BULGARIA">Bulgaria</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CAMBODIA">Camboya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CANADA">Canadá</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHILE">Chile</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHINESE_MAINLAND">China continental</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_COLOMBIA">Colombia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CROATIA">Croacia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CYPRUS">Chipre</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CZECH_REPUBLIC">Chequia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_DENMARK">Dinamarca</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_EGYPT">Egipto</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ESTONIA">Estonia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FINLAND">Finlandia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRANCE">Francia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRENCH_POLYNESIA">Polinesia Francesa</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GERMANY">Alemania</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GHANA">Ghana</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GIBRALTAR">Gibraltar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GREECE">Grecia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GUADELOUPE">Guadalupe</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HONG_KONG">Hong Kong</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HUNGARY">Hungría</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ICELAND">Islandia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDIA">India</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDONESIA">Indonesia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_IRELAND">Irlanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ISRAEL">Israel</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ITALY">Italia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JAPAN">Japón</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JORDAN">Jordania</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KAZAKHSTAN">Kazajistán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KENYA">Kenia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOREA">Corea</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOSOVO">Kosovo</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KUWAIT">Kuwait</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KYRGYZSTAN">Kirguistán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LATVIA">Letonia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LEBANON">Líbano</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LITHUANIA">Lituania</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LUXEMBOURG">Luxemburgo</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MADAGASCAR">Madagascar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAWI">Malaui</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAYSIA">Malasia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALDIVES">Maldivas</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALTA">Malta</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MARTINIQUE">Martinica</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MAURITIUS">Mauricio</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MEXICO">México</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOLDOVA">Moldavia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONACO">Mónaco</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONTENEGRO">Montenegro</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOROCCO">Marruecos</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MYANMAR">Myanmar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEPAL">Nepal</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NETHERLANDS">Países Bajos</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_CALEDONIA">Nueva Caledonia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_Fiji">Fiyi</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_ZEALAND">Nueva Zelanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NIGERIA">Nigeria</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORTH_MACEDONIA">Macedonia del Norte</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORWAY">Noruega</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_OMAN">Omán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PAKISTAN">Pakistán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PARAGUAY">Paraguay</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PERU">Perú</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PHILIPPINES">Filipinas</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_POLAND">Polonia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PORTUGAL">Portugal</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_QATAR">Catar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_REUNION">Reunión</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ROMANIA">Rumanía</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_RWANDA">Ruanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SAUDI_ARABIA">Arabia Saudí</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SERBIA">Serbia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SINGAPORE">Singapur</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVAKIA">Eslovaquia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVENIA">Eslovenia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SOUTH_AFRICA">Sudáfrica</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SPAIN">España</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SRI_LANKA">Sri Lanka</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWEDEN">Suecia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWITZERLAND">Suiza</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAIWAN">Taiwán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAJIKISTAN">Tayikistán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TANZANIA">Tanzania</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_THAILAND">Tailandia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TUNISIA">Túnez</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKEY">Turquía</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKMENISTAN">Turkmenistán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UAE">EAU</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UGANDA">Uganda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UKRAINE">Ucrania</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_KINGDOM">Reino Unido</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_STATES_OF_AMERICA">Estados Unidos de América</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_URUGUAY">Uruguay</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UZBEKISTAN">Uzbekistán</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VANUATU">Vanuatu</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VIETNAM">Vietnam</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ZIMBABWE">Zimbabue</string>
+    <string name="MID_SELECT_MOTIF">Elegir el sujeto principal</string>
+    <string name="MID_SELECT_REGIONS_SELECT_AFRICA">África</string>
+    <string name="MID_SELECT_REGIONS_SELECT_ASIA">Asia</string>
+    <string name="MID_SELECT_REGIONS_SELECT_EUROPE">Europa</string>
+    <string name="MID_SELECT_REGIONS_SELECT_MIDDLE_EAST">Oriente Medio</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OCEANIA">Oceanía</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OTHER_COUNTRIES">Otros países/regiones</string>
+    <string name="MID_SELECT_REGIONS_SELECT_THE_AMERICAS">América</string>
+    <string name="MID_SEND_ANOTHER">Crear otro banco de ajustes</string>
+    <string name="MID_SEND_COMPLETE">Carga completa</string>
+    <string name="MID_SEND_SETS_PROGRESS">Cargando ajustes a la cámara…</string>
+    <string name="MID_SEND_SET_TO_CAMERA">Cargar en la cámara</string>
+    <string name="MID_SEND_THE_SET">Cargar en la cámara</string>
+    <string name="MID_SEN_SETS_FINISHED">Ahora que ha actualizado los ajustes de la cámara, puede tomar fotos.</string>
+    <string name="MID_SERIAL_NUMBER">Número de serie</string>
+    <string name="MID_SETTING_NAME_PRESET">Banco de ajustes del usuario</string>
+    <string name="MID_SET_BLUR">Difuminar movimiento</string>
+    <string name="MID_SET_BOKEH">Bokeh/profundidad de campo</string>
+    <string name="MID_SET_FINISHED">Aj. guardados</string>
+    <string name="MID_SET_FINISHED_DESC">Intente cargar los ajustes en la cámara y tome algunas imágenes.</string>
+    <string name="MID_SET_REJECTED_BY_CAMERA_TITLE">Comprobar el estado de la cámara</string>
+    <string name="MID_SHARE_ACQUIRING">Adquiriendo imágenes.</string>
+    <string name="MID_SHARE_FAILED_TO_ACQUIRE">No se ha podido adquirir la imagen.</string>
+    <string name="MID_SHARE_INSUFFICIENT_STORAGE_SPACE">Espacio de almacenamiento insuficiente. No se pueden compartir imágenes.</string>
+    <string name="MID_SIGN_UP_NIS">"NIKON IMAGE SPACE
+Registro"</string>
+    <string name="MID_SORT">Clasificar</string>
+    <string name="MID_SORT_NAME_DOWN">Clasificar por nombre (descendente)</string>
+    <string name="MID_SORT_NAME_UP">Clasificar por nombre (ascendente)</string>
+    <string name="MID_SORT_NEW">Más reciente en primer lugar</string>
+    <string name="MID_SORT_OLD">Más antiguo en primer lugar</string>
+    <string name="MID_SORT_USE_LATELY">Último usado</string>
+    <string name="MID_SORT_USE_MANY">Más utilizado</string>
+    <string name="MID_START">Iniciar</string>
+    <string name="MID_SUPPLEMENT_ACCESS_LOCATION_PRECISE">Nota: Si no recibe las opciones “Precisa” y “Aproximada”, solamente tendrá que proporcionar permiso para acceder a la ubicación del dispositivo.</string>
+    <string name="MID_TERMS_OF_SERVICE_AGREEMENT_DESC">Aceptar lo anterior</string>
+    <string name="MID_TIMES">vez (veces)</string>
+    <string name="MID_TIPS">Trucos y consejos sobre disparo</string>
+    <string name="MID_TIPS_A_DESC">Compruebe el estado de conexión de la cámara (toque para mostrar información adicional).</string>
+    <string name="MID_TIPS_B_DESC">Habilite o deshabilite “Descarga automática”, “Relojes” o “Datos de ubicación”.</string>
+    <string name="MID_TIPS_C_DESC">Visualice las imágenes descargadas desde la cámara.</string>
+    <string name="MID_TIPS_D_DESC">Enlace al servicio de compartición en nube de Nikon.</string>
+    <string name="MID_TIPS_TAP">Toque la pantalla.</string>
+    <string name="MID_TIPS_TITLE">Uso de SnapBridge</string>
+    <string name="MID_TITLE_CHOICE_CONNECTION_TYPE">Seleccionar Tipo de conexión</string>
+    <string name="MID_TITLE_NIKON_IMAGE_CLOUD">Nikon Imaging Cloud</string>
+    <string name="MID_TUTORIAL1_DESC">Esta aplicación facilita a los usuarios principiantes configurar los ajustes a sus objetivos fotográficos.</string>
+    <string name="MID_TUTORIAL1_TITLE">Ajustes de la cámara simplificados</string>
+    <string name="MID_TUTORIAL2_DESC">Todo lo que necesita para crear un banco de ajustes es elegir el sujeto, la escena y el estilo. Comencemos.</string>
+    <string name="MID_TUTORIAL2_TITLE">Simplemente necesita elegir algunas opciones</string>
+    <string name="MID_USE_NIS_MSG_1">Puede utilizar “NIKON IMAGE SPACE”, un servicio de almacenamiento de imágenes de Nikon.</string>
+    <string name="MID_USE_NIS_MSG_2">Las imágenes descargadas en su dispositivo inteligente se pueden cargar en NIKON IMAGE SPACE.</string>
+    <string name="MID_USE_NIS_MSG_3">Pulse “Usar” e inicie sesión si ya se ha registrado en NIKON IMAGE SPACE.</string>
+    <string name="MID_USE_POWER_ZOOM_CANNOT_MSG">El control remoto del zoom motorizado no está disponible con los ajustes actuales.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_BLACK_BACKGROUND_FOR_PICTURE_IN_PICTURE_PROTECTION">Cierre la visualización Picture-in-Picture.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_MESSAGE">Conceda permiso a la aplicación para ejecutarse en segundo plano antes de iniciar sesión en NIKON IMAGE SPACE.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_TITLE">Asegúrese de seleccionar “Permitir” en el siguiente cuadro de diálogo.</string>
+    <string name="MID_WELCOME_A_DESC">Permita que SnapBridge y su cámara Nikon le abran las puertas a una experiencia de imagen rica.</string>
+    <string name="MID_WELCOME_A_TITLE">Bienvenido a “SnapBridge”</string>
+    <string name="MID_WELCOME_B_DESC">Las fotos se descargan automáticamente a su dispositivo inteligente y se comparten en el acto.</string>
+    <string name="MID_WELCOME_B_TITLE">Comparta fotos geniales en cualquier momento, en cualquier lugar</string>
+    <string name="MID_WELCOME_C_DESC">Capture imágenes remotamente mientras visualiza a su sujeto en la pantalla del dispositivo inteligente.</string>
+    <string name="MID_WELCOME_C_TITLE">Use su dispositivo inteligente para capturar imágenes remotamente</string>
+    <string name="MID_WELCOME_D_DESC">Registrarse para un Nikon ID le permite guardar un número ilimitado de imágenes JPEG de 2 megapíxeles en NIKON IMAGE SPACE, servicio de almacenamiento en la nube. Podrá cargar las imágenes automáticamente.</string>
+    <string name="MID_WELCOME_D_TITLE">Carga automática a NIKON IMAGE SPACE ilimitada</string>
+    <string name="MID_WELCOME_E_DESC">"“SnapBridge” conecta su cámara a su dispositivo inteligente y a las redes sociales.
+Pruébelo."</string>
+    <string name="MID_WELCOME_E_TITLE">Más servicios, más comodidad</string>
+    <string name="MID_WIFI_2MB_SIZE">Wi-Fi, 2 megapíxeles</string>
+    <string name="MID_WIFI_CANCEL_MSG">Cambie a Bluetooth para el emparejamiento o la conexión de red.</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_LAUNCH">Iniciar WMU</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_MESSAGE">Deshabilite “Abrir aplicación automáticamente” en el menú “Ajustes”. Las conexiones Wi-Fi de SnapBridge no pueden usarse si “Abrir aplicación automáticamente” está habilitado.</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_TITLE">Compruebe los ajustes de Wireless Mobile Utility (WMU)</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_MESSAGE">La función de conexión Wi-Fi de SnapBridge no puede usarse si hay instalada una versión anterior.</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_TITLE">Actualice Wireless Mobile Utility</string>
+    <string name="NIS_CLD_UNDER_MAINTENANCE2">Conexión fallida. El servidor se encuentra actualmente bajo mantenimiento.</string>
+    <string name="NULL_VALUE">-</string>
+    <string name="SID_ACTIVE_D_LIGHTING">D-Lighting activo</string>
+    <string name="SID_AF_AREA_MODE">Modo de zona AF</string>
+    <string name="SID_AF_DETECTION_SETTING">Opciones de detección sujeto AF</string>
+    <string name="SID_AF_SUBJ_DETECT_OPT">Opciones de detección de sujeto AF</string>
+    <string name="SID_APERTURE">Diafragma</string>
+    <string name="SID_BRIGHTNESS">Brillo</string>
+    <string name="SID_CONTRAST">Contraste</string>
+    <string name="SID_EXP">Compensación de exposición</string>
+    <string name="SID_EXPOSURE_COMPENSATION_DIAL">Dial de compensación de exposición</string>
+    <string name="SID_FLICKER_REDUCTION_SHOOTING">Disparo con reducción parpadeo</string>
+    <string name="SID_FOCUS_MODE">Modo de enfoque</string>
+    <string name="SID_HIGH_SENSITIVITY_NOISE_REDUCTION">RR ISO alta</string>
+    <string name="SID_ISO_AUTO_CONTROL">Control auto. sensibil. ISO</string>
+    <string name="SID_ISO_LOW_SPEED">Velocidad obturación mín.</string>
+    <string name="SID_ISO_MAX">Sensibilidad máxima</string>
+    <string name="SID_ISO_SENSITIVITY">Sensibilidad ISO</string>
+    <string name="SID_ISO_SENSITIVITY_DIAL">Dial selector de sensibilidad ISO</string>
+    <string name="SID_LONG_SEC_NOISE_REDUCTION">RR exposición prolongada</string>
+    <string name="SID_LOW_LIGHT_AF">AF con poca luz</string>
+    <string name="SID_METERING">Medición</string>
+    <string name="SID_MODE_SELECTOR">Selector de modo</string>
+    <string name="SID_PICTURE_CONTROL">Fijar Picture Control</string>
+    <string name="SID_QUICK_SHARP">Definición rápida</string>
+    <string name="SID_RELEASE_MODE">Modo de disparo</string>
+    <string name="SID_SATURATION">Saturación</string>
+    <string name="SID_SET_ADL_EX_HIGH">Extra alto</string>
+    <string name="SID_SET_ADL_EX_HIGH1">Extra alto 1</string>
+    <string name="SID_SET_ADL_EX_HIGH2">Extra alto 2</string>
+    <string name="SID_SET_ADL_HIGH">Alto</string>
+    <string name="SID_SET_ANIMAL">Animal</string>
+    <string name="SID_SET_AUTO">Automático</string>
+    <string name="SID_SET_AUTO_AREA">AF de zona automática</string>
+    <string name="SID_SET_AUTO_LEAVE_ATMOSPHERE">Mantener el ambiente general</string>
+    <string name="SID_SET_AUTO_PRIORITIZE_WHITE">Mantener blanco (reducir cálidos)</string>
+    <string name="SID_SET_CHOOSE_COLOR_TEMP">Elegir temperatura color</string>
+    <string name="SID_SET_CONTINUOUS_AF">AF continuo</string>
+    <string name="SID_SET_DIRECT_SUN_LT">Luz del sol directa</string>
+    <string name="SID_SET_HIGH_SPEED_CONTINUOUS_SHOOTING">Continuo a alta velocidad</string>
+    <string name="SID_SET_LANDSCAPE">Paisaje</string>
+    <string name="SID_SET_LOW_SPEED_CONTINUOUS_SHOOTING">Continuo a baja velocidad</string>
+    <string name="SID_SET_NATURAL_LT_AUTO">Luz natural automática</string>
+    <string name="SID_SET_NOISE_REDUCTION_STANDARD">Normal</string>
+    <string name="SID_SET_NORMAL">Normal</string>
+    <string name="SID_SET_OFF">Desactivada</string>
+    <string name="SID_SET_ON">Activado</string>
+    <string name="SID_SET_ONE_FRAME_SHOOTING">Fotograma a fotograma</string>
+    <string name="SID_SET_PEOPLE">Personas</string>
+    <string name="SID_SET_PIN_PT">AF de zona pequeña</string>
+    <string name="SID_SET_SDR">SDR</string>
+    <string name="SID_SET_SINGLE_AF">AF único</string>
+    <string name="SID_SET_SINGLE_PT">AF de punto único</string>
+    <string name="SID_SET_SPORTS">Sport</string>
+    <string name="SID_SET_STANDARD">Estándar</string>
+    <string name="SID_SET_VALID">Activar</string>
+    <string name="SID_SET_VIVID">Intenso</string>
+    <string name="SID_SET_WIDE_AREA_L">AF panorámico (L)</string>
+    <string name="SID_SHOOTING_MODE">Modo disparo</string>
+    <string name="SID_SHUTTER_SPEED">Velocidad de obturación</string>
+    <string name="SID_SHUTTER_SPEED_DIAL">Dial de velocidad de obturación</string>
+    <string name="SID_TONE_MODE">Modo de tono</string>
+    <string name="SID_VIBRATION_REDUCTION">Reducción de la vibración</string>
+    <string name="SID_WHITE_BALANCE">Balance de blancos</string>
+    <string name="SID_WHITE_BALANCE_AUTO">Balance de blancos - Tipo automático</string>
+    <string name="TIPSID_HOWTO_USER_SETTING">Si se registra en la cámara por adelantado, podrá disfrutar de funciones prácticas que le permiten cambiar el modo de disparo con un solo toque.</string>
+    <string name="TIPSID_MOTIF_AMUSEMENTPARK_NIGHT">"---Introducción del modo---
+ Capture el desfile nocturno con colores intensos. La cámara ajusta la velocidad de obturación para minimizar el difuminado del sujeto y usa un modo de disparo continuo, por lo tanto, seleccione el mejor disparo de la secuencia. 
+ 
+---Sugerencias de uso de la cámara---
+■Para enfocar una posición deseada:
+· Toque la zona de enfoque en la pantalla. 
+■Si la cámara tiene problemas a la hora de enfocar:
+· Use un modo de zona AF con una zona de enfoque mayor como [AF panorámico (S)] y [AF panorámico (L)]. 
+■Si el sujeto es demasiado oscuro:
+· Seleccione un valor superior (más positivo) para la compensación de exposición. 
+■Si el sujeto es demasiado brillante:
+· Seleccione un valor inferior (más negativo) para la compensación de exposición. 
+■Para lograr que el “Ruido” (en forma de píxeles luminosos aleatorios) sea menos obvio: 
+· Ajuste el valor de la sensibilidad ISO máxima en ISO [3200] o inferior."</string>
+    <string name="TIPSID_MOTIF_EATING">"---Introducción del modo---
+ Capture alimentos con colores y brillo de aspecto natural con el fondo y el entorno difuminados. 
+ 
+---Sugerencias de uso de la cámara---
+■Si la cámara tiene problemas a la hora de enfocar (el punto de enfoque no se muestra verde): 
+· Aléjese del sujeto (la cámara no puede enfocar si está más cerca que la distancia de enfoque mínima indicada en el objetivo). 
+· Use un modo de zona AF con una zona de enfoque más pequeña como [AF de punto único], [AF panorámico (S)] y [AF panorámico (L)]. 
+■Si el sujeto es demasiado oscuro:
+· Seleccione un valor superior (más positivo) para la compensación de exposición. 
+■Si el sujeto es demasiado brillante:
+· Seleccione un valor inferior (más negativo) para la compensación de exposición. 
+■Para que el color de la foto sea más azul:
+· Ajuste el balance de blancos en [Incandescente]. 
+■Para que el color de la foto sea más rojo:
+· Ajuste el balance de blancos en [Nublado] o [Sombra]. 
+■Para difuminar el fondo:
+· Dispare con una profundidad de campo reducida. 
+· Sugerencias de disparo para usar una profundidad de campo reducida: 
+1) Acérquese al sujeto (más lejos que la distancia de enfoque mínima indicada en el objetivo). 
+2) Use un objetivo con un valor de diafragma máximo pequeño (número f mínimo). 
+3) Use un teleobjetivo o acerque un objetivo zoom."</string>
+    <string name="TIPSID_MOTIF_EATING_OUT">"---Introducción del modo---
+ Capture alimentos con colores de aspecto natural y brillantes y mantenga enfocado todo el plato. 
+ 
+---Sugerencias de uso de la cámara---
+■Si la cámara tiene problemas a la hora de enfocar (el punto de enfoque no se muestra verde): 
+· Aléjese del sujeto (la cámara no puede enfocar si está más cerca que la distancia de enfoque mínima indicada en el objetivo). 
+· Use un modo de zona AF con una zona de enfoque más pequeña como [AF de punto único], [AF panorámico (S)] y [AF panorámico (L)]. 
+■Si el sujeto es demasiado oscuro:
+· Seleccione un valor superior (más positivo) para la compensación de exposición. 
+■Si el sujeto es demasiado brillante:
+· Seleccione un valor inferior (más negativo) para la compensación de exposición. 
+■Para que el color de la foto sea más azul:
+· Ajuste el balance de blancos en [Incandescente]. 
+■Para que el color de la foto sea más rojo:
+· Ajuste el balance de blancos en [Nublado] o [Sombra]."</string>
+    <string name="TIPSID_MOTIF_FOR_AUCTION">"---Introducción del modo---
+ Capture artículos de subasta con alto contraste, colores intensos y un enfoque nítido general. 
+ 
+---Técnicas de disparo---
+■Para difuminar el fondo y tomar un toma nítida del producto:
+· Use [Objetos pequeños]. 
+■Para minimizar el difuminado de la cámara:
+· Use un trípode, una mesa u otros medios para fijar la cámara o sostenga la cámara firmemente colocando los codos contra el costado. 
+ 
+---Sugerencias de uso de la cámara---
+■Si la cámara tiene problemas a la hora de enfocar (el punto de enfoque no se muestra verde): 
+· Aléjese del sujeto (la cámara no puede enfocar si está más cerca que la distancia de enfoque mínima indicada en el objetivo). 
+■Para capturar una toma clara del producto y su fondo: 
+· Ajuste una abertura más pequeña (más estrecha) como f/11. 
+■Para tomar fotografías que destaquen el sujeto:
+· Ajuste el modo en el que la luz natural incide en el sujeto o cambie la dirección de los focos de tal modo que el sujeto esté iluminado a su gusto."</string>
+    <string name="TIPSID_MOTIF_MAGIC_HOUR">"---Introducción del modo---
+ Capture el enrojecimiento del paisaje de la tarde. Autofoco se ajusta para facilitar el enfoque incluso en entornos oscuros. 
+ 
+---Técnicas de disparo---
+■Para minimizar el difuminado de la cámara:
+· Use un trípode, una mesa o una valla para fijar la cámara o sostenga la cámara firmemente colocando los codos contra el costado.
+ 
+---Sugerencias de uso de la cámara---
+■Si la escena aparece más brillante en la imagen que en el ojo:
+· Seleccione un valor inferior (más negativo) para la compensación de exposición. 
+■Si la escena aparece más oscura en la imagen que en el ojo:
+· Seleccione un valor superior (más positivo) para la compensación de exposición. 
+■Para enfatizar el enrojecimiento de la puesta de sol:
+· Ajuste el balance de blancos en [Nublado] o [Sombra]. 
+■Para preservar los detalles en altas luces y sombras en escenas de alto contraste:
+· Ajuste D-Lighting activo en [Extra alto]."</string>
+    <string name="TIPSID_MOTIF_NATURE">"---Introducción del modo---
+ Capture imágenes de paisajes tales como montañas y bosques con tonos y colores naturales. 
+ 
+---Sugerencias de uso de la cámara---
+■Para enfocar una posición deseada:
+· Toque la zona a enfocar en la pantalla. 
+■Para preservar los detalles en altas luces y sombras en escenas de alto contraste:
+· Ajuste D-Lighting activo en [Extra alto]."</string>
+    <string name="TIPSID_MOTIF_NIGHT">"---Introducción del modo---
+ Capture escenas nocturnas con colores claros e intensos. 
+ 
+---Técnicas de disparo---
+■Para minimizar el difuminado de la cámara:
+· Use un trípode, una mesa o una valla para fijar la cámara o sostenga la cámara firmemente colocando los codos contra el costado.
+ 
+---Sugerencias de uso de la cámara---
+■Para enfocar en una posición deseada:
+· Toque la zona a enfocar en la pantalla. 
+· Coloque el punto de enfoque de la cámara en la zona a enfocar y pulse el disparador hasta la mitad para bloquear el enfoque. Mientras mantiene pulsado el botón, recomponga la fotografía y dispare. 
+■Si la cámara tiene problemas a la hora de enfocar:
+· Use un modo de zona AF con una zona de enfoque mayor como [AF panorámico (S)] y [AF panorámico (L)]. 
+· En un lugar con contraste, pulse el disparador hasta la mitad para bloquear el enfoque y, a continuación, cambie la composición y dispare. 
+· Enfoque manualmente. 
+■Si el sujeto es demasiado brillante:
+· Mientras visualiza la pantalla, ajuste la exposición a su gusto seleccionando un valor inferior (más negativo) para la compensación de exposición. 
+■Para lograr que el “Ruido” sea menos obvio:
+· Fije la cámara en un trípode o de cualquier otro modo y ajuste la sensibilidad ISO en [400] o menos. 
+■Para que el color de la foto sea más azul:
+· Ajuste el balance de blancos en [Incandescente].
+■Para que el color de la foto sea más rojo:
+· Ajuste el balance de blancos en [Nublado] o [Sombra]."</string>
+    <string name="TIPSID_MOTIF_PERSON_NIGHT">"---Introducción del modo---
+ Capture fotos equilibradas de los sujetos de retrato y escenas nocturnas con una vista de la noche en el fondo. Autofoco se ajusta para facilitar el enfoque en entornos oscuros. 
+ 
+---Técnicas de disparo---
+■Para capturar imágenes enfocadas y minimizar el difuminado del sujeto:
+· Use un flash o una luz LED o desplácese a un lugar en el que las farolas iluminen el rostro del sujeto. 
+· En condiciones de poca luz, use un trípode o fije la cámara sobre una superficie nivelada, tal como una mesa.
+ 
+---Sugerencias de uso de la cámara---
+■Para reducir el ruido:
+· Fije la cámara sobre un trípode o sobre una superficie nivelada, como una mesa, y seleccione ISO [3200] o inferior para [Ajustes de sensibilidad ISO] > [Sensibilidad máxima]."</string>
+    <string name="TIPSID_MOTIF_PET_INDOOR">"---Introducción del modo---
+ Capture mascotas con colores de aspecto natural. Dispare en el mejor momento mientras la cámara ajusta continuamente el enfoque en respuesta al movimiento del sujeto y toma ráfagas en el modo de disparo continuo a baja velocidad. El fondo puede aparecer difuminado o enfocado. 
+ 
+---Técnicas de disparo---
+■Para capturar la mejor expresión de su mascota:
+· Mantenga la cámara en un ángulo bajo en relación al nivel del ojo de la mascota. 
+ 
+---Sugerencias de uso de la cámara---
+■Para mantener al sujeto enfocado:
+· Orientar la cámara hacia los sujetos y pulsar el disparador hasta la mitad mostrará bordes amarillos sobre los rostros o sujetos y bloquea el enfoque en el sujeto. 
+■Para capturar el mejor momento: 
+· Prepárese para el movimiento repentino del sujeto durante los disparos colocando el punto de enfoque sobre el sujeto y manteniendo pulsado el disparador para dejar que la cámara inicie una ráfaga de baja velocidad para capturar el momento. 
+■Para difuminar el fondo:
+· Dispare con una profundidad de campo reducida. 
+· Sugerencias de disparo para usar una profundidad de campo reducida: 
+1) Acérquese al sujeto (más lejos que la distancia de enfoque mínima indicada en el objetivo). 
+2) Use un objetivo con un valor de diafragma máximo pequeño (número f mínimo). 
+3) Use un teleobjetivo o acerque un objetivo zoom."</string>
+    <string name="TIPSID_MOTIF_PET_OUTDOOR">"---Introducción del modo---
+ Capture tomas nítidas de mascotas en rápido movimiento con velocidades de obturación rápida para minimizar el difuminado del sujeto. Capture hasta el más ligero movimiento de las mascotas activas mientras la cámara ajusta continuamente el enfoque en respuesta al movimiento del sujeto y toma ráfagas en el modo de disparo continuo a alta velocidad. 
+ 
+---Sugerencias de uso de la cámara---
+■Para mantener al sujeto enfocado:
+· Orientar la cámara hacia los sujetos y pulsar el disparador hasta la mitad mostrará bordes amarillos sobre los rostros o sujetos y bloquea el enfoque en el sujeto. 
+■Cuando el sujeto cause difuminado de movimiento: 
+· Seleccione S para el modo de disparo (exposición) y ajuste velocidades de obturación más rápidas (por ejemplo, [1/2.000 seg.]). 
+■Para capturar un momento de movimiento ágil:
+· Coloque el punto de enfoque sobre el sujeto en movimiento activo y mantenga pulsado el disparador para que la cámara inicie una ráfaga de alta velocidad para capturar el momento."</string>
+    <string name="TIPSID_MOTIF_PLANT">"---Introducción del modo---
+ Capture imágenes intensas de flores. El fondo puede difuminarse o aclararse para que las flores circundantes también estén enfocadas. 
+ 
+---Sugerencias de uso de la cámara---
+■Para enfocar una posición deseada:
+· Toque la zona a enfocar en la pantalla. 
+■Si la cámara tiene problemas a la hora de enfocar:
+· Use un modo de zona AF con una zona de enfoque mayor como [AF de punto único], [AF panorámico (S)] y [AF panorámico (L)]. 
+· En un lugar con contraste, pulse el disparador hasta la mitad para bloquear el enfoque y, a continuación, cambie la composición y dispare. 
+· Enfoque manualmente. 
+■Para difuminar el fondo:
+· Dispare con una profundidad de campo reducida. 
+· Sugerencias de disparo para usar una profundidad de campo reducida: 
+1) Acérquese al sujeto (más lejos que la distancia de enfoque mínima indicada en el objetivo). 
+2) Use un objetivo con un valor de diafragma máximo pequeño (número f mínimo). 
+3) Use un teleobjetivo o acerque un objetivo zoom. 
+■Para tomar fotografías de primeros planos de flores:
+· El uso de un objetivo macro facilita enfocar sujetos cercanos, permitiendo la captura de fotografías ampliadas con detalles precisos. 
+· El uso de un teleobjetivo o acercar un objetivo zoom le permite tomar fotografías en primer plano de flores con un fondo difuminado sin necesidad de acercarse demasiado. 
+■Si la escena aparece más oscura en la imagen que en el ojo:
+· Seleccione un valor superior (más positivo) para la compensación de exposición. 
+■Si la escena aparece más brillante en la imagen que en el ojo:
+· Seleccione un valor inferior (más negativo) para la compensación de exposición."</string>
+    <string name="TIPSID_MOTIF_PORTRAIT">"---Introducción del modo---
+ Capture imágenes de retrato con una complexión suave y un aspecto natural. El fondo puede aparecer difuminado o enfocado. 
+ 
+---Sugerencias de uso de la cámara---
+■Para mantener a los sujetos de retrato enfocados:
+· Orientar la cámara hacia los sujetos y pulsar el disparador hasta la mitad mostrará bordes amarillos sobre los rostros o sujetos para bloquear el enfoque. 
+■Para difuminar el fondo:
+· Dispare con una profundidad de campo reducida. 
+· Sugerencias de disparo para obtener una profundidad de campo reducida: 
+1) Acérquese al sujeto (más lejos que la distancia de enfoque mínima indicada en el objetivo). 
+2) Use un objetivo con un valor de diafragma máximo pequeño (número f mínimo). 
+3) Use un teleobjetivo o acerque un objetivo zoom."</string>
+    <string name="TIPSID_MOTIF_RECORDS">"---Introducción del modo---
+ Capture imágenes de retrato de colores naturales con sus fondos. El fondo puede aparecer difuminado o enfocado. 
+ 
+---Técnicas de disparo---
+■Para evitar tomas con los ojos cerrados:
+· Visualice la imagen para ver si alguien ha cerrado los ojos.
+· Seleccione un modo de disparo continuo y, a continuación, mantenga pulsado el disparador para tomar varias fotos. 
+ 
+---Sugerencias de uso de la cámara---
+■Mantenga a los sujetos de retrato enfocados:
+· Orientar la cámara hacia los sujetos y pulsar el disparador hasta la mitad mostrará bordes amarillos sobre los rostros o sujetos para bloquear el enfoque."</string>
+    <string name="TIPSID_MOTIF_RELATIVES">"---Introducción del modo---
+ Evite que los sujetos de retrato aparezcan oscuros en escenas en las que el brillo difiera entre el sujeto y el fondo debido a la retroiluminación u otros motivos. 
+ 
+---Sugerencias de uso de la cámara---
+■Si el sujeto de retrato aparece demasiado oscuro:
+· Seleccione un valor superior (más positivo) para la compensación de exposición. 
+■Si el sujeto del retrato aparece demasiado brillante:
+· Seleccione un valor inferior (más negativo) para la compensación de exposición. 
+■Si la imagen aparece granulosa (por ejemplo, cuando la sensibilidad ISO es alta):
+· Ajuste D-Lighting activo en [Normal] o [Bajo]."</string>
+    <string name="TIPSID_MOTIF_RIVER">"---Introducción del modo---
+ Congele el movimiento del agua de un río o una cascada, o el movimiento de las gotas de agua, o capture el rastro del agua fluyendo. 
+ 
+---Técnicas de disparo---
+■Para minimizar el difuminado de la cámara:
+· Para capturar el rastro del agua fluyendo, use un trípode, una mesa o una valla para fijar la cámara o sostenga la cámara firmemente con los codos contra el costado.
+ 
+---Sugerencias de uso de la cámara---
+■Para congelar el movimiento del agua fluyendo rápidamente:
+· Seleccione la opción [“Congelar” movimiento] y ajuste velocidades de obturación más rápidas (por ejemplo, [1/250 seg.] o [1/500 seg.]). 
+■Para capturar un rastro mayor del agua fluyendo:
+· Seleccione la opción [Crear rastros de movimiento largos] y ajuste velocidades de obturación más lentas (por ejemplo, [2 seg.] o [4 seg.]; se recomienda el uso de un trípode)."</string>
+    <string name="TIPSID_MOTIF_SELFY">"---Introducción del modo---
+ Capture imágenes de autorretrato que incluyan el fondo de modo natural. El fondo puede aparecer difuminado o enfocado. 
+ 
+---Técnicas de disparo---
+■Para capturar imágenes con buen contacto ocular:
+· Al capturar una imagen, mire al centro del objetivo en lugar de al centro de la pantalla delante de usted. 
+■Para mostrar claramente una escena de fondo y el entorno circundante: 
+· Use un objetivo gran angular o aleje el zoom con un objetivo zoom para incluir un ángulo de visión más amplio, facilitando mostrar el fondo y el entorno circundante. 
+ 
+---Sugerencias de uso de la cámara---
+■Para mantener a los sujetos de retrato enfocados:
+· Orientar la cámara hacia los sujetos y pulsar el disparador hasta la mitad mostrará bordes amarillos sobre los rostros o sujetos y bloqueará el enfoque."</string>
+    <string name="TIPSID_MOTIF_SMALL_ITEMS">"---Introducción del modo---
+ Capture artículos hechos a mano u objetos decorativos con alto contraste, colores intensos y el fondo difuminado. 
+ 
+---Técnicas de disparo---
+■Para tomar fotografías que destaquen el sujeto:
+· Ajuste el modo en el que la luz natural incide en el sujeto o cambie la dirección de los focos de tal modo que el sujeto esté iluminado a su gusto. 
+■Para tomar una foto clara tanto del producto como de su fondo: 
+· Use [Subastas en línea]. 
+■Para minimizar el difuminado de la cámara:
+· Use un trípode, una mesa u otros medios para fijar la cámara o sostenga la cámara firmemente colocando los codos contra el costado. 
+ 
+---Sugerencias de uso de la cámara---
+■Si la cámara tiene problemas a la hora de enfocar (el punto de enfoque no se muestra verde): 
+· Aléjese del sujeto (la cámara no puede enfocar si está más cerca que la distancia de enfoque mínima indicada en el objetivo). 
+■Para difuminar el fondo:
+· Dispare con una profundidad de campo reducida. 
+· Sugerencias de disparo para usar una profundidad de campo reducida: 
+1) Acérquese al sujeto (más lejos que la distancia de enfoque mínima indicada en el objetivo). 
+2) Use un objetivo con un valor de diafragma máximo pequeño (número f mínimo). 
+3) Use un teleobjetivo o acerque un objetivo zoom. 
+■Para tomar fotografías de primeros planos del sujeto:
+· El uso de un objetivo macro facilita enfocar sujetos cercanos, permitiendo fotografías ampliadas con detalles precisos y nítidos. 
+· El uso de un teleobjetivo o acercar un objetivo zoom le permite tomar fotografías en primer plano del sujeto con un fondo difuminado sin necesidad de acercarse demasiado."</string>
+    <string name="TIPSID_MOTIF_SPORTS_INDOOR">"---Introducción del modo---
+ Capture imágenes de sujetos participando en deportes en interiores con colores de aspecto natural. Aumente la sensibilidad ISO y ajuste una velocidad de obturación rápida para evitar el difuminado del movimiento. Capture hasta el más ligero movimiento usando la cámara en ráfagas y ajuste el enfoque continuamente en respuesta al movimiento del sujeto. 
+ 
+---Técnicas de disparo---
+■Para capturar tomas impresionantes:
+· Use un teleobjetivo (por ejemplo, distancia focal de 200 mm).
+ 
+---Sugerencias de uso de la cámara---
+■Para entornos interiores oscuros:
+· Seleccione un valor de sensibilidad ISO mayor. 
+■Para capturar el movimiento de un sujeto de retrato:
+· Mientras sigue al sujeto, mantenga pulsado el disparador para tomar las ráfagas. 
+· Sostenga la cámara en la composición deseada y, cuando el sujeto esté a la vista, mantenga pulsado el disparador para capturar las ráfagas. 
+■Cuando el sujeto cause difuminado de movimiento: 
+· Seleccione S para el modo de disparo (exposición) y ajuste velocidades de obturación más rápidas (por ejemplo, [1/2.000 seg.])."</string>
+    <string name="TIPSID_MOTIF_SPORTS_OUTDOOR">"---Introducción del modo---
+ Dispare en el mejor momento usando la cámara en ráfagas y ajustando continuamente el enfoque en respuesta al movimiento del sujeto de retrato. Capture el flujo del movimiento o congele el movimiento de los sujetos de retrato que participen en deportes al aire libre. 
+ 
+---Técnicas de disparo---
+■Para capturar tomas impresionantes:
+· Use un teleobjetivo (por ejemplo, distancia focal de 200 mm).
+ 
+---Sugerencias de uso de la cámara---
+■Para capturar el movimiento de un sujeto de retrato:
+· Mientras sigue al sujeto, mantenga pulsado el disparador para capturar las ráfagas. 
+· Sostenga la cámara en la composición deseada y, cuando el sujeto esté a la vista, mantenga pulsado el disparador para capturar las ráfagas. 
+■Para un enfoque más fluido: 
+· Enfoque por adelantado en una posición cercana a la que el sujeto entrará en el encuadre. 
+■Cuando el sujeto cause difuminado del movimiento: 
+· Seleccione velocidades de obturación más rápidas (por ejemplo, [1/2.000 seg.])."</string>
+    <string name="TIPSID_MOTIF_STARS">"---Introducción del modo---
+ Capture el cielo estrellado. La cámara ajusta la velocidad de obturación para abrir el obturador durante un período establecido. 
+ 
+---Técnicas de disparo---
+■Para minimizar el difuminado de la cámara:
+· Fije la cámara en un trípode para capturar imágenes con el disparador automático. 
+■Para incluir el paisaje del entorno en las fotos del cielo estrellado:
+· Use un objetivo gran angular o aleje un objetivo zoom. 
+ 
+---Sugerencias de uso de la cámara---
+■Para lograr que el “Ruido” (en forma de píxeles luminosos aleatorios) sea menos obvio:
+· Use un objetivo fast prime con un valor de diafragma máximo pequeño (número f mínimo). 
+■Si el sujeto es demasiado oscuro:
+· Ajuste un valor de sensibilidad ISO alto (por ejemplo, ISO [6400] o superior). 
+■Si el sujeto es demasiado brillante:
+· Ajuste un valor de sensibilidad ISO bajo (por ejemplo, ISO [400] o inferior)."</string>
+    <string name="TIPSID_MOTIF_STREET">"---Introducción del modo---
+ Tome fotos de obras arquitectónicas y de paisajes urbanos con tonos y colores equilibrados. 
+ 
+---Técnicas de disparo---
+■Para minimizar el difuminado de la cámara:
+· Use un trípode, una mesa o una valla para fijar la cámara o sostenga la cámara firmemente colocando los codos contra el costado. 
+· Desactive [Reducción de la vibración] cuando la cámara esté fijada con un trípode u otros medios. 
+■Para capturar imágenes de edificios y paisajes urbanos con un ángulo de visión amplio:
+· Use un objetivo gran angular o aleje un objetivo zoom."</string>
+    <string name="TIPSID_MOTIF_TREE_VIEWING">"---Introducción del modo---
+ Capture hermosos cerezos en flor con colores naturales. 
+ 
+---Sugerencias de uso de la cámara---
+■Si la cámara tiene problemas a la hora de enfocar (el punto de enfoque no se muestra verde):
+· Use un modo de zona AF con una zona de enfoque más pequeña como [AF de punto único], [AF panorámico (S)] y [AF panorámico (L)]. 
+■Si el sujeto es demasiado oscuro:
+· Seleccione un valor superior (más positivo) para la compensación de exposición. 
+■Si el sujeto es demasiado brillante:
+· Seleccione un valor inferior (más negativo) para la compensación de exposición. 
+■Para capturar colores intensos:
+· Fije Picture Control en [Paisaje] o [Intenso]."</string>
+    <string name="abc_action_bar_home_description">Ir a inicio</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_capital_off">DESACTIVADO</string>
+    <string name="abc_capital_on">ACTIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Suprimir</string>
+    <string name="abc_menu_enter_shortcut_label">Intro</string>
+    <string name="abc_menu_function_shortcut_label">Función +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Mayús +</string>
+    <string name="abc_menu_space_shortcut_label">Espacio</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menú +</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de búsqueda</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Ocultar</string>
+    <string name="app_name">SnapBridge</string>
+    <string name="auto_upload_text0">Cancelar</string>
+    <string name="auto_upload_text1">Solo Wi-Fi</string>
+    <string name="auto_upload_text1_min">Wi-Fi</string>
+    <string name="auto_upload_text2">Siempre</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="call_notification_answer_action">Responder</string>
+    <string name="call_notification_answer_video_action">Vídeo</string>
+    <string name="call_notification_decline_action">Rechazar</string>
+    <string name="call_notification_hang_up_action">Colgar</string>
+    <string name="call_notification_incoming_text">Llamada entrante</string>
+    <string name="call_notification_ongoing_text">Llamada en curso</string>
+    <string name="call_notification_screening_text">Filtrando una llamada entrante</string>
+    <string name="camera0_change">Cambiar cámaras</string>
+    <string name="camera0_connect_type0_title">Fuera del alcance de la señal de la cámara</string>
+    <string name="camera0_connect_type1_text">En este momento se están descargando imágenes desde la cámara mediante Wi-Fi.</string>
+    <string name="camera0_connect_type1_title">Descarga de Wi-Fi en curso</string>
+    <string name="camera0_connect_type2_text">Cambie a Bluetooth para utilizar “Descarga automática”, “Datos de ubicación” o “Relojes”.</string>
+    <string name="camera0_connect_type2_title">Hay una conexión Wi-Fi activa. ¿Terminar la conexión Wi-Fi?</string>
+    <string name="camera0_connect_type3_text">En este momento se están descargando imágenes desde la cámara mediante Bluetooth.</string>
+    <string name="camera0_connect_type3_title">Descarga Bluetooth en curso</string>
+    <string name="camera0_connect_type4_title">Conectado mediante Bluetooth</string>
+    <string name="camera0_connect_type5_title">Esperando conexión Bluetooth</string>
+    <string name="camera0_connect_type6_title">Se ha perdido la conexión Wi-Fi con la cámara</string>
+    <string name="camera0_delete">Olvidar cámara</string>
+    <string name="camera0_nfc_text">¿Iniciar el emparejamiento?</string>
+    <string name="camera10_cell1_title">Emparejamiento (Bluetooth)</string>
+    <string name="camera10_title">Tipo de conexión</string>
+    <string name="camera1_sync_location_info0">"Puede deducirse información personal a partir de los datos de ubicación grabados con las imágenes capturadas con una cámara.
+Preste atención al colgar imágenes en Internet y otros lugares que puedan ser visualizados por terceros.
+Además, algunos países poseen restricciones sobre el uso de sistemas de datos de ubicación; antes de viajar, consulte con su agencia de viajes, embajada o centro de turismo del país que vaya a visitar."</string>
+    <string name="camera1_sync_location_info1">Dependiendo de su ubicación, podría ser necesario cierto tiempo para adquirir y sincronizar los datos de ubicación.</string>
+    <string name="camera2_camera_none">No hay cámaras correspondientes</string>
+    <string name="camera3_nfc_error0">SnapBridge puede almacenar información de emparejamiento para hasta 5 cámaras</string>
+    <string name="camera3_nfc_error1">Ya está emparejado a este dispositivo</string>
+    <string name="camera3_nfc_title">Recibiendo señal NFC desde la cámara</string>
+    <string name="camera3_searching">Buscando…</string>
+    <string name="camera4_btn_text">Ver opciones</string>
+    <string name="camera4_title">Cámara y conexión Wi-Fi</string>
+    <string name="camera5_btn_close">Comprendido</string>
+    <string name="camera5_lbl_text">"Siga las instrucciones en pantalla, seleccione el nombre de la cámara y toque “Emparejar”.
+
+Para completar el emparejamiento, pulse el botón “OK” de la cámara."</string>
+    <string name="camera6_pairing">Emparejamiento en curso</string>
+    <string name="camera7_list_title">Seleccione el nombre de la cámara con la cual desea emparejarse</string>
+    <string name="camera7_text">"Recibiendo transmisión desde la cámara.
+Seleccione el nombre visualizado en la pantalla de la cámara desde la siguiente lista."</string>
+    <string name="camera_dialog_wifi_unsupport_text">La cámara no puede conectarse mediante Wi-Fi; la fotografía remota no está disponible.</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="close_drawer">Cerrar menú de navegación</string>
+    <string name="close_sheet">Cerrar hoja</string>
+    <string name="cloud0_nis_link">¿Qué es NIKON IMAGE SPACE?</string>
+    <string name="common_google_play_services_enable_button">Habilitar</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Habilita Servicios de Google Play</string>
+    <string name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo.</string>
+    <string name="common_google_play_services_install_title">Descargar Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilidad Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Servicios de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">La aplicación %1$s tiene problemas con los Servicios de Google Play. Vuelve a intentarlo.</string>
+    <string name="common_google_play_services_unsupported_text">No es posible ejecutar la aplicación %1$s sin los Servicios de Google Play, que no son compatibles con tu dispositivo.</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualices Servicios de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualiza Servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play.</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_pairing">Emparejamiento</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string name="copy_toast_msg">Enlace copiado en el portapapeles</string>
+    <string name="default_error_message">Entrada no válida</string>
+    <string name="dialog_pairing_text">Necesita emparejar su dispositivo inteligente con la cámara antes de registrarse para un Nikon ID. ¿Emparejar?</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_remote2">RAW o TIFF seleccionados para calidad de imagen en la cámara. Las fotos pueden tomarse remotamente, sin embargo, no se descargarán al dispositivo inteligente.</string>
+    <string name="error_remote3">La cámara está configurada para la exposición prolongada; la fotografía remota no está disponible.</string>
+    <string name="error_remote4">La velocidad de obturación de la cámara se ha ajustado a la velocidad de sincronización del flash; la fotografía remota no está disponible.</string>
+    <string name="error_remote5">La cámara está configurada para la fotografía bulb; live view está desactivado. ¿Desea grabar una exposición prolongada?</string>
+    <string name="error_remote6">¿Desea grabar una exposición prolongada?</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="fallback_menu_item_copy_link">Copiar enlace</string>
+    <string name="fallback_menu_item_open_in_browser">Abrir en el navegador</string>
+    <string name="fallback_menu_item_share_link">Compartir enlace</string>
+    <string name="gallery1_blank_text">Las imágenes descargadas serán visualizadas.</string>
+    <string name="gallery1_blank_title">Conectar a la cámara y descargar imágenes</string>
+    <string name="gallery_dialog_delete_text">¿Borrar imágenes?</string>
+    <string name="gcm_fallback_notification_channel_label">Varias</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="in_progress">En curso</string>
+    <string name="indeterminate">Ni marcada ni desmarcada</string>
+    <string name="installation_cancelled">Se ha cancelado la instalación.</string>
+    <string name="installation_failed">No se ha podido instalar.</string>
+    <string name="installing_module">Instalando módulo:</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="mynikon0_btn_install">Instalar</string>
+    <string name="mynikon0_btn_launch">Lanzar</string>
+    <string name="mynikon0_date_format">dd.MM.yyyy</string>
+    <string name="mynikon0_tab0">Vida fotográfica</string>
+    <string name="mynikon0_tab1">Noticias</string>
+    <string name="mynikon0_tab2">Aplicación</string>
+    <string name="nav_app_bar_navigate_up_description">Desplazarse hacia arriba</string>
+    <string name="nav_app_bar_open_drawer_description">Abrir panel de navegación</string>
+    <string name="navigation_menu">Menú de navegación</string>
+    <string name="none0">-</string>
+    <string name="none1">- / -</string>
+    <string name="none2">- -</string>
+    <string name="not_selected">No seleccionado</string>
+    <string name="off">Desactivado</string>
+    <string name="ok">Vale</string>
+    <string name="on">Activado</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="progress">Progreso:</string>
+    <string name="receive_progress_cancel">La descarga ha sido cancelada desde la cámara.</string>
+    <string name="regist0_nikon_id_login">Inicio de sesión en Nikon ID</string>
+    <string name="regist0_or">O</string>
+    <string name="regist4_next">Registro</string>
+    <string name="remote1_time_text0">Pulse el disparador para iniciar una exposición prolongada</string>
+    <string name="remote1_time_text1">Pulse el disparador para finalizar la exposición prolongada</string>
+    <string name="remote1_wb0">Automático</string>
+    <string name="remote2_btn_item0">Opciones de descarga de imágenes</string>
+    <string name="retry">Reintentar</string>
+    <string name="review_btn_link">Sugerencias</string>
+    <string name="review_btn_no">Pulgares abajo</string>
+    <string name="review_btn_yes">Pulgares arriba</string>
+    <string name="review_text0">"Gracias por usar SnapBridge.
+Por favor, valore la aplicación."</string>
+    <string name="review_text1">Si tiene alguna sugerencia u opinión acerca de esta aplicación, póngase en contacto con nosotros o consulte la lista que aparece a continuación.</string>
+    <string name="review_title">Valorar SnapBridge</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="selected">Seleccionado</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">Pestaña</string>
+    <string name="template_percent">%1$d por cien.</string>
+    <string name="tutorial5_info1">Esta ajuste puede cambiarse en cualquier momento.</string>
+    <string name="tutorial5_next">Hecho</string>
+    <string name="warning_liveview0">Sensibilidad ISO: La opción seleccionada no está disponible durante la fotografía remota. La sensibilidad se ajustará a ISO 100 o 25600.</string>
+    <string name="warning_liveview0_ISO_800">Sensibilidad ISO: La opción seleccionada no está disponible durante la fotografía remota. La sensibilidad se ajustará a ISO 800 o 25600.</string>
+    <string name="warning_liveview0_SHUTTER_MODE">Modo de obturador: Este ajuste cambiará a [Velocidad de obturación] puesto que la otra opción no es compatible en la fotografía remota.</string>
+    <string name="warning_liveview1">Balance de blancos: La opción seleccionada no está disponible durante la fotografía remota. El balance de blancos automático será usado en su lugar.</string>
+    <string name="transfer_queue_status">Progreso %1$d/%2$d · En espera %3$d · Con error %4$d</string>
+    <string name="setting_section_camera">Conexión y transferencia automática</string>
+    <string name="setting_section_storage">Guardado de fotos</string>
+    <string name="setting_section_system">Acceso del sistema</string>
+    <string name="setting_background">Ejecución en segundo plano y batería</string>
+    <string name="setting_notifications">Notificaciones</string>
+    <string name="setting_permissions">Permisos</string>
+    <string name="setting_debug_logs">Registros de depuración</string>
+    <string name="setting_debug_logs_summary">Disponibles en los registros de Android como SnapBridgeLogger y SnapBridgeTransfer.</string>
+    <string name="setting_section_about">Acerca de</string>
+</resources>

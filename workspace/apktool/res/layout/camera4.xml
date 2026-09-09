@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="96.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:background="@null" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/camera4_icon" android:adjustViewBounds="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_info0" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_16dp">
+                <ImageView android:id="@id/img_info0" android:background="@null" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_16dp" android:layout_marginTop="@dimen/margin_5dp" android:src="@drawable/circle_step1" android:layout_marginStart="@dimen/margin_16dp" />
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="center|left|top" android:id="@id/lbl_text0" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:textAllCaps="false" android:layout_marginStart="@dimen/margin_8dp" android:layout_marginEnd="@dimen/margin_16dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_info1" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_16dp">
+                <ImageView android:id="@id/img_info1" android:background="@null" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_16dp" android:layout_marginTop="@dimen/margin_5dp" android:src="@drawable/circle_step2" android:layout_marginStart="@dimen/margin_16dp" />
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="center|left|top" android:id="@id/lbl_text1" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:textAllCaps="false" android:layout_marginStart="@dimen/margin_8dp" android:layout_marginEnd="@dimen/margin_16dp" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_info2" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_16dp">
+                <ImageView android:id="@id/img_info2" android:background="@null" android:layout_width="@dimen/dimen_16dp" android:layout_height="@dimen/dimen_16dp" android:layout_marginTop="@dimen/margin_5dp" android:src="@drawable/circle_step3" android:layout_marginStart="@dimen/margin_16dp" />
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="center|left|top" android:id="@id/lbl_text2" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:textAllCaps="false" android:layout_marginStart="@dimen/margin_8dp" android:layout_marginEnd="@dimen/margin_16dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/fsize_14dp" android:textStyle="bold" android:textColor="@color/btn_text_white" android:ellipsize="end" android:id="@id/btn_next" android:background="@drawable/btn_blank1" android:layout_width="260.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:text="@string/MID_OPEN_OS_SETTING" android:lines="2" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+    </RelativeLayout>
+    <ImageView android:id="@id/v_preloader" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preloader_normal" android:layout_centerInParent="true" />
+</RelativeLayout>

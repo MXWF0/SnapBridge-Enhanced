@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_68dp" android:layout_marginTop="@dimen/margin_16dp">
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/lbl_linkspeed" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_21dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_8dp" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/MID_LINK_SPEED" />
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:ellipsize="end" android:gravity="center|left" android:id="@id/txt_linkspeed" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_19dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_4dp" android:layout_marginRight="@dimen/margin_15dp" android:text="" android:lines="1" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_68dp">
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/lbl_serial" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_21dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_8dp" android:layout_marginRight="@dimen/margin_15dp" android:text="@string/MID_SERIAL_NUMBER" />
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:ellipsize="end" android:gravity="center|left" android:id="@id/txt_serial" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_19dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_4dp" android:layout_marginRight="@dimen/margin_15dp" android:text="" android:lines="1" android:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_68dp">
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/lbl_firmversion" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_21dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/margin_8dp" android:layout_marginRight="@dimen/margin_15dp" android:text="@string/MID_FIRMWARE_VERSION" />
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:ellipsize="end" android:gravity="center|left" android:id="@id/txt_firmversion" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_19dp" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_15dp" android:text="" android:lines="1" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

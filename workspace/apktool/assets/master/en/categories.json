@@ -1,0 +1,86 @@
+{
+	"version":3.8,
+	"root_url":"master",
+	"category": [
+		{
+			"category_id":7,
+			"version":1.4,
+			"name":"mirrorless camera",
+			"img":"common/category7_img_3x.png",
+			"disp":"Z9, Z8, Zf",
+			"induction_img":["en/pairing_ml2_mv01_en/data.json"]
+		},
+		{
+			"category_id":10,
+			"version":1.3,
+			"name":"mirrorless camera",
+			"img":"common/category10_img_3x.png",
+			"disp":"ZR, Z6III, Z5II, \nZ50II",
+			"induction_img":["en/pairing_ml2_mv01_en/data.json"]
+		},
+		{
+			"category_id":5,
+			"version":2,
+			"name":"mirrorless camera",
+			"img":"common/category5_img_3x.png",
+			"disp":"Z7II, Z7, Z6II, \nZ6, Z5, Zfc, \nZ50, Z30",
+			"induction_img":["en/pairing_ml1_mv01_en/data.json"]
+		},
+		{
+			"category_id":6,
+			"version":1.1,
+			"name":"Digital SLR camera",
+			"img":"common/category6_img_3x.png",
+			"disp":"D6, D780",
+			"induction_img":["en/pairing_d6_mv01_en/data.json"]
+		},
+		{
+			"category_id":1,
+			"version":1.7,
+			"name":"Digital SLR camera",
+			"img":"common/category1_img_3x.png",
+			"disp":"D850, D500, D7500, \nD5600, D3500, D3400",
+			"induction_img":["en/pairing_d850_mv01_en/data.json"]
+		},
+		{
+			"category_id":2,
+			"version":2.3,
+			"name":"COOLPIX",
+			"img":"common/category2_img_3x.png",
+			"disp":"P1100, P1000, P950, \nA1000, A900, A300,  \nB700, B600, B500,  \nW300",
+			"induction_img":["en/pairing_b600_mv01_en/data.json"]
+		},
+		{
+			"category_id":3,
+			"version":1.4,
+			"name":"COOLPIX",
+			"img":"common/category3_img_3x.png",
+			"disp":"W150, W100",
+			"induction_img":["en/pairing_w150_mv01_en/data.json"]
+		},
+		{
+			"category_id":8,
+			"version":1.1,
+			"name":"WMU-compatible cameras",
+			"img":"common/category8_img_3x.png",
+			"disp":"Df, D750, D7200, \nD7100, D5500, D5300, \nD3300",
+			"induction_img":["en/pairing_d500_mv01_en.m4v"]
+		},
+		{
+			"category_id":9,
+			"version":1.1,
+			"name":"WMU-compatible cameras",
+			"img":"common/category9_img_3x.png",
+			"disp":"J5, P900, AW130, \nS7000, S3700",
+			"induction_img":["en/pairing_d500_mv01_en.m4v"]
+		},
+		{
+			"category_id":4,
+			"version":1.3,
+			"name":"Action camera",
+			"img":"common/category4_img_3x.png",
+			"disp":"KeyMission 80",
+			"induction_img":["en/pairing_km_mv01_en/data.json"]
+		}
+	]
+}

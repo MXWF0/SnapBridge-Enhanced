@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="28.0dip" android:paddingEnd="28.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_action_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0dip" android:textColor="@color/setting_detail_menu_text_color" android:gravity="center" android:id="@id/change_name_btn" android:background="@drawable/shape_action_sheet_top" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="@string/MID_RENAME" android:textAllCaps="false" />
+        <View android:background="#ff505050" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:textSize="16.0dip" android:textColor="@color/setting_detail_menu_text_color" android:gravity="center" android:id="@id/edit_setting_btn" android:background="@drawable/shape_action_sheet_middle" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="@string/MID_EDIT" android:textAllCaps="false" />
+        <View android:background="#ff505050" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:textSize="16.0dip" android:textColor="@color/setting_detail_menu_text_color" android:gravity="center" android:id="@id/delete_btn" android:background="@drawable/shape_action_sheet_bottom" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="@string/MID_DELETE" android:textAllCaps="false" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_action_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <Button android:textSize="16.0dip" android:textColor="@color/setting_detail_menu_text_color" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/cancel_button" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="@string/MID_CANCEL" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

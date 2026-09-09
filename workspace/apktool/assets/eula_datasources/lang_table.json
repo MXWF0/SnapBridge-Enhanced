@@ -1,0 +1,10 @@
+{
+  "INC": { "ja":"jp", "en":"en", "de":"de", "fr":"fr", "it":"en", "es":"es", "ko":"en", "zh-cn":"en", "nl":"en", "ru":"en", "tr":"en", "zh-tw":"en" },
+  "BV": { "ja":"jp", "en":"en", "de":"de", "fr":"fr", "it":"it", "es":"es", "ko":"en", "zh-cn":"en", "nl":"nl", "ru":"ru", "tr":"tr", "zh-tw":"en" },
+  "NSG": { "ja":"jp", "en":"en", "de":"de", "fr":"en", "it":"en", "es":"en", "ko":"en", "zh-cn":"sc", "nl":"en", "ru":"en", "tr":"en", "zh-tw":"tc" },
+  "NSG(Australia)": { "ja":"en", "en":"en", "de":"en", "fr":"en", "it":"en", "es":"en", "ko":"en", "zh-cn":"en", "nl":"en", "ru":"en", "tr":"en", "zh-tw":"en" },
+  "NIJ": { "ja":"jp", "en":"en", "de":"en", "fr":"en", "it":"en", "es":"en", "ko":"en", "zh-cn":"en", "nl":"en", "ru":"en", "tr":"en", "zh-tw":"en" },
+  "NIJ(Korea)": { "ja":"jp", "en":"en", "de":"en", "fr":"en", "it":"en", "es":"en", "ko":"kr", "zh-cn":"en", "nl":"en", "ru":"en", "tr":"en", "zh-tw":"en" },
+  "NICS": { "ja":"en", "en":"en", "de":"en", "fr":"en", "it":"en", "es":"en", "ko":"en", "zh-cn":"sc", "nl":"en", "ru":"en", "tr":"en", "zh-tw":"en" },
+  "Other": { "ja":"en", "en":"en", "de":"en", "fr":"en", "it":"en", "es":"en", "ko":"en", "zh-cn":"en", "nl":"en", "ru":"en", "tr":"en", "zh-tw":"en" }
+}

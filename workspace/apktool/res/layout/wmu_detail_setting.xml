@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:id="@id/v_wps_pin" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginTop="@dimen/margin_24dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_wps_pin" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_WPS_PIN" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_wps_pin" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_wps_mode" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_wps_mode" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_WPS_MODE" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_wps_mode" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_password_setting" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_password_setting" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_PASSWORD_ENTLY" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_password_setting" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_subnetmask" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_subnetmask" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_SUBNET_MASK" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_subnetmask" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_dhcp_s_address" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_dhcp_s_address" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_DHCP_SERVER_IP_ADRESS" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_dhcp_s_address" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_dhcp_c_address" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_dhcp_c_address" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_DHCP_CLIENT_IP_ADRESS" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_dhcp_c_address" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

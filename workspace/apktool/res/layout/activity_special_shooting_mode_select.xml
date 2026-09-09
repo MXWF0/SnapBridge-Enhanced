@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:tag="layout/activity_special_shooting_mode_select_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/tool_bar" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/tool_bar" />
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="@dimen/general_constraint_match_constraint" android:layout_height="@dimen/general_constraint_match_constraint" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/tool_bar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

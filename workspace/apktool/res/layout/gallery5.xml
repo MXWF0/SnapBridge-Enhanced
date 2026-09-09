@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/gallery5_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/bg_normal" android:layout_width="@dimen/size_0dp" android:layout_height="@dimen/size_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.nikon.snapbridge.cmru.frontend.ui.NklCameraPhotoPager android:id="@id/photopager" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <VideoView android:id="@id/videoview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="start" android:id="@id/lbl_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="@dimen/margin_16dp" android:text="" android:textAllCaps="false" app:layout_constraintBottom_toTopOf="@id/bg_footer" app:layout_constraintLeft_toLeftOf="parent" />
+    <FrameLayout android:id="@id/bg_footer" android:background="@color/bg_footer" android:layout_width="@dimen/size_0dp" android:layout_height="@dimen/size_0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/barrier_footer" />
+    <RelativeLayout android:id="@id/btn_receive_outer" android:background="@color/bg_footer" android:layout_width="@dimen/size_0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:gravity="center" android:id="@id/btn_receive" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:text="@string/MID_IMPORT_EXEC_IMPORT" android:lines="1" android:singleLine="true" android:textAllCaps="false" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/btn_check_outer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <ImageButton android:id="@id/btn_check" android:background="@null" android:layout_width="@dimen/size_44dp" android:layout_height="@dimen/size_44dp" android:src="@drawable/btn_check0" android:scaleType="fitXY" android:contentDescription="@string/MID_IMPORT_SELECT" android:textAllCaps="false" />
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.Group android:id="@id/v_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="bg_footer,btn_receive_outer,btn_check_outer" />
+    <androidx.constraintlayout.widget.Barrier android:id="@id/barrier_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="top" app:constraint_referenced_ids="btn_receive_outer,btn_check_outer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

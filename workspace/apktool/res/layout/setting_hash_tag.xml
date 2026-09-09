@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/margin_16dp" android:layout_marginBottom="@dimen/margin_16dp" android:splitMotionEvents="false">
+        <RelativeLayout android:background="@drawable/btn_blank2_last_normal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginBottom="@dimen/margin_8dp">
+            <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_APP_HASH" android:lines="2" />
+            <Switch android:id="@id/sw_item0" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_alignParentRight="true" android:translationZ="99.0dip" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_808080" android:gravity="center|left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="@dimen/margin_16dp" android:text="@string/MID_HASH_ADD_NOTE" android:textAllCaps="false" />
+        <RelativeLayout android:id="@id/v_item1" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationZ="99.0dip">
+                <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/margin_60dp" android:text="Nikon" android:textAllCaps="false" />
+                    <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/margin_60dp" android:layout_marginBottom="8.0dip" android:text="\#nikon" android:textAllCaps="false" />
+                </LinearLayout>
+            </RelativeLayout>
+            <Switch android:id="@id/sw_item1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationZ="99.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/v_item2" android:background="@drawable/btn_blank2_last_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationZ="99.0dip">
+                <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/margin_60dp" android:text="SnapBridge" android:textAllCaps="false" />
+                    <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/margin_60dp" android:layout_marginBottom="8.0dip" android:text="\#snapbridge" android:textAllCaps="false" />
+                </LinearLayout>
+            </RelativeLayout>
+            <Switch android:id="@id/sw_item2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationZ="99.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

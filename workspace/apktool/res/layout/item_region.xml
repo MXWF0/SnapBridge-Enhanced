@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_1dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/_242424" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:splitMotionEvents="false">
+        <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/_f5f5f5" android:ellipsize="end" android:id="@id/lbl_text" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:button="@null" android:text="" android:maxLines="1" android:drawablePadding="14.0dip" android:layout_toLeftOf="@id/dropdown_arrow" android:layout_centerVertical="true" android:textAllCaps="false" />
+        <ImageView android:id="@id/dropdown_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/region_btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <Button android:id="@id/btn_cell" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/countryTable" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+</LinearLayout>

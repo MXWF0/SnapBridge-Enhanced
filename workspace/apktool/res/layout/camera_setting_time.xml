@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:id="@id/v_timesync" android:background="@drawable/btn_blank2_last_normal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="@dimen/margin_16dp">
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/lbl_timesync" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_CAM_SYNC_TIME_SYNC" android:lines="2" />
+                <Switch android:id="@id/sw_timesync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationZ="99.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_description" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:ellipsize="end" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginRight="@dimen/margin_15dp" android:text="@string/MID_AUTOLINK_TIME_DISCRIPTION" android:breakStrategy="simple" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

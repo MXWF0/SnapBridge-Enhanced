@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/v_webview" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="96.0dip" />
+    <RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/fsize_14dp" android:textStyle="bold" android:textColor="@color/btn_text_white" android:ellipsize="end" android:id="@id/btn_next" android:background="@drawable/btn_blank1" android:layout_width="260.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:text="@string/MID_CLD_MAIL_AGREE_AND_NEXT" android:lines="2" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

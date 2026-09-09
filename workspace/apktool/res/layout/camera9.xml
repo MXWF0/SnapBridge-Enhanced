@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/bg_bar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:id="@id/iv_tab0" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_camera_normal" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:id="@id/iv_tab1" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_device_normal" android:scaleType="center" android:layout_weight="1.0" android:alpha="0.5" />
+        <ImageView android:id="@id/iv_tab2" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_cloud_normal" android:scaleType="center" android:layout_weight="1.0" android:alpha="0.5" />
+    </LinearLayout>
+    <View android:id="@id/v_connect0" android:background="@null" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginLeft="100.0dip" android:layout_marginTop="8.0dip" />
+    <View android:id="@id/v_connect1" android:background="@null" android:layout_width="50.0dip" android:layout_height="30.0dip" android:layout_marginLeft="225.0dip" android:layout_marginTop="8.0dip" />
+    <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="48.0dip">
+        <ImageView android:id="@id/iv_camera" android:background="@null" android:layout_width="320.0dip" android:layout_height="240.0dip" android:layout_marginTop="20.0dip" android:src="@null" android:layout_centerHorizontal="true" />
+    </com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout>
+    <ImageView android:id="@id/v_preloader" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preloader_normal" android:layout_centerInParent="true" />
+</RelativeLayout>

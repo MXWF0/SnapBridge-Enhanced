@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/progress_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/installing_module" />
+    <ImageView android:layout_gravity="center" android:id="@id/progress_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+    <ProgressBar android:id="@id/installation_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:max="100" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+    <Button android:id="@id/progress_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@android:string/ok" />
+</LinearLayout>

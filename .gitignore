@@ -1,0 +1,34 @@
+/base.apk
+/workspace/signing/
+/workspace/apktool/build/
+/workspace/apktool/dist/
+/workspace/jadx/
+/workspace/jadx-home/
+/workspace/build/
+*.apk
+*.idsig
+*.log
+*.tmp
+
+# Local tooling and generated caches
+/.agents/
+/.codex/
+/.gradle/
+**/.gradle/
+**/build/
+**/dist/
+**/out/
+**/cache/
+**/tmp/
+
+# Credentials and local configuration
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.env
+.env.*
+credentials.json
+secrets.json

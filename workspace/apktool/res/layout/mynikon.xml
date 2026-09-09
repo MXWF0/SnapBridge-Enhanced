@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="140.0dip">
+        <ImageView android:id="@id/iv_photo0" android:background="@null" android:layout_width="fill_parent" android:layout_height="140.0dip" android:src="@null" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/iv_photo1" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="140.0dip" android:src="@null" android:scaleType="centerCrop" />
+        <ImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="80.0dip" android:src="@drawable/mynikon0_bg" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="50.0dip" android:baselineAligned="false" android:layout_alignParentBottom="true">
+            <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:gravity="center" android:id="@id/lbl_tab0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/mynikon0_tab0" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+                <ImageButton android:textStyle="normal" android:gravity="center" android:id="@id/btn_tab0" android:background="@null" android:contentDescription="@string/mynikon0_tab0" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="-18.0dip" android:src="@drawable/mynikon0_tab0" android:textAllCaps="false" />
+                <ImageView android:id="@id/iv_bar0" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/tab_bar" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:gravity="center" android:id="@id/lbl_tab1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/mynikon0_tab1" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+                <ImageButton android:textStyle="normal" android:gravity="center" android:id="@id/btn_tab1" android:background="@null" android:contentDescription="@string/mynikon0_tab1" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="-18.0dip" android:src="@drawable/mynikon0_tab1" android:textAllCaps="false" />
+                <ImageView android:id="@id/iv_bar1" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/tab_bar" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:gravity="center" android:id="@id/lbl_tab2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/mynikon0_tab2" android:layout_alignParentBottom="true" android:textAllCaps="false" />
+                <ImageButton android:textStyle="normal" android:gravity="center" android:id="@id/btn_tab2" android:background="@null" android:contentDescription="@string/mynikon0_tab2" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_marginTop="-18.0dip" android:src="@drawable/mynikon0_tab2" android:textAllCaps="false" />
+                <ImageView android:id="@id/iv_bar2" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/tab_bar" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="140.0dip">
+        <TextView android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/lbl_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:text="" android:textAllCaps="false" />
+    </RelativeLayout>
+    <WebView android:id="@id/v_channel" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="188.0dip" />
+    <RelativeLayout android:id="@id/v_news" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="188.0dip">
+        <RelativeLayout android:id="@id/v_news_none" android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="26.0dip" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/MID_NEWS_GET_CHANNEL_NONE" android:textAllCaps="false" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/v_news_error" android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:src="@drawable/bar_btn_info_normal" android:scaleType="center" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/MID_NEWS_GET_CHANNEL_FAILED" android:layout_centerVertical="true" android:textAllCaps="false" />
+            </RelativeLayout>
+            <Button android:textSize="@dimen/fsize_14dp" android:textStyle="bold" android:textColor="@color/btn_text_white" android:ellipsize="end" android:id="@id/btn_news_error" android:background="@drawable/btn_blank1" android:layout_width="260.0dip" android:layout_height="48.0dip" android:layout_marginBottom="24.0dip" android:text="@string/MID_CHANNEL_RETRY_GETTING_CHANNEL" android:lines="2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView android:id="@id/v_apps" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="188.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_16dp" android:splitMotionEvents="false">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="12.0dip">
+                <ImageView android:background="@null" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/mynikon0_icon_app_nis" />
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/lbl_app_NIS" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="76.0dip" android:text="" android:layout_centerVertical="true" android:textAllCaps="false" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/MID_APPS_NIS_INFO" android:textAllCaps="false" />
+            <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_14dp" android:textStyle="bold" android:textColor="@color/btn_text_white" android:ellipsize="end" android:id="@id/btn_app_NIS" android:background="@drawable/btn_blank1" android:layout_width="260.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="" android:lines="2" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:id="@id/v_autodl" android:background="@drawable/btn_blank2_last_normal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="@dimen/margin_16dp">
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_CAM_SYNC_AUTO_TRANS" android:lines="2" />
+                <Switch android:contentDescription="@string/MID_CAM_SYNC_AUTO_TRANS" android:id="@id/sw_autodl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationZ="99.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_dlsize" android:layout_width="fill_parent" android:layout_height="45.0dip">
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:ellipsize="end" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginRight="60.0dip" android:text="@string/MID_AUTOLINK_SIZE" android:lines="2" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_2mpixel" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:splitMotionEvents="false">
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:background="@null" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="60.0dip" android:text="@string/MID_IMPORT_SIZE_2M" android:lines="2" android:textAllCaps="false" />
+                <ImageView android:id="@id/iv_2mpixel" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/icon_check" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <Button android:contentDescription="@string/MID_IMPORT_SIZE_2M" android:id="@id/btn_2mpixel" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_8mpixel" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:splitMotionEvents="false">
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:background="@null" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="60.0dip" android:text="@string/MID_IMPORT_SIZE_8M" android:lines="2" android:textAllCaps="false" />
+                <ImageView android:id="@id/iv_8mpixel" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/icon_check" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <Button android:contentDescription="@string/MID_IMPORT_SIZE_8M" android:id="@id/btn_8mpixel" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.nikon.snapbridge.cmru.frontend.ui.NklStickyListView android:id="@id/tableview" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <RelativeLayout android:id="@id/v_footer" android:background="@color/bg_footer" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginBottom="-44.0dip" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/btn_share" android:background="@null" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/btn_share" android:scaleType="center" android:contentDescription="@string/abc_shareactionprovider_share_with" android:textAllCaps="false" />
+        <ImageButton android:id="@id/btn_delete" android:background="@null" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/btn_delete" android:scaleType="center" android:layout_alignParentRight="true" android:contentDescription="@string/MID_DELETE" android:textAllCaps="false" />
+    </RelativeLayout>
+    <com.nikon.snapbridge.cmru.frontend.ui.NklScrollBar android:id="@id/scrollbar" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout android:id="@id/v_blank" android:background="@drawable/bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/gallery1_blank" />
+            <TextView android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="36.0dip" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/gallery1_blank_title" android:textAllCaps="false" />
+            <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="28.0dip" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="16.0dip" android:text="@string/gallery1_blank_text" android:textAllCaps="false" />
+        </LinearLayout>
+    </com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout>
+    <ImageView android:id="@id/v_preloader" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preloader_normal" android:layout_centerInParent="true" />
+</RelativeLayout>

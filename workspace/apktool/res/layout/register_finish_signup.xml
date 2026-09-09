@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="96.0dip" android:splitMotionEvents="false">
+        <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:background="@null" android:layout_width="160.0dip" android:layout_height="120.0dip" android:layout_marginTop="40.0dip" android:layout_marginBottom="40.0dip" android:src="@drawable/regist5_icon" android:scaleType="fitCenter" />
+                <TextView android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="28.0dip" android:text="@string/MID_CLD_FINISH_FINISH_TITLE" android:textAllCaps="false" />
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="16.0dip" android:text="@string/MID_CLD_FINISH_FINISH_INFO" android:textAllCaps="false" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_16dp">
+                    <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:src="@drawable/bar_btn_info_normal" android:scaleType="center" android:layout_centerVertical="true" />
+                    <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/MID_CLD_FINISH_INFO" android:layout_centerVertical="true" android:textAllCaps="false" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout>
+    </ScrollView>
+    <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="96.0dip" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/fsize_14dp" android:textStyle="bold" android:textColor="@color/btn_text_white" android:ellipsize="end" android:id="@id/btn_next" android:background="@drawable/btn_blank1" android:layout_width="260.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:text="@string/MID_COMMON_NEXT" android:lines="2" android:layout_centerHorizontal="true" android:textAllCaps="false" />
+    </RelativeLayout>
+</RelativeLayout>

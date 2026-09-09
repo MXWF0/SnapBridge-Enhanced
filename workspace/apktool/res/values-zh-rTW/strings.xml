@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_REMOTE_INTERRUPTED_RECORDING_MOVIE_BY_CAMERA">記錄動作已取消。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_BATTERY">電池電量低；無法開始遙控攝影。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_EXPOSURE_MODE">不兼容所選拍攝模式；無法開始遙控攝影。請選擇模式 P、S、A 或 M。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_LIVEVIEW_ON">無法開始遙控攝影。請檢查相機。當在相機上使用實時顯示或相機正在進行拍攝時，遙控攝影無法使用。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_MEMORY_CARD">無法開始遙控攝影。請檢查記憶卡。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_POWER_OFF">相機訊號中斷。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_TEMPERATURE">無法開始遙控攝影。請等待相機或無線行動配接器降溫。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_ZOOM_LENS">無法開始遙控攝影。鏡頭已縮回。</string>
+    <string name="MID_ABOUT_BOKEH_BLUR">散景和動作模糊</string>
+    <string name="MID_ABOUT_BOKEH_BLUR_DESC">相機根據所選主體和場景調整散景和動作模糊。</string>
+    <string name="MID_ACCESS_LOCATION_PRECISE">接下來將提示您提供存取位置資料的權限。選擇“精確位置”以允許存取裝置的精確位置。</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_CHECK">同意使用 Adobe Analytics</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_OFF">拒絕</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_ON">接受</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_DESC">本應用程式使用 Adobe Analytics 協助分析使用狀況。%s</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_ITEM">分析使用狀況</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA">相機忙碌。結束短片記錄或重播後再次嘗試連接。</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA_PLEASE_CAMERA_ON">拍攝設定無法上載至相機。開啟相機，準備拍攝，然後重試。</string>
+    <string name="MID_ALLERT_BEFORE_8MP_DOWNLOAD">使用相機記錄或觀看視頻可能會中斷下載。 檢查相機狀態。</string>
+    <string name="MID_APPROXIMATE">概略位置</string>
+    <string name="MID_APPS_MV2_INFO">"Nikon Manual Viewer 2 閱讀器應用程式可用於下載和閱讀尼康數碼單鏡反光相機的說明書。
+下載您相機的說明書可確保您隨時隨地都可線上或離線進行查看。"</string>
+    <string name="MID_APPS_MV2_NAME">Manual Viewer 2</string>
+    <string name="MID_APPS_NIS_INFO">尼康 NIKON IMAGE SPACE 相片分享服務的這款免費應用程式可讓您的相片體驗更親近，同時為您增添拍攝後的樂趣。它所擁有的三款簡便功能（即查看、整理和分享相片）將使世界各地愛好者的影像體驗更便捷、更愉悅、更效率化。</string>
+    <string name="MID_APPS_NIS_NAME">NIKON IMAGE SPACE</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLACK">黑色</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLUE">藍色</string>
+    <string name="MID_APP_CD_COLOR_LIST_BROWN">棕色</string>
+    <string name="MID_APP_CD_COLOR_LIST_DARKGRAY">深灰色</string>
+    <string name="MID_APP_CD_COLOR_LIST_WHITE">白色</string>
+    <string name="MID_APP_CD_COLOR_TITLE">顏色</string>
+    <string name="MID_APP_CD_CREDIT_ADD">新增信用資訊</string>
+    <string name="MID_APP_CD_CREDIT_NOTE">在影像中嵌入拍攝資訊或註釋。</string>
+    <string name="MID_APP_CD_CREDIT_POSITION">位置</string>
+    <string name="MID_APP_CD_CREDIT_PREV">預覽</string>
+    <string name="MID_APP_CD_CREDIT_TYPE">類型</string>
+    <string name="MID_APP_CD_FONT_LIST_BOLD">粗體</string>
+    <string name="MID_APP_CD_FONT_LIST_ITALIC">斜體</string>
+    <string name="MID_APP_CD_FONT_LIST_NORMAL">標準</string>
+    <string name="MID_APP_CD_FONT_TITLE">字體類型</string>
+    <string name="MID_APP_CD_POS_LEFT_BOTTOM">左下</string>
+    <string name="MID_APP_CD_POS_LEFT_TOP">左上</string>
+    <string name="MID_APP_CD_POS_RIGHT_BOTTOM">右下</string>
+    <string name="MID_APP_CD_POS_RIGHT_TOP">右上</string>
+    <string name="MID_APP_CD_SIZE_LIST_BIG">大</string>
+    <string name="MID_APP_CD_SIZE_LIST_MIDDLE">中</string>
+    <string name="MID_APP_CD_SIZE_LIST_SMALL">小</string>
+    <string name="MID_APP_CD_SIZE_TITLE">大小</string>
+    <string name="MID_APP_CD_TEXT_TITLE">輸入說明</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_COMMENT">影像註釋</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_DATE">拍攝日期</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_INDEX">檔案/相片資訊</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_LIST_INFO">相片資訊</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_PHOTOGRAPHER_AND_COPYRIGHT">拍攝者/版權所有者</string>
+    <string name="MID_APP_CD_TYPE_TITLE">信用資訊類型</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_COMMENT">註釋</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_SNAPBRIDGE_LOGO">SnapBridge 標誌</string>
+    <string name="MID_APP_CD_USER_SETTING_TITLE">使用者設定</string>
+    <string name="MID_APP_CREDIT">顯示信用資訊</string>
+    <string name="MID_APP_HASH">新增主題標籤</string>
+    <string name="MID_APP_NIKONID_SETTING">Nikon ID 註冊/編輯個人資料</string>
+    <string name="MID_APP_PRIVACY_POLICY">隱私政策</string>
+    <string name="MID_APP_PRIVACY_POLICY_CHECK">接受隱私政策條款</string>
+    <string name="MID_APP_PRIVACY_POLICY_DESC">閱讀監管應用程式使用者資料處理的隱私政策。</string>
+    <string name="MID_APP_SUPPORT_SITE">支援</string>
+    <string name="MID_APP_TERMS_OF_USE">授權合約</string>
+    <string name="MID_APP_TERMS_OF_USE_AGREEMENT_CHECK">接受應用程式授權合約</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MSG">請閱讀授權合約。</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MUST_READ_MSG">閱讀授權合約（必讀）</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC">有關服務條款以及使用本應用程式時所涉及各種服務的其他合約的資訊，請參見“授權合約”。</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC_TERMS_OF_USE">授權合約</string>
+    <string name="MID_ASK_BLUR">動作：您想要如何表達動作？</string>
+    <string name="MID_ASK_BOKEH">散景/景深：是否要柔化背景？</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE">自動連結的連線類型已隨著相機韌體更新而更改，現在必須更新設定。</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE_SYNCOFF">連結模式的連線類型已隨著相機韌體更新而更改，且連結模式顯示中的選項已更新。</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_TITLE">更改連線類型</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED">設定更新失敗</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED_TEXT">請確認已啟用相機上的 Bluetooth 並再次嘗試。</string>
+    <string name="MID_AUTOLINK_CHANGE_SUCCEEDED">設定已更新</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_BUTTON">繼續</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_MESSAGE">必須更改相機設定以允許使用“後台”連結模式。繼續?</string>
+    <string name="MID_AUTOLINK_MODE">連結模式</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND">後台</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND_DISCRIPTION">"即使您的智慧型裝置處於休眠模式，也可將其連結至相機。下載前，位置資料將被新增至相機上的照片中。
+選擇此模式時，應用程式將連線至相機。"</string>
+    <string name="MID_AUTOLINK_MODE_CHANGNG">正在更新設定……</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND">前台</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_DISCRIPTION">"在應用程式執行時連結至相機。位置資料僅在下載後才會新增至照片。
+降低了相機的電池電量消耗。"</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_SAVING">前台</string>
+    <string name="MID_AUTOLINK_SIZE">下載大小</string>
+    <string name="MID_AUTOLINK_TIME_DISCRIPTION">相機上的時鐘將被設為智慧型裝置上的時間和時區。</string>
+    <string name="MID_AUTO_TRANSFER_WIFI">自動下載（Wi-Fi）</string>
+    <string name="MID_BACK_TO_HOME">返回設定庫清單</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_MOVIE">準備相機進行短片記錄</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_REMOTE">無法完成操作。請檢查相機設定。</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE">遙控操作不可用</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE_BY_CAMERA">遙控操作不可用。請檢查相機狀態。</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_STILL">準備相機進行相片拍攝</string>
+    <string name="MID_BLE_REMOTE_ALERT_CAN_START_AFTER_FINISH_SENDING">下載完成後將開始遙控操作。</string>
+    <string name="MID_BLE_REMOTE_BULBE_SHOOTING">B 門攝影中</string>
+    <string name="MID_BLE_REMOTE_CAMERA_STATE_ERROR">請檢查相機設定。</string>
+    <string name="MID_BLE_REMOTE_CHANGE_MODE">遙控選項</string>
+    <string name="MID_BLE_REMOTE_CONFIRM_FINISH">結束藍牙遙控？</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_RETURN">目前正在進行的拍攝操作將持續進行。輕觸 “藍牙遙控” 可返回拍攝顯示。</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_SHOOTING">關閉應用程式後相機將持續拍攝</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE">在相機螢幕上構圖的同時遙控拍攝照片，或者在電視機或其他顯示裝置上重播照片。</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE_CHANGE">使用該按键在兩個選項之間進行切換。</string>
+    <string name="MID_BLE_REMOTE_END_DATE_TIME">結束日期/時間</string>
+    <string name="MID_BLE_REMOTE_END_HALF_PRESS">解除半按</string>
+    <string name="MID_BLE_REMOTE_END_SHOOTING">結束拍攝</string>
+    <string name="MID_BLE_REMOTE_FINISH_TIME_SHOOTING">輕觸快門釋放按鍵以結束</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT">對焦移動拍攝</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT_SHOOTING">對焦移動拍攝中</string>
+    <string name="MID_BLE_REMOTE_INTERVAL">間隔定時拍攝</string>
+    <string name="MID_BLE_REMOTE_INTERVAL_SHOOTING">間隔定時拍攝中</string>
+    <string name="MID_BLE_REMOTE_NUMBER_SHOTS">剩餘間隔次數</string>
+    <string name="MID_BLE_REMOTE_PRESS_HALF_BUTTON">半按</string>
+    <string name="MID_BLE_REMOTE_SHOOTING">拍攝中</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_GUIDE">請在相機上調整拍攝設定</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_SHOOTING">其他拍攝選項</string>
+    <string name="MID_BLE_REMOTE_START_SHOOTING">開始拍攝</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE">縮時短片記錄</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE_SHOOTING">縮時短片記錄中</string>
+    <string name="MID_BLE_REMOTE_TIME_SHOOTING">定時攝影中</string>
+    <string name="MID_BLE_REMOTE_WIFI_CANCEL">使用藍牙遙控之前需切換至藍牙。</string>
+    <string name="MID_BLUR_SAMPLE">動作：範例</string>
+    <string name="MID_BOKEH_SAMPLE">散景：範例</string>
+    <string name="MID_BUTTON_GO_TO_CHUTORIAL">查看指南</string>
+    <string name="MID_BUTTON_GO_TO_HELP">查看說明描述。</string>
+    <string name="MID_BUTTON_RESET_SHOTTING_SETTING">重設相機拍攝設定</string>
+    <string name="MID_CAMERA_CONNECTION_AUTO_TRANSFER_IN_PROGRESS">自動下載中…（%1$d/%2$d）</string>
+    <string name="MID_CAMERA_CONNECTION_CONNECTING_TO_CAMERA">正在連線至相機。</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER">準備照片以進行自動下載。請稍候。</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER_SUMMARY">準備照片以進行自動下載</string>
+    <string name="MID_CAMERA_CONNECTION_UNABLE_TO_RECEIVE_BLUETOOTH_SIGNAL">未偵測到相機的藍牙。請確認已啟用相機上的藍牙。</string>
+    <string name="MID_CAMERA_CONNECTION_WAITING_CAMERA_RESPONSE">偵測到相機的藍牙。您可使用應用程式的各種功能。</string>
+    <string name="MID_CAMERA_IMPORTING_TITLE">正在下載照片…</string>
+    <string name="MID_CAM_ACTIVE_BLE_REMOTE">藍牙遙控</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_MSG">請稍候。</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_TITLE">正在準備相機…</string>
+    <string name="MID_CAM_ACTIVE_CHANGE_WIFI_DLG_TITLE">啟用相機 Wi-Fi</string>
+    <string name="MID_CAM_ACTIVE_DLG_CHANGE_WIFI_DLG_MSG_1">"您必須切換至 Wi-Fi 才可使用此功能。
+注意：進行切換可能需要一些時間。"</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_1">"結束與此相機的配對？
+注意：您僅可在相機已與您的裝置配對時連線至相機。"</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_3">請使用 iOS 設定應用程式 藍牙 部分中的“忘記”選項將相機從已配對裝置列表中移除，否則您將無法再次與此相機配對。</string>
+    <string name="MID_CAM_ACTIVE_DLG_TITLE">結束配對？</string>
+    <string name="MID_CAM_ACTIVE_IMPORT">下載照片</string>
+    <string name="MID_CAM_ACTIVE_REMOTE">遙控攝影</string>
+    <string name="MID_CAM_ACTIVE_SERIAL">序號</string>
+    <string name="MID_CAM_ACTIVE_SYNC">自動連結選項</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_0">"正在啟動相機 Wi-Fi。
+請稍候。"</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_1">"正在透過 Wi-Fi 連線至相機。
+請稍候。"</string>
+    <string name="MID_CAM_ADD_LIMIT_NUMBER_OF_CAMERA_PAIRING">SnapBridge 最多可儲存 5 台相機的配對資訊</string>
+    <string name="MID_CAM_ADD_PAIRING">新增相機</string>
+    <string name="MID_CAM_CHANGE_REMOTE">切換至遙控攝影</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTED">已連線至相機。</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTING">"正在連線至相機。
+請稍候。"</string>
+    <string name="MID_CAM_CONNECT_MSG_WAIT_RES">當相機螢幕中顯示一個驗證碼時，按下相機 OK 按鍵。</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTED">配對完成</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTING">正在連線至相機…</string>
+    <string name="MID_CAM_NORMAL_MODE">退出 Wi-Fi AP 模式</string>
+    <string name="MID_CAM_PAIRING_CATEGORY_OTHER">其他</string>
+    <string name="MID_CAM_PAIRING_NOTE_COOLPIX">"在相機 網路選單 中選擇 連接至智慧型裝置。
+
+按照螢幕上的指示說明進行操作直至顯示相機名稱。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_C_ML">"在相機設定或網路選單中選擇“連接至智慧型裝置” > “Wi-Fi 連接”。
+注意：在某些相機中，該選項位於“Wi-Fi”選單中。
+
+選擇“建立 Wi-Fi 連接”顯示相機 SSID 和密碼。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_DRS">"在相機 設定選單 中選擇 連接至智慧型裝置。
+
+按照螢幕上的指示說明進行操作直至顯示相機名稱。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_KM80">"在相機 設定選單 中選擇 連接至智慧型裝置。
+
+按照螢幕上的指示說明進行操作直至顯示相機名稱。
+ 
+注意：僅當相機中插有記憶卡時才可進行配對。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML1DSLR2">"在相機設定選單中選擇“連接至智慧型裝置” 。
+
+選擇“配對 (Bluetooth)”。
+
+按照螢幕上的指示說明進行操作直至顯示相機名稱。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML2">"在相機網路選單中選擇“連接至智慧型裝置” 。
+
+選擇“配對 (Bluetooth)”。
+
+按照螢幕上的指示說明進行操作直至顯示相機名稱。"</string>
+    <string name="MID_CAM_PAIRING_SELECT_LB">選擇要連線的相機。</string>
+    <string name="MID_CAM_PAIRING_SELECT_TITLE">連線至相機</string>
+    <string name="MID_CAM_SYMC_OFF_CONFIRM">如果將“自動下載”、“時鐘”和“位置資料”這 3 個選項全部停用，則“自動連結”也會被停用。</string>
+    <string name="MID_CAM_SYMC_OFF_SYNC_INFO">"啟用自動連結後，即使智慧型裝置處於休眠模式，自動下載以及時鐘和位置同步也將繼續。
+若您不使用這些功能，請停用自動連結以減少電池電量消耗。"</string>
+    <string name="MID_CAM_SYNC_ALERT_TIME_SYNC">因為已根據記錄的時間和日期，將位置資料新增到照片，所以啟用“位置資料”時不能停用“時鐘”。</string>
+    <string name="MID_CAM_SYNC_AUTO_TRANS">自動下載</string>
+    <string name="MID_CAM_SYNC_POS_SYNC">位置資料</string>
+    <string name="MID_CAM_SYNC_REQUIRES_TIME_SYNC">因為已根據記錄的時間和日期，將位置資料新增到照片，所以啟用“位置資料”時不能停用“時鐘”。</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY">節能模式</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY_SETTINGS">節能</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID">如果在設定的時間段內沒有執行任何操作，智慧型裝置將暫停位置資料連結，以便減少電池電量消耗。使用裝置時會重新建立連結。</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID_OLD">"為減少電池電量消耗，當在設定的時段內超出相機範圍時，智慧型裝置將暫停在後台執行的連結。
+SnapBridge 啟動時，連結將會重新建立。"</string>
+    <string name="MID_CAM_SYNC_SYNC_LB">自動連結</string>
+    <string name="MID_CAM_SYNC_TIME_SYNC">時鐘</string>
+    <string name="MID_CAM_SYNC_TITLE">連結選項</string>
+    <string name="MID_CAM_WIFI_MODE">Wi-Fi mode</string>
+    <string name="MID_CAM_WIFI_MODE1">Wi-Fi 模式</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK">請檢查相機的兼容性和所支援的功能</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK_STATUS0">啟動 Wireless Mobile Utility。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG">某些相機無需配對即支援一些 SnapBridge 功能。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_CONNECTED">已透過 Wi-Fi 連線至相機。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_NOT_CONNECTED">未連線至相機。啟動智慧型裝置設定應用程式並檢查 Wi-Fi 設定。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS0">請使用 Wireless Mobile Utility 連線至此相機。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS1">在未配對的情況下請選擇 Wi-Fi 模式下載照片或遙控相機。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE0">使用 Wi-Fi 連線至相機？</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_CONNECTED">已建立 Wi-Fi 連接</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS0">在不兼容的相機中使用 Wi-Fi</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS1">已連線未配對的相機</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT0">輕觸此處進行臨時的 Wi-Fi 連線。</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT1">注意：不支援某些功能。</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT2">"啟動智慧型裝置上的設定應用程式並選擇 Wi-Fi 設定。
+
+選擇相機所示的 SSID 後，輸入相機所示的密碼。
+
+一旦建立連線，請返回 SnapBridge 應用程式。"</string>
+    <string name="MID_CAM_WIFI_MODE_TITLE">Wi-Fi 連線</string>
+    <string name="MID_CANCEL">取消</string>
+    <string name="MID_CANNOT_LOGIN_DUE_TO_MAINTENANCE_MSG">由於正在進行維護，目前無法登入。請稍後重試。</string>
+    <string name="MID_CANNOT_SIGN_UP_DUE_TO_MAINTENANCE_MSG">由於正在進行維護，目前無法註冊。請稍後重試。</string>
+    <string name="MID_CD_EDIT_LOGO_LB">標誌影像</string>
+    <string name="MID_CHANNEL_RETRY_GETTING_CHANNEL">刷新資訊</string>
+    <string name="MID_CHOICE_CONNECTABLE_CAMERA">從可連接相機中選擇</string>
+    <string name="MID_CHOICE_RESIDENCE_CHINA">中國大陸</string>
+    <string name="MID_CHOICE_RESIDENCE_DECISION">確定</string>
+    <string name="MID_CHOICE_RESIDENCE_LABEL">國家/地區</string>
+    <string name="MID_CHOICE_RESIDENCE_OTHER">其他國家/地區</string>
+    <string name="MID_CHOICE_USE_NIS_NO">不是現在</string>
+    <string name="MID_CHOICE_USE_NIS_YES">使用</string>
+    <string name="MID_CLD_ACCOUNT">帳戶</string>
+    <string name="MID_CLD_ACCOUNT_LOGOUT">登出</string>
+    <string name="MID_CLD_ACCOUNT_TITLE">帳戶</string>
+    <string name="MID_CLD_ALREADY_REGISTERED">ID 已存在</string>
+    <string name="MID_CLD_CLMEULA_TITLE">隱私政策</string>
+    <string name="MID_CLD_FINISH_FINISH_INFO">此時您即可上載照片至 NIKON IMAGE SPACE。但是，您並未完成 Nikon ID 註冊。</string>
+    <string name="MID_CLD_FINISH_FINISH_TITLE">若要完成註冊，請按一下我們傳送給您的電郵正文中的連結。</string>
+    <string name="MID_CLD_FINISH_INFO">若您未在 30 天內完成該操作，您的註冊將會自動取消。</string>
+    <string name="MID_CLD_INSTALL_APP">安裝應用程式</string>
+    <string name="MID_CLD_INVALID_EMAIL_ADDRESS_OR_PASSWORD">ID 或密碼不正確。請重新輸入。</string>
+    <string name="MID_CLD_INVALID_MAIL_ADDRESS">無效電子郵件地址。請輸入一個有效地址。</string>
+    <string name="MID_CLD_INVALID_PASS">密碼不正確。請重試。</string>
+    <string name="MID_CLD_INVALID_PASSWORD">無效密碼。請輸入一個有效密碼。</string>
+    <string name="MID_CLD_LAUNCH_APP">啟動應用程式</string>
+    <string name="MID_CLD_LOGIN_DIALOG_TEXT">在網頁瀏覽器中查看 Nikon ID 網站？</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIKON_ID">編輯或刪除 Nikon ID</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIS">編輯或刪除 NIKON IMAGE SPACE 帳戶資訊</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_MSG">登入中。請稍候。</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_TITLE">登入中…</string>
+    <string name="MID_CLD_LOGIN_LOG_IN">登入</string>
+    <string name="MID_CLD_LOGIN_PRIVILEGE_OF_NIKON_ID">註冊 Nikon ID 的好處</string>
+    <string name="MID_CLD_LOGIN_SIGN_UP">建立 Nikon ID 帳戶</string>
+    <string name="MID_CLD_LOGIN_STEP_TITLE">Nikon ID 帳戶</string>
+    <string name="MID_CLD_LOGOUT_TO_UNSUBSCRIBE_FROM_NIKON_ID">編輯或刪除您的 Nikon ID 之前退出。</string>
+    <string name="MID_CLD_MAIL_ADDRESS">電郵</string>
+    <string name="MID_CLD_MAIL_AGREE_AND_NEXT">我同意條款與細則</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_MSG">"我們正在驗證您的電子郵件地址。
+請稍候。"</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_TITLE">電子郵件地址驗證中…</string>
+    <string name="MID_CLD_MAIL_MAIL_INPUT">電子郵件地址</string>
+    <string name="MID_CLD_MAIL_STEP_INFO2">"請輸入您將用於 Nikon ID 的電子郵件地址。
+登出後再次登入的使用者應輸入目前用於 NIKON IMAGE SPACE 的地址。"</string>
+    <string name="MID_CLD_MAIL_STEP_TITLE">註冊電子郵件地址</string>
+    <string name="MID_CLD_NIKON_ID">Nikon ID</string>
+    <string name="MID_CLD_NIKON_ID_TERMS_OF_SERVICE">Nikon ID</string>
+    <string name="MID_CLD_NIS_INFO2">已傳輸到智慧型裝置的影像可自動上載至 NIKON IMAGE SPACE。您可上載不限數量的 200 萬像素影像。</string>
+    <string name="MID_CLD_NIS_TITLE">無限制自動上載</string>
+    <string name="MID_CLD_NOTICE_REGISTRATION_PROCESSING_TITLE">註冊中…</string>
+    <string name="MID_CLD_NOT_AUTHORIZED">驗證失敗。伺服器或網路可能存在問題。</string>
+    <string name="MID_CLD_PASSWORD">密碼</string>
+    <string name="MID_CLD_PASS_CHECKING_PASS_TITLE">密碼驗證中…</string>
+    <string name="MID_CLD_PASS_CONFIRM">確認密碼</string>
+    <string name="MID_CLD_PASS_FOGOT_PASS">忘記您的密碼？</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_INFO">"請輸入您的 NIKON IMAGE SPACE 密碼以確認進行註冊。
+注意：8 至 15 個字元"</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_TITLE">NIKON IMAGE SPACE 密碼</string>
+    <string name="MID_CLD_PASS_PASS_TEXT">8 至 15 個字元</string>
+    <string name="MID_CLD_PASS_STEP_INFO">"請設定您的 Nikon ID 密碼。
+注意：8 至 15 個字元"</string>
+    <string name="MID_CLD_PASS_STEP_TITLE">選擇密碼</string>
+    <string name="MID_CLD_PASS_TITLE">註冊 Nikon ID</string>
+    <string name="MID_CLD_PROVISIONAL_REGISTRATION_FINISHED_TITLE">註冊完成</string>
+    <string name="MID_CLD_SET_PRODUCT_INFO">必填</string>
+    <string name="MID_CLD_START">開始</string>
+    <string name="MID_CLD_SYNC_AREA">地區</string>
+    <string name="MID_CLD_SYNC_FIRMWARE_VERSION">韌體版本</string>
+    <string name="MID_CLD_SYNC_LANGUAGE">語言</string>
+    <string name="MID_CLD_SYNC_PRODUCT_NAME">產品名稱</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PROCUCT_INFO">將包含以下資訊：</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PRODUCT_INDEX">註冊相關產品</string>
+    <string name="MID_CLD_SYNC_SERIAL_NUMBER">序號</string>
+    <string name="MID_CLD_SYNC_TIMEZONE_TITLE">時區</string>
+    <string name="MID_CLD_TERMS_OF_SERVICE">條款與細則</string>
+    <string name="MID_CLD_UNDER_MAINTENANCE">驗證失敗。伺服器目前正在維護。</string>
+    <string name="MID_CLD_UPDATE_APPLICATION_TO_LOGIN_OR_INITIALIZE_NID">Nikon ID 註冊和登入程序已更改。 更新到最新版本的應用程式，然後再試一次。</string>
+    <string name="MID_CLD_UPLOAD">自動上載</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_INDEX">在以下情況時自動上載照片：</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON">僅透過 Wi-Fi 連線</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON_DESC">您可調整設定使照片僅透過 Wi-Fi 自動上載。上載內容可能包含大量數據；請注意不要超過網路提供商的數據限制。</string>
+    <string name="MID_CLD_UPLOAD_INFO">從相機下載的照片可自動上載至 NIKON IMAGE SPACE。</string>
+    <string name="MID_COMMON_1">1</string>
+    <string name="MID_COMMON_10">10</string>
+    <string name="MID_COMMON_11">11</string>
+    <string name="MID_COMMON_1800S">1800 秒</string>
+    <string name="MID_COMMON_2">2</string>
+    <string name="MID_COMMON_2M">2 M</string>
+    <string name="MID_COMMON_3">3</string>
+    <string name="MID_COMMON_300S">300 秒</string>
+    <string name="MID_COMMON_4">4</string>
+    <string name="MID_COMMON_5">5</string>
+    <string name="MID_COMMON_6">6</string>
+    <string name="MID_COMMON_600S">600 秒</string>
+    <string name="MID_COMMON_7">7</string>
+    <string name="MID_COMMON_8">8</string>
+    <string name="MID_COMMON_9">9</string>
+    <string name="MID_COMMON_ADVANCED_SETTINGS">進階設定</string>
+    <string name="MID_COMMON_ALWAYS_ON">一直開啟</string>
+    <string name="MID_COMMON_ASC">ASCII</string>
+    <string name="MID_COMMON_AUTHENTICATION">身份驗證/加密</string>
+    <string name="MID_COMMON_AUTO">自動</string>
+    <string name="MID_COMMON_AUTO_POWEROFF_DELAY">自動關閉延遲</string>
+    <string name="MID_COMMON_AUTO_TRANSFER_ONLY_WHILE_CONNECTED">自動下載（僅在連接時）</string>
+    <string name="MID_COMMON_CAMERA_TO_CONNECT">要連接的相機</string>
+    <string name="MID_COMMON_CANCEL">取消</string>
+    <string name="MID_COMMON_CHANNEL">通道</string>
+    <string name="MID_COMMON_CLOSE">關閉</string>
+    <string name="MID_COMMON_CONFIRM">確認</string>
+    <string name="MID_COMMON_CONFIRM_TARGET_CAMERA">檢查兼容相機</string>
+    <string name="MID_COMMON_CONNECTABLE_CAMERA">可連接相機</string>
+    <string name="MID_COMMON_CONNECTING_CAMERA">連接的相機</string>
+    <string name="MID_COMMON_CONNECT_BUSY_DLG_MSG">相機繁忙</string>
+    <string name="MID_COMMON_CONNECT_ERR_ACCESS_DENIED">無法連接相機。請在相機上選擇重播模式並重試。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG1">找不到相機。請參見線上說明。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG2">相機 Wi-Fi 處於關閉狀態。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG3">無法連線；相機目前正在處理其他連線。請閱讀有關如何解決該問題的線上說明資訊，然後再重試。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG4">與相機的連線失敗。請閱讀有關如何解決該問題的線上說明資訊，然後再重試。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG5">發生錯誤</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG6">配對失敗。若這不是您預期的結果，請參見線上說明。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG7">"相機已連線至其他裝置。
+請在 藍牙 > 已配對裝置 列表中選擇您的智慧型裝置。若相機目前未與您的裝置配對，請再次將相機與智慧型裝置配對。"</string>
+    <string name="MID_COMMON_CONNECT_ERR_DURING_SHOOTING">無法開始遙控攝影。請結束相機上的拍攝並重試。</string>
+    <string name="MID_COMMON_COUNTRY_CODE">tw</string>
+    <string name="MID_COMMON_DESTRUCTION">清除</string>
+    <string name="MID_COMMON_DHCP_CLIENT_IP_ADRESS">DHCP 用戶端 IP 位址</string>
+    <string name="MID_COMMON_DHCP_SERVER_IP_ADRESS">DHCP 伺服器 IP 位址</string>
+    <string name="MID_COMMON_DISCARD_SETTING">丟棄設定</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_CLIENT">輸入 DHCP 用戶端的 IP 位址。</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_SERVER">輸入 DHCP 伺服器的 IP 位址。</string>
+    <string name="MID_COMMON_ENTER_SUBNET_MASK">輸入子網路遮罩。</string>
+    <string name="MID_COMMON_FIRM">韌體更新</string>
+    <string name="MID_COMMON_GO_TO_OS_SETTINGS">前往設定</string>
+    <string name="MID_COMMON_HELP">說明</string>
+    <string name="MID_COMMON_HEX">HEX</string>
+    <string name="MID_COMMON_INITIALIZE">重設</string>
+    <string name="MID_COMMON_LANGUAGE_CODE">zh-tw</string>
+    <string name="MID_COMMON_LOGIN">已登入</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG">連線失敗</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG2">連線失敗。伺服器或網路可能存在問題。</string>
+    <string name="MID_COMMON_NEXT">下一步</string>
+    <string name="MID_COMMON_NICKNAME">暱稱</string>
+    <string name="MID_COMMON_NO">否</string>
+    <string name="MID_COMMON_NOFIFICATION_BATTERY_ALERT1">相機電池電量低。</string>
+    <string name="MID_COMMON_NONE">無</string>
+    <string name="MID_COMMON_NOP">---</string>
+    <string name="MID_COMMON_NOTICE">注意</string>
+    <string name="MID_COMMON_NOTIFICATION_CAMERA_ERROR">"自動連結停用（節能模式）。
+啟動 SnapBridge 時將恢復自動連結。"</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG1">"NIKON IMAGE SPACE 儲存空間已滿。
+自動上載中斷。"</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG2">"無法登入。
+自動上載中斷。"</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG3">"NIKON IMAGE SPACE 目前正在維護。
+自動上載中斷。"</string>
+    <string name="MID_COMMON_NOTIFICATION_STOP">位置資料獲取暫停。請啟動應用程式以重新開始。</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_ERROR">正在進行下載</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_STOP">下載取消</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_SUCCESS">下載完畢</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG1">"智慧型裝置上的儲存空間不足。
+下載暫停。"</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG2">"存取儲存目的地被拒絕。
+下載暫停。"</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG3">"儲存數據失敗。
+下載暫停。"</string>
+    <string name="MID_COMMON_OFF">關閉</string>
+    <string name="MID_COMMON_OK">確定</string>
+    <string name="MID_COMMON_ON">開啟</string>
+    <string name="MID_COMMON_OPEN">開放</string>
+    <string name="MID_COMMON_OPEN_BROWSER">在瀏覽器中開啟</string>
+    <string name="MID_COMMON_ORIGINAL">原始</string>
+    <string name="MID_COMMON_PAIRING">與相機配對</string>
+    <string name="MID_COMMON_PASSWORD">密碼</string>
+    <string name="MID_COMMON_PASSWORD_ENTLY">密碼輸入</string>
+    <string name="MID_COMMON_PASSWORD_HEX">密碼 (HEX)</string>
+    <string name="MID_COMMON_PBC">PBC</string>
+    <string name="MID_COMMON_PIN">PIN</string>
+    <string name="MID_COMMON_POSITION_PRECISION">精確度</string>
+    <string name="MID_COMMON_REBOOT">重新啟動</string>
+    <string name="MID_COMMON_RELEASE">刪除</string>
+    <string name="MID_COMMON_RELEASE_WIFI_STATION_MODE">退出 Wi-Fi STA 模式</string>
+    <string name="MID_COMMON_SAVED_CAMERA">儲存的相機</string>
+    <string name="MID_COMMON_SAVE_DIR">儲存目的地</string>
+    <string name="MID_COMMON_SAVE_VALUE_NOT_SD">內置記憶體</string>
+    <string name="MID_COMMON_SAVE_VALUE_SD">指定的檔案夾</string>
+    <string name="MID_COMMON_SETTING">設定</string>
+    <string name="MID_COMMON_SIMPLE_SHOTTING_SETTING">輕鬆拍攝設定</string>
+    <string name="MID_COMMON_SKIP">略過</string>
+    <string name="MID_COMMON_SLOT1">插槽 1</string>
+    <string name="MID_COMMON_SSID">SSID</string>
+    <string name="MID_COMMON_START_WIFI_CONNECT">連接 Wi-Fi</string>
+    <string name="MID_COMMON_SUBNET_MASK">子網路遮罩</string>
+    <string name="MID_COMMON_UPDATE">更新</string>
+    <string name="MID_COMMON_VERSION">Ver. %s</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE">Wi-Fi AP 模式</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE_CONNECT">Wi-Fi AP 模式連接</string>
+    <string name="MID_COMMON_WIFI_CONNECT_SETTING">Wi-Fi 連接設定</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE">Wi-Fi STA 模式</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE_CONNECT">Wi-Fi STA 模式連接</string>
+    <string name="MID_COMMON_WMU_CONFIG">WMA 設定</string>
+    <string name="MID_COMMON_WMU_INFO">WMA 資訊</string>
+    <string name="MID_COMMON_WPA2_PSK_AES">WPA2-PSK-AES</string>
+    <string name="MID_COMMON_WPS_MODE">WPS 模式</string>
+    <string name="MID_COMMON_WPS_PIN">WPS PIN</string>
+    <string name="MID_COMMON_YES">是</string>
+    <string name="MID_CONFIG_PASSWORD_ENTLY">選擇輸入密碼的方法。</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_ASC">"為無線行動配接器選擇一個密碼（加密金鑰）。
+密碼長度可為 8 至 63 個字元。"</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_HEX">"為無線行動配接器輸入一個密碼。
+請輸入一個 64 位數字的十六進位密碼。"</string>
+    <string name="MID_CONFIG_SECURITY_OF_WMA">選擇無線行動配接器使用的安全性通訊協定。</string>
+    <string name="MID_CONFIG_SLEEP_NO_WIFI_CONNECTION">選擇沒有 Wi-Fi 連線時裝置進入睡眠模式前的延遲時間。</string>
+    <string name="MID_CONFIG_SSID_OF_WMA">為無線行動配接器選擇一個 SSID。</string>
+    <string name="MID_CONFIG_WIRELESS_CHANNEL">選擇一個無線通道。</string>
+    <string name="MID_CONFIG_WPS_MODE">為無線行動配接器選擇一個 WPS 模式。</string>
+    <string name="MID_CONFIG_WPS_PIN">為無線行動配接器選擇 WPS PIN。</string>
+    <string name="MID_CONFIRMED">上載</string>
+    <string name="MID_CONFIRM_DELETE">所選設定庫一旦刪除，將不能恢復。確定？</string>
+    <string name="MID_CONFIRM_DIAL_GAID">檢查相機模式撥盤</string>
+    <string name="MID_CONFIRM_DIAL_IS_SET">將設定上載至相機之前，請安裝一個鏡頭，並半按快門釋放按鍵，以確保啟用自動對焦。確認撥盤位於正確位置後，輕觸下方的“上載”按鍵將設定上載至相機。</string>
+    <string name="MID_CONFIRM_REBOOT_WMA">套用設定並重新啟動無線行動配接器？</string>
+    <string name="MID_CONFIRM_SETTING">"若滿意您的選擇，
+請儲存您的設定。"</string>
+    <string name="MID_CONFIRM_SETTING_DESC">該應用程序將在上載過程中為目標相機定制這些設定。</string>
+    <string name="MID_CONNECT_CAMERA_ALWAYS">"與相機建立常用連線。
+選擇該選項可存取所有無線功能。"</string>
+    <string name="MID_CONNECT_CAMERA_TEMPORARY">與相機建立臨時連線。</string>
+    <string name="MID_CONNECT_WIFI_WPA3_ERROR">作業系統不支援 WPA3-SAE。更改相機 Wi-Fi 設定。有關詳情，請參見線上說明。</string>
+    <string name="MID_CREATE_SET">新增設定庫</string>
+    <string name="MID_CREATE_SET_TIP">輕觸此按鍵可建立新的設定庫</string>
+    <string name="MID_CURRENT_SETTING">目前設定</string>
+    <string name="MID_DATA_GETTING">"正在獲取資訊…
+請稍候。"</string>
+    <string name="MID_DATE_CREATED">建立時間：</string>
+    <string name="MID_DEFOCUS">柔化背景</string>
+    <string name="MID_DELETE">刪除</string>
+    <string name="MID_DELETE_NIS_ACCOUNT">刪除我的 NIKON IMAGE SPACE 帳戶</string>
+    <string name="MID_DIAL_GAID1">將相機頂部的撥盤旋轉至</string>
+    <string name="MID_DIAL_GAID2" />
+    <string name="MID_DIAL_GAID_ZFC">將相機頂部的撥盤旋轉至所示位置。</string>
+    <string name="MID_DIAL_GAID_ZFC_SS">將快門速度撥盤設定為“1/3 等級”，然後旋轉主指令撥盤以選擇 15 秒（15”）的快門速度。</string>
+    <string name="MID_DOWNLOAD_FINISH">下載完畢</string>
+    <string name="MID_EDIT">調整設定</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_DESC">放棄更改？</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_TITLE">確認取消</string>
+    <string name="MID_EDIT_PROCESS">更改設定</string>
+    <string name="MID_EMPH_BLUR">建立長運動光軌（需要三腳架）</string>
+    <string name="MID_END_OF_INTEGRARION_NIS_ACCOUNT">終止與 NIKON IMAGE SPACE 的連結</string>
+    <string name="MID_EXECUTE_RESET_SHOOTING_SETTING">重設拍攝設定</string>
+    <string name="MID_EXPLANATION_WMA">WMA：無線行動配接器</string>
+    <string name="MID_FAILED_CONNECT">連線失敗。請檢查相機並重試。</string>
+    <string name="MID_FAILED_CONNECT_TITLE">連接失敗</string>
+    <string name="MID_FILE_SIZE">檔案大小： %.1f MB</string>
+    <string name="MID_FILTER_SORT_CHANGING">設定變更中…</string>
+    <string name="MID_FILTER_SORT_CONFIRM_RAW_TRANSFER">下載 RAW 影像需要時間。繼續？</string>
+    <string name="MID_FILTER_SORT_DATE_NONE">停用</string>
+    <string name="MID_FILTER_SORT_DATE_ON_DOWN">啟用（降序）</string>
+    <string name="MID_FILTER_SORT_DATE_ON_UP">啟用（升序）</string>
+    <string name="MID_FILTER_SORT_DATE_VIEW">按日期排列</string>
+    <string name="MID_FILTER_SORT_DISP_SETTING">顯示選項</string>
+    <string name="MID_FILTER_SORT_FILE_MOVIE">短片</string>
+    <string name="MID_FILTER_SORT_FILE_STILL">相片</string>
+    <string name="MID_FILTER_SORT_FILE_STILL_MOVIE">相片和短片</string>
+    <string name="MID_FILTER_SORT_FILE_TYPE">檔案</string>
+    <string name="MID_FILTER_SORT_FILTER">篩選</string>
+    <string name="MID_FILTER_SORT_FOLDER">檔案夾</string>
+    <string name="MID_FILTER_SORT_HEIF_AND_VIDEOS">HEIF 和短片</string>
+    <string name="MID_FILTER_SORT_HOW_TO_DISPLAY_RAW">若要查看 RAW 影像，請更改這些顯示設定。</string>
+    <string name="MID_FILTER_SORT_IMAGE_QUALITY">影像品質</string>
+    <string name="MID_FILTER_SORT_JPEG_AND_MOVIE">短片和 JPEG 相片</string>
+    <string name="MID_FILTER_SORT_PROTECTED">受保護的影像</string>
+    <string name="MID_FILTER_SORT_QUALITY_HEIF">HEIF</string>
+    <string name="MID_FILTER_SORT_QUALITY_JPEG">JPEG</string>
+    <string name="MID_FILTER_SORT_QUALITY_RAW">RAW</string>
+    <string name="MID_FILTER_SORT_RATED">已評分的影像</string>
+    <string name="MID_FILTER_SORT_RAW_AND_MOVIE">短片和 RAW 相片</string>
+    <string name="MID_FILTER_SORT_RESULT">篩選結果 : %s</string>
+    <string name="MID_FILTER_SORT_SLOT_ALL">目前插槽中卡上所有的檔案夾</string>
+    <string name="MID_FILTER_SORT_WARNING_RAW">影像品質選為 RAW 時，最多可以選擇 100 張照片。下載 RAW 影像需要更多時間。</string>
+    <string name="MID_FILTER_SORT_WARNING_SELECTED_OVER">影像品質選為 RAW 時，無法選擇 100 張以上的照片。</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING">拍攝設定重設完成</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING_DESC">相機拍攝設定已重設。</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_CHECK">同意使用 Google Analytics for Firebase</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_OFF">拒絕</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_ON">接受</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DESC">本應用程式使用 Google Analytics for Firebase 協助分析使用狀況。%s</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DETAIL">詳情</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_ITEM">分析使用狀況</string>
+    <string name="MID_FIRMWARE_VERSION">韌體版本</string>
+    <string name="MID_FOR_A_WHILE_WAIT_PLEASE">請稍候。</string>
+    <string name="MID_FWU_ACCESS_WEB_SITE">注意：本相機的韌體更新無法從智慧型手機或平板電腦進行操作。</string>
+    <string name="MID_FWU_AGREE_AND_DOWNLOAD">接受並下載</string>
+    <string name="MID_FWU_ALERT_CONNECT_WIFI">• 在“傳輸”階段，智慧型手機或平板電腦的 Wi-Fi 連接將暫時切換連接至相機。</string>
+    <string name="MID_FWU_ALERT_NOT_CLOSE">• 請勿退出該對話窗。否則將終止韌體更新。</string>
+    <string name="MID_FWU_BATTERY_OVER_80">• 電池電量高於 80%</string>
+    <string name="MID_FWU_CAN_DOWNLOAD">您可將新的韌體下載至電腦。</string>
+    <string name="MID_FWU_CAN_TRANSFER">您可將新韌體傳輸至相機並更新韌體。</string>
+    <string name="MID_FWU_CONFIRM_VERSION_UP">詳情</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_FILE_SIZE">更新檔案大小為 %.1f MB。建議使用 Wi-Fi。</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_PAUSE">中斷下載？</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_MSG">下載完畢，恢復操作時傳輸將會開始。</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_TITLE">中斷傳輸？</string>
+    <string name="MID_FWU_DIALOG_DOWNLOAD">下載</string>
+    <string name="MID_FWU_DIALOG_FW_DOWNLOAD">韌體下載</string>
+    <string name="MID_FWU_DOWNLOAD">下載</string>
+    <string name="MID_FWU_ERROR_BATTERY_NOT_ENOUGH">若相機電池電量低於 80%，韌體更新將無法進行。請為電池充電並重試。</string>
+    <string name="MID_FWU_ERROR_CAMERA_STATUS">相機尚未準備好進行韌體更新。請檢查相機狀態並重試。</string>
+    <string name="MID_FWU_ERROR_CARD_PROTECTED">記憶卡已被防寫。請解除記憶卡的鎖定並重試。</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_FULL">發生錯誤。請檢查記憶卡。</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_OFF">相機中未插入記憶卡。請插入一張記憶卡並重試。</string>
+    <string name="MID_FWU_ERROR_NETWORK">網路錯誤。請在訊號更好的地方重試。</string>
+    <string name="MID_FWU_ERROR_POWER_OFF">相機處於關閉狀態。請開啟相機並重試。</string>
+    <string name="MID_FWU_ERROR_SERVER">伺服器存在問題。請稍後重試。</string>
+    <string name="MID_FWU_ERROR_UNKNOWN">未知錯誤。</string>
+    <string name="MID_FWU_FIRMWARE_UPDATE_NOTICE">韌體更新通知</string>
+    <string name="MID_FWU_MEMORY_CARD_ON">• 已插入記憶卡</string>
+    <string name="MID_FWU_NEED_CAMERA_OPERATION">更新操作的剩餘部分無需使用 SnapBridge。請輕觸“確定”並使用相機完成更新。</string>
+    <string name="MID_FWU_NEED_CONDITIONS">繼續操作前，請確認：</string>
+    <string name="MID_FWU_NEW_FIRMWARE_VER">新韌體：</string>
+    <string name="MID_FWU_NOTIFY_DESCRIBE">您的相機有可用的新韌體。</string>
+    <string name="MID_FWU_NOTIFY_RESTART">前往</string>
+    <string name="MID_FWU_NOTIFY_START">前往</string>
+    <string name="MID_FWU_PAUSE">更新暫停。</string>
+    <string name="MID_FWU_POWER_ON">• 相機處於開啟狀態</string>
+    <string name="MID_FWU_RESTART">恢復</string>
+    <string name="MID_FWU_TAKE_FEW_MIN">這將需要幾分鐘。</string>
+    <string name="MID_FWU_TITLE">韌體更新</string>
+    <string name="MID_FWU_TITLE_STRING_FORMAT">韌體更新(%s)</string>
+    <string name="MID_FWU_TRANSFER">傳輸</string>
+    <string name="MID_FWU_VERSION_UP">更新</string>
+    <string name="MID_GALLERY_DATE">MM/dd</string>
+    <string name="MID_GALLERY_SELECT_PHOTO">選擇相片</string>
+    <string name="MID_GUIDANCE_DIALOG_AFTER">稍後</string>
+    <string name="MID_HASH_ADD_NOTE">分享影像時主題標籤可在輸入欄中自動新增。</string>
+    <string name="MID_HAVENT_SENT_TO_CAMERA_YET">該設定庫從未傳送至相機。</string>
+    <string name="MID_HOWTO_USER_SETTING">將上載的設定套用至相機</string>
+    <string name="MID_ICP_NUMBER">沪ICP备10016366号-20A</string>
+    <string name="MID_IMPORTANT_NOTICE">重要須知</string>
+    <string name="MID_IMPORT_ALERT_MSG0">若本應用程式在後台執行，Wi-Fi 下載在設定時段後將會取消。</string>
+    <string name="MID_IMPORT_ALERT_MSG1">請勿再次顯示該資訊</string>
+    <string name="MID_IMPORT_ALERT_MSG2">目前下載完成後，您可下載其他影像。</string>
+    <string name="MID_IMPORT_ALERT_MSG4">無法以 4 GB 以上的大小下載短片。</string>
+    <string name="MID_IMPORT_ALL_SELECT">選擇全部</string>
+    <string name="MID_IMPORT_CANCEL_SELECT">取消選擇</string>
+    <string name="MID_IMPORT_CONFIRM_RETRY" />
+    <string name="MID_IMPORT_ERR_MSG">"該應用程式不能存取相片，因此無法使用。
+在 iOS 中開啟“設定”並允許“SnapBridge”存取相片。"</string>
+    <string name="MID_IMPORT_EXEC_IMPORT">下載</string>
+    <string name="MID_IMPORT_FOLDER_ALL">所有檔案夾</string>
+    <string name="MID_IMPORT_ORIGINAL_FILE">原始格式</string>
+    <string name="MID_IMPORT_SELECT">選擇</string>
+    <string name="MID_IMPORT_SELECT_DESC">選擇您希望查看的檔案夾。</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_MGS">"獲取資訊失敗。
+請稍等片刻並重試。"</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_TITLE">獲取資訊失敗。</string>
+    <string name="MID_IMPORT_SIZE_2M">2 MP</string>
+    <string name="MID_IMPORT_SIZE_8M">8 MP (4K)</string>
+    <string name="MID_IMPORT_SPECIFIED_PICTURE">下載標記為下載的照片</string>
+    <string name="MID_IMPORT_SUSPEND_ERROR" />
+    <string name="MID_INITIALIZE_SETTING">重新設定</string>
+    <string name="MID_INPUT_NAME">輸入新名稱。</string>
+    <string name="MID_INTERRUPTED_TRANSFER_8MP_PICTURES">下載已終止。相機尚未準備好下載 800 萬像素檔案。結束視頻重播、攝影等操作將相機準備好下載，然後重試。</string>
+    <string name="MID_INTERRUPTED_TRANSFER_A_8MP_PICTURE">相機尚未準備好下載 800 萬像素檔案。結束視頻重播、攝影等操作將相機準備好下載，然後重試。</string>
+    <string name="MID_LAST_CAMERA">上次使用該設定庫的相機：</string>
+    <string name="MID_LAST_LENS">上次使用該設定庫的鏡頭：</string>
+    <string name="MID_LIKE">我的最愛</string>
+    <string name="MID_LINK_SPEED">連線速度</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_MSG">短片記錄過程中，實時顯示始終處於有效狀態。</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_TITLE">切換至實時顯示進行短片記錄。</string>
+    <string name="MID_LOGIN_TO_NIS">"NIKON IMAGE SPACE
+登入"</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_DUE_TO_TERMS_UPDATED_MSG">授權合約或隱私聲明已更新。請重新登入以確認更新。</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_MSG">請重新登入。</string>
+    <string name="MID_MANUAL_LOCATION_SYNC">下載位置資料</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING">正在下載位置資料</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING_SUB">"正在下載位置資料至相機。
+請稍候。"</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_FAILED">位置資料下載失敗</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_SUCCESS">位置資料下載完畢</string>
+    <string name="MID_MENU_TITLE">應用程式選項</string>
+    <string name="MID_MENU_TUTORIAL_TITLE">說明</string>
+    <string name="MID_MK_CHANNEL_NOT_LOGIN">未登入</string>
+    <string name="MID_MK_CHANNEL_TITLE">通知</string>
+    <string name="MID_MOTIF">主體和場景</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT">夜間遊行</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT_DESC">拍攝夜間遊行的生動畫面</string>
+    <string name="MID_MOTIF_COOKING">食物</string>
+    <string name="MID_MOTIF_EATING">食物</string>
+    <string name="MID_MOTIF_EATING_DESC">突出食物並柔化背景</string>
+    <string name="MID_MOTIF_EATING_OUT">全套大餐</string>
+    <string name="MID_MOTIF_EATING_OUT_DESC">拍攝色澤鮮亮的食物</string>
+    <string name="MID_MOTIF_FLOWERS">花草</string>
+    <string name="MID_MOTIF_FOR_AUCTION">線上拍賣</string>
+    <string name="MID_MOTIF_FOR_AUCTION_DESC">拍攝色彩明亮、鮮艷的待售物品</string>
+    <string name="MID_MOTIF_LANDSCAPE">風景</string>
+    <string name="MID_MOTIF_MAGIC_HOUR">日落</string>
+    <string name="MID_MOTIF_MAGIC_HOUR_DESC">突出日落</string>
+    <string name="MID_MOTIF_NATURE">自然風景</string>
+    <string name="MID_MOTIF_NATURE_DESC">以自然色彩拍攝相對明亮的照片</string>
+    <string name="MID_MOTIF_NIGHT">夜景</string>
+    <string name="MID_MOTIF_NIGHT_DESC">生動地捕捉夜景</string>
+    <string name="MID_MOTIF_NIGHT_VIEWING">夜景</string>
+    <string name="MID_MOTIF_PERSON">人物</string>
+    <string name="MID_MOTIF_PERSON_NIGHT">夜間人像</string>
+    <string name="MID_MOTIF_PERSON_NIGHT_DESC">在夜間拍攝中突出人像主體</string>
+    <string name="MID_MOTIF_PET">寵物</string>
+    <string name="MID_MOTIF_PET_INDOOR">寵物</string>
+    <string name="MID_MOTIF_PET_INDOOR_DESC">對於靜止的寵物</string>
+    <string name="MID_MOTIF_PET_OUTDOOR">活動寵物</string>
+    <string name="MID_MOTIF_PET_OUTDOOR_DESC">在拍攝活動寵物時“凝固”動作</string>
+    <string name="MID_MOTIF_PLANT">鮮花</string>
+    <string name="MID_MOTIF_PLANT_DESC">拍攝鮮艷奪目的花朵</string>
+    <string name="MID_MOTIF_PORTRAIT">人像</string>
+    <string name="MID_MOTIF_PORTRAIT_DESC">居中拍攝主要主體</string>
+    <string name="MID_MOTIF_RECORDS">地標/集體照</string>
+    <string name="MID_MOTIF_RECORDS_DESC">同時拍攝主體和背景</string>
+    <string name="MID_MOTIF_RELATIVES">逆光主體</string>
+    <string name="MID_MOTIF_RELATIVES_DESC">亮白背光臉部膚色</string>
+    <string name="MID_MOTIF_RIVER">水體</string>
+    <string name="MID_MOTIF_RIVER_DESC">捕捉流動的水流</string>
+    <string name="MID_MOTIF_SELECTED">所選主體和場景：</string>
+    <string name="MID_MOTIF_SELFY">自拍人像</string>
+    <string name="MID_MOTIF_SELFY_DESC">居中拍攝自己</string>
+    <string name="MID_MOTIF_SMALL_ITEMS">小型主體</string>
+    <string name="MID_MOTIF_SMALL_ITEMS_DESC">在明亮、鮮艷的照片中突出小物體</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR">室內運動</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR_DESC">在拍攝移動主體時“凝固”動作</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR">戶外運動</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR_DESC">在拍攝移動主體時“凝固”動作</string>
+    <string name="MID_MOTIF_STARS">夜空（需要三腳架）</string>
+    <string name="MID_MOTIF_STARS_DESC">在長時間曝光中捕捉星星的光輝</string>
+    <string name="MID_MOTIF_STILL_LIFE">產品</string>
+    <string name="MID_MOTIF_STREET">建築和城市風光</string>
+    <string name="MID_MOTIF_STREET_DESC">清晰捕捉建築和城市風光的細節</string>
+    <string name="MID_MOTIF_TREE_VIEWING">櫻花</string>
+    <string name="MID_MOTIF_TREE_VIEWING_DESC">以明亮、鮮艷的色彩拍攝開滿花的樹木</string>
+    <string name="MID_MOTION_BLUR">建立運動光軌</string>
+    <string name="MID_MOVE_TO_AUTOMATIC_ALIGNMENT_SETTING">開啟自動連結選項</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_BLUETOOTH">"藍牙 (附近的裝置) 權限已停用。
+請在您裝置的設定中啟用藍牙 (附近的裝置) 權限。"</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_LOCATION">"位置權限已停用。
+請在您裝置的設定中啟用位置權限。"</string>
+    <string name="MID_MSG_ATTACH_LOCATION_WIFI_MODE">"智慧型裝置獲取的位置資料可以在下載照片時增加到照片中。
+由於位置資料是在剛下載之前獲取的，若選擇“下載照片”選項，則照片上的位置資料可能與實際拍攝照片的位置不同。"</string>
+    <string name="MID_MSG_CAMERA_IS_ALWAYS_CONNECT">"一旦完成配對，您可隨時使用該連線。
+可以使用自動照片下載功能。"</string>
+    <string name="MID_MSG_CANNOT_CHOICE_RESIDENCE_LATER">"選擇您的居住地區。
+
+若您以後需要更改地區，請重新安裝該應用程式。"</string>
+    <string name="MID_MSG_CANNOT_SEARCH_BLUETOOTH">未偵測到相機 Bluetooth。請確認已啟用相機上的 Bluetooth。</string>
+    <string name="MID_MSG_CANNOT_SEND_SETTING">下載照片時，無法將拍攝設定傳輸至相機。</string>
+    <string name="MID_MSG_CONFIRM_ACCESSPOINT_NOTE">"檢查相機和裝置上選擇的存取點是否相同。若不相同，請從智慧型裝置上的%s應用程式啟動 Wi-Fi 設定，然後選擇相機上選擇的存取點。
+
+輕觸“連接 Wi-Fi”以顯示可連接相機的清單。從清單中選擇要連接的相機。"</string>
+    <string name="MID_MSG_CONFIRM_CANCEL_CONNECTING">是否要斷開此相機的連接？</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_TEMPORARILY">"建立與相機的一次性直接連接，以啟用遙控攝影和下載照片。
+有關詳情，請參見線上說明。"</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_VIA__WIFI_ONLY">僅使用 Wi-Fi 連接相機。</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_WHILE_CONNECTED_TO_INTERNET">"連接相機時會保持網際網路連線，以啟用自動下載、遙控攝影和照片下載。
+有關詳情，請參見線上說明。"</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE">"當透過 Wi-Fi 連接至相機時，將相機網路選單中的“連接至智慧型裝置”>“Wi-Fi 連接（STA mode）”選為“建立配置檔案”。
+有關詳情，請參見%s。"</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_HELP">線上說明</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_SETTING">設定</string>
+    <string name="MID_MSG_CONTENT_ERROR">"輸入文字不正確。
+請確認。"</string>
+    <string name="MID_MSG_ENABLE_WIFI_ICON">"輕觸 Wi-Fi 圖示，即可透過 Wi-Fi 連接相機。
+有關詳情，請參見線上說明。"</string>
+    <string name="MID_MSG_END_WIFI_CONNECTION">是否結束 Wi-Fi 連線？</string>
+    <string name="MID_MSG_GO_TO_HINT">輕觸此處瞭解如何拍攝的詳細資訊。</string>
+    <string name="MID_MSG_HOW_TO_SETTING_WIFI_STATION_MODE_NOTE">"在相機設定或網路選單中選擇“Wi-Fi 連接（STA mode）”，然後配置設定。有關詳情，請參見線上說明頁面。
+%s
+
+選擇步驟 1 中選擇的存取點。"</string>
+    <string name="MID_MSG_INITIALIZE">將設定重設為預設值？</string>
+    <string name="MID_MSG_INVALID_SUBNET_MASK_ERROR">"指定的 IP 位址和子網路遮罩不兼容。
+請輸入兼容的值。"</string>
+    <string name="MID_MSG_IP_ADDRESS_COLLISION_ERROR">伺服器 IP 位址與用戶端 IP 位址太相近。請選擇至少相差 4 的 IP 位址。</string>
+    <string name="MID_MSG_IP_ADDRESS_ERROR">無效的 IP 位址。</string>
+    <string name="MID_MSG_LOGOUT_TO_DELETE_NIS_ID">若要刪除您的 NIKON IMAGE SPACE 帳戶，您需要登出。</string>
+    <string name="MID_MSG_MISS_PASSWORD">輸入的密碼不符合設定要求。</string>
+    <string name="MID_MSG_NIS_IN_CHINA_HAS_ENDED">中國大陸地區從「SnapBridge」到「NIKON IMAGE SPACE」的上傳已結束。</string>
+    <string name="MID_MSG_NIS_PROSEDURE_FOR_RESUMING">"此訊息適用於一年以上未登入的使用者。您先前上載的所有相片或短片已從本網站刪除，它們以及您所建立的任何相簿和相簿盒都無法恢復。
+使用網頁瀏覽器登入 NIKON IMAGE SPACE 並恢復您的帳戶。"</string>
+    <string name="MID_MSG_NOT_MATCH_MODE_DIAL_SETTING">對於頂部沒有撥盤的相機，請根據該款機型的指定步驟設定拍攝模式。</string>
+    <string name="MID_MSG_NO_PASSWORD">沒有指定密碼。請輸入一個密碼。</string>
+    <string name="MID_MSG_OPEN_AUTOMATIC_ALIGNMENT_SETTING">自動連結已停用。可以透過自動連結選項重新啟動。</string>
+    <string name="MID_MSG_PARAMETER_SEND_FAILED">相機處理繁忙。結束短片記錄或重播後，請嘗試重新連接。</string>
+    <string name="MID_MSG_PAUSE_CONNECT_WITH_CAMERA">"是否暫停與相機的連接？
+再次輕觸圖示可恢復連接。"</string>
+    <string name="MID_MSG_PLEASE_TAP_CAMERA_OK_BUTTON">配對完成後，按下相機 OK 按鍵。</string>
+    <string name="MID_MSG_REBOOT_APPLICATION_FOR_NIKON_ID">Nikon ID 註冊和登入程序已更改。請重新啟動應用程式，然後再試一次。</string>
+    <string name="MID_MSG_RESTART_AFTER_IMPORTING">目前正透過 Wi-Fi 從相機下載影像。請在下載完成後重試。</string>
+    <string name="MID_MSG_RESUME_CONNECT_WITH_CAMERA">是否恢復與相機的連接？</string>
+    <string name="MID_MSG_SELECT_ACCESS_NOTIFICATION_FROM_DEVICE_SETTING">"除非您允許接收“SnapBridge”的通知，否則您可能無法下載照片和新增位置資料。
+ 
+進入裝置設定並允許存取通知。"</string>
+    <string name="MID_MSG_SELECT_ALLOW_NOTIFICATION">除非您允許接收“SnapBridge”的通知，否則您可能無法下載照片或新增位置資料。請選擇“允許”接收通知。</string>
+    <string name="MID_MSG_SEND_SHOTTING_SETTING_DURING_TRANSFERING_IMAGE">"目前正在透過 Wi-Fi 從相機下載影像。
+下載完成後，即可進行上載設定。"</string>
+    <string name="MID_MSG_START_IMPORT_SPECIFIED_PICTURE">相機儲存標記為下載的照片。開始下載照片。</string>
+    <string name="MID_MSG_SUBNET_MASK_ERROR">無效的子網路遮罩。</string>
+    <string name="MID_MSG_UPLOAD_RESET">將預設設定上載至相機以恢復其初始拍攝設定。</string>
+    <string name="MID_NEWS_GET_CHANNEL_FAILED">無法獲得新聞。</string>
+    <string name="MID_NEWS_GET_CHANNEL_NONE">沒有新聞。</string>
+    <string name="MID_NEW_PRODUCTS_INFO_LINK">新產品的資訊可從此處獲取</string>
+    <string name="MID_NEW_PRODUCT_DATA_DOWNLOAD">下載新產品的影像數據</string>
+    <string name="MID_NEXT">下一頁</string>
+    <string name="MID_NICKNAME_INPUT_NOTE">該暱稱將顯示在裝置所連線的相機上。</string>
+    <string name="MID_NICKNAME_INPUT_TITLE">智慧型裝置暱稱</string>
+    <string name="MID_NICKNAME_WARN_INFO">暱稱長度必須至少為 1 個字元。</string>
+    <string name="MID_NID_PRIVACY_POLICY_ITEM">隱私聲明</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_BLUETOOTH_TEXT">正在進行 Bluetooth 下載</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_BLUETOOTH_TEXT">正在進行 Bluetooth 下載，目前正在使用位置資料。</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_READY_TEXT">準備照片以進行自動下載，目前正在使用位置資料。</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_WIFI_TEXT">正在進行 Wi-Fi 下載，目前正在使用位置資料。</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_NO_LOCATION_TEXT">待機中…</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_READY_TEXT">準備照片以進行自動下載</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_TEXT">目前正在使用位置資料。</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_WIFI_TEXT">正在進行 Wi-Fi 下載</string>
+    <string name="MID_NOT_USED">該設定庫尚未上載至相機。</string>
+    <string name="MID_NO_BLUR">“凝固”動作</string>
+    <string name="MID_NO_SET">沒有可用的設定庫。輕觸下方右側按鍵可建立一個設定庫。</string>
+    <string name="MID_NUMBER_USE">已使用：</string>
+    <string name="MID_OK">確定</string>
+    <string name="MID_OPEN_OS_SETTING">開啟裝置的設定應用程式</string>
+    <string name="MID_PAN_FOCUS">一切保持銳化</string>
+    <string name="MID_PARAM_DETAIL">套用至相機的設定</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID">要使用“SnapBridge”功能時需存取“相片”。請選擇“允許取用所有照片”。</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID_14">要使用“SnapBridge”功能時需存取“相片和影片”。選擇“全部允許”。</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_IOS17">使用“SnapBridge”功能需要存取相片庫。選擇“允許全權取用”。</string>
+    <string name="MID_PERMISSION_ALLOW_BACKGROUND_RUNNING">SnapBridge 需要許可權才可在後台執行。</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS">允許智慧型手機存取您的位置以便其可與相機配對。</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING">請進入裝置設定並允許位置存取。</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING_FOR_R">"在 Android 下，您必須授權存取位置服務，以便使用配對和藍牙功能。
+在您裝置的“設定”應用程式中授權存取位置服務。"</string>
+    <string name="MID_PERMISSION_ALLOW_PHOTO_ACCESS_ANDROID_14">傳輸照片需要存取“相片和影片”。請在您裝置的“設定”應用程式中授權。</string>
+    <string name="MID_PERMISSION_ALLOW_STORAGE_ACCESS_IN_DEVICE_SETTING">SnapBridge 需要儲存存取才可下載照片。請進入裝置設定並允許儲存存取。</string>
+    <string name="MID_PERMISSION_ALWAYS_ALLOW_LOCATION_ACCESS">在 Android 下，您必須授予存取定位服務的權限，才能使用配對和 Bluetooth 功能。</string>
+    <string name="MID_PERMISSION_ENABLE_DEVICE_LOCATION">若要使用本應用程式，請啟用您裝置上的位置資料。</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALLOW">在下一對話窗中選擇“允許”</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALWAYS_ALLOW_FOR_R">接下來將提示您允許存取位置服務。輕觸“使用應用程式時”。</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_WIFI_ON">啟用 Wi-Fi</string>
+    <string name="MID_PERMISSION_NOT_GRANTED">應用程式缺少必要的許可權。進入裝置設定應用程式中的“SnapBridge”并啟動必要的許可權。</string>
+    <string name="MID_POS_GPS_LIST_HIGH">高（高精確度）</string>
+    <string name="MID_POS_GPS_LIST_HIGH_MIN">高</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE">中</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE_MIN">中</string>
+    <string name="MID_POS_GPS_LIST_ROUGH">低</string>
+    <string name="MID_POS_GPS_LIST_ROUGH_MIN">低</string>
+    <string name="MID_POS_GPS_NOTE">選擇“高”會增加相機和智慧型裝置中電池電量的消耗。在移動的交通工具（如汽車或火車）中使用時請勿選擇“高”。選擇“低”則意味著位置資料的更新頻率更低，但會減少智慧型裝置中電池電量的消耗。</string>
+    <string name="MID_POWERZOOM_SPEED">電動變焦速度</string>
+    <string name="MID_PRECISE">精確位置</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MSG">請閱讀隱私聲明。</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MUST_READ_MSG">閱讀隱私政策（必讀）</string>
+    <string name="MID_PROHIBIT_OPEN_WMA_MENU">透過內置 Wi-Fi 連接至相機時，從相機選單調整設定。</string>
+    <string name="MID_PTP_REMOTE_DESCRIBE">在智慧型裝置上構圖的同時遙控拍攝照片。</string>
+    <string name="MID_READ_HINTS">查看詳細的拍攝提示</string>
+    <string name="MID_REMOTE_CAMERA_SETTING">相機設定</string>
+    <string name="MID_REMOTE_MOVIE_NOT_SUPPORT_MODE">拍攝模式：所選模式在遙控短片記錄過程中不可用。將使用模式 P 代替。</string>
+    <string name="MID_REMOTE_NOT_START_REMOTE_BY_OLD_FTZ_FW">不支援 FTZ 接環配接器韌體版本。請升級 FTZ韌體。</string>
+    <string name="MID_REMOTE_NOT_TRANSFER_TIFF">在相機上將影像品質選為了 TIFF。相片可以遙控拍攝，但不會下載至智慧型裝置。</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_DESC">拍攝後自動下載照片。</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_INDEX">下載照片</string>
+    <string name="MID_REMOTE_SETTINGS_LIVE_VIEW_ENABLED">實時顯示</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_SECONDS">秒</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_TITLE">自拍選項</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_DESC">照片將在您輕觸圖示 3 秒之後拍攝。</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_INDEX">自拍</string>
+    <string name="MID_REMOTE_SIZE_ONLY_2M_8M_JPEG_OR_2M_HEIF">即使您已選擇以原始格式下載照片，RAW 照片也將以 2 MP 或 8 MP JPEG 影像或以 2 MP HEIF 影像的格式下載。</string>
+    <string name="MID_REMOTE_SIZE_ONLY_JPEG">即使您已選擇以原始格式下載照片，RAW 照片也將以 2 MP JPEG 影像下載。</string>
+    <string name="MID_REMOTE_TRANS_SIZE">選擇下載大小</string>
+    <string name="MID_REMOTE_WB_CLOUDY">陰天</string>
+    <string name="MID_REMOTE_WB_DIRECT_SUNLIGHT">日光</string>
+    <string name="MID_REMOTE_WB_FLASH">閃光燈</string>
+    <string name="MID_REMOTE_WB_FLUORESCENT">螢光燈</string>
+    <string name="MID_REMOTE_WB_INCANDESCENT">白熾燈</string>
+    <string name="MID_REMOTE_WB_SHADE">陰影</string>
+    <string name="MID_RENAME">重新命名</string>
+    <string name="MID_REQUEST_DELETE_SETS">您需要刪除設定庫，然後才能建立更多設定庫</string>
+    <string name="MID_RESET_SHOOTING_SETTING">重設拍攝設定</string>
+    <string name="MID_RESTART_APP_DUE_TO_BACKGROUND_STOPPED_MSG">後台進程已被暫停。請重新啟動應用程式。</string>
+    <string name="MID_RETET_SHOTTING_SETTING_DESC">將相機的拍攝設定重設為預設值。</string>
+    <string name="MID_SAVE">儲存</string>
+    <string name="MID_SAVED_NUM_LIMIT">設定庫清單已滿</string>
+    <string name="MID_SAVE_AS">儲存設定為</string>
+    <string name="MID_SAVE_DESC">輸入設定庫的名稱</string>
+    <string name="MID_SAVE_EDITED">儲存更改</string>
+    <string name="MID_SAVE_TITLE">命名設定庫</string>
+    <string name="MID_SELECTED">所選設定</string>
+    <string name="MID_SELECT_CONNECTION">選擇用於連線相機的方法。</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALBANIA">阿爾巴尼亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALGERIA">阿爾及利亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ANDORRA">安道爾</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ARGENTINA">阿根廷</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRALIA">澳洲</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRIA">奧地利</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BAHRAIN">巴林</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BANGLADESH">孟加拉</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BELGIUM">比利時</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOLIVIA">玻利維亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOSNIA_HERZEGOVINA">波斯尼亞與黑塞哥維那</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BULGARIA">保加利亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CAMBODIA">柬埔寨</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CANADA">加拿大</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHILE">智利</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHINESE_MAINLAND">中國大陸</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_COLOMBIA">哥倫比亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CROATIA">克羅地亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CYPRUS">塞浦路斯</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CZECH_REPUBLIC">捷克</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_DENMARK">丹麥</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_EGYPT">埃及</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ESTONIA">愛沙尼亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FINLAND">芬蘭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRANCE">法國</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRENCH_POLYNESIA">法屬波利尼西亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GERMANY">德國</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GHANA">迦納</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GIBRALTAR">直布羅陀</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GREECE">希臘</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GUADELOUPE">瓜德羅普</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HONG_KONG">香港</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HUNGARY">匈牙利</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ICELAND">冰島</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDIA">印度</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDONESIA">印尼</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_IRELAND">愛爾蘭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ISRAEL">以色列</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ITALY">意大利</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JAPAN">日本</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JORDAN">約旦</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KAZAKHSTAN">哈薩克</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KENYA">肯雅</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOREA">韓國</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOSOVO">科索沃</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KUWAIT">科威特</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KYRGYZSTAN">吉爾吉斯斯坦</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LATVIA">拉脫維亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LEBANON">黎巴嫩</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LITHUANIA">立陶宛</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LUXEMBOURG">盧森堡</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MADAGASCAR">馬達加斯加</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAWI">馬拉維</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAYSIA">馬來西亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALDIVES">馬爾代夫</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALTA">馬爾他</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MARTINIQUE">馬丁尼克</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MAURITIUS">毛里裘斯</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MEXICO">墨西哥</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOLDOVA">摩爾多瓦</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONACO">摩納哥</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONTENEGRO">蒙特內哥羅</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOROCCO">摩洛哥</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MYANMAR">緬甸</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEPAL">尼泊爾</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NETHERLANDS">荷蘭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_CALEDONIA">新喀里多尼亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_Fiji">斐濟</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_ZEALAND">紐西蘭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NIGERIA">尼日利亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORTH_MACEDONIA">北馬其頓</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORWAY">挪威</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_OMAN">阿曼</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PAKISTAN">巴基斯坦</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PARAGUAY">巴拉圭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PERU">秘魯</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PHILIPPINES">菲律賓</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_POLAND">波蘭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PORTUGAL">葡萄牙</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_QATAR">卡塔爾</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_REUNION">留尼旺</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ROMANIA">羅馬尼亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_RWANDA">盧旺達</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SAUDI_ARABIA">沙特阿拉伯</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SERBIA">塞爾維亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SINGAPORE">新加坡</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVAKIA">斯洛伐克</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVENIA">斯洛文尼亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SOUTH_AFRICA">南非</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SPAIN">西班牙</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SRI_LANKA">斯里蘭卡</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWEDEN">瑞典</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWITZERLAND">瑞士</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAIWAN">台灣</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAJIKISTAN">塔吉克斯坦</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TANZANIA">坦桑尼亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_THAILAND">泰國</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TUNISIA">突尼西亞</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKEY">土耳其</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKMENISTAN">土庫曼</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UAE">阿聯酋</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UGANDA">烏干達</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UKRAINE">烏克蘭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_KINGDOM">英國</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_STATES_OF_AMERICA">美國</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_URUGUAY">烏拉圭</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UZBEKISTAN">烏茲別克</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VANUATU">瓦努亞圖</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VIETNAM">越南</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ZIMBABWE">津巴布韋</string>
+    <string name="MID_SELECT_MOTIF">請選擇主要主體</string>
+    <string name="MID_SELECT_REGIONS_SELECT_AFRICA">非洲</string>
+    <string name="MID_SELECT_REGIONS_SELECT_ASIA">亞洲</string>
+    <string name="MID_SELECT_REGIONS_SELECT_EUROPE">歐洲</string>
+    <string name="MID_SELECT_REGIONS_SELECT_MIDDLE_EAST">中東</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OCEANIA">大洋洲</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OTHER_COUNTRIES">其他國家/地區</string>
+    <string name="MID_SELECT_REGIONS_SELECT_THE_AMERICAS">美洲</string>
+    <string name="MID_SEND_ANOTHER">建立另一個設定庫</string>
+    <string name="MID_SEND_COMPLETE">上載完成</string>
+    <string name="MID_SEND_SETS_PROGRESS">正在將設定上載至相機…</string>
+    <string name="MID_SEND_SET_TO_CAMERA">上載至相機</string>
+    <string name="MID_SEND_THE_SET">上載至相機</string>
+    <string name="MID_SEN_SETS_FINISHED">現在您已經更新了相機設定，可以進行拍照。</string>
+    <string name="MID_SERIAL_NUMBER">序號</string>
+    <string name="MID_SETTING_NAME_PRESET">使用者設定庫</string>
+    <string name="MID_SET_BLUR">動作模糊</string>
+    <string name="MID_SET_BOKEH">散景/景深</string>
+    <string name="MID_SET_FINISHED">設定已儲存</string>
+    <string name="MID_SET_FINISHED_DESC">嘗試將設定上載至您的相機並拍攝一些照片。</string>
+    <string name="MID_SET_REJECTED_BY_CAMERA_TITLE">檢查相機狀態</string>
+    <string name="MID_SHARE_ACQUIRING">正在獲取照片。</string>
+    <string name="MID_SHARE_FAILED_TO_ACQUIRE">獲取照片失敗。</string>
+    <string name="MID_SHARE_INSUFFICIENT_STORAGE_SPACE">儲存空間不足。無法分享照片。</string>
+    <string name="MID_SIGN_UP_NIS">"NIKON IMAGE SPACE
+註冊"</string>
+    <string name="MID_SORT">排序</string>
+    <string name="MID_SORT_NAME_DOWN">按名稱排序（降序）</string>
+    <string name="MID_SORT_NAME_UP">按名稱排序（升序）</string>
+    <string name="MID_SORT_NEW">最新</string>
+    <string name="MID_SORT_OLD">最舊</string>
+    <string name="MID_SORT_USE_LATELY">上次使用</string>
+    <string name="MID_SORT_USE_MANY">最常用</string>
+    <string name="MID_START">開始</string>
+    <string name="MID_SUPPLEMENT_ACCESS_LOCATION_PRECISE">注：若未向您提供“精確位置”和“概略位置”的選擇，您只需提供存取裝置位置的權限。</string>
+    <string name="MID_TERMS_OF_SERVICE_AGREEMENT_DESC">同意以上內容</string>
+    <string name="MID_TIMES">次數</string>
+    <string name="MID_TIPS">拍攝技巧和提示</string>
+    <string name="MID_TIPS_A_DESC">檢查相機連線狀態（輕觸可顯示其他資訊）。</string>
+    <string name="MID_TIPS_B_DESC">啟用或禁用“自動下載”、“時鐘”或“位置資料”。</string>
+    <string name="MID_TIPS_C_DESC">查看從相機下載的影像。</string>
+    <string name="MID_TIPS_D_DESC">連結至尼康雲端分享服務。</string>
+    <string name="MID_TIPS_TAP">請輕觸顯示。</string>
+    <string name="MID_TIPS_TITLE">使用 SnapBridge</string>
+    <string name="MID_TITLE_CHOICE_CONNECTION_TYPE">選擇連線類型</string>
+    <string name="MID_TITLE_NIKON_IMAGE_CLOUD">Nikon Imaging Cloud</string>
+    <string name="MID_TUTORIAL1_DESC">此應用程式甚至可以讓新手輕鬆地根據自己的攝影目標定制設定。</string>
+    <string name="MID_TUTORIAL1_TITLE">相機設定已簡化</string>
+    <string name="MID_TUTORIAL2_DESC">建立設定庫所需要做的就是選擇主體、場景和樣式。讓我們開始吧。</string>
+    <string name="MID_TUTORIAL2_TITLE">您只需要選擇一些選項</string>
+    <string name="MID_USE_NIS_MSG_1">您可使用“NIKON IMAGE SPACE”，這是尼康的一種影像儲存服務。</string>
+    <string name="MID_USE_NIS_MSG_2">已下載到智慧型裝置的影像可以上載至 NIKON IMAGE SPACE。</string>
+    <string name="MID_USE_NIS_MSG_3">若您已註冊 NIKON IMAGE SPACE，請輕觸“使用”並登入。</string>
+    <string name="MID_USE_POWER_ZOOM_CANNOT_MSG">目前設定下無法使用遙控電動變焦控制。</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_BLACK_BACKGROUND_FOR_PICTURE_IN_PICTURE_PROTECTION">關閉 Picture-in-Picture 顯示。</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_MESSAGE">登入 NIKON IMAGE SPACE 之前，請授予應用程式在後台執行的許可權。</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_TITLE">請務必在下一對話窗中選擇“允許”。</string>
+    <string name="MID_WELCOME_A_DESC">讓 SnapBridge 和尼康相機一起，為您開啟通往豐富影像體驗的大門。</string>
+    <string name="MID_WELCOME_A_TITLE">歡迎進入“SnapBridge”</string>
+    <string name="MID_WELCOME_B_DESC">相片可自動下載至您的智慧型裝置並立刻分享。</string>
+    <string name="MID_WELCOME_B_TITLE">隨時隨地分享精彩相片</string>
+    <string name="MID_WELCOME_C_DESC">您可在智慧型裝置螢幕中查看主體的同時遙控拍攝照片。</string>
+    <string name="MID_WELCOME_C_TITLE">使用智慧型裝置遙控拍攝照片</string>
+    <string name="MID_WELCOME_D_DESC">透過註冊 Nikon ID，您可在免費雲端儲存服務 NIKON IMAGE SPACE 中儲存不限數量的 200 萬像素 JPEG 影像。影像可自動上載。</string>
+    <string name="MID_WELCOME_D_TITLE">無限制自動上載至 NIKON IMAGE SPACE</string>
+    <string name="MID_WELCOME_E_DESC">"“SnapBridge”可將您的相機連線至智慧型裝置及社交媒體。
+趕緊試試看吧。"</string>
+    <string name="MID_WELCOME_E_TITLE">更多服務，更多便利</string>
+    <string name="MID_WIFI_2MB_SIZE">Wi-Fi，200 萬像素</string>
+    <string name="MID_WIFI_CANCEL_MSG">切換至 Bluetooth 即可進行配對或網路連線。</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_LAUNCH">啟動 WMU</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_MESSAGE">請停用“設定”選單中的“應用程式自動啟動”。若啟用了“應用程式自動啟動”，SnapBridge Wi-Fi 連線功能將無法使用。</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_TITLE">檢查 Wireless Mobile Utility（WMU）設定</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_MESSAGE">若安裝的是更早期版本，SnapBridge Wi-Fi 連線功能將無法使用。</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_TITLE">更新 Wireless Mobile Utility</string>
+    <string name="NIS_CLD_UNDER_MAINTENANCE2">連線失敗。伺服器目前正在維護。</string>
+    <string name="NULL_VALUE">-</string>
+    <string name="SID_ACTIVE_D_LIGHTING">主動式 D-Lighting</string>
+    <string name="SID_AF_AREA_MODE">AF 區域模式</string>
+    <string name="SID_AF_DETECTION_SETTING">AF 主體偵測選項</string>
+    <string name="SID_AF_SUBJ_DETECT_OPT">AF 主體偵測選項</string>
+    <string name="SID_APERTURE">光圈</string>
+    <string name="SID_BRIGHTNESS">亮度</string>
+    <string name="SID_CONTRAST">對比度</string>
+    <string name="SID_EXP">曝光補償</string>
+    <string name="SID_EXPOSURE_COMPENSATION_DIAL">曝光補償撥盤</string>
+    <string name="SID_FLICKER_REDUCTION_SHOOTING">減少閃爍拍攝</string>
+    <string name="SID_FOCUS_MODE">對焦模式</string>
+    <string name="SID_HIGH_SENSITIVITY_NOISE_REDUCTION">減低高 ISO 雜訊</string>
+    <string name="SID_ISO_AUTO_CONTROL">自動 ISO 感光度控制</string>
+    <string name="SID_ISO_LOW_SPEED">最慢快門速度</string>
+    <string name="SID_ISO_MAX">最高感光度</string>
+    <string name="SID_ISO_SENSITIVITY">ISO 感光度</string>
+    <string name="SID_ISO_SENSITIVITY_DIAL">ISO 感光度撥盤</string>
+    <string name="SID_LONG_SEC_NOISE_REDUCTION">減低長時間曝光雜訊</string>
+    <string name="SID_LOW_LIGHT_AF">低光源 AF</string>
+    <string name="SID_METERING">測光</string>
+    <string name="SID_MODE_SELECTOR">模式選擇器</string>
+    <string name="SID_PICTURE_CONTROL">設定 Picture Control</string>
+    <string name="SID_QUICK_SHARP">快速銳化</string>
+    <string name="SID_RELEASE_MODE">拍攝模式</string>
+    <string name="SID_SATURATION">飽和度</string>
+    <string name="SID_SET_ADL_EX_HIGH">超高</string>
+    <string name="SID_SET_ADL_EX_HIGH1">超高 1</string>
+    <string name="SID_SET_ADL_EX_HIGH2">超高 2</string>
+    <string name="SID_SET_ADL_HIGH">高</string>
+    <string name="SID_SET_ANIMAL">動物</string>
+    <string name="SID_SET_AUTO">自動</string>
+    <string name="SID_SET_AUTO_AREA">自動區域 AF</string>
+    <string name="SID_SET_AUTO_LEAVE_ATMOSPHERE">保留整體氛圍</string>
+    <string name="SID_SET_AUTO_PRIORITIZE_WHITE">保留白色調（減少暖色調）</string>
+    <string name="SID_SET_CHOOSE_COLOR_TEMP">選擇色溫</string>
+    <string name="SID_SET_CONTINUOUS_AF">連續 AF</string>
+    <string name="SID_SET_DIRECT_SUN_LT">直射陽光</string>
+    <string name="SID_SET_HIGH_SPEED_CONTINUOUS_SHOOTING">高速連拍</string>
+    <string name="SID_SET_LANDSCAPE">風景</string>
+    <string name="SID_SET_LOW_SPEED_CONTINUOUS_SHOOTING">低速連拍</string>
+    <string name="SID_SET_NATURAL_LT_AUTO">自然光(自動)</string>
+    <string name="SID_SET_NOISE_REDUCTION_STANDARD">標準</string>
+    <string name="SID_SET_NORMAL">Normal</string>
+    <string name="SID_SET_OFF">關閉</string>
+    <string name="SID_SET_ON">開啟</string>
+    <string name="SID_SET_ONE_FRAME_SHOOTING">單張</string>
+    <string name="SID_SET_PEOPLE">人物</string>
+    <string name="SID_SET_PIN_PT">微細焦點 AF</string>
+    <string name="SID_SET_SDR">SDR</string>
+    <string name="SID_SET_SINGLE_AF">單次 AF</string>
+    <string name="SID_SET_SINGLE_PT">單點 AF</string>
+    <string name="SID_SET_SPORTS">Sport</string>
+    <string name="SID_SET_STANDARD">標準</string>
+    <string name="SID_SET_VALID">啟動</string>
+    <string name="SID_SET_VIVID">鮮豔</string>
+    <string name="SID_SET_WIDE_AREA_L">廣闊區域 AF(大)</string>
+    <string name="SID_SHOOTING_MODE">拍攝模式</string>
+    <string name="SID_SHUTTER_SPEED">快門速度</string>
+    <string name="SID_SHUTTER_SPEED_DIAL">快門速度撥盤</string>
+    <string name="SID_TONE_MODE">色調模式</string>
+    <string name="SID_VIBRATION_REDUCTION">減震</string>
+    <string name="SID_WHITE_BALANCE">白平衡</string>
+    <string name="SID_WHITE_BALANCE_AUTO">白平衡-自動類型</string>
+    <string name="TIPSID_HOWTO_USER_SETTING">若事先在相機上註冊一些方便功能，只需輕輕一觸即可變更拍攝模式。</string>
+    <string name="TIPSID_MOTIF_AMUSEMENTPARK_NIGHT">"---模式簡介---
+以鮮豔的色彩抓拍夜間遊行隊伍。相機會設定快門速度以將主體的模糊降低至最小程度，並使用連續拍攝模式，因此您可從序列中選擇最佳照片。
+ 
+---相機操作提示---
+■對焦於所需位置：
+・在螢幕上輕觸對焦區域。
+■相機無法對焦時：
+・使用 [廣闊區域 AF（小）] 和 [廣闊區域 AF（大）] 等對焦區域較廣闊的 AF 區域模式。
+■主體太暗時：
+・為曝光補償選擇一個更高的正（+）值。
+■主體太亮時：
+・為曝光補償選擇一個更低的負（-）值。
+■使“雜訊”（隨意分佈的明亮像素）不太明顯：
+・將最高 ISO 感光度值設為 ISO [3200] 或以下。"</string>
+    <string name="TIPSID_MOTIF_EATING">"---模式簡介---
+在模糊的背景和環境中，以自然色調和亮度拍攝食物。
+ 
+---相機操作提示---
+■當相機無法對焦時（對焦點未顯示為綠色）：
+・遠離主體（若相機的距離比鏡頭上所示的最短對焦距離更近，則相機無法對焦）。
+・使用 [單點 AF]、[廣闊區域 AF（小）] 和 [廣闊區域 AF（大）] 中對焦區域較小的 AF 區域模式。
+■主體太暗時：
+・為曝光補償選擇一個更高的正（+）值。
+■主體太亮時：
+・為曝光補償選擇一個更低的負（-）值。
+■讓照片顏色偏藍：
+・將白平衡設為 [白熾燈]。
+■讓照片顏色偏紅：
+・將白平衡設為 [陰天] 或 [陰影]。
+■模糊背景：
+・減小景深進行拍攝。
+・關於使用減小景深的拍攝提示：
+1) 靠近主體（注意，距離要超過鏡頭上所示的最短對焦距離）。
+2) 使用最大光圈值（最小 f 值）較小的鏡頭。
+3) 使用遠攝鏡頭，或者放大變焦鏡頭。"</string>
+    <string name="TIPSID_MOTIF_EATING_OUT">"---模式簡介---
+以自然色調和亮度拍攝食物，並保持整個菜肴清晰對焦。
+ 
+---相機操作提示---
+■當相機無法對焦時（對焦點未顯示為綠色）：
+・遠離主體（若相機的距離比鏡頭上所示的最短對焦距離更近，則相機無法對焦）。
+・使用 [單點 AF]、[廣闊區域 AF（小）] 和 [廣闊區域 AF（大）] 中對焦區域較小的 AF 區域模式。
+■主體太暗時：
+・為曝光補償選擇一個更高的正（+）值。
+■主體太亮時：
+・為曝光補償選擇一個更低的負（-）值。
+■讓照片顏色偏藍：
+・將白平衡設為 [白熾燈]。
+■讓照片顏色偏紅：
+・將白平衡設為 [陰天] 或 [陰影]。"</string>
+    <string name="TIPSID_MOTIF_FOR_AUCTION">"---模式簡介---
+使用高對比度、鮮豔的色彩和整體清晰的對焦拍攝拍賣物品。
+ 
+---拍攝技巧---
+■模糊背景並拍攝物品的清晰照片：
+・使用 [小型主體]。
+■將相機模糊降低至最小程度：
+・使用三腳架、桌子或其他方式固定相機，或將肘部抵住胸部兩側，牢牢握住相機。
+ 
+---相機操作提示---
+■當相機無法對焦時（對焦點未顯示為綠色）：
+・遠離主體（若相機的距離比鏡頭上所示的最短對焦距離更近，則相機無法對焦）。
+■清晰地拍攝物品及其背景：
+・設定更小（更窄）的光圈，例如 f/11。
+■拍攝突出主體的照片：
+・調整自然光線照射主體的方式或更改聚光燈的方向，以便按照您的喜好照亮主體。"</string>
+    <string name="TIPSID_MOTIF_MAGIC_HOUR">"---模式簡介---
+捕捉傍晚風光的紅暈。設定成自動對焦是為了即使在黑暗環境中也更容易對焦。
+ 
+---拍攝技巧---
+■將相機模糊降低至最小程度：
+・使用三腳架、桌子或圍欄固定相機，或將肘部抵住胸部兩側，牢牢握住相機。
+ 
+---相機操作提示---
+■若風景在影像中看起來比眼睛所見更亮：
+・為曝光補償選擇一個更低的負（-）值。
+■若風景在影像中看起來比眼睛所見更暗：
+・為曝光補償選擇一個更高的正（+）值。
+■強調夕陽紅暈：
+・將白平衡設為 [陰天] 或 [陰影]。
+・保留高對比度場景中的高光和暗部細節：
+ 將主動式 D-Lighting 設為 [超高]。"</string>
+    <string name="TIPSID_MOTIF_NATURE">"---模式簡介---
+以自然的色調和色彩拍攝山脈和森林等風景的照片。
+ 
+---相機操作提示---
+■對焦於所需位置：
+・在螢幕上輕觸要對焦的區域。
+■保留高對比度場景中的高光和暗部細節：
+・將主動式 D-Lighting 設為 [超高]。"</string>
+    <string name="TIPSID_MOTIF_NIGHT">"---模式簡介---
+以清晰、鮮豔的色彩捕捉夜景。
+ 
+---拍攝技巧---
+■將相機模糊降低至最小程度：
+・使用三腳架、桌子或圍欄固定相機，或將肘部抵住胸部兩側，牢牢握住相機。
+ 
+---相機操作提示---
+■對焦於所需位置：
+・在螢幕上輕觸要對焦的區域。
+・將相機的對焦點置於要對焦的區域，然後半按快門釋放按鍵鎖定對焦。按住按鍵的同時，重新構圖並拍攝照片。
+■相機無法對焦時：
+・使用 [廣闊區域 AF（小）] 和 [廣闊區域 AF（大）] 等對焦區域較廣闊的 AF 區域模式。
+・在具有對比度的位置，半按快門釋放按鍵以鎖定對焦，然後改變構圖並拍攝照片。
+・手動對焦。
+■主體太亮時：
+・查看畫面的同時，透過選擇較低（-）的曝光補償值來根據自己的喜好調整曝光。
+■使“雜訊”不太明顯：
+・將相機固定在三腳架上或以其他方式固定，並將 ISO 感光度設為 ISO [400] 或以下。
+■讓照片顏色偏藍：
+・將白平衡設為 [白熾燈]。
+■讓照片顏色偏紅：
+・將白平衡設為 [陰天] 或 [陰影]。"</string>
+    <string name="TIPSID_MOTIF_PERSON_NIGHT">"---模式簡介---
+以夜色為背景拍攝照片，均衡人像主體和夜景效果。設定成自動對焦是為了在黑暗環境中更容易對焦。
+ 
+---拍攝技巧---
+■拍攝清晰對焦的照片並將主體的模糊降低至最小程度：
+・使用閃光燈或 LED 燈或者移動到路燈旁的位置，以照亮主體的臉部。
+・在光線不足的條件下，請使用三腳架或將相機固定在桌子等平穩的表面上。
+ 
+---相機操作提示---
+■減少雜訊：
+・將相機固定在三腳架或桌子等平穩的表面上，然後將 [ISO 感光度設定] > [最高感光度] 選為 ISO [3200] 或以下。"</string>
+    <string name="TIPSID_MOTIF_PET_INDOOR">"---模式簡介---
+以自然色調抓拍寵物。相機會根據主體的動作持續調整對焦，並在低速連拍拍攝模式下進行單次連拍，獲取精彩瞬間。背景可以模糊化，也可以清晰對焦。
+ 
+---拍攝技巧---
+■捕捉寵物的最佳表情：
+・以與寵物視線水平成低角度的方式持拿相機。
+ 
+---相機操作提示---
+■保持主體清晰對焦：
+・將相機對準主體並半按快門釋放按鍵時，主體的臉部或眼睛上將出現黃色邊框且鎖定對焦於此主體。
+■抓拍精彩瞬間：
+・透過將對焦點置於主體上並按住快門釋放按鍵，讓相機開始低速連拍來抓拍瞬間，以防拍攝過程中主體突然移動。
+■模糊背景：
+・減小景深進行拍攝。
+・關於使用減小景深的拍攝提示：
+1) 靠近主體（注意，距離要超過鏡頭上所示的最短對焦距離）。
+2) 使用最大光圈值（最小 f 值）較小的鏡頭。
+3) 使用遠攝鏡頭，或者放大變焦鏡頭。"</string>
+    <string name="TIPSID_MOTIF_PET_OUTDOOR">"---模式簡介---
+使用高速快門為快速移動的寵物拍攝清晰的照片，將主體的模糊降低至最小程度。相機會根據主體的動作持續調整對焦，並在高速連拍拍攝模式下進行單次連拍，因此即便是活潑的寵物最輕微的動作瞬間也能抓拍到。
+ 
+---相機操作提示---
+■保持主體清晰對焦：
+・將相機對準主體並半按快門釋放按鍵時，主體的臉部或眼睛上將出現黃色邊框且鎖定對焦於此主體。
+■主體導致動作模糊時：
+・將拍攝（曝光）模式選為 S 並設定更高的快門速度（例如，[1/2000 秒]）。
+■抓拍敏捷的動作瞬間：
+・將對焦點置於積極移動的主體上，然後按住快門釋放按鍵，讓相機開始高速連拍以抓拍瞬間。"</string>
+    <string name="TIPSID_MOTIF_PLANT">"---模式簡介---
+拍攝鮮豔的花朵照片。背景可以模糊化，也可以清晰對焦以便周圍的花朵也清晰拍攝。
+ 
+---相機操作提示---
+■對焦於所需位置：
+・在螢幕上輕觸要對焦的區域。
+■相機無法對焦時：
+・使用 [單點 AF]、[廣闊區域 AF（小）] 和 [廣闊區域 AF（大）] 中對焦區域較廣闊的 AF 區域模式。
+・在具有對比度的位置，半按快門釋放按鍵以鎖定對焦，然後改變構圖並拍攝照片。
+・手動對焦。
+■模糊背景：
+・減小景深進行拍攝。
+・關於使用減小景深的拍攝提示：
+1) 靠近主體（注意，距離要超過鏡頭上所示的最短對焦距離）。
+2) 使用最大光圈值（最小 f 值）較小的鏡頭。
+3) 使用遠攝鏡頭，或者放大變焦鏡頭。
+■拍攝花朵的近拍照片：
+・使用微距鏡頭可更輕鬆地對焦於附近的主體，從而可以捕捉具有精細細節的放大照片。
+・使用遠攝鏡頭或放大變焦鏡頭，可以讓您無需離得太近，即可為花朵拍攝具有模糊背景的近拍照片。
+■若風景在影像中看起來比眼睛所見更暗：
+・為曝光補償選擇一個更高的正（+）值。
+■若風景在影像中看起來比眼睛所見更亮：
+・為曝光補償選擇一個更低的負（-）值。"</string>
+    <string name="TIPSID_MOTIF_PORTRAIT">"---模式簡介---
+拍攝膚色柔和且更自然的人像照片。背景可以模糊化，也可以清晰對焦。
+ 
+---相機操作提示---
+■保持人像主體清晰對焦：
+・將相機對準主體並半按快門釋放按鍵時，主體的臉部或眼睛上將出現黃色邊框，用來鎖定對焦。
+■模糊背景：
+・減小景深進行拍攝。
+・關於減小景深的拍攝提示：
+1) 靠近主體（距離要超過鏡頭上所示的最短對焦距離）。
+2) 使用最大光圈值（最小 f 值）較小的鏡頭。
+3) 使用遠攝鏡頭，或者放大變焦鏡頭。"</string>
+    <string name="TIPSID_MOTIF_RECORDS">"---模式簡介---
+拍攝包含背景的色彩自然的人像照片。背景可以模糊化，也可以清晰對焦。
+ 
+---拍攝技巧---
+■防止拍攝閉眼照片：
+・查看照片，確認是否有人閉眼。
+・選擇一種連續拍攝模式，然後按住快門釋放按鍵拍攝多張照片。
+ 
+---相機操作提示---
+■保持人像主體清晰對焦：
+・將相機對準主體並半按快門釋放按鍵時，主體的臉部或眼睛上將出現黃色邊框，用來鎖定對焦。"</string>
+    <string name="TIPSID_MOTIF_RELATIVES">"---模式簡介---
+在由於逆光或其他原因導致主體與背景之間的亮度不同的場景下，防止人像主體顯得很暗。
+ 
+---相機操作提示---
+■人像主體顯得太暗時：
+・為曝光補償選擇一個更高的正（+）值。
+■人像主體顯得太亮時：
+・為曝光補償選擇一個更低的負（-）值。
+■影像出現顆粒狀（例如，ISO 感光度較高時）：
+・將主動式 D-Lighting 設為 [標準] 或 [低]。"</string>
+    <string name="TIPSID_MOTIF_RIVER">"---模式簡介---
+鎖定河流或瀑布中水的流動，或抓拍水滴的瞬間，或者捕捉流水的軌跡。
+ 
+---拍攝技巧---
+■將相機模糊降低至最小程度：
+・若要捕捉流水的軌跡，請使用三腳架、桌子或圍欄固定相機，或將肘部抵住胸部兩側，牢牢握住相機。
+ 
+---相機操作提示---
+■凝固湍急流水瞬間：
+・選擇 [“凝固”動作] 選項並設定較高的快門速度（例如，[1/250 秒] 或 [1/500 秒]）。
+■捕捉較長的流水軌跡：
+・選擇 [建立長運動光軌] 選項並選擇較慢的快門速度（例如，[2 秒] 或 [4 秒]；建議使用三腳架）。"</string>
+    <string name="TIPSID_MOTIF_SELFY">"---模式簡介---
+更自然地拍攝包含背景的人像自拍照片。背景可以模糊化，也可以清晰對焦。
+ 
+---拍攝技巧---
+■拍攝具有好的眼神交流的照片：
+・拍攝照片時，請看鏡頭的中心，而不是看著面向您的螢幕畫面中心。
+■清晰展現背景風景和周圍環境：
+・使用廣角鏡頭或使用變焦鏡頭進行縮小可以獲取較大範圍的拍攝畫角，從而更容易展現背景和周圍環境。
+ 
+---相機操作提示---
+■保持人像主體清晰對焦：
+・將相機對準主體並半按快門釋放按鍵時，主體的臉部或眼睛上將出現黃色邊框並鎖定對焦。"</string>
+    <string name="TIPSID_MOTIF_SMALL_ITEMS">"---模式簡介---
+使用高對比度、鮮豔的色彩和模糊的背景拍攝手工製品或裝飾品。
+ 
+---拍攝技巧---
+■拍攝突出主體的照片：
+・調整自然光線照射主體的方式或更改聚光燈的方向，以便按照您的喜好照亮主體。
+■清晰地拍攝物品及其背景：
+・使用 [線上拍賣]。
+■將相機模糊降低至最小程度：
+・使用三腳架、桌子或其他方式固定相機，或將肘部抵住胸部兩側，牢牢握住相機。
+ 
+---相機操作提示---
+■當相機無法對焦時（對焦點未顯示為綠色）：
+・遠離主體（若相機的距離比鏡頭上所示的最短對焦距離更近，則相機無法對焦）。
+■模糊背景：
+・減小景深進行拍攝。
+・關於使用減小景深的拍攝提示：
+1) 靠近主體（注意，距離要超過鏡頭上所示的最短對焦距離）。
+2) 使用最大光圈值（最小 f 值）較小的鏡頭。
+3) 使用遠攝鏡頭，或者放大變焦鏡頭。
+■對主體進行近拍：
+・使用微距鏡頭可更輕鬆地對焦於附近的主體，從而可以捕捉具有清晰、精細細節的放大照片。
+・使用遠攝鏡頭或放大變焦鏡頭，可以讓您無需離得太近，即可為主體拍攝具有模糊背景的近拍照片。"</string>
+    <string name="TIPSID_MOTIF_SPORTS_INDOOR">"---模式簡介---
+以自然色調拍攝進行室內運動的主體。提高 ISO 感光度並設定高速快門以避免動作模糊。透過以單次連拍方式操作相機，即便是最輕微的移動也能抓拍到，並根據主體的動作持續調整對焦。
+
+---拍攝技巧---
+■拍攝印象深刻的照片：
+・使用遠攝鏡頭（例如，200 mm 焦距）。
+
+---相機操作提示---
+■針對較暗的室內環境：
+・選擇一個較高的 ISO 感光度值。
+■抓拍人像主體的動作：
+・追蹤主體的同時，按住快門釋放按鍵進行單次連拍。
+・將相機保持在您所選的構圖，當主體進入視野時，按住快門釋放按鍵進行單次連拍。
+■主體導致動作模糊時：
+・將拍攝（曝光）模式選為 S 並設定更高的快門速度（例如，[1/2000 秒]）。"</string>
+    <string name="TIPSID_MOTIF_SPORTS_OUTDOOR">"---模式簡介---
+透過單次連拍操作相機並根據人像主體的移動持續調整對焦，在最佳瞬間進行拍攝。可抓拍進行室外運動的人像主體的移動軌跡或凝固動作瞬間。
+ 
+---拍攝技巧---
+■拍攝印象深刻的照片：
+・使用遠攝鏡頭（例如，200 mm 焦距）。
+ 
+---相機操作提示---
+■抓拍人像主體的動作：
+・追蹤主體的同時，按住快門釋放按鍵進行單次連拍。
+・將相機保持在您所選的構圖，當主體進入視野時，按住快門釋放按鍵進行單次連拍。
+■更平穩地對焦：
+・提前對焦於靠近主體進入畫面的位置。
+■主體導致動作模糊時：
+・選擇更高的快門速度（例如，[1/2000 秒]）。"</string>
+    <string name="TIPSID_MOTIF_STARS">"---模式簡介---
+捕捉星空。相機快門速度設為保持開啟指定的時間長度。
+ 
+---拍攝技巧---
+■將相機模糊降低至最小程度：
+・將相機固定在三腳架上，然後使用自拍拍攝照片。
+■要在星空照片中包含周圍的風景：
+・使用廣角鏡頭，或者拉遠變焦鏡頭。
+ 
+---相機操作提示---
+■使“雜訊”（隨意分佈的明亮像素）不太明顯：
+・使用一個具有較小最大光圈值（最小 f 值）的大光圈定焦鏡頭。
+■若主體太暗：
+・設定高 ISO 感光度值（例如，ISO [6400] 或以上）。
+■若主體太亮：
+・設定低 ISO 感光度值（例如，ISO [400] 或以下）。"</string>
+    <string name="TIPSID_MOTIF_STREET">"---模式簡介---
+以均衡的色調和色彩拍攝建築物和城市風光的照片。
+ 
+---拍攝技巧---
+■將相機模糊降低至最小程度：
+・使用三腳架、桌子或圍欄固定相機，或將肘部抵住胸部兩側，牢牢握住相機。
+・當相機透過三腳架或其他方式固定時，請關閉 [減震]。
+■以寬廣畫角拍攝建築物和城市風光的照片：
+・使用廣角鏡頭，或者拉遠變焦鏡頭。"</string>
+    <string name="TIPSID_MOTIF_TREE_VIEWING">"---模式簡介---
+以自然的色彩捕捉美麗的櫻花。
+ 
+---相機操作提示---
+■當相機無法對焦時（對焦點未顯示為綠色）：
+・使用 [單點 AF]、[廣闊區域 AF（小）] 和 [廣闊區域 AF（大）] 中對焦區域較小的 AF 區域模式。
+■主體太暗時：
+・為曝光補償選擇一個更高的正（+）值。
+■主體太亮時：
+・為曝光補償選擇一個更低的負（-）值。
+■捕捉鮮豔的色彩：
+・將 Picture Control 設為 [風景] 或 [鮮豔]。"</string>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 鍵</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空格鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="app_name">SnapBridge</string>
+    <string name="auto_upload_text0">取消</string>
+    <string name="auto_upload_text1">僅限 Wi-Fi</string>
+    <string name="auto_upload_text1_min">Wi-Fi</string>
+    <string name="auto_upload_text2">總是</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="call_notification_answer_action">接聽</string>
+    <string name="call_notification_answer_video_action">視訊</string>
+    <string name="call_notification_decline_action">拒接</string>
+    <string name="call_notification_hang_up_action">掛斷</string>
+    <string name="call_notification_incoming_text">來電</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">正在過濾來電</string>
+    <string name="camera0_change">切換相機</string>
+    <string name="camera0_connect_type0_title">超出相機訊號範圍</string>
+    <string name="camera0_connect_type1_text">目前正透過 Wi-Fi 從相機下載影像。</string>
+    <string name="camera0_connect_type1_title">正在進行 Wi-Fi 下載</string>
+    <string name="camera0_connect_type2_text">切換至藍牙以使用“自動下載”、“位置資料”或“時鐘”。</string>
+    <string name="camera0_connect_type2_title">現在處於 Wi-Fi 連線中。是否結束 Wi-Fi 連線？</string>
+    <string name="camera0_connect_type3_text">目前正透過 Bluetooth 從相機下載影像。</string>
+    <string name="camera0_connect_type3_title">正在進行 Bluetooth 下載</string>
+    <string name="camera0_connect_type4_title">已透過 Bluetooth 連線</string>
+    <string name="camera0_connect_type5_title">正在等待 Bluetooth 連線</string>
+    <string name="camera0_connect_type6_title">與相機的 Wi-Fi 連線中斷</string>
+    <string name="camera0_delete">忘記相機</string>
+    <string name="camera0_nfc_text">開始配對？</string>
+    <string name="camera10_cell1_title">配對（Bluetooth）</string>
+    <string name="camera10_title">連線類型</string>
+    <string name="camera1_sync_location_info0">"個人資訊可從相機所拍照片中記錄的位置資料推斷出來。
+將影像發佈到網際網路或其他可被第三方查看的地方時請小心謹慎。
+此外，某些國家限制使用位置資料系統；旅行之前，請先向旅行社或您將前往國家的大使館或旅遊局諮詢相關資訊。"</string>
+    <string name="camera1_sync_location_info1">根據您位置的不同，獲取和同步位置資料可能需要一些時間。</string>
+    <string name="camera2_camera_none">無對應相機</string>
+    <string name="camera3_nfc_error0">SnapBridge 最多可儲存 5 台相機的配對資訊</string>
+    <string name="camera3_nfc_error1">已與此裝置配對</string>
+    <string name="camera3_nfc_title">正在接收來自相機的 NFC 訊號</string>
+    <string name="camera3_searching">搜尋中…</string>
+    <string name="camera4_btn_text">查看選項</string>
+    <string name="camera4_title">相機和 Wi-Fi 連線</string>
+    <string name="camera5_btn_close">已確認</string>
+    <string name="camera5_lbl_text">"按照螢幕上的指示說明，選擇相機名稱並輕觸“配對”。
+
+按下相機“OK”按鍵即可完成配對。"</string>
+    <string name="camera6_pairing">正在進行配對</string>
+    <string name="camera7_list_title">選擇要進行配對的相機的名稱</string>
+    <string name="camera7_text">"正在接收來自相機的資訊。
+請從以下列表中選擇相機螢幕中所示的名稱。"</string>
+    <string name="camera_dialog_wifi_unsupport_text">相機無法透過 Wi-Fi 進行連線；遙控攝影不可用。</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="close_drawer">關閉導覽選單</string>
+    <string name="close_sheet">關閉功能表</string>
+    <string name="cloud0_nis_link">什麼是 NIKON IMAGE SPACE？</string>
+    <string name="common_google_play_services_enable_button">啟用</string>
+    <string name="common_google_play_services_enable_text">您必須啟用 Google Play 服務，才能執行「%1$s」。</string>
+    <string name="common_google_play_services_enable_title">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_install_button">安裝</string>
+    <string name="common_google_play_services_install_text">您的裝置並未安裝 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_install_title">取得 Google Play 服務</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 服務可用性</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 服務發生錯誤</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」無法存取 Google Play 服務，請再試一次。</string>
+    <string name="common_google_play_services_unsupported_text">您的裝置不支援 Google Play 服務，因此無法執行「%1$s」。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行「%1$s」。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服務</string>
+    <string name="common_google_play_services_updating_text">執行「%1$s」所需的 Google Play 服務正在更新。</string>
+    <string name="common_google_play_services_wear_update_text">必須使用新版 Google Play 服務。該服務稍後就會自動更新。</string>
+    <string name="common_open_on_phone">在手機上開啟</string>
+    <string name="common_pairing">配對</string>
+    <string name="common_signin_button_text">登入</string>
+    <string name="common_signin_button_text_long">使用 Google 帳戶登入</string>
+    <string name="copy_toast_msg">已將連結複製到剪貼簿</string>
+    <string name="default_error_message">輸入內容無效</string>
+    <string name="dialog_pairing_text">註冊 Nikon ID 之前，您需將智慧型裝置與相機配對。配對？</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="error_remote2">在相機上將影像品質選為了 RAW 或 TIFF。相片可以遙控拍攝，但不會下載至智慧型裝置。</string>
+    <string name="error_remote3">相機已針對長時間曝光進行設定；遙控攝影不可用。</string>
+    <string name="error_remote4">相機快門速度已設為閃光燈同步速度；遙控攝影不可用。</string>
+    <string name="error_remote5">相機已針對 B 門攝影進行設定；實時顯示關閉。您是否希望記錄定時曝光？</string>
+    <string name="error_remote6">您是否希望記錄定時曝光？</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="fallback_menu_item_copy_link">複製連結</string>
+    <string name="fallback_menu_item_open_in_browser">在瀏覽器中開啟</string>
+    <string name="fallback_menu_item_share_link">分享連結</string>
+    <string name="gallery1_blank_text">螢幕中將顯示所下載的影像。</string>
+    <string name="gallery1_blank_title">連線至相機並下載影像</string>
+    <string name="gallery_dialog_delete_text">刪除影像？</string>
+    <string name="gcm_fallback_notification_channel_label">其他</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string name="in_progress">處理中</string>
+    <string name="indeterminate">沒有勾選也沒有取消勾選</string>
+    <string name="installation_cancelled">已取消安裝。</string>
+    <string name="installation_failed">無法安裝。</string>
+    <string name="installing_module">正在安裝模組：</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="mynikon0_btn_install">安裝</string>
+    <string name="mynikon0_btn_launch">啟動</string>
+    <string name="mynikon0_date_format">yyyy.MM.dd</string>
+    <string name="mynikon0_tab0">相片生活</string>
+    <string name="mynikon0_tab1">新聞</string>
+    <string name="mynikon0_tab2">應用程式</string>
+    <string name="nav_app_bar_navigate_up_description">向上瀏覽</string>
+    <string name="nav_app_bar_open_drawer_description">開啟導覽匣</string>
+    <string name="navigation_menu">導覽選單</string>
+    <string name="none0">-</string>
+    <string name="none1">- / -</string>
+    <string name="none2">- -</string>
+    <string name="not_selected">未選取</string>
+    <string name="off">已關閉</string>
+    <string name="ok">確定</string>
+    <string name="on">已開啟</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="progress">進度：</string>
+    <string name="receive_progress_cancel">已取消從相機下載。</string>
+    <string name="regist0_nikon_id_login">Nikon ID 登入</string>
+    <string name="regist0_or">或</string>
+    <string name="regist4_next">註冊</string>
+    <string name="remote1_time_text0">按下快門釋放按鍵開始長時間曝光</string>
+    <string name="remote1_time_text1">按下快門釋放按鍵結束長時間曝光</string>
+    <string name="remote1_wb0">自動</string>
+    <string name="remote2_btn_item0">影像下載選項</string>
+    <string name="retry">重試</string>
+    <string name="review_btn_link">建議</string>
+    <string name="review_btn_no">不滿意</string>
+    <string name="review_btn_yes">滿意</string>
+    <string name="review_text0">"感謝您使用 SnapBridge。
+請為該應用程式評級。"</string>
+    <string name="review_text1">若您對該應用程式有任何建議或意見，請聯絡我們或核選以下列表。</string>
+    <string name="review_title">為 SnapBridge 評級</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="selected">已選取</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">Tab 鍵</string>
+    <string name="template_percent">百分之 %1$d。</string>
+    <string name="tutorial5_info1">您可隨時更改該設定。</string>
+    <string name="tutorial5_next">完成</string>
+    <string name="warning_liveview0">ISO 感光度：所選項目在遙控攝影過程中不可用。感光度將設為 ISO 100 或 25600。</string>
+    <string name="warning_liveview0_ISO_800">ISO 感光度：所選項目在遙控攝影過程中不可用。感光度將設為 ISO 800 或 25600。</string>
+    <string name="warning_liveview0_SHUTTER_MODE">快門模式：此設定將切換至 [快門速度]，因為遙控攝影中不支援其他選項。</string>
+    <string name="warning_liveview1">白平衡：所選項目在遙控攝影過程中不可用。將使用自動白平衡代替。</string>
+    <string name="transfer_queue_status">進度 %1$d/%2$d · 等待 %3$d · 失敗 %4$d</string>
+    <string name="setting_section_camera">連線與自動傳圖</string>
+    <string name="setting_section_storage">相片儲存</string>
+    <string name="setting_section_system">系統存取</string>
+    <string name="setting_background">背景執行與電池</string>
+    <string name="setting_notifications">通知</string>
+    <string name="setting_permissions">權限</string>
+    <string name="setting_debug_logs">偵錯記錄</string>
+    <string name="setting_debug_logs_summary">可在 Android 記錄中查看 SnapBridgeLogger 和 SnapBridgeTransfer。</string>
+    <string name="setting_section_about">關於</string>
+</resources>

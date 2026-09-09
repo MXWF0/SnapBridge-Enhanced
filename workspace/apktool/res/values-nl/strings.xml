@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_REMOTE_INTERRUPTED_RECORDING_MOVIE_BY_CAMERA">Opname geannuleerd.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_BATTERY">Batterij bijna leeg; kan fotografie op afstand niet starten.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_EXPOSURE_MODE">Niet ondersteunde opnamestand geselecteerd; kan fotografie op afstand niet starten. Selecteer stand P, S, A of M.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_LIVEVIEW_ON">Kan fotografie op afstand niet starten. Controleer de camera. Fotografie op afstand kan niet worden gebruikt terwijl livebeeld actief is op de camera of wanneer de cameraopname bezig is.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_MEMORY_CARD">Kan fotografie op afstand niet starten. Controleer de geheugenkaart.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_POWER_OFF">Camerasignaal verbroken.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_TEMPERATURE">Kan fotografie op afstand niet starten. Wacht totdat de camera of draadloze mobiele adapter zijn afgekoeld.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_ZOOM_LENS">Kan fotografie op afstand niet starten. Objectief ingetrokken.</string>
+    <string name="MID_ABOUT_BOKEH_BLUR">Bokeh en bewegingsonscherpte</string>
+    <string name="MID_ABOUT_BOKEH_BLUR_DESC">Cam. pst bokeh en bw.verv. aan vlgns ges. ond. en ges. scène.</string>
+    <string name="MID_ACCESS_LOCATION_PRECISE">Vervolgens wordt u gevraagd toestemming te geven voor toegang tot locatiegegevens. Selecteer “Exact” om toegang te verlenen tot de exacte locatie van uw apparaat.</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_CHECK">Ga akkoord met het gebruik van Adobe Analytics</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_OFF">Weigeren</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_ON">Accepteren</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_DESC">Deze app gebruikt Adobe Analytics om gebruiksgegevens te analyseren. %s</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_ITEM">Gebruiksgegevens analyseren</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA">De camera is bezig. Probeer opnieuw te verbinden na het beëindigen van de video-opname of het afspelen.</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA_PLEASE_CAMERA_ON">Opname-instellingen kunnen niet naar de camera worden geüpload. Zet de camera aan, maak de camera gereed om te fotograferen en probeer het opnieuw.</string>
+    <string name="MID_ALLERT_BEFORE_8MP_DOWNLOAD">"Door het gebruik van de camera om video's op te nemen of te bekijken kan het downloaden worden onderbroken. Controleer de camerastatus."</string>
+    <string name="MID_APPROXIMATE">Geschat</string>
+    <string name="MID_APPS_MV2_INFO">"De viewer-app Nikon Manual Viewer 2 kan worden gebruikt om handleidingen van Nikon digitale SLR-camera’s te downloaden en te bekijken.
+Downloaden van de handleiding behorende bij uw camera geeft u de zekerheid dat de handleiding overal, altijd, online of offline kan worden bekeken."</string>
+    <string name="MID_APPS_MV2_NAME">Manual Viewer 2</string>
+    <string name="MID_APPS_NIS_INFO">"Deze gratis app voor Nikon's NIKON IMAGE SPACE-fotodeelservice brengt uw foto's dichterbij en vergroot uw fotografeerplezier. De app bestaat uit drie eenvoudige functies—bekijken, organiseren en delen van foto's—waardoor het leven van een fotoliefhebber overal gemakkelijker, plezieriger en efficiënter wordt gemaakt."</string>
+    <string name="MID_APPS_NIS_NAME">NIKON IMAGE SPACE</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLACK">Zwart</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLUE">Blauw</string>
+    <string name="MID_APP_CD_COLOR_LIST_BROWN">Bruin</string>
+    <string name="MID_APP_CD_COLOR_LIST_DARKGRAY">Donkergrijs</string>
+    <string name="MID_APP_CD_COLOR_LIST_WHITE">Wit</string>
+    <string name="MID_APP_CD_COLOR_TITLE">Kleur</string>
+    <string name="MID_APP_CD_CREDIT_ADD">Credits toevoegen</string>
+    <string name="MID_APP_CD_CREDIT_NOTE">Voeg opname-informatie of commentaar toe aan beelden.</string>
+    <string name="MID_APP_CD_CREDIT_POSITION">Positie</string>
+    <string name="MID_APP_CD_CREDIT_PREV">Voorbeeld</string>
+    <string name="MID_APP_CD_CREDIT_TYPE">Type</string>
+    <string name="MID_APP_CD_FONT_LIST_BOLD">Vet</string>
+    <string name="MID_APP_CD_FONT_LIST_ITALIC">Cursief</string>
+    <string name="MID_APP_CD_FONT_LIST_NORMAL">Normaal</string>
+    <string name="MID_APP_CD_FONT_TITLE">Stijl</string>
+    <string name="MID_APP_CD_POS_LEFT_BOTTOM">Linksonder</string>
+    <string name="MID_APP_CD_POS_LEFT_TOP">Linksboven</string>
+    <string name="MID_APP_CD_POS_RIGHT_BOTTOM">Rechtsonder</string>
+    <string name="MID_APP_CD_POS_RIGHT_TOP">Rechtsboven</string>
+    <string name="MID_APP_CD_SIZE_LIST_BIG">Groot</string>
+    <string name="MID_APP_CD_SIZE_LIST_MIDDLE">Middelgroot</string>
+    <string name="MID_APP_CD_SIZE_LIST_SMALL">Klein</string>
+    <string name="MID_APP_CD_SIZE_TITLE">Formaat</string>
+    <string name="MID_APP_CD_TEXT_TITLE">Voer beschrijving in</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_COMMENT">Beeldcommentaar</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_DATE">Tijdopname</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_INDEX">Bestand/foto-informatie</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_LIST_INFO">Foto-informatie</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_PHOTOGRAPHER_AND_COPYRIGHT">Fotograaf/copyrighthouder</string>
+    <string name="MID_APP_CD_TYPE_TITLE">Credittype</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_COMMENT">Commentaar</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_SNAPBRIDGE_LOGO">SnapBridge-logo</string>
+    <string name="MID_APP_CD_USER_SETTING_TITLE">Gebruikersinstelling</string>
+    <string name="MID_APP_CREDIT">Credits tonen</string>
+    <string name="MID_APP_HASH">Hashtag toevoegen</string>
+    <string name="MID_APP_NIKONID_SETTING">Nikon ID registreren/profiel bewerken</string>
+    <string name="MID_APP_PRIVACY_POLICY">Privacybeleid</string>
+    <string name="MID_APP_PRIVACY_POLICY_CHECK">Accepteer de voorwaarden van het privacybeleid</string>
+    <string name="MID_APP_PRIVACY_POLICY_DESC">Lees \"Privacybeleid\" over het omgaan met app-gebruikersgegevens.</string>
+    <string name="MID_APP_SUPPORT_SITE">Ondersteuning</string>
+    <string name="MID_APP_TERMS_OF_USE">Licentieovereenkomst</string>
+    <string name="MID_APP_TERMS_OF_USE_AGREEMENT_CHECK">Accepteer de Licentieovereenkomst voor de toepassing</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MSG">Lees de Licentieovereenkomst.</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MUST_READ_MSG">Lees de licentieovereenkomst (Verplicht)</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC">Zie “Licentieovereenkomst” voor informatie over servicevoorwaarden en andere overeenkomsten met betrekking tot de verschillende diensten voor het gebruik van deze app.</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC_TERMS_OF_USE">Licentieovereenkomst</string>
+    <string name="MID_ASK_BLUR">Beweging: hoe wilt u beweging laten zien?</string>
+    <string name="MID_ASK_BOKEH">Bokeh/scherptediepte: wilt u achtergronden verzachten?</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE">Het verbindingstype van auto koppeling is gewijzigd bij updates naar de camerafirmware en instellingen moeten nu worden bijgewerkt.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE_SYNCOFF">Het verbindingstype voor de koppelingsstand is gewijzigd bij updates voor de camerafirmware en de opties in het koppelingsstandsscherm zijn bijgewerkt.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_TITLE">Wijziging verbindingstype</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED">Bijwerken van instellingen mislukt</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED_TEXT">Controleer of Bluetooth is ingeschakeld op de camera en probeer het opnieuw.</string>
+    <string name="MID_AUTOLINK_CHANGE_SUCCEEDED">Instellingen bijgewerkt</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_BUTTON">Ga verder</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_MESSAGE">De camera-instellingen moeten worden gewijzigd om gebruik te kunnen maken van de verbindingsmodus “achtergrond”. Doorgaan?</string>
+    <string name="MID_AUTOLINK_MODE">Koppelingsstand</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND">Achtergrond</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND_DISCRIPTION">"Koppeling naar de camera, zelfs wanneer uw smartapparaat zich in de slaapstand bevindt. Locatiegegevens worden voor het downloaden toegevoegd aan de foto's op de camera.
+De app maakt verbinding met de camera wanneer deze stand is geselecteerd."</string>
+    <string name="MID_AUTOLINK_MODE_CHANGNG">Instellingen bijwerken…</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND">Voorgrond</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_DISCRIPTION">"Koppeling naar de camera terwijl de app actief is. Locatiegegevens worden pas aan foto's toegevoegd na het downloaden.
+De batterij van de camera raakt minder snel leeg."</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_SAVING">Voorgrond</string>
+    <string name="MID_AUTOLINK_SIZE">Downloadgrootte</string>
+    <string name="MID_AUTOLINK_TIME_DISCRIPTION">De klok op de camera wordt ingesteld op de tijd en tijdzone op het smartapparaat.</string>
+    <string name="MID_AUTO_TRANSFER_WIFI">Automatisch downloaden (Wi-Fi)</string>
+    <string name="MID_BACK_TO_HOME">Terug naar lijst met instellingenbanken</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_MOVIE">Camera omschakelen naar video-opname</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_REMOTE">Kan de actie niet voltooien. Controleer de camera-instellingen.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE">Afstandsbediening niet beschikbaar</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE_BY_CAMERA">Afstandsbediening niet beschikbaar. Controleer de status van de camera.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_STILL">Camera omschakelen naar foto-opname</string>
+    <string name="MID_BLE_REMOTE_ALERT_CAN_START_AFTER_FINISH_SENDING">Afstandsbediening begint als het downloaden is voltooid.</string>
+    <string name="MID_BLE_REMOTE_BULBE_SHOOTING">Bezig met bulbfotografie</string>
+    <string name="MID_BLE_REMOTE_CAMERA_STATE_ERROR">Controleer de camera-instellingen.</string>
+    <string name="MID_BLE_REMOTE_CHANGE_MODE">Opties voor afstandsbediening</string>
+    <string name="MID_BLE_REMOTE_CONFIRM_FINISH">Bluetooth-afstandsbediening beëindigen?</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_RETURN">Opnames die op dit moment in uitvoering zijn zullen worden voortgezet. Tik op “Bluetooth-afstandsbediening” om naar de opnameweergave terug te keren.</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_SHOOTING">Opname wordt voortgezet nadat de app is gesloten</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE">"Maak afstand bediende foto’s terwijl u de compositie maakt op het beeldscherm van de camera of speel foto's af op TV's of andere schermen."</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE_CHANGE">Gebruik de knop om te schakelen tussen de twee opties.</string>
+    <string name="MID_BLE_REMOTE_END_DATE_TIME">Einde dag/tijd</string>
+    <string name="MID_BLE_REMOTE_END_HALF_PRESS">Stop met half indrukken</string>
+    <string name="MID_BLE_REMOTE_END_SHOOTING">Beëindig opname</string>
+    <string name="MID_BLE_REMOTE_FINISH_TIME_SHOOTING">Tik op ontspanknop om opname te beëindigen</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT">Focus-shift-opname</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT_SHOOTING">Bezig met focus-shift-opnamen</string>
+    <string name="MID_BLE_REMOTE_INTERVAL">Intervalopnamen (foto)</string>
+    <string name="MID_BLE_REMOTE_INTERVAL_SHOOTING">Bezig met intervalopnamen</string>
+    <string name="MID_BLE_REMOTE_NUMBER_SHOTS">Aantal resterende intervallen</string>
+    <string name="MID_BLE_REMOTE_PRESS_HALF_BUTTON">Half indrukken</string>
+    <string name="MID_BLE_REMOTE_SHOOTING">Bezig met opname</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_GUIDE">Pas opname-instellingen aan op de camera</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_SHOOTING">Andere opnameopties</string>
+    <string name="MID_BLE_REMOTE_START_SHOOTING">Begin met opname</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE">Time-lapse-video-opname</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE_SHOOTING">Bezig met time-lapse-video-opname</string>
+    <string name="MID_BLE_REMOTE_TIME_SHOOTING">Bezig met langetijd (Time) opname</string>
+    <string name="MID_BLE_REMOTE_WIFI_CANCEL">Schakel naar Bluetooth voordat u de Bluetooth-afstandsbediening gebruikt.</string>
+    <string name="MID_BLUR_SAMPLE">Beweging: voorbeeld</string>
+    <string name="MID_BOKEH_SAMPLE">Bokeh: voorbeeld</string>
+    <string name="MID_BUTTON_GO_TO_CHUTORIAL">Zelfstudies bekijken</string>
+    <string name="MID_BUTTON_GO_TO_HELP">Bekijk de Help-beschrijving.</string>
+    <string name="MID_BUTTON_RESET_SHOTTING_SETTING">Opname-instellingen van de camera terugzetten</string>
+    <string name="MID_CAMERA_CONNECTION_AUTO_TRANSFER_IN_PROGRESS">Bezig met automatisch downloaden …(%1$d/%2$d)</string>
+    <string name="MID_CAMERA_CONNECTION_CONNECTING_TO_CAMERA">Verbinding aan het maken met de camera.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER">Foto’s aan het gereedmaken voor automatisch downloaden. Even geduld a.u.b.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER_SUMMARY">Foto’s aan het gereedmaken voor automatisch downloaden</string>
+    <string name="MID_CAMERA_CONNECTION_UNABLE_TO_RECEIVE_BLUETOOTH_SIGNAL">Camera Bluetooth niet gedetecteerd. Controleer of Bluetooth is ingeschakeld op de camera.</string>
+    <string name="MID_CAMERA_CONNECTION_WAITING_CAMERA_RESPONSE">Camera Bluetooth gedetecteerd. Functies van de app kunnen worden gebruikt.</string>
+    <string name="MID_CAMERA_IMPORTING_TITLE">Bezig met downloaden foto’s…</string>
+    <string name="MID_CAM_ACTIVE_BLE_REMOTE">Bluetooth-afstandsbediening</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_MSG">Even wachten a.u.b.</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_TITLE">Camera voorbereiden…</string>
+    <string name="MID_CAM_ACTIVE_CHANGE_WIFI_DLG_TITLE">Schakel Wi-Fi op de camera in</string>
+    <string name="MID_CAM_ACTIVE_DLG_CHANGE_WIFI_DLG_MSG_1">"U moet naar Wi-Fi overschakelen om deze functie te gebruiken.
+Opmerking: het kan enige tijd duren om over te schakelen."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_1">"Koppelen beëindigen met deze camera?
+Opmerking: u kunt alleen verbinding maken met de camera wanneer deze is gekoppeld met uw apparaat."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_3">Gebruik de optie “vergeten” in de Bluetooth-sectie van de iOS Instellingen-app om de camera uit de lijst met gekoppelde apparaten te verwijderen, anders kunt u niet opnieuw met de camera koppelen.</string>
+    <string name="MID_CAM_ACTIVE_DLG_TITLE">Koppelen beëindigen?</string>
+    <string name="MID_CAM_ACTIVE_IMPORT">Foto’s downloaden</string>
+    <string name="MID_CAM_ACTIVE_REMOTE">Afstand bediende fotografie</string>
+    <string name="MID_CAM_ACTIVE_SERIAL">Serienr.</string>
+    <string name="MID_CAM_ACTIVE_SYNC">Auto koppelingsopties</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_0">"Wi-Fi van camera wordt gestart.
+Even wachten a.u.b."</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_1">"Via Wi-Fi wordt verbinding gemaakt met camera.
+Even wachten a.u.b."</string>
+    <string name="MID_CAM_ADD_LIMIT_NUMBER_OF_CAMERA_PAIRING">"SnapBridge kan koppelingsinformatie opslaan voor maximaal 5 camera's"</string>
+    <string name="MID_CAM_ADD_PAIRING">Camera toevoegen</string>
+    <string name="MID_CAM_CHANGE_REMOTE">Schakel over naar fotograferen met afstandsbediening</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTED">Verbinding gemaakt met camera.</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTING">"Maakt verbinding met camera.
+Even wachten a.u.b."</string>
+    <string name="MID_CAM_CONNECT_MSG_WAIT_RES">Druk op de OK-knop van de camera wanneer een verificatiecode wordt weergegeven in de cameramonitor.</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTED">Koppelen voltooid</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTING">Maakt verbinding met camera …</string>
+    <string name="MID_CAM_NORMAL_MODE">Wi-Fi AP mode afsluiten</string>
+    <string name="MID_CAM_PAIRING_CATEGORY_OTHER">Overig</string>
+    <string name="MID_CAM_PAIRING_NOTE_COOLPIX">"Selecteer Verbinden met smartapparaat in het camera netwerkmenu.
+
+Volg de instructies op het scherm totdat de cameranaam wordt weergegeven."</string>
+    <string name="MID_CAM_PAIRING_NOTE_C_ML">"Selecteer “Verbinden met smartapparaat” > “Wi-Fi-verbinding” in de setup van de camera of het netwerkmenu.
+Opmerking: Op sommige camera’s bevindt deze optie zich in het menu “Wi-Fi”.
+
+Selecteer “Wi-Fi-verbinding maken” om de camera-SSID en het wachtwoord weer te geven."</string>
+    <string name="MID_CAM_PAIRING_NOTE_DRS">"Selecteer Verbinden met smartapparaat in het camera setup-menu.
+
+Volg de instructies op het scherm totdat de cameranaam wordt weergegeven."</string>
+    <string name="MID_CAM_PAIRING_NOTE_KM80">"Selecteer Verbinden met smartapparaat in het camera setup-menu.
+
+Volg de instructies op het scherm totdat de cameranaam wordt weergegeven
+ 
+Opmerking: Koppelen kan alleen worden uitgevoerd als er een geheugenkaart in de camera is geplaatst."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML1DSLR2">"Selecteer “Verbinden met smartapparaat” in het setup-menu van de camera.
+
+Selecteer “Koppelen (Bluetooth)”.
+
+Volg de instructies op het scherm totdat de cameranaam wordt weergegeven."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML2">"Selecteer “Verbinden met smartapparaat” in het netwerkmenu van de camera.
+
+Selecteer “Koppelen (Bluetooth)”.
+
+Volg de instructies op het scherm totdat de cameranaam wordt weergegeven."</string>
+    <string name="MID_CAM_PAIRING_SELECT_LB">Selecteer camera voor verbinding.</string>
+    <string name="MID_CAM_PAIRING_SELECT_TITLE">Maak verbinding met de camera</string>
+    <string name="MID_CAM_SYMC_OFF_CONFIRM">Als u alle drie de opties “Automatisch downloaden”, “Klokken” en “Locatiegegevens” uitschakelt, wordt ook “Auto koppeling” uitgeschakeld.</string>
+    <string name="MID_CAM_SYMC_OFF_SYNC_INFO">"Met auto link ingeschakeld, blijft auto downloaden en klok- en locatiesynchronisatie actief, ook al bevindt het smartapparaat zich in de slaapstand.
+Als u deze functies niet gebruikt, schakel auto link dan uit om het accuverbruik te verminderen."</string>
+    <string name="MID_CAM_SYNC_ALERT_TIME_SYNC">"Omdat er locatiegegevens worden toegevoegd aan foto's op basis van de tijd en datum van opname, kan “Klokken” niet worden uitgeschakeld terwijl “Locatiegegevens” is ingeschakeld."</string>
+    <string name="MID_CAM_SYNC_AUTO_TRANS">Automatisch downloaden</string>
+    <string name="MID_CAM_SYNC_POS_SYNC">Locatiegegevens</string>
+    <string name="MID_CAM_SYNC_REQUIRES_TIME_SYNC">"Omdat er locatiegegevens worden toegevoegd aan foto's op basis van de tijd en datum van opname, kan “Klokken” niet worden uitgeschakeld terwijl “Locatiegegevens” is ingeschakeld."</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY">Stroombesparingsstand</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY_SETTINGS">Stroombesparing</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID">Het smartapparaat onderbreekt de koppeling van locatiegegevens zodat de batterij minder snel leeg raakt als er gedurende een ingestelde periode geen handelingen worden uitgevoerd. Als u het apparaat gebruikt, wordt de koppeling opnieuw tot stand gebracht.</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID_OLD">"Het smartapparaat onderbreekt koppelingen die op de achtergrond draaien zodat de batterij minder snel leegraakt als deze gedurende een ingestelde periode buiten het bereik van de camera zijn.
+De koppeling wordt opnieuw tot stand gebracht wanneer SnapBridge start."</string>
+    <string name="MID_CAM_SYNC_SYNC_LB">Auto koppeling</string>
+    <string name="MID_CAM_SYNC_TIME_SYNC">Klokken</string>
+    <string name="MID_CAM_SYNC_TITLE">Koppelingsopties</string>
+    <string name="MID_CAM_WIFI_MODE">Wi-Fi mode</string>
+    <string name="MID_CAM_WIFI_MODE1">Wi-Fi-mode</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK">Controleer de compatibiliteit van de camera en ondersteunde functies</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK_STATUS0">Start de Wireless Mobile Utility.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG">"Bepaalde camera's ondersteunen bepaalde SnapBridge-functies zonder te koppelen."</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_CONNECTED">Via Wi-Fi met camera verbonden.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_NOT_CONNECTED">Niet veronden met de camera. Ga naar instellingen-app van het smartapparaat en controleer de Wi-Fi-instellingen.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS0">Maak verbinding met deze camera met de Wireless Mobile Utility.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS1">Kies Wi-Fi-mode om foto’s te downloaden of bedien camera’s op afstand zonder te koppelen.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE0">Met de camera verbinding maken via Wi-Fi?</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_CONNECTED">Wi-Fi-verbinding tot stand gebracht</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS0">Wi-Fi gebruiken met niet-compatibele camera’s</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS1">Verbonden camera niet gekoppeld</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT0">Tik hier voor een eenmalige Wi-Fi-verbinding.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT1">Opmerking: Sommige functies worden niet ondersteund.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT2">"Start de instellingen-app op het smartapparaat en selecteer Wi-Fi-instellingen.
+
+Voer, na het selecteren van de SSID van de camera, het wachtwoord weergegeven op de camera in.
+
+Ga terug naar de SnapBridge-app zodra er een verbinding is."</string>
+    <string name="MID_CAM_WIFI_MODE_TITLE">Wi-Fi-verbinding</string>
+    <string name="MID_CANCEL">Annuleren</string>
+    <string name="MID_CANNOT_LOGIN_DUE_TO_MAINTENANCE_MSG">Inloggen is momenteel niet beschikbaar vanwege onderhoud. Probeer het later opnieuw.</string>
+    <string name="MID_CANNOT_SIGN_UP_DUE_TO_MAINTENANCE_MSG">Aanmelden is momenteel niet beschikbaar vanwege onderhoud. Probeer het later opnieuw.</string>
+    <string name="MID_CD_EDIT_LOGO_LB">Logoafbeelding</string>
+    <string name="MID_CHANNEL_RETRY_GETTING_CHANNEL">Info vernieuwen</string>
+    <string name="MID_CHOICE_CONNECTABLE_CAMERA">"Kies uit aansluitbare camera's"</string>
+    <string name="MID_CHOICE_RESIDENCE_CHINA">Vasteland van China</string>
+    <string name="MID_CHOICE_RESIDENCE_DECISION">OK</string>
+    <string name="MID_CHOICE_RESIDENCE_LABEL">Land/regio</string>
+    <string name="MID_CHOICE_RESIDENCE_OTHER">"Andere landen/regio's"</string>
+    <string name="MID_CHOICE_USE_NIS_NO">Niet nu</string>
+    <string name="MID_CHOICE_USE_NIS_YES">Gebruiken</string>
+    <string name="MID_CLD_ACCOUNT">Account</string>
+    <string name="MID_CLD_ACCOUNT_LOGOUT">Uitloggen</string>
+    <string name="MID_CLD_ACCOUNT_TITLE">Account</string>
+    <string name="MID_CLD_ALREADY_REGISTERED">ID bestaat al</string>
+    <string name="MID_CLD_CLMEULA_TITLE">Privacybeleid</string>
+    <string name="MID_CLD_FINISH_FINISH_INFO">U kunt nu foto’s naar NIKON IMAGE SPACE uploaden. Maar u hebt uw Nikon-ID-registratie nog niet afgerond.</string>
+    <string name="MID_CLD_FINISH_FINISH_TITLE">Klik, om de registratie te voltooien, op de link in het tekstgedeelte van de e-mail die wij u hebben toegezonden.</string>
+    <string name="MID_CLD_FINISH_INFO">Uw registratie wordt automatisch geannuleerd als u het proces niet binnen 30 dagen voltooit.</string>
+    <string name="MID_CLD_INSTALL_APP">App installeren</string>
+    <string name="MID_CLD_INVALID_EMAIL_ADDRESS_OR_PASSWORD">ID of wachtwoord onjuist. Voer opnieuw in.</string>
+    <string name="MID_CLD_INVALID_MAIL_ADDRESS">Geen geldig e-mailadres. Voer een geldig adres in.</string>
+    <string name="MID_CLD_INVALID_PASS">Wachtwoorden komen niet overeen. Probeer het opnieuw.</string>
+    <string name="MID_CLD_INVALID_PASSWORD">Geen geldig wachtwoord. Voer een geldig wachtwoord in.</string>
+    <string name="MID_CLD_LAUNCH_APP">Start een app</string>
+    <string name="MID_CLD_LOGIN_DIALOG_TEXT">Bekijk de Nikon ID-website in een webbrowser?</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIKON_ID">Nikon ID bewerken of verwijderen</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIS">Bewerk of verwijder NIKON IMAGE SPACE-accountinformatie</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_MSG">Bezig met inloggen. Even wachten a.u.b.</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_TITLE">Bezig met inloggen…</string>
+    <string name="MID_CLD_LOGIN_LOG_IN">Inloggen</string>
+    <string name="MID_CLD_LOGIN_PRIVILEGE_OF_NIKON_ID">Voordelen van Nikon ID-registratie</string>
+    <string name="MID_CLD_LOGIN_SIGN_UP">Een Nikon ID-account aanmaken</string>
+    <string name="MID_CLD_LOGIN_STEP_TITLE">Nikon ID-account</string>
+    <string name="MID_CLD_LOGOUT_TO_UNSUBSCRIBE_FROM_NIKON_ID">Afmelden voordat u uw Nikon ID bewerkt of verwijdert.</string>
+    <string name="MID_CLD_MAIL_ADDRESS">E-mail</string>
+    <string name="MID_CLD_MAIL_AGREE_AND_NEXT">Ik ga akkoord met de voorwaarden</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_MSG">"Wij verifiëren uw e-mailadres.
+Even wachten a.u.b."</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_TITLE">E-mailadres wordt geverifieerd…</string>
+    <string name="MID_CLD_MAIL_MAIL_INPUT">E-mailadres</string>
+    <string name="MID_CLD_MAIL_STEP_INFO2">"Voer het e-mailadres in dat u wilt gebruiken voor uw Nikon ID.
+Terugkerende gebruikers dienen het adres in te voeren dat zij momenteel voor NIKON IMAGE SPACE gebruiken."</string>
+    <string name="MID_CLD_MAIL_STEP_TITLE">Registreer e-mailadres</string>
+    <string name="MID_CLD_NIKON_ID">Nikon ID</string>
+    <string name="MID_CLD_NIKON_ID_TERMS_OF_SERVICE">Nikon ID</string>
+    <string name="MID_CLD_NIS_INFO2">Beelden overgezet naar uw smartapparaat kunnen automatisch worden geüpload naar NIKON IMAGE SPACE. U kunt een onbeperkt aantal beelden van 2 megapixel uploaden.</string>
+    <string name="MID_CLD_NIS_TITLE">Onbeperkt auto uploaden</string>
+    <string name="MID_CLD_NOTICE_REGISTRATION_PROCESSING_TITLE">Bezig met registreren…</string>
+    <string name="MID_CLD_NOT_AUTHORIZED">Verificatie mislukt. Mogelijk is er een probleem met de server of het netwerk.</string>
+    <string name="MID_CLD_PASSWORD">Wachtwoord</string>
+    <string name="MID_CLD_PASS_CHECKING_PASS_TITLE">Wachtwoord wordt geverifieerd…</string>
+    <string name="MID_CLD_PASS_CONFIRM">Bevestig wachtwoord</string>
+    <string name="MID_CLD_PASS_FOGOT_PASS">Uw wachtwoord vergeten?</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_INFO">"Voer uw NIKON IMAGE SPACE-wachtwoord in om uw registratie te bevestigen.
+Opmerking: 8 tot 15 tekens"</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_TITLE">NIKON IMAGE SPACE-wachtwoord</string>
+    <string name="MID_CLD_PASS_PASS_TEXT">8 tot 15 tekens</string>
+    <string name="MID_CLD_PASS_STEP_INFO">"Kies uw Nikon ID-wachtwoord.
+Opmerking: 8 tot 15 tekens"</string>
+    <string name="MID_CLD_PASS_STEP_TITLE">Een wachtwoord kiezen</string>
+    <string name="MID_CLD_PASS_TITLE">Registreren voor een Nikon ID</string>
+    <string name="MID_CLD_PROVISIONAL_REGISTRATION_FINISHED_TITLE">Registreren voltooid</string>
+    <string name="MID_CLD_SET_PRODUCT_INFO">Vereist</string>
+    <string name="MID_CLD_START">Starten</string>
+    <string name="MID_CLD_SYNC_AREA">Regio</string>
+    <string name="MID_CLD_SYNC_FIRMWARE_VERSION">Firmwareversie</string>
+    <string name="MID_CLD_SYNC_LANGUAGE">Taal</string>
+    <string name="MID_CLD_SYNC_PRODUCT_NAME">Productnaam</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PROCUCT_INFO">Bevat de volgende informatie:</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PRODUCT_INDEX">Gerelateerde producten registreren</string>
+    <string name="MID_CLD_SYNC_SERIAL_NUMBER">Serienummer</string>
+    <string name="MID_CLD_SYNC_TIMEZONE_TITLE">Tijdzone</string>
+    <string name="MID_CLD_TERMS_OF_SERVICE">Gebruiksvoorwaarden</string>
+    <string name="MID_CLD_UNDER_MAINTENANCE">Verificatie mislukt. Server ondergaat momenteel onderhoud.</string>
+    <string name="MID_CLD_UPDATE_APPLICATION_TO_LOGIN_OR_INITIALIZE_NID">De Nikon ID-aanmeld- en inlogprocedures zijn gewijzigd. Update naar de nieuwste versie van de app en probeer het opnieuw.</string>
+    <string name="MID_CLD_UPLOAD">Automatisch uploaden</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_INDEX">Upload automatisch foto’s indien:</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON">alleen via Wi-Fi verbinding is gemaakt</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON_DESC">Instellingen kunnen worden aangepast zodat foto’s automatisch alleen via Wi-Fi worden geüpload. Uploads kunnen grote hoeveelheden gegevens bevatten; let op dat u de datalimieten van uw provider niet overschrijdt.</string>
+    <string name="MID_CLD_UPLOAD_INFO">"Foto's gedownload vanaf de camera kunnen automatisch naar NIKON IMAGE SPACE worden geüpload."</string>
+    <string name="MID_COMMON_1">1</string>
+    <string name="MID_COMMON_10">10</string>
+    <string name="MID_COMMON_11">11</string>
+    <string name="MID_COMMON_1800S">1.800 s</string>
+    <string name="MID_COMMON_2">2</string>
+    <string name="MID_COMMON_2M">2 M</string>
+    <string name="MID_COMMON_3">3</string>
+    <string name="MID_COMMON_300S">300 s</string>
+    <string name="MID_COMMON_4">4</string>
+    <string name="MID_COMMON_5">5</string>
+    <string name="MID_COMMON_6">6</string>
+    <string name="MID_COMMON_600S">600 s</string>
+    <string name="MID_COMMON_7">7</string>
+    <string name="MID_COMMON_8">8</string>
+    <string name="MID_COMMON_9">9</string>
+    <string name="MID_COMMON_ADVANCED_SETTINGS">Geavanceerde instellingen</string>
+    <string name="MID_COMMON_ALWAYS_ON">Altijd aan</string>
+    <string name="MID_COMMON_ASC">ASCII</string>
+    <string name="MID_COMMON_AUTHENTICATION">Verificatie/Encryptie</string>
+    <string name="MID_COMMON_AUTO">Autom.</string>
+    <string name="MID_COMMON_AUTO_POWEROFF_DELAY">Vertraging voor automatisch uit</string>
+    <string name="MID_COMMON_AUTO_TRANSFER_ONLY_WHILE_CONNECTED">Automatisch downloaden (alleen bij verbinding)</string>
+    <string name="MID_COMMON_CAMERA_TO_CONNECT">"Camera's om aan te sluiten"</string>
+    <string name="MID_COMMON_CANCEL">Annuleren</string>
+    <string name="MID_COMMON_CHANNEL">Kanaal</string>
+    <string name="MID_COMMON_CLOSE">Sluiten</string>
+    <string name="MID_COMMON_CONFIRM">Bevestigen</string>
+    <string name="MID_COMMON_CONFIRM_TARGET_CAMERA">"Controleer compatibele camera's"</string>
+    <string name="MID_COMMON_CONNECTABLE_CAMERA">"Aansluitbare camera's"</string>
+    <string name="MID_COMMON_CONNECTING_CAMERA">"Verbonden camera's"</string>
+    <string name="MID_COMMON_CONNECT_BUSY_DLG_MSG">Camera bezet</string>
+    <string name="MID_COMMON_CONNECT_ERR_ACCESS_DENIED">De camera is niet gereed om aan te sluiten. Selecteer de afspeelstand op de camera en probeer het opnieuw.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG1">Camera niet gevonden. Zie online help.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG2">Wi-Fi van camera is uit.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG3">Geen verbinding kunnen maken; de camera is nu bezig met andere verbinding. Probeer opnieuw na lezen van online helpinformatie over hoe het probleem kan worden verholpen.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG4">De verbinding met de camera is mislukt. Probeer opnieuw na lezen van online helpinformatie over hoe het probleem kan worden verholpen.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG5">Er is een fout opgetreden</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG6">Koppelen mislukt. AIs dit niet het beoogde resultaat is, zie dan online help.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG7">"De camera is met een ander apparaat verbonden.
+Kies uw smartapparaat in de Bluetooth > Gekoppelde apparaten-lijst. Koppel de camera en het smartapparaat opnieuw, als de camera op dit moment niet met uw apparaat is gekoppeld."</string>
+    <string name="MID_COMMON_CONNECT_ERR_DURING_SHOOTING">Kan op afstand bediende fotografie niet starten. Stop met het maken van opnamen op de camera en probeer het opnieuw.</string>
+    <string name="MID_COMMON_COUNTRY_CODE">nl</string>
+    <string name="MID_COMMON_DESTRUCTION">Verwijderen</string>
+    <string name="MID_COMMON_DHCP_CLIENT_IP_ADRESS">IP-adres DHCP-client</string>
+    <string name="MID_COMMON_DHCP_SERVER_IP_ADRESS">IP-adres DHCP-server</string>
+    <string name="MID_COMMON_DISCARD_SETTING">Instellingen verwijderen</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_CLIENT">Voer het IP-adres voor de DHCP-client in.</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_SERVER">Voer het IP-adres voor de DHCP-server in.</string>
+    <string name="MID_COMMON_ENTER_SUBNET_MASK">Voer het subnetmasker in.</string>
+    <string name="MID_COMMON_FIRM">Firmware-update</string>
+    <string name="MID_COMMON_GO_TO_OS_SETTINGS">Ga naar Instellingen</string>
+    <string name="MID_COMMON_HELP">Help</string>
+    <string name="MID_COMMON_HEX">HEX</string>
+    <string name="MID_COMMON_INITIALIZE">Terugzetten</string>
+    <string name="MID_COMMON_LANGUAGE_CODE">nl</string>
+    <string name="MID_COMMON_LOGIN">Ingelogd</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG">Verbinding maken mislukt</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG2">Verbinding maken mislukt. Mogelijk is er een probleem met de server of het netwerk.</string>
+    <string name="MID_COMMON_NEXT">Volgende</string>
+    <string name="MID_COMMON_NICKNAME">Bijnaam</string>
+    <string name="MID_COMMON_NO">Nee</string>
+    <string name="MID_COMMON_NOFIFICATION_BATTERY_ALERT1">Camerabatterij bijna leeg.</string>
+    <string name="MID_COMMON_NONE">Geen</string>
+    <string name="MID_COMMON_NOP">---</string>
+    <string name="MID_COMMON_NOTICE">Opmerking</string>
+    <string name="MID_COMMON_NOTIFICATION_CAMERA_ERROR">"Auto link uitgeschakeld (stroombesparingsstand).
+Auto link wordt hervat zodra SnapBridge wordt gestart."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG1">"Opslag van NIKON IMAGE SPACE is vol.
+Auto uploaden afgebroken."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG2">"Kan niet inloggen.
+Auto uploaden afgebroken."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG3">"NIKON IMAGE SPACE ondergaat momenteel onderhoud.
+Auto uploaden afgebroken."</string>
+    <string name="MID_COMMON_NOTIFICATION_STOP">Verwerving van locatiegegevens onderbroken. Start de app om opnieuw op te starten.</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_ERROR">Downloaden in uitvoering</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_STOP">Download geannuleerd</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_SUCCESS">Download voltooid</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG1">"Bijna geen vrije opslagruimte op smartapparaat.
+Download uitgesteld."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG2">"Toegang tot bestemming geweigerd.
+Download uitgesteld."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG3">"Gegevens opslaan mislukt.
+Download uitgesteld."</string>
+    <string name="MID_COMMON_OFF">Uit</string>
+    <string name="MID_COMMON_OK">OK</string>
+    <string name="MID_COMMON_ON">Aan</string>
+    <string name="MID_COMMON_OPEN">OPEN</string>
+    <string name="MID_COMMON_OPEN_BROWSER">Openen in browser</string>
+    <string name="MID_COMMON_ORIGINAL">Oorspronkelijk</string>
+    <string name="MID_COMMON_PAIRING">Met camera koppelen</string>
+    <string name="MID_COMMON_PASSWORD">Wachtwoord</string>
+    <string name="MID_COMMON_PASSWORD_ENTLY">Wachtwoordinvoer</string>
+    <string name="MID_COMMON_PASSWORD_HEX">Wachtwoord (HEX)</string>
+    <string name="MID_COMMON_PBC">PBC</string>
+    <string name="MID_COMMON_PIN">Pincode</string>
+    <string name="MID_COMMON_POSITION_PRECISION">Nauwkeurigheid</string>
+    <string name="MID_COMMON_REBOOT">Herstarten</string>
+    <string name="MID_COMMON_RELEASE">Verwijderen</string>
+    <string name="MID_COMMON_RELEASE_WIFI_STATION_MODE">Wi-Fi STA mode afsluiten</string>
+    <string name="MID_COMMON_SAVED_CAMERA">"Opgeslagen camera's"</string>
+    <string name="MID_COMMON_SAVE_DIR">Bestemming</string>
+    <string name="MID_COMMON_SAVE_VALUE_NOT_SD">Intern geheugen</string>
+    <string name="MID_COMMON_SAVE_VALUE_SD">Opgegeven map</string>
+    <string name="MID_COMMON_SETTING">Instellingen</string>
+    <string name="MID_COMMON_SIMPLE_SHOTTING_SETTING">Inst. vr eenvoudige opname</string>
+    <string name="MID_COMMON_SKIP">Overslaan</string>
+    <string name="MID_COMMON_SLOT1">Sleuf 1</string>
+    <string name="MID_COMMON_SSID">SSID</string>
+    <string name="MID_COMMON_START_WIFI_CONNECT">Verbind Wi-Fi</string>
+    <string name="MID_COMMON_SUBNET_MASK">Subnetmasker</string>
+    <string name="MID_COMMON_UPDATE">Update</string>
+    <string name="MID_COMMON_VERSION">Ver. %s</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE">Wi-Fi AP mode</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE_CONNECT">Wi-Fi-verbinding AP mode</string>
+    <string name="MID_COMMON_WIFI_CONNECT_SETTING">Instellingen voor Wi-Fi-verbinding</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE">Wi-Fi STA mode</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE_CONNECT">Wi-Fi-verbinding STA mode</string>
+    <string name="MID_COMMON_WMU_CONFIG">WMA-instellingen</string>
+    <string name="MID_COMMON_WMU_INFO">WMA-info</string>
+    <string name="MID_COMMON_WPA2_PSK_AES">WPA2-PSK-AES</string>
+    <string name="MID_COMMON_WPS_MODE">WPS-modus</string>
+    <string name="MID_COMMON_WPS_PIN">WPS-pincode</string>
+    <string name="MID_COMMON_YES">Ja</string>
+    <string name="MID_CONFIG_PASSWORD_ENTLY">Kies de methode die wordt gebruikt om wachtwoorden in te voeren.</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_ASC">"Kies een wachtwoord (encryptiesleutel) voor de draadloze mobiele adapter.
+Wachtwoorden kunnen 8 tot 63 tekens lang zijn."</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_HEX">"Voer een wachtwoord voor de draadloze mobiele adapter in.
+Voer een 64-cijferig hexadecimaal wachtwoord in."</string>
+    <string name="MID_CONFIG_SECURITY_OF_WMA">Kies het beveiligingsprotocol dat wordt gebruikt door de draadloze mobiele adapter.</string>
+    <string name="MID_CONFIG_SLEEP_NO_WIFI_CONNECTION">Kies de vertraging voordat uw apparaat naar de slaapstand gaat wanneer er geen wifi-verbinding is.</string>
+    <string name="MID_CONFIG_SSID_OF_WMA">Kies een SSID voor de draadloze mobiele adapter.</string>
+    <string name="MID_CONFIG_WIRELESS_CHANNEL">Kies een draadloos kanaal.</string>
+    <string name="MID_CONFIG_WPS_MODE">Kies een WPS-modus voor de draadloze mobiele adapter.</string>
+    <string name="MID_CONFIG_WPS_PIN">Kies de WPS-pincode voor de draadloze mobiele adapter.</string>
+    <string name="MID_CONFIRMED">Uploaden</string>
+    <string name="MID_CONFIRM_DELETE">De geselecteerde bank kan niet worden hersteld als deze eenmaal is verwijderd. OK?</string>
+    <string name="MID_CONFIRM_DIAL_GAID">Cntrl. vd stndkn vd cam.</string>
+    <string name="MID_CONFIRM_DIAL_IS_SET">Voordat u instellingen naar de camera uploadt, bevestigt u een objectief en drukt u de ontspanknop half in om ervoor te zorgen dat autofocus is ingeschakeld. Tik, na het bevestigen dat de instelschijf in de juiste positie staat, op de “Uploaden”-knop hieronder om de instellingen naar de camera te uploaden.</string>
+    <string name="MID_CONFIRM_REBOOT_WMA">De instellingen toepassen en de draadloze mobiele adapter herstarten?</string>
+    <string name="MID_CONFIRM_SETTING">"Als u tevreden bent met uw keuze, 
+sla uw instellingen op."</string>
+    <string name="MID_CONFIRM_SETTING_DESC">De app zal deze instellingen aanpassen voor de doelcamera tijdens het uploaden.</string>
+    <string name="MID_CONNECT_CAMERA_ALWAYS">"Breng een altijd-beschikbare verbinding tot stand met de camera.
+Kies deze optie voor toegang tot alle draadloze functies."</string>
+    <string name="MID_CONNECT_CAMERA_TEMPORARY">Breng een eenmalige verbinding tot stand met de camera.</string>
+    <string name="MID_CONNECT_WIFI_WPA3_ERROR">Het besturingssysteem ondersteunt WPA3-SAE niet. Wijzig de wifi-instellingen van de camera. Raadpleeg de online helpfunctie voor meer informatie.</string>
+    <string name="MID_CREATE_SET">Nieuwe instellingenbank</string>
+    <string name="MID_CREATE_SET_TIP">Tik op deze knop om een nieuwe instellingenbank te maken</string>
+    <string name="MID_CURRENT_SETTING">Huidige instellingen</string>
+    <string name="MID_DATA_GETTING">"Info wordt opgehaald…
+Even wachten a.u.b."</string>
+    <string name="MID_DATE_CREATED">Aangemaakt op:</string>
+    <string name="MID_DEFOCUS">Verzacht achtergronden</string>
+    <string name="MID_DELETE">Verwijderen</string>
+    <string name="MID_DELETE_NIS_ACCOUNT">Mijn NIKON IMAGE SPACE-account verwijderen</string>
+    <string name="MID_DIAL_GAID1">Draai de instelschijf op de camera naar</string>
+    <string name="MID_DIAL_GAID2" />
+    <string name="MID_DIAL_GAID_ZFC">Draai de instelschijven op de camera naar de getoonde posities.</string>
+    <string name="MID_DIAL_GAID_ZFC_SS">Stel de instelschijf voor de sluitertijd in op “1/3 STAP” en draai aan de hoofdinstelschijf om een sluitertijd van 15 sec. te kiezen.</string>
+    <string name="MID_DOWNLOAD_FINISH">Het downloaden is voltooid</string>
+    <string name="MID_EDIT">Instellingen aanpassen</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_DESC">Wijzigingen verwijderen?</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_TITLE">Bevestig annuleren</string>
+    <string name="MID_EDIT_PROCESS">Instellingen wijzigen</string>
+    <string name="MID_EMPH_BLUR">Maak lange bewegingssporen (statief vereist)</string>
+    <string name="MID_END_OF_INTEGRARION_NIS_ACCOUNT">Link met NIKON IMAGE SPACE beëindigen</string>
+    <string name="MID_EXECUTE_RESET_SHOOTING_SETTING">Opname-instellingen terugzetten</string>
+    <string name="MID_EXPLANATION_WMA">WMA: draadloze mobiele adapter</string>
+    <string name="MID_FAILED_CONNECT">Verbinden mislukt. Controleer de camera en probeer het opnieuw.</string>
+    <string name="MID_FAILED_CONNECT_TITLE">Verbinding mislukt</string>
+    <string name="MID_FILE_SIZE">Bestandsgrootte: %.1f MB</string>
+    <string name="MID_FILTER_SORT_CHANGING">Bezig met doorvoeren van veranderingen…</string>
+    <string name="MID_FILTER_SORT_CONFIRM_RAW_TRANSFER">Het kost even tijd om RAW-afbeeldingen te downloaden. Doorgaan?</string>
+    <string name="MID_FILTER_SORT_DATE_NONE">Uitgeschakeld</string>
+    <string name="MID_FILTER_SORT_DATE_ON_DOWN">Ingeschakeld (aflopend)</string>
+    <string name="MID_FILTER_SORT_DATE_ON_UP">Ingeschakeld (oplopend)</string>
+    <string name="MID_FILTER_SORT_DATE_VIEW">Sorteren op datum</string>
+    <string name="MID_FILTER_SORT_DISP_SETTING">Weergaveopties</string>
+    <string name="MID_FILTER_SORT_FILE_MOVIE">"Video's"</string>
+    <string name="MID_FILTER_SORT_FILE_STILL">"Foto's"</string>
+    <string name="MID_FILTER_SORT_FILE_STILL_MOVIE">"Foto’s en video's"</string>
+    <string name="MID_FILTER_SORT_FILE_TYPE">Bestand</string>
+    <string name="MID_FILTER_SORT_FILTER">Filtering</string>
+    <string name="MID_FILTER_SORT_FOLDER">Map</string>
+    <string name="MID_FILTER_SORT_HEIF_AND_VIDEOS">"HEIF en video's"</string>
+    <string name="MID_FILTER_SORT_HOW_TO_DISPLAY_RAW">Om RAW-afbeeldingen te bekijken, moet u deze weergave-instellingen wijzigen.</string>
+    <string name="MID_FILTER_SORT_IMAGE_QUALITY">Beeldkwaliteit</string>
+    <string name="MID_FILTER_SORT_JPEG_AND_MOVIE">"Video's en JPEG-foto's"</string>
+    <string name="MID_FILTER_SORT_PROTECTED">Beveiligde afbeeldingen</string>
+    <string name="MID_FILTER_SORT_QUALITY_HEIF">HEIF</string>
+    <string name="MID_FILTER_SORT_QUALITY_JPEG">JPEG</string>
+    <string name="MID_FILTER_SORT_QUALITY_RAW">RAW</string>
+    <string name="MID_FILTER_SORT_RATED">Afbeeldingen met score</string>
+    <string name="MID_FILTER_SORT_RAW_AND_MOVIE">"Video's en RAW-foto's"</string>
+    <string name="MID_FILTER_SORT_RESULT">Gefilterde resultaten : %s</string>
+    <string name="MID_FILTER_SORT_SLOT_ALL">Alle mappen op de kaart in de huidige sleuf</string>
+    <string name="MID_FILTER_SORT_WARNING_RAW">Er kunnen maximaal 100 foto’s worden geselecteerd wanneer RAW wordt gekozen voor beeldkwaliteit. Het kost meer tijd om RAW-afbeeldingen te downloaden.</string>
+    <string name="MID_FILTER_SORT_WARNING_SELECTED_OVER">Er kunnen niet meer dan 100 foto’s worden geselecteerd wanneer RAW wordt gekozen voor beeldkwaliteit.</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING">Terugz. Opn.-inst. volt.</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING_DESC">De opname-instellingen van de camera zijn teruggezet.</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_CHECK">Ga akkoord met het gebruik van Google Analytics voor Firebase</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_OFF">Weigeren</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_ON">Accepteren</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DESC">Deze app maakt gebruik van Google Analytics voor Firebase om gebruiksgegevens te helpen analyseren. %s</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DETAIL">Meer informatie</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_ITEM">Analyseer gebruiksgegevens</string>
+    <string name="MID_FIRMWARE_VERSION">Firmwareversie</string>
+    <string name="MID_FOR_A_WHILE_WAIT_PLEASE">Even wachten a.u.b.</string>
+    <string name="MID_FWU_ACCESS_WEB_SITE">Opmerking: firmware-updates voor deze camera kunnen niet worden uitgevoerd vanaf een smartphone of tablet.</string>
+    <string name="MID_FWU_AGREE_AND_DOWNLOAD">Accepteren en downloaden</string>
+    <string name="MID_FWU_ALERT_CONNECT_WIFI">• Tijdens de fase “Overbrengen” schakelt de wifi-verbinding van uw smartphone of tablet tijdelijk over naar de camera.</string>
+    <string name="MID_FWU_ALERT_NOT_CLOSE">• Sluit dit dialoogvenster niet. Als u dit doet, wordt de firmware-update beëindigd.</string>
+    <string name="MID_FWU_BATTERY_OVER_80">• De batterij is opgeladen (> 80%)</string>
+    <string name="MID_FWU_CAN_DOWNLOAD">U kunt nieuwe firmware naar uw pc downloaden.</string>
+    <string name="MID_FWU_CAN_TRANSFER">U kunt de nieuwe firmware naar de camera overbrengen en de firmware bijwerken.</string>
+    <string name="MID_FWU_CONFIRM_VERSION_UP">Details</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_FILE_SIZE">De update is %.1f MB groot. We raden het gebruik van wifi aan.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_PAUSE">Downloaden onderbreken?</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_MSG">Het downloaden is voltooid en het overbrengen begint wanneer u verdergaat.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_TITLE">Overbrengen onderbreken?</string>
+    <string name="MID_FWU_DIALOG_DOWNLOAD">Downloaden</string>
+    <string name="MID_FWU_DIALOG_FW_DOWNLOAD">Firmware-download</string>
+    <string name="MID_FWU_DOWNLOAD">Downloaden</string>
+    <string name="MID_FWU_ERROR_BATTERY_NOT_ENOUGH">Firmware-updates kunnen niet worden uitgevoerd als het laadniveau van de batterij van de camera lager is dan 80%. Laad de batterij op en probeer het opnieuw.</string>
+    <string name="MID_FWU_ERROR_CAMERA_STATUS">De camera is niet gereed voor de firmware-update. Controleer de camerastatus en probeer het opnieuw.</string>
+    <string name="MID_FWU_ERROR_CARD_PROTECTED">De geheugenkaart is tegen schrijven beveiligd. Ontgrendel de geheugenkaart en probeer het opnieuw.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_FULL">Er is een fout opgetreden. Controleer de geheugenkaart.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_OFF">Er is geen geheugenkaart in de camera geplaatst. Plaats een geheugenkaart en probeer het opnieuw.</string>
+    <string name="MID_FWU_ERROR_NETWORK">Netwerkfout. Probeer het opnieuw met een beter signaal.</string>
+    <string name="MID_FWU_ERROR_POWER_OFF">De camera staat uit. Schakel de camera in en probeer het opnieuw.</string>
+    <string name="MID_FWU_ERROR_SERVER">Er is een probleem met de server. Probeer het later opnieuw.</string>
+    <string name="MID_FWU_ERROR_UNKNOWN">Onbekende fout.</string>
+    <string name="MID_FWU_FIRMWARE_UPDATE_NOTICE">Melding firmware-update</string>
+    <string name="MID_FWU_MEMORY_CARD_ON">• Er een geheugenkaart geplaatst is</string>
+    <string name="MID_FWU_NEED_CAMERA_OPERATION">SnapBridge is niet vereist voor de rest van de update. Tik op “OK” en gebruik de camera om de update te voltooien.</string>
+    <string name="MID_FWU_NEED_CONDITIONS">Voordat u verdergaat, bevestigt u dat:</string>
+    <string name="MID_FWU_NEW_FIRMWARE_VER">Nieuwe firmware:</string>
+    <string name="MID_FWU_NOTIFY_DESCRIBE">Er is nieuwe firmware beschikbaar voor uw camera.</string>
+    <string name="MID_FWU_NOTIFY_RESTART">Go</string>
+    <string name="MID_FWU_NOTIFY_START">Go</string>
+    <string name="MID_FWU_PAUSE">Update onderbroken.</string>
+    <string name="MID_FWU_POWER_ON">• De camera aan staat</string>
+    <string name="MID_FWU_RESTART">Verdergaan</string>
+    <string name="MID_FWU_TAKE_FEW_MIN">Dit gaat een paar minuten duren.</string>
+    <string name="MID_FWU_TITLE">Firmware-update</string>
+    <string name="MID_FWU_TITLE_STRING_FORMAT">Firmware-update(%s)</string>
+    <string name="MID_FWU_TRANSFER">Overbrengen</string>
+    <string name="MID_FWU_VERSION_UP">Bijwerken</string>
+    <string name="MID_GALLERY_DATE">dd/MM</string>
+    <string name="MID_GALLERY_SELECT_PHOTO">Foto’s selecteren</string>
+    <string name="MID_GUIDANCE_DIALOG_AFTER">Later</string>
+    <string name="MID_HASH_ADD_NOTE">Wanneer een beeld wordt gedeeld, kunnen hashtags automatisch aan het invoerveld worden toegevoegd.</string>
+    <string name="MID_HAVENT_SENT_TO_CAMERA_YET">Deze instellingenbank is nooit naar de camera verzonden.</string>
+    <string name="MID_HOWTO_USER_SETTING">Pas geüpl. inst. toe op cam.</string>
+    <string name="MID_ICP_NUMBER">沪ICP备10016366号-20A</string>
+    <string name="MID_IMPORTANT_NOTICE">Belangrijke melding</string>
+    <string name="MID_IMPORT_ALERT_MSG0">Wi-Fi-download wordt na een ingestelde periode geannuleerd als de app in de achtergrond draait.</string>
+    <string name="MID_IMPORT_ALERT_MSG1">Dit bericht niet meer weergeven</string>
+    <string name="MID_IMPORT_ALERT_MSG2">U kunt nog meer beelden downloaden wanneer de huidige download is voltooid.</string>
+    <string name="MID_IMPORT_ALERT_MSG4">"Kan geen video's downloaden die groter dan 4 GB zijn."</string>
+    <string name="MID_IMPORT_ALL_SELECT">Selecteer alles</string>
+    <string name="MID_IMPORT_CANCEL_SELECT">Deselect</string>
+    <string name="MID_IMPORT_CONFIRM_RETRY" />
+    <string name="MID_IMPORT_ERR_MSG">"De app is niet gemachtigd om foto's te openen en kan niet worden gebruikt.
+Ga naar \"Instellingen\" > \"Privacy\" > \"Foto's\" op het smartapparaat om de machtigingen voor deze app te wijzigen."</string>
+    <string name="MID_IMPORT_EXEC_IMPORT">Downloaden</string>
+    <string name="MID_IMPORT_FOLDER_ALL">Alle mappen</string>
+    <string name="MID_IMPORT_ORIGINAL_FILE">Oorspronkelijk formaat</string>
+    <string name="MID_IMPORT_SELECT">Select</string>
+    <string name="MID_IMPORT_SELECT_DESC">Kies de map die u wilt bekijken.</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_MGS">"Ophalen info mislukt.
+Wacht even en probeer opnieuw."</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_TITLE">Fout bij ophalen info.</string>
+    <string name="MID_IMPORT_SIZE_2M">2 megapixels</string>
+    <string name="MID_IMPORT_SIZE_8M">8 megapixels (4 K)</string>
+    <string name="MID_IMPORT_SPECIFIED_PICTURE">Foto’s downloaden die gemarkeerd zijn voor downloaden</string>
+    <string name="MID_IMPORT_SUSPEND_ERROR" />
+    <string name="MID_INITIALIZE_SETTING">Instellingen resetten</string>
+    <string name="MID_INPUT_NAME">Voer een nieuwe naam in.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_8MP_PICTURES">Downloaden beëindigd. De camera is niet gereed om 8 megapixel-bestanden te downloaden. Probeer het opnieuw na het gereedmaken van de camera voor downloaden door videoweergave, fotografie en dergelijke te beëindigen.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_A_8MP_PICTURE">De camera is niet gereed om 8 megapixel-bestanden te downloaden. Probeer het opnieuw na het gereedmaken van de camera voor downloaden door videoweergave, fotografie en dergelijke te beëindigen.</string>
+    <string name="MID_LAST_CAMERA">Camera waarbij de bank voor het laatst werd gebruikt:</string>
+    <string name="MID_LAST_LENS">Objectief waarbij de bank voor het laatst werd gebruikt:</string>
+    <string name="MID_LIKE">Favorieten</string>
+    <string name="MID_LINK_SPEED">Koppelingssnelheid</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_MSG">Livebeeld is altijd actief tijdens video-opname.</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_TITLE">Naar livebeeld overschakelen voor video-opname.</string>
+    <string name="MID_LOGIN_TO_NIS">"NIKON IMAGE SPACE
+Inloggen"</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_DUE_TO_TERMS_UPDATED_MSG">De Licentieovereenkomst of Privacyverklaring is bijgewerkt. Logt u opnieuw in om de updates te bevestigen.</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_MSG">Logt u opnieuw in.</string>
+    <string name="MID_MANUAL_LOCATION_SYNC">Download locatiegegevens</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING">Bezig met downloaden locatiegegevens</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING_SUB">"Bezig met downloaden locatiegegevens naar camera.
+Even wachten a.u.b."</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_FAILED">Downloaden locatiegegevens mislukt</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_SUCCESS">Downloaden locatiegegevens voltooid</string>
+    <string name="MID_MENU_TITLE">App-opties</string>
+    <string name="MID_MENU_TUTORIAL_TITLE">Help</string>
+    <string name="MID_MK_CHANNEL_NOT_LOGIN">Niet ingelogd</string>
+    <string name="MID_MK_CHANNEL_TITLE">Meldingen</string>
+    <string name="MID_MOTIF">Onderwerp en scène</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT">Nachtelijke optochten</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT_DESC">Maak levendige opnamen van nachtelijke optochten</string>
+    <string name="MID_MOTIF_COOKING">Voedsel</string>
+    <string name="MID_MOTIF_EATING">Voedsel</string>
+    <string name="MID_MOTIF_EATING_DESC">Markeer voedsel en verzacht achtergronden</string>
+    <string name="MID_MOTIF_EATING_OUT">Volledige maaltijden</string>
+    <string name="MID_MOTIF_EATING_OUT_DESC">"Maak heldere, levendige foto's van voedsel"</string>
+    <string name="MID_MOTIF_FLOWERS">Bloemen en planten</string>
+    <string name="MID_MOTIF_FOR_AUCTION">Onlineveilingen</string>
+    <string name="MID_MOTIF_FOR_AUCTION_DESC">"Maak hldr, lvndg foto's van wat u te koop heeft"</string>
+    <string name="MID_MOTIF_LANDSCAPE">Landschappen</string>
+    <string name="MID_MOTIF_MAGIC_HOUR">Zonsondergangen</string>
+    <string name="MID_MOTIF_MAGIC_HOUR_DESC">Markeer zonsondergangen</string>
+    <string name="MID_MOTIF_NATURE">Natuurlijke landschappen</string>
+    <string name="MID_MOTIF_NATURE_DESC">Levert relatief heldere opn. met natuurlijke kl.</string>
+    <string name="MID_MOTIF_NIGHT">Nachtlandschappen</string>
+    <string name="MID_MOTIF_NIGHT_DESC">Leg nachtlandschappen levendig vast</string>
+    <string name="MID_MOTIF_NIGHT_VIEWING">Nachtlandschappen</string>
+    <string name="MID_MOTIF_PERSON">Mensen</string>
+    <string name="MID_MOTIF_PERSON_NIGHT">Nachtportretten</string>
+    <string name="MID_MOTIF_PERSON_NIGHT_DESC">Markeer portretonderw. in nachtopnames</string>
+    <string name="MID_MOTIF_PET">Huisdieren</string>
+    <string name="MID_MOTIF_PET_INDOOR">Huisdieren</string>
+    <string name="MID_MOTIF_PET_INDOOR_DESC">Voor huisdieren die niet bewegen</string>
+    <string name="MID_MOTIF_PET_OUTDOOR">Actieve huisdieren</string>
+    <string name="MID_MOTIF_PET_OUTDOOR_DESC">"\"Bevries''-beweging in opn. van bew. Huisdieren"</string>
+    <string name="MID_MOTIF_PLANT">Bloemen</string>
+    <string name="MID_MOTIF_PLANT_DESC">"Maak heldere, levendige foto's van bloemen"</string>
+    <string name="MID_MOTIF_PORTRAIT">Portretten</string>
+    <string name="MID_MOTIF_PORTRAIT_DESC">"Fotografeer hoofdonderw.
+in het midden"</string>
+    <string name="MID_MOTIF_RECORDS">Bezienswdhn/groepsportretten</string>
+    <string name="MID_MOTIF_RECORDS_DESC">Fotografeer onderwerpen en achtergrond samen</string>
+    <string name="MID_MOTIF_RELATIVES">Onderwerpen met tegenlicht</string>
+    <string name="MID_MOTIF_RELATIVES_DESC">Maak gezichten met tegenlicht helderder</string>
+    <string name="MID_MOTIF_RIVER">Wateren</string>
+    <string name="MID_MOTIF_RIVER_DESC">Leg het vloeien en stromen van bewegend water vast</string>
+    <string name="MID_MOTIF_SELECTED">Geselecteerd onderwerp en geselecteerde scène:</string>
+    <string name="MID_MOTIF_SELFY">Zelfportretten</string>
+    <string name="MID_MOTIF_SELFY_DESC">Fotografeer uzelf in het midden</string>
+    <string name="MID_MOTIF_SMALL_ITEMS">Kleine voorwerpen</string>
+    <string name="MID_MOTIF_SMALL_ITEMS_DESC">Markeer kleine vrwrp in heldere, lvndg opnames</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR">Binnensporten</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR_DESC">“Bevries” beweging in opn. van bewegende onderw.</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR">Buitensporten</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR_DESC">“Bevries” beweging in opn. van bewegende onderw.</string>
+    <string name="MID_MOTIF_STARS">Nachtelijke hemels (statief vereist)</string>
+    <string name="MID_MOTIF_STARS_DESC">Leg de helderh. van sterren met lange belicht. vast</string>
+    <string name="MID_MOTIF_STILL_LIFE">Product</string>
+    <string name="MID_MOTIF_STREET">Gebouwen en stadsgezichten</string>
+    <string name="MID_MOTIF_STREET_DESC">Leg gebouwen en stadsgz. zeer gedetailleerd vast</string>
+    <string name="MID_MOTIF_TREE_VIEWING">Cherry blossoms</string>
+    <string name="MID_MOTIF_TREE_VIEWING_DESC">"Mk heldere, levendige foto's van bl. bomen en hrfstbld."</string>
+    <string name="MID_MOTION_BLUR">Maak bewegingssporen</string>
+    <string name="MID_MOVE_TO_AUTOMATIC_ALIGNMENT_SETTING">Open auto koppelingsopties</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_BLUETOOTH">"Bluetooth-machtigingen (Apparaten in de buurt) zijn uitgeschakeld.
+Schakel Bluetooth-machtigingen (Apparaten in de buurt) in de instellingen voor uw apparaat in."</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_LOCATION">"Locatietoestemmingen worden uitgeschakeld.
+Schakel locatietoestemmingen in de instellingen voor uw apparaat in."</string>
+    <string name="MID_MSG_ATTACH_LOCATION_WIFI_MODE">"Locatiegegevens verkregen door het smartapparaat kunnen aan foto's worden toegevoegd wanneer ze worden gedownload.
+Aangezien de locatiegegevens direct vóór het downloaden worden verkregen, als de optie “Foto’s downloaden” is geselecteerd, kunnen de locatiegegevens op de foto's afwijken van de locaties waar de foto's daadwerkelijk zijn opgenomen."</string>
+    <string name="MID_MSG_CAMERA_IS_ALWAYS_CONNECT">"Zodra het koppelen is voltooid, blijft de verbinding met de camera te allen tijde beschikbaar.
+De functie Automatisch downloaden van foto's kan worden gebruikt."</string>
+    <string name="MID_MSG_CANNOT_CHOICE_RESIDENCE_LATER">"Selecteer de regio waar u woont.
+
+Als u uw regio later moet wijzigen, installeert u de app opnieuw."</string>
+    <string name="MID_MSG_CANNOT_SEARCH_BLUETOOTH">Bluetooth van de camera niet gedetecteerd. Controleer of Bluetooth is ingeschakeld op de camera.</string>
+    <string name="MID_MSG_CANNOT_SEND_SETTING">"Opname-instellingen kunnen niet naar de camera worden verzonden tijdens het downloaden van foto's."</string>
+    <string name="MID_MSG_CONFIRM_ACCESSPOINT_NOTE">"Controleer of de toegangspunten die geselecteerd zijn op de camera en het apparaat hetzelfde zijn. Als dit niet het geval is, start u de Wi-Fi-instellingen vanuit de %s op het smartapparaat en selecteert u het toegangspunt dat geselecteerd is op de camera.
+
+Tik op “Verbind Wi-Fi” om een lijst met camera's weer te geven. Selecteer de camera die u wilt verbinden uit de lijst."</string>
+    <string name="MID_MSG_CONFIRM_CANCEL_CONNECTING">Wilt u deze camera loskoppelen?</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_TEMPORARILY">"Breng een eenmalige directe verbinding met de camera tot stand om op afstand bediende fotografie mogelijk te maken en foto's te downloaden.
+Voor meer informatie, zie de online helppagina."</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_VIA__WIFI_ONLY">Gebruik alleen Wi-Fi om verbinding te maken met de camera.</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_WHILE_CONNECTED_TO_INTERNET">"Er wordt een internetverbinding onderhouden bij het aansluiten van de camera om automatisch downloaden, op afstand bediende fotografie en downloaden van foto's in te schakelen.
+Voor meer informatie, zie de online helppagina."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE">"Wanneer u verbinding maakt met de camera via Wi-Fi, kiest u “Profiel maken” voor “Verbinden met smartapparaat” > “Wi-Fi-verbinding (STA mode)” in het netwerkmenu van de camera.
+Zie %s voor meer informatie."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_HELP">online help</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_SETTING">instellingen-app</string>
+    <string name="MID_MSG_CONTENT_ERROR">"Onjuiste invoertekst. 
+Bevestigen alstublieft."</string>
+    <string name="MID_MSG_ENABLE_WIFI_ICON">"Tik op het Wi-Fi-pictogram om de camera via Wi-Fi te verbinden.
+Raadpleeg de online helppagina voor meer informatie."</string>
+    <string name="MID_MSG_END_WIFI_CONNECTION">Wi-Fi-verbinding beëindigen?</string>
+    <string name="MID_MSG_GO_TO_HINT">Tik hier voor meer informatie over het opnemen.</string>
+    <string name="MID_MSG_HOW_TO_SETTING_WIFI_STATION_MODE_NOTE">"Selecteer “Wi-Fi-verbinding (STA mode)” in het setup-menu van de camera of het netwerkmenu en configureer de instellingen. Voor meer informatie, zie de online helppagina.
+%s
+
+Selecteer het gekozen toegangspunt in stap 1."</string>
+    <string name="MID_MSG_INITIALIZE">Instellingen terugzetten naar de standaardwaarden?</string>
+    <string name="MID_MSG_INVALID_SUBNET_MASK_ERROR">"Het gespecificeerde IP-adres en subnetmasker zijn niet compatibel.
+Voer de compatibele waarden in."</string>
+    <string name="MID_MSG_IP_ADDRESS_COLLISION_ERROR">Het IP-adres van de server ligt te dicht bij het IP-adres van de cliënt. Kies IP-adressen die ten minste met 4 verschillen.</string>
+    <string name="MID_MSG_IP_ADDRESS_ERROR">Ongeldig IP-adres.</string>
+    <string name="MID_MSG_LOGOUT_TO_DELETE_NIS_ID">Om uw NIKON IMAGE SPACE-account te verwijderen, moet u zich afmelden.</string>
+    <string name="MID_MSG_MISS_PASSWORD">Het ingevoerde wachtwoord voldoet niet aan de instellingsvereisten.</string>
+    <string name="MID_MSG_NIS_IN_CHINA_HAS_ENDED">Het uploaden van \"SnapBridge\" naar \"NIKON IMAGE SPACE\" op het vasteland van China is beëindigd.</string>
+    <string name="MID_MSG_NIS_PROSEDURE_FOR_RESUMING">"Dit bericht is bedoeld voor personen die langer dan een jaar niet hebben ingelogd. Foto's of video's die u mogelijk eerder hebt geüpload, zijn van deze website verwijderd en noch deze foto's of video's noch albums of albumarchieven die u hebt gemaakt, kunnen worden hersteld.
+Gebruik een webbrowser om u aan te melden bij NIKON IMAGE SPACE en uw account te herstellen."</string>
+    <string name="MID_MSG_NOT_MATCH_MODE_DIAL_SETTING">"Voor camera's zonder draaiknop aan de bovenkant stelt u de opnamemodus in volgens de gespecificeerde procedure voor uw model."</string>
+    <string name="MID_MSG_NO_PASSWORD">Geen wachtwoord gespecificeerd. Voer een wachtwoord in.</string>
+    <string name="MID_MSG_OPEN_AUTOMATIC_ALIGNMENT_SETTING">Auto koppeling is uitgeschakeld. Het kan opnieuw worden ingeschakeld via auto koppelingsopties.</string>
+    <string name="MID_MSG_PARAMETER_SEND_FAILED">De camera is in werking. Probeer opnieuw verbinding te maken na het beëindigen van video-opname of weergave.</string>
+    <string name="MID_MSG_PAUSE_CONNECT_WITH_CAMERA">"Verbinding met de camera onderbreken?
+Tik nogmaals op het pictogram om de verbinding te hervatten."</string>
+    <string name="MID_MSG_PLEASE_TAP_CAMERA_OK_BUTTON">Druk op de OK-knop van de camera wanneer het koppelen is voltooid.</string>
+    <string name="MID_MSG_REBOOT_APPLICATION_FOR_NIKON_ID">De Nikon ID-aanmeld- en inlogprocedures zijn gewijzigd. Start de app opnieuw en probeer het opnieuw.</string>
+    <string name="MID_MSG_RESTART_AFTER_IMPORTING">Beelden worden momenteel via Wi-Fi van de camera gedownload. Probeer het opnieuw wanneer het downloaden is voltooid.</string>
+    <string name="MID_MSG_RESUME_CONNECT_WITH_CAMERA">De verbinding met de camera hervatten?</string>
+    <string name="MID_MSG_SELECT_ACCESS_NOTIFICATION_FROM_DEVICE_SETTING">"Tenzij u meldingen toestaat van “SnapBridge”, kunt u mogelijk geen foto's downloaden en locatiegegevens toevoegen.
+ 
+Ga naar de apparaatinstellingen en geef toegang tot meldingen."</string>
+    <string name="MID_MSG_SELECT_ALLOW_NOTIFICATION">"Tenzij u meldingen toestaat van “SnapBridge”, kunt u mogelijk geen foto's downloaden of locatiegegevens toevoegen. Selecteer “Toestaan” voor meldingen."</string>
+    <string name="MID_MSG_SEND_SHOTTING_SETTING_DURING_TRANSFERING_IMAGE">"Beelden worden momenteel gedownload van de camera via Wi-Fi.
+Uploadinstellingen zijn beschikbaar wanneer het downloaden voltooid is."</string>
+    <string name="MID_MSG_START_IMPORT_SPECIFIED_PICTURE">"De camera slaat foto's op die gemarkeerd zijn voor downloaden. Foto’s downloaden wordt gestart."</string>
+    <string name="MID_MSG_SUBNET_MASK_ERROR">Ongeldig subnetmasker.</string>
+    <string name="MID_MSG_UPLOAD_RESET">Upload de standaardinstellingen naar de camera om de oorspronkelijke opname-instellingen te herstellen.</string>
+    <string name="MID_NEWS_GET_CHANNEL_FAILED">Kan geen nieuws ontvangen.</string>
+    <string name="MID_NEWS_GET_CHANNEL_NONE">Er is geen nieuws.</string>
+    <string name="MID_NEW_PRODUCTS_INFO_LINK">Informatie over het nieuwe product is hier beschikbaar</string>
+    <string name="MID_NEW_PRODUCT_DATA_DOWNLOAD">Beeldgegevens downloaden voor een nieuw product</string>
+    <string name="MID_NEXT">Vervolgens</string>
+    <string name="MID_NICKNAME_INPUT_NOTE">Deze bijnaam wordt door camera’s weergegeven waarop het apparaat is aangesloten.</string>
+    <string name="MID_NICKNAME_INPUT_TITLE">Bijnaam smartapparaat</string>
+    <string name="MID_NICKNAME_WARN_INFO">Bijnamen moeten ten minste 1 teken lang zijn.</string>
+    <string name="MID_NID_PRIVACY_POLICY_ITEM">Privacyverklaring</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_BLUETOOTH_TEXT">Bluetooth-download in uitvoering</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_BLUETOOTH_TEXT">Bluetooth-download in uitvoering, Locatiegegevens die momenteel worden gebruikt.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_READY_TEXT">Foto’s aan het gereedmaken voor automatisch downloaden, Locatiegegevens die momenteel worden gebruikt.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_WIFI_TEXT">Wi-Fi-download in uitvoering, Locatiegegevens die momenteel worden gebruikt.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_NO_LOCATION_TEXT">Stand-by…</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_READY_TEXT">Foto’s aan het gereedmaken voor automatisch downloaden</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_TEXT">Locatiegegevens die momenteel worden gebruikt.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_WIFI_TEXT">Wi-Fi-download in uitvoering</string>
+    <string name="MID_NOT_USED">Deze bank is niet geüpload naar een camera.</string>
+    <string name="MID_NO_BLUR">“Bevries” beweging</string>
+    <string name="MID_NO_SET">Geen instellingenbanken beschikbaar. Tik op de knop rechtsonder om er een te maken.</string>
+    <string name="MID_NUMBER_USE">Gebruikt:</string>
+    <string name="MID_OK">OK</string>
+    <string name="MID_OPEN_OS_SETTING">Open de Instellingen app van het toestel</string>
+    <string name="MID_PAN_FOCUS">Houd alles scherp</string>
+    <string name="MID_PARAM_DETAIL">Instellingen toegepast op camera</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID">"Toegang tot “Foto's” is vereist voor het gebruik van “SnapBridge”-functies. Selecteer “Toegang tot alle foto's toestaan”."</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID_14">"Toegang tot “foto's en video's” is vereist voor het gebruik van “SnapBridge”-functies. Selecteer “Alles toestaan”."</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_IOS17">Toegang tot de fotobibliotheek is vereist voor het gebruik van de “SnapBridge”-functies. Selecteer “Geef volledige toegang”.</string>
+    <string name="MID_PERMISSION_ALLOW_BACKGROUND_RUNNING">SnapBridge heeft toestemming nodig om op de achtergrond te draaien.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS">Sta uw smartphone toegang tot uw locatie toe om de smartphone te laten koppelen met de camera.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING">Ga naar apparaatinstellingen en sta locatietoegang toe.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING_FOR_R">"Onder Android moet u toestemming verlenen voor toegang tot locatiediensten om koppelen en Bluetooth-functies te kunnen gebruiken.
+Verleen toestemming voor toegang tot locatiediensten in de app “Instellingen” voor uw apparaat."</string>
+    <string name="MID_PERMISSION_ALLOW_PHOTO_ACCESS_ANDROID_14">"Het overzetten van foto's vereist toegang tot “foto's en video's”. Geef toestemming in de app “Instellingen” voor uw apparaat."</string>
+    <string name="MID_PERMISSION_ALLOW_STORAGE_ACCESS_IN_DEVICE_SETTING">"SnapBridge vereist toegang tot de opslagruimte om foto's te downloaden. Ga naar apparaatinstellingen en sta toegang tot de opslagruimte toe."</string>
+    <string name="MID_PERMISSION_ALWAYS_ALLOW_LOCATION_ACCESS">Bij gebruik van Android, moet u toestemming geven voor toegang tot locatiediensten om koppelings- en Bluetooth-functies te gebruiken.</string>
+    <string name="MID_PERMISSION_ENABLE_DEVICE_LOCATION">Als u deze app wilt gebruiken, moet u locatiegegevens inschakelen op uw apparaat.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALLOW">Kies “TOESTAAN” in het volgende dialoogvenster</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALWAYS_ALLOW_FOR_R">Vervolgens wordt u gevraagd om toegang tot locatiediensten toe te staan. Tik op “Tijdens gebruik van de app”.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_WIFI_ON">Schakel wifi in</string>
+    <string name="MID_PERMISSION_NOT_GRANTED">De benodigde toestemmingen voor de app ontbreken. Ga naar “SnapBridge” in de apparaatinstellingen-app en schakel de benodigde toestemmingen in.</string>
+    <string name="MID_POS_GPS_LIST_HIGH">Hoog (hoge nauwkeurigheid)</string>
+    <string name="MID_POS_GPS_LIST_HIGH_MIN">Hoog</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE">Middel</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE_MIN">Middel</string>
+    <string name="MID_POS_GPS_LIST_ROUGH">Laag</string>
+    <string name="MID_POS_GPS_LIST_ROUGH_MIN">Laag</string>
+    <string name="MID_POS_GPS_NOTE">Het kiezen van “Hoog” zorgt ervoor dat de accu’s in de camera en het smartapparaat sneller leeg raken. Kies niet voor “Hoog” in een rijdend voertuig zoals een auto of trein. Het kiezen van “Laag” betekent dat locatiegegevens minder vaak worden bijgewerkt, maar zorgt ervoor dat de accu in het smartapparaat minder snel leeg raakt.</string>
+    <string name="MID_POWERZOOM_SPEED">Snelheid motorgestuurde zoom</string>
+    <string name="MID_PRECISE">Exact</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MSG">Lees het Privacybeleid.</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MUST_READ_MSG">Lees het privacybeleid (Verplicht)</string>
+    <string name="MID_PROHIBIT_OPEN_WMA_MENU">"Pas bij het verbinden met camera's via ingebouwde wifi de instellingen aan in de cameramenu's."</string>
+    <string name="MID_PTP_REMOTE_DESCRIBE">Maak op afstand foto’s terwijl u de opnamen kadreert op uw smartapparaat.</string>
+    <string name="MID_READ_HINTS">Gedetailleerde opnametips bekijken</string>
+    <string name="MID_REMOTE_CAMERA_SETTING">Camera-instellingen</string>
+    <string name="MID_REMOTE_MOVIE_NOT_SUPPORT_MODE">Opnamestand: de geselecteerde stand is niet beschikbaar tijdens filmopname op afstand. In plaats daarvan wordt stand P gebruikt.</string>
+    <string name="MID_REMOTE_NOT_START_REMOTE_BY_OLD_FTZ_FW">FTZ-vattingadapter firmware versie niet ondersteund. Upgrade FTZ-firmware.</string>
+    <string name="MID_REMOTE_NOT_TRANSFER_TIFF">TIFF geselecteerd voor beeldkwaliteit op de camera. Foto´s kunnen op afstand worden gemaakt maar worden niet gedownload naar het smartapparaat.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_DESC">Automatisch foto’s downloaden na opname.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_INDEX">Foto’s downloaden</string>
+    <string name="MID_REMOTE_SETTINGS_LIVE_VIEW_ENABLED">Livebeeld</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_SECONDS">sec</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_TITLE">Zelfontspanneropties</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_DESC">3 seconden nadat u op het pictogram hebt getikt, wordt de foto gemaakt.</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_INDEX">Zelfontspanner</string>
+    <string name="MID_REMOTE_SIZE_ONLY_2M_8M_JPEG_OR_2M_HEIF">"Zelfs wanneer u hebt gekozen om foto's in hun oorspronkelijke formaat te downloaden, worden RAW-foto's gedownload als JPEG-afbeeldingen met een grootte van 2 of 8 megapixels of als HEIF-afbeeldingen met een grootte van 2 megapixels."</string>
+    <string name="MID_REMOTE_SIZE_ONLY_JPEG">"RAW-foto's worden gedownload als JPEG-afbeeldingen met een grootte van 2 megapixels, zelfs wanneer u hebt gekozen om foto's in hun oorspronkelijke formaat te downloaden."</string>
+    <string name="MID_REMOTE_TRANS_SIZE">Kies downloadgrootte</string>
+    <string name="MID_REMOTE_WB_CLOUDY">Bewolkt</string>
+    <string name="MID_REMOTE_WB_DIRECT_SUNLIGHT">Zonlicht</string>
+    <string name="MID_REMOTE_WB_FLASH">Flitser</string>
+    <string name="MID_REMOTE_WB_FLUORESCENT">Tl-licht</string>
+    <string name="MID_REMOTE_WB_INCANDESCENT">Gloeilamplicht</string>
+    <string name="MID_REMOTE_WB_SHADE">Schaduw</string>
+    <string name="MID_RENAME">Hernoemen</string>
+    <string name="MID_REQUEST_DELETE_SETS">U moet een bank verwijderen voordat u meer kunt aanmaken</string>
+    <string name="MID_RESET_SHOOTING_SETTING">Opname-inst. terugzetten</string>
+    <string name="MID_RESTART_APP_DUE_TO_BACKGROUND_STOPPED_MSG">Het achtergrondproces is onderbroken. Start de app opnieuw op.</string>
+    <string name="MID_RETET_SHOTTING_SETTING_DESC">Zet de opname-instellingen van de camera terug naar de standaardwaarden.</string>
+    <string name="MID_SAVE">Opslaan</string>
+    <string name="MID_SAVED_NUM_LIMIT">De banklijst is vol</string>
+    <string name="MID_SAVE_AS">Sla instellingen op als</string>
+    <string name="MID_SAVE_DESC">Voer een naam in voor de instellingenbank</string>
+    <string name="MID_SAVE_EDITED">Wijzigingen opslaan</string>
+    <string name="MID_SAVE_TITLE">Geef inst.bank een naam</string>
+    <string name="MID_SELECTED">Geselecteerde instellingen</string>
+    <string name="MID_SELECT_CONNECTION">Kies de methode die wordt gebruikt voor verbinding met de camera.</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALBANIA">Albanië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALGERIA">Algerije</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ANDORRA">Andorra</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ARGENTINA">Argentinië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRALIA">Australië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRIA">Oostenrijk</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BAHRAIN">Bahrein</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BANGLADESH">Bangladesh</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BELGIUM">België</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOLIVIA">Bolivia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOSNIA_HERZEGOVINA">Bosnië en Herzegovina</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BULGARIA">Bulgarije</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CAMBODIA">Cambodja</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CANADA">Canada</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHILE">Chili</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHINESE_MAINLAND">Chinese vasteland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_COLOMBIA">Colombia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CROATIA">Kroatië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CYPRUS">Cyprus</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CZECH_REPUBLIC">Tsjechië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_DENMARK">Denemarken</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_EGYPT">Egypte</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ESTONIA">Estland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FINLAND">Finland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRANCE">Frankrijk</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRENCH_POLYNESIA">Frans-Polynesië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GERMANY">Duitsland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GHANA">Ghana</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GIBRALTAR">Gibraltar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GREECE">Griekenland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GUADELOUPE">Guadeloupe</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HONG_KONG">Hongkong</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HUNGARY">Hongarije</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ICELAND">IJsland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDIA">India</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDONESIA">Indonesië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_IRELAND">Ierland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ISRAEL">Israël</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ITALY">Italië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JAPAN">Japan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JORDAN">Jordanië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KAZAKHSTAN">Kazakstan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KENYA">Kenia</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOREA">Korea</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOSOVO">Kosovo</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KUWAIT">Koeweit</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KYRGYZSTAN">Kirgizië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LATVIA">Letland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LEBANON">Libanon</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LITHUANIA">Litouwen</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LUXEMBOURG">Luxemburg</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MADAGASCAR">Madagascar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAWI">Malawi</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAYSIA">Maleisië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALDIVES">Malediven</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALTA">Malta</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MARTINIQUE">Martinique</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MAURITIUS">Mauritius</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MEXICO">Mexico</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOLDOVA">Moldavië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONACO">Monaco</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONTENEGRO">Montenegro</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOROCCO">Marokko</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MYANMAR">Myanmar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEPAL">Nepal</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NETHERLANDS">Nederland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_CALEDONIA">Nieuw-Caledonië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_Fiji">Fiji</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_ZEALAND">Nieuw-Zeeland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NIGERIA">Nigeria</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORTH_MACEDONIA">Macedonië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORWAY">Noorwegen</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_OMAN">Oman</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PAKISTAN">Pakistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PARAGUAY">Paraguay</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PERU">Peru</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PHILIPPINES">Filippijnen</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_POLAND">Polen</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PORTUGAL">Portugal</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_QATAR">Katar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_REUNION">Réunion</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ROMANIA">Roemenië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_RWANDA">Rwanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SAUDI_ARABIA">Saoedi-Arabië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SERBIA">Servië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SINGAPORE">Singapore</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVAKIA">Slowakije</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVENIA">Slovenië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SOUTH_AFRICA">Zuid-Afrika</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SPAIN">Spanje</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SRI_LANKA">Sri Lanka</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWEDEN">Zweden</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWITZERLAND">Zwitserland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAIWAN">Taiwan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAJIKISTAN">Tadzjikistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TANZANIA">Tanzania</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_THAILAND">Thailand</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TUNISIA">Tunesië</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKEY">Turkije</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKMENISTAN">Turkmenistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UAE">VAE</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UGANDA">Oeganda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UKRAINE">Oekraïne</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_KINGDOM">Verenigd Koninkrijk</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_STATES_OF_AMERICA">Verenigde Staten</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_URUGUAY">Uruguay</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UZBEKISTAN">Oezbekistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VANUATU">Vanuatu</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VIETNAM">Vietnam</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ZIMBABWE">Zimbabwe</string>
+    <string name="MID_SELECT_MOTIF">Kies uw hoofdonderwerp</string>
+    <string name="MID_SELECT_REGIONS_SELECT_AFRICA">Afrika</string>
+    <string name="MID_SELECT_REGIONS_SELECT_ASIA">Azië</string>
+    <string name="MID_SELECT_REGIONS_SELECT_EUROPE">Europa</string>
+    <string name="MID_SELECT_REGIONS_SELECT_MIDDLE_EAST">Midden-Oosten</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OCEANIA">Oceanië</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OTHER_COUNTRIES">Andere landen/regio’s</string>
+    <string name="MID_SELECT_REGIONS_SELECT_THE_AMERICAS">De Amerika’s</string>
+    <string name="MID_SEND_ANOTHER">Maak een andere inst.bnk</string>
+    <string name="MID_SEND_COMPLETE">Uploaden voltooid</string>
+    <string name="MID_SEND_SETS_PROGRESS">Instellingen aan het uploaden naar camera…</string>
+    <string name="MID_SEND_SET_TO_CAMERA">Uploaden naar camera</string>
+    <string name="MID_SEND_THE_SET">Uploaden naar camera</string>
+    <string name="MID_SEN_SETS_FINISHED">"Nu u de camera-instellingen hebt bijgewerkt, kunt u foto's maken."</string>
+    <string name="MID_SERIAL_NUMBER">Serienummer</string>
+    <string name="MID_SETTING_NAME_PRESET">Instellingenbank van gebruiker</string>
+    <string name="MID_SET_BLUR">Bewegingsonscherpte</string>
+    <string name="MID_SET_BOKEH">Bokeh/scherptediepte</string>
+    <string name="MID_SET_FINISHED">Inst. Opgesl.</string>
+    <string name="MID_SET_FINISHED_DESC">"Probeer de instellingen naar uw camera te uploaden en enkele foto's te maken."</string>
+    <string name="MID_SET_REJECTED_BY_CAMERA_TITLE">Controleer de camerastatus</string>
+    <string name="MID_SHARE_ACQUIRING">Foto’s aan het verkrijgen.</string>
+    <string name="MID_SHARE_FAILED_TO_ACQUIRE">Kan foto niet verkrijgen.</string>
+    <string name="MID_SHARE_INSUFFICIENT_STORAGE_SPACE">"Onvoldoende opslagruimte. Kan foto's niet delen."</string>
+    <string name="MID_SIGN_UP_NIS">"NIKON IMAGE SPACE
+Aanmelden"</string>
+    <string name="MID_SORT">Sorteren</string>
+    <string name="MID_SORT_NAME_DOWN">Sorteren op naam (aflopend)</string>
+    <string name="MID_SORT_NAME_UP">Sorteren op naam (oplopend)</string>
+    <string name="MID_SORT_NEW">Nieuwste eerst</string>
+    <string name="MID_SORT_OLD">Oudste eerst</string>
+    <string name="MID_SORT_USE_LATELY">Laatst gebruikte</string>
+    <string name="MID_SORT_USE_MANY">Meest gebruikte</string>
+    <string name="MID_START">Begin</string>
+    <string name="MID_SUPPLEMENT_ACCESS_LOCATION_PRECISE">Opmerking: Als u niet de keuze krijgt uit “Exact” en “Geschat”, hoeft u alleen toestemming te verlenen voor toegang tot de locatie van het apparaat.</string>
+    <string name="MID_TERMS_OF_SERVICE_AGREEMENT_DESC">Accepteer het bovenstaande</string>
+    <string name="MID_TIMES">tijd(en)</string>
+    <string name="MID_TIPS">Opnametrucs en -tips</string>
+    <string name="MID_TIPS_A_DESC">Controleer cameraverbindingsstatus (tik om extra informatie weer te geven).</string>
+    <string name="MID_TIPS_B_DESC">Schakel “Automatisch downloaden”, “Klokken” of “Locatiegegevens” in of uit.</string>
+    <string name="MID_TIPS_C_DESC">Bekijk beelden die zijn gedownload vanaf de camera.</string>
+    <string name="MID_TIPS_D_DESC">"Maak een koppeling naar Nikon's cloudsharing-service."</string>
+    <string name="MID_TIPS_TAP">Tik op het scherm.</string>
+    <string name="MID_TIPS_TITLE">SnapBridge gebruiken</string>
+    <string name="MID_TITLE_CHOICE_CONNECTION_TYPE">Verbindingstype selecteren</string>
+    <string name="MID_TITLE_NIKON_IMAGE_CLOUD">Nikon Imaging Cloud</string>
+    <string name="MID_TUTORIAL1_DESC">Deze app maakt het eenvoudig, zelfs voor beginnende cameragebruikers, om instellingen aan te passen aan hun fotografische doelen.</string>
+    <string name="MID_TUTORIAL1_TITLE">Camera-instellingen vereenvoudigd</string>
+    <string name="MID_TUTORIAL2_DESC">Om een instellingenbank te maken hoeft u alleen maar het onderwerp, de scène en de stijl te kiezen. Laten we beginnen.</string>
+    <string name="MID_TUTORIAL2_TITLE">U hoeft alleen maar enkele opties te kiezen</string>
+    <string name="MID_USE_NIS_MSG_1">U kunt “NIKON IMAGE SPACE”, een beeldopslagservice van Nikon gebruiken.</string>
+    <string name="MID_USE_NIS_MSG_2">Beelden die naar uw smartapparaat zijn gedownload, kunnen worden geüpload naar NIKON IMAGE SPACE.</string>
+    <string name="MID_USE_NIS_MSG_3">Tik op “Gebruiken” en log in als u al bent aangemeld voor NIKON IMAGE SPACE.</string>
+    <string name="MID_USE_POWER_ZOOM_CANNOT_MSG">Externe powerzoomregeling is niet beschikbaar bij de huidige instellingen.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_BLACK_BACKGROUND_FOR_PICTURE_IN_PICTURE_PROTECTION">Sluit het Picture-in-Picture-scherm.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_MESSAGE">Geef de app toestemming om op de achtergrond te draaien voordat u zich aanmeldt bij NIKON IMAGE SPACE.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_TITLE">Zorg ervoor dat u “Toestaan” selecteert in het volgende dialoogvenster.</string>
+    <string name="MID_WELCOME_A_DESC">Laat SnapBridge, samen met uw Nikon-camera, de deuren naar een rijke imaging-beleving openen.</string>
+    <string name="MID_WELCOME_A_TITLE">Welkom bij “SnapBridge”</string>
+    <string name="MID_WELCOME_B_DESC">Foto’s kunnen automatisch naar uw smartapparaat worden gedownload en ter plekke worden gedeeld.</string>
+    <string name="MID_WELCOME_B_TITLE">"Altijd en overal geweldige foto's delen"</string>
+    <string name="MID_WELCOME_C_DESC">Maak op afstand foto’s terwijl uw onderwerp op het scherm van het smartapparaat wordt bekeken.</string>
+    <string name="MID_WELCOME_C_TITLE">Gebruik uw smartapparaat om op afstand foto’s maken</string>
+    <string name="MID_WELCOME_D_DESC">Door u te registreren voor een Nikon ID, kunt u een onbeperkt aantal JPEG-afbeeldingen van 2 megapixel in NIKON IMAGE SPACE opslaan, een gratis cloud-opslagservice. Beelden kunnen automatisch worden geüpload.</string>
+    <string name="MID_WELCOME_D_TITLE">Onbeperkt automatisch uploaden naar NIKON IMAGE SPACE</string>
+    <string name="MID_WELCOME_E_DESC">"“SnapBridge” verbindt uw camera met uw smartapparaat en social media.
+Probeer het eens."</string>
+    <string name="MID_WELCOME_E_TITLE">Meer diensten, meer gemak</string>
+    <string name="MID_WIFI_2MB_SIZE">Wi-Fi, 2 megapixels</string>
+    <string name="MID_WIFI_CANCEL_MSG">Schakel over naar Bluetooth om te koppelen of verbinding te maken met een netwerk.</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_LAUNCH">Start WMU</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_MESSAGE">Schakel “App automatisch starten” in het menu “Instellingen” uit. Wi-Fi-verbindingen van SnapBridge kunnen niet worden gebruikt indien “App automatisch starten” ingeschakeld is.</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_TITLE">Controleer de instellingen van de Wireless Mobile Utility (WMU)</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_MESSAGE">De Wi-Fi-verbindingsfunctie van SnapBridge kan niet worden gebruikt indien een oudere versie is geïnstalleerd.</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_TITLE">Werk de Wireless Mobile Utility bij</string>
+    <string name="NIS_CLD_UNDER_MAINTENANCE2">Verbinding maken mislukt. De server is momenteel in onderhoud.</string>
+    <string name="NULL_VALUE">-</string>
+    <string name="SID_ACTIVE_D_LIGHTING">Actieve D-Lighting</string>
+    <string name="SID_AF_AREA_MODE">AF-veldstand</string>
+    <string name="SID_AF_DETECTION_SETTING">Opties voor AF-onderwerpdetectie</string>
+    <string name="SID_AF_SUBJ_DETECT_OPT">Opties voor AF-onderwerpdetectie</string>
+    <string name="SID_APERTURE">Diafragma</string>
+    <string name="SID_BRIGHTNESS">Helderheid</string>
+    <string name="SID_CONTRAST">Contrast</string>
+    <string name="SID_EXP">Belichtingscorrectie</string>
+    <string name="SID_EXPOSURE_COMPENSATION_DIAL">Instelschijf voor belichtingscorrectie</string>
+    <string name="SID_FLICKER_REDUCTION_SHOOTING">Opname met flikkerreductie</string>
+    <string name="SID_FOCUS_MODE">Scherpstelstand</string>
+    <string name="SID_HIGH_SENSITIVITY_NOISE_REDUCTION">Hoge ISO-ruisonderdrukking</string>
+    <string name="SID_ISO_AUTO_CONTROL">Autom inst ISO-gevoeligheid</string>
+    <string name="SID_ISO_LOW_SPEED">Langste sluitertijd</string>
+    <string name="SID_ISO_MAX">Maximale gevoeligheid</string>
+    <string name="SID_ISO_SENSITIVITY">ISO-gevoeligheid</string>
+    <string name="SID_ISO_SENSITIVITY_DIAL">Instelschijf voor ISO-gevoeligheid</string>
+    <string name="SID_LONG_SEC_NOISE_REDUCTION">Ruisonderdr. lange tijdopname</string>
+    <string name="SID_LOW_LIGHT_AF">AF bij weinig licht</string>
+    <string name="SID_METERING">Lichtmeting</string>
+    <string name="SID_MODE_SELECTOR">Belichtingsstandkiezer</string>
+    <string name="SID_PICTURE_CONTROL">Picture Control instellen</string>
+    <string name="SID_QUICK_SHARP">Snelle verscherping</string>
+    <string name="SID_RELEASE_MODE">Ontspanstand</string>
+    <string name="SID_SATURATION">Verzadiging</string>
+    <string name="SID_SET_ADL_EX_HIGH">Extra hoog</string>
+    <string name="SID_SET_ADL_EX_HIGH1">Extra hoog 1</string>
+    <string name="SID_SET_ADL_EX_HIGH2">Extra hoog 2</string>
+    <string name="SID_SET_ADL_HIGH">Hoog</string>
+    <string name="SID_SET_ANIMAL">Dieren</string>
+    <string name="SID_SET_AUTO">Automatisch</string>
+    <string name="SID_SET_AUTO_AREA">Automatisch veld-AF</string>
+    <string name="SID_SET_AUTO_LEAVE_ATMOSPHERE">Algemene sfeer behouden</string>
+    <string name="SID_SET_AUTO_PRIORITIZE_WHITE">Wit behouden (minder warme kl.)</string>
+    <string name="SID_SET_CHOOSE_COLOR_TEMP">Kies kleurtemperatuur</string>
+    <string name="SID_SET_CONTINUOUS_AF">Continue AF</string>
+    <string name="SID_SET_DIRECT_SUN_LT">Direct zonlicht</string>
+    <string name="SID_SET_HIGH_SPEED_CONTINUOUS_SHOOTING">Continu hoge snelheid</string>
+    <string name="SID_SET_LANDSCAPE">Landschap</string>
+    <string name="SID_SET_LOW_SPEED_CONTINUOUS_SHOOTING">Continu lage snelheid</string>
+    <string name="SID_SET_NATURAL_LT_AUTO">Automatisch daglicht</string>
+    <string name="SID_SET_NOISE_REDUCTION_STANDARD">Normaal</string>
+    <string name="SID_SET_NORMAL">Normal</string>
+    <string name="SID_SET_OFF">Uit</string>
+    <string name="SID_SET_ON">Aan</string>
+    <string name="SID_SET_ONE_FRAME_SHOOTING">Enkel beeld</string>
+    <string name="SID_SET_PEOPLE">Mensen</string>
+    <string name="SID_SET_PIN_PT">Precisie-AF</string>
+    <string name="SID_SET_SDR">SDR</string>
+    <string name="SID_SET_SINGLE_AF">Enkelvoudige AF</string>
+    <string name="SID_SET_SINGLE_PT">Enkelpunts AF</string>
+    <string name="SID_SET_SPORTS">Sport</string>
+    <string name="SID_SET_STANDARD">Standaard</string>
+    <string name="SID_SET_VALID">Inschakelen</string>
+    <string name="SID_SET_VIVID">Levendig</string>
+    <string name="SID_SET_WIDE_AREA_L">Breedveld-AF (L)</string>
+    <string name="SID_SHOOTING_MODE">Opnamestand</string>
+    <string name="SID_SHUTTER_SPEED">Sluitertijd</string>
+    <string name="SID_SHUTTER_SPEED_DIAL">Instelschijf voor de sluitertijd</string>
+    <string name="SID_TONE_MODE">Toonstand</string>
+    <string name="SID_VIBRATION_REDUCTION">Vibratiereductie</string>
+    <string name="SID_WHITE_BALANCE">Witbalans</string>
+    <string name="SID_WHITE_BALANCE_AUTO">Witbalans - Automatisch type</string>
+    <string name="TIPSID_HOWTO_USER_SETTING">Er zijn handige functies waarmee u de opnamestand kunt wijzigen met slechts één aanraking als u vooraf op de camera bent geregistreerd.</string>
+    <string name="TIPSID_MOTIF_AMUSEMENTPARK_NIGHT">"---Standinleiding---
+ Leg de nachtelijke parade vast in levendige kleuren. De camera stelt de sluitertijd in om onscherpte van het onderwerp te minimaliseren en gebruikt een continue ontspanstand, dus selecteer de beste opname uit de reeks. 
+ 
+---Camerabedieningstips---
+■Om op een gewenste positie scherp te stellen:
+· Tik op het scherpstelveld op de monitor. 
+■Wanneer de camera problemen heeft met scherpstellen:
+· Gebruik een AF-veldstand met een breder scherpstelveld zoals [Breedveld-AF (S)] en [Breedveld-AF (L)]. 
+■Als het onderwerp te donker is:
+· Selecteer een hogere (positievere) waarde voor belichtingscorrectie. 
+■Als het onderwerp te helder is:
+· Selecteer een lagere (negatievere) waarde voor belichtingscorrectie. 
+■Om “Ruis” (in de vorm van willekeurige heldere pixels) minder zichtbaar te maken: 
+· Stel de maximale ISO-gevoeligheidswaarde in op ISO [3200] of lager."</string>
+    <string name="TIPSID_MOTIF_EATING">"---Standinleiding---
+ Leg voedsel vast met natuurlijk uitziende kleuren en helderheid met onscherpe achtergrond en omgeving. 
+ 
+---Camerabedieningstips---
+■Wanneer de camera problemen heeft met het scherpstellen (het scherpstelpunt wordt niet groen weergegeven): 
+· Ga bij het onderwerp vandaan (de camera kan niet scherpstellen als hij dichterbij is dan de kortste scherpstelafstand die op het objectief wordt aangegeven). 
+· Gebruik een AF-veldstand met een kleiner scherpstelveld zoals [Enkelpunts AF], [Breedveld-AF (S)] en [Breedveld-AF (L)]. 
+■Als het onderwerp te donker is:
+· Selecteer een hogere (positievere) waarde voor belichtingscorrectie. 
+■Als het onderwerp te helder is:
+· Selecteer een lagere (negatievere) waarde voor belichtingscorrectie. 
+■Om de kleur van de foto blauwer maken:
+· Stel de witbalans in op [Gloeilamplicht]. 
+■Om de kleur van de foto roder te maken:
+· Stel de witbalans in op [Bewolkt] of [Schaduw]. 
+■Om de achtergrond te vervagen:
+· Maak opnamen met een verminderde scherptediepte. 
+· Opnametips om verminderde scherptediepte te gebruiken: 
+1) Ga dichter bij het onderwerp (zorg ervoor verder weg te staan dan de kortste scherpstelafstand aangegeven op het objectief). 
+2) Gebruik een objectief met een kleine maximale diafragmawaarde (laagste f-waarde). 
+3) Gebruik een teleobjectief of zoom in met een zoomobjectief."</string>
+    <string name="TIPSID_MOTIF_EATING_OUT">"---Standinleiding---
+ Leg voedsel met natuurlijk uitziende kleuren en helderheid vast en stel scherp op het hele gerecht. 
+ 
+---Camerabedieningstips---
+■Wanneer de camera problemen heeft met het scherpstellen (het scherpstelpunt wordt niet groen weergegeven): 
+· Ga bij het onderwerp vandaan (de camera kan niet scherpstellen als hij dichterbij is dan de kortste scherpstelafstand die op het objectief wordt aangegeven). 
+· Gebruik een AF-veldstand met een kleiner scherpstelveld zoals [Enkelpunts AF], [Breedveld-AF (S)] en [Breedveld-AF (L)]. 
+■Als het onderwerp te donker is:
+· Selecteer een hogere (positievere) waarde voor belichtingscorrectie. 
+■Als het onderwerp te helder is:
+· Selecteer een lagere (negatievere) waarde voor belichtingscorrectie. 
+■Om de kleur van de foto blauwer maken:
+· Stel de witbalans in op [Gloeilamplicht]. 
+■Om de kleur van de foto roder te maken:
+· Stel de witbalans in op [Bewolkt] of [Schaduw]."</string>
+    <string name="TIPSID_MOTIF_FOR_AUCTION">"---Standinleiding---
+ Leg items voor veiling vast met hoog contrast, levendige kleuren en algehele scherpe scherpstelling. 
+ 
+---Opnametechnieken---
+■Om de achtergrond onscherp te maken en een scherpe foto van het product te maken:
+· Gebruik [Kleine voorwerpen]. 
+■Om cameraonscherpte te minimaliseren:
+· Gebruik een statief, een tafel of andere middelen om de camera vast te zetten, of houd de camera stevig vast door uw ellebogen tegen de zijkanten van uw borst te brengen. 
+ 
+---Camerabedieningstips---
+■Wanneer de camera problemen heeft met het scherpstellen (het scherpstelpunt wordt niet groen weergegeven): 
+· Ga bij het onderwerp vandaan (de camera kan niet scherpstellen als hij dichterbij is dan de kortste scherpstelafstand die op het objectief wordt aangegeven). 
+■Om een heldere opname te maken van zowel het product als de achtergrond: 
+· Stel een kleiner (smaller) diafragma in, zoals f/11. 
+■Om foto's te maken waarbij het onderwerp in het oog springt:
+· Pas de manier waarop natuurlijk licht op het onderwerp valt aan of wijzig de richting van schijnwerpers zodanig dat het onderwerp naar wens wordt belicht."</string>
+    <string name="TIPSID_MOTIF_MAGIC_HOUR">"---Standinleiding---
+ Leg de roodheid van het avondlandschap vast. Autofocus wordt ingesteld om gemakkelijker scherp te stellen zelfs in donkere omgevingen. 
+ 
+---Opnametechnieken---
+■Om cameraonscherpte te minimaliseren:
+· Gebruik een statief, een tafel of een hek om de camera vast te zetten, of houd de camera stevig vast door uw ellebogen tegen de zijkanten van uw borst te brengen.
+ 
+---Camerabedieningstips---
+■Als het landschap helderder lijkt op het beeld dan met het oog waar te nemen:
+· Selecteer een lagere (negatievere) waarde voor belichtingscorrectie. 
+■Als het landschap op het beeld donkerder lijkt dan met het oog waar te nemen:
+· Selecteer een hogere (positievere) waarde voor belichtingscorrectie. 
+■Om de roodheid van de zonsondergang te benadrukken:
+· Stel de witbalans in op [Bewolkt] of [Schaduw]. 
+■Om details in hoge lichten en schaduwen in scènes met hoog contrast te behouden:
+· Stel Actieve D-Lighting in op [Extra hoog]."</string>
+    <string name="TIPSID_MOTIF_NATURE">"---Standinleiding---
+ Maak foto's van landschappen zoals bergen en bossen met natuurlijke tonen en kleuren. 
+ 
+---Camerabedieningstips---
+■Om op een gewenste positie scherp te stellen:
+· Tik op de monitor op het gebied waarop u wilt scherpstellen. 
+■Om details in hoge lichten en schaduwen in scènes met hoog contrast te behouden:
+· Stel Actieve D-Lighting in op [Extra hoog]."</string>
+    <string name="TIPSID_MOTIF_NIGHT">"---Standinleiding---
+ Leg nachtscènes vast met heldere, levendige kleuren. 
+ 
+---Opnametechnieken---
+■Om cameraonscherpte te minimaliseren:
+· Gebruik een statief, een tafel of een hek om de camera vast te zetten, of houd de camera stevig vast door uw ellebogen tegen de zijkanten van uw borst te brengen.
+ 
+---Camerabedieningstips---
+■Om op een gewenste positie scherp te stellen:
+· Tik op de monitor op het gebied waarop moet worden scherpgesteld. 
+· Plaats het scherpstelpunt van de camera op het scherp te stellen gebied en druk de ontspanknop half in om de scherpstelling te vergrendelen. Houd de knop ingedrukt, pas de compositie van de foto aan en fotografeer. 
+■Wanneer de camera problemen heeft met scherpstellen:
+· Gebruik een AF-veldstand met een breder scherpstelveld zoals [Breedveld-AF (S)] en [Breedveld-AF (L)]. 
+· Druk op een plaats met contrast de ontspanknop half in om de scherpstelling te vergrendelen, wijzig vervolgens de compositie en fotografeer. 
+· Stel handmatig scherp. 
+■Wanneer het onderwerp te helder is:
+· Pas, terwijl u op het scherm kijkt, de belichting naar wens aan door een lagere (negatievere) waarde voor belichtingscorrectie te selecteren. 
+■Om “Ruis” minder zichtbaar te maken:
+· Zet de camera op een statief of op een andere manier vast en stel de ISO-gevoeligheid in op ISO [400] of lager. 
+■Om de kleur van de foto blauwer te maken:
+· Stel de witbalans in op [Gloeilamplicht].
+■Om de kleur van de foto roder maken:
+· Stel de witbalans in op [Bewolkt] of [Schaduw]."</string>
+    <string name="TIPSID_MOTIF_PERSON_NIGHT">"---Standinleiding---
+ Maak evenwichtige foto's van portretonderwerpen en nachtlandschappen met een nachtbeeld op de achtergrond. Autofocus wordt ingesteld om gemakkelijker scherp te stellen in donkere omgevingen. 
+ 
+---Opnametechnieken---
+■Om foto's scherp te stellen en onscherpe onderwerpen tot een minimum te beperken:
+· Gebruik een flitser of LED-licht of beweeg naar een locatie met straatverlichting om het gezicht van het onderwerp belichten. 
+· Gebruik bij weinig licht een statief of zet de camera op een vlakke ondergrond vast zoals een tafel.
+ 
+---Camerabedieningstips---
+■Om ruis te verminderen:
+· Zet de camera op een statief of een vlakke ondergrond zoals een tafel vast en selecteer ISO [3200] of lager voor [ISO-gevoeligheid instellen] > [Maximale gevoeligheid]."</string>
+    <string name="TIPSID_MOTIF_PET_INDOOR">"---Standinleiding---
+ Leg huisdieren vast met natuurlijk uitziende kleuren. Fotografeer het beste moment terwijl de camera continu scherpstelt in reactie op de beweging van het onderwerp en serieopnames maakt in de ontspanstand continu lage snelheid. De achtergrond kan vaag of scherp zijn. 
+ 
+---Opnametechnieken---
+■Om de beste gezichtsuitdrukking van uw huisdier vast te leggen:
+· Houd de camera onder een lage hoek ten opzichte van het oogniveau van uw huisdier. 
+ 
+---Camerabedieningstips---
+■Om het onderwerp scherp te houden:
+· Richt de camera op de onderwerpen en druk de ontspanknop half in om gele randen op de gezichten of ogen weer te geven en de scherpstelling op het onderwerp te vergrendelen. 
+■Om het beste moment vast te leggen: 
+· Bereid u voor op de plotselinge beweging van het onderwerp tijdens het fotograferen door het scherpstelpunt boven het onderwerp te plaatsen en de ontspanknop ingedrukt te houden om de camera een serieopname op lage snelheid te laten beginnen om het moment vast te leggen. 
+■Om de achtergrond te vervagen:
+· Maak opnamen met een verminderde scherptediepte. 
+· Opnametips om verminderde scherptediepte te gebruiken: 
+1) Ga dichter bij het onderwerp (zorg ervoor verder weg te staan dan de kortste scherpstelafstand aangegeven op het objectief). 
+2) Gebruik een objectief met een kleine maximale diafragmawaarde (laagste f-waarde). 
+3) Gebruik een teleobjectief of zoom in met een zoomobjectief."</string>
+    <string name="TIPSID_MOTIF_PET_OUTDOOR">"---Standinleiding---
+ Maak heldere foto's van snel bewegende huisdieren met korte sluitertijden om onscherpte van het onderwerp te minimaliseren. Leg zelfs de geringste beweging van actieve huisdieren vast terwijl de camera de scherpstelling continu aanpast aan de beweging van het onderwerp en serieopnames maakt in de ontspanstand continu hoge snelheid. 
+ 
+---Camerabedieningstips---
+■Om het onderwerp scherp te houden:
+· Richt de camera op de onderwerpen en druk de ontspanknop half in om gele randen op de gezichten of ogen weer te geven en de scherpstelling op het onderwerp te vergrendelen. 
+■Wanneer het onderwerp bewegingsonscherpte veroorzaakt: 
+· Selecteer S voor de opnamestand (belichting) en stel kortere sluitertijden in (bijvoorbeeld [1/2000 sec.]). 
+■Om een moment van snelle beweging vast te leggen:
+· Plaats het scherpstelpunt over het actief bewegend onderwerp en houd de ontspanknop ingedrukt om de camera een serieopname op hoge snelheid te laten starten om het moment vast te leggen."</string>
+    <string name="TIPSID_MOTIF_PLANT">"---Standinleiding---
+ Maak levendige foto's van bloemen. De achtergrond kan onscherp of helder zijn, zodat de omringende bloemen ook scherp zijn. 
+ 
+---Camerabedieningstips---
+■Om op een gewenste positie scherp te stellen:
+· Tik op de monitor op het gebied waarop u wilt scherpstellen. 
+■Wanneer de camera problemen heeft met scherpstellen:
+· Gebruik een AF-veldstand met een breder scherpstelveld zoals [Enkelpunts AF], [Breedveld-AF (S)] en [Breedveld-AF (L)]. 
+· Druk op een plaats met contrast de ontspanknop half in om de scherpstelling te vergrendelen, wijzig vervolgens de compositie en fotografeer. 
+· Stel handmatig scherp. 
+■Om de achtergrond te vervagen:
+· Maak opnamen met een verminderde scherptediepte. 
+· Opnametips om verminderde scherptediepte te gebruiken: 
+1) Ga dichter bij het onderwerp (zorg ervoor verder weg te staan dan de kortste scherpstelafstand aangegeven op het objectief). 
+2) Gebruik een objectief met een kleine maximale diafragmawaarde (laagste f-waarde). 
+3) Gebruik een teleobjectief of zoom in met een zoomobjectief. 
+■Om close-upfoto's van bloemen te maken:
+· Het gebruik van een macro-objectief maakt het gemakkelijker om scherp te stellen op onderwerpen dichtbij, waardoor u vergrote foto's met fijne details kunt maken. 
+· Met behulp van een teleobjectief of door inzoomen met een zoomobjectief kunt u close-upfoto's maken van bloemen met een onscherpe achtergrond zonder te dichtbij te komen. 
+■Als het landschap op het beeld donkerder lijkt dan het met het oog lijkt:
+· Selecteer een hogere (positievere) waarde voor belichtingscorrectie. 
+■Als het landschap op het beeld helderder lijkt dan het met het oog lijkt:
+· Selecteer een lagere (negatievere) waarde voor belichtingscorrectie."</string>
+    <string name="TIPSID_MOTIF_PORTRAIT">"---Standinleiding---
+ Maak portretfoto's met een zachte tint en natuurlijke uitstraling. De achtergrond kan vaag of scherp zijn. 
+ 
+---Camerabedieningstips---
+■Om de portretonderwerpen scherp te houden:
+· Richt de camera op de onderwerpen en druk de ontspanknop half in om gele randen op de gezichten of ogen weer te geven om de scherpstelling te vergrendelen. 
+■Om de achtergrond te vervagen:
+· Maak opnamen met een verminderde scherptediepte. 
+· Opnametips voor verminderde scherptediepte: 
+1) Ga dichter bij het onderwerp (verder weg dan de kortste scherpstelafstand aangegeven op het objectief). 
+2) Gebruik een objectief met een kleine maximale diafragmawaarde (laagste f-waarde). 
+3) Gebruik een teleobjectief of zoom in met een zoomobjectief."</string>
+    <string name="TIPSID_MOTIF_RECORDS">"---Standinleiding---
+ Maak natuurlijk gekleurde portretfoto's met hun achtergrond. De achtergrond kan vaag of scherp zijn. 
+ 
+---Opnametechnieken---
+■Om te voorkomen dat er foto's worden gemaakt met gesloten ogen:
+· Bekijk de foto om te zien of iemand zijn ogen heeft gesloten.
+· Selecteer een continue ontspanstand, houd vervolgens de ontspanknop ingedrukt om meerdere foto's te maken. 
+ 
+---Camerabedieningstips---
+■Houd de portretonderwerpen scherp:
+· Richt de camera op de onderwerpen en druk de ontspanknop half in om gele randen op de gezichten of ogen weer te geven om de scherpstelling te vergrendelen."</string>
+    <string name="TIPSID_MOTIF_RELATIVES">"---Standinleiding---
+ Voorkom dat het portretonderwerp donker is in scènes waar de helderheid tussen het onderwerp en de achtergrond verschilt door tegenlicht of om andere redenen. 
+ 
+---Camerabedieningstips---
+■Als het portretonderwerp te donker is:
+· Selecteer een hogere (meer positieve) waarde voor belichtingscorrectie. 
+■Als het portretonderwerp te helder wordt weergegeven:
+· Selecteer een lagere (mindere) waarde voor belichtingscorrectie. 
+■Als het beeld korrelig lijkt (bijvoorbeeld als de ISO-gevoeligheid hoog is):
+· Stel Actieve D-Lighting in op [Normaal] of [Laag]."</string>
+    <string name="TIPSID_MOTIF_RIVER">"---Standinleiding---
+ Bevries de beweging van water in een rivier of waterval, of de beweging van waterdruppels, of leg het spoor van stromend water vast. 
+ 
+---Opnametechnieken---
+■Om cameraonscherpte te minimaliseren:
+· Om het spoor van stromend water vast te leggen, gebruikt u een statief, een tafel of een hek om de camera vast te zetten, of houd u de camera stevig vast door uw ellebogen tegen de zijkanten van uw borst te brengen.
+ 
+---Camerabedieningstips---
+■Om de beweging van snel stromend water te bevriezen:
+ · Selecteer de optie [“Bevries” beweging] en stel kortere sluitertijden in (bijvoorbeeld [1/250 sec.] of [1/500 sec.]). 
+■Om een langer spoor van stromend water vast te leggen:
+· Selecteer de optie [Maak lange bewegingssporen] en stel langere sluitertijden in (bijvoorbeeld [2 sec.] of [4 sec.]; gebruik van een statief wordt aanbevolen)."</string>
+    <string name="TIPSID_MOTIF_SELFY">"---Standinleiding---
+ Maak zelfportretfoto's waar de achtergrond op natuurlijk wijze op staat. De achtergrond kan vaag of scherp zijn. 
+ 
+---Opnametechnieken---
+■Om foto's te maken met goed oogcontact:
+· Wanneer u een foto maakt, kijkt u naar het midden van het objectief in plaats van het midden van het beeldscherm naar u toe gericht. 
+■Om achtergrondlandschappen en omringende omgeving duidelijk weer te geven: 
+· Gebruik een groothoekobjectief of zoom uit met een zoomobjectief om een grotere beeldhoek te omvatten, waardoor het gemakkelijker wordt om de achtergrond en de omgeving te tonen. 
+ 
+---Camerabedieningstips---
+■Om de portretonderwerpen scherp te houden:
+· Richt de camera op de onderwerpen en druk de ontspanknop half in om gele randen op de gezichten of ogen weer te geven en de scherpstelling te vergrendelen."</string>
+    <string name="TIPSID_MOTIF_SMALL_ITEMS">"---Standinleiding---
+ Leg met de hand gemaakte artikelen of decoratieve objecten vast met hoog contrast, levendige kleuren, en met een onscherpe achtergrond. 
+ 
+---Opnametechnieken---
+■Om foto's te maken waarbij het onderwerp in het oog springt:
+· Pas de manier waarop natuurlijk licht op het onderwerp valt aan of wijzig de richting van schijnwerpers zodanig dat het onderwerp naar wens wordt belicht. 
+■Om een duidelijke foto van zowel het product als de achtergrond te maken: 
+· Gebruik [Onlineveilingen]. 
+■Om cameraonscherpte te minimaliseren:
+· Gebruik een statief, een tafel of andere middelen om de camera vast te zetten, of houd de camera stevig vast door uw ellebogen tegen de zijkanten van uw borst te brengen. 
+ 
+---Camerabedieningstips---
+■Wanneer de camera problemen heeft met het scherpstellen (het scherpstelpunt wordt niet groen weergegeven): 
+· Ga bij het onderwerp vandaan (de camera kan niet scherpstellen als hij dichterbij is dan de kortste scherpstelafstand die op het objectief wordt aangegeven). 
+■Om de achtergrond te vervagen:
+· Maak opnamen met een verminderde scherptediepte. 
+· Opnametips om verminderde scherptediepte te gebruiken: 
+1) Ga dichter bij het onderwerp (zorg ervoor verder weg te staan dan de kortste scherpstelafstand aangegeven op het objectief). 
+2) Gebruik een objectief met een kleine maximale diafragmawaarde (laagste f-waarde). 
+3) Gebruik een teleobjectief of zoom in met een zoomobjectief. 
+■Om close-upfoto's van het onderwerp te maken:
+· Het gebruik van een macro-objectief maakt het gemakkelijker om scherp te stellen op onderwerpen dichtbij, wat vergrote foto's met heldere en fijne details mogelijk maakt. 
+· Met behulp van een teleobjectief of door inzoomen met een zoomobjectief kunt u close-upfoto's maken van het onderwerp met een onscherpe achtergrond zonder te dichtbij te komen."</string>
+    <string name="TIPSID_MOTIF_SPORTS_INDOOR">"---Standinleiding---
+ Maak foto's van onderwerpen die binnenshuis sporten met natuurlijke kleuren. Verhoog de ISO-gevoeligheid en stel een korte sluitertijd in om bewegingsonscherpte te vermijden. Leg zelfs de kleinste beweging vast door de camera in serieopnames te bedienen en pas de scherpstelling continu aan in reactie op de beweging van het onderwerp. 
+ 
+---Opnametechnieken---
+■Om indrukwekkende opnames te maken:
+· Gebruik een teleobjectief (bijvoorbeeld een brandpuntsafstand van 200 mm).
+ 
+---Camerabedieningstips---
+■Voor donkere binnenomgevingen:
+· Selecteer een hogere ISO-gevoeligheidswaarde. 
+■Om de beweging van een portretonderwerp vast te leggen:
+· Houd terwijl u het onderwerp volgt de ontspanknop ingedrukt om serieopnames te maken. 
+· Houd de camera in de gewenste compositie en houd, wanneer het onderwerp in beeld komt, de ontspanknop ingedrukt om serieopnames te maken. 
+■Wanneer het onderwerp bewegingsonscherpte veroorzaakt: 
+· Selecteer S voor de opnamestand (belichting) en stel kortere sluitertijden in (bijvoorbeeld [1/2000 sec.])."</string>
+    <string name="TIPSID_MOTIF_SPORTS_OUTDOOR">"---Standinleiding---
+ Fotografeer op het beste moment door de camera in serieopnames te gebruiken en de scherpstelling continu aan te passen in reactie op de beweging van het portretonderwerp. Leg de vloeiende beweging vast of bevries de beweging van portretonderwerpen die buiten sporten. 
+ 
+---Opnametechnieken---
+■Om een indrukwekkende opname te maken:
+· Gebruik een teleobjectief (bijvoorbeeld een brandpuntsafstand van 200 mm).
+ 
+---Camerabedieningstips---
+■Om de beweging van een portretonderwerp vast te leggen:
+· Houd terwijl u het onderwerp volgt de ontspanknop ingedrukt om serieopnames te maken. 
+· Houd de camera in de gewenste compositie en houd, wanneer het onderwerp in beeld komt, de ontspanknop ingedrukt om serieopnames te maken. 
+■Voor vloeiendere scherpstelling: 
+· Stel vooraf scherp op de positie dichtbij waar het onderwerp in het kader komt. 
+■Als het onderwerp bewegingsonscherpte veroorzaakt: 
+· Selecteer kortere sluitertijden (bijvoorbeeld [1/2000 sec.])."</string>
+    <string name="TIPSID_MOTIF_STARS">"---Standinleiding---
+ Leg de sterrenhemel vast. De camera stelt de sluitertijd in om de sluiter gedurende een ingestelde periode te openen. 
+ 
+---Opnametechnieken---
+■Om cameraonscherpte te minimaliseren:
+· Zet de camera op een statief vast en maak foto's met de zelfontspanner. 
+■Om het omliggende landschap op foto's van een sterrenhemel ook op te nemen:
+· Gebruik een groothoekobjectief of zoom uit met een zoomobjectief. 
+ 
+---Camerabedieningstips---
+■Om “Ruis” (in de vorm van willekeurige heldere pixels) minder zichtbaar te maken:
+· Gebruik een snel prime objectief met een kleine maximale diafragmawaarde (minimale f-waarde). 
+■Als het onderwerp te donker is:
+· Stel een hoge ISO-gevoeligheidswaarde in (bijvoorbeeld ISO [6400] of hoger). 
+■Als het onderwerp te helder is:
+· Stel een lage ISO-gevoeligheidswaarde in (bijvoorbeeld ISO [400] of lager)."</string>
+    <string name="TIPSID_MOTIF_STREET">"---Standinleiding---
+ Maak foto's van architectuur en stadsgezichten met gebalanceerde tonen en kleuren. 
+ 
+---Opnametechnieken---
+■Om cameraonscherpte te minimaliseren:
+· Gebruik een statief, een tafel of een hek om de camera vast te zetten, of houd de camera stevig vast door uw ellebogen tegen de zijkanten van uw borst te brengen. 
+· Schakel [Vibratiereductie] uit wanneer de camera op een statief of op een andere manier wordt vastgezet. 
+■Om foto's te maken van gebouwen en stadsgezichten met een grote beeldhoek:
+· Gebruik een groothoekobjectief of zoom uit met een zoomobjectief."</string>
+    <string name="TIPSID_MOTIF_TREE_VIEWING">"---Standinleiding---
+ Leg prachtige kersenbloesem vast in natuurlijke kleuren. 
+ 
+---Camerabedieningstips---
+■Als de camera problemen heeft met scherpstellen (het scherpstelpunt wordt niet groen weergegeven):
+· Gebruik een AF-veldstand met een kleiner scherpstelveld zoals [Enkelpunts AF], [Breedveld-AF (S)] en [Breedveld-AF (L)]. 
+■Als het onderwerp te donker is:
+· Selecteer een hogere (positievere) waarde voor belichtingscorrectie. 
+■Als het onderwerp te helder is:
+· Selecteer een lagere (negatievere) waarde voor belichtingscorrectie. 
+■Om levendige kleuren vast te leggen:
+· Picture Control instellen op [Landschap] of [Levendig]."</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Functie +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">spatie</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="app_name">SnapBridge</string>
+    <string name="auto_upload_text0">Annuleren</string>
+    <string name="auto_upload_text1">Alleen Wi-Fi</string>
+    <string name="auto_upload_text1_min">Wi-Fi</string>
+    <string name="auto_upload_text2">Altijd</string>
+    <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
+    <string name="call_notification_answer_action">Beantwoorden</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Weigeren</string>
+    <string name="call_notification_hang_up_action">Ophangen</string>
+    <string name="call_notification_incoming_text">Inkomend gesprek</string>
+    <string name="call_notification_ongoing_text">Actief gesprek</string>
+    <string name="call_notification_screening_text">Een inkomend gesprek screenen</string>
+    <string name="camera0_change">"Camera's verwisselen"</string>
+    <string name="camera0_connect_type0_title">Buiten camerasignaalbereik</string>
+    <string name="camera0_connect_type1_text">Beelden worden momenteel via Wi-Fi van de camera gedownload.</string>
+    <string name="camera0_connect_type1_title">Wi-Fi-download in uitvoering</string>
+    <string name="camera0_connect_type2_text">Schakel over naar Bluetooth om “Automatisch downloaden”, “Locatiegegevens” of “Klokken” te gebruiken.</string>
+    <string name="camera0_connect_type2_title">Er is een actieve Wi-Fi-verbinding. Wi-Fi-verbinding beëindigen?</string>
+    <string name="camera0_connect_type3_text">Beelden worden momenteel via Bluetooth van de camera gedownload.</string>
+    <string name="camera0_connect_type3_title">Bluetooth-download in uitvoering</string>
+    <string name="camera0_connect_type4_title">Verbonden via Bluetooth</string>
+    <string name="camera0_connect_type5_title">Wachtend op Bluetooth-verbinding</string>
+    <string name="camera0_connect_type6_title">Wi-Fi-verbinding met camera verbroken</string>
+    <string name="camera0_delete">Camera vergeten</string>
+    <string name="camera0_nfc_text">Koppelen starten?</string>
+    <string name="camera10_cell1_title">Koppelen (Bluetooth)</string>
+    <string name="camera10_title">Verbindingstype</string>
+    <string name="camera1_sync_location_info0">"Persoonlijke informatie kan worden afgeleid uit locatiegegevens die zijn vastgelegd in foto’s gemaakt met een camera.
+Wees voorzichtig wanneer beelden op internet of op andere locaties worden geplaatst waar ze door derden kunnen worden bekeken.
+Bovendien beperken sommige landen het gebruik van locatiegegevenssystemen; controleer dit, voordat u op reis gaat, bij uw reisagent of de ambassade of het toerismebureau van het land dat u gaat bezoeken."</string>
+    <string name="camera1_sync_location_info1">Afhankelijk van uw locatie kan het verkrijgen en synchroniseren van locatiegegevens enige tijd duren.</string>
+    <string name="camera2_camera_none">Geen bijbehorende camera</string>
+    <string name="camera3_nfc_error0">"SnapBridge kan koppelingsinformatie opslaan voor maximaal 5 camera's"</string>
+    <string name="camera3_nfc_error1">Al gekoppeld met dit apparaat</string>
+    <string name="camera3_nfc_title">Ontvang NFC-signaal van camera</string>
+    <string name="camera3_searching">Bezig met zoeken…</string>
+    <string name="camera4_btn_text">Opties bekijken</string>
+    <string name="camera4_title">Camera- en Wi-Fi-verbinding</string>
+    <string name="camera5_btn_close">Begrepen</string>
+    <string name="camera5_lbl_text">"Volg de instructies op het scherm, selecteer de cameranaam en tik op “Koppelen”.
+
+Druk op de “OK”-knop van de camera om het koppelen te voltooien."</string>
+    <string name="camera6_pairing">Koppelen in uitvoering</string>
+    <string name="camera7_list_title">Selecteer de naam van de camera waarmee u wilt koppelen</string>
+    <string name="camera7_text">"Camera ontvangt transmissie van camera.
+Kies de naam die wordt weergegeven in de cameramonitor uit de volgende lijst."</string>
+    <string name="camera_dialog_wifi_unsupport_text">Camera kan geen verbinding maken via Wi-Fi; op-afstand-fotografie niet beschikbaar.</string>
+    <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
+    <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
+    <string name="clear_text_end_icon_content_description">Tekst wissen</string>
+    <string name="close_drawer">Navigatiemenu sluiten</string>
+    <string name="close_sheet">Blad sluiten</string>
+    <string name="cloud0_nis_link">Wat is NIKON IMAGE SPACE?</string>
+    <string name="common_google_play_services_enable_button">Inschakelen</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services inschakelen</string>
+    <string name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_channel_name">Beschikbaarheid van Google Play-services</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string name="common_google_play_services_update_button">Updaten</string>
+    <string name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_pairing">Koppelen</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string name="copy_toast_msg">Link naar klembord gekopieerd</string>
+    <string name="default_error_message">Ongeldige invoer</string>
+    <string name="dialog_pairing_text">U moet uw smartapparaat met de camera koppelen voordat een Nikon ID-registratie wordt aangemaakt. Koppelen?</string>
+    <string name="error_icon_content_description">Fout</string>
+    <string name="error_remote2">RAW of TIFF geselecteerd voor beeldkwaliteit op de camera. Foto´s kunnen op afstand worden gemaakt maar worden niet naar het smartapparaat gedownload.</string>
+    <string name="error_remote3">De camera is voor een lange tijdopname geconfigureerd; op-afstand-fotografie is niet beschikbaar.</string>
+    <string name="error_remote4">De sluitertijd van de camera is op de flitssynchronisatiesnelheid ingesteld; op-afstand-fotografie niet beschikbaar.</string>
+    <string name="error_remote5">Camera is geconfigureerd voor bulb-fotografie; livebeeld is uit. Wilt u een lange belichting vastleggen?</string>
+    <string name="error_remote6">Wilt u een lange belichting vastleggen?</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu weergeven</string>
+    <string name="fallback_menu_item_copy_link">Link kopiëren</string>
+    <string name="fallback_menu_item_open_in_browser">Openen in browser</string>
+    <string name="fallback_menu_item_share_link">Link delen</string>
+    <string name="gallery1_blank_text">De gedownloade beelden worden weergegeven.</string>
+    <string name="gallery1_blank_title">Op camera aansluiten en beelden downloaden</string>
+    <string name="gallery_dialog_delete_text">Beeld(en) verwijderen?</string>
+    <string name="gcm_fallback_notification_channel_label">Overige</string>
+    <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="in_progress">Bezig</string>
+    <string name="indeterminate">Niet aangevinkt of uitgevinkt</string>
+    <string name="installation_cancelled">Installatie geannuleerd.</string>
+    <string name="installation_failed">Installatie mislukt.</string>
+    <string name="installing_module">Module installeren:</string>
+    <string name="item_view_role_description">Tabblad</string>
+    <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
+    <string name="material_hour_selection">Selecteer uur</string>
+    <string name="material_hour_suffix">%1$s uur</string>
+    <string name="material_minute_selection">Minuten selecteren</string>
+    <string name="material_minute_suffix">%1$s minuten</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Schakel naar de klokmodus om de tijd in te voeren.</string>
+    <string name="material_timepicker_hour">Uur</string>
+    <string name="material_timepicker_minute">Minuut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Tijd selecteren</string>
+    <string name="material_timepicker_text_input_mode_description">Schakel naar de tekstinvoermodus om de tijd in te voeren.</string>
+    <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Meer dan %1$d nieuwe meldingen</string>
+    <string name="mtrl_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="mtrl_picker_a11y_prev_month">Naar vorige maand gaan</string>
+    <string name="mtrl_picker_announce_current_selection">Huidige selectie: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecteer een datum</string>
+    <string name="mtrl_picker_date_header_unselected">Geselecteerde datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom met dagen: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ongeldige indeling.</string>
+    <string name="mtrl_picker_invalid_format_example">Voorbeeld: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gebruik: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ongeldig bereik.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$s navigeren</string>
+    <string name="mtrl_picker_out_of_range">Valt buiten bereik: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – einddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecteer een periode</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum - einddatum</string>
+    <string name="mtrl_picker_save">Opslaan</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Einddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">j</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Overschakelen naar agenda-invoermodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tik om naar dagselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Overschakelen naar tekstinvoermodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tik om naar jaarselectie te schakelen</string>
+    <string name="mynikon0_btn_install">Installeren</string>
+    <string name="mynikon0_btn_launch">Starten</string>
+    <string name="mynikon0_date_format">dd.MM.yyyy</string>
+    <string name="mynikon0_tab0">Photo Life</string>
+    <string name="mynikon0_tab1">Nieuws</string>
+    <string name="mynikon0_tab2">App</string>
+    <string name="nav_app_bar_navigate_up_description">Omhoog navigeren</string>
+    <string name="nav_app_bar_open_drawer_description">Zijmenu openen</string>
+    <string name="navigation_menu">Navigatiemenu</string>
+    <string name="none0">-</string>
+    <string name="none1">- / -</string>
+    <string name="none2">- -</string>
+    <string name="not_selected">Niet geselecteerd</string>
+    <string name="off">Uit</string>
+    <string name="ok">OK</string>
+    <string name="on">Aan</string>
+    <string name="password_toggle_content_description">Wachtwoord weergeven</string>
+    <string name="progress">Voortgang:</string>
+    <string name="receive_progress_cancel">Downloaden is vanaf de camera geannuleerd.</string>
+    <string name="regist0_nikon_id_login">Login Nikon ID</string>
+    <string name="regist0_or">Of</string>
+    <string name="regist4_next">Registreren</string>
+    <string name="remote1_time_text0">Druk op de ontspanknop om een lange tijdopname te starten</string>
+    <string name="remote1_time_text1">Druk op de ontspanknop om de lange tijdopname te beëindigen</string>
+    <string name="remote1_wb0">Automatisch</string>
+    <string name="remote2_btn_item0">Beelddownloadopties</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="review_btn_link">Suggesties</string>
+    <string name="review_btn_no">Duim omlaag</string>
+    <string name="review_btn_yes">Duim omhoog</string>
+    <string name="review_text0">"Bedankt voor uw gebruik van SnapBridge.
+Geef een beoordeling voor deze app."</string>
+    <string name="review_text1">Heeft u suggesties of opvattingen met betrekking tot deze app, stel dan uw vraag of controleer de onderstaande lijst.</string>
+    <string name="review_title">SnapBridge beoordelen</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="selected">Geselecteerd</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">Tabblad</string>
+    <string name="template_percent">%1$d procent.</string>
+    <string name="tutorial5_info1">Deze instellingen kunnen op elk gewenst moment worden gewijzigd.</string>
+    <string name="tutorial5_next">Gereed</string>
+    <string name="warning_liveview0">ISO-gevoeligheid: de geselecteerde optie is niet beschikbaar tijdens op-afstand-fotografie. Gevoeligheid wordt ingesteld op ISO 100 of 25600.</string>
+    <string name="warning_liveview0_ISO_800">ISO-gevoeligheid: de geselecteerde optie is niet beschikbaar tijdens op-afstand-fotografie. Gevoeligheid wordt ingesteld op ISO 800 of 25600.</string>
+    <string name="warning_liveview0_SHUTTER_MODE">Sluitermodus: deze instelling schakelt over naar [Sluitertijd] omdat de andere optie niet wordt ondersteund bij fotograferen op afstand.</string>
+    <string name="warning_liveview1">Witbalans: de geselecteerde optie is niet beschikbaar tijdens op-afstand-fotografie. Automatische witbalans wordt in plaats daarvan gebruikt.</string>
+</resources>

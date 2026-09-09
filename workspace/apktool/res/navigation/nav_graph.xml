@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/homeFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="fragment_home" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.HomeFragment" android:id="@id/homeFragment">
+        <action android:id="@id/action_homeFragment_to_walkthroughFragment" app:destination="@id/walkthroughFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_homeFragment_to_motifPick01Fragment" app:destination="@id/motifPick01Fragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_homeFragment_to_myShootSettingDetailFragment" app:destination="@id/myShootSettingDetailFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_homeFragment_to_myShootSettingSortFragment" app:destination="@id/myShootSettingSortFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_homeFragment_to_shootSettingResetFragment" app:destination="@id/shootSettingResetFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment android:label="fragment_walkthrough" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.WalkthroughFragment" android:id="@id/walkthroughFragment" />
+    <fragment android:label="fragment_my_shoot_setting_sort" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.MyShootSettingSortFragment" android:id="@id/myShootSettingSortFragment" />
+    <fragment android:label="fragment_motifPick01" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.MotifPick01Fragment" android:id="@id/motifPick01Fragment">
+        <action android:id="@id/action_motifPick01Fragment_to_motifPick02Fragment" app:destination="@id/motifPick02Fragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment android:label="fragment_motifPick02" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.MotifPick02Fragment" android:id="@id/motifPick02Fragment">
+        <action android:id="@id/action_motifPick02Fragment_to_bokehTuningFragment" app:destination="@id/bokehTuningFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_motifPick02Fragment_to_blurTuningFragment" app:destination="@id/blurTuningFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_motifPick02Fragment_to_myShootSettingSelectConfirmFragment" app:destination="@id/myShootSettingSelectConfirmFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_motifPick02Fragment_to_myShootSettingEditConfirmFragment" app:destination="@id/myShootSettingEditConfirmFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment android:label="fragment_bokeh_tuning" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.BokehTuningFragment" android:id="@id/bokehTuningFragment">
+        <action android:id="@id/action_bokehTuningFragment_to_myShootSettingSelectConfirmFragment" app:destination="@id/myShootSettingSelectConfirmFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_bokehTuningFragment_to_myShootSettingEditConfirmFragment" app:destination="@id/myShootSettingEditConfirmFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment android:label="fragment_blur_tuning" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.BlurTuningFragment" android:id="@id/blurTuningFragment">
+        <action android:id="@id/action_blurTuningFragment_to_myShootSettingSelectConfirmFragment" app:destination="@id/myShootSettingSelectConfirmFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_blurTuningFragment_to_myShootSettingEditConfirmFragment" app:destination="@id/myShootSettingEditConfirmFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment android:label="fragment_my_shoot_setting_select_confirm" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.MyShootSettingSelectConfirmFragment" android:id="@id/myShootSettingSelectConfirmFragment">
+        <action android:id="@id/action_myShootSettingSelectConfirmFragment_to_myShootSettingCreateFinishFragment" app:destination="@id/myShootSettingCreateFinishFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="false" />
+    </fragment>
+    <fragment android:label="fragment_my_shoot_setting_edit_confirm" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.MyShootSettingEditConfirmFragment" android:id="@id/myShootSettingEditConfirmFragment">
+        <action android:id="@id/action_myShootSettingEditConfirmFragment_to_myShootSettingDetailFragment" app:destination="@id/myShootSettingDetailFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="false" />
+    </fragment>
+    <fragment android:label="fragment_my_shoot_setting_create_finish" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.MyShootSettingCreateFinishFragment" android:id="@id/myShootSettingCreateFinishFragment">
+        <action android:id="@id/action_myShootSettingCreateFinishFragment_to_modeDialInstructionFragment" app:destination="@id/modeDialInstructionFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="false" />
+        <action android:id="@id/action_myShootSettingCreateFinishFragment_to_motifPick01Fragment" app:destination="@id/motifPick01Fragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="false" />
+        <argument android:name="myShootSettingId" app:argType="integer" />
+    </fragment>
+    <fragment android:label="fragment_my_shoot_setting_detail" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.MyShootSettingDetailFragment" android:id="@id/myShootSettingDetailFragment">
+        <argument android:name="myShootSettingId" app:argType="integer" />
+        <action android:id="@id/action_myShootSettingDetailFragment_to_motifPick01Fragment" app:destination="@id/motifPick01Fragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <action android:id="@id/action_myShootSettingDetailFragment_to_modeDialInstructionFragment" app:destination="@id/modeDialInstructionFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="false" />
+    </fragment>
+    <fragment android:label="fragment_shoot_setting_reset" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.ShootSettingResetFragment" android:id="@id/shootSettingResetFragment">
+        <action android:id="@id/action_shootSettingResetFragment_to_modeDialInstructionFragment" app:destination="@id/modeDialInstructionFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="false" />
+    </fragment>
+    <fragment android:label="fragment_mode_dial_instruction" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.ModeDialInstructionFragment" android:id="@id/modeDialInstructionFragment">
+        <action android:id="@id/action_modeDialInstructionFragment_to_cameraParameterSendFinishFragment" app:destination="@id/cameraParameterSendFinishFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="false" />
+        <argument android:name="postConnectAction" app:argType="com.nikon.snapbridge.cmru.presentation.u2220.data.entities.PostConnectAction" />
+        <argument android:name="myShootSettingId" app:argType="integer" />
+    </fragment>
+    <fragment android:label="fragment_camera_parameter_send_finish" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.CameraParameterSendFinishFragment" android:id="@id/cameraParameterSendFinishFragment">
+        <action android:id="@id/action_cameraParameterSendFinishFragment_to_tipsContentFragment" app:destination="@id/tipsContentFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+        <argument android:name="postConnectAction" app:argType="com.nikon.snapbridge.cmru.presentation.u2220.data.entities.PostConnectAction" />
+        <argument android:name="myShootSettingId" app:argType="integer" />
+    </fragment>
+    <fragment android:label="fragment_tips_content" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.TipsContentFragment" android:id="@id/tipsContentFragment">
+        <argument android:name="tipsItem" app:argType="com.nikon.snapbridge.cmru.presentation.u2220.data.entities.TipsEntities$TipsItem" />
+    </fragment>
+    <action android:id="@id/action_global_homeFragment" app:destination="@id/homeFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" app:popUpTo="@id/homeFragment" app:popUpToInclusive="true" />
+</navigation>

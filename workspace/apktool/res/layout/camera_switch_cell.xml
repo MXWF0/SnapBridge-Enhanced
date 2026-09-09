@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/camera6_cell_bg" android:layout_width="fill_parent" android:layout_height="100.0dip" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_808080" android:gravity="left" android:id="@id/lbl_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_16dp" android:text="" android:textAllCaps="false" />
+    <TextView android:textSize="24.0dip" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/lbl_text" android:layout_width="220.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_32dp" android:text="" android:textAllCaps="false" />
+    <ImageView android:id="@id/iv_text" android:background="@null" android:layout_width="176.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="36.0dip" android:src="@null" android:scaleType="fitXY" />
+    <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="left" android:id="@id/lbl_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="72.0dip" android:text="" android:textAllCaps="false" />
+    <ImageView android:id="@id/iv_cell" android:background="@null" android:layout_width="120.0dip" android:layout_height="90.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@null" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/iv_delete" android:background="@null" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/camera6_cell_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:id="@id/btn_cell" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="100.0dip" />
+</RelativeLayout>

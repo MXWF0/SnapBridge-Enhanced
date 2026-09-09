@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:id="@id/v_ssid" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginTop="@dimen/margin_24dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_ssid" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_SSID" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_ssid" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_authentication" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_authentication" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_AUTHENTICATION" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_authentication" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_password" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_password" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_PASSWORD" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_password" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_channel" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_channel" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_CHANNEL" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_channel" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_autopowerofftime" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_autopowerofftime" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_AUTO_POWEROFF_DELAY" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_autopowerofftime" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_detail" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_detail" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_COMMON_ADVANCED_SETTINGS" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_detail" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_currentsettings" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_13dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_currentsettings" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_CURRENT_SETTING" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_currentsettings" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_defaultsettings" android:background="@drawable/list_bg_withicon" android:layout_width="fill_parent" android:layout_height="@dimen/size_44dp" android:layout_marginTop="24.0dip">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="horizontal" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="@dimen/fsize_15dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/lbl_defaultsettings" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginRight="@dimen/margin_60dp" android:text="@string/MID_INITIALIZE_SETTING" android:includeFontPadding="false" android:textAllCaps="false" />
+                </LinearLayout>
+                <Button android:id="@id/btn_defaultsettings" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:id="@id/v_preloader" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preloader_normal" android:layout_centerInParent="true" />
+</RelativeLayout>

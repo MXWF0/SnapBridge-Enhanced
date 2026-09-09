@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <TextView android:textSize="@dimen/fsize_18sp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/lbl_mode" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_60dp" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginRight="@dimen/margin_60dp" android:text="" android:lines="2" />
+            <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16dp">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/v_animation" android:layout_width="fill_parent" android:layout_height="200.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/back" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_foreground" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:splitMotionEvents="false">
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:background="@null" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="60.0dip" android:text="@string/MID_AUTOLINK_MODE_FOREGROUND_SAVING" android:lines="2" android:textAllCaps="false" />
+                <ImageView android:id="@id/iv_foreground_check" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/icon_check" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <Button android:id="@id/btn_foreground" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_background" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="45.0dip" android:splitMotionEvents="false">
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:background="@null" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="60.0dip" android:text="@string/MID_AUTOLINK_MODE_BACKGROUND" android:lines="2" android:textAllCaps="false" />
+                <ImageView android:id="@id/iv_background_check" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/icon_check" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <Button android:id="@id/btn_background" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:ellipsize="end" android:gravity="center|left" android:id="@id/lbl_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_15dp" android:layout_marginTop="@dimen/dimen_16dp" android:layout_marginRight="@dimen/margin_15dp" android:text="" android:breakStrategy="simple" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

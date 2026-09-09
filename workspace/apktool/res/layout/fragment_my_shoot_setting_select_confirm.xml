@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/u2220_bg_gray" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="56.0dip" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="18.0dip" android:textColor="@color/u2220_white" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/MID_CREATE_SET" android:maxLines="2" android:layout_marginStart="32.0dip" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/my_shoot_setting_select_layout" android:background="@drawable/bg_gradation" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/selected_motif_linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="17.0dip" android:textColor="@color/u2220_white" android:id="@id/selected_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="24.0dip" android:text="@string/MID_SELECTED" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/selected_item_linearLayout" android:background="@drawable/shape_my_shoot_setting_cell_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/selected_motif_linearLayout">
+            <LinearLayout android:orientation="vertical" android:id="@id/selected_item_motif_situation_title_text_Layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="28.0dip" android:layout_marginEnd="26.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/u2220_white" android:id="@id/selected_item_motif_situation_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MID_MOTIF" />
+                <TextView android:textSize="18.0dip" android:textColor="@color/u2220_white" android:id="@id/selected_item_motif_situation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/selected_item_setting_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="24.0dip" android:layout_marginStart="28.0dip" android:layout_marginEnd="26.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/tuning_label_color" android:id="@id/selected_item_setting_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <TextView android:textSize="18.0dip" android:textColor="@color/u2220_white" android:id="@id/selected_item_setting_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_conviersion_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="42.0dip" android:layout_marginEnd="42.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/selected_item_linearLayout">
+            <TextView android:textSize="12.0dip" android:textColor="@color/u2220_white" android:id="@id/setting_conviersion_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/MID_CONFIRM_SETTING_DESC" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/setting_save_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="103.0dip" android:layout_marginEnd="103.0dip" app:layout_constraintBottom_toTopOf="@id/setting_save_btn_layout">
+            <TextView android:textSize="14.0dip" android:textColor="@color/u2220_white" android:gravity="center" android:id="@id/setting_save_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/MID_CONFIRM_SETTING" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/setting_save_btn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+            <Button android:textSize="15.0dip" android:textColor="@color/u2220_common_button_color" android:id="@id/setting_save_btn" android:background="@drawable/u2220_common_button" android:layout_width="260.0dip" android:layout_height="48.0dip" android:layout_marginBottom="26.0dip" android:text="@string/MID_SAVE_AS" android:textAllCaps="false" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

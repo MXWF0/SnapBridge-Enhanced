@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_thumbnail" android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="h,1:1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/percent_half" />
+    <ImageView android:id="@id/image_check" android:background="@null" android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/btn_check1" android:scaleType="fitXY" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="@dimen/width_ratio" app:layout_constraintLeft_toLeftOf="@id/guideline" app:layout_constraintRight_toRightOf="parent" />
+    <ImageView android:id="@id/image_type" android:layout_width="@dimen/size_32dp" android:layout_height="@dimen/size_32dp" android:contentDescription="@null" android:layout_marginStart="@dimen/dimen_4dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

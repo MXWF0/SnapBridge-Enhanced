@@ -1,0 +1,34 @@
+{
+	"version":3.8,
+	"root_url":"master/common",
+	"camera": [
+		{
+			"camera_id":1001,
+			"version":1,
+			"product_name":"Z6III",
+			"name_img":"logo_z6iii_img_3x.png",
+			"real_img":"z6iii_img_3x.png"
+		},
+		{
+			"camera_id":1002,
+			"version":1,
+			"product_name":"Z50II",
+			"name_img":"logo_z50ii_img_3x.png",
+			"real_img":"z50ii_img_3x.png"
+		},
+		{
+			"camera_id":1003,
+			"version":1,
+			"product_name":"Z5II",
+			"name_img":"logo_z5ii_img_3x.png",
+			"real_img":"z5ii_img_3x.png"
+		},
+		{
+			"camera_id":1004,
+			"version":1,
+			"product_name":"ZR",
+			"name_img":"logo_zr_img_3x.png",
+			"real_img":"zr_img_3x.png"
+		}
+	]
+}

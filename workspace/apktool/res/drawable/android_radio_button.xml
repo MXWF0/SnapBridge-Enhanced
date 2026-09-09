@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/android_radio_button_on_parts_pressed" />
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/android_radio_button_on_parts" />
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/android_radio_button_on_parts_disable" />
+    <item android:state_enabled="true" android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/android_radio_button_off_parts_pressed" />
+    <item android:state_enabled="true" android:state_checked="false" android:drawable="@drawable/android_radio_button_off_parts" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/android_radio_button_off_parts_disable" />
+</selector>

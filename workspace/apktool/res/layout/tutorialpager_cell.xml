@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:splitMotionEvents="false">
+                <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropImageView android:id="@id/iv_cell" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@null" />
+                <TextView android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:id="@id/lbl_title" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="-16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:minHeight="44.0dip" android:text="" />
+                <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:gravity="center" android:id="@id/lbl_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

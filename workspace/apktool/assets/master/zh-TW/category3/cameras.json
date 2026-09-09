@@ -1,0 +1,20 @@
+{
+	"version":3.8,
+	"root_url":"master/common",
+	"camera": [
+		{
+			"camera_id":301,
+			"version":1.1,
+			"product_name":"W100",
+			"name_img":"logo_w100_img_3x.png",
+			"real_img":"w100_img_3x.png"
+		},
+		{
+			"camera_id":302,
+			"version":1,
+			"product_name":"W150",
+			"name_img":"logo_w150_img_3x.png",
+			"real_img":"w150_img_3x.png"
+		}
+	]
+}

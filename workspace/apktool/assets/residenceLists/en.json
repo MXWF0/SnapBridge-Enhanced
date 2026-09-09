@@ -1,0 +1,476 @@
+[
+  {
+    "title": "MID_SELECT_REGIONS_SELECT_AFRICA",
+    "items": [
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ALGERIA",
+        "id": "5"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_EGYPT",
+        "id": "18"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_GHANA",
+        "id": "24"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_KENYA",
+        "id": "35"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MADAGASCAR",
+        "id": "84"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MALAWI",
+        "id": "85"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MAURITIUS",
+        "id": "91"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MOROCCO",
+        "id": "95"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NIGERIA",
+        "id": "59"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_REUNION",
+        "id": "104"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_RWANDA",
+        "id": "102"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SOUTH_AFRICA",
+        "id": "109"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_TANZANIA",
+        "id": "51"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_TUNISIA",
+        "id": "53"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_UGANDA",
+        "id": "14"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ZIMBABWE",
+        "id": "41"
+      }
+    ]
+  },
+  {
+    "title": "MID_SELECT_REGIONS_SELECT_THE_AMERICAS",
+    "items": [
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ARGENTINA",
+        "id": "6"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_BOLIVIA",
+        "id": "81"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_CANADA",
+        "id": "27"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_CHILE",
+        "id": "54"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_COLOMBIA",
+        "id": "37"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_GUADELOUPE",
+        "id": "32"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MARTINIQUE",
+        "id": "87"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MEXICO",
+        "id": "90"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_PARAGUAY",
+        "id": "67"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_PERU",
+        "id": "77"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_UNITED_STATES_OF_AMERICA",
+        "id": "3"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_URUGUAY",
+        "id": "17"
+      }
+    ]
+  },
+  {
+    "title": "MID_SELECT_REGIONS_SELECT_ASIA",
+    "items": [
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_BANGLADESH",
+        "id": "69"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_CAMBODIA",
+        "id": "28"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_CHINESE_MAINLAND",
+        "id": "108"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_HONG_KONG",
+        "id": "105"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_INDIA",
+        "id": "12"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_INDONESIA",
+        "id": "13"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_JAPAN",
+        "id": "110"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_KOREA",
+        "id": "107"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MALAYSIA",
+        "id": "88"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MYANMAR",
+        "id": "89"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NEPAL",
+        "id": "62"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_PAKISTAN",
+        "id": "65"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_PHILIPPINES",
+        "id": "71"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SINGAPORE",
+        "id": "40"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SRI_LANKA",
+        "id": "45"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_TAIWAN",
+        "id": "106"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_THAILAND",
+        "id": "49"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_VIETNAM",
+        "id": "76"
+      }
+    ]
+  },
+  {
+    "title": "MID_SELECT_REGIONS_SELECT_EUROPE",
+    "items": [
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ALBANIA",
+        "id": "7"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ANDORRA",
+        "id": "8"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_AUSTRIA",
+        "id": "21"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_BELGIUM",
+        "id": "78"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_BOSNIA_HERZEGOVINA",
+        "id": "80"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_BULGARIA",
+        "id": "75"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_CROATIA",
+        "id": "34"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_CYPRUS",
+        "id": "29"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_CZECH_REPUBLIC",
+        "id": "52"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_DENMARK",
+        "id": "55"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ESTONIA",
+        "id": "19"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_FINLAND",
+        "id": "72"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_FRANCE",
+        "id": "73"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_GERMANY",
+        "id": "56"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_GIBRALTAR",
+        "id": "39"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_GREECE",
+        "id": "30"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_HUNGARY",
+        "id": "68"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ICELAND",
+        "id": "1"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_IRELAND",
+        "id": "2"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ITALY",
+        "id": "11"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_KAZAKHSTAN",
+        "id": "25"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_KOSOVO",
+        "id": "36"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_KYRGYZSTAN",
+        "id": "31"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_LATVIA",
+        "id": "98"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_LITHUANIA",
+        "id": "99"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_LUXEMBOURG",
+        "id": "101"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MALTA",
+        "id": "86"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MOLDOVA",
+        "id": "94"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MONACO",
+        "id": "92"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MONTENEGRO",
+        "id": "96"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NETHERLANDS",
+        "id": "23"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NORTH_MACEDONIA",
+        "id": "83"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NORWAY",
+        "id": "63"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_POLAND",
+        "id": "79"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_PORTUGAL",
+        "id": "82"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ROMANIA",
+        "id": "100"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SERBIA",
+        "id": "48"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SLOVAKIA",
+        "id": "46"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SLOVENIA",
+        "id": "47"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SPAIN",
+        "id": "44"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SWEDEN",
+        "id": "43"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SWITZERLAND",
+        "id": "42"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_TAJIKISTAN",
+        "id": "50"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_TURKMENISTAN",
+        "id": "57"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_UKRAINE",
+        "id": "15"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_UNITED_KINGDOM",
+        "id": "9"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_UZBEKISTAN",
+        "id": "16"
+      }
+    ]
+  },
+  {
+    "title": "MID_SELECT_REGIONS_SELECT_MIDDLE_EAST",
+    "items": [
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_BAHRAIN",
+        "id": "64"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_ISRAEL",
+        "id": "10"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_JORDAN",
+        "id": "97"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_KUWAIT",
+        "id": "33"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_LEBANON",
+        "id": "103"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_OMAN",
+        "id": "22"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_QATAR",
+        "id": "26"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_SAUDI_ARABIA",
+        "id": "38"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_TURKEY",
+        "id": "58"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_UAE",
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "title": "MID_SELECT_REGIONS_SELECT_OCEANIA",
+    "items": [
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_AUSTRALIA",
+        "id": "20"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NEW_Fiji",
+        "id": "70"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_FRENCH_POLYNESIA",
+        "id": "74"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_MALDIVES",
+        "id": "93"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NEW_CALEDONIA",
+        "id": "60"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_NEW_ZEALAND",
+        "id": "61"
+      },
+      {
+        "title": "MID_SELECT_COUNTRY_SELECT_THE_VANUATU",
+        "id": "66"
+      }
+    ]
+  },
+  {
+    "title": "MID_SELECT_REGIONS_SELECT_OTHER_COUNTRIES",
+    "id": "999"
+  }
+]

@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_REMOTE_INTERRUPTED_RECORDING_MOVIE_BY_CAMERA">Kayıt iptal edildi.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_BATTERY">Düşük pil; uzak çekim başlatılamıyor.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_EXPOSURE_MODE">Uyumsuz çekim modu seçildi; uzaktan çekim başlayamıyor. P, S, A veya M modunu seçin.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_LIVEVIEW_ON">Uzaktan çekime başlanamıyor. Fotoğraf makinesini kontrol edin. Uzak çekim, fotoğraf makinesinde canlı görüntü etkinken veya fotoğraf makinesiyle çekim devam ederken kullanılamaz.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_MEMORY_CARD">Uzak çekim başlatılamıyor. Hafıza kartını kontrol edin.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_POWER_OFF">Fotoğraf makinesi sinyali kayboldu.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_TEMPERATURE">Uzak çekim başlatılamıyor. Fotoğraf makinesinin veya kablosuz mobil adaptörün soğumasını bekleyin.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_ZOOM_LENS">Uzak çekim başlatılamıyor. Objektif geri çekili.</string>
+    <string name="MID_ABOUT_BOKEH_BLUR">Bokeh ve Hareket Bulanıklaştırma</string>
+    <string name="MID_ABOUT_BOKEH_BLUR_DESC">Makine konu ve sahneye göre bokeh ve har. bulanklğnı ayarlar.</string>
+    <string name="MID_ACCESS_LOCATION_PRECISE">Ardından konum verilerine erişime izin vermeniz istenecektir. Cihazınızın tam konumuna erişime izin vermek için “Tam” öğesini seçin.</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_CHECK">Adobe Analytics kullanımını kabul et</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_OFF">Reddet</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_ON">Kabul et</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_DESC">Bu uygulama, kullanım verilerini analiz etmeye yardımcı olmak için Adobe Analytics kullanır. %s</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_ITEM">Kullanım verilerini analiz et</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA">Fotoğraf makinesi meşgul. Video kaydını veya izlemeyi sonlandırdıktan sonra tekrar bağlanmayı deneyin.</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA_PLEASE_CAMERA_ON">Çekim ayarları fotoğraf makinesine yüklenemez. Fotoğraf makinesini açın, fotoğraf makinesini çekime hazırlayın ve tekrar deneyin.</string>
+    <string name="MID_ALLERT_BEFORE_8MP_DOWNLOAD">Fotoğraf makinesini videolar kaydetmek veya izlemek için kullanmak indirme işlemini kesintiye uğratabilir. Fotoğraf makinesi durumunu kontrol edin.</string>
+    <string name="MID_APPROXIMATE">Yaklaşık</string>
+    <string name="MID_APPS_MV2_INFO">"Nikon Manual Viewer 2 görüntüleme uygulaması Nikon dijital SLR fotoğraf makineleri için elkitaplarını indirmek ve görüntülemek için kullanılabilir.
+Kılavuzu fotoğraf makinenize indirmek, size kılavuzu istediğiniz yerde, istediğiniz zaman çevrimiçi ya da çevrimdışı görüntüleyebileceğinizi bilme rahatlığı verir."</string>
+    <string name="MID_APPS_MV2_NAME">Manual Viewer 2</string>
+    <string name="MID_APPS_NIS_INFO">Nikon’un NIKON IMAGE SPACE fotoğraf paylaşım hizmetine yönelik bu ücretsiz uygulama, fotoğraflarınızı daha yakına getirir ve çekim sonrası işlemlerinizi daha keyifli hale getirir. Fotoğraf severlerin hayatını daha kolay, keyifli ve düzenli hale getirecek üç basit özelliğe adanmıştır: fotoğrafları görüntüleme, düzenleme ve paylaşma.</string>
+    <string name="MID_APPS_NIS_NAME">NIKON IMAGE SPACE</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLACK">Siyah</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLUE">Mavi</string>
+    <string name="MID_APP_CD_COLOR_LIST_BROWN">Kahverengi</string>
+    <string name="MID_APP_CD_COLOR_LIST_DARKGRAY">Koyu gri</string>
+    <string name="MID_APP_CD_COLOR_LIST_WHITE">Beyaz</string>
+    <string name="MID_APP_CD_COLOR_TITLE">Renk</string>
+    <string name="MID_APP_CD_CREDIT_ADD">Krediler ekle</string>
+    <string name="MID_APP_CD_CREDIT_NOTE">Çekim bilgilerini veya yorumları görüntülere dahil edin.</string>
+    <string name="MID_APP_CD_CREDIT_POSITION">Konum</string>
+    <string name="MID_APP_CD_CREDIT_PREV">Önizleme</string>
+    <string name="MID_APP_CD_CREDIT_TYPE">Tür</string>
+    <string name="MID_APP_CD_FONT_LIST_BOLD">Kalın</string>
+    <string name="MID_APP_CD_FONT_LIST_ITALIC">İtalik</string>
+    <string name="MID_APP_CD_FONT_LIST_NORMAL">Normal</string>
+    <string name="MID_APP_CD_FONT_TITLE">Stil</string>
+    <string name="MID_APP_CD_POS_LEFT_BOTTOM">Sol alt</string>
+    <string name="MID_APP_CD_POS_LEFT_TOP">Sol üst</string>
+    <string name="MID_APP_CD_POS_RIGHT_BOTTOM">Sağ alt</string>
+    <string name="MID_APP_CD_POS_RIGHT_TOP">Sağ üst</string>
+    <string name="MID_APP_CD_SIZE_LIST_BIG">Büyük</string>
+    <string name="MID_APP_CD_SIZE_LIST_MIDDLE">Orta</string>
+    <string name="MID_APP_CD_SIZE_LIST_SMALL">Küçük</string>
+    <string name="MID_APP_CD_SIZE_TITLE">Boyut</string>
+    <string name="MID_APP_CD_TEXT_TITLE">Açıklama gir</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_COMMENT">Görüntü Yorumu</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_DATE">Çekim zamanı</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_INDEX">Dosya/fotoğraf bilgileri</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_LIST_INFO">Fotoğraf bilgileri</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_PHOTOGRAPHER_AND_COPYRIGHT">Fotoğrafçı / telif hakkı sahibi</string>
+    <string name="MID_APP_CD_TYPE_TITLE">Kredi türü</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_COMMENT">Yorum</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_SNAPBRIDGE_LOGO">SnapBridge logosu</string>
+    <string name="MID_APP_CD_USER_SETTING_TITLE">Kullanıcı ayarı</string>
+    <string name="MID_APP_CREDIT">Kredileri göster</string>
+    <string name="MID_APP_HASH">Hashtag ekle</string>
+    <string name="MID_APP_NIKONID_SETTING">Nikon ID üye ol/profili düzenle</string>
+    <string name="MID_APP_PRIVACY_POLICY">Gizlilik Politikası</string>
+    <string name="MID_APP_PRIVACY_POLICY_CHECK">Gizlilik Politikası’nın şartlarını kabul et</string>
+    <string name="MID_APP_PRIVACY_POLICY_DESC">Uygulama kullanıcı verilerinin kullanılmasını düzenleyen \"Gizlilik Politikası\" belgesini okuyun.</string>
+    <string name="MID_APP_SUPPORT_SITE">Destek</string>
+    <string name="MID_APP_TERMS_OF_USE">Lisans Sözleşmesi</string>
+    <string name="MID_APP_TERMS_OF_USE_AGREEMENT_CHECK">Uygulama Lisans Sözleşmesi’ni Kabul Edin</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MSG">Lütfen Lisans Sözleşmesini okuyun.</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MUST_READ_MSG">Lisans Sözleşmesini okuyun (Zorunlu)</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC">Hizmet Şartları ve bu uygulamanın kullanılması ile ilişkili çeşitli hizmetlere dair diğer sözleşmelere ilişkin bilgiler için “Lisans Sözleşmesi” bölümüne bakın.</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC_TERMS_OF_USE">Lisans Sözleşmesi</string>
+    <string name="MID_ASK_BLUR">Hareket: Hareketi nasıl ifade etmek istiyorsunuz?</string>
+    <string name="MID_ASK_BOKEH">Bokeh/alan derinliği: Arka planları yumuşatmak istiyor musunuz?</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE">Fotoğraf makinesi donanım yazılımındaki güncellemelerle otomatik bağlantı bağlantı tipi değişmiştir ve ayarların güncellenmesi gerekir.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE_SYNCOFF">Bağlantı modu için bağlantı tipi, fotoğraf makinesi donanım yazılımındaki güncellemeler ile değişmiş ve bağlantı modu ekranındaki seçenekler güncellenmiştir.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_TITLE">Bağlantı Tipi Değişikliği</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED">Ayarları güncelleme işlemi başarısız oldu</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED_TEXT">Fotoğraf makinesinde Bluetooth’un etkinleştirildiğini kontrol edin ve tekrar deneyin.</string>
+    <string name="MID_AUTOLINK_CHANGE_SUCCEEDED">Ayarlar güncellendi</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_BUTTON">İlerle</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_MESSAGE">“Arka plan” bağlantı modunun kullanılmasına izin vermek için fotoğraf makinesi ayarları değiştirilmelidir. İlerle?</string>
+    <string name="MID_AUTOLINK_MODE">Bağlantı modu</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND">Arka plan</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND_DISCRIPTION">"Akıllı cihazınız uyku modunda olduğunda bile fotoğraf makinesine bağlantı yapın. Konum verileri fotoğraf makinesindeki resimlere indirmeden önce eklenecektir.
+Bu mod seçildiğinde uygulama fotoğraf makinesine bağlanacaktır."</string>
+    <string name="MID_AUTOLINK_MODE_CHANGNG">Ayarlar güncelleniyor…</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND">Ön plan</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_DISCRIPTION">"Uygulama çalışırken fotoğraf makinesine bağlantı yapın. Konum verileri yalnızca indirildikten sonra resimlere eklenecektir.
+Fotoğraf makinesi pilinin boşalması yavaşlar."</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_SAVING">Ön plan</string>
+    <string name="MID_AUTOLINK_SIZE">İndirme boyutu</string>
+    <string name="MID_AUTOLINK_TIME_DISCRIPTION">Fotoğraf makinesindeki saat, akıllı cihazdaki saate ve saat dilimine ayarlanacaktır.</string>
+    <string name="MID_AUTO_TRANSFER_WIFI">Otomatik indir (Wi-Fi)</string>
+    <string name="MID_BACK_TO_HOME">Ayarlar kümesi listesine geri dön</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_MOVIE">Fotoğraf makinesini video kaydı için hazırlayın</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_REMOTE">İşlem tamamlanamıyor. Fotoğraf makinesi ayarlarını kontrol edin.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE">Uzaktan kumanda kullanılamıyor</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE_BY_CAMERA">Uzaktan kumanda kullanılamıyor. Fotoğraf makinesi durumunu kontrol edin.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_STILL">Fotoğraf makinesini fotoğraflar çekmek için hazırlayın</string>
+    <string name="MID_BLE_REMOTE_ALERT_CAN_START_AFTER_FINISH_SENDING">Uzaktan kumanda, indirme işlemi tamamlandığında başlayacaktır.</string>
+    <string name="MID_BLE_REMOTE_BULBE_SHOOTING">Uzun pozlama çekimi devam ediyor</string>
+    <string name="MID_BLE_REMOTE_CAMERA_STATE_ERROR">Fotoğraf makinesi ayarlarını kontrol edin.</string>
+    <string name="MID_BLE_REMOTE_CHANGE_MODE">Uzaktan Kumanda Seçenekleri</string>
+    <string name="MID_BLE_REMOTE_CONFIRM_FINISH">Bluetooth uzaktan kumanda sonlandırılsın mı?</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_RETURN">Geçerli olarak devam eden çekim işlemleri devam edecektir. Çekim ekranına geri dönmek için “Bluetooth uzaktan kumanda” öğesine dokunun.</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_SHOOTING">Çekim uygulama kapandıktan sonra devam edecektir</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE">Çekimleri fotoğraf makinesi ekranında çerçevelendirirken uzaktan resimler çekin veya resimleri TV’lerde veya diğer ekranlarda izleyin.</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE_CHANGE">İki seçenek arasında geçiş yapmak için düğmeyi kullanın.</string>
+    <string name="MID_BLE_REMOTE_END_DATE_TIME">Bitiş günü/saati</string>
+    <string name="MID_BLE_REMOTE_END_HALF_PRESS">Yarım basmayı sonlandır</string>
+    <string name="MID_BLE_REMOTE_END_SHOOTING">Çekimi sonlandır</string>
+    <string name="MID_BLE_REMOTE_FINISH_TIME_SHOOTING">Sonlandırmak için deklanşöre dokunun</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT">Netleme kaydırma çekimi</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT_SHOOTING">Netleme kaydırmalı çekim devam ediyor</string>
+    <string name="MID_BLE_REMOTE_INTERVAL">Aralıklı çekim</string>
+    <string name="MID_BLE_REMOTE_INTERVAL_SHOOTING">Aralıklı çekim devam ediyor</string>
+    <string name="MID_BLE_REMOTE_NUMBER_SHOTS">Kalan aralık sayısı</string>
+    <string name="MID_BLE_REMOTE_PRESS_HALF_BUTTON">Yarım bas</string>
+    <string name="MID_BLE_REMOTE_SHOOTING">Çekim devam ediyor</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_GUIDE">Fotoğraf makinesinde çekim ayarlarını yapın</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_SHOOTING">Diğer çekim seçenekleri</string>
+    <string name="MID_BLE_REMOTE_START_SHOOTING">Çekime başla</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE">Time-lapse video kaydı</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE_SHOOTING">Time-lapse video kaydı devam ediyor</string>
+    <string name="MID_BLE_REMOTE_TIME_SHOOTING">Süre çekimi devam ediyor</string>
+    <string name="MID_BLE_REMOTE_WIFI_CANCEL">Bluetooth uzaktan kumandayı kullanmadan önce Bluetooth’a geçilsin mi?</string>
+    <string name="MID_BLUR_SAMPLE">Hareket: Örnek</string>
+    <string name="MID_BOKEH_SAMPLE">Bokeh: Örnek</string>
+    <string name="MID_BUTTON_GO_TO_CHUTORIAL">Öğretici başlangıçları görüntüle</string>
+    <string name="MID_BUTTON_GO_TO_HELP">Yardım açıklamasını görüntüleyin.</string>
+    <string name="MID_BUTTON_RESET_SHOTTING_SETTING">Fotoğraf makinesi çekim ayarlarını sıfırla</string>
+    <string name="MID_CAMERA_CONNECTION_AUTO_TRANSFER_IN_PROGRESS">Otomatik indirme devam ediyor …(%1$d/%2$d)</string>
+    <string name="MID_CAMERA_CONNECTION_CONNECTING_TO_CAMERA">Fotoğraf makinesine bağlanılıyor.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER">Resimler otomatik indirme için hazırlanıyor. Lütfen bekleyin.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER_SUMMARY">Resimler otomatik indirme için hazırlanıyor</string>
+    <string name="MID_CAMERA_CONNECTION_UNABLE_TO_RECEIVE_BLUETOOTH_SIGNAL">Fotoğraf Makinesi Bluetooth’u algılanmadı. Fotoğraf makinesinde Bluetooth’un etkin olup olmadığını kontrol edin.</string>
+    <string name="MID_CAMERA_CONNECTION_WAITING_CAMERA_RESPONSE">Fotoğraf Makinesi Bluetooth’u algılandı. Uygulama özellikleri kullanılabilir.</string>
+    <string name="MID_CAMERA_IMPORTING_TITLE">Resimler İndiriliyor…</string>
+    <string name="MID_CAM_ACTIVE_BLE_REMOTE">Bluetooth uzaktan kumanda</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_MSG">Lütfen bekleyin.</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_TITLE">Fotoğraf makinesi hazırlanıyor…</string>
+    <string name="MID_CAM_ACTIVE_CHANGE_WIFI_DLG_TITLE">Fotoğraf makinesi Wi-Fi özelliğini etkinleştirin</string>
+    <string name="MID_CAM_ACTIVE_DLG_CHANGE_WIFI_DLG_MSG_1">"Bu özelliği kullanmak için Wi-Fi’ye geçiş yapmanız gerekiyor.
+Not: Geçiş yapmak için biraz zaman gerekebilir."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_1">"Bu fotoğraf makinesi ile eşleşme sonlandırılsın mı?
+Not: Fotoğraf makinesine yalnızca cihazınızla eşleştirildiğinde bağlanabilirsiniz."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_3">Fotoğraf makinesini eşlenen cihazlar listesinden çıkarmak için iOS Ayarlarının Bluetooth bölümündeki “unut” seçeneğini kullanın, aksi takdirde fotoğraf makinesiyle tekrar eşleştiremeyeceksiniz.</string>
+    <string name="MID_CAM_ACTIVE_DLG_TITLE">Eşleştirmeyi sonlandır?</string>
+    <string name="MID_CAM_ACTIVE_IMPORT">Resimleri indir</string>
+    <string name="MID_CAM_ACTIVE_REMOTE">Uzak çekim</string>
+    <string name="MID_CAM_ACTIVE_SERIAL">Seri No.</string>
+    <string name="MID_CAM_ACTIVE_SYNC">Otomatik bağlantı seçenekleri</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_0">"Fotoğraf makinesi Wi-Fi işlevi başlatılıyor.
+Lütfen bekleyin."</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_1">"Wi-Fi üzerinden fotoğraf makinesine bağlanılıyor.
+Lütfen bekleyin."</string>
+    <string name="MID_CAM_ADD_LIMIT_NUMBER_OF_CAMERA_PAIRING">SnapBridge, en fazla 5 fotoğraf makinesi için eşleşme bilgilerini depolayabilir</string>
+    <string name="MID_CAM_ADD_PAIRING">Fotoğraf makinesi ekle</string>
+    <string name="MID_CAM_CHANGE_REMOTE">Uzaktan çekime geç</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTED">Fotoğraf makinesine bağlanıldı.</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTING">"Fotoğraf makinesine bağlanılıyor.
+Lütfen bekleyin."</string>
+    <string name="MID_CAM_CONNECT_MSG_WAIT_RES">Fotoğraf makinesi ekranında bir doğrulama kodu görüntülendiğinde fotoğraf makinesi Tamam düğmesine basın.</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTED">Eşleştirme tamamlandı</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTING">Fotoğraf makinesine bağlanıyor…</string>
+    <string name="MID_CAM_NORMAL_MODE">Wi-Fi AP modundan çık</string>
+    <string name="MID_CAM_PAIRING_CATEGORY_OTHER">Diğer</string>
+    <string name="MID_CAM_PAIRING_NOTE_COOLPIX">"Fotoğraf makinesi ağ menüsü içindeki Akıllı cihaza bağlan öğesini seçin.
+
+Fotoğraf makinesi adı görüntülenene kadar ekrandaki talimatları izleyin."</string>
+    <string name="MID_CAM_PAIRING_NOTE_C_ML">"Fotoğraf makinesi ayar veya ağ menüsündeki “Akıllı cihaza bağlan” > “Wi-Fi bağlantısı” öğesini seçin.
+Not: Bazı fotoğraf makinelerinde bu seçenek “Wi-Fi” menüsündedir.
+
+Fotoğraf makinesi SSID’sini ve şifresini görüntülemek için “Wi-Fi bağlantısı kur” öğesini seçin."</string>
+    <string name="MID_CAM_PAIRING_NOTE_DRS">"Fotoğraf makinesi ayarlar menüsü içindeki Akıllı cihaza bağlan öğesini seçin.
+
+Fotoğraf makinesi adı görüntülenene kadar ekrandaki talimatları izleyin."</string>
+    <string name="MID_CAM_PAIRING_NOTE_KM80">"Fotoğraf makinesi ayarlar menüsü içindeki Akıllı cihaza bağlan öğesini seçin.
+
+Fotoğraf makinesi adı görüntülenene kadar ekrandaki talimatları izleyin.
+ 
+Not: Eşleştirme işlemi yalnızca fotoğraf makinesine bir hafıza kartı takılmışsa gerçekleştirilebilir."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML1DSLR2">"Fotoğraf makinesi ayarlar menüsünde “Akıllı cihaza bağlan” öğesini seçin.
+
+“Eşleme (Bluetooth)” öğesini seçin.
+
+Fotoğraf makinesi adı görüntülenene kadar ekrandaki talimatları izleyin."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML2">"Fotoğraf makinesi ağ menüsünde “Akıllı cihaza bağlan” öğesini seçin.
+
+“Eşleme (Bluetooth)” öğesini seçin.
+
+Fotoğraf makinesi adı görüntülenene kadar ekrandaki talimatları izleyin."</string>
+    <string name="MID_CAM_PAIRING_SELECT_LB">Bağlantı için fotoğraf makinesini seçin.</string>
+    <string name="MID_CAM_PAIRING_SELECT_TITLE">Fotoğraf makinesine bağlan</string>
+    <string name="MID_CAM_SYMC_OFF_CONFIRM">“Otomatik indir”, “Saatler” ve “Konum verileri” seçeneklerinin üçünü de devre dışı bırakmak aynı zamanda “Otomatik bağlantı”yı da devre dışı bırakır.</string>
+    <string name="MID_CAM_SYMC_OFF_SYNC_INFO">"Otomatik bağlantı etkinleştirildiğinde otomatik indirme ile saat ve konum, akıllı cihaz uyku modunda olduğunda bile devam edecektir.
+Bu özellikleri kullanmıyorsanız pilin bitmesini yavaşlatmak için otomatik bağlantıyı devre dışı bırakın."</string>
+    <string name="MID_CAM_SYNC_ALERT_TIME_SYNC">Konum verileri resimlere kayıt saati ve tarihine göre eklendiği için “Konum verileri” etkinken “Saatler” devre dışı bırakılamaz.</string>
+    <string name="MID_CAM_SYNC_AUTO_TRANS">Otomatik indir</string>
+    <string name="MID_CAM_SYNC_POS_SYNC">Konum verileri</string>
+    <string name="MID_CAM_SYNC_REQUIRES_TIME_SYNC">Konum verileri resimlere kayıt saati ve tarihine göre eklendiği için “Konum verileri” etkinken “Saatler” devre dışı bırakılamaz.</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY">Enerji tasarrufu modu</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY_SETTINGS">Enerji tasarrufu</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID">Belirlenen bir süre boyunca hiçbir işlem gerçekleştirilmezse akıllı cihaz, pilinin boşalmasını yavaşlatmak için konum verileri bağlantısını askıya alacaktır. Cihazı kullanmak bağlantıyı yeniden kurar.</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID_OLD">"Akıllı cihaz belirlenen bir süre boyunca fotoğraf makinesinin menzili dışındaysa pilinin boşalmasını yavaşlatmak için arka planda çalışan bağlantıları askıya alacaktır.
+Bağlantı SnapBridge başlatıldığında tekrar kurulacaktır."</string>
+    <string name="MID_CAM_SYNC_SYNC_LB">Otomatik bağlantı</string>
+    <string name="MID_CAM_SYNC_TIME_SYNC">Saatler</string>
+    <string name="MID_CAM_SYNC_TITLE">Bağlantı seçenekleri</string>
+    <string name="MID_CAM_WIFI_MODE">Wi-Fi mode</string>
+    <string name="MID_CAM_WIFI_MODE1">Wi-Fi modu</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK">Fotoğraf makinesi uyumluluğunu ve desteklenen özellikleri kontrol edin</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK_STATUS0">Wireless Mobile Utility’yi başlatın.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG">Bazı fotoğraf makineleri eşleştirmeden bazı SnapBridge özelliklerini destekler.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_CONNECTED">Fotoğraf makinesine Wi-Fi üzerinden bağlandı.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_NOT_CONNECTED">Fotoğraf makinesi bağlı değil. Akıllı cihaz ayarlar uygulamasını başlatın ve Wi-Fi ayarlarını kontrol edin.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS0">Wireless Mobile Utility’yi kullanarak bu fotoğraf makinesine bağlanın.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS1">Eşleştirmeden resimler indirmek veya fotoğraf makinelerini uzaktan kontrol etmek için Wi-Fi modunu seçin.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE0">Wi-Fi kullanarak fotoğraf makinesine bağlanılsın mı?</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_CONNECTED">Wi-Fi bağlantısı kuruldu</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS0">Wi-Fi’yi uyumlu olmayan fotoğraf makineleriyle kullanma</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS1">Bağlanan fotoğraf makinesi eşleştirilmedi</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT0">Tek seferlik Wi-Fi bağlantısı için buraya dokunun.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT1">Not: Bazı işlevler desteklenmez.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT2">"Akıllı cihazdaki ayarla uygulamasını başlatın ve Wi-Fi ayarlarını seçin.
+
+Fotoğraf makinesi tarafından görüntülenen SSID’yi seçtikten sonra fotoğraf makinesi tarafından görüntülenen şifreyi girin.
+
+Bir bağlantı kurulduktan sonra SnapBridge uygulamasına geri dönün."</string>
+    <string name="MID_CAM_WIFI_MODE_TITLE">Wi-Fi bağlantısı</string>
+    <string name="MID_CANCEL">İptal</string>
+    <string name="MID_CANNOT_LOGIN_DUE_TO_MAINTENANCE_MSG">Bakım nedeniyle şu anda giriş yapılamıyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="MID_CANNOT_SIGN_UP_DUE_TO_MAINTENANCE_MSG">Bakım nedeniyle şu anda kaydolma işlemi yapılamıyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="MID_CD_EDIT_LOGO_LB">Logo görüntüsü</string>
+    <string name="MID_CHANNEL_RETRY_GETTING_CHANNEL">Bilgileri yenile</string>
+    <string name="MID_CHOICE_CONNECTABLE_CAMERA">Bağlanabilir fotoğraf makineleri arasından seçim yapın</string>
+    <string name="MID_CHOICE_RESIDENCE_CHINA">Çin toprakları</string>
+    <string name="MID_CHOICE_RESIDENCE_DECISION">Tamam</string>
+    <string name="MID_CHOICE_RESIDENCE_LABEL">Ülke/Bölge</string>
+    <string name="MID_CHOICE_RESIDENCE_OTHER">Diğer ülkeler/bölgeler</string>
+    <string name="MID_CHOICE_USE_NIS_NO">Şimdi değil</string>
+    <string name="MID_CHOICE_USE_NIS_YES">Kullan</string>
+    <string name="MID_CLD_ACCOUNT">Hesap</string>
+    <string name="MID_CLD_ACCOUNT_LOGOUT">Oturumu kapat</string>
+    <string name="MID_CLD_ACCOUNT_TITLE">Hesap</string>
+    <string name="MID_CLD_ALREADY_REGISTERED">ID zaten mevcut</string>
+    <string name="MID_CLD_CLMEULA_TITLE">Gizlilik politikası</string>
+    <string name="MID_CLD_FINISH_FINISH_INFO">Artık NIKON IMAGE SPACE’e resimler yükleyebilirsiniz. Ancak henüz Nikon ID için kayıt işlemini tamamlamadınız.</string>
+    <string name="MID_CLD_FINISH_FINISH_TITLE">Kayıt işlemini bitirmek için size gönderdiğimiz e-postanın içindeki bağlantıya tıklayın.</string>
+    <string name="MID_CLD_FINISH_INFO">Bu işlemi 30 gün içinde tamamlamazsanız kaydınız otomatik olarak iptal edilecektir.</string>
+    <string name="MID_CLD_INSTALL_APP">Uygulamayı yükle</string>
+    <string name="MID_CLD_INVALID_EMAIL_ADDRESS_OR_PASSWORD">ID veya şifre yanlış. Tekrar girin.</string>
+    <string name="MID_CLD_INVALID_MAIL_ADDRESS">Geçerli bir e-posta adresi değil. Geçerli bir adres girin.</string>
+    <string name="MID_CLD_INVALID_PASS">Şifreler eşleşmiyor. Tekrar deneyin.</string>
+    <string name="MID_CLD_INVALID_PASSWORD">Geçerli bir şifre değil. Geçerli bir şifre girin.</string>
+    <string name="MID_CLD_LAUNCH_APP">Bir uygulama başlatın</string>
+    <string name="MID_CLD_LOGIN_DIALOG_TEXT">Nikon ID web sitesi bir web tarayıcısında görüntülensin mi?</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIKON_ID">Nikon ID’yi düzenleyin veya silin</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIS">NIKON IMAGE SPACE Hesap Bilgilerini Düzenle veya Sil</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_MSG">Oturum Açılıyor. Lütfen bekleyin.</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_TITLE">Oturum Açılıyor…</string>
+    <string name="MID_CLD_LOGIN_LOG_IN">Oturum aç</string>
+    <string name="MID_CLD_LOGIN_PRIVILEGE_OF_NIKON_ID">Nikon ID’ye kaydolmanın faydaları</string>
+    <string name="MID_CLD_LOGIN_SIGN_UP">Bir Nikon ID hesabı oluşturun</string>
+    <string name="MID_CLD_LOGIN_STEP_TITLE">Nikon ID Hesabı</string>
+    <string name="MID_CLD_LOGOUT_TO_UNSUBSCRIBE_FROM_NIKON_ID">Nikon ID’nizi düzenlemeden veya silmeden önce oturumu kapatın.</string>
+    <string name="MID_CLD_MAIL_ADDRESS">E-posta</string>
+    <string name="MID_CLD_MAIL_AGREE_AND_NEXT">Kullanım Şartlarını kbl ediyorum</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_MSG">"E-posta adresinizi doğruluyoruz.
+Lütfen bekleyin."</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_TITLE">E-Posta Adresi Doğrulanıyor…</string>
+    <string name="MID_CLD_MAIL_MAIL_INPUT">E-posta adresi</string>
+    <string name="MID_CLD_MAIL_STEP_INFO2">"Nikon ID için kullanacağınız e-posta adresini girin.
+Mevcut kullanıcılar NIKON IMAGE SPACE için geçerli olarak kullandıkları adresi girmelidir."</string>
+    <string name="MID_CLD_MAIL_STEP_TITLE">E-posta adresini kaydet</string>
+    <string name="MID_CLD_NIKON_ID">Nikon ID</string>
+    <string name="MID_CLD_NIKON_ID_TERMS_OF_SERVICE">Nikon ID</string>
+    <string name="MID_CLD_NIS_INFO2">Akıllı cihazınıza aktarılan görüntüler otomatik olarak NIKON IMAGE SPACE’e yüklenecektir. Sınırsız sayıda 2 megapiksel görüntü yükleyebilirsiniz.</string>
+    <string name="MID_CLD_NIS_TITLE">Sınırsız Otomatik Yükleme</string>
+    <string name="MID_CLD_NOTICE_REGISTRATION_PROCESSING_TITLE">Kaydoluyor…</string>
+    <string name="MID_CLD_NOT_AUTHORIZED">Doğrulama başarısız oldu. Sunucu veya ağ ile ilgili bir sorun olabilir.</string>
+    <string name="MID_CLD_PASSWORD">Şifre</string>
+    <string name="MID_CLD_PASS_CHECKING_PASS_TITLE">Şifre Doğrulanıyor…</string>
+    <string name="MID_CLD_PASS_CONFIRM">Şifreyi onayla</string>
+    <string name="MID_CLD_PASS_FOGOT_PASS">Şifrenizi mi unuttunuz?</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_INFO">"Lütfen kaydınızı onaylamak için NIKON IMAGE SPACE şifrenizi girin.
+Not: 8 ila 15 karakter"</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_TITLE">NIKON IMAGE SPACE Şifresi</string>
+    <string name="MID_CLD_PASS_PASS_TEXT">8 ila 15 karakter</string>
+    <string name="MID_CLD_PASS_STEP_INFO">"Nikon ID şifrenizi seçin.
+Not: 8 ila 15 karakter"</string>
+    <string name="MID_CLD_PASS_STEP_TITLE">Bir Şifre seçin</string>
+    <string name="MID_CLD_PASS_TITLE">Nikon ID’ye kaydolun</string>
+    <string name="MID_CLD_PROVISIONAL_REGISTRATION_FINISHED_TITLE">Kayıt tamamlandı</string>
+    <string name="MID_CLD_SET_PRODUCT_INFO">Gereken</string>
+    <string name="MID_CLD_START">Başlat</string>
+    <string name="MID_CLD_SYNC_AREA">Bölge</string>
+    <string name="MID_CLD_SYNC_FIRMWARE_VERSION">Donanım yazılımı sürümü</string>
+    <string name="MID_CLD_SYNC_LANGUAGE">Dil</string>
+    <string name="MID_CLD_SYNC_PRODUCT_NAME">Ürün adı</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PROCUCT_INFO">Aşağıdaki bilgiler yüklenecektir:</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PRODUCT_INDEX">İlgili Ürünleri Kaydettirme</string>
+    <string name="MID_CLD_SYNC_SERIAL_NUMBER">Seri numarası</string>
+    <string name="MID_CLD_SYNC_TIMEZONE_TITLE">Saat dilimi</string>
+    <string name="MID_CLD_TERMS_OF_SERVICE">Kullanım Şartları</string>
+    <string name="MID_CLD_UNDER_MAINTENANCE">Doğrulama başarısız oldu. Sunucu şu anda bakım altında.</string>
+    <string name="MID_CLD_UPDATE_APPLICATION_TO_LOGIN_OR_INITIALIZE_NID">Nikon ID kaydolma ve giriş prosedürleri değiştirildi. Uygulamanın en son sürümüne güncelleyin ve yeniden deneyin.</string>
+    <string name="MID_CLD_UPLOAD">Otomatik yükle</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_INDEX">Resimleri şu durumlarda otomatik olarak yükleyin:</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON">Yalnızca Wi-Fi üzerinden bağlıyken</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON_DESC">Ayarlar, resimler yalnızca Wi-Fi üzerinden otomatik olarak yüklenecek şekilde ayarlanabilir. Yüklemeler büyük mikarda veri içerebilir; sağlayıcınızın veri sınırlarını aşmamak için dikkatli olun.</string>
+    <string name="MID_CLD_UPLOAD_INFO">Fotoğraf makinesinden indirilen resimler otomatik olarak NIKON IMAGE SPACE’e yüklenebilir.</string>
+    <string name="MID_COMMON_1">1</string>
+    <string name="MID_COMMON_10">10</string>
+    <string name="MID_COMMON_11">11</string>
+    <string name="MID_COMMON_1800S">1800 sn</string>
+    <string name="MID_COMMON_2">2</string>
+    <string name="MID_COMMON_2M">2 M</string>
+    <string name="MID_COMMON_3">3</string>
+    <string name="MID_COMMON_300S">300 sn</string>
+    <string name="MID_COMMON_4">4</string>
+    <string name="MID_COMMON_5">5</string>
+    <string name="MID_COMMON_6">6</string>
+    <string name="MID_COMMON_600S">600 sn</string>
+    <string name="MID_COMMON_7">7</string>
+    <string name="MID_COMMON_8">8</string>
+    <string name="MID_COMMON_9">9</string>
+    <string name="MID_COMMON_ADVANCED_SETTINGS">Gelişmiş Ayarlar</string>
+    <string name="MID_COMMON_ALWAYS_ON">Her zaman açık</string>
+    <string name="MID_COMMON_ASC">ASCII</string>
+    <string name="MID_COMMON_AUTHENTICATION">Doğrulama/Şifreleme</string>
+    <string name="MID_COMMON_AUTO">Otomatik</string>
+    <string name="MID_COMMON_AUTO_POWEROFF_DELAY">Otomatik Kapanma Gecikmesi</string>
+    <string name="MID_COMMON_AUTO_TRANSFER_ONLY_WHILE_CONNECTED">Otomatik indir (yalnızca bağlanırken)</string>
+    <string name="MID_COMMON_CAMERA_TO_CONNECT">Bağlanılacak Fotoğraf Makineleri</string>
+    <string name="MID_COMMON_CANCEL">İptal</string>
+    <string name="MID_COMMON_CHANNEL">Kanal</string>
+    <string name="MID_COMMON_CLOSE">Kapat</string>
+    <string name="MID_COMMON_CONFIRM">Onayla</string>
+    <string name="MID_COMMON_CONFIRM_TARGET_CAMERA">Uyumlu fotoğraf makinelerini kontrol edin</string>
+    <string name="MID_COMMON_CONNECTABLE_CAMERA">Bağlanabilir Fotoğraf Makineleri</string>
+    <string name="MID_COMMON_CONNECTING_CAMERA">Bağlı Fotoğraf Makineleri</string>
+    <string name="MID_COMMON_CONNECT_BUSY_DLG_MSG">Fotoğraf makinesi meşgul</string>
+    <string name="MID_COMMON_CONNECT_ERR_ACCESS_DENIED">Fotoğraf makinesi bağlanmaya hazır değil. Fotoğraf makinesinde izleme modunu seçin ve tekrar deneyin.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG1">Fotoğraf makinesi bulunamadı. Çevrimiçi yardıma bakın.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG2">Fotoğraf Makinesi Wi-Fi işlevi kapalı.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG3">Bağlanılamıyor; fotoğraf makinesi şu anda başka bir bağlantı kullanıyor. Sorunun nasıl ele alınabileceğine dair çevrimiçi yardımı okuduktan sonra tekrar deneyin.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG4">Fotoğraf makinesi ile bağlantı başarısız oldu. Sorunun nasıl ele alınabileceğine dair çevrimiçi yardımı okuduktan sonra tekrar deneyin.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG5">Bir hata meydana geldi</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG6">Eşleştirme başarısız oldu. İstediğiniz sonuç bu değilse çevrimiçi yardıma bakın.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG7">"Fotoğraf makinesi başka bir cihaza bağlı.
+Bluetooth > Eşlenen cihazlar listesinde akıllı cihazınızı seçin. Fotoğraf makinesi cihazınızla geçerli olarak eşleştirilmemişse fotoğraf makinesi ile akıllı cihazı tekrar eşleştirin."</string>
+    <string name="MID_COMMON_CONNECT_ERR_DURING_SHOOTING">Uzaktan çekim başlatılamıyor. Çekimi fotoğraf makinesinde bitirin ve tekrar deneyin.</string>
+    <string name="MID_COMMON_COUNTRY_CODE">tr</string>
+    <string name="MID_COMMON_DESTRUCTION">At</string>
+    <string name="MID_COMMON_DHCP_CLIENT_IP_ADRESS">DHCP İstemcisi IP Adresi</string>
+    <string name="MID_COMMON_DHCP_SERVER_IP_ADRESS">DHCP Sunucusu IP Adresi</string>
+    <string name="MID_COMMON_DISCARD_SETTING">Ayarları at</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_CLIENT">DHCP istemcisi için IP adresini girin.</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_SERVER">DHCP sunucusu için IP adresini girin.</string>
+    <string name="MID_COMMON_ENTER_SUBNET_MASK">Alt ağ maskesini girin.</string>
+    <string name="MID_COMMON_FIRM">Donanım yazılımı güncellemesi</string>
+    <string name="MID_COMMON_GO_TO_OS_SETTINGS">Ayarlar’a gidin</string>
+    <string name="MID_COMMON_HELP">Yardım</string>
+    <string name="MID_COMMON_HEX">HEX</string>
+    <string name="MID_COMMON_INITIALIZE">Sıfırla</string>
+    <string name="MID_COMMON_LANGUAGE_CODE">tr</string>
+    <string name="MID_COMMON_LOGIN">Grş yapıldı</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG">Bağlanılamadı</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG2">Bağlanılamadı. Sunucu veya ağ ile ilgili bir sorun olabilir.</string>
+    <string name="MID_COMMON_NEXT">İleri</string>
+    <string name="MID_COMMON_NICKNAME">Takma ad</string>
+    <string name="MID_COMMON_NO">Hayır</string>
+    <string name="MID_COMMON_NOFIFICATION_BATTERY_ALERT1">Fotoğraf makinesi pili zayıf.</string>
+    <string name="MID_COMMON_NONE">Yok</string>
+    <string name="MID_COMMON_NOP">---</string>
+    <string name="MID_COMMON_NOTICE">Uyarı</string>
+    <string name="MID_COMMON_NOTIFICATION_CAMERA_ERROR">"Otomatik bağlantı devre dışı bırakıldı (enerji tasarrufu modu).
+SnapBridge başlatıldığında otomatik bağlantı devam edecektir."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG1">"NIKON IMAGE SPACE depolama alanı dolu.
+Otomatik yükleme iptal edildi."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG2">"Oturum açılamıyor.
+Otomatik yükleme iptal edildi."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG3">"NIKON IMAGE SPACE şu anda bakım altında.
+Otomatik yükleme iptal edildi."</string>
+    <string name="MID_COMMON_NOTIFICATION_STOP">Konum verileri alma işlemi askıya alındı. Yeniden başlatmak için uygulamayı başlatın.</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_ERROR">İndirme devam ediyor</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_STOP">İndirme iptal edildi</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_SUCCESS">İndirme tamamlandı</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG1">"Akıllı cihazda depolama alanı tükeniyor.
+İndirme askıya alındı."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG2">"Hedefe erişim engellendi.
+İndirme askıya alındı."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG3">"Veriler kaydedilemedi.
+İndirme askıya alındı."</string>
+    <string name="MID_COMMON_OFF">Kapalı</string>
+    <string name="MID_COMMON_OK">Tamam</string>
+    <string name="MID_COMMON_ON">Açık</string>
+    <string name="MID_COMMON_OPEN">AÇIK</string>
+    <string name="MID_COMMON_OPEN_BROWSER">Tarayıcıda aç</string>
+    <string name="MID_COMMON_ORIGINAL">Orijinal</string>
+    <string name="MID_COMMON_PAIRING">Fotoğraf makinesiyle eşleştir</string>
+    <string name="MID_COMMON_PASSWORD">Şifre</string>
+    <string name="MID_COMMON_PASSWORD_ENTLY">Şifre Girişi</string>
+    <string name="MID_COMMON_PASSWORD_HEX">Şifre (HEX)</string>
+    <string name="MID_COMMON_PBC">PBC</string>
+    <string name="MID_COMMON_PIN">PIN</string>
+    <string name="MID_COMMON_POSITION_PRECISION">Doğruluk</string>
+    <string name="MID_COMMON_REBOOT">Yeniden başlat</string>
+    <string name="MID_COMMON_RELEASE">Sil</string>
+    <string name="MID_COMMON_RELEASE_WIFI_STATION_MODE">Wi-Fi STA modundan çık</string>
+    <string name="MID_COMMON_SAVED_CAMERA">Kaydedilen Fotoğraf Makineleri</string>
+    <string name="MID_COMMON_SAVE_DIR">Hedef</string>
+    <string name="MID_COMMON_SAVE_VALUE_NOT_SD">Dahili bellek</string>
+    <string name="MID_COMMON_SAVE_VALUE_SD">Belirtilen klasör</string>
+    <string name="MID_COMMON_SETTING">Ayarlar</string>
+    <string name="MID_COMMON_SIMPLE_SHOTTING_SETTING">Kolay Çekim Kurulumu</string>
+    <string name="MID_COMMON_SKIP">Atla</string>
+    <string name="MID_COMMON_SLOT1">Yuva 1</string>
+    <string name="MID_COMMON_SSID">SSID</string>
+    <string name="MID_COMMON_START_WIFI_CONNECT">Wi-Fi’ye Bağlan</string>
+    <string name="MID_COMMON_SUBNET_MASK">Alt ağ Maskesi</string>
+    <string name="MID_COMMON_UPDATE">Güncelle</string>
+    <string name="MID_COMMON_VERSION">Ver. %s</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE">Wi-Fi AP Modu</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE_CONNECT">Wi-Fi AP Modu Bağlantısı</string>
+    <string name="MID_COMMON_WIFI_CONNECT_SETTING">Wi-Fi bağlantısı ayarları</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE">Wi-Fi STA Modu</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE_CONNECT">Wi-Fi STA Modu Bağlantısı</string>
+    <string name="MID_COMMON_WMU_CONFIG">WMA Ayarları</string>
+    <string name="MID_COMMON_WMU_INFO">WMA Bilgileri</string>
+    <string name="MID_COMMON_WPA2_PSK_AES">WPA2-PSK-AES</string>
+    <string name="MID_COMMON_WPS_MODE">WPS Modu</string>
+    <string name="MID_COMMON_WPS_PIN">WPS PIN</string>
+    <string name="MID_COMMON_YES">Evet</string>
+    <string name="MID_CONFIG_PASSWORD_ENTLY">Şifreleri girmek için kullanılan yöntemi seçin.</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_ASC">"Kablosuz Mobil Adaptörü için bir şifre (şifreleme anahtarı) seçin.
+Şifreler 8 ila 63 karakter uzunluğunda olabilir."</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_HEX">"Kablosuz Mobil Adaptörü için bir şifre girin.
+64 haneli onaltılık bir şifre girin."</string>
+    <string name="MID_CONFIG_SECURITY_OF_WMA">Kablosuz mobil adaptörü tarafından kullanılan güvenlik protokolünü seçin.</string>
+    <string name="MID_CONFIG_SLEEP_NO_WIFI_CONNECTION">Wi-Fi bağlantısı olmadığında cihazınızın uyku moduna girmeden önceki gecikmesini seçin.</string>
+    <string name="MID_CONFIG_SSID_OF_WMA">Kablosuz Mobil Adaptörü için bir SSID seçin.</string>
+    <string name="MID_CONFIG_WIRELESS_CHANNEL">Bir kablosuz kanalı seçin.</string>
+    <string name="MID_CONFIG_WPS_MODE">Kablosuz Mobil Adaptörü için bir WPS modu seçin.</string>
+    <string name="MID_CONFIG_WPS_PIN">Kablosuz Mobil Adaptörü için bir WPS PIN numarası seçin.</string>
+    <string name="MID_CONFIRMED">Yükleme</string>
+    <string name="MID_CONFIRM_DELETE">Seçilen küme silindikten sonra geri alınamaz. TAMAM?</string>
+    <string name="MID_CONFIRM_DIAL_GAID">Fot. Mk. Kadran Kontrolü</string>
+    <string name="MID_CONFIRM_DIAL_IS_SET">Ayarları fotoğraf makinesine yüklemeden önce, bir objektif takın ve otomatik netlemenin etkinleştirildiğinden emin olmak için deklanşöre yarım basın. Kadranın doğru konumda olduğunu onayladıktan sonra, ayarları fotoğraf makinesine yüklemek için aşağıdaki “Yükle” düğmesine dokunun.</string>
+    <string name="MID_CONFIRM_REBOOT_WMA">Ayarlar uygulanıp kablosuz mobil adaptörü yeniden başlatılsın mı?</string>
+    <string name="MID_CONFIRM_SETTING">"Seçiminizden memnunsanız
+ayarlarınızı kaydedin."</string>
+    <string name="MID_CONFIRM_SETTING_DESC">Uygulama, yükleme sırasında bu ayarları hedef fotoğraf makinesi için uyarlayacaktır.</string>
+    <string name="MID_CONNECT_CAMERA_ALWAYS">"Fotoğraf makinesiyle her zaman kullanılabilen bir bağlantı kurun.
+Kablosuz özelliklerin tüm aralığına erişmek için bu seçeneği seçin."</string>
+    <string name="MID_CONNECT_CAMERA_TEMPORARY">Fotoğraf makinesiyle tek seferlik bir bağlantı oluşturun.</string>
+    <string name="MID_CONNECT_WIFI_WPA3_ERROR">İşletim sistemi WPA3-SAE’yi desteklemiyor. Fotoğraf makinesi Wi-Fi ayarlarını değiştirin. Daha fazla bilgi için çevrimiçi yardıma bakın.</string>
+    <string name="MID_CREATE_SET">Yeni Ayar Kümesi</string>
+    <string name="MID_CREATE_SET_TIP">Yeni bir ayar kümesi oluşturmak için bu düğmeye dokunun</string>
+    <string name="MID_CURRENT_SETTING">Geçerli ayarlar</string>
+    <string name="MID_DATA_GETTING">"Bilgi Alınıyor…
+Lütfen bekleyin."</string>
+    <string name="MID_DATE_CREATED">Oluşturulma tarihi:</string>
+    <string name="MID_DEFOCUS">Arka planları yumuşat</string>
+    <string name="MID_DELETE">Sil</string>
+    <string name="MID_DELETE_NIS_ACCOUNT">NIKON IMAGE SPACE hesabımı sil</string>
+    <string name="MID_DIAL_GAID1">Fotoğraf makinesinin üstündeki kadranı şu konuma döndürün</string>
+    <string name="MID_DIAL_GAID2" />
+    <string name="MID_DIAL_GAID_ZFC">Fotoğraf makinesinin üstündeki kadranları gösterilen konumlara döndürün.</string>
+    <string name="MID_DIAL_GAID_ZFC_SS">Enstantane hızı kadranını “1/3 STEP” konumuna ayarlayın ve 15 sn’lik (15\") bir enstantane hızı seçmek için ana ayar kadranını çevirin.</string>
+    <string name="MID_DOWNLOAD_FINISH">İndirme işlemi tamamlandı</string>
+    <string name="MID_EDIT">Ayarları yap</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_DESC">Değişiklikleri iptal et?</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_TITLE">İptal İşlemini Onaylayın</string>
+    <string name="MID_EDIT_PROCESS">Ayarları Değiştir</string>
+    <string name="MID_EMPH_BLUR">Hareket izleri oluşturun (tripod gerekir)</string>
+    <string name="MID_END_OF_INTEGRARION_NIS_ACCOUNT">NIKON IMAGE SPACE ile Bağlantıyı Sonlandır</string>
+    <string name="MID_EXECUTE_RESET_SHOOTING_SETTING">Çekim ayarlarını sıfırla</string>
+    <string name="MID_EXPLANATION_WMA">WMA: Kablosuz Mobil Adaptörü</string>
+    <string name="MID_FAILED_CONNECT">Bağlanılamadı. Fotoğraf makinesini kontrol edin ve tekrar deneyin.</string>
+    <string name="MID_FAILED_CONNECT_TITLE">Bağlantı Başarısız</string>
+    <string name="MID_FILE_SIZE">Dosya boyutu: %.1f MB</string>
+    <string name="MID_FILTER_SORT_CHANGING">Değişiklikler uygulanıyor…</string>
+    <string name="MID_FILTER_SORT_CONFIRM_RAW_TRANSFER">RAW resimleri indirmek zaman alır. İlerle?</string>
+    <string name="MID_FILTER_SORT_DATE_NONE">Devre Dışı</string>
+    <string name="MID_FILTER_SORT_DATE_ON_DOWN">Etkin (azalan)</string>
+    <string name="MID_FILTER_SORT_DATE_ON_UP">Etkin (artan)</string>
+    <string name="MID_FILTER_SORT_DATE_VIEW">Tarihe göre sırala</string>
+    <string name="MID_FILTER_SORT_DISP_SETTING">Ekran seçenekleri</string>
+    <string name="MID_FILTER_SORT_FILE_MOVIE">Videolar</string>
+    <string name="MID_FILTER_SORT_FILE_STILL">Fotoğraflar</string>
+    <string name="MID_FILTER_SORT_FILE_STILL_MOVIE">Fotoğraflar ve videolar</string>
+    <string name="MID_FILTER_SORT_FILE_TYPE">Dosya</string>
+    <string name="MID_FILTER_SORT_FILTER">Filtreleme</string>
+    <string name="MID_FILTER_SORT_FOLDER">Klasör</string>
+    <string name="MID_FILTER_SORT_HEIF_AND_VIDEOS">HEIF ve videolar</string>
+    <string name="MID_FILTER_SORT_HOW_TO_DISPLAY_RAW">RAW resimleri görüntülemek için bu ekran ayarlarını değiştirin.</string>
+    <string name="MID_FILTER_SORT_IMAGE_QUALITY">Resim kalitesi</string>
+    <string name="MID_FILTER_SORT_JPEG_AND_MOVIE">Videolar ve JPEG fotoğraflar</string>
+    <string name="MID_FILTER_SORT_PROTECTED">Korumalı görüntüler</string>
+    <string name="MID_FILTER_SORT_QUALITY_HEIF">HEIF</string>
+    <string name="MID_FILTER_SORT_QUALITY_JPEG">JPEG</string>
+    <string name="MID_FILTER_SORT_QUALITY_RAW">RAW</string>
+    <string name="MID_FILTER_SORT_RATED">Derecelendilmiş görüntüler</string>
+    <string name="MID_FILTER_SORT_RAW_AND_MOVIE">Videolar ve RAW fotoğraflar</string>
+    <string name="MID_FILTER_SORT_RESULT">Filtrelenen sonuçlar : %s</string>
+    <string name="MID_FILTER_SORT_SLOT_ALL">Geçerli yuvadaki karttaki tüm klasörler</string>
+    <string name="MID_FILTER_SORT_WARNING_RAW">Resim kalitesi için RAW seçildiğinde en fazla 100 resim seçilebilir. RAW resimleri indirmek için daha fazla zaman gerekir.</string>
+    <string name="MID_FILTER_SORT_WARNING_SELECTED_OVER">Resim kalitesi için RAW seçildiğinde en fazla 100 resim seçilebilir.</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING">Çekim Ayarları Sıfırla Tamam</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING_DESC">Fotoğraf makinesi çekim ayarları sıfırlandı.</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_CHECK">Firebase için Google Analytics kullanımını kabul et</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_OFF">Reddet</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_ON">Kabul et</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DESC">Bu uygulama, kullanım verilerinin analizine yardımcı olmak üzere Firebase için Google Analytics kullanır. %s</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DETAIL">Ayrıntılar</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_ITEM">Kullanım verilerini analiz et</string>
+    <string name="MID_FIRMWARE_VERSION">Donanım yazılımı sürümü</string>
+    <string name="MID_FOR_A_WHILE_WAIT_PLEASE">Lütfen bekleyin.</string>
+    <string name="MID_FWU_ACCESS_WEB_SITE">Not: Bu fotoğraf makinesi için donanım yazılımı güncellemeleri, bir akıllı telefondan veya tabletten gerçekleştirilemez.</string>
+    <string name="MID_FWU_AGREE_AND_DOWNLOAD">Kabul et ve indir</string>
+    <string name="MID_FWU_ALERT_CONNECT_WIFI">• “Aktar” aşaması sırasında, akıllı telefonunuz veya tabletinizin Wi-Fi bağlantısı geçici olarak fotoğraf makinesine geçiş yapacaktır.</string>
+    <string name="MID_FWU_ALERT_NOT_CLOSE">• Bu diyalogdan çıkmayın. Bunun yapılması donanım yazılımı güncellemesini sonlandıracaktır.</string>
+    <string name="MID_FWU_BATTERY_OVER_80">• Pilin şarjlı olduğunu (>%80)</string>
+    <string name="MID_FWU_CAN_DOWNLOAD">Yeni donanım yazılımını bilgisayarınıza indirebilirsiniz.</string>
+    <string name="MID_FWU_CAN_TRANSFER">Yeni donanım yazılımını fotoğraf makinesine aktarabilir ve donanım yazılımını güncelleyebilirsiniz.</string>
+    <string name="MID_FWU_CONFIRM_VERSION_UP">Ayrıntılar</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_FILE_SIZE">Güncelleme boyutu %.1f MB. Wi-Fi kullanmanızı öneririz.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_PAUSE">İndirme işlemi kesintiye uğratılsın mı?</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_MSG">İndirme işlemi tamamlandı ve aktarma işlemi devam ettiğinizde başlayacaktır.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_TITLE">Aktarma işlemi kesintiye uğratılsın mı?</string>
+    <string name="MID_FWU_DIALOG_DOWNLOAD">İndir</string>
+    <string name="MID_FWU_DIALOG_FW_DOWNLOAD">Donanım Yazılımı İndirme</string>
+    <string name="MID_FWU_DOWNLOAD">İndir</string>
+    <string name="MID_FWU_ERROR_BATTERY_NOT_ENOUGH">Fotoğraf makinesi pilinin şarj seviyesi %80’in altındaysa donanım yazılımı güncellemeleri gerçekleştirilemez. Pili şarj edip tekrar deneyin.</string>
+    <string name="MID_FWU_ERROR_CAMERA_STATUS">Fotoğraf makinesi donanım yazılımı güncellemesine hazır değil. Fotoğraf makinesi durumunu kontrol edip tekrar deneyin.</string>
+    <string name="MID_FWU_ERROR_CARD_PROTECTED">Hafıza kartı yazmaya karşı korumalı. Hafıza kartının kilidini açın ve tekrar deneyin.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_FULL">Bir hata meydana geldi. Hafıza kartını kontrol edin.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_OFF">Fotoğraf makinesine takılı bir hafıza kartı yok. Bir hafıza kartı takın ve tekrar deneyin.</string>
+    <string name="MID_FWU_ERROR_NETWORK">Ağ hatası. Daha iyi bir sinyalle tekrar deneyin.</string>
+    <string name="MID_FWU_ERROR_POWER_OFF">Fotoğraf makinesi kapalı. Fotoğraf makinesini açın ve tekrar deneyin.</string>
+    <string name="MID_FWU_ERROR_SERVER">Sunucuyla ilgili bir sorun var. Lütfen tekrar deneyin.</string>
+    <string name="MID_FWU_ERROR_UNKNOWN">Bilinmeyen hata.</string>
+    <string name="MID_FWU_FIRMWARE_UPDATE_NOTICE">Donanım Yazılımı Güncellemesi Bildirimi</string>
+    <string name="MID_FWU_MEMORY_CARD_ON">• Bir hafıza kartı takılı olduğunu</string>
+    <string name="MID_FWU_NEED_CAMERA_OPERATION">Güncellemenin geri kalanı için SnapBridge gerekli değildir. Güncellemeyi tamamlamak için “Tamam” öğesine dokunun ve fotoğraf makinesini kullanın.</string>
+    <string name="MID_FWU_NEED_CONDITIONS">Devam etmeden önce, şunları onaylayın:</string>
+    <string name="MID_FWU_NEW_FIRMWARE_VER">Yeni donanım yazılımı:</string>
+    <string name="MID_FWU_NOTIFY_DESCRIBE">Fotoğraf makineniz için yeni donanım yazılımı mevcut.</string>
+    <string name="MID_FWU_NOTIFY_RESTART">Git</string>
+    <string name="MID_FWU_NOTIFY_START">Git</string>
+    <string name="MID_FWU_PAUSE">Güncelleme duraklatıldı.</string>
+    <string name="MID_FWU_POWER_ON">• Fotoğraf makinesinin açık olduğunu</string>
+    <string name="MID_FWU_RESTART">Devam et</string>
+    <string name="MID_FWU_TAKE_FEW_MIN">Bu işlem birkaç dakika sürebilir.</string>
+    <string name="MID_FWU_TITLE">Donanım Yazılımı Güncellemesi</string>
+    <string name="MID_FWU_TITLE_STRING_FORMAT">Donanım Yazılımı Güncellemesi(%s)</string>
+    <string name="MID_FWU_TRANSFER">Aktar</string>
+    <string name="MID_FWU_VERSION_UP">Güncelle</string>
+    <string name="MID_GALLERY_DATE">dd/MM</string>
+    <string name="MID_GALLERY_SELECT_PHOTO">Fotoğrafları seçin</string>
+    <string name="MID_GUIDANCE_DIALOG_AFTER">Daha sonra</string>
+    <string name="MID_HASH_ADD_NOTE">Bir görüntü paylaşıldığında hashtag’ler otomatik olarak giriş alanına eklenebilir.</string>
+    <string name="MID_HAVENT_SENT_TO_CAMERA_YET">Bu ayarlar kümesi hiçbir zaman fotoğraf makinesine gönderilmedi.</string>
+    <string name="MID_HOWTO_USER_SETTING">Yük. ayarları makineye uygula</string>
+    <string name="MID_ICP_NUMBER">沪ICP备10016366号-20A</string>
+    <string name="MID_IMPORTANT_NOTICE">Önemli Uyarı</string>
+    <string name="MID_IMPORT_ALERT_MSG0">Uygulama arka planda çalışıyorsa belirli Wi-Fi indirme işlemi bir süre sonra iptal edilecektir.</string>
+    <string name="MID_IMPORT_ALERT_MSG1">Bu mesajı tekrar gösterme.</string>
+    <string name="MID_IMPORT_ALERT_MSG2">Geçerli indirme işlemi tamamlandığında ek görüntüler indirebilirsiniz.</string>
+    <string name="MID_IMPORT_ALERT_MSG4">Boyutu 4 GB’nin üzerindeki videolar indirilemez.</string>
+    <string name="MID_IMPORT_ALL_SELECT">Tümünü seç</string>
+    <string name="MID_IMPORT_CANCEL_SELECT">Seçimi kaldır</string>
+    <string name="MID_IMPORT_CONFIRM_RETRY" />
+    <string name="MID_IMPORT_ERR_MSG">"Uygulamanın resimlere erişimi yok ve bu nedenle kullanılamıyor.
+Bu uygulama için izinleri değiştirmek için akıllı cihazınızda “Ayarlar” > “Gizlilik” > “Fotoğraflar” öğesine gidin."</string>
+    <string name="MID_IMPORT_EXEC_IMPORT">İndir</string>
+    <string name="MID_IMPORT_FOLDER_ALL">Tüm klasörler</string>
+    <string name="MID_IMPORT_ORIGINAL_FILE">Orijinal format</string>
+    <string name="MID_IMPORT_SELECT">Seç</string>
+    <string name="MID_IMPORT_SELECT_DESC">Görüntülemek istediğiniz klasörü seçin.</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_MGS">"Bilgi alınamadı.
+Lütfen bir süre bekleyin ve tekrar deneyin."</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_TITLE">Bilgi Alınamadı.</string>
+    <string name="MID_IMPORT_SIZE_2M">2 megapiksel</string>
+    <string name="MID_IMPORT_SIZE_8M">8 megapiksel (4K)</string>
+    <string name="MID_IMPORT_SPECIFIED_PICTURE">İndirme için İşaretlenen Resimleri İndir</string>
+    <string name="MID_IMPORT_SUSPEND_ERROR" />
+    <string name="MID_INITIALIZE_SETTING">Ayarları sıfırla</string>
+    <string name="MID_INPUT_NAME">Yeni bir ad girin.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_8MP_PICTURES">İndirme işlemi sonlandırıldı. Fotoğraf makinesi 8 megapiksel dosyaları indirmeye hazır değil. Video izleme, çekim ve benzeri işlemleri sonlandırarak fotoğraf makinesini indirmeye hazırladıktan sonra tekrar deneyin.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_A_8MP_PICTURE">Fotoğraf makinesi 8 megapiksel dosyaları indirmeye hazır değil. Video izleme, çekim ve benzeri işlemleri sonlandırarak fotoğraf makinesini indirmeye hazırladıktan sonra tekrar deneyin.</string>
+    <string name="MID_LAST_CAMERA">Kümenin son kullanıldığı fotoğraf makinesi:</string>
+    <string name="MID_LAST_LENS">Kümenin son kullanıldığı objektif:</string>
+    <string name="MID_LIKE">Favoriler</string>
+    <string name="MID_LINK_SPEED">Bağlantı hızı</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_MSG">Canlı görüntü video kaydı sırasında sürekli etkindir.</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_TITLE">Video kaydı için canlı görüntüye geçiş yapma.</string>
+    <string name="MID_LOGIN_TO_NIS">"NIKON IMAGE SPACE
+Oturum aç"</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_DUE_TO_TERMS_UPDATED_MSG">Lisans Sözleşmesi veya Gizlilik Bildirimi güncellendi. Lütfen güncellemeleri onaylamak için tekrar giriş yapın.</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_MSG">Lütfen tekrar giriş yapın.</string>
+    <string name="MID_MANUAL_LOCATION_SYNC">Konum verilerini indir</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING">Konum verileri indiriliyor</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING_SUB">"Konum verileri fotoğraf makinesine indiriliyor.
+Lütfen bekleyin."</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_FAILED">Konum verileri indirilemedi</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_SUCCESS">Konum verilerini indirme işlemi tamamlandı</string>
+    <string name="MID_MENU_TITLE">Uygulama seçenekleri</string>
+    <string name="MID_MENU_TUTORIAL_TITLE">Yardım</string>
+    <string name="MID_MK_CHANNEL_NOT_LOGIN">Grş yplmadı</string>
+    <string name="MID_MK_CHANNEL_TITLE">Bildirimler</string>
+    <string name="MID_MOTIF">Konu ve sahne</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT">Gece geçit törenleri</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT_DESC">Gece geçit törenlerinin canlı çekimlerini yapın</string>
+    <string name="MID_MOTIF_COOKING">Yiyecek</string>
+    <string name="MID_MOTIF_EATING">Yiyecek</string>
+    <string name="MID_MOTIF_EATING_DESC">Yiyeceği vurgula ve arka planları yumuşatın</string>
+    <string name="MID_MOTIF_EATING_OUT">Mükellef sofralar</string>
+    <string name="MID_MOTIF_EATING_OUT_DESC">Yiyeceklerin parlak, canlı çekimlerini yapın</string>
+    <string name="MID_MOTIF_FLOWERS">Çiçekler ve bitkiler</string>
+    <string name="MID_MOTIF_FOR_AUCTION">Çevrimiçi açık artırmalar</string>
+    <string name="MID_MOTIF_FOR_AUCTION_DESC">Sattığın ürünlerin parlak, canlı çekimlerini yap</string>
+    <string name="MID_MOTIF_LANDSCAPE">Manzaralar</string>
+    <string name="MID_MOTIF_MAGIC_HOUR">Gün batımları</string>
+    <string name="MID_MOTIF_MAGIC_HOUR_DESC">Gün batımını vurgulayın</string>
+    <string name="MID_MOTIF_NATURE">Doğal manzaralar</string>
+    <string name="MID_MOTIF_NATURE_DESC">Doğal renkli, kıyaslanabilir parlak çekim sağlar</string>
+    <string name="MID_MOTIF_NIGHT">Gece Manzaraları</string>
+    <string name="MID_MOTIF_NIGHT_DESC">Gece manzaralarını canlı şekilde yakalayın</string>
+    <string name="MID_MOTIF_NIGHT_VIEWING">Gece Manzaraları</string>
+    <string name="MID_MOTIF_PERSON">İnsanlar</string>
+    <string name="MID_MOTIF_PERSON_NIGHT">Gece portreleri</string>
+    <string name="MID_MOTIF_PERSON_NIGHT_DESC">Gece çekimlerinde portre konularını vurgulayın</string>
+    <string name="MID_MOTIF_PET">Evcil hayvanlar</string>
+    <string name="MID_MOTIF_PET_INDOOR">Evcil hayvanlar</string>
+    <string name="MID_MOTIF_PET_INDOOR_DESC">Sabit duran hayvanlar için</string>
+    <string name="MID_MOTIF_PET_OUTDOOR">Aktif evcil hayvanlar</string>
+    <string name="MID_MOTIF_PET_OUTDOOR_DESC">Aktif hayvan çekimlerinde “dondurma” hareketi</string>
+    <string name="MID_MOTIF_PLANT">Çiçekler</string>
+    <string name="MID_MOTIF_PLANT_DESC">Çiçeklerin parlak, canlı çekimlerini yapın</string>
+    <string name="MID_MOTIF_PORTRAIT">Portreler</string>
+    <string name="MID_MOTIF_PORTRAIT_DESC">Ana konuyu ortada çekin</string>
+    <string name="MID_MOTIF_RECORDS">Anıtlar/grup portreleri</string>
+    <string name="MID_MOTIF_RECORDS_DESC">Konuları ve arka planı birlikte çekin</string>
+    <string name="MID_MOTIF_RELATIVES">Arka planı aydınlatılmış konular</string>
+    <string name="MID_MOTIF_RELATIVES_DESC">Arkadan aydınlatılan yüzleri daha parlak yapın</string>
+    <string name="MID_MOTIF_RIVER">Su kaynakları</string>
+    <string name="MID_MOTIF_RIVER_DESC">Hareketli suyun hareketini ve akışını yakalayın</string>
+    <string name="MID_MOTIF_SELECTED">Seçilen konu ve sahne:</string>
+    <string name="MID_MOTIF_SELFY">Kendi resimlerim</string>
+    <string name="MID_MOTIF_SELFY_DESC">Kendinizi ortada çekin</string>
+    <string name="MID_MOTIF_SMALL_ITEMS">Küçük nesneler</string>
+    <string name="MID_MOTIF_SMALL_ITEMS_DESC">Parlak, canlı çekimlerde küçük nesneleri vurgula</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR">Salon sporları</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR_DESC">Hareketli konu çekimlerinde hareketi “dondurma”</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR">Açık hava sporları</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR_DESC">Hareketli konu çekimlerinde hareketi “dondurma”</string>
+    <string name="MID_MOTIF_STARS">Gece gökyüzü (tripod gerekir)</string>
+    <string name="MID_MOTIF_STARS_DESC">Uzun pozlamalarda yıldızların parlaklığını yakala</string>
+    <string name="MID_MOTIF_STILL_LIFE">Ürün</string>
+    <string name="MID_MOTIF_STREET">Binalar ve şehir manzaraları</string>
+    <string name="MID_MOTIF_STREET_DESC">Bina ve şehir manzaralarını keskin detaylı çekin</string>
+    <string name="MID_MOTIF_TREE_VIEWING">Kiraz çiçekleri</string>
+    <string name="MID_MOTIF_TREE_VIEWING_DESC">Çiçek açan ağaçların parlak, canlı çekimlerini yap</string>
+    <string name="MID_MOTION_BLUR">Hareket izleri oluştur</string>
+    <string name="MID_MOVE_TO_AUTOMATIC_ALIGNMENT_SETTING">Otomatik bağlantı seçeneklerini aç</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_BLUETOOTH">"Bluetooth (Yakındaki cihazlar) izinleri devre dışı.
+Cihazınızın ayarlarında Bluetooth (Yakındaki cihazlar) izinlerini etkinleştirin."</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_LOCATION">"Konum izinleri devre dışı bırakıldı.
+Cihazınız için ayarlarda konum izinlerini etkinleştirin."</string>
+    <string name="MID_MSG_ATTACH_LOCATION_WIFI_MODE">"Akıllı cihaz tarafından elde edilen konum verileri, resimler indirilirken resimlere eklenebilir.
+Konum verileri indirme işleminden hemen önce elde edildiğinden, “Resimleri indir” seçeneği seçilirse resimlerdeki konum verileri, resimlerin gerçekte kaydedildikleri konumlardan farklılık gösterebilir."</string>
+    <string name="MID_MSG_CAMERA_IS_ALWAYS_CONNECT">"Eşleştirme tamamlandıktan sonra, fotoğraf makinesi ile bağlantı her zaman kullanılabilir durumda olacaktır.
+Otomatik resim indirme işlevi kullanılabilir."</string>
+    <string name="MID_MSG_CANNOT_CHOICE_RESIDENCE_LATER">"Yaşadığınız bölgeyi seçin.
+
+Bölgenizi daha sonra değiştirmeniz gerekirse lütfen uygulamayı yeniden yükleyin."</string>
+    <string name="MID_MSG_CANNOT_SEARCH_BLUETOOTH">Fotoğraf Makinesinin Bluetooth’u algılanmadı. Fotoğraf Makinesinde Bluetooth’un etkin olduğunu kontrol edin.</string>
+    <string name="MID_MSG_CANNOT_SEND_SETTING">Resimler indirilirken çekim ayarları fotoğraf makinesine aktarılamaz.</string>
+    <string name="MID_MSG_CONFIRM_ACCESSPOINT_NOTE">"Fotoğraf makinesinde ve cihazda seçilen erişim noktalarının aynı olup olmadığını kontrol edin. Aynı değillerse akıllı cihazdaki %s uygulamasından Wi-Fi ayarlarını başlatın ve fotoğraf makinesinde seçilen erişim noktasını seçin.
+
+Bağlanabilir fotoğraf makinelerinin listesini görüntülemek için “Wi-Fi’ye Bağlan” öğesine dokunun. Listeden bağlanılacak fotoğraf makinesini seçin."</string>
+    <string name="MID_MSG_CONFIRM_CANCEL_CONNECTING">Bu fotoğraf makinesinin bağlantısını kesmek istiyor musunuz?</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_TEMPORARILY">"Uzak çekimi etkinleştirmek ve resimleri indirmek için fotoğraf makinesi ile tek seferlik doğrudan bir bağlantı kurun.
+Daha fazla bilgi için çevrimiçi yardıma bakın."</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_VIA__WIFI_ONLY">Fotoğraf makinesine bağlanmak için yalnızca Wi-Fi kullanın.</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_WHILE_CONNECTED_TO_INTERNET">"Otomatik indirme, uzak çekim ve resim indirme işlemlerini etkinleştirmek için fotoğraf makinesini bağlarken bir internet bağlantısı sürdürülür.
+Daha fazla bilgi için çevrimiçi yardıma bakın."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE">"Fotoğraf makinesine Wi - Fi üzerinden bağlanırken, fotoğraf makinesi ağ menüsünde “Akıllı cihaza bağlan” > “Wi-Fi bağlantısı (STA mode)” için “Profil oluştur” öğesini seçin.
+Daha fazla bilgi için %s bakın."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_HELP">çevrimiçi yardıma</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_SETTING">Ayarlar</string>
+    <string name="MID_MSG_CONTENT_ERROR">"Yanlış metin girişi. 
+Lütfen onaylayın."</string>
+    <string name="MID_MSG_ENABLE_WIFI_ICON">"Fotoğraf makinesini Wi-Fi üzerinden bağlamak için Wi-Fi simgesine dokunun.
+Daha fazla bilgi için çevrimiçi yardıma bakın."</string>
+    <string name="MID_MSG_END_WIFI_CONNECTION">Wi-Fi bağlantısı sonlandırılsın mı?</string>
+    <string name="MID_MSG_GO_TO_HINT">Nasıl çekim yapılacağına ilişkin ayrıntılar için buraya dokunun.</string>
+    <string name="MID_MSG_HOW_TO_SETTING_WIFI_STATION_MODE_NOTE">"Fotoğraf makinesi ayarlar veya ağ menüsünde “Wi-Fi bağlantısı (STA mode)” öğesini seçin ve ayarları yapılandırın. Daha fazla bilgi için çevrimiçi yardım sayfasına bakın.
+%s
+
+1. adımda seçilen erişim noktasını seçin."</string>
+    <string name="MID_MSG_INITIALIZE">Ayarlar varsayılan değerlere sıfırlansın mı?</string>
+    <string name="MID_MSG_INVALID_SUBNET_MASK_ERROR">"Belirtilen IP adresi ve alt ağ maskesi uyumlu değil.
+Uyumlu değerleri girin."</string>
+    <string name="MID_MSG_IP_ADDRESS_COLLISION_ERROR">Sunucu IP adresi istemci IP adresine çok yakın. En az 4 karakter farklı olan IP adreslerini seçin.</string>
+    <string name="MID_MSG_IP_ADDRESS_ERROR">Geçersiz IP adresi.</string>
+    <string name="MID_MSG_LOGOUT_TO_DELETE_NIS_ID">NIKON IMAGE SPACE hesabınızı silmek için oturumunuzu kapatmanız gerekecektir.</string>
+    <string name="MID_MSG_MISS_PASSWORD">Girilen şifre ayar gerekliliklerini karşılamıyor.</string>
+    <string name="MID_MSG_NIS_IN_CHINA_HAS_ENDED">\"SnapBridge\"den Çin ana karasındaki \"NIKON IMAGE SPACE\"e yükleme sona erdi.</string>
+    <string name="MID_MSG_NIS_PROSEDURE_FOR_RESUMING">"Bu mesaj, bir yıldan uzun bir süre boyunca oturum açmamış olanlara yöneliktir. Önceden yüklemiş olabileceğiniz tüm fotoğraflar veya videolar bu siteden silinmiştir ve ne onlar ne de oluşturmuş olabileceğiniz hiçbir albüm veya albüm kutuları kurtarılamaz.
+NIKON IMAGE SPACE’te oturum açıp hesabınızı kurtarmak için bir web tarayıcısı kullanın."</string>
+    <string name="MID_MSG_NOT_MATCH_MODE_DIAL_SETTING">Üstünde kadran olmayan fotoğraf makineleri için çekim modunu modeliniz için belirtilen prosedüre göre ayarlayın.</string>
+    <string name="MID_MSG_NO_PASSWORD">Hiç parola belirtilmedi. Bir parola girin.</string>
+    <string name="MID_MSG_OPEN_AUTOMATIC_ALIGNMENT_SETTING">Otomatik bağlantı devre dışı bırakılmıştır. Otomatik bağlantı seçenekleri ile yeniden etkinleştirilebilir.</string>
+    <string name="MID_MSG_PARAMETER_SEND_FAILED">Fotoğraf makinesi meşgul. Video kaydını veya izleme işlemini sonlandırdıktan sonra tekrar bağlanmayı deneyin.</string>
+    <string name="MID_MSG_PAUSE_CONNECT_WITH_CAMERA">"Fotoğraf makinesi ile bağlantı askıya alınsın mı?
+Bağlantıyı devam ettirmek için simgeye tekrar dokunun."</string>
+    <string name="MID_MSG_PLEASE_TAP_CAMERA_OK_BUTTON">Eşleştirme tamamlandığında fotoğraf makinesindeki OK düğmesine basın.</string>
+    <string name="MID_MSG_REBOOT_APPLICATION_FOR_NIKON_ID">Nikon ID kaydolma ve giriş prosedürleri değiştirildi. Uygulamayı yeniden başlatın ve tekrar deneyin.</string>
+    <string name="MID_MSG_RESTART_AFTER_IMPORTING">Görüntüler şu anda fotoğraf makinesinden Wi-Fi üzerinden indiriliyor. İndirme işlemi tamamlandığında yeniden deneyin.</string>
+    <string name="MID_MSG_RESUME_CONNECT_WITH_CAMERA">Fotoğraf makinesiyle bağlantıya devam edilsin mi?</string>
+    <string name="MID_MSG_SELECT_ACCESS_NOTIFICATION_FROM_DEVICE_SETTING">"“SnapBridge”den gelen bildirimlere izin vermezseniz resimleri indiremeyebilir ve konum verileri ekleyemeyebilirsiniz.
+ 
+Cihaz ayarlarına gidin ve bildirimlere erişim izni verin."</string>
+    <string name="MID_MSG_SELECT_ALLOW_NOTIFICATION">“SnapBridge”den gelen bildirimlere izin vermezseniz resimleri indiremeyebilir veya konum verileri ekleyemeyebilirsiniz. Lütfen bildirimler için “İzin Ver” öğesini seçin.</string>
+    <string name="MID_MSG_SEND_SHOTTING_SETTING_DURING_TRANSFERING_IMAGE">"Görüntüler şu anda Wi-Fi aracılığıyla fotoğraf makinesinden indiriliyor.
+Yükleme ayarları indirme işlemi tamamlandığında kullanılabilir hale gelecektir."</string>
+    <string name="MID_MSG_START_IMPORT_SPECIFIED_PICTURE">Fotoğraf makinesi indirme için işaretlenen resimleri depolar. Resimler indirilmeye başlanıyor.</string>
+    <string name="MID_MSG_SUBNET_MASK_ERROR">Geçersiz alt ağ maskesi.</string>
+    <string name="MID_MSG_UPLOAD_RESET">Başlangıç çekim ayarlarını geri yüklemek için varsayılan ayarları fotoğraf makinesine yükleyin.</string>
+    <string name="MID_NEWS_GET_CHANNEL_FAILED">Haber alınamıyor.</string>
+    <string name="MID_NEWS_GET_CHANNEL_NONE">Yeni haber yok.</string>
+    <string name="MID_NEW_PRODUCTS_INFO_LINK">Yeni ürünle ilgili bilgileri burada bulabilirsiniz</string>
+    <string name="MID_NEW_PRODUCT_DATA_DOWNLOAD">Yeni bir ürün için görüntü verileri indirme</string>
+    <string name="MID_NEXT">Sonraki</string>
+    <string name="MID_NICKNAME_INPUT_NOTE">Bu takma ad cihazın bağlı olduğu fotoğraf makineleri tarafından görüntülenecektir.</string>
+    <string name="MID_NICKNAME_INPUT_TITLE">Akıllı cihaz takma adı</string>
+    <string name="MID_NICKNAME_WARN_INFO">Takma adlar en az 1 karakter uzunluğa sahip olmalıdır.</string>
+    <string name="MID_NID_PRIVACY_POLICY_ITEM">Gizlilik Bildirimi</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_BLUETOOTH_TEXT">Bluetooth üzerinden indirme devam ediyor</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_BLUETOOTH_TEXT">Bluetooth üzerinden indirme devam ediyor, Konum verileri şu anda kullanılıyor.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_READY_TEXT">Resimler otomatik indirme için hazırlanıyor, Konum verileri şu anda kullanılıyor.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_WIFI_TEXT">Wi-Fi üzerinden indirme devam ediyor, Konum verileri şu anda kullanılıyor.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_NO_LOCATION_TEXT">Beklemede…</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_READY_TEXT">Resimler otomatik indirme için hazırlanıyor</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_TEXT">Konum verileri şu anda kullanılıyor.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_WIFI_TEXT">Wi-Fi üzerinden indirme devam ediyor</string>
+    <string name="MID_NOT_USED">Bu küme bir fotoğraf makinesine yüklenmedi.</string>
+    <string name="MID_NO_BLUR">“Dondurma” hareketi</string>
+    <string name="MID_NO_SET">Mevcut ayar kümesi yok. Bir ayae kümesi oluşturmak için sağ aşağıdaki düğmeye dokunun.</string>
+    <string name="MID_NUMBER_USE">Kullanılan:</string>
+    <string name="MID_OK">TAMAM</string>
+    <string name="MID_OPEN_OS_SETTING">Cihazın ayarlar uygulamasını açın</string>
+    <string name="MID_PAN_FOCUS">Her şeyi keskin tut</string>
+    <string name="MID_PARAM_DETAIL">Fotoğraf Makinesine Uygulanan Ayarlar</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID">“SnapBridge” özelliklerinin kullanılması için “Fotoğraflar”a erişim gerekir. “Tüm Fotoğraflara Erişime İzin Ver” öğesini seçin.</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID_14">“SnapBridge” özelliklerinin kullanımı için “Fotoğraflar ve videolar”a erişim gerekir. “Tümüne İzin ver” öğesini seçin.</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_IOS17">“SnapBridge” özelliklerinin kullanılması için fotoğraf kitaplığına erişim gerekir. “Tam Erişime İzin Ver” öğesini seçin.</string>
+    <string name="MID_PERMISSION_ALLOW_BACKGROUND_RUNNING">SnapBridge’in arka planda çalışması için izin gerekiyor.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS">Fotoğraf makinesiyle eşleşebilmesi için akıllı telefonunuzun konumunuza erişmesine izin verin.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING">Cihaz ayarlarına gidin ve konum erişimine izin verin.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING_FOR_R">"Android’de, eşleştirme ve Bluetooth özelliklerini kullanmak için konum hizmetlerine erişime izin vermeniz gerekmektedir.
+Konum hizmetlerine erişim iznini, cihazınızın “Ayarlar” uygulamasından verin."</string>
+    <string name="MID_PERMISSION_ALLOW_PHOTO_ACCESS_ANDROID_14">Resimleri aktarmak için “Fotoğraflar ve videolar”a erişim gerekir. Cihazınızın “Ayarlar” uygulamasında izin verin.</string>
+    <string name="MID_PERMISSION_ALLOW_STORAGE_ACCESS_IN_DEVICE_SETTING">SnapBridge’in resimleri indirmesi için depolama erişimi gerekiyor. Cihaz ayarlarına gidin ve depolama erişimine izin verin.</string>
+    <string name="MID_PERMISSION_ALWAYS_ALLOW_LOCATION_ACCESS">Android altında, eşleştirme ve Bluetooth özelliklerini kullanmak için konum hizmetlerine erişim izni verneniz gerekir.</string>
+    <string name="MID_PERMISSION_ENABLE_DEVICE_LOCATION">Bu uygulamayı kullanmak için cihazınızda konum verilerini etkinleştirin.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALLOW">Bir sonraki diyalogda “İZİN VER” öğesini seçin.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALWAYS_ALLOW_FOR_R">Ardından konum hizmetlerine erişime izin vermeniz istenecektir. “Uygulamayı kullanırken” öğesine dokunun.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_WIFI_ON">Wi-Fi’yi Etkinleştir</string>
+    <string name="MID_PERMISSION_NOT_GRANTED">Uygulama gerekli izinlere sahip değil. Cihazın ayarlar uygulamasında “SnapBridge” uygulamasına gidin ve gerekli izinleri etkinleştirin.</string>
+    <string name="MID_POS_GPS_LIST_HIGH">Yüksek (yüksek doğruluk)</string>
+    <string name="MID_POS_GPS_LIST_HIGH_MIN">Yüksek</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE">Orta</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE_MIN">Orta</string>
+    <string name="MID_POS_GPS_LIST_ROUGH">Düşük</string>
+    <string name="MID_POS_GPS_LIST_ROUGH_MIN">Düşük</string>
+    <string name="MID_POS_GPS_NOTE">“Yüksek” seçmek fotoğraf makinesi ve akıllı cihazdaki pillerin boşalmasını hızlandırır. Bir otomobil veya tren gibi hareket eden bir aracın içindeyken “Yüksek” seçeneğini seçmeyin. “Düşük” seçmek konum verilerinin daha az sıklıkla güncelleneceği anlamına gelir ancak akıllı cihazdaki pilin boşalmasını yavaşlatır.</string>
+    <string name="MID_POWERZOOM_SPEED">Güç Yakınlaştırma Hızı</string>
+    <string name="MID_PRECISE">Tam</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MSG">Lütfen Gizlilik Politikasını okuyun.</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MUST_READ_MSG">Gizlilik politikasını okuyun (Zorunlu)</string>
+    <string name="MID_PROHIBIT_OPEN_WMA_MENU">Dahili Wi-Fi özelliği olan fotoğraf makinelerine bağlanırken, ayarları fotoğraf makinesi menülerinden yapın.</string>
+    <string name="MID_PTP_REMOTE_DESCRIBE">Çekimleri akıllı cihazda çerçevelendirirken uzaktan resimler çekin.</string>
+    <string name="MID_READ_HINTS">Ayrıntılı çekim ipuçlarını görüntüleyin</string>
+    <string name="MID_REMOTE_CAMERA_SETTING">Fotoğraf makinesi ayarları</string>
+    <string name="MID_REMOTE_MOVIE_NOT_SUPPORT_MODE">Çekim modu: Seçilen mod uzaktan film kaydı sırasında kullanılamaz. Bunun yerine P modu kullanılacaktır.</string>
+    <string name="MID_REMOTE_NOT_START_REMOTE_BY_OLD_FTZ_FW">FTZ objektif yuvası adaptörü donanım yazılımı sürümü desteklenmiyor. FTZ donanım yazılımını yükseltin.</string>
+    <string name="MID_REMOTE_NOT_TRANSFER_TIFF">Fotoğraf makinesinde resim kalitesi için TIFF seçili. Fotoğraflar uzaktan çekilebilir ancak akıllı cihaza indirilmeyecektir.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_DESC">Resimleri çekimden sonra otomatik olarak indir.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_INDEX">Resimleri indir</string>
+    <string name="MID_REMOTE_SETTINGS_LIVE_VIEW_ENABLED">Canlı görüntü</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_SECONDS">sn</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_TITLE">Otomatik zamanlama seçenekleri</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_DESC">Resim, siz simgeye dokunduktan 3 saniye sonra çekilecektir.</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_INDEX">Otomatik zamanlama</string>
+    <string name="MID_REMOTE_SIZE_ONLY_2M_8M_JPEG_OR_2M_HEIF">Resimleri orijinal formatlarında indirmeyi tercih ettiğinizde bile RAW resimler, 2 veya 8 megapiksel JPEG resimler ya da 2 megapiksel HEIF resimler olarak indirilecektir.</string>
+    <string name="MID_REMOTE_SIZE_ONLY_JPEG">RAW resimler, resimleri orijinal formatında indirmeyi tercih etmiş olmanıza rağmen 2 megapiksel JPEG resimler olarak indirilecektir.</string>
+    <string name="MID_REMOTE_TRANS_SIZE">İndirme boyutunu seç</string>
+    <string name="MID_REMOTE_WB_CLOUDY">Bulutlu</string>
+    <string name="MID_REMOTE_WB_DIRECT_SUNLIGHT">Güneş ışığı</string>
+    <string name="MID_REMOTE_WB_FLASH">Flaş</string>
+    <string name="MID_REMOTE_WB_FLUORESCENT">Floresan</string>
+    <string name="MID_REMOTE_WB_INCANDESCENT">Ampul ışığı</string>
+    <string name="MID_REMOTE_WB_SHADE">Gölge</string>
+    <string name="MID_RENAME">Yeniden adlandır</string>
+    <string name="MID_REQUEST_DELETE_SETS">Daha fazla küme oluşturabilmek için önce bir kümeyi silmeniz gerekir</string>
+    <string name="MID_RESET_SHOOTING_SETTING">Çekim Ayarlarını Sıfırla</string>
+    <string name="MID_RESTART_APP_DUE_TO_BACKGROUND_STOPPED_MSG">Arka plan işlemi askıya alındı. Lütfen uygulamayı yeniden başlatın.</string>
+    <string name="MID_RETET_SHOTTING_SETTING_DESC">Fotoğraf makinesinin çekim ayarlarını varsayılan değerlerine sıfırlar.</string>
+    <string name="MID_SAVE">Kaydet</string>
+    <string name="MID_SAVED_NUM_LIMIT">Küme listesi dolu</string>
+    <string name="MID_SAVE_AS">Ayarları farklı kaydet</string>
+    <string name="MID_SAVE_DESC">Ayar kümesi için bir ad girin</string>
+    <string name="MID_SAVE_EDITED">Değişiklikleri kaydet</string>
+    <string name="MID_SAVE_TITLE">Ayar kümesini adlandırın</string>
+    <string name="MID_SELECTED">Seçilen Ayarları</string>
+    <string name="MID_SELECT_CONNECTION">Fotoğraf makinesine bağlantı için kullanılan yöntemi seçin.</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALBANIA">Arnavutluk</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALGERIA">Cezayir</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ANDORRA">Andorra</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ARGENTINA">Arjantin</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRALIA">Avustralya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRIA">Avusturya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BAHRAIN">Bahreyn</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BANGLADESH">Bangladeş</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BELGIUM">Belçika</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOLIVIA">Bolivya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOSNIA_HERZEGOVINA">Bosna Hersek</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BULGARIA">Bulgaristan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CAMBODIA">Kamboçya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CANADA">Kanada</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHILE">Şile</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHINESE_MAINLAND">Çin Anakarası</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_COLOMBIA">Kolombiya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CROATIA">Hırvatistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CYPRUS">Kıbrıs</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CZECH_REPUBLIC">Çek Cumhuriyeti</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_DENMARK">Danimarka</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_EGYPT">Mısır</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ESTONIA">Estonya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FINLAND">Finlandiya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRANCE">Fransa</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRENCH_POLYNESIA">Fransız Polinezyası</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GERMANY">Almanya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GHANA">Gana</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GIBRALTAR">Cebelitarık</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GREECE">Yunanistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GUADELOUPE">Guadeloupe</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HONG_KONG">Hong Kong</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HUNGARY">Macaristan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ICELAND">İzlanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDIA">Hindistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDONESIA">Endonezya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_IRELAND">İrlanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ISRAEL">İsrail</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ITALY">İtalya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JAPAN">Japonya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JORDAN">Ürdün</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KAZAKHSTAN">Kazakistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KENYA">Kenya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOREA">Kore</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOSOVO">Kosova</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KUWAIT">Kuveyt</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KYRGYZSTAN">Kırgızistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LATVIA">Letonya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LEBANON">Lübnan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LITHUANIA">Litvanya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LUXEMBOURG">Lüksemburg</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MADAGASCAR">Madagaskar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAWI">Malawi</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAYSIA">Malezya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALDIVES">Maldivler</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALTA">Malta</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MARTINIQUE">Martinique</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MAURITIUS">Mauritius</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MEXICO">Meksika</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOLDOVA">Moldovya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONACO">Monako</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONTENEGRO">Karadağ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOROCCO">Fas</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MYANMAR">Myanmar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEPAL">Nepal</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NETHERLANDS">Hollanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_CALEDONIA">Yeni Kaledonya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_Fiji">Fiji</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_ZEALAND">Yeni Zelanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NIGERIA">Nijerya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORTH_MACEDONIA">Kuzey Makedonya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORWAY">Norveç</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_OMAN">Umman</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PAKISTAN">Pakistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PARAGUAY">Paraguay</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PERU">Peru</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PHILIPPINES">Filipinler</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_POLAND">Polonya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PORTUGAL">Portekiz</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_QATAR">Katar</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_REUNION">Reunion</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ROMANIA">Romanya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_RWANDA">Rwanda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SAUDI_ARABIA">Suudi Arabistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SERBIA">Sırbistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SINGAPORE">Singapur</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVAKIA">Slovakya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVENIA">Slovenya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SOUTH_AFRICA">Güney Afrika</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SPAIN">İspanya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SRI_LANKA">Sri Lanka</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWEDEN">İsveç</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWITZERLAND">İsviçre</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAIWAN">Tayvan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAJIKISTAN">Tacikistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TANZANIA">Tanzanya</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_THAILAND">Tayland</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TUNISIA">Tunus</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKEY">Türkiye</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKMENISTAN">Türkmenistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UAE">BAE</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UGANDA">Uganda</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UKRAINE">Ukrayna</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_KINGDOM">Birleşik Krallık</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_STATES_OF_AMERICA">Amerika Birleşik Devletleri</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_URUGUAY">Uruguay</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UZBEKISTAN">Özbekistan</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VANUATU">Vanuatu</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VIETNAM">Vietnam</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ZIMBABWE">Zimbabwe</string>
+    <string name="MID_SELECT_MOTIF">Ana konunuzu seçin</string>
+    <string name="MID_SELECT_REGIONS_SELECT_AFRICA">Afrika</string>
+    <string name="MID_SELECT_REGIONS_SELECT_ASIA">Asya</string>
+    <string name="MID_SELECT_REGIONS_SELECT_EUROPE">Avrupa</string>
+    <string name="MID_SELECT_REGIONS_SELECT_MIDDLE_EAST">Orta Doğu</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OCEANIA">Okyanusya</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OTHER_COUNTRIES">Diğer Ülkeler/bölgeler</string>
+    <string name="MID_SELECT_REGIONS_SELECT_THE_AMERICAS">Kuzey ve Güney Amerika</string>
+    <string name="MID_SEND_ANOTHER">Başka bir ayar kümesi oluşturun</string>
+    <string name="MID_SEND_COMPLETE">Yükleme Tamamlandı</string>
+    <string name="MID_SEND_SETS_PROGRESS">Ayarlar fotoğraf makinesine yükleniyor…</string>
+    <string name="MID_SEND_SET_TO_CAMERA">Fotoğraf makinesine yükle</string>
+    <string name="MID_SEND_THE_SET">Fotoğraf makinesine yükle</string>
+    <string name="MID_SEN_SETS_FINISHED">Artık kamera ayarlarını güncellediğinize göre resimler çekebilirsiniz.</string>
+    <string name="MID_SERIAL_NUMBER">Seri numarası</string>
+    <string name="MID_SETTING_NAME_PRESET">Kullanıcı ayar kümesi</string>
+    <string name="MID_SET_BLUR">Hareket bulanıklaştırma</string>
+    <string name="MID_SET_BOKEH">Bokeh/alan derinliği</string>
+    <string name="MID_SET_FINISHED">Ayarlar kayıtlı</string>
+    <string name="MID_SET_FINISHED_DESC">Ayarları fotoğraf makinenize yüklemeyi ve bazı resimler çekmeyi deneyin.</string>
+    <string name="MID_SET_REJECTED_BY_CAMERA_TITLE">Fotoğraf makinesi durumunu kontrol et</string>
+    <string name="MID_SHARE_ACQUIRING">Resimler alınıyor.</string>
+    <string name="MID_SHARE_FAILED_TO_ACQUIRE">Resim alınamadı.</string>
+    <string name="MID_SHARE_INSUFFICIENT_STORAGE_SPACE">Yetersiz depolama alanı. Resimler paylaşılamıyor.</string>
+    <string name="MID_SIGN_UP_NIS">"NIKON IMAGE SPACE
+Kaydol"</string>
+    <string name="MID_SORT">Sırala</string>
+    <string name="MID_SORT_NAME_DOWN">Ada göre sırala (azalan)</string>
+    <string name="MID_SORT_NAME_UP">Ada göre sırala (artan)</string>
+    <string name="MID_SORT_NEW">İlk önce en yeni</string>
+    <string name="MID_SORT_OLD">İlk önce en eski</string>
+    <string name="MID_SORT_USE_LATELY">Son kullanılan</string>
+    <string name="MID_SORT_USE_MANY">En çok kullanılan</string>
+    <string name="MID_START">Başlat</string>
+    <string name="MID_SUPPLEMENT_ACCESS_LOCATION_PRECISE">Not: Size “Tam” ile “Yaklaşık” arasında bir seçenek sunulmazsa yalnızca cihazınızın konumuna erişim izni vermeniz gerekecektir.</string>
+    <string name="MID_TERMS_OF_SERVICE_AGREEMENT_DESC">Yukarıdakileri kabul et</string>
+    <string name="MID_TIMES">kez</string>
+    <string name="MID_TIPS">Çekim Numaraları ve İpuçları</string>
+    <string name="MID_TIPS_A_DESC">Fotoğraf makinesi bağlantı durumunu kontrol edin (ek bilgiler görüntülemek için dokunun).</string>
+    <string name="MID_TIPS_B_DESC">“Otomatik indir”, “Saatler” veya “Konum verileri” seçeneklerini etkinleştirin veya devre dışı bırakın.</string>
+    <string name="MID_TIPS_C_DESC">Fotoğraf makinesinden indirilen görüntüleri görüntüleyin.</string>
+    <string name="MID_TIPS_D_DESC">Nikon’un bulut paylaşım hizmeti için bağlantı.</string>
+    <string name="MID_TIPS_TAP">Ekrana dokunun.</string>
+    <string name="MID_TIPS_TITLE">"SnapBridge'i Kullanma"</string>
+    <string name="MID_TITLE_CHOICE_CONNECTION_TYPE">Bağlantı Tipini Seç</string>
+    <string name="MID_TITLE_NIKON_IMAGE_CLOUD">Nikon Imaging Cloud</string>
+    <string name="MID_TUTORIAL1_DESC">Bu uygulama, çekim hedeflerine göre ayarları uyarlamayı acemi fotoğrafçılar için bile kolaylaştırır.</string>
+    <string name="MID_TUTORIAL1_TITLE">Fotoğraf Makinesi Ayarları Basitleştirilmiş</string>
+    <string name="MID_TUTORIAL2_DESC">Bir ayarlar kümesi oluşturmak için yapmanız gereken tek şey konuyu, sahneyi ve stili seçmektir. Haydi başlayalım.</string>
+    <string name="MID_TUTORIAL2_TITLE">Sadece Bazı Seçenekleri Seçmeniz Gerekir</string>
+    <string name="MID_USE_NIS_MSG_1">Nikon’un görüntü depolama hizmeti olan “NIKON IMAGE SPACE”i kullanabilirsiniz.</string>
+    <string name="MID_USE_NIS_MSG_2">Akıllı cihazınıza indirilen görüntüler NIKON IMAGE SPACE’e yüklenebilir.</string>
+    <string name="MID_USE_NIS_MSG_3">“Kullan” öğesine dokunun ve NIKON IMAGE SPACE’e zaten kaydolduysanız giriş yapın.</string>
+    <string name="MID_USE_POWER_ZOOM_CANNOT_MSG">Uzaktan elektrikli zoom kontrolü geçerli ayarlarla kullanılamaz.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_BLACK_BACKGROUND_FOR_PICTURE_IN_PICTURE_PROTECTION">Picture-in-Picture gösterimini kapatın.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_MESSAGE">NIKON IMAGE SPACE’e giriş yapmadan önce uygulamanın arka planda çalışmasına izin verin.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_TITLE">Bir sonraki iletişim kutusunda “İzin Ver” seçeneğini seçtiğinizden emin olun.</string>
+    <string name="MID_WELCOME_A_DESC">SnapBridge’in Nikon fotoğraf makinenizle birlikte zengin bir görüntüleme deneyiminin kapılarını açmasına izin verin.</string>
+    <string name="MID_WELCOME_A_TITLE">“SnapBridge”e Hoş Geldiniz</string>
+    <string name="MID_WELCOME_B_DESC">Fotoğraflar akıllı cihazınıza otomatik olarak indirilebilir ve hemen paylaşılabilir.</string>
+    <string name="MID_WELCOME_B_TITLE">İstediğiniz Zaman, İstediğiniz Yerde Harika Fotoğraflar Paylaşın</string>
+    <string name="MID_WELCOME_C_DESC">Konunuzu akıllı cihaz ekranında görüntülerken uzaktan resimler çekin.</string>
+    <string name="MID_WELCOME_C_TITLE">Uzaktan Resimler Çekmek için Akıllı Cihazınızı Kullanın</string>
+    <string name="MID_WELCOME_D_DESC">Nikon ID’ye kaydolmak, ücretsiz bir bulutta depolama hizmeti olan NIKON IMAGE SPACE’de sınırsız sayıda 2 megapiksel JPEG resim depolamanıza olanak sağlar. Görüntüler otomatik olarak yüklenebilir.</string>
+    <string name="MID_WELCOME_D_TITLE">NIKON IMAGE SPACE’e Sınırsız Otomatik Yükleme</string>
+    <string name="MID_WELCOME_E_DESC">"“SnapBridge” fotoğraf makinenizi akıllı cihazınıza ve sosyal medyaya bağlar.
+Bir deneyin."</string>
+    <string name="MID_WELCOME_E_TITLE">Daha Fazla Hizmet, Daha Fazla Rahatlık</string>
+    <string name="MID_WIFI_2MB_SIZE">Wi-Fi, 2 megapiksel</string>
+    <string name="MID_WIFI_CANCEL_MSG">Eşleme veya ağ bağlantısı için Bluetooth’a geçiş yapın.</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_LAUNCH">"WMU'yu Başlat"</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_MESSAGE">“Ayarlar” menüsünde “Uygulama otomatik başlatma” seçeneğini devre dışı bırakın. “Uygulama otomatik başlatma” etkinleştirilirse SnapBridge Wi-Fi bağlantıları kullanılamaz.</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_TITLE">Wireless Mobile Utility (WMU) Ayarlarını Kontrol Edin</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_MESSAGE">Daha eski bir sürüm yüklüyse SnapBridge Wi-Fi bağlantısı işlevi kullanılamaz.</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_TITLE">Wireless Mobile Utility’yi Güncelleyin</string>
+    <string name="NIS_CLD_UNDER_MAINTENANCE2">Bağlanılamadı. Sunucu geçerli olarak bakım altındadır.</string>
+    <string name="NULL_VALUE">-</string>
+    <string name="SID_ACTIVE_D_LIGHTING">Etkin D-Lighting</string>
+    <string name="SID_AF_AREA_MODE">AF alanı modu</string>
+    <string name="SID_AF_DETECTION_SETTING">AF konu belirleme seçenekleri</string>
+    <string name="SID_AF_SUBJ_DETECT_OPT">AF konu belirleme seçenekleri</string>
+    <string name="SID_APERTURE">Diyafram</string>
+    <string name="SID_BRIGHTNESS">Parlaklık</string>
+    <string name="SID_CONTRAST">Kontrast</string>
+    <string name="SID_EXP">Pozlama telafisi</string>
+    <string name="SID_EXPOSURE_COMPENSATION_DIAL">Pozlama telafisi kadranı</string>
+    <string name="SID_FLICKER_REDUCTION_SHOOTING">Kırpışma azaltma çekimi</string>
+    <string name="SID_FOCUS_MODE">Netleme modu</string>
+    <string name="SID_HIGH_SENSITIVITY_NOISE_REDUCTION">Yüksek ISO KA</string>
+    <string name="SID_ISO_AUTO_CONTROL">Oto. ISO duyarlılığı kontrolü</string>
+    <string name="SID_ISO_LOW_SPEED">Minimum deklanşör hızı</string>
+    <string name="SID_ISO_MAX">Maksimum duyarlılık</string>
+    <string name="SID_ISO_SENSITIVITY">ISO duyarlılığı</string>
+    <string name="SID_ISO_SENSITIVITY_DIAL">ISO duyarlılığı kadranı</string>
+    <string name="SID_LONG_SEC_NOISE_REDUCTION">Uzun pozlama KA</string>
+    <string name="SID_LOW_LIGHT_AF">Düşük ışıklı AF</string>
+    <string name="SID_METERING">Ölçüm</string>
+    <string name="SID_MODE_SELECTOR">Mod seçici</string>
+    <string name="SID_PICTURE_CONTROL">Picture Control Ayarla</string>
+    <string name="SID_QUICK_SHARP">Hızlı keskinleştirme</string>
+    <string name="SID_RELEASE_MODE">Deklanşör modu</string>
+    <string name="SID_SATURATION">Doygunluk</string>
+    <string name="SID_SET_ADL_EX_HIGH">Çok yüksek</string>
+    <string name="SID_SET_ADL_EX_HIGH1">Çok yüksek 1</string>
+    <string name="SID_SET_ADL_EX_HIGH2">Çok yüksek 2</string>
+    <string name="SID_SET_ADL_HIGH">Yüksek</string>
+    <string name="SID_SET_ANIMAL">Hayvan</string>
+    <string name="SID_SET_AUTO">Otomatik</string>
+    <string name="SID_SET_AUTO_AREA">Otomatik alan AF</string>
+    <string name="SID_SET_AUTO_LEAVE_ATMOSPHERE">Genel atmosferi koru</string>
+    <string name="SID_SET_AUTO_PRIORITIZE_WHITE">Beyazı koru (sıcak renkleri azalt)</string>
+    <string name="SID_SET_CHOOSE_COLOR_TEMP">Renk sıcaklığı seç</string>
+    <string name="SID_SET_CONTINUOUS_AF">Sürekli AF</string>
+    <string name="SID_SET_DIRECT_SUN_LT">Doğrudan güneş ışığı</string>
+    <string name="SID_SET_HIGH_SPEED_CONTINUOUS_SHOOTING">Sürekli yüksek hız</string>
+    <string name="SID_SET_LANDSCAPE">Manzara</string>
+    <string name="SID_SET_LOW_SPEED_CONTINUOUS_SHOOTING">Sürekli yavaş hız</string>
+    <string name="SID_SET_NATURAL_LT_AUTO">Doğal ışık otomatik</string>
+    <string name="SID_SET_NOISE_REDUCTION_STANDARD">Normal</string>
+    <string name="SID_SET_NORMAL">Normal</string>
+    <string name="SID_SET_OFF">Kapalı</string>
+    <string name="SID_SET_ON">Açık</string>
+    <string name="SID_SET_ONE_FRAME_SHOOTING">Tek kare</string>
+    <string name="SID_SET_PEOPLE">İnsanlar</string>
+    <string name="SID_SET_PIN_PT">Hassas hedef AF</string>
+    <string name="SID_SET_SDR">SDR</string>
+    <string name="SID_SET_SINGLE_AF">Tek kare AF</string>
+    <string name="SID_SET_SINGLE_PT">Tek nokta AF</string>
+    <string name="SID_SET_SPORTS">Sport</string>
+    <string name="SID_SET_STANDARD">Standart</string>
+    <string name="SID_SET_VALID">Etkinleştir</string>
+    <string name="SID_SET_VIVID">Canlı</string>
+    <string name="SID_SET_WIDE_AREA_L">Geniş alan AF (L)</string>
+    <string name="SID_SHOOTING_MODE">Çekim modu</string>
+    <string name="SID_SHUTTER_SPEED">Enstantane hızı</string>
+    <string name="SID_SHUTTER_SPEED_DIAL">Poz süresi kadranı</string>
+    <string name="SID_TONE_MODE">Ton modu</string>
+    <string name="SID_VIBRATION_REDUCTION">Titreşim azaltma</string>
+    <string name="SID_WHITE_BALANCE">Beyaz dengesi</string>
+    <string name="SID_WHITE_BALANCE_AUTO">Beyaz dengesi - Otomatik tip</string>
+    <string name="TIPSID_HOWTO_USER_SETTING">Fotoğraf makinesine önceden kaydedilmişse sadece tek bir dokunuşla çekim moduna geçmenize olanak sağlayan kullanışlı işlevler vardır.</string>
+    <string name="TIPSID_MOTIF_AMUSEMENTPARK_NIGHT">"---Mod Giriş---
+ Gece gösterisini canlı renklerde yakalayın. Fotoğraf makinesi konu bulanıklığını en aza indirmek için enstantane hızını ayarlar ve sekanstan en iyi çekimi seçebilmeniz için bir sürekli deklanşör modu kullanır. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■İstediğiniz bir konuma netleme yapmak için:
+· Ekran üzerinde netleme alanına dokunun. 
+■Fotoğraf makinesi netleme yaparken sorun yaşıyorsa:
+· [Geniş alan AF (S)] ve [Geniş alan AF (L)] gibi daha geniş bir netleme alanına sahip AF alanı modu kullanın. 
+■Konu çok karanlıksa:
+· Pozlama telafisi için daha yüksek (daha pozitif) bir değer seçin. 
+■Konu çok parlaksa:
+· Pozlama telafisi için daha düşük (daha negatif) bir değer seçin. 
+■“Kumlanma”yı (rastgele dağılmış parlak pikseller formunda) daha az fark edilebilir hale getirmek için: 
+· Maksimum ISO duyarlılığı değerini ISO [3200] veya daha düşük bir değere ayarlayın."</string>
+    <string name="TIPSID_MOTIF_EATING">"---Mod Giriş---
+ Arka planı ve çevresi bulanık şekilde, doğal görünümlü renklerle ve parlaklıkla yiyecekleri yakalayın. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Fotoğraf makinesi netleme yapma konusunda sorun yaşıyorsa (netleme noktası yeşil olarak görüntülenmiyor): 
+· Konudan uzaklaşın (fotoğraf makinesi objektif üzerinde belirtilen minimum netleme mesafesinden daha yakın mesafede netleme yapamaz). 
+· [Tek nokta AF], [Geniş alan AF (S)] ve [Geniş alan AF (L)] gibi daha küçük bir netleme alanına sahip bir AF alanı modu kullanın. 
+■Konu çok karanlıksa:
+· Pozlama telafisi için daha yüksek (daha pozitif) bir değer seçin. 
+■Konu çok parlaksa:
+· Pozlama telafisi için daha düşük (daha negatif) bir değer seçin. 
+■Fotoğrafın rengini daha mavi hale getirmek için:
+· Beyaz dengesini [Ampul ışığı] olarak ayarlayın. 
+■Fotoğrafın rengini daha kırmızı hale getirmek için:
+· Beyaz dengesini [Bulutlu] veya [Gölge] olarak ayarlayın. 
+■Arka planı bulanıklaştırmak için:
+· Daha düşük alan derinliği ile çekim yapın. 
+· Daha düşük alan derinliği kullanmak için çekim ipuçları: 
+1) Konuya yaklaşın (Objektifte gösterilen minimum netleme mesafesinden daha uzakta durmayı unutmayın). 
+2) Küçük bir maksimum diyafram değerine (minimum f değeri) sahip bir objektif kullanın. 
+3) Bir telefoto objektif kullanın veya zoom objektifinde yakınlaştırın."</string>
+    <string name="TIPSID_MOTIF_EATING_OUT">"---Mod Girişi---
+ Doğal görünümlü renklerle ve parlaklıkla yiyecekleri yakalayın ve tabağın tamamını netlemede tutun. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Fotoğraf makinesi netleme yapma konusunda sorun yaşıyorsa (netleme noktası yeşil olarak görüntülenmiyor): 
+· Konudan uzaklaşın (fotoğraf makinesi objektif üzerinde belirtilen minimum netleme mesafesinden daha yakın mesafede netleme yapamaz). 
+· [Tek nokta AF], [Geniş alan AF (S)] ve [Geniş alan AF (L)] gibi daha küçük bir netleme alanına sahip bir AF alanı modu kullanın. 
+■Konu çok karanlıksa:
+· Pozlama telafisi için daha yüksek (daha pozitif) bir değer seçin. 
+■Konu çok parlaksa:
+· Pozlama telafisi için daha düşük (daha negatif) bir değer seçin. 
+■Fotoğrafın rengini daha mavi hale getirmek için:
+· Beyaz dengesini [Ampul ışığı] olarak ayarlayın. 
+■Fotoğrafın rengini daha kırmızı hale getirmek için:
+· Beyaz dengesini [Bulutlu] veya [Gölge] olarak ayarlayın."</string>
+    <string name="TIPSID_MOTIF_FOR_AUCTION">"---Mode Giriş---
+ Yüksek kontrastlı, canlı renklere sahip ve genel keskin netlemeyle açık artırmaya uygun resimler yakalayın. 
+ 
+---Çekim Teknikleri---
+■Arka planı bulanıklaştırmak ve ürünün net bir çekimini yapmak için:
+· [Küçük nesneler] öğesini kullanın. 
+■Fotoğraf makinesi bulanıklığını en aza indirmek için:
+· Fotoğraf makinesini sabitlemek için bir tripod, bir masa veya başka yöntemler kullanın veya dirseklerinizi göğsünüzün kenarlarına yaslayarak fotoğraf makinesini sıkıca tutun. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Fotoğraf makinesi netleme yapma konusunda sorun yaşıyorsa (netleme noktası yeşil olarak görüntülenmiyor): 
+· Konudan uzaklaşın (fotoğraf makinesi objektif üzerinde belirtilen minimum netleme mesafesinden daha yakın mesafede netleme yapamaz). 
+■Hem ürünü hem de arka planı net bir şekilde çekmek için: 
+· f/11 gibi daha küçük (daha dar) bir diyafram değeri ayarlayın. 
+■Konunun ön plana çıkmasını sağlayan resimler çekmek için:
+· Doğal ışığın konuya nasıl ulaştığını ayarlayın veya konu istediğiniz gibi aydınlatılacak şekilde spot ışıklarının yönünü değiştirin."</string>
+    <string name="TIPSID_MOTIF_MAGIC_HOUR">"---Mod Giriş---
+ Akşam manzarasının kırmızılığını yakalayın. Otomatik netleme, karanlık ortamlarda bile netlemeyi kolaylaştırmak için ayarlanır. 
+ 
+---Çekim Teknikleri---
+■Fotoğraf makinesi bulanıklığını en aza indirmek için:
+· Fotoğraf makinesini sabitlemek amacıyla bir tripod, bir masa veya bir çit kullanın ya da dirseklerinizi göğsünüzün yan taraflarına yaslayarak fotoğraf makinesini sıkıca tutun.
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Manzara görüntüde gözünüze göründüğünden daha parlak görünüyorsa:
+· Pozlama telafisi için daha düşük (daha negatif) değer seçin. 
+■Manzara görüntüde, gözünüze görünenden daha karanlık görünüyorsa:
+· Pozlama telafisi için daha yüksek (daha pozitif) bir değer seçin. 
+■Gün batımının kırmızılığını vurgulamak için:
+· Beyaz dengesini [Bulutlu] veya [Gölge] olarak ayarlayın. 
+■Yüksek kontrastlı sahnelerde parlak noktalardaki ve gölgelerdeki detayları korumak için:
+· Etkin D-Lighting’i [Çok yüksek] olarak ayarlayın."</string>
+    <string name="TIPSID_MOTIF_NATURE">"---Mod Giriş---
+ Dağlar ve ormanlar gibi manzaraların doğal tonlu ve renkli resimlerini çekin. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■İstediğiniz bir konuma netleme yapmak için:
+· Ekran üzerinde netleme yapılacak alana dokunun. 
+■Yüksek kontrastlı sahnelerde parlak noktalardaki ve gölgelerdeki detayları korumak için:
+· Etkin D-Lighting’i [Çok yüksek] olarak ayarlayın."</string>
+    <string name="TIPSID_MOTIF_NIGHT">"---Mod Giriş---
+ Net, canlı renkli gece manzaralarını yakalayın. 
+ 
+---Çekim Teknikleri---
+■Fotoğraf makinesi bulanıklığını en aza indirmek için:
+· Fotoğraf makinesini sabitlemek amacıyla bir tripod, bir masa veya bir çit kullanın ya da dirseklerinizi göğsünüzün yan taraflarına yaslayarak fotoğraf makinesini sıkıca tutun.
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■İstediğiniz bir konuma netleme yapmak için:
+· Ekranda netleme yapılacak alana dokunun. 
+· Fotoğraf makinesinin netleme noktasını netleme yapılacak alanın üzerine konumlandırın ve netlemeyi kilitlemek için deklanşöre yarım basın. Düğmeyi basılı tutarken fotoğrafı yeniden düzenleyin ve çekin. 
+■Fotoğraf makinesi netleme yaparken sorun yaşıyorsa:
+· [Geniş alan AF (S)] ve [Geniş alan AF (L)] gibi daha geniş bir netleme alanına sahip AF alanı modu kullanın. 
+· Kontrastlı bir konumda, netlemeyi kilitlemek için deklanşöre yarım basın, ardından kompozisyonu değiştirin ve çekin. 
+· Manuel netleme yapın. 
+■Konu çok parlak olduğunda:
+· Ekranı izlerken, pozlama telafisi için daha düşük (daha negatif) bir değer seçerek pozlamayı istediğiniz gibi ayarlayın. 
+■“Kumlanma”yı daha az fark edilir hale getirmek için:
+· Fotoğraf makinesini bir tripod veya başka bir yöntem kullanarak sabitleyin ve ISO duyarlılığını ISO [400] veya daha düşük bir değere ayarlayın. 
+■Fotoğrafın rengini daha mavi hale getirmek için:
+· Beyaz dengesini [Ampul ışığı] olarak ayarlayın.
+■Fotoğrafın rengini daha kırmızı hale getirmek için:
+· Beyaz dengesini [Bulutlu] veya [Gölge] olarak ayarlayın."</string>
+    <string name="TIPSID_MOTIF_PERSON_NIGHT">"---Mod Giriş---
+ Arka planda gece manzarası ile portre konuları ile gece manzarasının dengeli fotoğraflarını çekin. Otomatik netleme, karanlık ortamlarda netlemeyi kolaylaştırmak için ayarlanır. 
+ 
+---Çekim Teknikleri---
+■Netlemede resimler çekmek ve konu bulanıklığını en aza indirmek için:
+· Bir flaş veya LED ışık kullanın veya konunun yüzünü aydınlatmak için sokak lambalarının yanındaki bir konuma geçin. 
+· Az ışıklı koşullarda, bir tripod kullanın veya fotoğraf makinesini bir masa gibi düz bir yüzey üzerinde sabitleyin.
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Kumlanmayı azaltmak için:
+· Fotoğraf makinesini bir tripod veya masa gibi düz bir yüzey üzerine sabitleyin ve [ISO duyarlılığı ayarları] > [Maksimum duyarlılık] için ISO [3200] veya daha düşük bir değer seçin."</string>
+    <string name="TIPSID_MOTIF_PET_INDOOR">"---Mod Giriş---
+ Doğal görünümlü renklerle evcil hayvanları yakalayın. Fotoğraf makinesi netlemeyi konunun hareketine göre sürekli olarak ayarlarken ve sürekli yavaş hızlı deklanşör modunda arka arkaya çekimler yaparken en iyi anı çekin. Arka plan bulanık veya netlemede olabilir. 
+ 
+---Çekim Teknikleri---
+■Evcil hayvanınızın en iyi ifadesini yakalamak için:
+· Fotoğraf makinesini evcil hayvanınızın göz seviyesine göre düşük bir açıda tutun. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Konuyu netlemede tutmak için:
+· Fotoğraf makinesini konulara doğru yönelterek deklanşöre yarım basmak yüzlerde veya gözlerde sarı kenarlıklar görüntüleyecek ve netlemeyi konu üzerinde kilitleyecektir. 
+■En iyi anı yakalamak için: 
+· Çekim sırasında, netleme noktasını konunun üzerine konumlandırarak ve fotoğraf makinesinin anı yakalaması için düşük hızlı bir arka arkaya çekim başlatmasına olanak sağlamak için deklanşörü basılı tutarak, konunun ani hareketine hazırlanın. 
+■Arka planı bulanıklaştırmak için:
+· Daha düşük alan derinliği ile çekim yapın. 
+· Daha düşük alan derinliği kullanmak için çekim ipuçları: 
+1) Konuya yaklaşın (Objektifte gösterilen minimum netleme mesafesinden daha uzakta durmayı unutmayın). 
+2) Küçük bir maksimum diyafram değerine (minimum f değeri) sahip bir objektif kullanın. 
+3) Bir telefoto objektif kullanın veya zoom objektifinde yakınlaştırın."</string>
+    <string name="TIPSID_MOTIF_PET_OUTDOOR">"---Mod Giriş---
+ Konu bulanıklığını en aza indirmek için kısa poz süreleri kullanarak hızlı hareket eden evcil hayvanların net resimlerini çekin. Fotoğraf makinesi netlemeyi konunun hareketine göre sürekli olarak ayarlarken ve sürekli yüksek hızlı deklanşör modunda arka arkaya çekimler yaparken evcil hayvanların en küçük hareketini bile yakalayın. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Konuyu netlemede tutmak için:
+· Fotoğraf makinesini konulara doğru yönelterek deklanşöre yarım basmak yüzlerde veya gözlerde sarı kenarlıklar görüntüleyecek ve netlemeyi konu üzerinde kilitleyecektir. 
+■Konu hareket bulanıklığına neden olduğunda: 
+· Çekim (pozlama) modu için S öğesini seçin ve daha kısa enstantane hızları ayarlayın (örneğin, [1/2000 s]). 
+■Çevik bir hareket anın yakalamak için:
+· Netleme noktasını etkin olarak hareket eden konunun üzerine konumlandırın ve fotoğraf makinesinin anı yakalamak için yüksek hızlı bir arka arkaya çekim başlatmasına olanak sağlamak için deklanşörü basılı tutun."</string>
+    <string name="TIPSID_MOTIF_PLANT">"---Mod Giriş---
+ Çiçeklerin canlı resimlerini çekin. Çevredeki çiçeklerin de netlemede olması için arka plan bulanık veya net hale getirilebilir. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■İstediğiniz bir konuma netleme yapmak için:
+· Ekran üzerinde netleme yapılacak alana dokunun. 
+■Fotoğraf makinesi netleme yaparken sorun yaşıyorsa:
+· [Tek nokta AF], [Geniş alan AF (S)] ve [Geniş alan AF (L)] gibi daha geniş bir netleme alanına sahip AF alanı modu kullanın. 
+· Kontrastlı bir konumda, netlemeyi kilitlemek için deklanşöre yarım basın, ardından kompozisyonu değiştirin ve çekin. 
+· Manuel netleme yapın. 
+■Arka planı bulanıklaştırmak için:
+· Daha düşük alan derinliği ile çekim yapın. 
+· Daha düşük alan derinliği kullanmak için çekim ipuçları: 
+1) Konuya yaklaşın (Objektifte gösterilen minimum netleme mesafesinden daha uzakta durmayı unutmayın). 
+2) Küçük bir maksimum diyafram değerine (minimum f değeri) sahip bir objektif kullanın. 
+3) Bir telefoto objektif kullanın veya zoom objektifinde yakınlaştırın. 
+■Çiçeklerin yakın plan fotoğraflarını çekmek için:
+· Bir makro objektif kullanmak yakındaki konulara netleme yapmayı kolaylaştırarak, küçük ayrıntılara sahip büyütülmüş fotoğrafların çekilmesini sağlar. 
+· Telefoto objektif kullanmak veya bir zoom objektifinde yakınlaştırmak, bulanık bir arka plan ile çiçeklerin yakın plan fotoğraflarını çok yaklaşmadan çekmenize olanak sağlar. 
+■Manzara görüntüde, gözünüze görünenden daha karanlık görünüyorsa:
+· Pozlama telafisi için daha yüksek (daha pozitif) bir değer seçin. 
+■Manzara görüntüde, gözünüze görünenden daha parlak görünüyorsa:
+· Pozlama telafisi için daha düşük (daha negatif) bir değer seçin."</string>
+    <string name="TIPSID_MOTIF_PORTRAIT">"---Mod Giriş---
+ Yumuşak bir cilt tonuna ve doğal görünüme sahip portre resimleri çekin. Arka plan bulanık veya netlemede olabilir. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Portre konularını netlemede tutmak için:
+· Fotoğraf makinesini konulara doğru yönelterek deklanşöre yarım basmak netlemeyi kilitlemek için yüzlerde veya gözlerde sarı kenarlıklar görüntüleyecektir. 
+■Arka planı bulanıklaştırmak için:
+· Daha düşük alan derinliği ile çekim yapın. 
+· Daha düşük alan derinliği için çekim ipuçları: 
+1) Konuya yaklaşın (objektifte gösterilen minimum netleme mesafesinden daha uzakta). 
+2) Küçük bir maksimum diyafram değerine (minimum f değeri) sahip bir objektif kullanın. 
+3) Bir telefoto objektif kullanın veya zoom objektifinde yakınlaştırın."</string>
+    <string name="TIPSID_MOTIF_RECORDS">"---Mod Giriş---
+ Arka planları ile birlikte doğal renkli portre resimleri çekin. Arka plan bulanık veya netlemede olabilir. 
+ 
+---Çekim Teknikleri---
+■Gözü kapalı çıkan çekimleri önlemek için:
+· Herhangi birinin gözlerini kapatıp kapatmadığını görmek için resmi görüntüleyin.
+· Bir sürekli deklanşör modu seçin, ardından birden fazla fotoğraf çekmek için deklanşörü basılı tutun. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Portre konularını netlemede tutun:
+· Fotoğraf makinesini konulara doğru yönelterek deklanşöre yarım basmak netlemeyi kilitlemek için yüzlerde veya gözlerde sarı kenarlıklar görüntüleyecektir."</string>
+    <string name="TIPSID_MOTIF_RELATIVES">"---Mod Giriş---
+ Arkadan aydınlatma veya diğer nedenlerden dolayı, konu ile arka plan arasında parlaklık farkı olan sahnelerde portre konusunun karanlık görünmesini engelleyin. 
+ 
+---Fotoğraf Makinesi İşlem İpuçları---
+■Portre konusu çok karanlık görünüyorsa:
+· Pozlama telafisi için daha yüksek (daha pozitif) bir değer seçin. 
+■Portre konusu çok parlak görünüyorsa:
+· Pozlama telafisi için daha düşük (daha negatif) bir değer seçin. 
+■Görüntü grenli görünüyorsa (örneğin, ISO duyarlılığı yüksek olduğunda):
+· Etkin D-Lighting’i [Normal] veya [Düşük] olarak ayarlayın."</string>
+    <string name="TIPSID_MOTIF_RIVER">"---Mod Giriş---
+ Bir nehir veya şelaledeki suyun hareketini veya su damlacıklarının hareketini dondurun ya da akan suyun izini yakalayın. 
+ 
+---Çekim Teknikleri---
+■Fotoğraf makinesi bulanıklığını en aza indirmek için:
+· Akan suyun izini yakalamak için fotoğraf makinesini sabitlemek amacıyla bir tripod, bir masa veya bir çit kullanın ya da dirseklerinizi göğsünüzün yan taraflarına yaslayarak fotoğraf makinesini sıkıca tutun.
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Hızlı akan suyun hareketini dondurmak için:
+· [“Dondurma” hareketi] öğesini seçin ve daha kısa enstantane hızları (örneğin, [1/250 s] veya [1/500 s]) ayarlayın. 
+■Akan suyun daha uzun bir izini yakalamak için:
+· [Hareket izleri oluşturun] öğesini seçin ve daha yavaş enstantane hızları (örneğin [2 s] veya [4 s]; tripod kullanımı önerilir) ayarlayın."</string>
+    <string name="TIPSID_MOTIF_SELFY">"---Mode Giriş---
+ Arka planı doğal bir şekilde içeren kendi resmim resimleri çekin. Arka plan bulanık veya netlemede olabilir. 
+ 
+---Çekim Teknikleri---
+■İyi bir göz teması ile resimler çekmek için:
+· Bir resim çekerken, size doğru bakan ekranın ortası yerine objektifin ortasına bakın. 
+■Arka plan manzarasını ve çevredeki ortamı net bir şekilde göstermek için: 
+· Daha geniş bir görüş açısı dahil etmek için geniş açılı bir lens kullanın veya bir zoom objektifi ile uzaklaştırın, böylece arka planın ve çevredeki ortamın gösterilmesi kolaylaşacaktır. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Portre konularını netlemede tutmak için:
+· Fotoğraf makinesini konulara doğru yönelterek deklanşöre yarım basmak yüzlerde veya gözlerde sarı kenarlıklar görüntüleyecek ve netlemeyi kilitleyecektir."</string>
+    <string name="TIPSID_MOTIF_SMALL_ITEMS">"---Mod Giriş---
+ Arka planı bulanık bir şekilde yüksek kontrastlı, canlı renklere sahip el yapımı eşyaları veya dekoratif nesneleri yakalayın. 
+ 
+---Çekim Teknikleri---
+■Konunun ön plana çıkmasını sağlayan resimler çekmek için:
+· Doğal ışığın konuya nasıl ulaştığını ayarlayın veya konu istediğiniz gibi aydınlatılacak şekilde spot ışıklarının yönünü değiştirin. 
+■Hem ürünün hem de arka planının net bir çekimini yapmak için: 
+· [Çevrimiçi açık artırmalar] seçeneğini kullanın. 
+■Fotoğraf makinesi bulanıklığını en aza indirmek için:
+· Fotoğraf makinesini sabitlemek için bir tripod, bir masa veya başka yöntemler kullanın veya dirseklerinizi göğsünüzün kenarlarına yaslayarak fotoğraf makinesini sıkıca tutun. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Fotoğraf makinesi netleme yapma konusunda sorun yaşıyorsa (netleme noktası yeşil olarak görüntülenmiyor): 
+· Konudan uzaklaşın (fotoğraf makinesi objektif üzerinde belirtilen minimum netleme mesafesinden daha yakın mesafede netleme yapamaz). 
+■Arka planı bulanıklaştırmak için:
+· Daha düşük alan derinliği ile çekim yapın. 
+· Daha düşük alan derinliği kullanmak için çekim ipuçları: 
+1) Konuya yaklaşın (Objektifte gösterilen minimum netleme mesafesinden daha uzakta durmayı unutmayın). 
+2) Küçük bir maksimum diyafram değerine (minimum f değeri) sahip bir objektif kullanın. 
+3) Bir telefoto objektif kullanın veya zoom objektifinde yakınlaştırın. 
+■Konunun yakın plan fotoğraflarını çekmek için:
+· Bir makro objektif kullanmak yakındaki konulara netleme yapmayı kolaylaştırarak, net ve küçük ayrıntılara sahip büyütülmüş fotoğraflara olanak sağlar. 
+· Telefoto objektif kullanmak veya bir zoom objektifinde yakınlaştırmak, bulanık bir arka plan ile konunun yakın plan fotoğraflarını çok yaklaşmadan çekmenize olanak sağlar."</string>
+    <string name="TIPSID_MOTIF_SPORTS_INDOOR">"---Mod Giriş---
+ Kapalı mekanlarda spor yapan konuların doğal görünümlü renklere sahip resimlerini çekin. ISO duyarlılığı artırın ve hareket bulanıklığını önlemek için kısa bir poz süresi ayarlayın. Fotoğraf makinesini arka arkaya çalıştırarak en küçük hareketi bile yakalayın ve netlemeyi konunun hareketine göre sürekli olarak ayarlayın. 
+ 
+---Çekim Teknikleri---
+■Etkileyici çekimler yapmak için:
+· Bir telefoto objektif kullanın (örneğin, odak uzunluğu 200 mm).
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Koyu iç mekanlar için:
+· Daha yüksek bir ISO duyarlılığı değeri seçin. 
+■Bir portre konusunun hareketini yakalamak için:
+· Konuyu izlerken, arka arkaya çekim yapmak için deklanşörü basılı tutun. 
+· Fotoğraf makinesini istediğiniz kompozisyonda tutun ve konu görünüme girdiğinde, arka arkaya çekimler yapmak için deklanşörü basılı tutun. 
+■Konu hareket bulanıklığına neden olduğunda: 
+· Çekim (pozlama) modu için S öğesini seçin ve daha kısa enstantane süreleri ayarlayın (örneğin, [1/2000 s])."</string>
+    <string name="TIPSID_MOTIF_SPORTS_OUTDOOR">"---Mod Giriş---
+ Fotoğraf makinesini arka arkaya çalıştırarak ve netlemeyi portre konusunun hareketine göre sürekli olarak ayarlayarak en iyi anda çekim yapın. Açık havada spor yapan portre konularının hareket akışını yakalayın veya hareketini dondurun. 
+ 
+---Çekim Teknikleri---
+■Etkileyici çekimler yapmak için:
+· Bir telefoto objektif kullanın (örneğin, 200 mm’lik odak uzaklığına sahip).
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Bir portre konusunun hareketini yakalamak için:
+· Konuyu izlerken, arka arkaya çekimler yapmak için deklanşörü basılı tutun. 
+· Fotoğraf makinesini istediğiniz kompozisyonda tutun ve konu görünüme girdiğinde, arka arkaya çekimler yapmak için deklanşörü basılı tutun. 
+■Daha kolay netleme için: 
+· Konunun çerçeveye gireceği konuma yakın bir konuma önceden netleme yapın. 
+■Konu hareket bulanıklığına neden olduğunda: 
+· Daha kısa enstantane hızları seçin (örneğin, [1/2000 s])."</string>
+    <string name="TIPSID_MOTIF_STARS">"---Mod Giriş---
+ Yıldızlı gökyüzünü yakalayın. Fotoğraf makinesi, ayarlanan bir süre boyunca deklanşörü açık tutmak üzere enstantane hızını ayarlar. 
+ 
+---Çekim Teknikleri---
+■Fotoğraf makinesi bulanıklığını en aza indirmek için:
+· Fotoğraf makinesini bir tripoda sabitleyin ve otomatik zamanlama ile resimler çekin. 
+■Ortam manzarasını yıldızlı gökyüzü fotoğraflarına dahil etmek için:
+· Geniş açılı bir objektif kullanın veya bir zoom objektifinde uzaklaştırın. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■“Kumlanma”yı (rastgele dağılmış parlak pikseller formunda) daha az fark edilir hale getirmek için:
+· Küçük bir maksimum diyafram değerine (minimum f değeri) sahip bir fast prime objektif kullanın. 
+■Konu çok karanlıksa:
+· Yüksek ISO duyarlılığı değeri ayarlayın (örneğin, ISO [6400] veya üzeri). 
+■Konu çok parlaksa:
+· Düşük ISO duyarlılığı değeri ayarlayın (örneğin, ISO [400] veya altı)."</string>
+    <string name="TIPSID_MOTIF_STREET">"---Mod Giriş---
+ Tonları ve renkleri dengeli mimari ve şehir manzarası fotoğrafları çekin. 
+ 
+---Çekim Teknikleri---
+■Fotoğraf makinesi bulanıklığını en aza indirmek için:
+· Fotoğraf makinesini sabitlemek için bir tripod, bir masa veya bir çit kullanın veya dirseklerinizi göğsünüzün kenarlarına yaslayarak fotoğraf makinesini sıkıca tutun. 
+· Fotoğraf makinesi bir tripod veya başka bir yöntem kullanılarak sabitlendiğinde [Titreşim azaltma] seçeneğini kapatın. 
+■Binaların ve şehir manzaralarının resimlerini geniş bir görüş açısı ile çekmek için:
+· Bir geniş açılı objektif kullanın veya bir zoom objektifinde uzaklaştırın."</string>
+    <string name="TIPSID_MOTIF_TREE_VIEWING">"---Mod Giriş---
+ Kiraz ağacı çiçeklerini doğal renklerde yakalayın. 
+ 
+---Fotoğraf Makinesi Kullanım İpuçları---
+■Fotoğraf makinesi netleme yaparken sorun yaşıyorsa (netleme noktası yeşil görüntülenmiyor):
+· [Tek nokta AF], [Geniş alan AF (S)] ve [Geniş alan AF (L)] gibi daha küçük bir netleme alanına sahip bir AF alanı modu kullanın. 
+■Konu çok karanlıksa:
+· Pozlama telafisi için daha yüksek (daha pozitif) bir değer seçin. 
+■Konu çok parlaksa:
+· Pozlama telafisi için daha düşük (daha negatif) bir değer seçin. 
+■Canlı renkleri yakalamak için:
+· Picture Control'ü [Manzara] veya [Canlı] olarak ayarlayın."</string>
+    <string name="abc_action_bar_home_description">Eve gidiş yolunu göster</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="abc_action_mode_done">Bitti</string>
+    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
+    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
+    <string name="abc_capital_off">KAPAT</string>
+    <string name="abc_capital_on">AÇ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">sil</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Üst Karakter+</string>
+    <string name="abc_menu_space_shortcut_label">boşluk</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menü+</string>
+    <string name="abc_search_hint">Ara…</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_query">Arama sorgusu</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_shareactionprovider_share_with">Şununla paylaş:</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
+    <string name="abc_toolbar_collapse_description">Daralt</string>
+    <string name="app_name">SnapBridge</string>
+    <string name="auto_upload_text0">İptal</string>
+    <string name="auto_upload_text1">Yalnızca Wi-Fi</string>
+    <string name="auto_upload_text1_min">Wi-Fi</string>
+    <string name="auto_upload_text2">Her zaman</string>
+    <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
+    <string name="call_notification_answer_action">Yanıtla</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Reddet</string>
+    <string name="call_notification_hang_up_action">Kapat</string>
+    <string name="call_notification_incoming_text">Gelen arama</string>
+    <string name="call_notification_ongoing_text">Devam eden arama</string>
+    <string name="call_notification_screening_text">Gelen arama süzülüyor</string>
+    <string name="camera0_change">Fotoğraf makineleri arasında geçiş yap</string>
+    <string name="camera0_connect_type0_title">Fotoğraf makinesi sinyal aralığının dışında</string>
+    <string name="camera0_connect_type1_text">Görüntüler şu anda fotoğraf makinesinden Wi-Fi üzerinden indiriliyor.</string>
+    <string name="camera0_connect_type1_title">Wi-Fi üzerinden indirme devam ediyor</string>
+    <string name="camera0_connect_type2_text">“Otomatik indir”, “Konum verileri” veya “Saatler” seçeneklerini kullanmak için Bluetooth’a geçiş yapın.</string>
+    <string name="camera0_connect_type2_title">Etkin bir Wi-Fi bağlantısı var. Wi-Fi bağlantısı sonlandırılsın mı?</string>
+    <string name="camera0_connect_type3_text">Görüntüler şu anda fotoğraf makinesinden Bluetooth üzerinden indiriliyor.</string>
+    <string name="camera0_connect_type3_title">Bluetooth üzerinden indirme devam ediyor</string>
+    <string name="camera0_connect_type4_title">Bluetooth üzerinden Bağlandı</string>
+    <string name="camera0_connect_type5_title">Bluetooth bağlantısı için bekleniyor</string>
+    <string name="camera0_connect_type6_title">Fotoğraf makinesi ile Wi-Fi bağlantısı koptu</string>
+    <string name="camera0_delete">Fotoğraf makinesini unut</string>
+    <string name="camera0_nfc_text">Eşleştirmeye başla?</string>
+    <string name="camera10_cell1_title">Eşleme (Bluetooth)</string>
+    <string name="camera10_title">Bağlantı tipi</string>
+    <string name="camera1_sync_location_info0">"Kişisel bilgiler, fotoğraf makinesiyle çekilen resimlerle kaydedilen konum verilerinden çıkarılabilir.
+İnternete veya diğer yerlere görüntüler gönderirken, üçüncü partiler tarafından görüntülenebilecekleri için dikkatli olun.
+Ayrıca bazı ülkeler veri sistemlerinin kullanımı sınırlar; seyahat etmeden önce seyahat acentenizle veya ziyaret edeceğiniz ülkenin elçiliği veya turizm yönetimi ile kontrol edin."</string>
+    <string name="camera1_sync_location_info1">Konumunuza bağlı olarak konum verilerini almak ve senkronize etmek için biraz zaman gerekebilir.</string>
+    <string name="camera2_camera_none">Karşılık gelen fotoğraf makinesi yok</string>
+    <string name="camera3_nfc_error0">SnapBridge, en fazla 5 fotoğraf makinesi için eşleşme bilgilerini depolayabilir</string>
+    <string name="camera3_nfc_error1">Bu cihazla zaten eşleştirilmiş</string>
+    <string name="camera3_nfc_title">Fotoğraf makinesinden NFC sinyali alınıyor</string>
+    <string name="camera3_searching">Arıyor…</string>
+    <string name="camera4_btn_text">Seçenekleri görüntüle</string>
+    <string name="camera4_title">Fotoğraf Makinesi ve Wi-Fi bağlantısı</string>
+    <string name="camera5_btn_close">Anlaşıldı</string>
+    <string name="camera5_lbl_text">"Ekrandaki talimatları izleyerek fotoğraf makinesi adını seçin ve “Eşle” öğesine dokunun.
+
+Eşleştirmeyi tamamlamak için fotoğraf makinesi “OK” düğmesine basın."</string>
+    <string name="camera6_pairing">Eşleştirme devam ediyor</string>
+    <string name="camera7_list_title">Eşleştirilecek fotoğraf makinesinin adını seçin.</string>
+    <string name="camera7_text">"Fotoğraf makinesinden iletim alınıyor.
+Aşağıdaki listeden fotoğraf makinesi ekranında görüntülenen adı seçin."</string>
+    <string name="camera_dialog_wifi_unsupport_text">Fotoğraf makinesi Wi-Fi üzerinden bağlanamıyor; uzaktan çekim kullanılamaz.</string>
+    <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
+    <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
+    <string name="clear_text_end_icon_content_description">Metni temizle</string>
+    <string name="close_drawer">Gezinme menüsünü kapat</string>
+    <string name="close_sheet">Sayfayı kapat</string>
+    <string name="cloud0_nis_link">NIKON IMAGE SPACE nedir?</string>
+    <string name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string name="common_google_play_services_update_button">Güncelle</string>
+    <string name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_pairing">Eşleştirme</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
+    <string name="copy_toast_msg">Bağlantı panoya kopyalandı</string>
+    <string name="default_error_message">Geçersiz giriş</string>
+    <string name="dialog_pairing_text">Nikon ID’ye kaydolmadan önce akıllı cihazınızı fotoğraf makinesiyle eşleştirmeniz gerekiyor. Eşleştirilsin mi?</string>
+    <string name="error_icon_content_description">Hata</string>
+    <string name="error_remote2">Fotoğraf makinesinde resim kalitesi için RAW ve TIFF seçili. Fotoğraflar uzaktan çekilebilir ancak akıllı cihaza indirilmeyecektir.</string>
+    <string name="error_remote3">Fotoğraf makinesi uzun süre pozlama için yapılandırılmış; uzaktan çekim kullanılamaz.</string>
+    <string name="error_remote4">Fotoğraf makinesi enstantane hızı flaş senkr hızı olarak ayarlanmış; uzak çekim kullanılamaz.</string>
+    <string name="error_remote5">Fotoğraf makinesi uzun pozlama çekimi için yapılandırılmış; canlı görüntü kapalı. Süreli bir pozlama kaydetmek istiyor musunuz?</string>
+    <string name="error_remote6">Süreli bir pozlama kaydetmek istiyor musunuz?</string>
+    <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
+    <string name="fallback_menu_item_copy_link">Bağlantıyı kopyala</string>
+    <string name="fallback_menu_item_open_in_browser">Tarayıcıda aç</string>
+    <string name="fallback_menu_item_share_link">Bağlantıyı paylaş</string>
+    <string name="gallery1_blank_text">İndirilen görüntüler görüntülenecektir.</string>
+    <string name="gallery1_blank_title">Fotoğraf makinesini bağlayın ve görüntüleri indirin</string>
+    <string name="gallery_dialog_delete_text">Görüntü(ler) silinsin mi?</string>
+    <string name="gcm_fallback_notification_channel_label">Çeşitli</string>
+    <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string name="in_progress">Devam ediyor</string>
+    <string name="indeterminate">Ne işaretli ne de işaretli değil</string>
+    <string name="installation_cancelled">Yükleme iptal edildi.</string>
+    <string name="installation_failed">Yükleme başarısız oldu.</string>
+    <string name="installing_module">Modül yükleniyor:</string>
+    <string name="item_view_role_description">Sekme</string>
+    <string name="material_clock_toggle_content_description">"ÖÖ veya ÖS'yi seçin"</string>
+    <string name="material_hour_selection">Saat seçin</string>
+    <string name="material_hour_suffix">Saat %1$s</string>
+    <string name="material_minute_selection">Dakikayı seçin</string>
+    <string name="material_minute_suffix">%1$s dakika</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Zaman girişi için saat moduna geçin.</string>
+    <string name="material_timepicker_hour">Saat</string>
+    <string name="material_timepicker_minute">Dakika</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Zamanı seçin</string>
+    <string name="material_timepicker_text_input_mode_description">Zaman girişi için metin girişi moduna geçin.</string>
+    <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d adetten fazla yeni bildirim</string>
+    <string name="mtrl_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="mtrl_picker_a11y_prev_month">Önceki aya değiştir</string>
+    <string name="mtrl_picker_announce_current_selection">Geçerli seçim: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Tarih Seçin</string>
+    <string name="mtrl_picker_date_header_unselected">Seçilen tarih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Geçersiz biçim.</string>
+    <string name="mtrl_picker_invalid_format_example">Örnek: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Tarih biçimi: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Geçersiz aralık.</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s yılına git</string>
+    <string name="mtrl_picker_out_of_range">İzin verilen aralığın dışında: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Başlangıç tarihi – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Bitiş tarihi</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Aralık Seçin</string>
+    <string name="mtrl_picker_range_header_unselected">Başlangıç tarihi - Bitiş tarihi</string>
+    <string name="mtrl_picker_save">Kaydet</string>
+    <string name="mtrl_picker_text_input_date_hint">Tarih</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Bitiş tarihi</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Başlangıç tarihi</string>
+    <string name="mtrl_picker_text_input_day_abbr">g</string>
+    <string name="mtrl_picker_text_input_month_abbr">a</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Takvim giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string name="mynikon0_btn_install">Yükle</string>
+    <string name="mynikon0_btn_launch">Başlat</string>
+    <string name="mynikon0_date_format">dd.MM.yyyy</string>
+    <string name="mynikon0_tab0">Fotoğraf Yaşamı</string>
+    <string name="mynikon0_tab1">Haberler</string>
+    <string name="mynikon0_tab2">Uygulama</string>
+    <string name="nav_app_bar_navigate_up_description">Yukarı git</string>
+    <string name="nav_app_bar_open_drawer_description">Gezinme çekmecesini aç</string>
+    <string name="navigation_menu">Gezinme menüsü</string>
+    <string name="none0">-</string>
+    <string name="none1">- / -</string>
+    <string name="none2">- -</string>
+    <string name="not_selected">Seçili değil</string>
+    <string name="off">Kapalı</string>
+    <string name="ok">Tamam</string>
+    <string name="on">Açık</string>
+    <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string name="progress">İlerleme durumu:</string>
+    <string name="receive_progress_cancel">İndirme fotoğraf makinesinden iptal edildi.</string>
+    <string name="regist0_nikon_id_login">Nikon ID girişi</string>
+    <string name="regist0_or">Veya</string>
+    <string name="regist4_next">Kaydol</string>
+    <string name="remote1_time_text0">Uzun süre pozlamaya başlamak için deklanşöre basın</string>
+    <string name="remote1_time_text1">Uzun süre pozlamayı sonlandırmak için deklanşöre basın</string>
+    <string name="remote1_wb0">Otomatik</string>
+    <string name="remote2_btn_item0">Görüntü indirme seçenekleri</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="review_btn_link">Öneriler</string>
+    <string name="review_btn_no">Kötü</string>
+    <string name="review_btn_yes">İyi</string>
+    <string name="review_text0">"SnapBridge’i kullandığınız için teşekkür ederim.
+Lütfen bu uygulamaya puan verin."</string>
+    <string name="review_text1">Bu uygulama ile ilgili önerileriniz veya düşünceleriniz varsa bize ulaşın veya aşağıdaki listeyi kontrol edin.</string>
+    <string name="review_title">"SnapBridge'e Puan Verin"</string>
+    <string name="search_menu_title">Ara</string>
+    <string name="selected">Seçili</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">Sekme</string>
+    <string name="template_percent">Yüzde %1$d.</string>
+    <string name="tutorial5_info1">Ayarlar her zaman değiştirilebilir.</string>
+    <string name="tutorial5_next">Bitti</string>
+    <string name="warning_liveview0">ISO duyarlılığı: Seçilen seçenek uzak çekim sırasında kullanılamaz. Duyarlılık ISO 100 veya 25600 değerine ayarlanacaktır.</string>
+    <string name="warning_liveview0_ISO_800">ISO duyarlılığı: Seçilen seçenek uzak çekim sırasında kullanılamaz. Duyarlılık ISO 800 veya 25600 değerine ayarlanacaktır.</string>
+    <string name="warning_liveview0_SHUTTER_MODE">Deklanşör modu: Bu ayar, diğer seçenek uzak çekimde desteklenmediği için [Enstantane hızı] olarak değişecektir.</string>
+    <string name="warning_liveview1">Beyaz dengesi: Seçilen seçenek uzak çekim sırasında kullanılamaz. Onun yerine otomatik beyaz dengesi kullanılacaktır.</string>
+    <string name="transfer_queue_status">İlerleme %1$d/%2$d · Bekleyen %3$d · Başarısız %4$d</string>
+    <string name="setting_section_camera">Bağlantı ve otomatik aktarım</string>
+    <string name="setting_section_storage">Fotoğraf kaydetme</string>
+    <string name="setting_section_system">Sistem erişimi</string>
+    <string name="setting_background">Arka planda çalışma ve pil</string>
+    <string name="setting_notifications">Bildirimler</string>
+    <string name="setting_permissions">İzinler</string>
+    <string name="setting_debug_logs">Hata ayıklama günlükleri</string>
+    <string name="setting_debug_logs_summary">Android günlüklerinde SnapBridgeLogger ve SnapBridgeTransfer altında bulunur.</string>
+    <string name="setting_section_about">Hakkında</string>
+</resources>

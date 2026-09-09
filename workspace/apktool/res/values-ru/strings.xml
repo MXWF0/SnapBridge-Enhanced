@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_REMOTE_INTERRUPTED_RECORDING_MOVIE_BY_CAMERA">Запись отменена.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_BATTERY">Низкий уровень заряда батареи; невозможно начать удаленную фотосъемку.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_EXPOSURE_MODE">Выбран несовместимый режим съемки; не удается запустить удаленную фотосъемку. Выберите режим P, S, A или M.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_LIVEVIEW_ON">Не удается запустить удаленную фотосъемку. Проверьте фотокамеру. Удаленная фотосъемка не может использоваться при включенном режиме live view в фотокамере или во время съемки.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_MEMORY_CARD">Не удается запустить удаленную фотосъемку. Проверьте карту памяти.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_POWER_OFF">Сигнал фотокамеры потерян.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_TEMPERATURE">Не удается запустить удаленную фотосъемку. Подождите, пока фотокамера или адаптер для беспроводного подключения остынет.</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_ZOOM_LENS">Не удается запустить удаленную фотосъемку. Объектив втянутый.</string>
+    <string name="MID_ABOUT_BOKEH_BLUR">Боке и размытие движения</string>
+    <string name="MID_ABOUT_BOKEH_BLUR_DESC">Фотокамера настраивает боке и размытие под объект и сюжет.</string>
+    <string name="MID_ACCESS_LOCATION_PRECISE">Затем вам будет предложено предоставить разрешение на доступ к данным о местоположении. Выберите «Точно», чтобы разрешить доступ к точному местоположению своего устройства.</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_CHECK">Согласиться на использование Adobe Analytics</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_OFF">Отклонить</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_ON">Принять</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_DESC">Это приложение анализирует данные об использовании с помощью Adobe Analytics. %s</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_ITEM">Анализир. данные об использ.</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA">Фотокамера занята. Попробуйте подключиться снова после завершения записи или воспроизведения видеоролика.</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA_PLEASE_CAMERA_ON">Настройки съемки не могут быть загружены в фотокамеру. Включите фотокамеру, подготовьте ее к съемке и повторите попытку.</string>
+    <string name="MID_ALLERT_BEFORE_8MP_DOWNLOAD">Использование фотокамеры для записи или просмотра видеоролика может привести к прерыванию загрузки. Проверьте состояние фотокамеры.</string>
+    <string name="MID_APPROXIMATE">Приблизительно</string>
+    <string name="MID_APPS_MV2_INFO">"Приложение для просмотра изображений Nikon Manual Viewer 2 можно использовать для загрузки и просмотра руководств для цифровых зеркальных фотокамер Nikon 
+Загрузив руководство для Вашей фотокамеры, Вы сможете просматривать его в любом месте, в любое время, в Интернете или без него."</string>
+    <string name="MID_APPS_MV2_NAME">Manual Viewer 2</string>
+    <string name="MID_APPS_NIS_INFO">Это бесплатное приложение для сервиса обмена фотографиями NIKON IMAGE SPACE компании Nikon делает Ваши фотографии ближе к другим людям и позволяет испытать еще больше удовольствия после съемки. Оно посвящено трем простым функциям – просмотру, организации и обмену фотографиями – которые делают жизнь фотолюбителей, где бы они не находились, более удобной, приятной и насыщенной.</string>
+    <string name="MID_APPS_NIS_NAME">NIKON IMAGE SPACE</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLACK">Черный</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLUE">Синий</string>
+    <string name="MID_APP_CD_COLOR_LIST_BROWN">Коричневый</string>
+    <string name="MID_APP_CD_COLOR_LIST_DARKGRAY">Темно-серый</string>
+    <string name="MID_APP_CD_COLOR_LIST_WHITE">Белый</string>
+    <string name="MID_APP_CD_COLOR_TITLE">Цвет</string>
+    <string name="MID_APP_CD_CREDIT_ADD">Добавить указание об охране прав автора</string>
+    <string name="MID_APP_CD_CREDIT_NOTE">Прикрепите к изображениям съемочную информацию или комментарии.</string>
+    <string name="MID_APP_CD_CREDIT_POSITION">Положение</string>
+    <string name="MID_APP_CD_CREDIT_PREV">Предварительный просмотр</string>
+    <string name="MID_APP_CD_CREDIT_TYPE">Тип</string>
+    <string name="MID_APP_CD_FONT_LIST_BOLD">Жирный</string>
+    <string name="MID_APP_CD_FONT_LIST_ITALIC">Курсив</string>
+    <string name="MID_APP_CD_FONT_LIST_NORMAL">Простой</string>
+    <string name="MID_APP_CD_FONT_TITLE">Стиль</string>
+    <string name="MID_APP_CD_POS_LEFT_BOTTOM">Снизу слева</string>
+    <string name="MID_APP_CD_POS_LEFT_TOP">Сверху слева</string>
+    <string name="MID_APP_CD_POS_RIGHT_BOTTOM">Снизу справа</string>
+    <string name="MID_APP_CD_POS_RIGHT_TOP">Сверху справа</string>
+    <string name="MID_APP_CD_SIZE_LIST_BIG">Большой</string>
+    <string name="MID_APP_CD_SIZE_LIST_MIDDLE">Средний</string>
+    <string name="MID_APP_CD_SIZE_LIST_SMALL">Маленький</string>
+    <string name="MID_APP_CD_SIZE_TITLE">Размер</string>
+    <string name="MID_APP_CD_TEXT_TITLE">Введите описание</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_COMMENT">Комментарий к изображению</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_DATE">Время съемки</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_INDEX">Информация о файле/снимке</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_LIST_INFO">Информация о снимке</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_PHOTOGRAPHER_AND_COPYRIGHT">Фотограф/владелец авторских прав</string>
+    <string name="MID_APP_CD_TYPE_TITLE">Тип указания об охране прав автора</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_COMMENT">Комментарий</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_SNAPBRIDGE_LOGO">Логотип SnapBridge</string>
+    <string name="MID_APP_CD_USER_SETTING_TITLE">Настройка пользователя</string>
+    <string name="MID_APP_CREDIT">Показать инф. об автор. Правах</string>
+    <string name="MID_APP_HASH">Добавить хештег</string>
+    <string name="MID_APP_NIKONID_SETTING">Nikon ID регистрация/редактирование профиля</string>
+    <string name="MID_APP_PRIVACY_POLICY">Политика конфиденциальности</string>
+    <string name="MID_APP_PRIVACY_POLICY_CHECK">Принять условия Политики конфиденциальности</string>
+    <string name="MID_APP_PRIVACY_POLICY_DESC">Прочтите «Политика конфиденциальности», где изложены правила обработки данных пользователя приложения.</string>
+    <string name="MID_APP_SUPPORT_SITE">Поддержка</string>
+    <string name="MID_APP_TERMS_OF_USE">Лицензионное соглашение</string>
+    <string name="MID_APP_TERMS_OF_USE_AGREEMENT_CHECK">Примите лицензионное соглашение приложения</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MSG">Пожалуйста, ознакомьтесь с Лицензионным соглашением.</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MUST_READ_MSG">Прочитайте лицензионное соглашение (Обязательно)</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC">Для получения информации об Условиях предоставления услуг и других соглашениях о предоставлении различных услуг, связанных с использованием этого приложения, см. «Лицензионное соглашение».</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC_TERMS_OF_USE">Лицензионное соглашение</string>
+    <string name="MID_ASK_BLUR">Движение: Как вы хотите выразить движение?</string>
+    <string name="MID_ASK_BOKEH">Боке/глубина резко изображаемого пространства: Вы хотите смягчить фон?</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE">Тип подключения для автоматической ссылки изменился после обновления прошивки фотокамеры, поэтому теперь необходимо обновить настройки.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE_SYNCOFF">Тип подключения для режима связи изменился после обновления прошивки фотокамеры, и параметры на дисплее режима связи обновлены.</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_TITLE">Изменение типа подключения</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED">Не удалось обновить настройки</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED_TEXT">Убедитесь, что в фотокамере включен Bluetooth, и повторите попытку.</string>
+    <string name="MID_AUTOLINK_CHANGE_SUCCEEDED">Настройки обновлены</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_BUTTON">Продолжить</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_MESSAGE">Необходимо изменить настройки фотокамеры, чтобы разрешить использование «фонового» режима связи. Продолжить?</string>
+    <string name="MID_AUTOLINK_MODE">Режим ссылки</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND">Фоновый режим</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND_DISCRIPTION">"Связь с фотокамерой, даже когда смарт-устройство находится в спящем режиме. Данные о местоположении будут добавляться к снимкам на фотокамере перед загрузкой.
+Приложение будет подключаться к фотокамере, когда выбран этот режим."</string>
+    <string name="MID_AUTOLINK_MODE_CHANGNG">Обновление настроек...</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND">Приоритетный режим</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_DISCRIPTION">"Связь с фотокамерой во время работы приложения. Данные о местоположении будут добавляться к снимкам только после загрузки.
+Расход заряда батареи фотокамеры снижается."</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_SAVING">Приоритетный режим</string>
+    <string name="MID_AUTOLINK_SIZE">Размер загрузки</string>
+    <string name="MID_AUTOLINK_TIME_DISCRIPTION">Часы фотокамеры будут настроены на время и часовой пояс смарт-устройства.</string>
+    <string name="MID_AUTO_TRANSFER_WIFI">Автозагрузка (Wi-Fi)</string>
+    <string name="MID_BACK_TO_HOME">Вернуться к списку банков настроек</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_MOVIE">Подготовьте фотокамеру для видеозаписи</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_REMOTE">Не удается выполнить операцию. Проверьте настройки фотокамеры.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE">Дистанционное управление недоступно</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE_BY_CAMERA">Дистанционное управление недоступно. Проверьте состояние фотокамеры.</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_STILL">Подготовьте фотокамеру к фотосъемке</string>
+    <string name="MID_BLE_REMOTE_ALERT_CAN_START_AFTER_FINISH_SENDING">Дистанционное управление начнет работу после завершения загрузки.</string>
+    <string name="MID_BLE_REMOTE_BULBE_SHOOTING">Идет съемка с выдержкой от руки</string>
+    <string name="MID_BLE_REMOTE_CAMERA_STATE_ERROR">Проверьте настройки фотокамеры.</string>
+    <string name="MID_BLE_REMOTE_CHANGE_MODE">Параметры дистанционного управления</string>
+    <string name="MID_BLE_REMOTE_CONFIRM_FINISH">Выключить дистанционное управление Bluetooth?</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_RETURN">Операции съемки, выполняемые в данный момент, будут продолжены. Чтобы вернуться к экрану режима съемки, коснитесь кнопки «Дистанционное управление Bluetooth».</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_SHOOTING">Съемка будет продолжена после закрытия приложения</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE">Делайте снимки удаленно, компонуя кадр на мониторе фотокамеры или просматривая снимки на телевизорах или других устройствах просмотра.</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE_CHANGE">Нажмите кнопку для переключения между двумя вариантами.</string>
+    <string name="MID_BLE_REMOTE_END_DATE_TIME">Дата/время окончания</string>
+    <string name="MID_BLE_REMOTE_END_HALF_PRESS">Отпустить нажатую наполовину кнопку</string>
+    <string name="MID_BLE_REMOTE_END_SHOOTING">Окончить съемку</string>
+    <string name="MID_BLE_REMOTE_FINISH_TIME_SHOOTING">Нажмите спусковую кнопку затвора, чтобы закончить съемку</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT">Съемка со сдвигом фокусировки</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT_SHOOTING">Идет съемка со сдвигом фокусировки</string>
+    <string name="MID_BLE_REMOTE_INTERVAL">Съемка с интервалом</string>
+    <string name="MID_BLE_REMOTE_INTERVAL_SHOOTING">Идет съемка с интервалом</string>
+    <string name="MID_BLE_REMOTE_NUMBER_SHOTS">Количество оставшихся интервалов</string>
+    <string name="MID_BLE_REMOTE_PRESS_HALF_BUTTON">Нажать наполовину</string>
+    <string name="MID_BLE_REMOTE_SHOOTING">Идет съемка</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_GUIDE">Установите настройки съемки на фотокамере</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_SHOOTING">Другие параметры съемки</string>
+    <string name="MID_BLE_REMOTE_START_SHOOTING">Начать съемку</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE">Запись цейтраферного видео</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE_SHOOTING">Идет запись цейтраферного видео</string>
+    <string name="MID_BLE_REMOTE_TIME_SHOOTING">Идет съемка с выдержкой «Время»</string>
+    <string name="MID_BLE_REMOTE_WIFI_CANCEL">Перед использованием дистанционного управления Bluetooth переключитесь на Bluetooth.</string>
+    <string name="MID_BLUR_SAMPLE">Движение: Пример</string>
+    <string name="MID_BOKEH_SAMPLE">Боке: Пример</string>
+    <string name="MID_BUTTON_GO_TO_CHUTORIAL">Посмотреть руководства</string>
+    <string name="MID_BUTTON_GO_TO_HELP">Просмотреть описание в разделе «Справка».</string>
+    <string name="MID_BUTTON_RESET_SHOTTING_SETTING">Сбросить настройки съемки фотокамеры</string>
+    <string name="MID_CAMERA_CONNECTION_AUTO_TRANSFER_IN_PROGRESS">Выполняется автозагрузка…(%1$d/%2$d)</string>
+    <string name="MID_CAMERA_CONNECTION_CONNECTING_TO_CAMERA">Подключение к фотокамере.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER">Подготовка снимков для автозагрузки. Пожалуйста, подождите.</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER_SUMMARY">Подготовка снимков для автозагрузки</string>
+    <string name="MID_CAMERA_CONNECTION_UNABLE_TO_RECEIVE_BLUETOOTH_SIGNAL">Функция Bluetooth фотокамеры не обнаружена. Убедитесь, что функция Bluetooth фотокамеры включена.</string>
+    <string name="MID_CAMERA_CONNECTION_WAITING_CAMERA_RESPONSE">Обнаружена функция Bluetooth фотокамеры. Функции приложения доступны.</string>
+    <string name="MID_CAMERA_IMPORTING_TITLE">Загрузка изображений…</string>
+    <string name="MID_CAM_ACTIVE_BLE_REMOTE">Дистанционное управление Bluetooth</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_MSG">Пожалуйста, подождите.</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_TITLE">Подготовка фотокамеры…</string>
+    <string name="MID_CAM_ACTIVE_CHANGE_WIFI_DLG_TITLE">Включите Wi-Fi фотокамеры</string>
+    <string name="MID_CAM_ACTIVE_DLG_CHANGE_WIFI_DLG_MSG_1">"Вы должны переключиться на Wi-Fi, чтобы использовать эту функцию.
+Примечание: для переключения может потребоваться некоторое время."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_1">"Прекратить сопряжение с этой фотокамерой?
+Примечание: Вы можете подключиться к фотокамере, только когда она сопряжена с Вашим устройством."</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_3">Используйте параметр «Забыть» в разделе Bluetooth приложения «Настройки» в iOS, чтобы удалить фотокамеру из списка сопряженных устройств, так как в противном случае Вы не сможете выполнить сопряжение с фотокамерой еще раз.</string>
+    <string name="MID_CAM_ACTIVE_DLG_TITLE">Прекратить сопряжение?</string>
+    <string name="MID_CAM_ACTIVE_IMPORT">Загрузить снимки</string>
+    <string name="MID_CAM_ACTIVE_REMOTE">Удаленная фотосъемка</string>
+    <string name="MID_CAM_ACTIVE_SERIAL">Серийный номер</string>
+    <string name="MID_CAM_ACTIVE_SYNC">Параметры автосоединен.</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_0">"Выполняется запуск Wi-Fi фотокамеры.
+Пожалуйста, подождите."</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_1">"Выполняется подключение к фотокамере через Wi-Fi.
+Пожалуйста, подождите."</string>
+    <string name="MID_CAM_ADD_LIMIT_NUMBER_OF_CAMERA_PAIRING">SnapBridge может хранить информацию о сопряжении для 5 фотокамер</string>
+    <string name="MID_CAM_ADD_PAIRING">Добавить фотокамеру</string>
+    <string name="MID_CAM_CHANGE_REMOTE">Переключите на удаленную фотосъемку</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTED">Подключение к фотокамере выполнено.</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTING">"Выполняется подключение к фотокамере.
+Пожалуйста, подождите."</string>
+    <string name="MID_CAM_CONNECT_MSG_WAIT_RES">Когда на мониторе фотокамеры отобразится код проверки подлинности, нажмите кнопку «OK» фотокамеры.</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTED">Сопряжение завершено</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTING">Подключение к фотокамере…</string>
+    <string name="MID_CAM_NORMAL_MODE">Выйти из режима Wi-Fi AP</string>
+    <string name="MID_CAM_PAIRING_CATEGORY_OTHER">Другое</string>
+    <string name="MID_CAM_PAIRING_NOTE_COOLPIX">"Выберите Подключ. к смарт-устройству в меню параметров сети фотокамеры.
+
+Следуйте инструкциям на экране, пока не отобразится название фотокамеры."</string>
+    <string name="MID_CAM_PAIRING_NOTE_C_ML">"Выберите «Подключ. к смарт-устройству» > «Подключение по Wi-Fi» в настройках фотокамеры или в меню сети.
+Примечание: в некоторых фотокамерах этот параметр находится в меню «Wi-Fi».
+
+Выберите «Установить подключение Wi-Fi», чтобы отобразить SSID фотокамеры и пароль."</string>
+    <string name="MID_CAM_PAIRING_NOTE_DRS">"Выберите Подключ. к смарт-устройству в меню настройки фотокамеры.
+
+Следуйте инструкциям на экране, пока не отобразится название фотокамеры."</string>
+    <string name="MID_CAM_PAIRING_NOTE_KM80">"Выберите Подключ. к смарт-устройству в меню настройки фотокамеры.
+
+Следуйте инструкциям на экране, пока не отобразится название фотокамеры.
+ 
+Примечание: сопряжение может быть выполнено только в том случае, если в фотокамеру вставлена карта памяти."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML1DSLR2">"Выберите «Подключ. к смарт-устройству» в меню настройки фотокамеры.
+
+Выберите «Сопряжение (Bluetooth)».
+
+Следуйте инструкциям на экране, пока не появится название фотокамеры."</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML2">"Выберите «Подключ. к смарт-устройству» в меню сети фотокамеры.
+
+Выберите «Сопряжение (Bluetooth)».
+
+Следуйте инструкциям на экране, пока не появится название фотокамеры."</string>
+    <string name="MID_CAM_PAIRING_SELECT_LB">Выберите фотокамеру для подключения.</string>
+    <string name="MID_CAM_PAIRING_SELECT_TITLE">Подключиться к фотокамере</string>
+    <string name="MID_CAM_SYMC_OFF_CONFIRM">При отключении всех трех функций «Автозагрузка», «Часы» и «Данные о местоположении» функция «Автоматическая ссылка» также отключается.</string>
+    <string name="MID_CAM_SYMC_OFF_SYNC_INFO">"Когда автоматическое соединение включено, автоматическая загрузка и синхронизация часов и местоположения будут продолжаться, даже если смарт-устройство находится в спящем режиме.
+Если Вы не используете эти функции, отключите автоматическое соединение, чтобы уменьшить расход заряда батареи."</string>
+    <string name="MID_CAM_SYNC_ALERT_TIME_SYNC">Поскольку данные о местоположении добавляются к снимкам на основе времени и даты записи, «Часы» нельзя отключить, пока включены «Данные о местоположении».</string>
+    <string name="MID_CAM_SYNC_AUTO_TRANS">Автозагрузка</string>
+    <string name="MID_CAM_SYNC_POS_SYNC">Данные о местоположении</string>
+    <string name="MID_CAM_SYNC_REQUIRES_TIME_SYNC">Поскольку данные о местоположении добавляются к снимкам на основе времени и даты записи, «Часы» нельзя отключить, пока включены «Данные о местоположении».</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY">Режим энергосбережения</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY_SETTINGS">Энергосбережение</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID">Смарт-устройство приостановит передачу данных о местоположении, чтобы уменьшить расход заряда батареи, если в течение заданного периода не выполняется никаких операций. При использовании устройства связь восстанавливается.</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID_OLD">"Смарт-устройство будет приостанавливать соединения, работающие в фоновом режиме, чтобы снизить расход заряда батареи, если они находятся вне диапазона фотокамеры в течение заданного периода.
+Соединение будет восстановлено при запуске SnapBridge."</string>
+    <string name="MID_CAM_SYNC_SYNC_LB">Автоматическая ссылка</string>
+    <string name="MID_CAM_SYNC_TIME_SYNC">Часы</string>
+    <string name="MID_CAM_SYNC_TITLE">Параметры связи</string>
+    <string name="MID_CAM_WIFI_MODE">Wi-Fi mode</string>
+    <string name="MID_CAM_WIFI_MODE1">Режим Wi-Fi</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK">Проверьте совместимость фотокамеры и поддерживаемые функции</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK_STATUS0">Запустить Wireless Mobile Utility.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG">Некоторые фотокамеры поддерживают некоторые функции SnapBridge без сопряжения.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_CONNECTED">Подключено к фотокамере по Wi-Fi.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_NOT_CONNECTED">Не подключено к фотокамере. Запустите приложение «Настройки» смарт-устройства и проверьте «Настройки Wi-Fi».</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS0">Подключиться к этой фотокамере с помощью Wireless Mobile Utility.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS1">Выберите режим Wi-Fi для загрузки изображений или управления фотокамерами удаленно без сопряжения.</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE0">Подключиться к фотокамере по Wi-Fi?</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_CONNECTED">Соединение по Wi-Fi установлено</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS0">Использование Wi-Fi с несовместимыми фотокамерами</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS1">Подключенная фотокамера не сопряжена</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT0">Коснитесь здесь для однократного подключения по Wi-Fi.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT1">Примечание: некоторые функции не поддерживаются.</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT2">"Запустите приложение «Настройки» на смарт-устройстве и выберите «Настройки Wi-Fi».
+
+Выбрав SSID, отображаемый фотокамерой, введите отображаемый фотокамерой пароль.
+
+Вернитесь в приложение SnapBridge после установления соединения."</string>
+    <string name="MID_CAM_WIFI_MODE_TITLE">Подключение по Wi-Fi</string>
+    <string name="MID_CANCEL">Отменить</string>
+    <string name="MID_CANNOT_LOGIN_DUE_TO_MAINTENANCE_MSG">В настоящее время выполнить вход невозможно из-за технического обслуживания. Пожалуйста, повторите попытку позже.</string>
+    <string name="MID_CANNOT_SIGN_UP_DUE_TO_MAINTENANCE_MSG">В настоящее время выполнить регистрацию невозможно из-за технического обслуживания. Пожалуйста, повторите попытку позже.</string>
+    <string name="MID_CD_EDIT_LOGO_LB">Изображение логотипа</string>
+    <string name="MID_CHANNEL_RETRY_GETTING_CHANNEL">Обновить информацию</string>
+    <string name="MID_CHOICE_CONNECTABLE_CAMERA">Выберите из обнаруженных фотокамер</string>
+    <string name="MID_CHOICE_RESIDENCE_CHINA">Материковый Китай</string>
+    <string name="MID_CHOICE_RESIDENCE_DECISION">OK</string>
+    <string name="MID_CHOICE_RESIDENCE_LABEL">Страна/регион</string>
+    <string name="MID_CHOICE_RESIDENCE_OTHER">Другие страны/регионы</string>
+    <string name="MID_CHOICE_USE_NIS_NO">Не сейчас</string>
+    <string name="MID_CHOICE_USE_NIS_YES">Использовать</string>
+    <string name="MID_CLD_ACCOUNT">Учетная запись</string>
+    <string name="MID_CLD_ACCOUNT_LOGOUT">Выйти</string>
+    <string name="MID_CLD_ACCOUNT_TITLE">Учетная запись</string>
+    <string name="MID_CLD_ALREADY_REGISTERED">Идентификатор уже существует</string>
+    <string name="MID_CLD_CLMEULA_TITLE">Политика конфиденциальности</string>
+    <string name="MID_CLD_FINISH_FINISH_INFO">Теперь Вы можете загружать снимки в NIKON IMAGE SPACE. Однако Вы еще не закончили регистрацию для получения идентификатора Nikon.</string>
+    <string name="MID_CLD_FINISH_FINISH_TITLE">Чтобы завершить регистрацию, нажмите ссылку, содержащуюся в теле письма, которое мы Вам отправили.</string>
+    <string name="MID_CLD_FINISH_INFO">Ваша регистрация будет автоматически отменена, если Вы не завершите процесс в течение 30 дней.</string>
+    <string name="MID_CLD_INSTALL_APP">Установить приложение</string>
+    <string name="MID_CLD_INVALID_EMAIL_ADDRESS_OR_PASSWORD">Неверный идентификатор или пароль. Введите еще раз.</string>
+    <string name="MID_CLD_INVALID_MAIL_ADDRESS">Недействительный адрес электронной почты. Введите действительный адрес.</string>
+    <string name="MID_CLD_INVALID_PASS">Пароли не совпадают. Попробуйте еще раз.</string>
+    <string name="MID_CLD_INVALID_PASSWORD">Недействительный пароль. Введите действительный пароль.</string>
+    <string name="MID_CLD_LAUNCH_APP">Запустить приложение</string>
+    <string name="MID_CLD_LOGIN_DIALOG_TEXT">Открыть веб-сайт Nikon ID в веб-браузере?</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIKON_ID">Редактировать или удалить Nikon ID</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIS">Редактировать или удалить информацию учетной записи NIKON IMAGE SPACE</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_MSG">Вход в систему. Пожалуйста, подождите.</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_TITLE">Вход в систему…</string>
+    <string name="MID_CLD_LOGIN_LOG_IN">Войти</string>
+    <string name="MID_CLD_LOGIN_PRIVILEGE_OF_NIKON_ID">Преимущества получения идентификатора Nikon</string>
+    <string name="MID_CLD_LOGIN_SIGN_UP">Создайте уч. запись Nikon ID</string>
+    <string name="MID_CLD_LOGIN_STEP_TITLE">Учетная запись идентификатора Nikon</string>
+    <string name="MID_CLD_LOGOUT_TO_UNSUBSCRIBE_FROM_NIKON_ID">Выйдите из системы перед редактированием или удалением Nikon ID.</string>
+    <string name="MID_CLD_MAIL_ADDRESS">Электронная почта</string>
+    <string name="MID_CLD_MAIL_AGREE_AND_NEXT">Принять Условия использования</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_MSG">"Мы проверяем Ваш адрес электронной почты.
+Пожалуйста, подождите."</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_TITLE">Проверка адреса электронной почты…</string>
+    <string name="MID_CLD_MAIL_MAIL_INPUT">Адрес электронной почты</string>
+    <string name="MID_CLD_MAIL_STEP_INFO2">"Введите адрес электронной почты, который Вы будете использовать для Вашего Nikon ID.
+Если Вы уже пользуетесь NIKON IMAGE SPACE, введите адрес электронной почты, который Вы использовали при подписке на NIKON IMAGE SPACE."</string>
+    <string name="MID_CLD_MAIL_STEP_TITLE">Зарегистрировать адрес электронной почты</string>
+    <string name="MID_CLD_NIKON_ID">Nikon ID</string>
+    <string name="MID_CLD_NIKON_ID_TERMS_OF_SERVICE">Nikon ID</string>
+    <string name="MID_CLD_NIS_INFO2">Изображения, переданные на Ваше смарт-устройство, могут автоматически загружаться в NIKON IMAGE SPACE. Вы можете загрузить неограниченное количество 2-мегапиксельных изображений.</string>
+    <string name="MID_CLD_NIS_TITLE">Неограниченная автоматическая загрузка</string>
+    <string name="MID_CLD_NOTICE_REGISTRATION_PROCESSING_TITLE">Выполнение регистрации…</string>
+    <string name="MID_CLD_NOT_AUTHORIZED">Ошибка проверки подлинности. Возможна проблема с сервером или сетью.</string>
+    <string name="MID_CLD_PASSWORD">Пароль</string>
+    <string name="MID_CLD_PASS_CHECKING_PASS_TITLE">Проверка пароля…</string>
+    <string name="MID_CLD_PASS_CONFIRM">Подтвердите пароль</string>
+    <string name="MID_CLD_PASS_FOGOT_PASS">Забыли пароль?</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_INFO">"Пожалуйста, введите Ваш пароль NIKON IMAGE SPACE для завершения регистрации.
+Примечание: От 8 до 15 символов"</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_TITLE">Пароль NIKON IMAGE SPACE</string>
+    <string name="MID_CLD_PASS_PASS_TEXT">От 8 до 15 символов</string>
+    <string name="MID_CLD_PASS_STEP_INFO">"Выберите пароль Вашего Nikon ID.
+Примечание: От 8 до 15 символов"</string>
+    <string name="MID_CLD_PASS_STEP_TITLE">Выберите пароль</string>
+    <string name="MID_CLD_PASS_TITLE">Получите Nkon ID</string>
+    <string name="MID_CLD_PROVISIONAL_REGISTRATION_FINISHED_TITLE">Регистрация выполнена</string>
+    <string name="MID_CLD_SET_PRODUCT_INFO">Нужно</string>
+    <string name="MID_CLD_START">Запуск</string>
+    <string name="MID_CLD_SYNC_AREA">Регион</string>
+    <string name="MID_CLD_SYNC_FIRMWARE_VERSION">Версия прошивки</string>
+    <string name="MID_CLD_SYNC_LANGUAGE">Язык</string>
+    <string name="MID_CLD_SYNC_PRODUCT_NAME">Наименование изделия</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PROCUCT_INFO">Будет включена следующая информация:</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PRODUCT_INDEX">Регистрация сопутствующих товаров</string>
+    <string name="MID_CLD_SYNC_SERIAL_NUMBER">Серийный номер</string>
+    <string name="MID_CLD_SYNC_TIMEZONE_TITLE">Часовой пояс</string>
+    <string name="MID_CLD_TERMS_OF_SERVICE">Условия использования</string>
+    <string name="MID_CLD_UNDER_MAINTENANCE">Ошибка проверки подлинности. В настоящее время выполняется техническое обслуживание сервера.</string>
+    <string name="MID_CLD_UPDATE_APPLICATION_TO_LOGIN_OR_INITIALIZE_NID">Процедуры регистрации и входа в систему с Nikon ID изменились. Обновите приложение до последней версии и повторите попытку.</string>
+    <string name="MID_CLD_UPLOAD">Автоматическая загрузка</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_INDEX">Автоматически загружать снимки, когда:</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON">Подключено только через Wi-Fi</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON_DESC">Настройки можно изменить так, чтобы снимки загружались автоматически только через Wi-Fi. Загрузки могут содержать большие объемы данных; будьте осторожны, чтобы не превышать лимиты данных Вашего провайдера.</string>
+    <string name="MID_CLD_UPLOAD_INFO">Снимки, загруженные с фотокамеры, можно автоматически отправлять в NIKON IMAGE SPACE.</string>
+    <string name="MID_COMMON_1">1</string>
+    <string name="MID_COMMON_10">10</string>
+    <string name="MID_COMMON_11">11</string>
+    <string name="MID_COMMON_1800S">1 800 с</string>
+    <string name="MID_COMMON_2">2</string>
+    <string name="MID_COMMON_2M">2 M</string>
+    <string name="MID_COMMON_3">3</string>
+    <string name="MID_COMMON_300S">300 с</string>
+    <string name="MID_COMMON_4">4</string>
+    <string name="MID_COMMON_5">5</string>
+    <string name="MID_COMMON_6">6</string>
+    <string name="MID_COMMON_600S">600 с</string>
+    <string name="MID_COMMON_7">7</string>
+    <string name="MID_COMMON_8">8</string>
+    <string name="MID_COMMON_9">9</string>
+    <string name="MID_COMMON_ADVANCED_SETTINGS">Расширенные настройки</string>
+    <string name="MID_COMMON_ALWAYS_ON">Всегда включено</string>
+    <string name="MID_COMMON_ASC">ASCII</string>
+    <string name="MID_COMMON_AUTHENTICATION">Проверка подлинности/шифрование</string>
+    <string name="MID_COMMON_AUTO">Авто</string>
+    <string name="MID_COMMON_AUTO_POWEROFF_DELAY">Задержка автовыключения</string>
+    <string name="MID_COMMON_AUTO_TRANSFER_ONLY_WHILE_CONNECTED">Автозагрузка (только при подключении)</string>
+    <string name="MID_COMMON_CAMERA_TO_CONNECT">Фотокамеры для подключения</string>
+    <string name="MID_COMMON_CANCEL">Отмена</string>
+    <string name="MID_COMMON_CHANNEL">Канал</string>
+    <string name="MID_COMMON_CLOSE">Закрыть</string>
+    <string name="MID_COMMON_CONFIRM">Подтвердить</string>
+    <string name="MID_COMMON_CONFIRM_TARGET_CAMERA">Проверьте совместимые фотокамеры</string>
+    <string name="MID_COMMON_CONNECTABLE_CAMERA">Обнаруженные фотокамеры</string>
+    <string name="MID_COMMON_CONNECTING_CAMERA">Подключенные фотокамеры</string>
+    <string name="MID_COMMON_CONNECT_BUSY_DLG_MSG">Фотокамера занята</string>
+    <string name="MID_COMMON_CONNECT_ERR_ACCESS_DENIED">Фотокамера не готова к подключению. Выберите режим просмотра на фотокамере и повторите попытку.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG1">Фотокамера не найдена. См. интерактивную справку.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG2">Wi-Fi фотокамеры отключен.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG3">Невозможно подключиться; фотокамера в настоящее время работает с другим соединением. Повторите попытку, прочитав интерактивную справочную информацию о способах решения проблемы.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG4">Не удалось подключиться к фотокамере. Повторите попытку, прочитав интерактивную справочную информацию о способах решения проблемы.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG5">Произошла ошибка</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG6">Не удалось выполнить сопряжение. Если это не сделано намеренно, см. интерактивную справку.</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG7">"Фотокамера подключена к другому устройству.
+Выберите Ваше смарт-устройство в списке Bluetooth > Сопряженные устройства. Если фотокамера в данный момент не соединена с Вашим устройством, выполните повторное сопряжение фотокамеры и смарт-устройства."</string>
+    <string name="MID_COMMON_CONNECT_ERR_DURING_SHOOTING">Не удается запустить удаленную фотосъемку. Завершите съемку на фотокамеру и повторите попытку.</string>
+    <string name="MID_COMMON_COUNTRY_CODE">ru</string>
+    <string name="MID_COMMON_DESTRUCTION">Удалить</string>
+    <string name="MID_COMMON_DHCP_CLIENT_IP_ADRESS">IP-адрес клиента DHCP</string>
+    <string name="MID_COMMON_DHCP_SERVER_IP_ADRESS">IP-адрес сервера DHCP</string>
+    <string name="MID_COMMON_DISCARD_SETTING">Настройки удаления</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_CLIENT">Введите IP-адрес для клиента DHCP.</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_SERVER">Введите IP-адрес для сервера DHCP.</string>
+    <string name="MID_COMMON_ENTER_SUBNET_MASK">Введите маску подсети.</string>
+    <string name="MID_COMMON_FIRM">Обновление прошивки</string>
+    <string name="MID_COMMON_GO_TO_OS_SETTINGS">Перейти в настройки</string>
+    <string name="MID_COMMON_HELP">Помощь</string>
+    <string name="MID_COMMON_HEX">HEX</string>
+    <string name="MID_COMMON_INITIALIZE">Сброс</string>
+    <string name="MID_COMMON_LANGUAGE_CODE">ru</string>
+    <string name="MID_COMMON_LOGIN">Вход вып.</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG">Не удалось подключиться</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG2">Не удалось подключиться. Возможна проблема с сервером или сетью.</string>
+    <string name="MID_COMMON_NEXT">Далее</string>
+    <string name="MID_COMMON_NICKNAME">Имя пользователя</string>
+    <string name="MID_COMMON_NO">Нет</string>
+    <string name="MID_COMMON_NOFIFICATION_BATTERY_ALERT1">Батарея фотокамеры разряжена.</string>
+    <string name="MID_COMMON_NONE">Нет</string>
+    <string name="MID_COMMON_NOP">---</string>
+    <string name="MID_COMMON_NOTICE">Уведомление</string>
+    <string name="MID_COMMON_NOTIFICATION_CAMERA_ERROR">"Автоматическое соединение отключено.
+Автоматическое соединение возобновится при запуске SnapBridge."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG1">"Память NIKON IMAGE SPACE заполнена.
+Автозагрузка отменена."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG2">"Не удается войти.
+Автозагрузка отменена."</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG3">"Выполняется техническое обслуживание NIKON IMAGE SPACE.
+Автозагрузка отменена."</string>
+    <string name="MID_COMMON_NOTIFICATION_STOP">Сбор данных о местоположении приостановлен. Запустите приложение, чтобы возобновить сбор данных.</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_ERROR">Выполняется загрузка</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_STOP">Загрузка отменена</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_SUCCESS">Загрузка завершена</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG1">"В смарт-устройстве недостаточно памяти.
+Загрузка приостановлена."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG2">"Отказано в доступе к месту назначения.
+Загрузка приостановлена."</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG3">"Не удалось сохранить данные.
+Загрузка приостановлена."</string>
+    <string name="MID_COMMON_OFF">Выкл.</string>
+    <string name="MID_COMMON_OK">OK</string>
+    <string name="MID_COMMON_ON">Вкл.</string>
+    <string name="MID_COMMON_OPEN">ОТКРЫТЫЙ</string>
+    <string name="MID_COMMON_OPEN_BROWSER">Открыть в браузере</string>
+    <string name="MID_COMMON_ORIGINAL">Исходный</string>
+    <string name="MID_COMMON_PAIRING">Выполнить сопряжение с фотокамерой</string>
+    <string name="MID_COMMON_PASSWORD">Пароль</string>
+    <string name="MID_COMMON_PASSWORD_ENTLY">Ввод пароля</string>
+    <string name="MID_COMMON_PASSWORD_HEX">Пароль (HEX)</string>
+    <string name="MID_COMMON_PBC">PBC</string>
+    <string name="MID_COMMON_PIN">PIN</string>
+    <string name="MID_COMMON_POSITION_PRECISION">Точность</string>
+    <string name="MID_COMMON_REBOOT">Перезапуск</string>
+    <string name="MID_COMMON_RELEASE">Удалить</string>
+    <string name="MID_COMMON_RELEASE_WIFI_STATION_MODE">Выйти из режима Wi-Fi STA</string>
+    <string name="MID_COMMON_SAVED_CAMERA">Сохраненные фотокамеры</string>
+    <string name="MID_COMMON_SAVE_DIR">Место назначения</string>
+    <string name="MID_COMMON_SAVE_VALUE_NOT_SD">Внутренняя память</string>
+    <string name="MID_COMMON_SAVE_VALUE_SD">Указанная папка</string>
+    <string name="MID_COMMON_SETTING">настройки</string>
+    <string name="MID_COMMON_SIMPLE_SHOTTING_SETTING">Настройка простой съемки</string>
+    <string name="MID_COMMON_SKIP">Пропустить</string>
+    <string name="MID_COMMON_SLOT1">Гнездо 1</string>
+    <string name="MID_COMMON_SSID">SSID</string>
+    <string name="MID_COMMON_START_WIFI_CONNECT">Подключить Wi-Fi</string>
+    <string name="MID_COMMON_SUBNET_MASK">Маска подсети</string>
+    <string name="MID_COMMON_UPDATE">Обновить</string>
+    <string name="MID_COMMON_VERSION">Ver. %s</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE">Режим Wi-Fi AP</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE_CONNECT">Подключение в режиме Wi-Fi AP</string>
+    <string name="MID_COMMON_WIFI_CONNECT_SETTING">Настройки подключения по Wi-Fi</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE">Режим Wi-Fi STA</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE_CONNECT">Подключение в режиме Wi-Fi STA</string>
+    <string name="MID_COMMON_WMU_CONFIG">Настройки АБП</string>
+    <string name="MID_COMMON_WMU_INFO">Информация об АБП</string>
+    <string name="MID_COMMON_WPA2_PSK_AES">WPA2-PSK-AES</string>
+    <string name="MID_COMMON_WPS_MODE">Режим WPS</string>
+    <string name="MID_COMMON_WPS_PIN">WPS PIN</string>
+    <string name="MID_COMMON_YES">Да</string>
+    <string name="MID_CONFIG_PASSWORD_ENTLY">Выберите способ ввода паролей.</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_ASC">"Выберите пароль (ключ шифрования) для адаптера для беспроводного подключения.
+Длина пароля может составлять от 8 до 63 символов."</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_HEX">"Введите пароль для адаптера для беспроводного подключения.
+Введите 64-значный шестнадцатеричный пароль."</string>
+    <string name="MID_CONFIG_SECURITY_OF_WMA">Выберите протокол безопасности, используемый адаптером для беспроводного подключения.</string>
+    <string name="MID_CONFIG_SLEEP_NO_WIFI_CONNECTION">Выберите задержку перед переходом устройства в спящий режим при отсутствии подключения по Wi-Fi.</string>
+    <string name="MID_CONFIG_SSID_OF_WMA">Выберите SSID для адаптера для беспроводного подключения.</string>
+    <string name="MID_CONFIG_WIRELESS_CHANNEL">Выберите беспроводной канал.</string>
+    <string name="MID_CONFIG_WPS_MODE">Выберите режим WPS для адаптера для беспроводного подключения.</string>
+    <string name="MID_CONFIG_WPS_PIN">Выберите WPS PIN для адаптера для беспроводного подключения.</string>
+    <string name="MID_CONFIRMED">Загрузить</string>
+    <string name="MID_CONFIRM_DELETE">После удаления выбранный банк невозможно будет восстановить. Продолжить?</string>
+    <string name="MID_CONFIRM_DIAL_GAID">Проверка диска выб. реж.</string>
+    <string name="MID_CONFIRM_DIAL_IS_SET">Перед загрузкой настроек в фотокамеру установите объектив и нажмите спусковую кнопку затвора наполовину, чтобы убедиться, что автофокусировка включена. Убедившись, что диск находится в правильном положении, нажмите кнопку «Загрузить» ниже, чтобы загрузить настройки в фотокамеру.</string>
+    <string name="MID_CONFIRM_REBOOT_WMA">Применить настройки и перезапустить адаптер для беспроводного подключения?</string>
+    <string name="MID_CONFIRM_SETTING">"Если вы выбрали нужные настройки,
+сохраните их."</string>
+    <string name="MID_CONFIRM_SETTING_DESC">Во время загрузки приложение подстроит эти настройки под конкретную фотокамеру.</string>
+    <string name="MID_CONNECT_CAMERA_ALWAYS">"Установить постоянно доступное соединение с фотокамерой.
+Выберите этот вариант для доступа ко всем беспроводным функциям."</string>
+    <string name="MID_CONNECT_CAMERA_TEMPORARY">Установить одноразовое соединение с фотокамерой.</string>
+    <string name="MID_CONNECT_WIFI_WPA3_ERROR">ОС не поддерживает WPA3-SAE. Измените параметры Wi-Fi фотокамеры. Для получения дополнительной информации см. интерактивную справку.</string>
+    <string name="MID_CREATE_SET">Новый банк настроек</string>
+    <string name="MID_CREATE_SET_TIP">Коснитесь этой кнопки, чтобы создать новый банк настроек</string>
+    <string name="MID_CURRENT_SETTING">Текущие настройки</string>
+    <string name="MID_DATA_GETTING">"Получение информации…
+Пожалуйста, подождите."</string>
+    <string name="MID_DATE_CREATED">Дата создания:</string>
+    <string name="MID_DEFOCUS">Смягчить фон</string>
+    <string name="MID_DELETE">Удалить</string>
+    <string name="MID_DELETE_NIS_ACCOUNT">Удалить мою учетную запись NIKON IMAGE SPACE</string>
+    <string name="MID_DIAL_GAID1">Поверните диск, расположенный на верхней панели фотокамеры, в положение</string>
+    <string name="MID_DIAL_GAID2" />
+    <string name="MID_DIAL_GAID_ZFC">Поверните диски, расположенные на верхней панели фотокамеры, в указанные положения.</string>
+    <string name="MID_DIAL_GAID_ZFC_SS">Установите диск выдержки в положение «1/3 STEP» и вращением главного диска управления выберите выдержку, равную 15 с (15\").</string>
+    <string name="MID_DOWNLOAD_FINISH">Загрузка завершена</string>
+    <string name="MID_EDIT">Изменить настройки</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_DESC">Отменить изменения?</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_TITLE">Подтвердить отмену</string>
+    <string name="MID_EDIT_PROCESS">Изменить настройки</string>
+    <string name="MID_EMPH_BLUR">Создать длинные следы движения (требуется штатив)</string>
+    <string name="MID_END_OF_INTEGRARION_NIS_ACCOUNT">Отменить привязку к NIKON IMAGE SPACE</string>
+    <string name="MID_EXECUTE_RESET_SHOOTING_SETTING">Сбросить настройки съемки</string>
+    <string name="MID_EXPLANATION_WMA">АБП: адаптер для беспроводного подключения</string>
+    <string name="MID_FAILED_CONNECT">Не удалось подключиться. Проверьте фотокамеру и повторите попытку.</string>
+    <string name="MID_FAILED_CONNECT_TITLE">Ошибка подключения</string>
+    <string name="MID_FILE_SIZE">Размер файла: %.1f МБ</string>
+    <string name="MID_FILTER_SORT_CHANGING">Применение изменений…</string>
+    <string name="MID_FILTER_SORT_CONFIRM_RAW_TRANSFER">Загрузка снимков в формате RAW занимает некоторое время. Продолжить?</string>
+    <string name="MID_FILTER_SORT_DATE_NONE">Отключено</string>
+    <string name="MID_FILTER_SORT_DATE_ON_DOWN">Включено (по убыванию)</string>
+    <string name="MID_FILTER_SORT_DATE_ON_UP">Включено (по возрастанию)</string>
+    <string name="MID_FILTER_SORT_DATE_VIEW">Сортировать по дате</string>
+    <string name="MID_FILTER_SORT_DISP_SETTING">Параметры экрана</string>
+    <string name="MID_FILTER_SORT_FILE_MOVIE">Видеоролики</string>
+    <string name="MID_FILTER_SORT_FILE_STILL">Снимки</string>
+    <string name="MID_FILTER_SORT_FILE_STILL_MOVIE">Снимки и видеоролики</string>
+    <string name="MID_FILTER_SORT_FILE_TYPE">Файл</string>
+    <string name="MID_FILTER_SORT_FILTER">Фильтрация</string>
+    <string name="MID_FILTER_SORT_FOLDER">Папка</string>
+    <string name="MID_FILTER_SORT_HEIF_AND_VIDEOS">HEIF и видеоролики</string>
+    <string name="MID_FILTER_SORT_HOW_TO_DISPLAY_RAW">Для просмотра изображений в формате RAW измените эти настройки отображения.</string>
+    <string name="MID_FILTER_SORT_IMAGE_QUALITY">Качество изображения</string>
+    <string name="MID_FILTER_SORT_JPEG_AND_MOVIE">Видеоролики и JPEG-фото</string>
+    <string name="MID_FILTER_SORT_PROTECTED">Защищенные изображения</string>
+    <string name="MID_FILTER_SORT_QUALITY_HEIF">HEIF</string>
+    <string name="MID_FILTER_SORT_QUALITY_JPEG">JPEG</string>
+    <string name="MID_FILTER_SORT_QUALITY_RAW">RAW</string>
+    <string name="MID_FILTER_SORT_RATED">Оцененные изображения</string>
+    <string name="MID_FILTER_SORT_RAW_AND_MOVIE">Видеоролики и RAW-фото</string>
+    <string name="MID_FILTER_SORT_RESULT">Отфильтрованные результаты : %s</string>
+    <string name="MID_FILTER_SORT_SLOT_ALL">Все папки на карте в текущем гнезде</string>
+    <string name="MID_FILTER_SORT_WARNING_RAW">Если для качества изображения выбран формат RAW, то можно выбрать максимум 100 снимков. Для загрузки изображений в формате RAW требуется больше времени.</string>
+    <string name="MID_FILTER_SORT_WARNING_SELECTED_OVER">Невозможно выбрать более 100 снимков, если для качества изображения выбран формат RAW.</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING">Настройки съемки сброшены</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING_DESC">Настройки съемки фотокамеры сброшены.</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_CHECK">Согласиться на использование Google Analytics для Firebase</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_OFF">Отклонить</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_ON">Принять</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DESC">Это приложение анализирует данные об использовании с помощью Google Analytics для Firebase. %s</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DETAIL">Подробно</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_ITEM">Анализир. данные об использ.</string>
+    <string name="MID_FIRMWARE_VERSION">Версия прошивки</string>
+    <string name="MID_FOR_A_WHILE_WAIT_PLEASE">Пожалуйста, подождите.</string>
+    <string name="MID_FWU_ACCESS_WEB_SITE">Примечание: обновление прошивки для этой фотокамеры невозможно выполнить со смартфона или планшета.</string>
+    <string name="MID_FWU_AGREE_AND_DOWNLOAD">Принять и загрузить</string>
+    <string name="MID_FWU_ALERT_CONNECT_WIFI">• На этапе «Копировать» соединение Wi-Fi на смартфоне или планшете временно переключается на фотокамеру.</string>
+    <string name="MID_FWU_ALERT_NOT_CLOSE">• Не закрывайте это окно. Это приведет к прекращению обновления прошивки.</string>
+    <string name="MID_FWU_BATTERY_OVER_80">• Батарея заряжена (>80%)</string>
+    <string name="MID_FWU_CAN_DOWNLOAD">Вы можете загрузить новую прошивку на свой компьютер.</string>
+    <string name="MID_FWU_CAN_TRANSFER">Вы можете скопировать новую прошивку на фотокамеру и обновить прошивку.</string>
+    <string name="MID_FWU_CONFIRM_VERSION_UP">Детали</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_FILE_SIZE">Размер обновления составляет %.1f МБ. Рекомендуется использовать Wi-Fi.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_PAUSE">Прервать загрузку?</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_MSG">Загрузка завершена; копирование начнется после возобновления.</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_TITLE">Прервать копирование?</string>
+    <string name="MID_FWU_DIALOG_DOWNLOAD">Загрузить</string>
+    <string name="MID_FWU_DIALOG_FW_DOWNLOAD">Загрузка прошивки</string>
+    <string name="MID_FWU_DOWNLOAD">Загрузить</string>
+    <string name="MID_FWU_ERROR_BATTERY_NOT_ENOUGH">Обновление прошивки не выполняется, если уровень заряда батареи фотокамеры ниже 80%. Зарядите батарею и повторите попытку.</string>
+    <string name="MID_FWU_ERROR_CAMERA_STATUS">Фотокамера не готова к обновлению прошивки. Проверьте состояние фотокамеры и повторите попытку.</string>
+    <string name="MID_FWU_ERROR_CARD_PROTECTED">Карта памяти защищена от записи. Разблокируйте карту памяти и повторите попытку.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_FULL">Произошла ошибка. Проверьте карту памяти.</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_OFF">В фотокамере нет карты памяти. Вставьте карту памяти и повторите попытку.</string>
+    <string name="MID_FWU_ERROR_NETWORK">Ошибка сети. Повторите попытку после улучшения сигнала.</string>
+    <string name="MID_FWU_ERROR_POWER_OFF">Фотокамера выключена. Включите фотокамеру и повторите попытку.</string>
+    <string name="MID_FWU_ERROR_SERVER">Проблема с сервером. Повторите попытку позже.</string>
+    <string name="MID_FWU_ERROR_UNKNOWN">Неизвестная ошибка.</string>
+    <string name="MID_FWU_FIRMWARE_UPDATE_NOTICE">Уведомление об обновлении прошивки</string>
+    <string name="MID_FWU_MEMORY_CARD_ON">• Вставлена карта памяти</string>
+    <string name="MID_FWU_NEED_CAMERA_OPERATION">SnapBridge не требуется для выполнения оставшейся части обновления. Нажмите «ОК» и используйте фотокамеру для завершения обновления.</string>
+    <string name="MID_FWU_NEED_CONDITIONS">Прежде чем продолжить, убедитесь в том, что:</string>
+    <string name="MID_FWU_NEW_FIRMWARE_VER">Новая прошивка:</string>
+    <string name="MID_FWU_NOTIFY_DESCRIBE">Для вашей фотокамеры доступна новая прошивка.</string>
+    <string name="MID_FWU_NOTIFY_RESTART">Начать</string>
+    <string name="MID_FWU_NOTIFY_START">Начать</string>
+    <string name="MID_FWU_PAUSE">Обновление приостановлено.</string>
+    <string name="MID_FWU_POWER_ON">• Фотокамера включена</string>
+    <string name="MID_FWU_RESTART">Возобновить</string>
+    <string name="MID_FWU_TAKE_FEW_MIN">Это займет несколько минут.</string>
+    <string name="MID_FWU_TITLE">Обновление прошивки</string>
+    <string name="MID_FWU_TITLE_STRING_FORMAT">Обновление прошивки(%s)</string>
+    <string name="MID_FWU_TRANSFER">Копировать</string>
+    <string name="MID_FWU_VERSION_UP">Обновить</string>
+    <string name="MID_GALLERY_DATE">dd/MM</string>
+    <string name="MID_GALLERY_SELECT_PHOTO">Выберите снимки</string>
+    <string name="MID_GUIDANCE_DIALOG_AFTER">Позже</string>
+    <string name="MID_HASH_ADD_NOTE">Хештеги могут добавляться в поле ввода автоматически при обмене изображениями.</string>
+    <string name="MID_HAVENT_SENT_TO_CAMERA_YET">Этот банк настроек ни разу не отправлялся на фотокамеру.</string>
+    <string name="MID_HOWTO_USER_SETTING">Применить загруж. настр.</string>
+    <string name="MID_ICP_NUMBER">沪ICP备10016366号-20A</string>
+    <string name="MID_IMPORTANT_NOTICE">Важное уведомление</string>
+    <string name="MID_IMPORT_ALERT_MSG0">Загрузка через Wi-Fi будет отменена по истечении заданного периода времени, если приложение работает в фоновом режиме.</string>
+    <string name="MID_IMPORT_ALERT_MSG1">Больше не показывать это сообщение</string>
+    <string name="MID_IMPORT_ALERT_MSG2">Вы можете загрузить дополнительные изображения после завершения текущей загрузки.</string>
+    <string name="MID_IMPORT_ALERT_MSG4">Невозможно загрузить видеоролики размером более 4 ГБ.</string>
+    <string name="MID_IMPORT_ALL_SELECT">Выбрать все</string>
+    <string name="MID_IMPORT_CANCEL_SELECT">Отменить выбор</string>
+    <string name="MID_IMPORT_CONFIRM_RETRY" />
+    <string name="MID_IMPORT_ERR_MSG">"Приложение нельзя использовать, потому что оно не имеет доступа к снимкам.
+Откройте «Настройки» в iOS и предоставьте «SnapBridge» доступ к снимкам."</string>
+    <string name="MID_IMPORT_EXEC_IMPORT">Загрузить</string>
+    <string name="MID_IMPORT_FOLDER_ALL">Все папки</string>
+    <string name="MID_IMPORT_ORIGINAL_FILE">Оригинальный формат</string>
+    <string name="MID_IMPORT_SELECT">Выбрать</string>
+    <string name="MID_IMPORT_SELECT_DESC">Выберите папку, которую Вы хотите просмотреть.</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_MGS">"Не удалось получить информацию.
+Пожалуйста, подождите немного и повторите попытку."</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_TITLE">Не удалось получить информацию.</string>
+    <string name="MID_IMPORT_SIZE_2M">2 мегапикселя</string>
+    <string name="MID_IMPORT_SIZE_8M">8 мегапикселей (4K)</string>
+    <string name="MID_IMPORT_SPECIFIED_PICTURE">Загрузить снимки, отмеченные для загрузки</string>
+    <string name="MID_IMPORT_SUSPEND_ERROR" />
+    <string name="MID_INITIALIZE_SETTING">Сбросить настройки</string>
+    <string name="MID_INPUT_NAME">Введите новое имя.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_8MP_PICTURES">Загрузка прекращена. Фотокамера не готова к загрузке 8-мегапиксельных файлов. Повторите попытку, после того, как подготовите фотокамеру к загрузке, завершив воспроизведение видеоролика, фотосъемку и т. п.</string>
+    <string name="MID_INTERRUPTED_TRANSFER_A_8MP_PICTURE">Фотокамера не готова к загрузке 8-мегапиксельных файлов. Повторите попытку, после того, как подготовите фотокамеру к загрузке, завершив воспроизведение видеоролика, фотосъемку и т. п.</string>
+    <string name="MID_LAST_CAMERA">Фотокамера, с которой этот банк использовался в последний раз:</string>
+    <string name="MID_LAST_LENS">Объектив, с которым банк использовался в последний раз:</string>
+    <string name="MID_LIKE">Избранное</string>
+    <string name="MID_LINK_SPEED">Скорость связи</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_MSG">Режим live view всегда включен во время видеозаписи.</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_TITLE">Переключение в режим live view для видеозаписи.</string>
+    <string name="MID_LOGIN_TO_NIS">"Вход в
+NIKON IMAGE SPACE"</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_DUE_TO_TERMS_UPDATED_MSG">Произошло обновление Лицензионного соглашения или Уведомления о защите конфиденциальной информации. Пожалуйста, выполните вход еще раз, чтобы подтвердить обновления.</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_MSG">Пожалуйста, выполните вход еще раз.</string>
+    <string name="MID_MANUAL_LOCATION_SYNC">Загрузить данные о местоположении</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING">Загрузка данных о местоположении</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING_SUB">"Загрузка данных о местоположении на фотокамеру.
+Пожалуйста, подождите."</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_FAILED">Не удалось загрузить данные о местоположении</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_SUCCESS">Загрузка данных о местоположении завершена</string>
+    <string name="MID_MENU_TITLE">Параметры приложения</string>
+    <string name="MID_MENU_TUTORIAL_TITLE">Помощь</string>
+    <string name="MID_MK_CHANNEL_NOT_LOGIN">Вход не вып</string>
+    <string name="MID_MK_CHANNEL_TITLE">Уведомления</string>
+    <string name="MID_MOTIF">Объект и сюжет</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT">Ночные шествия</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT_DESC">Делайте яркие снимки ночных шествий</string>
+    <string name="MID_MOTIF_COOKING">Еда</string>
+    <string name="MID_MOTIF_EATING">Еда</string>
+    <string name="MID_MOTIF_EATING_DESC">Подчеркните еду и смягчите фон</string>
+    <string name="MID_MOTIF_EATING_OUT">Еда на столе</string>
+    <string name="MID_MOTIF_EATING_OUT_DESC">Делайте яркие, насыщенные снимки еды</string>
+    <string name="MID_MOTIF_FLOWERS">Цветы и растения</string>
+    <string name="MID_MOTIF_FOR_AUCTION">Онлайн-аукционы</string>
+    <string name="MID_MOTIF_FOR_AUCTION_DESC">Делайте яркие, насыщ. снимки вещей на продажу</string>
+    <string name="MID_MOTIF_LANDSCAPE">Пейзажи</string>
+    <string name="MID_MOTIF_MAGIC_HOUR">Закаты</string>
+    <string name="MID_MOTIF_MAGIC_HOUR_DESC">Подчеркните красоту заката солнца</string>
+    <string name="MID_MOTIF_NATURE">Природные пейзажи</string>
+    <string name="MID_MOTIF_NATURE_DESC">Снимки получаются ярче, с естествен. цветами</string>
+    <string name="MID_MOTIF_NIGHT">Ночные пейзажи</string>
+    <string name="MID_MOTIF_NIGHT_DESC">Яркая съемка ночных пейзажей</string>
+    <string name="MID_MOTIF_NIGHT_VIEWING">Ночные пейзажи</string>
+    <string name="MID_MOTIF_PERSON">Люди</string>
+    <string name="MID_MOTIF_PERSON_NIGHT">Ночные портреты</string>
+    <string name="MID_MOTIF_PERSON_NIGHT_DESC">"Выделите портр. объек-
+ты на ночных снимках"</string>
+    <string name="MID_MOTIF_PET">Домашние животные</string>
+    <string name="MID_MOTIF_PET_INDOOR">Домашние животные</string>
+    <string name="MID_MOTIF_PET_INDOOR_DESC">Для неподвижных питомцев</string>
+    <string name="MID_MOTIF_PET_OUTDOOR">Домашние жив. в движении</string>
+    <string name="MID_MOTIF_PET_OUTDOOR_DESC">«Заморозить» движение подвижных питомцев</string>
+    <string name="MID_MOTIF_PLANT">Цветы</string>
+    <string name="MID_MOTIF_PLANT_DESC">"Делайте яркие, насы-
+щенные снимки цветов"</string>
+    <string name="MID_MOTIF_PORTRAIT">Портреты</string>
+    <string name="MID_MOTIF_PORTRAIT_DESC">Снимать главный объект в центре</string>
+    <string name="MID_MOTIF_RECORDS">Достопримеч./груп. портреты</string>
+    <string name="MID_MOTIF_RECORDS_DESC">Снимать объекты и фон вместе</string>
+    <string name="MID_MOTIF_RELATIVES">Освещенные сзади объекты</string>
+    <string name="MID_MOTIF_RELATIVES_DESC">Осветлить освещенные сзади лица</string>
+    <string name="MID_MOTIF_RIVER">Водоемы</string>
+    <string name="MID_MOTIF_RIVER_DESC">Съемка течения движущейся воды</string>
+    <string name="MID_MOTIF_SELECTED">Выбранные объект и сюжет:</string>
+    <string name="MID_MOTIF_SELFY">Автопортреты</string>
+    <string name="MID_MOTIF_SELFY_DESC">Снимать себя в центре</string>
+    <string name="MID_MOTIF_SMALL_ITEMS">Мелкие предметы</string>
+    <string name="MID_MOTIF_SMALL_ITEMS_DESC">"Выделите мелкие пред-
+меты на ярких снимках"</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR">Спорт в помещениях</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR_DESC">«Заморозить» движущиеся объекты</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR">Спорт на открытом воздухе</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR_DESC">«Заморозить» движущиеся объекты</string>
+    <string name="MID_MOTIF_STARS">Ночное небо (требуется штатив)</string>
+    <string name="MID_MOTIF_STARS_DESC">Съемка блеска звезд с длинной экспозицией</string>
+    <string name="MID_MOTIF_STILL_LIFE">Изделие</string>
+    <string name="MID_MOTIF_STREET">Здания и городские пейзажи</string>
+    <string name="MID_MOTIF_STREET_DESC">Съемка зданий и города с высокой детализацией</string>
+    <string name="MID_MOTIF_TREE_VIEWING">Цветение вишни</string>
+    <string name="MID_MOTIF_TREE_VIEWING_DESC">Делайте яркие, насыщ. снимки цветов и листьев</string>
+    <string name="MID_MOTION_BLUR">Создать следы движения</string>
+    <string name="MID_MOVE_TO_AUTOMATIC_ALIGNMENT_SETTING">Открыть параметры автосоединения</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_BLUETOOTH">"Разрешения для Bluetooth (Устройство поблизости) отключены.
+Включите разрешения для Bluetooth (Устройство поблизости) в настройках вашего устройства."</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_LOCATION">"Разрешения для местоположения отключены.
+Включите разрешения для местоположения в настройках вашего устройства."</string>
+    <string name="MID_MSG_ATTACH_LOCATION_WIFI_MODE">"Данные о местоположении, полученные с помощью смарт-устройства, могут добавляться к снимкам при их загрузке.
+Поскольку данные о местоположении получаются непосредственно перед загрузкой, если был выбран параметр «Загрузить снимки», данные о местоположении на снимках могут отличаться от мест, где эти снимки были действительно записаны."</string>
+    <string name="MID_MSG_CAMERA_IS_ALWAYS_CONNECT">"После завершения сопряжения соединение с фотокамерой будет доступно постоянно.
+Можно использовать функцию автозагрузки снимков."</string>
+    <string name="MID_MSG_CANNOT_CHOICE_RESIDENCE_LATER">"Выберите регион проживания.
+
+Если впоследствии вам понадобится изменить регион, переустановите приложение."</string>
+    <string name="MID_MSG_CANNOT_SEARCH_BLUETOOTH">Функция Bluetooth фотокамеры не обнаружена. Убедитесь, что функция Bluetooth включена на фотокамере.</string>
+    <string name="MID_MSG_CANNOT_SEND_SETTING">Настройки съемки нельзя передавать в фотокамеру во время загрузки снимков.</string>
+    <string name="MID_MSG_CONFIRM_ACCESSPOINT_NOTE">"Проверьте, совпадают ли точки доступа, выбранные на фотокамере и устройстве. Если это не так, запустите настройки Wi-Fi из приложения «%s» на смарт-устройстве и выберите точку доступа, выбранную на фотокамере.
+
+Коснитесь «Подключить Wi-Fi», чтобы отобразить список обнаруженных фотокамер. Выберите фотокамеру для подключения из списка."</string>
+    <string name="MID_MSG_CONFIRM_CANCEL_CONNECTING">Отключить эту фотокамеру?</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_TEMPORARILY">"Установите однократное прямое соединение с фотокамерой для удаленной съемки и загрузки снимков.
+Для получения дополнительной информации см. интерактивную справку."</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_VIA__WIFI_ONLY">Для подключения к фотокамере используйте только Wi-Fi.</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_WHILE_CONNECTED_TO_INTERNET">"При подключении фотокамеры устанавливается соединение с Интернетом, что позволяет выполнять автозагрузку, удаленную фотосъемку и загрузку снимков.
+Для получения дополнительной информации см. интерактивную справку."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE">"При подключении к фотокамере по Wi-Fi выберите «Создать профиль» для «Подключ. к смарт-устройству» > «Подключение по Wi-Fi (STA mode)» в меню сети фотокамеры.
+Для получения дополнительной информации см. %s."</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_HELP">интерактивную справку</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_SETTING">Настройки</string>
+    <string name="MID_MSG_CONTENT_ERROR">"Неправильный введенный текст. 
+Подтвердите."</string>
+    <string name="MID_MSG_ENABLE_WIFI_ICON">"Коснитесь значка Wi-Fi, чтобы подключить фотокамеру по Wi-Fi.
+Для получения дополнительной информации см. интерактивную справку."</string>
+    <string name="MID_MSG_END_WIFI_CONNECTION">Отключить Wi-Fi-соединение?</string>
+    <string name="MID_MSG_GO_TO_HINT">Для получения подробной информации о съемке коснитесь здесь.</string>
+    <string name="MID_MSG_HOW_TO_SETTING_WIFI_STATION_MODE_NOTE">"Выберите «Подключение по Wi-Fi (STA mode)» в меню настройки или меню сети фотокамеры и настройте параметры. Для получения дополнительной информации см. страницу интерактивной справки.
+%s
+
+Выберите точку доступа, выбранную в шаге 1."</string>
+    <string name="MID_MSG_INITIALIZE">Сбросить настройки до значений по умолчанию?</string>
+    <string name="MID_MSG_INVALID_SUBNET_MASK_ERROR">"Указанные IP-адрес и маска подсети несовместимы.
+Введите совместимые значения."</string>
+    <string name="MID_MSG_IP_ADDRESS_COLLISION_ERROR">IP-адрес сервера слишком близок к IP-адресу клиента. Выберите IP-адреса, отличающиеся не менее чем на 4.</string>
+    <string name="MID_MSG_IP_ADDRESS_ERROR">Недопустимый IP-адрес.</string>
+    <string name="MID_MSG_LOGOUT_TO_DELETE_NIS_ID">Чтобы удалить свою учетную запись NIKON IMAGE SPACE, необходимо выйти из системы.</string>
+    <string name="MID_MSG_MISS_PASSWORD">Введенный пароль не соответствует требованиям настройки.</string>
+    <string name="MID_MSG_NIS_IN_CHINA_HAS_ENDED">Загрузка из «SnapBridge» в «NIKON IMAGE SPACE» в материковом Китае завершилась.</string>
+    <string name="MID_MSG_NIS_PROSEDURE_FOR_RESUMING">"Это сообщение предназначено для тех, кто не входил в систему более года. Все загруженные вами ранее снимки и видеоролики удалены с этого сайта, и ни они, ни созданные вами альбомы или папки альбомов не могут быть восстановлены.
+Используйте веб-браузер для входа в NIKON IMAGE SPACE и восстановления своей учетной записи."</string>
+    <string name="MID_MSG_NOT_MATCH_MODE_DIAL_SETTING">Если у фотокамеры нет диска сверху, установите режим съемки в соответствии с процедурой, указанной для вашей модели.</string>
+    <string name="MID_MSG_NO_PASSWORD">Пароль не указан. Введите пароль.</string>
+    <string name="MID_MSG_OPEN_AUTOMATIC_ALIGNMENT_SETTING">Автосоединение отключено. Его можно снова включить в параметрах автосоединения.</string>
+    <string name="MID_MSG_PARAMETER_SEND_FAILED">Фотокамера занята. Попробуйте подключиться снова после завершения записи или воспроизведения видео.</string>
+    <string name="MID_MSG_PAUSE_CONNECT_WITH_CAMERA">"Приостановить подключение к фотокамере?
+Для возобновления подключения коснитесь значка еще раз."</string>
+    <string name="MID_MSG_PLEASE_TAP_CAMERA_OK_BUTTON">Нажмите кнопку OK фотокамеры, когда сопряжение будет завершено.</string>
+    <string name="MID_MSG_REBOOT_APPLICATION_FOR_NIKON_ID">Процедуры регистрации и входа в систему по Nikon ID изменились. Перезапустите приложение и повторите попытку.</string>
+    <string name="MID_MSG_RESTART_AFTER_IMPORTING">Выполняется загрузка изображений с фотокамеры через Wi-Fi. Повторите попытку, когда загрузка будет завершена.</string>
+    <string name="MID_MSG_RESUME_CONNECT_WITH_CAMERA">Возобновить подключение к фотокамере?</string>
+    <string name="MID_MSG_SELECT_ACCESS_NOTIFICATION_FROM_DEVICE_SETTING">"Если вы не разрешите уведомления от «SnapBridge», вы не сможете загружать снимки и добавлять данные о местоположении.
+ 
+Перейдите в настройки устройства и разрешите доступ для уведомлений."</string>
+    <string name="MID_MSG_SELECT_ALLOW_NOTIFICATION">Если вы не разрешите уведомления от «SnapBridge», вы не сможете загружать снимки и добавлять данные о местоположении. Выберите «Разрешить» для уведомлений.</string>
+    <string name="MID_MSG_SEND_SHOTTING_SETTING_DURING_TRANSFERING_IMAGE">"В настоящее время выполняется загрузка изображений из фотокамеры по Wi-Fi.
+Настройки загрузки будут доступны после завершения загрузки."</string>
+    <string name="MID_MSG_START_IMPORT_SPECIFIED_PICTURE">Фотокамера сохраняет снимки, помеченные для загрузки. Запуск загрузки снимков.</string>
+    <string name="MID_MSG_SUBNET_MASK_ERROR">Недопустимая маска подсети.</string>
+    <string name="MID_MSG_UPLOAD_RESET">Загрузите в фотокамеру настройки по умолчанию, чтобы восстановить исходные настройки съемки.</string>
+    <string name="MID_NEWS_GET_CHANNEL_FAILED">Невозможно получить новости.</string>
+    <string name="MID_NEWS_GET_CHANNEL_NONE">Новостей нет.</string>
+    <string name="MID_NEW_PRODUCTS_INFO_LINK">Информация о новом изделии доступна здесь</string>
+    <string name="MID_NEW_PRODUCT_DATA_DOWNLOAD">Загрузка данных изображения для нового изделия</string>
+    <string name="MID_NEXT">Дальше</string>
+    <string name="MID_NICKNAME_INPUT_NOTE">Это имя будет отображаться фотокамерами, к которым подключено устройство.</string>
+    <string name="MID_NICKNAME_INPUT_TITLE">Имя смарт-устройства</string>
+    <string name="MID_NICKNAME_WARN_INFO">Имя должно иметь длину не менее 1 символа.</string>
+    <string name="MID_NID_PRIVACY_POLICY_ITEM">Уведомление о конфиденциальности</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_BLUETOOTH_TEXT">Выполняется загрузка через Bluetooth</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_BLUETOOTH_TEXT">Выполняется загрузка через Bluetooth, Сейчас используются данные о местоположении.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_READY_TEXT">Подготовка снимков для автозагрузки, Сейчас используются данные о местоположении.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_WIFI_TEXT">Выполняется загрузка через Wi-Fi, Сейчас используются данные о местоположении.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_NO_LOCATION_TEXT">Ожидание…</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_READY_TEXT">Подготовка снимков для автозагрузки</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_TEXT">Сейчас используются данные о местоположении.</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_WIFI_TEXT">Выполняется загрузка через Wi-Fi</string>
+    <string name="MID_NOT_USED">Этот банк не загружен в фотокамеру.</string>
+    <string name="MID_NO_BLUR">«Заморозить» движение</string>
+    <string name="MID_NO_SET">Нет доступных банков настроек. Коснитесь кнопки справа внизу, чтобы создать банк.</string>
+    <string name="MID_NUMBER_USE">Использован:</string>
+    <string name="MID_OK">ОК</string>
+    <string name="MID_OPEN_OS_SETTING">Откройте приложение настроек устройства</string>
+    <string name="MID_PAN_FOCUS">Сохранить резкость везде</string>
+    <string name="MID_PARAM_DETAIL">Настройки, примененные к фотокамере</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID">Доступ к «Снимки» необходим для использования функций «SnapBridge». Выберите «Разрешить доступ ко всем фото».</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID_14">Доступ к «Фото и видео» необходим для использования функций «SnapBridge». Выберите «Разрешить ко всем».</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_IOS17">Для использования функций «SnapBridge» требуется доступ к фотобиблиотеке. Выберите «Разрешить полный доступ».</string>
+    <string name="MID_PERMISSION_ALLOW_BACKGROUND_RUNNING">SnapBridge требуется разрешение для работы в фоновом режиме.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS">Разрешите своему смартфону доступ к вашему местоположению, чтобы он мог выполнить сопряжение с фотокамерой.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING">Перейдите к настройкам устройства и разрешите доступ к местоположению.</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING_FOR_R">"В Android необходимо предоставить разрешение на доступ к службам определения местоположения, чтобы использовать функции сопряжения и Bluetooth.
+Предоставьте разрешение на доступ к службам определения местоположения в приложении «Настройки» своего устройства."</string>
+    <string name="MID_PERMISSION_ALLOW_PHOTO_ACCESS_ANDROID_14">Для передачи снимков требуется доступ к «Фото и видео». Предоставьте доступ в приложении «Настройки» своего устройства.</string>
+    <string name="MID_PERMISSION_ALLOW_STORAGE_ACCESS_IN_DEVICE_SETTING">SnapBridge требуется доступ к хранилищу для загрузки изображений. Перейдите к настройкам устройства и разрешите доступ к хранилищу.</string>
+    <string name="MID_PERMISSION_ALWAYS_ALLOW_LOCATION_ACCESS">На платформе Android необходимо предоставить разрешение на доступ к службам определения местоположения, чтобы использовать функции сопряжения и Bluetooth.</string>
+    <string name="MID_PERMISSION_ENABLE_DEVICE_LOCATION">Чтобы использовать это приложение, включите данные о местоположении на вашем устройстве.</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALLOW">В следующем диалоговом окне выберите «РАЗРЕШИТЬ»</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALWAYS_ALLOW_FOR_R">Вам будет предложено разрешить доступ к службам определения местоположения. Коснитесь «При использовании приложения».</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_WIFI_ON">Включите Wi-Fi</string>
+    <string name="MID_PERMISSION_NOT_GRANTED">У приложения нет необходимых разрешений. Перейдите в раздел «SnapBridge» в приложении «Настройки» устройства и включите необходимые разрешения.</string>
+    <string name="MID_POS_GPS_LIST_HIGH">Высокая (высокая точность)</string>
+    <string name="MID_POS_GPS_LIST_HIGH_MIN">Высокая</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE">Средняя</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE_MIN">Средняя</string>
+    <string name="MID_POS_GPS_LIST_ROUGH">Низкая</string>
+    <string name="MID_POS_GPS_LIST_ROUGH_MIN">Низкая</string>
+    <string name="MID_POS_GPS_NOTE">При выборе значения «Высокая» расход заряда батарей фотокамеры и смарт-устройства увеличивается. Не выбирайте значение «Высокая», когда находитесь в движущемся транспорте, например в автомобиле или поезде. При выборе значения «Низкая» данные о местоположении будут обновляться реже, но при этом расход заряда батареи смарт-устройства уменьшится.</string>
+    <string name="MID_POWERZOOM_SPEED">Скорость зума с электроприводом</string>
+    <string name="MID_PRECISE">Точно</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MSG">Пожалуйста, ознакомьтесь с Политикой конфиденциальности.</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MUST_READ_MSG">Прочитайте политику конфиденциальности (Обязательно)</string>
+    <string name="MID_PROHIBIT_OPEN_WMA_MENU">При подключении к фотокамерам со встроенной функцией Wi-Fi настройте параметры в меню фотокамеры.</string>
+    <string name="MID_PTP_REMOTE_DESCRIBE">Делайте снимки удаленно, компонуя кадр на смарт-устройстве.</string>
+    <string name="MID_READ_HINTS">Посмотреть подробные советы по съемке</string>
+    <string name="MID_REMOTE_CAMERA_SETTING">Настройки фотокамеры</string>
+    <string name="MID_REMOTE_MOVIE_NOT_SUPPORT_MODE">Режим съемки: выбранный режим недоступен во время удаленной видеозаписи. Вместо него будет использоваться режим P.</string>
+    <string name="MID_REMOTE_NOT_START_REMOTE_BY_OLD_FTZ_FW">"Версия прошивки переходника байонета FTZ не поддерживается.
+Обновите прошивку FTZ."</string>
+    <string name="MID_REMOTE_NOT_TRANSFER_TIFF">В фотокамере выбрано качество изображения TIFF. Снимки можно делать удаленно, но они не будут загружены на смарт-устройство.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_DESC">Автоматическая загрузка снимков после съемки.</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_INDEX">Загрузить снимки</string>
+    <string name="MID_REMOTE_SETTINGS_LIVE_VIEW_ENABLED">Live view</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_SECONDS">с</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_TITLE">Параметры автоспуска</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_DESC">Снимок будет сделан спустя 3 секунды после того, как вы коснетесь иконки.</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_INDEX">Автоспуск</string>
+    <string name="MID_REMOTE_SIZE_ONLY_2M_8M_JPEG_OR_2M_HEIF">Даже если вы выбрали загрузку снимков в оригинальном формате, снимки в формате RAW будут загружены как 2- или 8-мегапиксельные изображения в формате JPEG или как 2-мегапиксельные изображения в формате HEIF.</string>
+    <string name="MID_REMOTE_SIZE_ONLY_JPEG">Снимки в формате RAW будут загружаться как изображения в формате JPEG размером 2 мегапикселя, даже если вы выбрали загрузку изображений в исходном формате.</string>
+    <string name="MID_REMOTE_TRANS_SIZE">Выбрать размер загрузки</string>
+    <string name="MID_REMOTE_WB_CLOUDY">Облачно</string>
+    <string name="MID_REMOTE_WB_DIRECT_SUNLIGHT">Солнечно</string>
+    <string name="MID_REMOTE_WB_FLASH">Вспышка</string>
+    <string name="MID_REMOTE_WB_FLUORESCENT">Лампа дневного света</string>
+    <string name="MID_REMOTE_WB_INCANDESCENT">Лампа накаливания</string>
+    <string name="MID_REMOTE_WB_SHADE">Тень</string>
+    <string name="MID_RENAME">Переименовать</string>
+    <string name="MID_REQUEST_DELETE_SETS">Необходимо удалить банк, прежде чем создавать новые</string>
+    <string name="MID_RESET_SHOOTING_SETTING">Сбросить настройки съемки</string>
+    <string name="MID_RESTART_APP_DUE_TO_BACKGROUND_STOPPED_MSG">Фоновый процесс приостановлен. Перезапустите приложение.</string>
+    <string name="MID_RETET_SHOTTING_SETTING_DESC">Сброс настроек съемки фотокамеры до значений по умолчанию.</string>
+    <string name="MID_SAVE">Сохранить</string>
+    <string name="MID_SAVED_NUM_LIMIT">Список банков заполнен</string>
+    <string name="MID_SAVE_AS">Сохранить настройки как</string>
+    <string name="MID_SAVE_DESC">Введите имя банка настроек</string>
+    <string name="MID_SAVE_EDITED">Сохранить изменения</string>
+    <string name="MID_SAVE_TITLE">Присв. имя банку настроек</string>
+    <string name="MID_SELECTED">Выбранные настройки</string>
+    <string name="MID_SELECT_CONNECTION">Выберите способ, используемый для подключения к фотокамере.</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALBANIA">Албания</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALGERIA">Алжир</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ANDORRA">Андорра</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ARGENTINA">Аргентина</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRALIA">Австралия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRIA">Австрия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BAHRAIN">Бахрейн</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BANGLADESH">Бангладеш</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BELGIUM">Бельгия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOLIVIA">Боливия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOSNIA_HERZEGOVINA">Босния и Герцеговина</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BULGARIA">Болгария</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CAMBODIA">Камбоджа</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CANADA">Канада</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHILE">Чили</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHINESE_MAINLAND">Континентальный Китай</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_COLOMBIA">Колумбия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CROATIA">Хорватия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CYPRUS">Кипр</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CZECH_REPUBLIC">Чехия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_DENMARK">Дания</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_EGYPT">Египет</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ESTONIA">Эстония</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FINLAND">Финляндия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRANCE">Франция</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRENCH_POLYNESIA">Французская Полинезия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GERMANY">Германия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GHANA">Гана</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GIBRALTAR">Гибралтар</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GREECE">Греция</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GUADELOUPE">Гваделупа</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HONG_KONG">Гонконг</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HUNGARY">Венгрия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ICELAND">Исландия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDIA">Индия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDONESIA">Индонезия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_IRELAND">Ирландия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ISRAEL">Израиль</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ITALY">Италия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JAPAN">Япония</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JORDAN">Иордания</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KAZAKHSTAN">Казахстан</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KENYA">Кения</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOREA">Корея</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOSOVO">Косово</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KUWAIT">Кувейт</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KYRGYZSTAN">Киргизия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LATVIA">Латвия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LEBANON">Ливан</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LITHUANIA">Литва</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LUXEMBOURG">Люксембург</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MADAGASCAR">Мадагаскар</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAWI">Малави</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAYSIA">Малайзия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALDIVES">Мальдивы</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALTA">Мальта</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MARTINIQUE">Мартиника</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MAURITIUS">Маврикий</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MEXICO">Мексика</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOLDOVA">Молдова</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONACO">Монако</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONTENEGRO">Черногория</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOROCCO">Марокко</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MYANMAR">Мьянма</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEPAL">Непал</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NETHERLANDS">Нидерланды</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_CALEDONIA">Новая Каледония</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_Fiji">Фиджи</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_ZEALAND">Новая Зеландия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NIGERIA">Нигерия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORTH_MACEDONIA">Северная Македония</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORWAY">Норвегия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_OMAN">Оман</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PAKISTAN">Пакистан</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PARAGUAY">Парагвай</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PERU">Перу</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PHILIPPINES">Филиппины</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_POLAND">Польша</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PORTUGAL">Португалия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_QATAR">Катар</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_REUNION">Реюньон</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ROMANIA">Румыния</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_RWANDA">Руанда</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SAUDI_ARABIA">Саудовская Аравия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SERBIA">Сербия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SINGAPORE">Сингапур</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVAKIA">Словакия</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVENIA">Словения</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SOUTH_AFRICA">Южная Африка</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SPAIN">Испания</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SRI_LANKA">Шри-Ланка</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWEDEN">Швеция</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWITZERLAND">Швейцария</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAIWAN">Тайвань</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAJIKISTAN">Таджикистан</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TANZANIA">Танзания</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_THAILAND">Таиланд</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TUNISIA">Тунис</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKEY">Турция</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKMENISTAN">Туркменистан</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UAE">ОАЭ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UGANDA">Уганда</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UKRAINE">Украина</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_KINGDOM">Великобритания</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_STATES_OF_AMERICA">США</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_URUGUAY">Уругвай</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UZBEKISTAN">Узбекистан</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VANUATU">Вануату</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VIETNAM">Вьетнам</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ZIMBABWE">Зимбабве</string>
+    <string name="MID_SELECT_MOTIF">Выберите главный объект съемки</string>
+    <string name="MID_SELECT_REGIONS_SELECT_AFRICA">Африка</string>
+    <string name="MID_SELECT_REGIONS_SELECT_ASIA">Азия</string>
+    <string name="MID_SELECT_REGIONS_SELECT_EUROPE">Европа</string>
+    <string name="MID_SELECT_REGIONS_SELECT_MIDDLE_EAST">Средний Восток</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OCEANIA">Океания</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OTHER_COUNTRIES">Другие страны/регионы</string>
+    <string name="MID_SELECT_REGIONS_SELECT_THE_AMERICAS">Северная и Южная Америка</string>
+    <string name="MID_SEND_ANOTHER">Создать еще банк настр.</string>
+    <string name="MID_SEND_COMPLETE">Загрузка завершена</string>
+    <string name="MID_SEND_SETS_PROGRESS">Загрузка настроек в фотокамеру...</string>
+    <string name="MID_SEND_SET_TO_CAMERA">Загрузить в фотокамеру</string>
+    <string name="MID_SEND_THE_SET">Загрузить в фотокамеру</string>
+    <string name="MID_SEN_SETS_FINISHED">Теперь, когда настройки фотокамеры обновлены, можно делать снимки.</string>
+    <string name="MID_SERIAL_NUMBER">Серийный номер</string>
+    <string name="MID_SETTING_NAME_PRESET">Пользовательский банк настроек</string>
+    <string name="MID_SET_BLUR">Размытие движения</string>
+    <string name="MID_SET_BOKEH">Боке/глубина резко изображаемого пространства</string>
+    <string name="MID_SET_FINISHED">Настр. сохр.</string>
+    <string name="MID_SET_FINISHED_DESC">Попробуйте загрузить настройки в фотокамеру и сделать несколько снимков.</string>
+    <string name="MID_SET_REJECTED_BY_CAMERA_TITLE">Проверьте состояние фотокамеры</string>
+    <string name="MID_SHARE_ACQUIRING">Копирование снимков.</string>
+    <string name="MID_SHARE_FAILED_TO_ACQUIRE">Не удалось скопировать снимок.</string>
+    <string name="MID_SHARE_INSUFFICIENT_STORAGE_SPACE">Недостаточно места для хранения. Не удается отправить снимки.</string>
+    <string name="MID_SIGN_UP_NIS">"Регистрация в
+NIKON IMAGE SPACE"</string>
+    <string name="MID_SORT">Упорядочить</string>
+    <string name="MID_SORT_NAME_DOWN">Упорядочить по имени (по убыванию)</string>
+    <string name="MID_SORT_NAME_UP">Упорядочить по имени (по возрастанию)</string>
+    <string name="MID_SORT_NEW">Сначала новые</string>
+    <string name="MID_SORT_OLD">Сначала старые</string>
+    <string name="MID_SORT_USE_LATELY">По времени использования</string>
+    <string name="MID_SORT_USE_MANY">По частоте использования</string>
+    <string name="MID_START">Начать</string>
+    <string name="MID_SUPPLEMENT_ACCESS_LOCATION_PRECISE">Примечание: Если вам не предоставляется выбор между вариантами «Точно» и «Приблизительно», вам нужно только предоставить разрешение на доступ к местоположению устройства.</string>
+    <string name="MID_TERMS_OF_SERVICE_AGREEMENT_DESC">Примите вышеуказанные условия</string>
+    <string name="MID_TIMES">раз(а)</string>
+    <string name="MID_TIPS">Приемы съемки и советы</string>
+    <string name="MID_TIPS_A_DESC">Проверьте состояние подключения фотокамеры (коснитесь, чтобы отобразить дополнительную информацию).</string>
+    <string name="MID_TIPS_B_DESC">Включите или выключите функции «Автозагрузка», «Часы» или «Данные о местоположении».</string>
+    <string name="MID_TIPS_C_DESC">Просматривайте изображения, загруженные с фотокамеры.</string>
+    <string name="MID_TIPS_D_DESC">Соединение с облачным сервисом Nikon.</string>
+    <string name="MID_TIPS_TAP">Коснитесь дисплея.</string>
+    <string name="MID_TIPS_TITLE">Использование SnapBridge</string>
+    <string name="MID_TITLE_CHOICE_CONNECTION_TYPE">Выбрать тип подключения</string>
+    <string name="MID_TITLE_NIKON_IMAGE_CLOUD">Nikon Imaging Cloud</string>
+    <string name="MID_TUTORIAL1_DESC">С помощью этого приложения даже начинающие фотографы могут легко подобрать настройки в соответствии со своими целями.</string>
+    <string name="MID_TUTORIAL1_TITLE">Упрощенные настройки фотокамеры</string>
+    <string name="MID_TUTORIAL2_DESC">Для создания банка настроек достаточно выбрать объект съемки, сюжет и стиль. Приступаем к работе.</string>
+    <string name="MID_TUTORIAL2_TITLE">Нужно только выбрать несколько вариантов</string>
+    <string name="MID_USE_NIS_MSG_1">Вы можете использовать «NIKON IMAGE SPACE», службу хранения изображений Nikon.</string>
+    <string name="MID_USE_NIS_MSG_2">Изображения, загруженные на ваше смарт-устройство, можно отправить в NIKON IMAGE SPACE.</string>
+    <string name="MID_USE_NIS_MSG_3">Коснитесь «Использовать» и выполните вход, если вы уже зарегистрированы в NIKON IMAGE SPACE.</string>
+    <string name="MID_USE_POWER_ZOOM_CANNOT_MSG">Дистанционное управление зумом с электроприводом недоступно при текущих настройках.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_BLACK_BACKGROUND_FOR_PICTURE_IN_PICTURE_PROTECTION">Закройте окно Picture-in-Picture.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_MESSAGE">Перед входом в NIKON IMAGE SPACE дайте приложению разрешение на работу в фоновом режиме.</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_TITLE">Выберите «Разрешить» в следующем диалоговом окне.</string>
+    <string name="MID_WELCOME_A_DESC">Использование приложения SnapBridge вместе с Вашей фотокамерой Nikon открывает двери для новых впечатлений, связанных с изображениями.</string>
+    <string name="MID_WELCOME_A_TITLE">Добро пожаловать в «SnapBridge»</string>
+    <string name="MID_WELCOME_B_DESC">Фотографии можно автоматически загружать на смарт-устройство и делиться ими прямо на месте.</string>
+    <string name="MID_WELCOME_B_TITLE">Делитесь впечатляющими фотографиями в любое время, в любом месте</string>
+    <string name="MID_WELCOME_C_DESC">Делайте снимки дистанционно, видя объект фотосъемки на дисплее смарт-устройства.</string>
+    <string name="MID_WELCOME_C_TITLE">Используйте смарт-устройство для удаленной съемки</string>
+    <string name="MID_WELCOME_D_DESC">Получив Nkon ID, Вы сможете хранить неограниченное количество 2-мегапиксельных изображений в формате JPEG в NIKON IMAGE SPACE, бесплатном облачном хранилище. Изображения можно загружать автоматически.</string>
+    <string name="MID_WELCOME_D_TITLE">Неограниченная автоматическая загрузка в NIKON IMAGE SPACE</string>
+    <string name="MID_WELCOME_E_DESC">"«SnapBridge» соединяет Вашу фотокамеру с Вашим смарт-устройством и социальными сетями.
+Просто попробуйте!"</string>
+    <string name="MID_WELCOME_E_TITLE">Больше услуг, больше удобства</string>
+    <string name="MID_WIFI_2MB_SIZE">Wi-Fi, 2 мегапикселя</string>
+    <string name="MID_WIFI_CANCEL_MSG">Переключитесь на Bluetooth для сопряжения или сетевого подключения.</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_LAUNCH">Запустить WMU</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_MESSAGE">Отключите «App auto launch» (Автоматический запуск приложения) в меню «Settings» (Настройки). Подключение к SnapBridge по Wi-Fi невозможно, если включен «App auto launch» (Автоматический запуск приложения).</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_TITLE">Проверьте настройки Wireless Mobile Utility (WMU)</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_MESSAGE">Подключение к SnapBridge по Wi-Fi невозможно, если установлена более ранняя версия.</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_TITLE">Обновите Wireless Mobile Utility</string>
+    <string name="NIS_CLD_UNDER_MAINTENANCE2">Ошибка подключения. В настоящее время проводится техническое обслуживание сервера.</string>
+    <string name="NULL_VALUE">-</string>
+    <string name="SID_ACTIVE_D_LIGHTING">Активный D-Lighting</string>
+    <string name="SID_AF_AREA_MODE">Режим зоны АФ</string>
+    <string name="SID_AF_DETECTION_SETTING">Парам. обнаруж. объекта АФ</string>
+    <string name="SID_AF_SUBJ_DETECT_OPT">Парам. обнаруж. объекта АФ</string>
+    <string name="SID_APERTURE">Диафрагма</string>
+    <string name="SID_BRIGHTNESS">Яркость</string>
+    <string name="SID_CONTRAST">Контраст</string>
+    <string name="SID_EXP">Коррекция экспозиции</string>
+    <string name="SID_EXPOSURE_COMPENSATION_DIAL">Диск выбора коррекции экспозиции</string>
+    <string name="SID_FLICKER_REDUCTION_SHOOTING">Функция подавления мерцания</string>
+    <string name="SID_FOCUS_MODE">Режим фокусировки</string>
+    <string name="SID_HIGH_SENSITIVITY_NOISE_REDUCTION">Под. шума для выс. ISO</string>
+    <string name="SID_ISO_AUTO_CONTROL">Авт. управл. чувствит. ISO</string>
+    <string name="SID_ISO_LOW_SPEED">Макс. выдержка</string>
+    <string name="SID_ISO_MAX">Макс. чувствительность</string>
+    <string name="SID_ISO_SENSITIVITY">Чувствительность ISO</string>
+    <string name="SID_ISO_SENSITIVITY_DIAL">Диск выбора чувствительности ISO</string>
+    <string name="SID_LONG_SEC_NOISE_REDUCTION">Под. шума для длинн. экспоз.</string>
+    <string name="SID_LOW_LIGHT_AF">АФ при низком освещении</string>
+    <string name="SID_METERING">Замер экспозиции</string>
+    <string name="SID_MODE_SELECTOR">Переключатель выбора режимов</string>
+    <string name="SID_PICTURE_CONTROL">Режим Picture Control</string>
+    <string name="SID_QUICK_SHARP">Быстрая резкость</string>
+    <string name="SID_RELEASE_MODE">Режим съемки</string>
+    <string name="SID_SATURATION">Насыщенность</string>
+    <string name="SID_SET_ADL_EX_HIGH">Сверхусиленный</string>
+    <string name="SID_SET_ADL_EX_HIGH1">Сверхусиленный 1</string>
+    <string name="SID_SET_ADL_EX_HIGH2">Сверхусиленный 2</string>
+    <string name="SID_SET_ADL_HIGH">Усиленный</string>
+    <string name="SID_SET_ANIMAL">Животное</string>
+    <string name="SID_SET_AUTO">Авто</string>
+    <string name="SID_SET_AUTO_AREA">Автомат. выбор зоны АФ</string>
+    <string name="SID_SET_AUTO_LEAVE_ATMOSPHERE">Сохранять общую атмосферу</string>
+    <string name="SID_SET_AUTO_PRIORITIZE_WHITE">Сохр. белого (уменьш. теплых)</string>
+    <string name="SID_SET_CHOOSE_COLOR_TEMP">Выбор цвет. температуры</string>
+    <string name="SID_SET_CONTINUOUS_AF">Непрерывная АФ</string>
+    <string name="SID_SET_DIRECT_SUN_LT">Прямой солнечный свет</string>
+    <string name="SID_SET_HIGH_SPEED_CONTINUOUS_SHOOTING">Непрерывный высокоскор.</string>
+    <string name="SID_SET_LANDSCAPE">Пейзаж</string>
+    <string name="SID_SET_LOW_SPEED_CONTINUOUS_SHOOTING">Непрерывный низкоскор.</string>
+    <string name="SID_SET_NATURAL_LT_AUTO">Авто. для естеств. освещения</string>
+    <string name="SID_SET_NOISE_REDUCTION_STANDARD">Нормальный</string>
+    <string name="SID_SET_NORMAL">Normal</string>
+    <string name="SID_SET_OFF">Выкл.</string>
+    <string name="SID_SET_ON">Вкл.</string>
+    <string name="SID_SET_ONE_FRAME_SHOOTING">Покадровая</string>
+    <string name="SID_SET_PEOPLE">Люди</string>
+    <string name="SID_SET_PIN_PT">Точечная АФ</string>
+    <string name="SID_SET_SDR">SDR</string>
+    <string name="SID_SET_SINGLE_AF">Покадровая АФ</string>
+    <string name="SID_SET_SINGLE_PT">Одноточечная АФ</string>
+    <string name="SID_SET_SPORTS">Sport</string>
+    <string name="SID_SET_STANDARD">Стандартный</string>
+    <string name="SID_SET_VALID">Включить</string>
+    <string name="SID_SET_VIVID">Насыщенный</string>
+    <string name="SID_SET_WIDE_AREA_L">Широкая область АФ (L)</string>
+    <string name="SID_SHOOTING_MODE">Режим съемки</string>
+    <string name="SID_SHUTTER_SPEED">Выдержка</string>
+    <string name="SID_SHUTTER_SPEED_DIAL">Диск выбора выдержки</string>
+    <string name="SID_TONE_MODE">Режим тонов</string>
+    <string name="SID_VIBRATION_REDUCTION">Подавление вибраций</string>
+    <string name="SID_WHITE_BALANCE">Баланс белого</string>
+    <string name="SID_WHITE_BALANCE_AUTO">Баланс белого - Авто</string>
+    <string name="TIPSID_HOWTO_USER_SETTING">Есть удобные функции, позволяющие менять режимы съемки одним касанием, если они заранее зарегистрированы в фотокамере.</string>
+    <string name="TIPSID_MOTIF_AMUSEMENTPARK_NIGHT">"---Описание режима---
+ Запечатлейте ночное шествие в насыщенных цветах. Фотокамера устанавливает выдержку, чтобы свести к минимуму смазывание объекта, и использует режим непрерывной съемки, чтобы вы могли выбрать лучший снимок из всей последовательности. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы сфокусироваться в нужном положении:
+· Коснитесь зоны фокусировки на мониторе. 
+■Если фотокамера не может выполнить фокусировку:
+· Используйте режим зоны АФ с более широкой зоной фокусировки, например, [Широкая область АФ (S)] или [Широкая область АФ (L)]. 
+■Если объект съемки слишком темный:
+· Выберите более высокое (более положительное) значение коррекции экспозиции. 
+■Если объект съемки слишком яркий:
+· Выберите более низкое (более отрицательное) значение коррекции экспозиции. 
+■Чтобы сделать «шум» (в виде произвольно высвеченных пикселей) менее заметным: 
+· Установите максимальное значение чувствительности ISO на ISO [3200] или ниже."</string>
+    <string name="TIPSID_MOTIF_EATING">"---Описание режима---
+ Снимайте еду с естественными цветами и яркостью, с размытым фоном и окружающей обстановкой. 
+ 
+---Советы по работе с фотокамерой---
+■Если фотокамера не может выполнить фокусировку (точка фокусировки не отображается зеленым цветом): 
+· Отойдите от объекта съемки (фотокамера не может выполнить фокусировку, если она находится ближе, чем минимальное расстояние фокусировки, указанное на объективе). 
+· Используйте режим зоны АФ с меньшей зоной фокусировки, например, [Одноточечная АФ], [Широкая область АФ (S)] или [Широкая область АФ (L)]. 
+■Если объект съемки слишком темный:
+· Выберите более высокое (более положительное) значение коррекции экспозиции. 
+■Если объект съемки слишком яркий:
+· Выберите более низкое (более отрицательное) значение коррекции экспозиции. 
+■Чтобы сделать цвет фотографии более синим:
+· Установите баланс белого на [Лампы накаливания]. 
+■Чтобы сделать цвет фотографии более красным:
+· Установите баланс белого на [Облачно] или [Тень]. 
+■Чтобы размыть фон:
+· Снимайте с уменьшенной глубиной резко изображаемого пространства. 
+· Советы при съемке с уменьшенной глубиной резко изображаемого пространства: 
+1) Подойдите ближе к объекту съемки (но дальше, чем минимальное расстояние фокусировки, указанное на объективе). 
+2) Используйте объектив с небольшой максимальной диафрагмой (минимальное число f). 
+3) Используйте телеобъектив или увеличьте изображение в зум-объективе."</string>
+    <string name="TIPSID_MOTIF_EATING_OUT">"---Описание режима---
+ Снимайте еду с естественными цветами и яркостью, держа в фокусе все блюдо. 
+ 
+---Советы по работе с фотокамерой---
+■Если фотокамера не может выполнить фокусировку (точка фокусировки не отображается зеленым цветом): 
+· Отойдите от объекта съемки (фотокамера не может выполнить фокусировку, если она находится ближе, чем минимальное расстояние фокусировки, указанное на объективе). 
+· Используйте режим зоны АФ с меньшей зоной фокусировки, например, [Одноточечная АФ], [Широкая область АФ (S)] или [Широкая область АФ (L)]. 
+■Если объект съемки слишком темный:
+· Выберите более высокое (более положительное) значение коррекции экспозиции. 
+■Если объект съемки слишком яркий:
+· Выберите более низкое (более отрицательное) значение коррекции экспозиции. 
+■Чтобы сделать цвет фотографии более синим:
+· Установите баланс белого на [Лампы накаливания]. 
+■Чтобы сделать цвет фотографии более красным:
+· Установите баланс белого на [Облачно] или [Тень]."</string>
+    <string name="TIPSID_MOTIF_FOR_AUCTION">"---Описание режима---
+ Снимайте предметы для аукциона с высокой контрастностью, яркими цветами и общим резким фокусом. 
+ 
+---Приемы съемки---
+■Чтобы размыть фон и сделать четкий снимок изделия:
+· Используйте [Мелкие предметы]. 
+■Чтобы минимизировать смазывание, вызванное дрожанием фотокамеры:
+· Используйте штатив, стол или другие средства, чтобы зафиксировать фотокамеру, или крепко держите ее, прижав локти к бокам. 
+ 
+---Советы по работе с фотокамерой---
+■Если фотокамера не может выполнить фокусировку (точка фокусировки не отображается зеленым цветом): 
+· Отойдите от объекта съемки (фотокамера не может выполнить фокусировку, если она находится ближе, чем минимальное расстояние фокусировки, указанное на объективе). 
+■Чтобы сделать четкий снимок как изделия, так и фона: 
+· Установите меньшую (более узкую) диафрагму, например, f/11. 
+■Чтобы делать снимки, на которых объект съемки будет выделяться:
+· Отрегулируйте попадание естественного света на объект съемки или измените направление прожекторов так, чтобы объект был освещен по вашему вкусу."</string>
+    <string name="TIPSID_MOTIF_MAGIC_HOUR">"---Описание режима---
+ Запечатлейте красные оттенки вечернего пейзажа. Автофокусировка настроена так, чтобы облегчить фокусировку даже в условиях недостаточной освещенности. 
+ 
+---Приемы съемки---
+■Чтобы минимизировать смазывание, вызванное дрожанием фотокамеры:
+· Используйте штатив, стол или ограждение, чтобы зафиксировать фотокамеру, или крепко держите ее, прижав локти к бокам.
+ 
+---Советы по работе с фотокамерой---
+■Если на изображении пейзаж кажется ярче, чем на самом деле:
+· Выберите более низкое (более отрицательное) значение коррекции экспозиции. 
+■Если на изображении пейзаж кажется темнее, чем на самом деле:
+· Выберите более высокое (более положительное) значение коррекции экспозиции. 
+■Чтобы подчеркнуть красные оттенки заката:
+· Установите баланс белого на [Облачно] или [Тень]. 
+■Чтобы сохранить детали в бликах и тенях в высококонтрастных сюжетах:
+· Установите Активный D-Lighting на [Сверхусиленный]."</string>
+    <string name="TIPSID_MOTIF_NATURE">"---Описание режима---
+ Делайте снимки пейзажей, таких как горы и леса, с естественными тонами и цветами. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы сфокусироваться в нужном положении:
+· Коснитесь на мониторе области, на которой нужно сфокусироваться. 
+■Чтобы сохранить детали в бликах и тенях в высококонтрастных сюжетах:
+· Установите Активный D-Lighting на [Сверхусиленный]."</string>
+    <string name="TIPSID_MOTIF_NIGHT">"---Описание режима---
+ Запечатлейте ночные сюжеты с яркими, насыщенными цветами. 
+ 
+---Приемы съемки---
+■Чтобы минимизировать смазывание, вызванное дрожанием фотокамеры:
+· Используйте штатив, стол или ограждение, чтобы зафиксировать фотокамеру, или крепко держите ее, прижав локти к бокам.
+ 
+---Советы по работе с фотокамерой---
+■Чтобы сфокусироваться в нужном положении:
+· Коснитесь на мониторе области, на которой нужно сфокусироваться. 
+· Установите точку фокусировки фотокамеры на область, на которой нужно сфокусироваться, и нажмите спусковую кнопку затвора наполовину, чтобы зафиксировать фокусировку. Удерживая кнопку нажатой, измените компоновку кадра и сделайте снимок. 
+■Если фотокамера не может выполнить фокусировку:
+· Используйте режим зоны АФ с более широкой зоной фокусировки, например, [Широкая область АФ (S)] или [Широкая область АФ (L)]. 
+· В месте с контрастом нажмите спусковую кнопку затвора наполовину, чтобы зафиксировать фокусировку, а затем измените компоновку кадра и сделайте снимок. 
+· Выполните фокусировку вручную. 
+■Если объект съемки слишком яркий:
+· Смотря на дисплей, отрегулируйте экспозицию на свое усмотрение, выбрав более низкое (более отрицательное) значение коррекции экспозиции. 
+■Чтобы сделать «шум» менее заметным:
+· Установите фотокамеру на штатив или другое приспособление и установите чувствительность ISO на значение ISO [400] или ниже. 
+■Чтобы сделать цвет фотографии более синим:
+· Установите баланс белого на [Лампы накаливания].
+■Чтобы сделать цвет фотографии более красным:
+· Установите баланс белого на [Облачно] или [Тень]."</string>
+    <string name="TIPSID_MOTIF_PERSON_NIGHT">"---Описание режима---
+ Делайте сбалансированные снимки портретных объектов и ночных пейзажей с ночным видом на фоне. Автофокусировка настроена так, чтобы облегчить фокусировку в условиях недостаточной освещенности. 
+ 
+---Приемы съемки---
+■Чтобы сделать снимок в фокусе и свести к минимуму размытость объекта:
+· Используйте вспышку или светодиодную подсветку или перейдите в место, где есть уличные фонари, чтобы осветить лицо объекта. 
+· В условиях недостаточной освещенности используйте штатив или установите фотокамеру на плоской поверхности, например, на столе.
+ 
+---Советы по работе с фотокамерой---
+■Чтобы уменьшить шум:
+· Установите фотокамеру на штатив или плоскую поверхность, например, стол, и выберите ISO [3200] или ниже для [Настройки чувствит. ISO] > [Макс. чувствительность]."</string>
+    <string name="TIPSID_MOTIF_PET_INDOOR">"---Описание режима---
+ Запечатлейте домашних животных с естественными цветами. Вы сможете запечатлеть лучшие моменты, поскольку фотокамера непрерывно настраивает фокусировку в зависимости от движения объекта и делает серии снимков в режиме непрерывной низкоскоростной съемки. Фон может быть размытым или четким. 
+ 
+---Приемы съемки---
+■Чтобы запечатлеть лучшее выражение вашего питомца:
+· Держите фотокамеру под небольшим углом к уровню глаз вашего питомца. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы удерживать объект в фокусе:
+· Наведите фотокамеру на объекты и нажмите спусковую кнопку затвора наполовину – на лицах или глазах появятся желтые рамки и фокусировка будет зафиксирована на объекте. 
+■Чтобы запечатлеть самый лучший момент: 
+· Подготовьтесь к внезапному движению объекта во время съемки: наведя точку фокусировки на объект, нажмите и удерживайте спусковую кнопку затвора, чтобы фотокамера начала низкоскоростную серийную съемку и запечатлела нужный момент. 
+■Чтобы размыть фон:
+· Снимайте с уменьшенной глубиной резко изображаемого пространства. 
+· Советы при съемке с уменьшенной глубиной резко изображаемого пространства: 
+1) Подойдите ближе к объекту съемки (но дальше, чем минимальное расстояние фокусировки, указанное на объективе). 
+2) Используйте объектив с небольшой максимальной диафрагмой (минимальное число f). 
+3) Используйте телеобъектив или увеличьте изображение в зум-объективе."</string>
+    <string name="TIPSID_MOTIF_PET_OUTDOOR">"---Описание режима---
+ Делайте четкие снимки быстро движущихся домашних животных, используя короткие выдержки, чтобы минимизировать смазывание объекта съемки. Вы сможете запечатлеть даже малейшие движения активных домашних животных, поскольку фотокамера непрерывно настраивает фокусировку в зависимости от движения объекта и делает серии снимков в режиме непрерывной высокоскоростной съемки. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы удерживать объект в фокусе:
+· Наведите фотокамеру на объекты и нажмите спусковую кнопку затвора наполовину – на лицах или глазах появятся желтые рамки и фокусировка будет зафиксирована на объекте. 
+■Если объект вызывает смазывание при движении: 
+· Выберите S для режима съемки (экспозиции) и установите более короткую выдержку (например, [1/2000 с]). 
+■Чтобы запечатлеть момент стремительного движения:
+· Наведя точку фокусировки на активно движущийся объект съемки, нажмите и удерживайте спусковую кнопку затвора, чтобы фотокамера начала высокоскоростную серийную съемку и запечатлела нужный момент."</string>
+    <string name="TIPSID_MOTIF_PLANT">"---Описание режима---
+ Делайте насыщенные снимки цветов. Фон может быть размытым или четким так, чтобы окружающие цветы также были в фокусе. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы сфокусироваться в нужном положении:
+· Коснитесь на мониторе области, на которой нужно сфокусироваться. 
+■Если фотокамера не может выполнить фокусировку:
+· Используйте режим зоны АФ с более широкой зоной фокусировки, например, [Одноточечная АФ], [Широкая область АФ (S)] или [Широкая область АФ (L)]. 
+· В месте с контрастом нажмите спусковую кнопку затвора наполовину, чтобы зафиксировать фокусировку, а затем измените компоновку кадра и сделайте снимок. 
+· Выполните фокусировку вручную. 
+■Чтобы размыть фон:
+· Снимайте с уменьшенной глубиной резко изображаемого пространства. 
+· Советы при съемке с уменьшенной глубиной резко изображаемого пространства: 
+1) Подойдите ближе к объекту съемки (но дальше, чем минимальное расстояние фокусировки, указанное на объективе). 
+2) Используйте объектив с небольшой максимальной диафрагмой (минимальное число f). 
+3) Используйте телеобъектив или увеличьте изображение в зум-объективе. 
+■Чтобы сфотографировать цветы крупным планом:
+· Использование макрообъектива облегчает фокусировку на близлежащих объектах, позволяя получать увеличенные, детализированные фотографии. 
+· Использование телеобъектива или увеличение изображения в зум-объективе позволяет снимать цветы крупным планом с размытым фоном, не приближаясь к ним слишком близко. 
+■Если на изображении пейзаж кажется темнее, чем на самом деле:
+· Выберите более высокое (более положительное) значение коррекции экспозиции. 
+■Если на изображении пейзаж кажется светлее, чем на самом деле:
+· Выберите более низкое (более отрицательное) значение коррекции экспозиции."</string>
+    <string name="TIPSID_MOTIF_PORTRAIT">"---Описание режима---
+ Делайте портретные снимки с мягким цветом лица и естественным внешним видом. Фон может быть размытым или четким. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы удерживать портретные объекты в фокусе:
+· Наведите фотокамеру на объекты и нажмите спусковую кнопку затвора наполовину – на лицах или глазах появятся желтые рамки и фокусировка будет зафиксирована. 
+■Чтобы размыть фон:
+· Снимайте с уменьшенной глубиной резко изображаемого пространства. 
+· Советы при съемке с уменьшенной глубиной резко изображаемого пространства: 
+1) Подойдите ближе к объекту съемки (но дальше, чем минимальное расстояние фокусировки, указанное на объективе). 
+2) Используйте объектив с небольшой максимальной диафрагмой (минимальное число f). 
+3) Используйте телеобъектив или увеличьте изображение в зум-объективе."</string>
+    <string name="TIPSID_MOTIF_RECORDS">"---Описание режима---
+ Делайте портретные снимки с естественными цветами и фоном. Фон может быть размытым или четким. 
+ 
+---Приемы съемки---
+■Чтобы предотвратить закрытые глаза на снимке:
+· Просмотрите снимок, чтобы убедиться, что никто не закрыл глаза.
+· Выберите режим непрерывной съемки, а затем нажмите и удерживайте спусковую кнопку затвора, чтобы сделать несколько снимков. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы удерживать портретные объекты в фокусе:
+· Наведите фотокамеру на объекты и нажмите спусковую кнопку затвора наполовину – на лицах или глазах появятся желтые рамки и фокусировка будет зафиксирована."</string>
+    <string name="TIPSID_MOTIF_RELATIVES">"---Описание режима---
+ Предотвратите потемнение портретного объекта в сюжетах, где яркость объекта и фона различается из-за контрового света или по другим причинам. 
+ 
+---Советы по работе с фотокамерой---
+■Если портретный объект получается слишком темным:
+· Выберите более высокое (более положительное) значение коррекции экспозиции. 
+■Если портретный объект получается слишком ярким:
+· Выберите более низкое (более отрицательное) значение коррекции экспозиции. 
+■Если изображение получается зернистым (например, при высокой чувствительности ISO):
+· Установите Активный D-Lighting на [Нормальный] или [Умеренный]."</string>
+    <string name="TIPSID_MOTIF_RIVER">"---Описание режима---
+ Заморозьте движение воды в реке или водопаде, движение капель воды или запечатлейте след текущей воды. 
+ 
+---Приемы съемки---
+■Чтобы минимизировать смазывание, вызванное дрожанием фотокамеры:
+· Чтобы запечатлеть след текущей воды, используйте штатив, стол или ограждение, чтобы зафиксировать фотокамеру, или крепко держите ее, прижав локти к бокам.
+ 
+---Советы по работе с фотокамерой---
+■Чтобы заморозить движение быстро текущей воды:
+· Выберите параметр [«Заморозить» движение] и установите более короткую выдержку (например, [1/250 с] или [1/500 с]). 
+■Чтобы запечатлеть более длинный след текущей воды:
+· Выберите параметр [Создать длинные следы движения] и установите более длинную выдержку (например, [2 с] или [4 с]; рекомендуется использовать штатив)."</string>
+    <string name="TIPSID_MOTIF_SELFY">"---Описание режима---
+ Снимайте автопортреты, на которых фон выглядит естественно. Фон может быть размытым или четким. 
+ 
+---Приемы съемки---
+■Чтобы сделать снимок с хорошим зрительным контактом:
+· При съемке смотрите на центр объектива, а не на центр монитора, обращенного к вам. 
+■Чтобы четко снять фоновый пейзаж и окружающую обстановку: 
+· Используйте широкоугольный объектив или уменьшите изображение в зум-объективе, чтобы получить более широкий угол зрения, позволяющий лучше показать фон и окружающую обстановку. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы удерживать портретные объекты в фокусе:
+· Наведите фотокамеру на объекты и нажмите спусковую кнопку затвора наполовину – на лицах или глазах появятся желтые рамки и фокусировка будет зафиксирована."</string>
+    <string name="TIPSID_MOTIF_SMALL_ITEMS">"---Описание режима---
+ Снимайте изделия ручной работы или декоративные предметы с высоким контрастом, яркими цветами и размытым фоном. 
+ 
+---Приемы съемки---
+■Чтобы делать снимки, на которых объект съемки будет выделяться:
+· Отрегулируйте попадание естественного света на объект съемки или измените направление прожекторов так, чтобы объект был освещен по вашему вкусу. 
+■Чтобы сделать четкий снимок как изделия, так и фона: 
+· Используйте [Онлайн-аукционы]. 
+■Чтобы минимизировать смазывание, вызванное дрожанием фотокамеры:
+· Используйте штатив, стол или другие средства, чтобы зафиксировать фотокамеру, или крепко держите ее, прижав локти к бокам. 
+ 
+---Советы по работе с фотокамерой---
+■Если фотокамера не может выполнить фокусировку (точка фокусировки не отображается зеленым цветом): 
+· Отойдите от объекта съемки (фотокамера не может выполнить фокусировку, если она находится ближе, чем минимальное расстояние фокусировки, указанное на объективе). 
+■Чтобы размыть фон:
+· Снимайте с уменьшенной глубиной резко изображаемого пространства. 
+· Советы при съемке с уменьшенной глубиной резко изображаемого пространства: 
+1) Подойдите ближе к объекту съемки (но дальше, чем минимальное расстояние фокусировки, указанное на объективе). 
+2) Используйте объектив с небольшой максимальной диафрагмой (минимальное число f). 
+3) Используйте телеобъектив или увеличьте изображение в зум-объективе. 
+■Чтобы сфотографировать объект крупным планом:
+· Использование макрообъектива облегчает фокусировку на близлежащих объектах, позволяя получать увеличенные, максимально детализированные фотографии. 
+· Использование телеобъектива или увеличение изображения в зум-объективе позволяет снимать объект крупным планом с размытым фоном, не приближаясь к нему слишком близко."</string>
+    <string name="TIPSID_MOTIF_SPORTS_INDOOR">"---Описание режима---
+ Делайте снимки объектов, занимающихся спортом в помещении, с естественными цветами. Увеличьте чувствительность ISO и установите короткую выдержку, чтобы избежать смазывания при движении. Улавливайте даже малейшие движения, используя серийную съемку, и непрерывно настраивайте фокус в зависимости от движения объекта. 
+ 
+---Приемы съемки---
+■Чтобы делать впечатляющие снимки:
+· Используйте телеобъектив (например, с фокусным расстоянием 200 мм).
+ 
+---Советы по работе с фотокамерой---
+■Для помещений с недостаточной освещенностью:
+· Выберите более высокое значение чувствительности ISO. 
+■Чтобы запечатлеть движение портретного объекта:
+· Во время слежения за объектом нажмите и удерживайте спусковую кнопку затвора, чтобы делать серии снимков. 
+· Держите фотокамеру на нужной компоновке кадра, а когда объект появится в поле зрения, нажмите и удерживайте спусковую кнопку затвора, чтобы делать серии снимков. 
+■Если объект вызывает смазывание при движении: 
+· Выберите S для режима съемки (экспозиции) и установите более короткую выдержку (например, [1/2000 с])."</string>
+    <string name="TIPSID_MOTIF_SPORTS_OUTDOOR">"---Описание режима---
+ Снимайте в самый подходящий момент, используя серийную съемку и непрерывно настраивая фокусировку в зависимости от движения объекта съемки. Запечатлейте динамику движения или заморозьте движение портретных объектов, занимающихся спортом на открытом воздухе. 
+ 
+---Приемы съемки---
+■Чтобы делать впечатляющие снимки:
+· Используйте телеобъектив (например, с фокусным расстоянием 200 мм).
+ 
+---Советы по работе с фотокамерой---
+■Чтобы запечатлеть движение портретного объекта:
+· Во время слежения за объектом нажмите и удерживайте спусковую кнопку затвора, чтобы делать серии снимков. 
+· Держите фотокамеру на нужной компоновке кадра, а когда объект появится в поле зрения, нажмите и удерживайте спусковую кнопку затвора, чтобы сделать серию снимков. 
+■Чтобы облегчить фокусировку: 
+· Заранее сфокусируйтесь на положении, близком к тому, в котором объект съемки попадет в кадр. 
+■Если объект вызывает смазывание при движении: 
+· Выберите более короткую выдержку (например, [1/2000 с])."</string>
+    <string name="TIPSID_MOTIF_STARS">"---Описание режима---
+ Запечатлейте звездное небо. Фотокамера устанавливает выдержку так, чтобы затвор был открыт в течение заданного времени. 
+ 
+---Приемы съемки---
+■Чтобы минимизировать смазывание, вызванное дрожанием фотокамеры:
+· Установите фотокамеру на штатив и снимайте с автоспуском. 
+■Чтобы включить окружающий пейзаж в фотографии звездного неба:
+· Используйте широкоугольный объектив или уменьшите изображение в зум-объективе. 
+ 
+---Советы по работе с фотокамерой---
+■Чтобы сделать «шум» (в виде произвольно высвеченных пикселей) менее заметным:
+· Используйте светосильный фикс-объектив с небольшой максимальной диафрагмой (минимальное число f). 
+■Если объект съемки слишком темный:
+· Установите высокое значение чувствительности ISO (например, ISO [6400] или выше). 
+■Если объект съемки слишком яркий:
+· Установите низкое значение чувствительности ISO (например, ISO [400] или ниже)."</string>
+    <string name="TIPSID_MOTIF_STREET">"---Описание режима---
+ Делайте снимки архитектуры и городских пейзажей со сбалансированными тонами и цветами. 
+ 
+---Приемы съемки---
+■Чтобы минимизировать смазывание, вызванное дрожанием фотокамеры:
+· Используйте штатив, стол или ограждение, чтобы зафиксировать фотокамеру, или крепко держите ее, прижав локти к бокам. 
+· Выключите [Подавление вибраций], когда фотокамера зафиксирована с помощью штатива или других средств. 
+■Чтобы делать снимки зданий и городских пейзажей с широким углом зрения:
+· Используйте широкоугольный объектив или уменьшите изображение в зум-объективе."</string>
+    <string name="TIPSID_MOTIF_TREE_VIEWING">"---Описание режима---
+ Запечатлейте прекрасные цветки вишни в естественных цветах. 
+ 
+---Советы по работе с фотокамерой---
+■Если фотокамера не может выполнить фокусировку (точка фокусировки не отображается зеленым цветом):
+· Используйте режим зоны АФ с меньшей зоной фокусировки, например, [Одноточечная АФ], [Широкая область АФ (S)] или [Широкая область АФ (L)]. 
+■Если объект съемки слишком темный:
+· Выберите более высокое (более положительное) значение коррекции экспозиции. 
+■Если объект съемки слишком яркий:
+· Выберите более низкое (более отрицательное) значение коррекции экспозиции. 
+■Чтобы запечатлеть насыщенные цвета:
+· Установите режим Picture Control на [Пейзаж] или [Насыщенный]."</string>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Ещё</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выберите приложение</string>
+    <string name="abc_capital_off">ВЫКЛ</string>
+    <string name="abc_capital_on">ВКЛ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Ввод</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">Пробел</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Меню +</string>
+    <string name="abc_search_hint">Введите запрос</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="app_name">SnapBridge</string>
+    <string name="auto_upload_text0">Отмена</string>
+    <string name="auto_upload_text1">Только Wi-Fi</string>
+    <string name="auto_upload_text1_min">Wi-Fi</string>
+    <string name="auto_upload_text2">Всегда</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="call_notification_answer_action">Ответить</string>
+    <string name="call_notification_answer_video_action">Видео</string>
+    <string name="call_notification_decline_action">Отклонить</string>
+    <string name="call_notification_hang_up_action">Завершить</string>
+    <string name="call_notification_incoming_text">Входящий вызов</string>
+    <string name="call_notification_ongoing_text">Текущий вызов</string>
+    <string name="call_notification_screening_text">Фильтрация входящего вызова</string>
+    <string name="camera0_change">Переключить фотокамеры</string>
+    <string name="camera0_connect_type0_title">Вне диапазона сигнала фотокамеры</string>
+    <string name="camera0_connect_type1_text">Выполняется загрузка изображений с фотокамеры через Wi-Fi.</string>
+    <string name="camera0_connect_type1_title">Выполняется загрузка через Wi-Fi</string>
+    <string name="camera0_connect_type2_text">Переключиться на Bluetooth, чтобы использовать функции «Автозагрузка», «Данные о местоположении» или «Часы».</string>
+    <string name="camera0_connect_type2_title">Имеется активное Wi-Fi-соединение. Отключить Wi-Fi-соединение?</string>
+    <string name="camera0_connect_type3_text">Выполняется загрузка изображений с фотокамеры через Bluetooth.</string>
+    <string name="camera0_connect_type3_title">Выполняется загрузка через Bluetooth</string>
+    <string name="camera0_connect_type4_title">Подключено через Bluetooth</string>
+    <string name="camera0_connect_type5_title">Ожидание Bluetooth-соединения</string>
+    <string name="camera0_connect_type6_title">Подключение по Wi-Fi к фотокамере потеряно</string>
+    <string name="camera0_delete">Забыть фотокамеру</string>
+    <string name="camera0_nfc_text">Начать сопряжение?</string>
+    <string name="camera10_cell1_title">Сопряжение (Bluetooth)</string>
+    <string name="camera10_title">Тип подключения</string>
+    <string name="camera1_sync_location_info0">"На основании данных о местоположении, записанных вместе с фотографиями, снятыми с помощью фотокамеры, можно узнать персональные данные.
+Соблюдайте осторожность при размещении изображений в Интернете или других местах, где их могут увидеть третьи лица.
+Кроме того, в некоторых странах действуют ограничения на использование систем данных о местоположении; перед поездкой проконсультируйтесь с Вашим турагентом или посольством/туристическим советом страны, которую Вы собираетесь посетить."</string>
+    <string name="camera1_sync_location_info1">В зависимости от Вашего местоположения для получения и синхронизации данных о местоположении может потребоваться некоторое время.</string>
+    <string name="camera2_camera_none">Нет соответствующей фотокамеры</string>
+    <string name="camera3_nfc_error0">SnapBridge может хранить информацию о сопряжении для 5 фотокамер</string>
+    <string name="camera3_nfc_error1">Сопряжение с этим устройством уже выполнено</string>
+    <string name="camera3_nfc_title">Прием сигнала NFC с фотокамеры</string>
+    <string name="camera3_searching">Поиск…</string>
+    <string name="camera4_btn_text">Параметры просмотра</string>
+    <string name="camera4_title">Фотокамера и Wi-Fi-соединение</string>
+    <string name="camera5_btn_close">Ясно</string>
+    <string name="camera5_lbl_text">"Следуя инструкциям на экране, выберите название фотокамеры и нажмите «Выполнить сопряжение».
+
+Чтобы завершить сопряжение, нажмите кнопку «ОК» фотокамеры."</string>
+    <string name="camera6_pairing">Выполняется сопряжение</string>
+    <string name="camera7_list_title">Выберите название фотокамеры, с которой необходимо установить сопряжение</string>
+    <string name="camera7_text">"Получение данных с фотокамеры.
+Выберите название, отображаемое на мониторе фотокамеры, из следующего списка."</string>
+    <string name="camera_dialog_wifi_unsupport_text">Фотокамера не может подключиться через Wi-Fi; удаленная фотосъемка недоступна.</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="close_drawer">Закрыть меню навигации</string>
+    <string name="close_sheet">Закрыть лист</string>
+    <string name="cloud0_nis_link">Что такое NIKON IMAGE SPACE?</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_pairing">Сопряжение</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="copy_toast_msg">Ссылка скопирована в буфер обмена.</string>
+    <string name="default_error_message">Неправильный ввод</string>
+    <string name="dialog_pairing_text">Перед получением идентификатора Nikon необходимо выполнить сопряжение смарт-устройства с фотокамерой. Выполнить сопряжение?</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="error_remote2">В фотокамере выбрано качество изображения RAW или TIFF. Снимки можно делать удаленно, но они не будут загружены на смарт-устройство.</string>
+    <string name="error_remote3">Фотокамера настроена на длительную экспозицию; удаленная фотосъемка недоступна.</string>
+    <string name="error_remote4">Выдержка фотокамеры установлена на выдержку синхронизации вспышки; удаленная фотосъемка недоступна.</string>
+    <string name="error_remote5">Фотокамера сконфигурирована для фотосъемки с выдержкой от руки; live view выключено. Вы хотите записать время экспозиции?</string>
+    <string name="error_remote6">Вы хотите записать время экспозиции?</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="fallback_menu_item_copy_link">Копировать ссылку</string>
+    <string name="fallback_menu_item_open_in_browser">Открыть в браузере</string>
+    <string name="fallback_menu_item_share_link">Отправить ссылку</string>
+    <string name="gallery1_blank_text">Отобразятся загруженные изображения.</string>
+    <string name="gallery1_blank_title">Подключитесь к фотокамере и загрузите изображения</string>
+    <string name="gallery_dialog_delete_text">Удалить изображение(-ия)?</string>
+    <string name="gcm_fallback_notification_channel_label">Другое</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="in_progress">Выполняется</string>
+    <string name="indeterminate">Флажок не установлен и не снят</string>
+    <string name="installation_cancelled">Установка отменена.</string>
+    <string name="installation_failed">Ошибка установки.</string>
+    <string name="installing_module">Устанавливаемый модуль:</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="mynikon0_btn_install">Установить</string>
+    <string name="mynikon0_btn_launch">Запустить</string>
+    <string name="mynikon0_date_format">dd.MM.yyyy</string>
+    <string name="mynikon0_tab0">Photo Life</string>
+    <string name="mynikon0_tab1">Новости</string>
+    <string name="mynikon0_tab2">Приложение</string>
+    <string name="nav_app_bar_navigate_up_description">Перейти вверх</string>
+    <string name="nav_app_bar_open_drawer_description">Открыть панель навигации</string>
+    <string name="navigation_menu">Меню навигации</string>
+    <string name="none0">-</string>
+    <string name="none1">- / -</string>
+    <string name="none2">- -</string>
+    <string name="not_selected">Не выбрано</string>
+    <string name="off">Выключено</string>
+    <string name="ok">ОК</string>
+    <string name="on">Включено</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="progress">Прогресс:</string>
+    <string name="receive_progress_cancel">Загрузка отменена с фотокамеры.</string>
+    <string name="regist0_nikon_id_login">Вход по идентификатору Nikon</string>
+    <string name="regist0_or">Или</string>
+    <string name="regist4_next">Регистрация</string>
+    <string name="remote1_time_text0">Нажмите спусковую кнопку затвора, чтобы начать длительную экспозицию</string>
+    <string name="remote1_time_text1">Нажмите спусковую кнопку затвора, чтобы закончить длительную экспозицию</string>
+    <string name="remote1_wb0">Авто</string>
+    <string name="remote2_btn_item0">Параметры загрузки изображений</string>
+    <string name="retry">Повторить</string>
+    <string name="review_btn_link">Предложения</string>
+    <string name="review_btn_no">Не нравится</string>
+    <string name="review_btn_yes">Нравится</string>
+    <string name="review_text0">"Благодарим Вас за использование SnapBridge.
+Пожалуйста, оцените это приложение."</string>
+    <string name="review_text1">Если у Вас есть какие-либо предложения или мнения относительно этого приложения, обратитесь к нам или воспользуйтесь списком, приведенным ниже.</string>
+    <string name="review_title">Оценить SnapBridge</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="selected">Выбрано</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="tab">Вкладка</string>
+    <string name="template_percent">Процентов: %1$d.</string>
+    <string name="tutorial5_info1">Эту настройку можно изменить в любое время.</string>
+    <string name="tutorial5_next">Готово</string>
+    <string name="warning_liveview0">Чувствительность ISO: выбранный параметр недоступен во время удаленной фотосъемки. Чувствительность будет установлена на ISO 100 или 25 600.</string>
+    <string name="warning_liveview0_ISO_800">Чувствительность ISO: выбранный параметр недоступен во время удаленной фотосъемки. Чувствительность будет установлена на ISO 800 или 25 600.</string>
+    <string name="warning_liveview0_SHUTTER_MODE">Режим затвора: Эта настройка переключается на [Выдержка], поскольку другой вариант не поддерживается при удаленной съемке.</string>
+    <string name="warning_liveview1">Баланс белого: выбранный параметр недоступен во время удаленной фотосъемки. Вместо этого будет использоваться автоматический баланс белого.</string>
+    <string name="transfer_queue_status">Ход выполнения %1$d/%2$d · Ожидание %3$d · Ошибки %4$d</string>
+    <string name="setting_section_camera">Подключение и автоматическая передача</string>
+    <string name="setting_section_storage">Сохранение фотографий</string>
+    <string name="setting_section_system">Системный доступ</string>
+    <string name="setting_background">Фоновая работа и батарея</string>
+    <string name="setting_notifications">Уведомления</string>
+    <string name="setting_permissions">Разрешения</string>
+    <string name="setting_debug_logs">Журналы отладки</string>
+    <string name="setting_debug_logs_summary">Доступны в журналах Android с тегами SnapBridgeLogger и SnapBridgeTransfer.</string>
+    <string name="setting_section_about">О приложении</string>
+</resources>

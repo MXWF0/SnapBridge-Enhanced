@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:id="@id/v_autotransfer" android:background="@drawable/btn_blank2_last_normal" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginTop="@dimen/dimen_16dp">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/camera1_btn1_icon" android:layout_centerVertical="true" />
+                <RelativeLayout android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="44.0dip" android:translationZ="99.0dip">
+                    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_60dp" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_54dp" android:text="@string/MID_COMMON_AUTO_TRANSFER_ONLY_WHILE_CONNECTED" android:maxLines="2" android:includeFontPadding="false" android:textAllCaps="false" />
+                        <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:gravity="center|left" android:id="@id/lbl_autodl" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_54dp" android:text="@string/MID_WIFI_2MB_SIZE" android:textAllCaps="false" />
+                    </LinearLayout>
+                    <Switch android:id="@id/sw_autotransfer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_13dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationZ="99.0dip" />
+                    <Button android:id="@id/btn_autotransfer_mask" android:background="@drawable/color_00000099" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:translationZ="100.0dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_timesync" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="65.0dip">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/camera1_btn2_icon" android:layout_centerVertical="true" />
+                <RelativeLayout android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="44.0dip" android:translationZ="99.0dip">
+                    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_60dp" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/lbl_timesync" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_54dp" android:text="@string/MID_CAM_SYNC_TIME_SYNC" android:maxLines="2" android:includeFontPadding="false" android:textAllCaps="false" />
+                        <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:gravity="center|left" android:id="@id/lbl_area" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_54dp" android:text="" android:textAllCaps="false" />
+                    </LinearLayout>
+                    <Switch android:id="@id/sw_timesync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_13dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationZ="99.0dip" />
+                    <Button android:id="@id/btn_timesync_mask" android:background="@drawable/color_00000099" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_locationsync" android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="65.0dip">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/camera1_btn3_icon" android:layout_centerVertical="true" />
+                <RelativeLayout android:gravity="center" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="44.0dip" android:translationZ="99.0dip">
+                    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_60dp" android:layout_centerVertical="true">
+                        <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/lbl_locationsync" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_54dp" android:text="@string/MID_CAM_SYNC_POS_SYNC" android:maxLines="2" android:includeFontPadding="false" android:textAllCaps="false" />
+                        <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:gravity="center|left" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_54dp" android:text="@string/none0" android:textAllCaps="false" />
+                    </LinearLayout>
+                    <Switch android:id="@id/sw_locationsync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_13dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:translationZ="99.0dip" />
+                    <Button android:id="@id/btn_locationsync" android:background="@drawable/color_00000099" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/v_timesyncdescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8dp" android:layout_marginBottom="@dimen/dimen_24dp">
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:text="@string/MID_MSG_ATTACH_LOCATION_WIFI_MODE" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

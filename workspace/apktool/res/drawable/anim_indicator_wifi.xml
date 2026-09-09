@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_0" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_1" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_2" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_3" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_4" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_5" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_6" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_7" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_8" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_9" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_10" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_11" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_12" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_13" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_14" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_15" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_16" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_17" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_18" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_19" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_20" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_21" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_22" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_23" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_24" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_25" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_26" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_27" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_28" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_29" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_30" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_31" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_32" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_33" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_34" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_35" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_36" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_37" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_38" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_39" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_40" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_41" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_42" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_43" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_44" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_45" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_46" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_47" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_48" />
+    <item android:duration="33" android:drawable="@drawable/anim_indicator_wifi_49" />
+</animation-list>

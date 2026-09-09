@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bg" android:background="@color/bg_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/dialog_bg" android:layout_width="270.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" android:splitMotionEvents="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/body" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+            <ImageView android:id="@id/iv_dialog_image" android:background="@drawable/symbols_illust_android_background_permission" android:visibility="visible" android:layout_width="240.0dip" android:layout_height="216.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="15.0dip" />
+            <TextView android:textSize="@dimen/fsize_16sp" android:textColor="#fff5f5f5" android:gravity="center" android:id="@id/lbl_title" android:background="@null" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="15.0dip" android:text="" android:textAllCaps="false" />
+            <TextView android:textSize="@dimen/fsize_12sp" android:textStyle="normal" android:textColor="#ffc8c8c8" android:gravity="center" android:id="@id/lbl_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="18.0dip" android:text="" android:textAllCaps="false" />
+            <RelativeLayout android:id="@id/v_bottom" android:layout_width="fill_parent" android:layout_height="49.0dip" android:splitMotionEvents="false">
+                <Button android:textSize="@dimen/fsize_14sp" android:textStyle="normal" android:textColor="#ffc8c8c8" android:gravity="center" android:id="@id/btn_ok" android:background="@drawable/dialog_btn0" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/MID_COMMON_OK" android:textAllCaps="false" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                    <Button android:textSize="@dimen/fsize_14sp" android:textStyle="normal" android:textColor="@color/btn_text_gray" android:gravity="center" android:id="@id/btn_no" android:background="@drawable/dialog_btn1" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/MID_COMMON_CANCEL" android:layout_weight="1.0" android:textAllCaps="false" />
+                    <Button android:textSize="@dimen/fsize_14sp" android:textStyle="normal" android:textColor="@color/btn_text_gray" android:gravity="center" android:id="@id/btn_yes" android:background="@drawable/dialog_btn2" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/MID_COMMON_OK" android:layout_weight="1.0" android:textAllCaps="false" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

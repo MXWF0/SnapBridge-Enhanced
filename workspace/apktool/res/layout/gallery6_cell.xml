@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/btn_blank2_last_normal" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/gallery6_btn1_icon" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/lbl_title" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="@dimen/margin_46dp" android:layout_marginRight="60.0dip" android:text="" android:lines="2" />
+    <Button android:id="@id/btn_cell" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="45.0dip" />
+    <ImageView android:id="@id/iv_check" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/icon_check" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bg" android:background="@color/bg_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/dialog_bg" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" android:splitMotionEvents="false">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/body" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false">
+            <ImageView android:id="@id/iv_check" android:background="@null" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/icon_attention" />
+            <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.nikon.snapbridge.cmru.frontend.ui.NklProgressView android:id="@id/v_progress" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:layout_centerHorizontal="true" />
+                <ImageView android:id="@id/iv_icon" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="100.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:scaleType="center" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/fsize_18dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/lbl_title" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:text="" android:textAllCaps="false" />
+            <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_gray" android:gravity="center" android:id="@id/lbl_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:text="" android:textAllCaps="false" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/v_check" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="24.0dip">
+                <Button android:id="@id/btn_check" android:background="@drawable/dialog_check" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+                <TextView android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_gray" android:gravity="center|left" android:id="@id/lbl_check" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="" android:textAllCaps="false" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/v_bottom" android:layout_width="fill_parent" android:layout_height="56.0dip" android:splitMotionEvents="false">
+                <Button android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/btn_text_gray" android:gravity="center" android:id="@id/btn_ok" android:background="@drawable/dialog_btn0" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/MID_COMMON_OK" android:textAllCaps="false" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                    <Button android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/btn_text_gray" android:gravity="center" android:id="@id/btn_no" android:background="@drawable/dialog_btn1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/MID_COMMON_CANCEL" android:layout_weight="1.0" android:textAllCaps="false" />
+                    <Button android:textSize="@dimen/fsize_18dp" android:textStyle="normal" android:textColor="@color/btn_text_gray" android:gravity="center" android:id="@id/btn_yes" android:background="@drawable/dialog_btn2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/MID_COMMON_OK" android:layout_weight="1.0" android:textAllCaps="false" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

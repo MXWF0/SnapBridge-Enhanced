@@ -1,0 +1,20 @@
+{
+	"version":3.8,
+	"root_url":"master/common",
+	"camera": [
+		{
+			"camera_id":601,
+			"version":1,
+			"product_name":"D780",
+			"name_img":"logo_d780_img_3x.png",
+			"real_img":"d780_img_3x.png"
+		},
+		{
+			"camera_id":602,
+			"version":1,
+			"product_name":"D6",
+			"name_img":"logo_d6_img_3x.png",
+			"real_img":"d6_img_3x.png"
+		}
+	]
+}

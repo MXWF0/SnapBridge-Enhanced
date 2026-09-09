@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_tips" app:startDestination="@id/tipsListFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="fragment_tips_list" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.TipsListFragment" android:id="@id/tipsListFragment">
+        <action android:id="@id/action_tipsListFragment_to_tipsContentFragment" app:destination="@id/tipsContentFragment" app:enterAnim="@anim/slide_in_from_right" app:exitAnim="@anim/slide_out_to_left" app:popEnterAnim="@anim/slide_in_from_left" app:popExitAnim="@anim/slide_out_to_right" />
+    </fragment>
+    <fragment android:label="fragment_tips_content" android:name="com.nikon.snapbridge.cmru.presentation.u2220.fragment.TipsContentFragment" android:id="@id/tipsContentFragment">
+        <argument android:name="tipsItem" app:argType="com.nikon.snapbridge.cmru.presentation.u2220.data.entities.TipsEntities$TipsItem" />
+    </fragment>
+</navigation>

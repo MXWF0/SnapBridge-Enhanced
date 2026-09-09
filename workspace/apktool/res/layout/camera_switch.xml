@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/bg_bar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_camera_normal" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_device_normal" android:scaleType="center" android:layout_weight="1.0" android:alpha="0.5" />
+        <ImageView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="2.0dip" android:src="@drawable/tab_cloud_normal" android:scaleType="center" android:layout_weight="1.0" android:alpha="0.5" />
+    </LinearLayout>
+    <ListView android:id="@id/tableview" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="48.0dip" android:divider="@null" android:dividerHeight="0.0dip" />
+    <ImageView android:id="@id/v_preloader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/preloader_normal" android:layout_centerInParent="true" />
+</RelativeLayout>

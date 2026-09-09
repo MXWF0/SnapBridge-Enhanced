@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/button_bg2_disable_double" />
+    <item android:state_pressed="true" android:drawable="@drawable/button_bg2_highlighted_double" />
+    <item android:state_pressed="false" android:drawable="@drawable/button_bg2_normal_double" />
+</selector>

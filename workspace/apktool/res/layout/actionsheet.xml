@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/action_constraint" android:background="@color/bg_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="@dimen/margin_16dp" app:layout_constraintBottom_toBottomOf="parent">
+        <RelativeLayout android:id="@id/btn_first" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_header" android:background="@drawable/actionsheet_btn0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="" android:lines="2" android:textAllCaps="false" />
+                <Button android:id="@id/btn_header_info" android:background="@drawable/help_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_header_info_badge" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="@dimen/dimen_8dp" android:src="@drawable/menu_badge" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btn_0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_body0" android:background="@drawable/actionsheet_btn1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="" android:lines="2" android:textAllCaps="false" />
+                <Button android:id="@id/btn_body0_info" android:background="@drawable/help_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_body0_info_badge" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="@dimen/dimen_8dp" android:src="@drawable/menu_badge" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btn_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_body1" android:background="@drawable/actionsheet_btn1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="" android:lines="2" android:textAllCaps="false" />
+                <Button android:id="@id/btn_body1_info" android:background="@drawable/help_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_body1_info_badge" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="@dimen/dimen_8dp" android:src="@drawable/menu_badge" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btn_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_body2" android:background="@drawable/actionsheet_btn1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="" android:lines="2" android:textAllCaps="false" />
+                <Button android:id="@id/btn_body2_info" android:background="@drawable/help_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_body2_info_badge" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="@dimen/dimen_8dp" android:src="@drawable/menu_badge" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btn_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_body3" android:background="@drawable/actionsheet_btn1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="" android:lines="2" android:textAllCaps="false" />
+                <Button android:id="@id/btn_body3_info" android:background="@drawable/help_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_body3_info_badge" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="@dimen/dimen_8dp" android:src="@drawable/menu_badge" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btn_last" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_footer" android:background="@drawable/actionsheet_btn2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="" android:lines="2" android:textAllCaps="false" />
+                <Button android:id="@id/btn_footer_info" android:background="@drawable/help_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_footer_info_badge" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="@dimen/dimen_8dp" android:src="@drawable/menu_badge" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/btn_soro" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_single" android:background="@drawable/actionsheet_btn3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:text="" android:lines="2" android:textAllCaps="false" />
+                <Button android:id="@id/btn_single_info" android:background="@drawable/help_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="24.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_single_info_badge" android:visibility="gone" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="@dimen/dimen_8dp" android:src="@drawable/menu_badge" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <Button android:textSize="@dimen/fsize_16dp" android:textStyle="normal" android:textColor="@color/btn_text_white" android:ellipsize="end" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/actionsheet_btn3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginTop="@dimen/margin_16dp" android:text="" android:lines="2" android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

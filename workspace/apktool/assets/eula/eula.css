@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body {
+	margin: 16px;
+	background-color: #131313;
+	color: #cccccc;
+       word-wrap : break-word;
+       overflow-wrap : break-word;
+}
+a {
+	color: #FFF700 !important;
+}

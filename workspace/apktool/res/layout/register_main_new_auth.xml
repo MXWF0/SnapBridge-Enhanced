@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_alignParentBottom="true" android:splitMotionEvents="false" android:layout_marginEnd="0.0dip" android:layout_alignParentEnd="true">
+                <Button android:textSize="@dimen/fsize_14dp" android:textStyle="bold" android:textColor="@color/btn_text_white" android:ellipsize="end" android:layout_gravity="center" android:id="@id/btn_login" android:background="@drawable/button_bg2_double" android:layout_width="260.0dip" android:layout_height="80.0dip" android:layout_marginTop="32.0dip" android:layout_marginBottom="32.0dip" android:text="@string/MID_LOGIN_TO_NIS" android:lines="3" android:textAllCaps="false" />
+                <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+                    <TextView android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/_cccccc" android:layout_gravity="center" android:id="@id/lbl_or" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/regist0_or" android:layout_centerInParent="true" android:textAllCaps="false" />
+                    <View android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_toLeftOf="@id/lbl_or" android:layout_centerVertical="true" />
+                    <View android:background="#ff808080" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_toRightOf="@id/lbl_or" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <Button android:textSize="@dimen/fsize_14dp" android:textStyle="bold" android:textColor="@color/btn_text_white" android:ellipsize="end" android:layout_gravity="center" android:id="@id/btn_regist" android:background="@drawable/button_bg2_double" android:layout_width="260.0dip" android:layout_height="80.0dip" android:layout_marginBottom="24.0dip" android:text="@string/MID_SIGN_UP_NIS" android:lines="3" android:textAllCaps="false" />
+            </LinearLayout>
+        </com.nikon.snapbridge.cmru.frontend.ui.NklTopCropRelativeLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true" android:splitMotionEvents="false" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" android:layout_alignParentEnd="true">
+        <Button android:textSize="@dimen/fsize_14dp" android:textStyle="normal" android:textColor="@color/btn_text_yellow" android:layout_gravity="center" android:id="@id/btn_withdrawal_link" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:textAllCaps="false" />
+    </LinearLayout>
+</RelativeLayout>

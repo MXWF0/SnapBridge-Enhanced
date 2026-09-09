@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <RelativeLayout android:id="@id/v_ssid" android:background="@drawable/textfield_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_24dp" android:layout_marginRight="@dimen/margin_16dp">
+                <com.nikon.snapbridge.cmru.frontend.ui.NklEditText android:textSize="@dimen/fsize_14dp" android:textColor="@color/white" android:textColorHint="@color/_808080" android:id="@id/txt_ssid" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_40dp" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_40dp" android:hint="" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_centerVertical="true" android:inputType="textEmailAddress|textNoSuggestions" android:imeOptions="actionDone" android:textAllCaps="false" />
+                <ImageButton android:id="@id/btn_ssid" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/textfield_btn_clear" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_8dp">
+                <TextView android:textSize="@dimen/fsize_12dp" android:textStyle="normal" android:textColor="@color/_a0a0a0" android:gravity="center|left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:minHeight="@dimen/dimen_18dp" android:text="@string/MID_CONFIG_SSID_OF_WMA" android:includeFontPadding="false" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

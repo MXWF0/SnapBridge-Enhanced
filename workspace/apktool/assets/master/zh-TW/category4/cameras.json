@@ -1,0 +1,13 @@
+{
+	"version":3.8,
+	"root_url":"master/common",
+	"camera": [
+		{
+			"camera_id":401,
+			"version":1.1,
+			"product_name":"KeyMission 80",
+			"name_img":"logo_keymission80_img_3x.png",
+			"real_img":"keymission80_img_3x.png"
+		}
+	]
+}

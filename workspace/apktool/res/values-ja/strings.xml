@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IDS_REMOTE_INTERRUPTED_RECORDING_MOVIE_BY_CAMERA">動画記録を中断しました。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_BATTERY">バッテリーの残量が少なくなっているためリモート撮影を開始できませんでした。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_EXPOSURE_MODE">撮影モードに互換性がないためリモート撮影を開始できません。撮影モードを[P]、[S]、[A]、または[M]に設定してください。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_LIVEVIEW_ON">リモート撮影を開始できません。カメラの状態を確認してください。カメラが撮影動作中やライブビュー表示中はリモート撮影できません。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_MEMORY_CARD">リモート撮影を開始できません。メモリカードの状態を確認してください。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_POWER_OFF">カメラから通信が切断されました。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_TEMPERATURE">リモート撮影を開始できません。カメラ内部の温度、ワイヤレスモバイルアダプターの温度が下がるまでしばらくお待ちください。</string>
+    <string name="IDS_REMOTE_NOT_START_REMOTE_BY_ZOOM_LENS">リモート撮影を開始できません。レンズが沈胴中です。</string>
+    <string name="MID_ABOUT_BOKEH_BLUR">ボケと動きの設定</string>
+    <string name="MID_ABOUT_BOKEH_BLUR_DESC">選択した被写体やシチュエーションではボケや動きはカメラが自動で設定します。</string>
+    <string name="MID_ACCESS_LOCATION_PRECISE">次に表示される位置情報の利用許可を求める画面で、「正確」を選択して、位置情報へのアクセスを許可してください。</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_CHECK">Adobe Analyticsの利用に同意</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_OFF">同意しない</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_AGREEMENT_ON">同意する</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_DESC">本アプリではAdobe Analyticsを利用して利用状況の解析を行っています。%s</string>
+    <string name="MID_ADOBEANALYTICS_TERMS_OF_SERVICE_ITEM">利用状況の解析</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA">カメラが接続できない状態です。動画撮影や動画再生を止めてから、もう一度接続をお試しください。</string>
+    <string name="MID_ALERT_CANT_CONNECT_TO_CAMERA_PLEASE_CAMERA_ON">撮影設定をカメラに送信できません。カメラの電源をオンにし、撮影できる状態にしてからもう一度お試しください。</string>
+    <string name="MID_ALLERT_BEFORE_8MP_DOWNLOAD">カメラで動画の再生や撮影をしている場合、転送が中断されることがあります。カメラの状態を確認してください。</string>
+    <string name="MID_APPROXIMATE">おおよそ</string>
+    <string name="MID_APPS_MV2_INFO">"Nikon Manual Viewer 2 は、ニコンのデジタル一眼レフカメラの使用説明書をダウンロードして見ることができるビューアーアプリです。
+お使いの端末に、ご利用のデジタル一眼レフカメラの使用説明書をダウンロードしておけば、いつでもどこでも、オンラインでもオフラインでも、カメラの使い方の確認をすることができるので安心です。"</string>
+    <string name="MID_APPS_MV2_NAME">Manual Viewer 2</string>
+    <string name="MID_APPS_NIS_INFO">写真がもっと身近になり、撮った後の楽しみがさらに広がる、ニコンの写真共有サービス「NIKON IMAGE SPACE」の無料アプリケーションです。写真を見返して、整理して、共有する。このシンプルな3つの機能をとことん追求。写真を愛するすべての方へ、より便利で、より快適で、よりスマートなフォトライフを。</string>
+    <string name="MID_APPS_NIS_NAME">NIKON IMAGE SPACE</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLACK">黒</string>
+    <string name="MID_APP_CD_COLOR_LIST_BLUE">青</string>
+    <string name="MID_APP_CD_COLOR_LIST_BROWN">茶</string>
+    <string name="MID_APP_CD_COLOR_LIST_DARKGRAY">ダークグレー</string>
+    <string name="MID_APP_CD_COLOR_LIST_WHITE">白</string>
+    <string name="MID_APP_CD_COLOR_TITLE">カラー</string>
+    <string name="MID_APP_CD_CREDIT_ADD">クレジット表記の追加</string>
+    <string name="MID_APP_CD_CREDIT_NOTE">撮影情報やコメントを画像に写し込めます。</string>
+    <string name="MID_APP_CD_CREDIT_POSITION">位置</string>
+    <string name="MID_APP_CD_CREDIT_PREV">プレビュー</string>
+    <string name="MID_APP_CD_CREDIT_TYPE">タイプ</string>
+    <string name="MID_APP_CD_FONT_LIST_BOLD">太字</string>
+    <string name="MID_APP_CD_FONT_LIST_ITALIC">斜体</string>
+    <string name="MID_APP_CD_FONT_LIST_NORMAL">標準</string>
+    <string name="MID_APP_CD_FONT_TITLE">フォントスタイル</string>
+    <string name="MID_APP_CD_POS_LEFT_BOTTOM">左下</string>
+    <string name="MID_APP_CD_POS_LEFT_TOP">左上</string>
+    <string name="MID_APP_CD_POS_RIGHT_BOTTOM">右下</string>
+    <string name="MID_APP_CD_POS_RIGHT_TOP">右上</string>
+    <string name="MID_APP_CD_SIZE_LIST_BIG">大</string>
+    <string name="MID_APP_CD_SIZE_LIST_MIDDLE">中</string>
+    <string name="MID_APP_CD_SIZE_LIST_SMALL">小</string>
+    <string name="MID_APP_CD_SIZE_TITLE">サイズ</string>
+    <string name="MID_APP_CD_TEXT_TITLE">内容入力</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_COMMENT">画像コメント</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_DATE">撮影日時</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_INDEX">ファイル・撮影情報</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_LIST_INFO">撮影情報</string>
+    <string name="MID_APP_CD_TYPE_PHOTOINFO_LIST_PHOTOGRAPHER_AND_COPYRIGHT">撮影者名/著作権情報</string>
+    <string name="MID_APP_CD_TYPE_TITLE">クレジットのタイプ</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_COMMENT">コメント</string>
+    <string name="MID_APP_CD_TYPE_USER_SETTING_LIST_SNAPBRIDGE_LOGO">SnapBridgeロゴ</string>
+    <string name="MID_APP_CD_USER_SETTING_TITLE">ユーザー設定</string>
+    <string name="MID_APP_CREDIT">クレジット表記</string>
+    <string name="MID_APP_HASH">ハッシュタグ追加</string>
+    <string name="MID_APP_NIKONID_SETTING">Nikon ID登録・変更</string>
+    <string name="MID_APP_PRIVACY_POLICY">プライバシーポリシー</string>
+    <string name="MID_APP_PRIVACY_POLICY_CHECK">プライバシーポリシーに同意</string>
+    <string name="MID_APP_PRIVACY_POLICY_DESC">本アプリのご使用にあたり、ユーザーデータの取り扱いについてプライバシーポリシーをご確認ください。​</string>
+    <string name="MID_APP_SUPPORT_SITE">サポートサイト</string>
+    <string name="MID_APP_TERMS_OF_USE">使用許諾</string>
+    <string name="MID_APP_TERMS_OF_USE_AGREEMENT_CHECK">アプリケーション使用許諾に同意</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MSG">使用許諾を確認してください。</string>
+    <string name="MID_APP_TERMS_OF_USE_CHECK_MUST_READ_MSG">使用許諾を読む(必読)</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC">本アプリのご使用にあたり、各サービスの利用条件などについて使用許諾をご確認ください。</string>
+    <string name="MID_APP_TERMS_OF_USE_DESC_TERMS_OF_USE">使用許諾</string>
+    <string name="MID_ASK_BLUR">どのような動きの写真に仕上げたいですか?</string>
+    <string name="MID_ASK_BOKEH">どのようなボケ感の写真に仕上げたいですか?</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE">カメラのファームアップに伴い、自動連携機能の通信方法が変わりましたので、設定を変更します。</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_MESSAGE_SYNCOFF">カメラのファームアップに伴い通信方法が変わりましたので、連携設定画面を更新しました。</string>
+    <string name="MID_AUTOLINK_CAMERA_CONNECTION_MODE_CHANGE_TITLE">通信方法変更</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED">設定の変更に失敗しました</string>
+    <string name="MID_AUTOLINK_CHANGE_FAILED_TEXT">カメラのBluetooth機能がオンになっていることを確認の上、再度お試しください。</string>
+    <string name="MID_AUTOLINK_CHANGE_SUCCEEDED">設定を変更しました</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_BUTTON">続ける</string>
+    <string name="MID_AUTOLINK_CHANGING_CONFORMATION_MESSAGE">連携モード「バックグラウンド」を動作させるために、カメラの設定を変更します。続けますか？</string>
+    <string name="MID_AUTOLINK_MODE">連携モード</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND">バックグラウンド</string>
+    <string name="MID_AUTOLINK_MODE_BACKGROUND_DISCRIPTION">"スマートフォンがスリープ状態でもカメラと連携することができます。位置情報は、カメラ側で画像に付与されてから転送されます。
+このモードに切り替えるとカメラとの接続を行います。"</string>
+    <string name="MID_AUTOLINK_MODE_CHANGNG">設定変更中</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND">フォアグラウンド</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_DISCRIPTION">"アプリを起動しているときにカメラと連携することができます。位置情報は、スマートフォンに転送した画像のみに付与します。
+カメラの消費電力が抑えられます。"</string>
+    <string name="MID_AUTOLINK_MODE_FOREGROUND_SAVING">フォアグラウンド</string>
+    <string name="MID_AUTOLINK_SIZE">転送サイズ</string>
+    <string name="MID_AUTOLINK_TIME_DISCRIPTION">スマートフォンのタイムゾーンと時刻がカメラに設定されます</string>
+    <string name="MID_AUTO_TRANSFER_WIFI">自動転送（Wi-Fi）</string>
+    <string name="MID_BACK_TO_HOME">設定一覧の画面に戻る</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_MOVIE">カメラ側を動画撮影が可能な状態にしてください</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_REMOTE">操作ができません。カメラの状態を確認してください</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE">リモート操作ができません</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_START_REMOTE_BY_CAMERA">リモート操作ができません。カメラの状態を確認してください。</string>
+    <string name="MID_BLE_REMOTE_ALERT_CANT_STILL">カメラ側を静止画撮影が可能な状態にしてください</string>
+    <string name="MID_BLE_REMOTE_ALERT_CAN_START_AFTER_FINISH_SENDING">リモート操作は転送終了後に行えます。</string>
+    <string name="MID_BLE_REMOTE_BULBE_SHOOTING">バルブ撮影中</string>
+    <string name="MID_BLE_REMOTE_CAMERA_STATE_ERROR">カメラの状態を確認してください</string>
+    <string name="MID_BLE_REMOTE_CHANGE_MODE">リモート方式を切り替える</string>
+    <string name="MID_BLE_REMOTE_CONFIRM_FINISH">Bluetoothリモコンを終了しますか？</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_RETURN">実行中の撮影は継続されます。実行中はBluetoothリモコンをタップすることで撮影画面に戻ることができます。</string>
+    <string name="MID_BLE_REMOTE_CONTINUE_SHOOTING">アプリを終了しても実行中の撮影は継続されます</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE">カメラモニターを見ながらの撮影や、テレビなどのモニターに映した画像の再生に使えます。</string>
+    <string name="MID_BLE_REMOTE_DESCRIBE_CHANGE">2つのリモート方式を、切り替えボタンで切り替えられます。</string>
+    <string name="MID_BLE_REMOTE_END_DATE_TIME">終了日時</string>
+    <string name="MID_BLE_REMOTE_END_HALF_PRESS">半押しを解除する</string>
+    <string name="MID_BLE_REMOTE_END_SHOOTING">撮影終了</string>
+    <string name="MID_BLE_REMOTE_FINISH_TIME_SHOOTING">シャッターボタンでタイム撮影を終了</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT">フォーカスシフト撮影</string>
+    <string name="MID_BLE_REMOTE_FOCUS_SHIFT_SHOOTING">フォーカスシフト撮影を実行中</string>
+    <string name="MID_BLE_REMOTE_INTERVAL">インターバルタイマー撮影</string>
+    <string name="MID_BLE_REMOTE_INTERVAL_SHOOTING">インターバルタイマー撮影を実行中</string>
+    <string name="MID_BLE_REMOTE_NUMBER_SHOTS">残撮影回数</string>
+    <string name="MID_BLE_REMOTE_PRESS_HALF_BUTTON">半押しする</string>
+    <string name="MID_BLE_REMOTE_SHOOTING">撮影中</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_GUIDE">各撮影の設定についてはカメラから行ってください</string>
+    <string name="MID_BLE_REMOTE_SPECIAL_SHOOTING">その他の撮影</string>
+    <string name="MID_BLE_REMOTE_START_SHOOTING">撮影開始</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE">タイムラプス動画撮影</string>
+    <string name="MID_BLE_REMOTE_TIME_LAPSE_SHOOTING">タイムラプス動画撮影を実行中</string>
+    <string name="MID_BLE_REMOTE_TIME_SHOOTING">タイム撮影中</string>
+    <string name="MID_BLE_REMOTE_WIFI_CANCEL">Bluetoothリモコンを使うためにはBluetoothに切り替える必要があります。</string>
+    <string name="MID_BLUR_SAMPLE">動きのサンプルイメージ</string>
+    <string name="MID_BOKEH_SAMPLE">ボケ感のサンプルイメージ</string>
+    <string name="MID_BUTTON_GO_TO_CHUTORIAL">チュートリアルを見る</string>
+    <string name="MID_BUTTON_GO_TO_HELP">ヘルプで説明を見る</string>
+    <string name="MID_BUTTON_RESET_SHOTTING_SETTING">カメラの撮影設定をリセットする</string>
+    <string name="MID_CAMERA_CONNECTION_AUTO_TRANSFER_IN_PROGRESS">自動転送中…（%1$d/%2$d）</string>
+    <string name="MID_CAMERA_CONNECTION_CONNECTING_TO_CAMERA">カメラと接続中です。</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER">自動転送の準備をしています。しばらくお待ちください。</string>
+    <string name="MID_CAMERA_CONNECTION_READYING_AUTO_TRANSFER_SUMMARY">自動転送準備中</string>
+    <string name="MID_CAMERA_CONNECTION_UNABLE_TO_RECEIVE_BLUETOOTH_SIGNAL">"カメラのBluetoothを未検出です。
+カメラのBluetooth通信機能が有効になっていることを確認してください。"</string>
+    <string name="MID_CAMERA_CONNECTION_WAITING_CAMERA_RESPONSE">カメラのBluetoothを検出できています。SnapBridgeアプリの各種機能を使用可能です。</string>
+    <string name="MID_CAMERA_IMPORTING_TITLE">画像を取り込み中…</string>
+    <string name="MID_CAM_ACTIVE_BLE_REMOTE">Bluetoothリモコン</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_MSG">しばらくお待ちください。</string>
+    <string name="MID_CAM_ACTIVE_BTC_DLG_TITLE">準備中・・・</string>
+    <string name="MID_CAM_ACTIVE_CHANGE_WIFI_DLG_TITLE">カメラのWi-Fiを起動します</string>
+    <string name="MID_CAM_ACTIVE_DLG_CHANGE_WIFI_DLG_MSG_1">"この機能を使うためにはWi-Fiへの切り替えが必要です。
+※ 切り替えには時間がかかる場合があります。"</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_1">"このカメラとのペアリングを解除しますか?
+※接続には再度ペアリングが必要です。"</string>
+    <string name="MID_CAM_ACTIVE_DLG_MSG_3">iOSの[設定]-[Bluetooth]でこのデバイスの登録を解除してください。解除を行わないと次回ペアリングができません。</string>
+    <string name="MID_CAM_ACTIVE_DLG_TITLE">ペアリングを解除しますか?</string>
+    <string name="MID_CAM_ACTIVE_IMPORT">画像取り込み</string>
+    <string name="MID_CAM_ACTIVE_REMOTE">リモート撮影</string>
+    <string name="MID_CAM_ACTIVE_SERIAL">Serial No.</string>
+    <string name="MID_CAM_ACTIVE_SYNC">自動連携設定</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_0">"カメラのWi-Fiを起動しています。
+しばらくお待ちください。"</string>
+    <string name="MID_CAM_ACTIVE_WIFI_DLG_MSG_1">"カメラとWi-Fiで接続しています。
+しばらくお待ちください。"</string>
+    <string name="MID_CAM_ADD_LIMIT_NUMBER_OF_CAMERA_PAIRING">ペアリング登録は最大5台までです</string>
+    <string name="MID_CAM_ADD_PAIRING">カメラの追加</string>
+    <string name="MID_CAM_CHANGE_REMOTE">リモート撮影に切り替え</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTED">カメラと接続できました。</string>
+    <string name="MID_CAM_CONNECT_MSG_CONNECTING">"カメラとの接続を確立しています。
+しばらくお待ちください。"</string>
+    <string name="MID_CAM_CONNECT_MSG_WAIT_RES">カメラの画面に認証コードが表示されたら、カメラのOKボタンも押してください。</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTED">ペアリング完了</string>
+    <string name="MID_CAM_CONNECT_TITLE_CONNECTING">カメラと接続中・・・</string>
+    <string name="MID_CAM_NORMAL_MODE">Wi-Fiアクセスポイントモードの解除</string>
+    <string name="MID_CAM_PAIRING_CATEGORY_OTHER">その他</string>
+    <string name="MID_CAM_PAIRING_NOTE_COOLPIX">"カメラの通信メニューから「スマートフォンと接続」を選択してください。
+
+カメラ名が表示される画面まで進んでください。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_C_ML">"カメラのセットアップメニューもしくはネットワークメニューから、「スマートフォンと接続」>「Wi-Fi接続」を選んでください。
+※一部の機種では「Wi-Fi」内にあります。
+
+「Wi-Fi接続を開始」を選択してSSIDとパスワードが表示される画面まで進んでください。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_DRS">"カメラのセットアップメニューから「スマートフォンと接続」を選択してください。
+
+カメラ名が表示される画面まで進んでください。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_KM80">"カメラのセットアップメニューから「スマートフォンと接続」を選択してください。
+
+カメラ名が表示される画面まで進んでください。
+ 
+注意：メモリーカードが入っていないとペアリングできません。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML1DSLR2">"カメラのセットアップメニューから「スマートフォンと接続」を選択してください。
+
+「ペアリング(Bluetooth)」を選択してください。
+
+カメラ名が表示される画面まで進んでください。"</string>
+    <string name="MID_CAM_PAIRING_NOTE_ML2">"カメラのネットワークメニューから「スマートフォンと接続」を選択してください。
+
+「ペアリング(Bluetooth)」を選択してください。
+
+カメラ名が表示される画面まで進んでください。"</string>
+    <string name="MID_CAM_PAIRING_SELECT_LB">接続するカメラを選んでください。</string>
+    <string name="MID_CAM_PAIRING_SELECT_TITLE">カメラと接続する</string>
+    <string name="MID_CAM_SYMC_OFF_CONFIRM">「自動転送」「時刻情報」「位置情報」すべてがOFFになっているため、「自動連携」もOFFにします。</string>
+    <string name="MID_CAM_SYMC_OFF_SYNC_INFO">"自動連携をオンにするとスマートフォンがスリープ状態にあっても「自動転送」「時刻の同期」「位置情報の同期」の機能を動作させることができます。
+上記の機能を使用しない場合は、自動連携の設定をオフにすることでバッテリー消費を抑えることができます。"</string>
+    <string name="MID_CAM_SYNC_ALERT_TIME_SYNC">時刻情報を元に位置情報を付与しているため、位置情報がONの場合は時刻情報をOFFにできません</string>
+    <string name="MID_CAM_SYNC_AUTO_TRANS">自動転送</string>
+    <string name="MID_CAM_SYNC_POS_SYNC">位置情報</string>
+    <string name="MID_CAM_SYNC_REQUIRES_TIME_SYNC">時刻情報を元に位置情報を付与しているため、位置情報がONの場合は時刻情報をOFFにできません</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY">省電力モード</string>
+    <string name="MID_CAM_SYNC_SAVE_ENERGY_SETTINGS">省電力設定</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID">スマートフォンのバッテリー消費を抑えるため、スマートフォンが動作していない状態が一定時間を超えると位置情報の連携を中止します。スマートフォンが動作すると再開します。</string>
+    <string name="MID_CAM_SYNC_SAVE_INFO_ANDROID_OLD">"スマートフォンのバッテリー消費を抑えるため、カメラの電波圏外の状態が一定時間を超えると、 バックグラウンドでの連携を中止します。 
+SnapBridgeを起動すると連携を再開します。"</string>
+    <string name="MID_CAM_SYNC_SYNC_LB">自動連携</string>
+    <string name="MID_CAM_SYNC_TIME_SYNC">時刻情報</string>
+    <string name="MID_CAM_SYNC_TITLE">連携設定</string>
+    <string name="MID_CAM_WIFI_MODE">Wi-Fi mode</string>
+    <string name="MID_CAM_WIFI_MODE1">Wi-Fi mode</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK">対応機種と使用できる機能を確認する</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_LINK_STATUS0">Wireless Mobile Utilityを起動する。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG">一部の対応機種ではペアリングせずにSnapBridgeの一部機能をお使い頂けます。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_CONNECTED">カメラとWi-Fi接続できました。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_NOT_CONNECTED">"カメラと接続されていません。
+スマートフォンの「設定」からWi-Fi接続を確認してください。"</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS0">このカメラと接続する場合はWireless Mobile Utilityをお使いください。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_MSG_STATUS1">ペアリングしていないカメラで「画像取り込み」「リモート撮影」機能を使う場合はWi-Fi modeをお使いください。</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE0">カメラとWi-Fiで直接接続しますか？</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_CONNECTED">Wi-Fi接続完了</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS0">対応機種以外のカメラとWi-Fi接続しています</string>
+    <string name="MID_CAM_WIFI_MODE_DIALOG_TITLE_STATUS1">ペアリングしていないカメラと接続しています</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT0">Wi-Fiで一時的に接続したい方はこちら</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT1">※一部の機能が使用できません</string>
+    <string name="MID_CAM_WIFI_MODE_TEXT2">"OSの「設定」から「Wi-Fi設定」を開いてください。
+
+カメラに表示されているSSIDを選択した後、カメラに表示されているパスワードを入力します。
+
+接続が完了したら、SnapBridgeアプリに戻ってください。"</string>
+    <string name="MID_CAM_WIFI_MODE_TITLE">Wi-Fi接続</string>
+    <string name="MID_CANCEL">キャンセル</string>
+    <string name="MID_CANNOT_LOGIN_DUE_TO_MAINTENANCE_MSG">現在メンテナンス中のため、ログインすることができません。しばらくしてから、再度ログインしてください。</string>
+    <string name="MID_CANNOT_SIGN_UP_DUE_TO_MAINTENANCE_MSG">現在メンテナンス中のため、会員登録をすることができません。しばらくしてから、再度会員登録をしてください。</string>
+    <string name="MID_CD_EDIT_LOGO_LB">ロゴ画像</string>
+    <string name="MID_CHANNEL_RETRY_GETTING_CHANNEL">情報を再取得</string>
+    <string name="MID_CHOICE_CONNECTABLE_CAMERA">接続可能なカメラから選択してください</string>
+    <string name="MID_CHOICE_RESIDENCE_CHINA">中国大陸</string>
+    <string name="MID_CHOICE_RESIDENCE_DECISION">OK</string>
+    <string name="MID_CHOICE_RESIDENCE_LABEL">国/地域</string>
+    <string name="MID_CHOICE_RESIDENCE_OTHER">それ以外の国/地域</string>
+    <string name="MID_CHOICE_USE_NIS_NO">今は利用しない</string>
+    <string name="MID_CHOICE_USE_NIS_YES">利用する</string>
+    <string name="MID_CLD_ACCOUNT">アカウント</string>
+    <string name="MID_CLD_ACCOUNT_LOGOUT">ログアウト</string>
+    <string name="MID_CLD_ACCOUNT_TITLE">アカウント</string>
+    <string name="MID_CLD_ALREADY_REGISTERED">既に同じIDが登録されています</string>
+    <string name="MID_CLD_CLMEULA_TITLE">プライバシーポリシー</string>
+    <string name="MID_CLD_FINISH_FINISH_INFO">NIKON IMAGE SPACEへの画像転送ができるようになりました。ただし、まだNikon IDへの登録は正式には完了しておりません。</string>
+    <string name="MID_CLD_FINISH_FINISH_TITLE">お送りしたメール本文のリンクをクリックして、登録を完了してください。</string>
+    <string name="MID_CLD_FINISH_INFO">30日以内に手続きを完了されないと自動的に登録が無効になります。</string>
+    <string name="MID_CLD_INSTALL_APP">アプリをインストール</string>
+    <string name="MID_CLD_INVALID_EMAIL_ADDRESS_OR_PASSWORD">IDまたはパスワードが間違っています。再度入力してください。</string>
+    <string name="MID_CLD_INVALID_MAIL_ADDRESS">メールアドレスの形式が不正です。妥当なメールアドレスを入力してください。</string>
+    <string name="MID_CLD_INVALID_PASS">パスワードが一致しません。再度入力してください。</string>
+    <string name="MID_CLD_INVALID_PASSWORD">パスワードの形式が不正です。妥当なパスワードを入力してください。</string>
+    <string name="MID_CLD_LAUNCH_APP">アプリケーションを起動</string>
+    <string name="MID_CLD_LOGIN_DIALOG_TEXT">ブラウザでNikon IDページを表示しますか?</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIKON_ID">Nikon ID登録内容の変更および削除</string>
+    <string name="MID_CLD_LOGIN_LINK_TO_UNSUBSCRIBE_FROM_NIS">NIKON IMAGE SPACEの登録内容の変更および退会</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_MSG">ログインしています。しばらくお待ちください。</string>
+    <string name="MID_CLD_LOGIN_LOGGING_IN_TITLE">ログイン中…</string>
+    <string name="MID_CLD_LOGIN_LOG_IN">ログイン</string>
+    <string name="MID_CLD_LOGIN_PRIVILEGE_OF_NIKON_ID">Nikon IDを登録すると得られる特典について</string>
+    <string name="MID_CLD_LOGIN_SIGN_UP">Nikon IDアカウントの作成</string>
+    <string name="MID_CLD_LOGIN_STEP_TITLE">Nikon IDアカウント</string>
+    <string name="MID_CLD_LOGOUT_TO_UNSUBSCRIBE_FROM_NIKON_ID">Nikon IDの登録内容の変更および削除するには、一度ログアウトしてください</string>
+    <string name="MID_CLD_MAIL_ADDRESS">メールアドレス</string>
+    <string name="MID_CLD_MAIL_AGREE_AND_NEXT">利用規約に同意</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_MSG">"メールアドレスを照合しています。
+しばらくお待ちください。"</string>
+    <string name="MID_CLD_MAIL_CHECKING_EMAIL_ADDRESS_TITLE">メールアドレスを照合中…</string>
+    <string name="MID_CLD_MAIL_MAIL_INPUT">メールアドレス</string>
+    <string name="MID_CLD_MAIL_STEP_INFO2">"Nikon IDとして登録するメールアドレスを入力してください。
+すでにNIKON IMAGE SPACEに登録しているメールアドレスをお持ちの場合はそちらを入力してください。"</string>
+    <string name="MID_CLD_MAIL_STEP_TITLE">メールアドレスの登録</string>
+    <string name="MID_CLD_NIKON_ID">Nikon ID</string>
+    <string name="MID_CLD_NIKON_ID_TERMS_OF_SERVICE">Nikon ID</string>
+    <string name="MID_CLD_NIS_INFO2">スマートフォンに転送した画像を、NIKON IMAGE SPACEにも自動的にアップロードできます。2Mピクセルの場合は容量無制限でアップロード可能です。</string>
+    <string name="MID_CLD_NIS_TITLE">容量無制限で自動アップロード</string>
+    <string name="MID_CLD_NOTICE_REGISTRATION_PROCESSING_TITLE">登録処理中…</string>
+    <string name="MID_CLD_NOT_AUTHORIZED">認証に失敗しました。サーバ、または、ネットワークに問題がある可能性があります。</string>
+    <string name="MID_CLD_PASSWORD">パスワード</string>
+    <string name="MID_CLD_PASS_CHECKING_PASS_TITLE">パスワード照合中…</string>
+    <string name="MID_CLD_PASS_CONFIRM">もう一度入力してください</string>
+    <string name="MID_CLD_PASS_FOGOT_PASS">パスワードをお忘れですか？</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_INFO">"NIKON IMAGE SPACEでお使いのパスワードを入力して登録の確認を完了してください。
+注意 : 8～15文字"</string>
+    <string name="MID_CLD_PASS_NOT_REG_STEP_TITLE">NIKON IMAGE SPACEパスワード入力</string>
+    <string name="MID_CLD_PASS_PASS_TEXT">8～15文字</string>
+    <string name="MID_CLD_PASS_STEP_INFO">"Nikon IDで使用するパスワードを設定してください。
+注意 : 8～15文字"</string>
+    <string name="MID_CLD_PASS_STEP_TITLE">Nikon IDのパスワード設定</string>
+    <string name="MID_CLD_PASS_TITLE">Nikon ID登録</string>
+    <string name="MID_CLD_PROVISIONAL_REGISTRATION_FINISHED_TITLE">登録完了</string>
+    <string name="MID_CLD_SET_PRODUCT_INFO">未設定</string>
+    <string name="MID_CLD_START">はじめる</string>
+    <string name="MID_CLD_SYNC_AREA">地域</string>
+    <string name="MID_CLD_SYNC_FIRMWARE_VERSION">ファームバージョン</string>
+    <string name="MID_CLD_SYNC_LANGUAGE">言語</string>
+    <string name="MID_CLD_SYNC_PRODUCT_NAME">機種名</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PROCUCT_INFO">以下の情報での登録となります。</string>
+    <string name="MID_CLD_SYNC_REGISTRATION_PRODUCT_INDEX">連携する製品についての登録</string>
+    <string name="MID_CLD_SYNC_SERIAL_NUMBER">シリアル番号</string>
+    <string name="MID_CLD_SYNC_TIMEZONE_TITLE">タイムゾーン</string>
+    <string name="MID_CLD_TERMS_OF_SERVICE">利用規約</string>
+    <string name="MID_CLD_UNDER_MAINTENANCE">認証に失敗しました。サーバメンテナンス中です。</string>
+    <string name="MID_CLD_UPDATE_APPLICATION_TO_LOGIN_OR_INITIALIZE_NID">NikonIDの新規登録、およびログイン方法が変更されました。アプリを最新バージョンにアップデートしてから再度お試しください。</string>
+    <string name="MID_CLD_UPLOAD">自動アップロード</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_INDEX">自動アップロードのタイミング</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON">Wi-Fiネットワークに接続時のみ</string>
+    <string name="MID_CLD_UPLOAD_ENABLE_ONLY_WIFI_ON_DESC">"Wi-Fiネットワークに接続時のみ、自動アップロードできる設定ができます。
+場合によってデータ通信量が多くなる可能性があります。ご契約のキャリアによる通信制限にご注意ください。"</string>
+    <string name="MID_CLD_UPLOAD_INFO">カメラから転送された画像をNIKON IMAGE SPACEに自動でアップロードする設定ができます。</string>
+    <string name="MID_COMMON_1">1</string>
+    <string name="MID_COMMON_10">10</string>
+    <string name="MID_COMMON_11">11</string>
+    <string name="MID_COMMON_1800S">1800秒</string>
+    <string name="MID_COMMON_2">2</string>
+    <string name="MID_COMMON_2M">2M</string>
+    <string name="MID_COMMON_3">3</string>
+    <string name="MID_COMMON_300S">300秒</string>
+    <string name="MID_COMMON_4">4</string>
+    <string name="MID_COMMON_5">5</string>
+    <string name="MID_COMMON_6">6</string>
+    <string name="MID_COMMON_600S">600秒</string>
+    <string name="MID_COMMON_7">7</string>
+    <string name="MID_COMMON_8">8</string>
+    <string name="MID_COMMON_9">9</string>
+    <string name="MID_COMMON_ADVANCED_SETTINGS">詳細設定</string>
+    <string name="MID_COMMON_ALWAYS_ON">タイムアウトなし</string>
+    <string name="MID_COMMON_ASC">ASCII</string>
+    <string name="MID_COMMON_AUTHENTICATION">認証／暗号</string>
+    <string name="MID_COMMON_AUTO">自動</string>
+    <string name="MID_COMMON_AUTO_POWEROFF_DELAY">自動パワーオフ時間</string>
+    <string name="MID_COMMON_AUTO_TRANSFER_ONLY_WHILE_CONNECTED">自動転送（接続中のみ）</string>
+    <string name="MID_COMMON_CAMERA_TO_CONNECT">接続するカメラ</string>
+    <string name="MID_COMMON_CANCEL">キャンセル</string>
+    <string name="MID_COMMON_CHANNEL">チャンネル</string>
+    <string name="MID_COMMON_CLOSE">閉じる</string>
+    <string name="MID_COMMON_CONFIRM">確認</string>
+    <string name="MID_COMMON_CONFIRM_TARGET_CAMERA">対象機種を確認する</string>
+    <string name="MID_COMMON_CONNECTABLE_CAMERA">接続可能なカメラ</string>
+    <string name="MID_COMMON_CONNECTING_CAMERA">接続中のカメラ</string>
+    <string name="MID_COMMON_CONNECT_BUSY_DLG_MSG">カメラがBUSY状態です。</string>
+    <string name="MID_COMMON_CONNECT_ERR_ACCESS_DENIED">カメラが接続できない状態です。カメラを再生モードにしてから、もう一度接続をお試しください。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG1">対象カメラが見つかりません。ヘルプを参照し、この問題の解決方法を確認してください。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG2">カメラのWi-Fi機能が有効になっていません。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG3">他の接続処理が実行中なため、接続できません。ヘルプから、この問題の解決方法を参照して、再実行してください。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG4">カメラとの通信処理に失敗しました。ヘルプから、この問題の解決方法を参照して、再実行してください。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG5">エラーが発生しました。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG6">ペアリングに失敗しました。意図しない結果の場合は、ヘルプを参照しこの問題の解決方法を確認してください。</string>
+    <string name="MID_COMMON_CONNECT_ERR_DLG_MSG7">"カメラの接続対象が他のスマートフォンになっています。
+カメラのメニュー[Bluetooth]-[ペアリング済みの機器]で接続対象を使用中のスマートフォンに切り換えてください。カメラに使用中のスマートフォンが登録されていない場合は再ペアリングを行ってください。"</string>
+    <string name="MID_COMMON_CONNECT_ERR_DURING_SHOOTING">リモート撮影を開始できない状態です。カメラでの撮影を終了してから、もう一度接続をお試しください。</string>
+    <string name="MID_COMMON_COUNTRY_CODE">ja</string>
+    <string name="MID_COMMON_DESTRUCTION">破棄</string>
+    <string name="MID_COMMON_DHCP_CLIENT_IP_ADRESS">DHCPクライアントIPアドレス</string>
+    <string name="MID_COMMON_DHCP_SERVER_IP_ADRESS">DHCPサーバーIPアドレス</string>
+    <string name="MID_COMMON_DISCARD_SETTING">設定を破棄する</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_CLIENT">DHCPクライアントのIPアドレスを設定します。</string>
+    <string name="MID_COMMON_ENTER_IP_ADRESS_DHCP_SERVER">DHCPサーバーのIPアドレスを設定します。</string>
+    <string name="MID_COMMON_ENTER_SUBNET_MASK">サブネットマスクを設定します。</string>
+    <string name="MID_COMMON_FIRM">ファームアップ</string>
+    <string name="MID_COMMON_GO_TO_OS_SETTINGS">設定する</string>
+    <string name="MID_COMMON_HELP">ヘルプへ</string>
+    <string name="MID_COMMON_HEX">HEX</string>
+    <string name="MID_COMMON_INITIALIZE">初期化</string>
+    <string name="MID_COMMON_LANGUAGE_CODE">ja</string>
+    <string name="MID_COMMON_LOGIN">ログイン中</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG">通信失敗しました。</string>
+    <string name="MID_COMMON_NETWORK_ERROR_DLG_MSG2">通信失敗しました。サーバ、または、ネットワークに問題がある可能性があります。</string>
+    <string name="MID_COMMON_NEXT">次へ</string>
+    <string name="MID_COMMON_NICKNAME">ニックネーム</string>
+    <string name="MID_COMMON_NO">いいえ</string>
+    <string name="MID_COMMON_NOFIFICATION_BATTERY_ALERT1">カメラの電池残量が少なくなっています。</string>
+    <string name="MID_COMMON_NONE">なし</string>
+    <string name="MID_COMMON_NOP">---</string>
+    <string name="MID_COMMON_NOTICE">ご注意</string>
+    <string name="MID_COMMON_NOTIFICATION_CAMERA_ERROR">"自動連携を停止します（省電力モード）。
+アプリを起動すると連携を再開します。"</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG1">"NIKON IMAGE SPACEの残り容量がありません。
+自動アップロードを停止します。"</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG2">"ログインできません。
+自動アップロードを停止します。"</string>
+    <string name="MID_COMMON_NOTIFICATION_NIS_ERR_MSG3">"NIKON IMAGE SPACEサーバがメンテナンス中です。
+自動アップロードを停止します。"</string>
+    <string name="MID_COMMON_NOTIFICATION_STOP">位置情報の取得を停止します。再開するためにはアプリを起動してください。</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_ERROR">転送中です。</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_STOP">転送を中断しました。</string>
+    <string name="MID_COMMON_NOTIFICATION_TRANSFER_SUCCESS">転送が完了しました。</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG1">"スマートフォンの残容量が不足しています。
+転送機能を停止します。"</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG2">"転送先に権限がありません。
+転送機能を停止します。"</string>
+    <string name="MID_COMMON_NOTIFICATION_TRNSFER_ERR_MSG3">"データの保存に失敗しました。
+転送機能を停止します。"</string>
+    <string name="MID_COMMON_OFF">OFF</string>
+    <string name="MID_COMMON_OK">OK</string>
+    <string name="MID_COMMON_ON">ON</string>
+    <string name="MID_COMMON_OPEN">OPEN</string>
+    <string name="MID_COMMON_OPEN_BROWSER">ブラウザを開く</string>
+    <string name="MID_COMMON_ORIGINAL">オリジナル</string>
+    <string name="MID_COMMON_PAIRING">カメラとペアリング</string>
+    <string name="MID_COMMON_PASSWORD">パスワード</string>
+    <string name="MID_COMMON_PASSWORD_ENTLY">パスワード入力設定</string>
+    <string name="MID_COMMON_PASSWORD_HEX">パスワード(HEX)</string>
+    <string name="MID_COMMON_PBC">PBC</string>
+    <string name="MID_COMMON_PIN">PIN</string>
+    <string name="MID_COMMON_POSITION_PRECISION">精度</string>
+    <string name="MID_COMMON_REBOOT">再起動</string>
+    <string name="MID_COMMON_RELEASE">削除</string>
+    <string name="MID_COMMON_RELEASE_WIFI_STATION_MODE">Wi-Fiステーションモードの解除</string>
+    <string name="MID_COMMON_SAVED_CAMERA">保存済みのカメラ</string>
+    <string name="MID_COMMON_SAVE_DIR">保存先の設定</string>
+    <string name="MID_COMMON_SAVE_VALUE_NOT_SD">本体</string>
+    <string name="MID_COMMON_SAVE_VALUE_SD">指定フォルダー</string>
+    <string name="MID_COMMON_SETTING">設定</string>
+    <string name="MID_COMMON_SIMPLE_SHOTTING_SETTING">かんたん撮影設定</string>
+    <string name="MID_COMMON_SKIP">Skip</string>
+    <string name="MID_COMMON_SLOT1">スロット1</string>
+    <string name="MID_COMMON_SSID">SSID</string>
+    <string name="MID_COMMON_START_WIFI_CONNECT">Wi-Fi接続開始</string>
+    <string name="MID_COMMON_SUBNET_MASK">サブネットマスク</string>
+    <string name="MID_COMMON_UPDATE">アップデート</string>
+    <string name="MID_COMMON_VERSION">Ver. %s</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE">Wi-Fiアクセスポイントモード</string>
+    <string name="MID_COMMON_WIFI_ACCESSPOINT_MODE_CONNECT">Wi-Fiアクセスポイントモード接続</string>
+    <string name="MID_COMMON_WIFI_CONNECT_SETTING">Wi-Fi接続設定</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE">Wi-Fiステーションモード</string>
+    <string name="MID_COMMON_WIFI_STATION_MODE_CONNECT">Wi-Fiステーションモード接続</string>
+    <string name="MID_COMMON_WMU_CONFIG">WMA設定</string>
+    <string name="MID_COMMON_WMU_INFO">WMA情報</string>
+    <string name="MID_COMMON_WPA2_PSK_AES">WPA2-PSK-AES</string>
+    <string name="MID_COMMON_WPS_MODE">WPSモード</string>
+    <string name="MID_COMMON_WPS_PIN">WPS PIN</string>
+    <string name="MID_COMMON_YES">はい</string>
+    <string name="MID_CONFIG_PASSWORD_ENTLY">パスワードの入力方法を設定します。</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_ASC">"ワイヤレスモバイルアダプターのパスワードを設定します。
+8～63文字で設定してください。"</string>
+    <string name="MID_CONFIG_PASSWORD_OF_WMA_HEX">"ワイヤレスモバイルアダプターのパスワードを設定します。
+16進数64桁のパスワードを設定してください。"</string>
+    <string name="MID_CONFIG_SECURITY_OF_WMA">ワイヤレスモバイルアダプターのセキュリティを設定します。</string>
+    <string name="MID_CONFIG_SLEEP_NO_WIFI_CONNECTION">Wi-Fi未接続時にスリープへ移行するまでの時間を設定します。</string>
+    <string name="MID_CONFIG_SSID_OF_WMA">ワイヤレスモバイルアダプターのSSIDを設定します。</string>
+    <string name="MID_CONFIG_WIRELESS_CHANNEL">通信で使用するチャンネルを設定します。</string>
+    <string name="MID_CONFIG_WPS_MODE">ワイヤレスモバイルアダプターのWPSモードを設定します。</string>
+    <string name="MID_CONFIG_WPS_PIN">ワイヤレスモバイルアダプターのWPS PINを設定します。</string>
+    <string name="MID_CONFIRMED">送信する</string>
+    <string name="MID_CONFIRM_DELETE">削除した設定は元には戻せません。本当に削除しますか?</string>
+    <string name="MID_CONFIRM_DIAL_GAID">カメラのダイヤルを確認する</string>
+    <string name="MID_CONFIRM_DIAL_IS_SET">カメラが設定を受信できるようにするため、レンズを装着してシャッターボタンを半押ししてオートフォーカスが動くことを確認してください。ダイヤルが合っていることが確認できたら、下の「送信する」ボタンを押して設定をカメラへ送ってください。</string>
+    <string name="MID_CONFIRM_REBOOT_WMA">設定を反映してワイヤレスモバイルアダプターを再起動しますか？</string>
+    <string name="MID_CONFIRM_SETTING">"選んだ内容でよければ
+設定を保存してください"</string>
+    <string name="MID_CONFIRM_SETTING_DESC">この内容をもとに、カメラに送る際にアプリがそのカメラに合った設定値に変換します。</string>
+    <string name="MID_CONNECT_CAMERA_ALWAYS">"カメラと常時接続します。
+全ての通信機能が使用できます。"</string>
+    <string name="MID_CONNECT_CAMERA_TEMPORARY">カメラと一時的に接続します。</string>
+    <string name="MID_CONNECT_WIFI_WPA3_ERROR">WPA3-SAEにOSが対応していません。カメラのWi-Fi接続の設定を変更してください。詳細はヘルプを確認ください。</string>
+    <string name="MID_CREATE_SET">設定作成</string>
+    <string name="MID_CREATE_SET_TIP">このボタンから撮影設定を開始できます。</string>
+    <string name="MID_CURRENT_SETTING">現在の設定</string>
+    <string name="MID_DATA_GETTING">"情報を取得しています。
+しばらくお待ちください。"</string>
+    <string name="MID_DATE_CREATED">作成日</string>
+    <string name="MID_DEFOCUS">背景をぼかす</string>
+    <string name="MID_DELETE">削除</string>
+    <string name="MID_DELETE_NIS_ACCOUNT">NIKON IMAGE SPACEから退会</string>
+    <string name="MID_DIAL_GAID1">カメラの上部にあるダイヤルを回して</string>
+    <string name="MID_DIAL_GAID2">に合わせてください。</string>
+    <string name="MID_DIAL_GAID_ZFC">カメラの上部にある各ダイヤルを回して以下の値に合わせてください。</string>
+    <string name="MID_DIAL_GAID_ZFC_SS">シャッタースピードダイヤルを1/3STEPに設定し、メインコマンドダイヤルを操作して、シャッタースピードを15秒(15”)に設定してください。</string>
+    <string name="MID_DOWNLOAD_FINISH">ダウンロードを完了しました</string>
+    <string name="MID_EDIT">設定を選びなおす</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_DESC">編集内容を破棄しますか？</string>
+    <string name="MID_EDIT_CANCEL_CONFIRM_TITLE">キャンセル確認</string>
+    <string name="MID_EDIT_PROCESS">設定の変更</string>
+    <string name="MID_EMPH_BLUR">長く軌跡を描く(三脚必要)</string>
+    <string name="MID_END_OF_INTEGRARION_NIS_ACCOUNT">NIKON IMAGE SPACEとの連携終了</string>
+    <string name="MID_EXECUTE_RESET_SHOOTING_SETTING">初期設定をカメラに送る</string>
+    <string name="MID_EXPLANATION_WMA">WMA：ワイヤレスモバイルアダプター</string>
+    <string name="MID_FAILED_CONNECT">接続に失敗しました。カメラの状態をご確認頂き、もう一度接続操作を試してみましょう。</string>
+    <string name="MID_FAILED_CONNECT_TITLE">接続失敗</string>
+    <string name="MID_FILE_SIZE">ファイルサイズ : %.1f MB</string>
+    <string name="MID_FILTER_SORT_CHANGING">設定を変更中…</string>
+    <string name="MID_FILTER_SORT_CONFIRM_RAW_TRANSFER">RAWの転送には時間がかかります。転送しますか？</string>
+    <string name="MID_FILTER_SORT_DATE_NONE">なし</string>
+    <string name="MID_FILTER_SORT_DATE_ON_DOWN">あり（降順）</string>
+    <string name="MID_FILTER_SORT_DATE_ON_UP">あり（昇順）</string>
+    <string name="MID_FILTER_SORT_DATE_VIEW">日付表示</string>
+    <string name="MID_FILTER_SORT_DISP_SETTING">表示設定</string>
+    <string name="MID_FILTER_SORT_FILE_MOVIE">動画</string>
+    <string name="MID_FILTER_SORT_FILE_STILL">静止画</string>
+    <string name="MID_FILTER_SORT_FILE_STILL_MOVIE">静止画と動画</string>
+    <string name="MID_FILTER_SORT_FILE_TYPE">ファイル</string>
+    <string name="MID_FILTER_SORT_FILTER">フィルタリング</string>
+    <string name="MID_FILTER_SORT_FOLDER">フォルダー</string>
+    <string name="MID_FILTER_SORT_HEIF_AND_VIDEOS">HEIFと動画</string>
+    <string name="MID_FILTER_SORT_HOW_TO_DISPLAY_RAW">RAWを表示したい場合、こちらから表示設定を変更してください。</string>
+    <string name="MID_FILTER_SORT_IMAGE_QUALITY">画質モード</string>
+    <string name="MID_FILTER_SORT_JPEG_AND_MOVIE">JPEGと動画</string>
+    <string name="MID_FILTER_SORT_PROTECTED">プロテクト済み</string>
+    <string name="MID_FILTER_SORT_QUALITY_HEIF">HEIF</string>
+    <string name="MID_FILTER_SORT_QUALITY_JPEG">JPEG</string>
+    <string name="MID_FILTER_SORT_QUALITY_RAW">RAW</string>
+    <string name="MID_FILTER_SORT_RATED">レーティング済み</string>
+    <string name="MID_FILTER_SORT_RAW_AND_MOVIE">RAWと動画</string>
+    <string name="MID_FILTER_SORT_RESULT">絞り込み結果 : %s</string>
+    <string name="MID_FILTER_SORT_SLOT_ALL">スロット内のすべてのフォルダー</string>
+    <string name="MID_FILTER_SORT_WARNING_RAW">画質モードがRAWの場合100枚までしか選択できません。RAWの転送は時間がかかります。</string>
+    <string name="MID_FILTER_SORT_WARNING_SELECTED_OVER">画質モードがRAWの場合100枚までしか選択できません。</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING">撮影設定のリセット完了</string>
+    <string name="MID_FINISH_RESET_SHOTTING_SETTING_DESC">カメラの撮影設定がリセットされました</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_CHECK">Google Analytics for Firebaseの利用に同意</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_OFF">同意しない</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_AGREEMENT_ON">同意する</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DESC">本アプリではGoogle Analytics for Firebaseを利用して利用状況の解析を行っています。%s</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_DETAIL">詳細</string>
+    <string name="MID_FIREBASE_TERMS_OF_SERVICE_ITEM">利用状況の解析</string>
+    <string name="MID_FIRMWARE_VERSION">ファームウェアバージョン</string>
+    <string name="MID_FOR_A_WHILE_WAIT_PLEASE">しばらくお待ちください。</string>
+    <string name="MID_FWU_ACCESS_WEB_SITE">注意：このカメラはスマートフォンからファームアップすることは出来ません</string>
+    <string name="MID_FWU_AGREE_AND_DOWNLOAD">同意してダウンロード</string>
+    <string name="MID_FWU_ALERT_CONNECT_WIFI">・「転送」の際にWi-Fiの接続先を一時的にカメラに切り替えます</string>
+    <string name="MID_FWU_ALERT_NOT_CLOSE">・この画面を表示したままにしてください。閉じるとファームアップが中止されます</string>
+    <string name="MID_FWU_BATTERY_OVER_80">・バッテリーの残量が80％以上ある</string>
+    <string name="MID_FWU_CAN_DOWNLOAD">新しいファームウェアが、パソコン上でダウンロード出来ます</string>
+    <string name="MID_FWU_CAN_TRANSFER">新しいファームウェアをカメラに転送してバージョンアップできます</string>
+    <string name="MID_FWU_CONFIRM_VERSION_UP">詳細を確認する</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_FILE_SIZE">ファイルサイズは%.1f MBです。Wi-Fi環境でのダウンロードをおすすめします。</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_PAUSE">ダウンロードを中止しますか？</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_MSG">ダウンロードが完了しているため、再開時は転送から行います</string>
+    <string name="MID_FWU_DIALOG_CONFIRM_SUSPEND_TITLE">転送を中止しますか？</string>
+    <string name="MID_FWU_DIALOG_DOWNLOAD">ダウンロード</string>
+    <string name="MID_FWU_DIALOG_FW_DOWNLOAD">ファームウェアダウンロード</string>
+    <string name="MID_FWU_DOWNLOAD">ダウンロード</string>
+    <string name="MID_FWU_ERROR_BATTERY_NOT_ENOUGH">カメラのバッテリー残量が80％未満のため、ファームアップできません。バッテリーを充電してもう一度お試しください</string>
+    <string name="MID_FWU_ERROR_CAMERA_STATUS">カメラがファームアップできない状態です。カメラの状態を確認してもう一度お試しください</string>
+    <string name="MID_FWU_ERROR_CARD_PROTECTED">メモリーカードがプロテクト状態です。プロテクトを解除してもう一度お試しください</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_FULL">エラーが発生しました。メモリカードの状態を確認してください</string>
+    <string name="MID_FWU_ERROR_MEMORY_CARD_OFF">カメラにメモリーカードが入っていません。メモリーカードを挿入してもう一度お試しください</string>
+    <string name="MID_FWU_ERROR_NETWORK">ネットワークエラーが発生しました。通信環境の良いところでもう一度お試しください</string>
+    <string name="MID_FWU_ERROR_POWER_OFF">カメラの電源がOFFになっています。カメラの電源をONにしてもう一度お試しください</string>
+    <string name="MID_FWU_ERROR_SERVER">サーバーにトラブルが発生しています。しばらく時間をおいたあとにもう一度お試しください</string>
+    <string name="MID_FWU_ERROR_UNKNOWN">予期せぬエラーが発生しました</string>
+    <string name="MID_FWU_FIRMWARE_UPDATE_NOTICE">ファームアップのお知らせ</string>
+    <string name="MID_FWU_MEMORY_CARD_ON">・メモリーカードが入っている</string>
+    <string name="MID_FWU_NEED_CAMERA_OPERATION">SnapBridgeでの操作はここで終わりです。OKボタンをタップ後、カメラを操作してバージョンアップを実行してください</string>
+    <string name="MID_FWU_NEED_CONDITIONS">カメラが以下の条件を満たしている必要があります</string>
+    <string name="MID_FWU_NEW_FIRMWARE_VER">新しいファームウェア：</string>
+    <string name="MID_FWU_NOTIFY_DESCRIBE">カメラの新しいファームウェアが利用可能です</string>
+    <string name="MID_FWU_NOTIFY_RESTART">再開</string>
+    <string name="MID_FWU_NOTIFY_START">詳細</string>
+    <string name="MID_FWU_PAUSE">一時停止中です</string>
+    <string name="MID_FWU_POWER_ON">・電源がONになっている</string>
+    <string name="MID_FWU_RESTART">再開</string>
+    <string name="MID_FWU_TAKE_FEW_MIN">所要時間は数分です</string>
+    <string name="MID_FWU_TITLE">ファームアップ</string>
+    <string name="MID_FWU_TITLE_STRING_FORMAT">ファームアップ (%s)</string>
+    <string name="MID_FWU_TRANSFER">転送</string>
+    <string name="MID_FWU_VERSION_UP">バージョンアップ</string>
+    <string name="MID_GALLERY_DATE">MM月dd日</string>
+    <string name="MID_GALLERY_SELECT_PHOTO">写真を選択</string>
+    <string name="MID_GUIDANCE_DIALOG_AFTER">後で</string>
+    <string name="MID_HASH_ADD_NOTE">画像共有時の入力欄に自動でハッシュタグを追加することができます。</string>
+    <string name="MID_HAVENT_SENT_TO_CAMERA_YET">まだカメラに送ったことがありません。</string>
+    <string name="MID_HOWTO_USER_SETTING">送った設定をカメラへ登録する</string>
+    <string name="MID_ICP_NUMBER">沪ICP备10016366号-20A</string>
+    <string name="MID_IMPORTANT_NOTICE">重要なお知らせ</string>
+    <string name="MID_IMPORT_ALERT_MSG0">Wi-Fiでの転送中に一定時間アプリがバックグラウンド状態になると、転送がキャンセルされます。</string>
+    <string name="MID_IMPORT_ALERT_MSG1">次回は表示しない</string>
+    <string name="MID_IMPORT_ALERT_MSG2">画像取り込みには転送終了後に遷移できます。</string>
+    <string name="MID_IMPORT_ALERT_MSG4">4ギガバイトを越える動画は転送できません。</string>
+    <string name="MID_IMPORT_ALL_SELECT">すべて選択</string>
+    <string name="MID_IMPORT_CANCEL_SELECT">選択解除</string>
+    <string name="MID_IMPORT_CONFIRM_RETRY">"転送が中断されました。
+中断箇所から転送を再開しますか？"</string>
+    <string name="MID_IMPORT_ERR_MSG">"写真へのアクセスが許可されていないため、アプリを使用できません。
+スマートデバイスの「設定」 -> 「プライバシー」 -> 「写真」より、本アプリを有効にしてください。"</string>
+    <string name="MID_IMPORT_EXEC_IMPORT">取り込み</string>
+    <string name="MID_IMPORT_FOLDER_ALL">すべてのフォルダー</string>
+    <string name="MID_IMPORT_ORIGINAL_FILE">オリジナルファイル</string>
+    <string name="MID_IMPORT_SELECT">選択</string>
+    <string name="MID_IMPORT_SELECT_DESC">表示させるフォルダーを選択してください。</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_MGS">"情報の取得に失敗しました。
+時間をおいて再実行してください。"</string>
+    <string name="MID_IMPORT_SEL_FAIL_DLG_TITLE">情報の取得失敗</string>
+    <string name="MID_IMPORT_SIZE_2M">2Mピクセル</string>
+    <string name="MID_IMPORT_SIZE_8M">8Mピクセル[4k]</string>
+    <string name="MID_IMPORT_SPECIFIED_PICTURE">送信指定画像取り込み</string>
+    <string name="MID_IMPORT_SUSPEND_ERROR">転送が中断されました。カメラアイコンのタブをタップして状態を確認してください</string>
+    <string name="MID_INITIALIZE_SETTING">設定の初期化</string>
+    <string name="MID_INPUT_NAME">新しい名前を入力してください。</string>
+    <string name="MID_INTERRUPTED_TRANSFER_8MP_PICTURES">転送を中断しました。カメラが8Mピクセル画像を転送できない状態です。動画再生や撮影等を中止し、転送できる状態にしてから再度お試しください。</string>
+    <string name="MID_INTERRUPTED_TRANSFER_A_8MP_PICTURE">カメラが8Mピクセル画像を転送できない状態です。動画再生や撮影等を中止し、転送できる状態にしてから再度お試しください。</string>
+    <string name="MID_LAST_CAMERA">最後に使用したカメラ</string>
+    <string name="MID_LAST_LENS">最後に使用したレンズ</string>
+    <string name="MID_LIKE">お気に入り</string>
+    <string name="MID_LINK_SPEED">リンク速度</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_MSG">動画撮影では常にライブビューを表示します。</string>
+    <string name="MID_LIVEVIEW_ON_DIALOG_TITLE">動画撮影のため、ライブビューを表示します。</string>
+    <string name="MID_LOGIN_TO_NIS">"NIKON IMAGE SPACEに
+ログイン"</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_DUE_TO_TERMS_UPDATED_MSG">使用許諾もしくはプライバシー・ノーティスが更新されています。再度ログインをしてご確認ください。</string>
+    <string name="MID_LOGIN_TO_NIS_AGEIN_MSG">再度ログインをしてください。</string>
+    <string name="MID_MANUAL_LOCATION_SYNC">位置情報の送信</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING">位置情報送信中</string>
+    <string name="MID_MANUAL_LOCATION_SYNCING_SUB">"カメラに位置情報を送信しています。
+しばらくお待ちください。"</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_FAILED">位置情報の送信に失敗しました</string>
+    <string name="MID_MANUAL_LOCATION_SYNC_SUCCESS">位置情報の送信を完了しました</string>
+    <string name="MID_MENU_TITLE">アプリ設定</string>
+    <string name="MID_MENU_TUTORIAL_TITLE">ヘルプ</string>
+    <string name="MID_MK_CHANNEL_NOT_LOGIN">未ログイン</string>
+    <string name="MID_MK_CHANNEL_TITLE">お知らせ</string>
+    <string name="MID_MOTIF">被写体とシチュエーション</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT">ナイトパレード</string>
+    <string name="MID_MOTIF_AMUSEMENTPARK_NIGHT_DESC">夜のパレードを鮮やかに撮る</string>
+    <string name="MID_MOTIF_COOKING">料理</string>
+    <string name="MID_MOTIF_EATING">料理</string>
+    <string name="MID_MOTIF_EATING_DESC">料理を明るく、背景をぼかして撮る</string>
+    <string name="MID_MOTIF_EATING_OUT">料理全体</string>
+    <string name="MID_MOTIF_EATING_OUT_DESC">料理全体を明るく、鮮やかに撮る</string>
+    <string name="MID_MOTIF_FLOWERS">花や植物</string>
+    <string name="MID_MOTIF_FOR_AUCTION">オークション向け撮影</string>
+    <string name="MID_MOTIF_FOR_AUCTION_DESC">被写体を明るく鮮やかに撮る</string>
+    <string name="MID_MOTIF_LANDSCAPE">風景メインで撮る</string>
+    <string name="MID_MOTIF_MAGIC_HOUR">夕景</string>
+    <string name="MID_MOTIF_MAGIC_HOUR_DESC">夕焼けを強調して撮る</string>
+    <string name="MID_MOTIF_NATURE">山や森など</string>
+    <string name="MID_MOTIF_NATURE_DESC">自然な色味で明るめに撮る</string>
+    <string name="MID_MOTIF_NIGHT">夜景</string>
+    <string name="MID_MOTIF_NIGHT_DESC">夜景を鮮やかに撮る</string>
+    <string name="MID_MOTIF_NIGHT_VIEWING">夜景メインで撮る</string>
+    <string name="MID_MOTIF_PERSON">人物メインで撮る</string>
+    <string name="MID_MOTIF_PERSON_NIGHT">夜景をバックに人物</string>
+    <string name="MID_MOTIF_PERSON_NIGHT_DESC">夜景で人物を明るく撮る</string>
+    <string name="MID_MOTIF_PET">ペット</string>
+    <string name="MID_MOTIF_PET_INDOOR">ペット</string>
+    <string name="MID_MOTIF_PET_INDOOR_DESC">あまり動いていないペットを写す</string>
+    <string name="MID_MOTIF_PET_OUTDOOR">動いているペット</string>
+    <string name="MID_MOTIF_PET_OUTDOOR_DESC">動いているペットを写し止める</string>
+    <string name="MID_MOTIF_PLANT">花</string>
+    <string name="MID_MOTIF_PLANT_DESC">花を明るく、鮮やかに撮る</string>
+    <string name="MID_MOTIF_PORTRAIT">ポートレート</string>
+    <string name="MID_MOTIF_PORTRAIT_DESC">人物を中心にして撮影する</string>
+    <string name="MID_MOTIF_RECORDS">記念写真</string>
+    <string name="MID_MOTIF_RECORDS_DESC">人物と背景を一緒に撮影する</string>
+    <string name="MID_MOTIF_RELATIVES">逆光での人物</string>
+    <string name="MID_MOTIF_RELATIVES_DESC">逆光環境で人物を明るく撮る</string>
+    <string name="MID_MOTIF_RIVER">川や滝など</string>
+    <string name="MID_MOTIF_RIVER_DESC">水の流れや軌跡を表現する</string>
+    <string name="MID_MOTIF_SELECTED">選択した被写体やシチュエーション:</string>
+    <string name="MID_MOTIF_SELFY">自撮り</string>
+    <string name="MID_MOTIF_SELFY_DESC">自分を中心にして撮影する</string>
+    <string name="MID_MOTIF_SMALL_ITEMS">小物の撮影</string>
+    <string name="MID_MOTIF_SMALL_ITEMS_DESC">被写体を強調して、明るく鮮やかに撮る</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR">スポーツ(屋内)</string>
+    <string name="MID_MOTIF_SPORTS_INDOOR_DESC">動きのある被写体の瞬間を写し止める</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR">スポーツ(屋外)</string>
+    <string name="MID_MOTIF_SPORTS_OUTDOOR_DESC">動きのある被写体の瞬間を写し止める</string>
+    <string name="MID_MOTIF_STARS">星空(三脚必須)</string>
+    <string name="MID_MOTIF_STARS_DESC">長秒時で星を鮮やかに撮る</string>
+    <string name="MID_MOTIF_STILL_LIFE">商品撮影</string>
+    <string name="MID_MOTIF_STREET">建築物や街並み</string>
+    <string name="MID_MOTIF_STREET_DESC">建築物や街並みをはっきりと撮る</string>
+    <string name="MID_MOTIF_TREE_VIEWING">桜の風景</string>
+    <string name="MID_MOTIF_TREE_VIEWING_DESC">並木を明るく、鮮やかに撮る</string>
+    <string name="MID_MOTION_BLUR">軌跡を描く</string>
+    <string name="MID_MOVE_TO_AUTOMATIC_ALIGNMENT_SETTING">自動連携設定に移動</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_BLUETOOTH">"Bluetooth(付近のデバイス)の利用権限がありません。
+お使いの端末の設定から、Bluetooth(付近のデバイス)の利用権限を許可してください。"</string>
+    <string name="MID_MSG_ALLOW_PERMISSION_TO_USE_LOCATION">"位置情報の利用権限がありません。
+お使いの端末の設定から、位置情報の利用権限を許可してください。"</string>
+    <string name="MID_MSG_ATTACH_LOCATION_WIFI_MODE">"スマートデバイスで取得した位置情報を画像取り込み時に付加することができます。
+位置情報は画像取り込みの直前に取得するため、「画像取り込み」で取り込む際は、撮影場所と異なる位置情報が付加される場合があります。"</string>
+    <string name="MID_MSG_CAMERA_IS_ALWAYS_CONNECT">"一度設定するとカメラと常時接続します。
+画像の自動転送機能が使えます。"</string>
+    <string name="MID_MSG_CANNOT_CHOICE_RESIDENCE_LATER">"お住まいの地域を選択してください。 
+
+後から地域の変更が必要な場合は、お手数ですがアプリを再インストールしてください。"</string>
+    <string name="MID_MSG_CANNOT_SEARCH_BLUETOOTH">カメラのBluetoothを検出できません。カメラのBluetooth通信機能が有効になっていることを確認してください。​</string>
+    <string name="MID_MSG_CANNOT_SEND_SETTING">画像の取り込み中は、撮影設定をカメラへ送信することができません。</string>
+    <string name="MID_MSG_CONFIRM_ACCESSPOINT_NOTE">"カメラで設定したアクセスポイントと端末のアクセスポイントが合っているかを確認してください。異なる場合は、OSの「%s」から「Wi-Fi設定」を開き、カメラと同じアクセスポイントを選択してください。
+
+「Wi-Fi接続開始」をタップ後に接続可能なカメラの一覧が表示されます。その中から接続するカメラを選択してください。"</string>
+    <string name="MID_MSG_CONFIRM_CANCEL_CONNECTING">カメラの接続設定を解除しますか？</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_TEMPORARILY">"一時的にカメラと直接接続し、リモート機能、画像取り込みを行うことができます。
+詳細についてはヘルプを確認してください。"</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_VIA__WIFI_ONLY">カメラとWi-Fiのみで接続します。</string>
+    <string name="MID_MSG_CONNECT_TO_CAMERA_WHILE_CONNECTED_TO_INTERNET">"カメラと接続中も、インターネットに接続したまま、自動転送、リモート撮影、画像取り込みを行うことができます。
+詳細についてはヘルプを確認してください。"</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE">"カメラとWi-Fi接続する場合、カメラの[ネットワークメニュー]-[スマートフォンと接続]-[Wi-Fi接続(ステーションモード)]から[新規追加]を設定してください。
+詳細については%sを確認してください。"</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_HELP">ヘルプ</string>
+    <string name="MID_MSG_CONNECT_TO_WIFI_STATIONMODE_LINK_SETTING">設定</string>
+    <string name="MID_MSG_CONTENT_ERROR">"入力内容に誤りがあります。
+内容をご確認ください。"</string>
+    <string name="MID_MSG_ENABLE_WIFI_ICON">"Wi-Fiのアイコンをタップして有効にし、カメラを接続できる状態にしてください。
+詳しくはヘルプをご確認ください。"</string>
+    <string name="MID_MSG_END_WIFI_CONNECTION">Wi-Fi接続を終了しますか?</string>
+    <string name="MID_MSG_GO_TO_HINT">撮影の仕方を詳しく知りたい方はこちら</string>
+    <string name="MID_MSG_HOW_TO_SETTING_WIFI_STATION_MODE_NOTE">"カメラのセットアップメニューもしくはネットワークメニューから、Wi-Fiステーションモード接続を選択し、設定を行ってください。詳細はヘルプページをご確認ください。
+%s
+
+①で設定したアクセスポイントを選択してください。"</string>
+    <string name="MID_MSG_INITIALIZE">設定を初期化しますか？</string>
+    <string name="MID_MSG_INVALID_SUBNET_MASK_ERROR">"入力されたIPアドレスとサブネットマスクは互換性がありません。
+互換性のある値を入力してください。"</string>
+    <string name="MID_MSG_IP_ADDRESS_COLLISION_ERROR">サーバーIPアドレスがクライアントIPアドレスと近いため、設定できません。IPアドレスを4つ以上離して設定してください。</string>
+    <string name="MID_MSG_IP_ADDRESS_ERROR">入力されたIPアドレスは使用することができません。</string>
+    <string name="MID_MSG_LOGOUT_TO_DELETE_NIS_ID">NIKON IMAGE SPACEから退会するには、一度ログアウトしてください。</string>
+    <string name="MID_MSG_MISS_PASSWORD">入力されたパスワードは設定条件を満たしていません。</string>
+    <string name="MID_MSG_NIS_IN_CHINA_HAS_ENDED">中国大陸での、SnapBridgeからのNIKON IMAGE SPACEへのアップロードは終了しました</string>
+    <string name="MID_MSG_NIS_PROSEDURE_FOR_RESUMING">"このメッセージは、一年以上ログインしていない場合に表示されます。アップロード済みの画像・動画は全て削除されました。削除された画像・動画や、アルバム・アルバムラックを復元させることはできません。
+ブラウザでNIKON IMAGE SPACEにログインして利用再開手続きをしてください。"</string>
+    <string name="MID_MSG_NOT_MATCH_MODE_DIAL_SETTING">カメラの上部にダイヤルがない機種では、機種に応じた方法で撮影モードの設定を行ってください。</string>
+    <string name="MID_MSG_NO_PASSWORD">パスワードが入力されていません。パスワードを入力してください。</string>
+    <string name="MID_MSG_OPEN_AUTOMATIC_ALIGNMENT_SETTING">自動連携が解除されました。オンに戻す場合は、自動連携設定で設定し直してください。</string>
+    <string name="MID_MSG_PARAMETER_SEND_FAILED">カメラが接続できない状態です。動画撮影や動画再生を止めてから、もう一度接続をお試しください。</string>
+    <string name="MID_MSG_PAUSE_CONNECT_WITH_CAMERA">"カメラとの通信を一時中断しますか？
+再開する場合は、再度アイコンをタップしてください"</string>
+    <string name="MID_MSG_PLEASE_TAP_CAMERA_OK_BUTTON">カメラ側の接続が完了したら、必ずカメラのOKボタンを押してください</string>
+    <string name="MID_MSG_REBOOT_APPLICATION_FOR_NIKON_ID">NikonIDの新規登録、およびログイン方法が変更されました。アプリを再起動して再度お試しください。</string>
+    <string name="MID_MSG_RESTART_AFTER_IMPORTING">Wi-Fiを使ってカメラから画像を転送中です。転送終了後に再度お試しください。</string>
+    <string name="MID_MSG_RESUME_CONNECT_WITH_CAMERA">カメラとの通信を再開しますか？</string>
+    <string name="MID_MSG_SELECT_ACCESS_NOTIFICATION_FROM_DEVICE_SETTING">"“SnapBridge”の通知を許可しない場合、転送や位置情報の付与が出来ない場合があります。
+ 
+お使いの端末の設定から、通知への アクセスを許可してください。"</string>
+    <string name="MID_MSG_SELECT_ALLOW_NOTIFICATION">“SnapBridge”の通知を許可しない場合、転送や位置情報の付与が出来ない場合があります。通知の「許可」をお選びください</string>
+    <string name="MID_MSG_SEND_SHOTTING_SETTING_DURING_TRANSFERING_IMAGE">"Wi-Fiを使ってカメラから画像を転送中です。
+転送終了後に設定送信できます。"</string>
+    <string name="MID_MSG_START_IMPORT_SPECIFIED_PICTURE">カメラに送信指定された画像があります。画像取り込みを開始します。</string>
+    <string name="MID_MSG_SUBNET_MASK_ERROR">入力されたサブネットマスクは使用することができません。</string>
+    <string name="MID_MSG_UPLOAD_RESET">初期設定をカメラに送って、カメラの撮影設定を最初の状態に戻します</string>
+    <string name="MID_NEWS_GET_CHANNEL_FAILED">ニュースが取得できませんでした。</string>
+    <string name="MID_NEWS_GET_CHANNEL_NONE">まだ新しいニュースはありません。</string>
+    <string name="MID_NEW_PRODUCTS_INFO_LINK">新製品の情報はこちらから</string>
+    <string name="MID_NEW_PRODUCT_DATA_DOWNLOAD">新製品の画像データをダウンロードします</string>
+    <string name="MID_NEXT">次へ</string>
+    <string name="MID_NICKNAME_INPUT_NOTE">このニックネームは接続先のカメラに表示されます。</string>
+    <string name="MID_NICKNAME_INPUT_TITLE">スマートフォンのニックネーム</string>
+    <string name="MID_NICKNAME_WARN_INFO">1文字以上を入力してください。</string>
+    <string name="MID_NID_PRIVACY_POLICY_ITEM">プライバシーノーティス</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_BLUETOOTH_TEXT">Bluetoothで転送中</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_BLUETOOTH_TEXT">Bluetoothで転送中、位置情報を現在利用中</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_READY_TEXT">自動転送準備中、位置情報を現在利用中</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_LOCATION_WIFI_TEXT">Wi-Fiで転送中、位置情報を現在利用中</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_NO_LOCATION_TEXT">待機中です。</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_READY_TEXT">自動転送準備中</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_TEXT">位置情報を現在利用中</string>
+    <string name="MID_NOTIFICATION_FOREGROUND_SERVICE_WIFI_TEXT">Wi-Fiで転送中</string>
+    <string name="MID_NOT_USED">まだカメラに送ったことがありません。</string>
+    <string name="MID_NO_BLUR">動きを止める</string>
+    <string name="MID_NO_SET">設定がありません。右下のボタンから設定を作成しましょう。</string>
+    <string name="MID_NUMBER_USE">使用回数</string>
+    <string name="MID_OK">OK</string>
+    <string name="MID_OPEN_OS_SETTING">OSの「設定」を開く</string>
+    <string name="MID_PAN_FOCUS">すべてにピントを合わせる</string>
+    <string name="MID_PARAM_DETAIL">カメラ適用時の詳細なパラメータ</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID">“SnapBridge”の機能を使用するために”写真“へのアクセスが必要です。「すべての写真へのアクセスを許可」をお選びください</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_ANDROID_14">“SnapBridge”の機能を使用するために”写真と動画“へのアクセスが必要です。「すべて許可」をお選びください</string>
+    <string name="MID_PERMISSION_ALLOW_ALL_PHOTO_ACCESS_IOS17">\"SnapBridge\"の機能を使用するために写真ライブラリへのアクセスが必要です。「フルアクセスを許可」をお選びください</string>
+    <string name="MID_PERMISSION_ALLOW_BACKGROUND_RUNNING">SnapBridgeをバックグラウンドで動作させるため、バックグラウンドでのアプリの使用を許可する必要があります。</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS">カメラとペアリングするために、位置情報へのアクセスを許可してください。</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING">お使いの端末の設定から、位置情報へのアクセスを許可してください。</string>
+    <string name="MID_PERMISSION_ALLOW_LOCATION_ACCESS_IN_DEVICE_SETTING_FOR_R">"Android OS上でペアリングや​Bluetooth機能を使用するには、​位置情報利用を許可する必要があります。​
+お使いの端末の設定から、位置情報への​アクセスを許可してください。​"</string>
+    <string name="MID_PERMISSION_ALLOW_PHOTO_ACCESS_ANDROID_14">\"写真と動画\"へのアクセス権がないため画像を転送できません。端末の「設定」からアクセスを許可してください。</string>
+    <string name="MID_PERMISSION_ALLOW_STORAGE_ACCESS_IN_DEVICE_SETTING">ストレージへのアクセスが許可されていないため、転送できません。お使いの端末の設定から、ストレージへのアクセスを許可してください。</string>
+    <string name="MID_PERMISSION_ALWAYS_ALLOW_LOCATION_ACCESS">Android OS上でペアリングやBluetooth機能を使用するには、位置情報利用を許可する必要があります。</string>
+    <string name="MID_PERMISSION_ENABLE_DEVICE_LOCATION">アプリを使用するには端末の位置情報を有効にしてください。</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALLOW">次に表示される画面で「許可」を選択してください</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_ALWAYS_ALLOW_FOR_R">次に表示される位置情報利用の許可を問うダイアログで、「アプリの使用時のみ」を選択してください。</string>
+    <string name="MID_PERMISSION_LEAD_TO_SELECT_WIFI_ON">Wi-Fiの使用設定をONに設定してください</string>
+    <string name="MID_PERMISSION_NOT_GRANTED">動作に必要な機能の利用が許可されていません。端末の設定の「SnapBridge」より、必要な項目を許可してください</string>
+    <string name="MID_POS_GPS_LIST_HIGH">高(精度優先)</string>
+    <string name="MID_POS_GPS_LIST_HIGH_MIN">高</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE">中</string>
+    <string name="MID_POS_GPS_LIST_MIDDLE_MIN">中</string>
+    <string name="MID_POS_GPS_LIST_ROUGH">低(省電力優先)</string>
+    <string name="MID_POS_GPS_LIST_ROUGH_MIN">低</string>
+    <string name="MID_POS_GPS_NOTE">「高」に設定するとスマートフォン/カメラのバッテリー消費が増加します。車や電車での移動中は「高」に設定しないでください。「低」に設定すると位置情報を測位する間隔が減りますが、スマートフォンのバッテリー消費を抑えることができます。</string>
+    <string name="MID_POWERZOOM_SPEED">パワーズーム速度</string>
+    <string name="MID_PRECISE">正確</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MSG">プライバシーポリシーを確認してください。</string>
+    <string name="MID_PRIVACY_POLICY_CHECK_MUST_READ_MSG">プライバシーポリシーを読む(必読)</string>
+    <string name="MID_PROHIBIT_OPEN_WMA_MENU">Wi‑Fi内蔵カメラと接続時は、カメラのメニューから設定して下さい。</string>
+    <string name="MID_PTP_REMOTE_DESCRIBE">スマートフォンに表示されたライブビューを見ながら撮影が可能です。</string>
+    <string name="MID_READ_HINTS">詳しい撮影のヒントを見る</string>
+    <string name="MID_REMOTE_CAMERA_SETTING">カメラ設定</string>
+    <string name="MID_REMOTE_MOVIE_NOT_SUPPORT_MODE">撮影モード: リモート撮影でサポートしていない設定になっているため、Pに設定します。</string>
+    <string name="MID_REMOTE_NOT_START_REMOTE_BY_OLD_FTZ_FW">マウントアダプター FTZのファームウェアをバージョンアップしてください。</string>
+    <string name="MID_REMOTE_NOT_TRANSFER_TIFF">"カメラで画質モードがTIFFに設定されています。リモート撮影は可能ですが、撮影した画像はスマートフォンに転送できません。
+"</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_DESC">撮影後の画像を自動で転送します。</string>
+    <string name="MID_REMOTE_SETTINGS_IMAGE_TRANSFER_INDEX">画像転送</string>
+    <string name="MID_REMOTE_SETTINGS_LIVE_VIEW_ENABLED">ライブビュー表示</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_SECONDS">秒</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_COUNT_TITLE">セルフタイマー設定</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_DESC">アイコンをタップしてから3秒後に撮影を行います。</string>
+    <string name="MID_REMOTE_SETTINGS_SELF_TIMER_INDEX">セルフタイマー</string>
+    <string name="MID_REMOTE_SIZE_ONLY_2M_8M_JPEG_OR_2M_HEIF">RAW画像はオリジナルファイル選択時にも2M/8MピクセルJPEG、もしくは2M HEIFに変換して転送されます。</string>
+    <string name="MID_REMOTE_SIZE_ONLY_JPEG">RAW画像はオリジナルファイル選択時にも2MピクセルJPEGに変換して転送されます。</string>
+    <string name="MID_REMOTE_TRANS_SIZE">サイズ選択</string>
+    <string name="MID_REMOTE_WB_CLOUDY">曇天</string>
+    <string name="MID_REMOTE_WB_DIRECT_SUNLIGHT">晴天</string>
+    <string name="MID_REMOTE_WB_FLASH">フラッシュ</string>
+    <string name="MID_REMOTE_WB_FLUORESCENT">蛍光灯</string>
+    <string name="MID_REMOTE_WB_INCANDESCENT">電球</string>
+    <string name="MID_REMOTE_WB_SHADE">晴天日陰</string>
+    <string name="MID_RENAME">名前の変更</string>
+    <string name="MID_REQUEST_DELETE_SETS">既存の設定を削除してください。</string>
+    <string name="MID_RESET_SHOOTING_SETTING">撮影設定のリセット</string>
+    <string name="MID_RESTART_APP_DUE_TO_BACKGROUND_STOPPED_MSG">バックグラウンドでの動作を停止しました。アプリを再度起動してください。</string>
+    <string name="MID_RETET_SHOTTING_SETTING_DESC">カメラの撮影設定をリセットし、初期の状態に戻します。</string>
+    <string name="MID_SAVE">保存</string>
+    <string name="MID_SAVED_NUM_LIMIT">保存可能数が最大です</string>
+    <string name="MID_SAVE_AS">名前をつけて設定を保存</string>
+    <string name="MID_SAVE_DESC">設定に付ける名前を入力してください。</string>
+    <string name="MID_SAVE_EDITED">変更内容を保存</string>
+    <string name="MID_SAVE_TITLE">設定に名前をつける</string>
+    <string name="MID_SELECTED">選んだ項目</string>
+    <string name="MID_SELECT_CONNECTION">接続方法を選んでください。</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALBANIA">アルバニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ALGERIA">アルジェリア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ANDORRA">アンドラ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ARGENTINA">アルゼンチン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRALIA">オーストラリア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_AUSTRIA">オーストリア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BAHRAIN">バーレーン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BANGLADESH">バングラデシュ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BELGIUM">ベルギー</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOLIVIA">ボリビア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BOSNIA_HERZEGOVINA">ボスニア・ヘルツェゴビナ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_BULGARIA">ブルガリア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CAMBODIA">カンボジア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CANADA">カナダ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHILE">チリ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CHINESE_MAINLAND">中国大陸</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_COLOMBIA">コロンビア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CROATIA">クロアチア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CYPRUS">キプロス</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_CZECH_REPUBLIC">チェコ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_DENMARK">デンマーク</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_EGYPT">エジプト</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ESTONIA">エストニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FINLAND">フィンランド</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRANCE">フランス</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_FRENCH_POLYNESIA">フランス領ポリネシア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GERMANY">ドイツ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GHANA">ガーナ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GIBRALTAR">ジブラルタル</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GREECE">ギリシャ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_GUADELOUPE">グアドループ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HONG_KONG">香港</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_HUNGARY">ハンガリー</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ICELAND">アイスランド</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDIA">インド</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_INDONESIA">インドネシア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_IRELAND">アイルランド</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ISRAEL">イスラエル</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ITALY">イタリア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JAPAN">日本</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_JORDAN">ヨルダン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KAZAKHSTAN">カザフスタン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KENYA">ケニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOREA">大韓民国</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KOSOVO">コソボ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KUWAIT">クウェート</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_KYRGYZSTAN">キルギス</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LATVIA">ラトビア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LEBANON">レバノン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LITHUANIA">リトアニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_LUXEMBOURG">ルクセンブルク</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MADAGASCAR">マダガスカル</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAWI">マラウイ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALAYSIA">マレーシア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALDIVES">モルディブ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MALTA">マルタ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MARTINIQUE">マルチニーク島</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MAURITIUS">モーリシャス</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MEXICO">メキシコ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOLDOVA">モルドバ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONACO">モナコ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MONTENEGRO">モンテネグロ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MOROCCO">モロッコ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_MYANMAR">ミャンマー</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEPAL">ネパール</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NETHERLANDS">オランダ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_CALEDONIA">ニューカレドニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_Fiji">フィジー</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NEW_ZEALAND">ニュージーランド</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NIGERIA">ナイジェリア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORTH_MACEDONIA">北マケドニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_NORWAY">ノルウェー</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_OMAN">オマーン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PAKISTAN">パキスタン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PARAGUAY">パラグアイ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PERU">ペルー</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PHILIPPINES">フィリピン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_POLAND">ポーランド</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_PORTUGAL">ポルトガル</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_QATAR">カタール</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_REUNION">レユニオン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ROMANIA">ルーマニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_RWANDA">ルワンダ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SAUDI_ARABIA">サウジアラビア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SERBIA">セルビア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SINGAPORE">シンガポール</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVAKIA">スロバキア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SLOVENIA">スロベニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SOUTH_AFRICA">南アフリカ共和国</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SPAIN">スペイン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SRI_LANKA">スリランカ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWEDEN">スウェーデン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_SWITZERLAND">スイス</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAIWAN">台湾</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TAJIKISTAN">タジキスタン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TANZANIA">タンザニア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_THAILAND">タイ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TUNISIA">チュニジア</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKEY">トルコ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_TURKMENISTAN">トルクメニスタン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UAE">アラブ首長国連邦</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UGANDA">ウガンダ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UKRAINE">ウクライナ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_KINGDOM">イギリス</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UNITED_STATES_OF_AMERICA">アメリカ合衆国</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_URUGUAY">ウルグアイ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_UZBEKISTAN">ウズベキスタン</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VANUATU">バヌアツ</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_VIETNAM">ベトナム</string>
+    <string name="MID_SELECT_COUNTRY_SELECT_THE_ZIMBABWE">ジンバブエ</string>
+    <string name="MID_SELECT_MOTIF">何を撮影しますか?</string>
+    <string name="MID_SELECT_REGIONS_SELECT_AFRICA">アフリカ</string>
+    <string name="MID_SELECT_REGIONS_SELECT_ASIA">アジア</string>
+    <string name="MID_SELECT_REGIONS_SELECT_EUROPE">ヨーロッパ</string>
+    <string name="MID_SELECT_REGIONS_SELECT_MIDDLE_EAST">中東</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OCEANIA">オセアニア</string>
+    <string name="MID_SELECT_REGIONS_SELECT_OTHER_COUNTRIES">その他の国/地域</string>
+    <string name="MID_SELECT_REGIONS_SELECT_THE_AMERICAS">アメリカ大陸</string>
+    <string name="MID_SEND_ANOTHER">続けて別の設定をつくる</string>
+    <string name="MID_SEND_COMPLETE">設定送信完了</string>
+    <string name="MID_SEND_SETS_PROGRESS">カメラへ設定を送信しています…</string>
+    <string name="MID_SEND_SET_TO_CAMERA">この設定をカメラへ送る</string>
+    <string name="MID_SEND_THE_SET">この設定をカメラへ送る</string>
+    <string name="MID_SEN_SETS_FINISHED">カメラへ設定が適用されました。 撮影してみましょう。</string>
+    <string name="MID_SERIAL_NUMBER">シリアル番号</string>
+    <string name="MID_SETTING_NAME_PRESET">ユーザー設定</string>
+    <string name="MID_SET_BLUR">動きの設定</string>
+    <string name="MID_SET_BOKEH">ボケの設定</string>
+    <string name="MID_SET_FINISHED">設定ができました</string>
+    <string name="MID_SET_FINISHED_DESC">カメラにこの設定を適用して撮影してみましょう。</string>
+    <string name="MID_SET_REJECTED_BY_CAMERA_TITLE">カメラの状態を確認してください</string>
+    <string name="MID_SHARE_ACQUIRING">写真を取得しています。</string>
+    <string name="MID_SHARE_FAILED_TO_ACQUIRE">写真の取得に失敗しました。</string>
+    <string name="MID_SHARE_INSUFFICIENT_STORAGE_SPACE">スマートフォンの残容量が不足しています。画像の共有ができません。</string>
+    <string name="MID_SIGN_UP_NIS">"NIKON IMAGE SPACEの
+新規会員登録"</string>
+    <string name="MID_SORT">並び替え</string>
+    <string name="MID_SORT_NAME_DOWN">名前（降順）</string>
+    <string name="MID_SORT_NAME_UP">名前（昇順）</string>
+    <string name="MID_SORT_NEW">作成日が新しい順</string>
+    <string name="MID_SORT_OLD">作成日が古い順</string>
+    <string name="MID_SORT_USE_LATELY">最近使用した順</string>
+    <string name="MID_SORT_USE_MANY">使用回数が多い順</string>
+    <string name="MID_START">はじめる</string>
+    <string name="MID_SUPPLEMENT_ACCESS_LOCATION_PRECISE">(※)「正確」と「おおよそ」の選択肢がない場合は、アクセス許可のみ実施ください。</string>
+    <string name="MID_TERMS_OF_SERVICE_AGREEMENT_DESC">上記内容に同意して利用します</string>
+    <string name="MID_TIMES">回</string>
+    <string name="MID_TIPS">撮影のヒント</string>
+    <string name="MID_TIPS_A_DESC">"カメラとの接続状態を確認することができます。
+（タップすると詳細情報を表示します）"</string>
+    <string name="MID_TIPS_B_DESC">「自動転送」「時刻情報」「位置情報」の設定ができます。</string>
+    <string name="MID_TIPS_C_DESC">カメラから転送した画像を確認できます。</string>
+    <string name="MID_TIPS_D_DESC">Nikonのクラウドサービスとの連携設定ができます。</string>
+    <string name="MID_TIPS_TAP">画面をタップしてください。</string>
+    <string name="MID_TIPS_TITLE">SnapBridgeの使い方</string>
+    <string name="MID_TITLE_CHOICE_CONNECTION_TYPE">接続方法を選択</string>
+    <string name="MID_TITLE_NIKON_IMAGE_CLOUD">Nikon Imaging Cloud</string>
+    <string name="MID_TUTORIAL1_DESC">カメラの知識がなくても、アプリで簡単にあなたの撮影に最適な設定を作成できます。</string>
+    <string name="MID_TUTORIAL1_TITLE">カメラ設定をアプリで簡単に</string>
+    <string name="MID_TUTORIAL2_DESC">撮影設定の作り方は、撮りたい被写体やシチュエーション、好みの雰囲気を選ぶだけ まずは設定を作成してみましょう。</string>
+    <string name="MID_TUTORIAL2_TITLE">選択肢を選ぶだけ</string>
+    <string name="MID_USE_NIS_MSG_1">画像ストレージサービス「NIKON IMAGE SPACE」が利用できます。</string>
+    <string name="MID_USE_NIS_MSG_2">スマートフォンに転送した画像をNIKON IMAGE SPACEにアップロードできます。</string>
+    <string name="MID_USE_NIS_MSG_3">既にNIKON IMAGE SPACE会員の方は「利用する」をタップし、再度ログインが必要です。</string>
+    <string name="MID_USE_POWER_ZOOM_CANNOT_MSG">現在の設定では、パワーズームをリモートで操作することはできません。</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_BLACK_BACKGROUND_FOR_PICTURE_IN_PICTURE_PROTECTION">Picture-in-Picture表示を閉じてください。</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_MESSAGE">NIKON IMAGE SPACEにログインするには、バックグラウンドでのアプリの使用を許可する必要があります。</string>
+    <string name="MID_WEB_VIEW_REPLACEMENT_DIALOG_ALLOWING_CONTINUOUS_BACKGROUND_PROCESSING_TITLE">次に表示される画面で必ず「許可」を選択してください</string>
+    <string name="MID_WELCOME_A_DESC">ニコンのカメラとSnapBridgeで豊かな映像体験への扉を開きます。</string>
+    <string name="MID_WELCOME_A_TITLE">\"SnapBridge\"へ、ようこそ</string>
+    <string name="MID_WELCOME_B_DESC">カメラから画像が自動転送できるので、スマートフォン上で、すぐにシェアができます。</string>
+    <string name="MID_WELCOME_B_TITLE">素晴らしい映像をいつでもシェア</string>
+    <string name="MID_WELCOME_C_DESC">被写体をスマートフォンに表示しながら、カメラのリモート撮影ができます。</string>
+    <string name="MID_WELCOME_C_TITLE">スマートフォンからリモート撮影</string>
+    <string name="MID_WELCOME_D_DESC">Nikon IDに登録すれば、無料のクラウドストレージサービス、「NIKON IMAGE SPACE」に、2M（JPEG）の画像を無制限に自動アップロード可能。</string>
+    <string name="MID_WELCOME_D_TITLE">無制限でNIKON IMAGE SPACEに自動アップロード</string>
+    <string name="MID_WELCOME_E_DESC">"カメラからスマートフォン、そしてソーシャルネットワークサービスへとつなぐ\"SnapBridge\"。
+さあ、使ってみましょう。"</string>
+    <string name="MID_WELCOME_E_TITLE">広がるサービス、広がる便利さ</string>
+    <string name="MID_WIFI_2MB_SIZE">Wi-Fi , 2Mピクセル</string>
+    <string name="MID_WIFI_CANCEL_MSG">ペアリングやネットワーク接続を行うためにはBluetoothに切り替える必要があります。</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_LAUNCH">WMUを起動</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_MESSAGE">[設定]->[アプリの自動起動]をOFFにしてください。ONの場合、SnapBridgeのWi-Fi接続を使用できません。</string>
+    <string name="MID_WMU_NEW_VERSION_DIALOG_TITLE">Wireless Mobile Utility(WMU)の設定を確認してください</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_MESSAGE">古いバージョンの場合、SnapBridgeのWi-Fi接続を使用できません。</string>
+    <string name="MID_WMU_OLD_VERSION_DIALOG_TITLE">Wireless Mobile Utilityをアップデートしてください</string>
+    <string name="NIS_CLD_UNDER_MAINTENANCE2">通信失敗しました。サーバメンテナンス中です。</string>
+    <string name="NULL_VALUE">-</string>
+    <string name="SID_ACTIVE_D_LIGHTING">アクティブD-ライティング</string>
+    <string name="SID_AF_AREA_MODE">AFエリアモード</string>
+    <string name="SID_AF_DETECTION_SETTING">AF時の被写体検出設定</string>
+    <string name="SID_AF_SUBJ_DETECT_OPT">AF時の被写体検出設定</string>
+    <string name="SID_APERTURE">絞り値</string>
+    <string name="SID_BRIGHTNESS">明るさ</string>
+    <string name="SID_CONTRAST">コントラスト</string>
+    <string name="SID_EXP">露出補正</string>
+    <string name="SID_EXPOSURE_COMPENSATION_DIAL">露出補正ダイヤル</string>
+    <string name="SID_FLICKER_REDUCTION_SHOOTING">フリッカー低減撮影</string>
+    <string name="SID_FOCUS_MODE">フォーカスモード</string>
+    <string name="SID_HIGH_SENSITIVITY_NOISE_REDUCTION">高感度ノイズ低減</string>
+    <string name="SID_ISO_AUTO_CONTROL">感度自動制御</string>
+    <string name="SID_ISO_LOW_SPEED">低速限界設定</string>
+    <string name="SID_ISO_MAX">制御上限感度</string>
+    <string name="SID_ISO_SENSITIVITY">ISO感度</string>
+    <string name="SID_ISO_SENSITIVITY_DIAL">ISO感度ダイヤル</string>
+    <string name="SID_LONG_SEC_NOISE_REDUCTION">長秒時ノイズ低減</string>
+    <string name="SID_LOW_LIGHT_AF">ローライトAF</string>
+    <string name="SID_METERING">測光モード</string>
+    <string name="SID_MODE_SELECTOR">撮影モード切り替えレバー</string>
+    <string name="SID_PICTURE_CONTROL">ピクチャーコントロール</string>
+    <string name="SID_QUICK_SHARP">クイックシャープ</string>
+    <string name="SID_RELEASE_MODE">レリーズモード</string>
+    <string name="SID_SATURATION">色の濃さ(彩度)</string>
+    <string name="SID_SET_ADL_EX_HIGH">より強め</string>
+    <string name="SID_SET_ADL_EX_HIGH1">より強め 1</string>
+    <string name="SID_SET_ADL_EX_HIGH2">より強め 2</string>
+    <string name="SID_SET_ADL_HIGH">強め</string>
+    <string name="SID_SET_ANIMAL">動物</string>
+    <string name="SID_SET_AUTO">オート</string>
+    <string name="SID_SET_AUTO_AREA">オートエリアAF</string>
+    <string name="SID_SET_AUTO_LEAVE_ATMOSPHERE">雰囲気を残す</string>
+    <string name="SID_SET_AUTO_PRIORITIZE_WHITE">白を優先する</string>
+    <string name="SID_SET_CHOOSE_COLOR_TEMP">色温度設定</string>
+    <string name="SID_SET_CONTINUOUS_AF">コンティニュアスAF</string>
+    <string name="SID_SET_DIRECT_SUN_LT">晴天</string>
+    <string name="SID_SET_HIGH_SPEED_CONTINUOUS_SHOOTING">高速連続撮影</string>
+    <string name="SID_SET_LANDSCAPE">風景</string>
+    <string name="SID_SET_LOW_SPEED_CONTINUOUS_SHOOTING">低速連続撮影</string>
+    <string name="SID_SET_NATURAL_LT_AUTO">自然光オート</string>
+    <string name="SID_SET_NOISE_REDUCTION_STANDARD">標準</string>
+    <string name="SID_SET_NORMAL">ノーマル</string>
+    <string name="SID_SET_OFF">しない</string>
+    <string name="SID_SET_ON">する</string>
+    <string name="SID_SET_ONE_FRAME_SHOOTING">1コマ撮影</string>
+    <string name="SID_SET_PEOPLE">人物</string>
+    <string name="SID_SET_PIN_PT">ピンポイントAF</string>
+    <string name="SID_SET_SDR">SDR</string>
+    <string name="SID_SET_SINGLE_AF">シングルAF</string>
+    <string name="SID_SET_SINGLE_PT">シングルポイントAF</string>
+    <string name="SID_SET_SPORTS">スポーツ</string>
+    <string name="SID_SET_STANDARD">スタンダード</string>
+    <string name="SID_SET_VALID">有効</string>
+    <string name="SID_SET_VIVID">ビビッド</string>
+    <string name="SID_SET_WIDE_AREA_L">ワイドエリアAF(L)</string>
+    <string name="SID_SHOOTING_MODE">撮影モード</string>
+    <string name="SID_SHUTTER_SPEED">シャッタースピード</string>
+    <string name="SID_SHUTTER_SPEED_DIAL">シャッタースピードダイヤル</string>
+    <string name="SID_TONE_MODE">階調モード</string>
+    <string name="SID_VIBRATION_REDUCTION">手ブレ補正</string>
+    <string name="SID_WHITE_BALANCE">ホワイトバランス</string>
+    <string name="SID_WHITE_BALANCE_AUTO">ホワイトバランス-オート種別</string>
+    <string name="TIPSID_HOWTO_USER_SETTING">あらかじめカメラに登録しておけば、ワンタッチ操作で撮影モードを変えられる便利な機能があります</string>
+    <string name="TIPSID_MOTIF_AMUSEMENTPARK_NIGHT">"ーーーモードの設定についてーーー
+夜のパレードが明るく、色鮮やかに撮れます。被写体ぶれが起こりにくいシャッター速度で連続撮影モードに設定されるので、撮影したシーンの中から最適の一枚を選べます。
+ 
+ーーーカメラ操作のヒントーーー
+■希望の位置にピントを合わせたいとき
+・液晶画面でピントを合わせたい部分にタッチする。
+■ピントが合いづらい場合
+・AFエリアモードを【ワイドエリアAF(S)】【ワイドエリアAF(L)】などエリアを広げた設定にする。
+■被写体が暗すぎる場合
+・露出補正を＋側に設定する。
+■被写体が明るすぎる場合
+・露出補正を－側に設定する。
+■ノイズ（ざらつき）を抑えたい場合
+・ISO感度の上限設定を【ISO3200】以下の数字に設定する。"</string>
+    <string name="TIPSID_MOTIF_EATING">"ーーーモードの設定についてーーー
+料理を自然な雰囲気の色合いで明るく、料理の背景や周辺はぼかして撮れます。
+ 
+ーーーカメラ操作のヒントーーー
+■被写体にピントが合わない場合（緑のフォーカスポイントが表示されない場合）
+・被写体から離れる（※レンズに記載された最短撮影距離よりも近いとピントが合わない）。
+・AFエリアモードを【ワイドエリアAF(L)】【ワイドエリアAF(S)】【シングルポイントAF】など、エリアを狭めた設定にする。
+■被写体が暗すぎる場合
+・露出補正を＋側に設定する。
+■被写体が明るすぎる場合
+・露出補正を－側に設定する。
+■写真の色合いを青みに寄せたい
+・ホワイトバランスを【電球】に設定する。
+■写真の色合いを赤みに寄せたい
+・ホワイトバランスを【曇天】や【晴天日陰】に設定する。
+■背景をぼかした写真を撮影したい
+・被写界深度が浅くなる撮り方で撮影する。
+※被写界深度が浅くなる撮り方の例：
+１）被写体に近づく（※レンズに記載された最短被写体距離よりは距離を取る）
+２）開放絞り値が小さいレンズを使用する
+３）望遠レンズあるいはズームレンズの望遠域を使用する"</string>
+    <string name="TIPSID_MOTIF_EATING_OUT">"ーーーモードの設定についてーーー
+料理を自然な雰囲気の色合いで明るく、料理全体にくっきりとピントを合わせて撮れます。
+ 
+ーーーカメラ操作のヒントーーー
+■被写体にピントが合わない場合（緑のフォーカスポイントが表示されない場合）
+・被写体から離れる（※レンズに記載された最短撮影距離よりも近いとピントが合わない）。
+・AFエリアモードを【ワイドエリアAF(L)】【ワイドエリアAF(S)】【シングルポイントAF】など、エリアを狭めた設定にする。
+■被写体が暗すぎる場合
+・露出補正を＋側に設定する。
+■被写体が明るすぎる場合
+・露出補正を－側に設定する。
+■写真の色合いを青みに寄せたい
+・ホワイトバランスを【電球】に設定する。
+■写真の色合いを赤みに寄せたい
+・ホワイトバランスを【曇天】や【晴天日陰】に設定する。"</string>
+    <string name="TIPSID_MOTIF_FOR_AUCTION">"ーーーモードの設定についてーーー
+オークション向けの商品を、コントラストをはっきりと色鮮やかに、ピントは全体にくっきりと合わせて撮れます。
+ 
+ーーー撮影テクニックについてーーー
+■背景をぼかして商品をくっきりと撮りたい
+・「小物の撮影」を使用する。
+■カメラぶれを防ぎたい
+・三脚、または、テーブルなどを活用したり、脇を締めるなどでカメラが動かないようにしっかり固定して撮影する。
+ 
+ーーーカメラ操作のヒントーーー
+■被写体にピントが合わない場合（緑のフォーカスポイントが表示されない場合）
+・被写体から離れる（※レンズに記載された最短撮影距離よりも近いとピントが合わない）。
+■商品と背景をくっきり撮りたい
+・絞りを【F11】などより絞った数値にする。
+■被写体が映えるように撮りたい
+・自然光の当たり方やスポットライトの向きを変えて、被写体が好みの光の当たり方になるように調整する。"</string>
+    <string name="TIPSID_MOTIF_MAGIC_HOUR">"ーーーモードの設定についてーーー
+夕景の赤みを印象的に表現して撮れます。暗い環境でもピントが合いやすいように、カメラのオートフォーカスが設定されます。
+ 
+ーーー撮影テクニックについてーーー
+■カメラぶれを防ぎたい
+・三脚、または、テーブルや柵などを活用したり、脇を締めるなどでカメラが動かないようにしっかり固定して撮影する。
+ 
+ーーーカメラ操作のヒントーーー
+■目で見るより明るく写ってしまう場合
+・露出補正を－側に設定する。
+■目で見るより暗く写ってしまう場合
+・露出補正を＋側に設定する。
+■夕焼けの赤みを強調したい
+・ホワイトバランスを【曇天】や【晴天日陰】に設定する。
+■明暗差が激しく、白とびや黒つぶれを軽減したい場合
+・アクティブD-ライティングをより強めに設定する。"</string>
+    <string name="TIPSID_MOTIF_NATURE">"ーーーモードの設定についてーーー
+山や森などが自然な雰囲気の階調と色合いで撮れます。
+ 
+ーーーカメラ操作のヒントーーー
+■希望の位置にピントを合わせたい
+・液晶画面でピントを合わせたい部分にタッチする。
+■明暗差が激しく、白とびや黒つぶれを軽減したい場合
+・アクティブD-ライティングをより強めに設定する。"</string>
+    <string name="TIPSID_MOTIF_NIGHT">"ーーーモードの設定についてーーー
+夜景をくっきりと鮮やかな色合いで撮れます。
+ 
+ーーー撮影テクニックについてーーー
+■カメラぶれを防ぎたい
+・三脚、または、テーブルや柵などを活用したり、脇を締めるなどでカメラが動かないようにしっかり固定して撮影する。
+ 
+ーーーカメラ操作のヒントーーー
+■希望の位置にピントを合わせたい
+・液晶画面でピントを合わせたい部分にタッチする。
+・ピントを合わせたい部分にカメラのフォーカスポイントを向け、シャッターを半押ししてピントを固定し、そのまま画角をずらして構図を整えて撮影。
+■ピントが合いづらい場合
+・AFエリアモードを【ワイドエリアAF(S)】【ワイドエリアAF(L)】などエリアを広げた設定にする。
+・明暗差（コントラスト差）がある場所でシャッターボタンを半押ししてピントを固定してから、構図を変えて撮影する。
+・マニュアルフォーカスに設定して手動でピントを合わせる。
+■明るすぎた場合
+・画面を見ながら露出補正の数値を－側に設定し、好みの明るさに調節する。
+■ノイズが気になる場合
+・カメラを三脚などで固定したうえで、ISO感度を【ISO400】以下に設定する。
+■写真の色合いを青みに寄せたい
+・ホワイトバランスを【電球】に設定する。
+■写真の色合いを赤みに寄せたい
+・ホワイトバランスを【曇天】や【晴天日陰】に設定する。"</string>
+    <string name="TIPSID_MOTIF_PERSON_NIGHT">"ーーーモードの設定についてーーー
+夜景を背景にして人物と夜景がバランスよく撮れます。暗い環境でもピントが合いやすいようにオートフォーカスが設定されます。
+ 
+ーーー撮影テクニックについてーーー
+■ピントを合わせたり、被写体ブレを抑えたい
+・フラッシュを使用する、あるいはLEDライトを当てたり、街灯の当たるところへ移動して、顔を明るくする。
+・暗い場所では三脚の使用や、テーブル等にカメラを固定する。
+ 
+ーーーカメラ操作のヒントーーー
+■ノイズを目立たなくしたい
+・三脚やテーブル等にカメラを固定したうえで、ISO感度設定の制限上限感度を【ISO3200】以下の数字に設定する。"</string>
+    <string name="TIPSID_MOTIF_PET_INDOOR">"ーーーモードの設定についてーーー
+ペットを自然な雰囲気の色合いで撮れます。動いているペットにもピントを合わせ続け、低速連続撮影モードに設定されるのでベストな一枚を残せます。背景をぼかした撮り方、または背景までくっきりとピントを合わせた撮り方を選べます。
+ 
+ーーー撮影テクニックについてーーー
+■ペットのよい表情をとりたい
+・ペットの目線に合わせ、カメラを低く構える。
+ 
+ーーーカメラ操作のヒントーーー
+■ペットにピントを合わせ続けたい
+・カメラをペットに向けてシャッターボタンを半押しすると、動物の顔や瞳に黄色い枠が表示され、ピントを合わせ続けます。
+■ベストな一枚を残したい
+・動物が撮影中に突然動く場合に備え、動物にフォーカスポイントを合わせて、シャッターボタンを全押しし続けると、低速連続撮影が行われてシャッターチャンスを逃しません。
+■背景をぼかした写真を撮影したい
+・被写界深度が浅くなる撮り方で撮影する。
+※被写界深度が浅くなる撮り方の例：
+１）被写体に近づく（※レンズに記載された最短撮影距離よりは距離を取る）
+２）開放絞り値が小さいレンズを使用する
+３）望遠レンズあるいはズームレンズの望遠域を使用する"</string>
+    <string name="TIPSID_MOTIF_PET_OUTDOOR">"ーーーモードの設定についてーーー
+すばやい動きのペットを被写体ぶれが起こりにくいシャッター速度でくっきりと撮れます。動いているペットにもピントを合わせ続け、高速連続撮影に設定されるので一瞬の動きを残せます。
+ 
+ーーーカメラ操作のヒントーーー
+■ペットにピントを合わせ続けたい
+・カメラをペットに向けてシャッターボタンを半押しすると、動物の顔や瞳に黄色い枠が表示され、ピントを合わせ続けます。
+■被写体が動いてブレてしまうとき
+・撮影モードを【S（露出モード）】に切り替えて、シャッタースピードをより高速（【1/2000秒】等）にしてください。
+■俊敏な一瞬の動きを残したい
+・すばやく動いている動物にフォーカスポイントを合わせて、シャッターボタンを全押しし続けると、高速連続撮影が行われて一瞬のシャッターチャンスを逃しません。"</string>
+    <string name="TIPSID_MOTIF_PLANT">"ーーーモードの設定についてーーー
+花が色鮮やかに撮れます。背景をぼかした撮り方、または周辺の花にもピントを合わせた撮り方を選べます。
+ 
+ーーーカメラ操作のヒントーーー
+■希望の位置にピントを合わせたい
+・液晶画面でピントを合わせたい部分にタッチする。
+■ピントが合いづらい場合
+・AFエリアモードを【シングルポイントAF】【ワイドエリアAF(S)】【ワイドエリアAF(L)】などエリアを広げた設定にする。
+・明暗差（コントラスト差）がある場所でシャッターボタンを半押ししてピントを固定してから、構図を変えて撮影する。
+・マニュアルフォーカスに設定して手動でピントを合わせる。
+■背景をぼかした写真を撮影したい
+・被写界深度が浅くなる撮り方で撮影する
+※被写界深度が浅くなる撮り方の例：
+１）被写体に近づく（※レンズに記載された最短被写体距離よりは距離を取る）
+２）開放絞り値（開放F値）が小さいレンズを使用する
+３）ズームレンズの望遠域や望遠レンズを使用する
+■花をアップにした写真を撮りたい
+・マクロレンズを使うと近くの被写体にピントが合いやすく、細部まで鮮明に拡大した写真をとることができる。
+・ズームレンズの望遠側や望遠レンズを使用すると、花に近づかなくても花をアップに、背景もボケやすくなる。
+■目で見るより暗く写ってしまう場合
+・露出補正を＋側に設定する。
+■目で見るより明るく写ってしまう場合
+・露出補正を－側に設定する。"</string>
+    <string name="TIPSID_MOTIF_PORTRAIT">"ーーーモードの設定についてーーー
+人物の肌を柔らかく表現し、より自然に撮ることができます。背景をぼかした撮り方、または背景までくっきりとピントを合わせた撮り方を選べます。
+ 
+ーーーカメラ操作のヒントーーー
+■人物にピントを合わせ続けたい
+・カメラを人物に向けてシャッターボタンを半押しすると、人物の顔や瞳に黄色い枠が表示され、ピントを合わせ続けます。
+■背景をぼかした写真を撮影したい
+・被写界深度が浅くなる撮り方で撮影する。
+※被写界深度が浅くなる撮り方の例：
+１）被写体に近づく（※レンズに記載された最短撮影距離よりは距離を取る）
+２）開放絞り値が小さいレンズを使用する
+３）望遠レンズあるいはズームレンズの望遠域を使用する"</string>
+    <string name="TIPSID_MOTIF_RECORDS">"ーーーモードの設定についてーーー
+背景を入れて、人物が自然な雰囲気の色合いで撮れます。背景をぼかした撮り方、または背景までくっきりとピントを合わせた撮り方が選べます。
+ 
+ーーー撮影テクニックについてーーー
+■目つぶりを防止したい
+・撮影後に撮影した画像を確認して、目をつぶった人がいないかを確認する。
+・連続撮影に設定して、シャッターボタンの長押しで何枚か撮影する。
+ 
+ーーーカメラ操作のヒントーーー
+■人物にピントを合わせ続けたい
+・カメラを人物に向けてシャッターボタンを半押しすると、人物の顔や瞳に黄色い枠が表示され、ピントを合わせ続けます。"</string>
+    <string name="TIPSID_MOTIF_RELATIVES">"ーーーモードの設定についてーーー
+逆光等により人物と背景の明るさの差があるシーンで人物が暗く写るのを抑えて撮れます
+ 
+ーーーカメラ操作のヒントーーー
+■人物が暗く写ってしまう場合
+・露出補正を＋側に設定する。
+■人物が明るく写ってしまう場合
+・露出補正を－側に設定する。
+■画像が粗いと感じた場合（ISO感度が高い時等）
+・アクティブD-ライティングを【標準】【弱め】に設定する。"</string>
+    <string name="TIPSID_MOTIF_RIVER">"ーーーモードの設定についてーーー
+川や滝などの流れや、水滴の動きの一瞬を写し止めるような撮り方、または、流れる軌跡を糸のように写す撮り方を選べます。
+ 
+ーーー撮影テクニックについてーーー
+■カメラぶれを防ぎたい
+・糸のような軌跡で撮りたい場合は、手ブレが起きやすいため、テーブルや柵などを活用したり、脇を締めるなどでカメラが動かないようにしっかり固定して撮影する。
+ 
+ーーーカメラ操作のヒントーーー
+■速い水の流れを、より止まったように撮影したい
+・「動きを止める」の仕上がりを選択し、設定されているシャッタースピードよりもさらに高速に設定（【1/250秒】【1/500秒】等）する。
+■水の流れの軌跡をより長く撮影したい
+・「長く軌跡を描く」の仕上がりを選択し、シャッタースピードを低速に設定（【2秒】【4秒】等）する（三脚を利用のこと）。"</string>
+    <string name="TIPSID_MOTIF_SELFY">"ーーーモードの設定についてーーー
+背景を入れた自撮り写真をより自然に撮ることができます。背景をぼかした撮り方、または背景までくっきりとピントを合わせた撮り方が選べます。
+ 
+ーーー撮影テクニックについてーーー
+■目線が合った写真を撮りたい
+・自身に向けた液晶表示の中心ではなく、レンズの中心を見て撮影する。
+■背景の風景や環境をわかりやすく伝えたい
+・ズームレンズの広角側や広角レンズを使用すると、画角の広い範囲を写すことができ、背景や環境が伝えやすくなる。
+ 
+ーーーカメラ操作のヒントーーー
+■人物にピントを合わせ続けたい
+・カメラを人物に向けてシャッターボタンを半押しすると、人物の顔や瞳に黄色い枠が表示され、ピントを合わせ続けます。"</string>
+    <string name="TIPSID_MOTIF_SMALL_ITEMS">"ーーーモードの設定についてーーー
+手作り品や装飾品などを、コントラストをはっきりと色鮮やかに、商品の背景はぼかして撮れます。
+ 
+ーーー撮影テクニックについてーーー
+■被写体が映えるように撮りたい
+・自然光の当たり方やスポットライトの向きを変えて、被写体が好みの光の当たり方になるように調整する。
+■商品と背景どちらもくっきり撮りたい
+・「オークション向け撮影」を使用する。
+■カメラぶれを防ぎたい
+・三脚、または、テーブルなどを活用したり、脇を締めるなどでカメラが動かないようにしっかり固定して撮影する。
+ 
+ーーーカメラ操作のヒントーーー
+■被写体にピントが合わない場合（緑のフォーカスポイントが表示されない場合）
+・被写体から離れる（※レンズに記載された最短撮影距離よりも近いとピントが合わない）。
+■背景をぼかした写真を撮影したい
+・被写界深度が浅くなる撮り方で撮影する。
+※被写界深度が浅くなる撮り方の例：
+１）被写体に近づく（※レンズに記載された最短被写体距離よりは距離を取る）
+２）開放絞り値が小さいレンズを使用する
+３）望遠レンズあるいはズームレンズの望遠域を使用する
+■被写体をアップにした写真を撮りたい
+・マクロレンズを使うと近くの被写体にピントが合いやすく、細部まで鮮明に拡大した写真をとることができます。
+・ズームレンズの望遠側を使用したり、望遠レンズを使用すると、被写体に近づかなくても被写体をアップに、背景もボケやすくなります。"</string>
+    <string name="TIPSID_MOTIF_SPORTS_INDOOR">"ーーーモードの設定についてーーー
+屋内でスポーツをする人物を自然な雰囲気の色合いで撮れます。被写体ブレを起こさないようにISO感度を上げて、シャッタースピードを高速に設定します。動いている人物にもピントを合わせ続け、連続撮影に設定されるので一瞬の動きを残せます。
+ 
+ーーー撮影テクニックについてーーー
+■迫力のある写真を撮りたい
+・望遠レンズ（焦点距離が200mmなど）を使用する。
+ 
+ーーーカメラ操作のヒントーーー
+■屋内環境が暗い場合
+・ISO感度をより大きな数値にする。
+■人物の一瞬の動きを写し止めたい
+・被写体を追い続けながら、シャッターボタンを押し続けて連写する。
+・撮りたい構図でカメラを構えておき、被写体が画面内に入ってきたら、シャッターボタンを押し続けて連写する。
+■被写体が動いてブレてしまうとき
+・撮影モードを【S（露出モード）】に切り替えて、シャッタースピードをより高速（【1/2000秒】等）に設定する。"</string>
+    <string name="TIPSID_MOTIF_SPORTS_OUTDOOR">"ーーーモードの設定についてーーー
+動いている人物にピントを合わせ続け、連続撮影に設定されるのでベストな一枚を残せます。屋外でスポーツをする人物の動きの軌跡を表現する撮り方、または、一瞬の動きを写し止める撮り方が選べます。
+ 
+ーーー撮影テクニックについてーーー
+■迫力のある写真を撮りたい
+・望遠レンズ（焦点距離が200mmなど）を使用する。
+ 
+ーーーカメラ操作のヒントーーー
+■人物の一瞬の動きを写し止めたい
+・被写体を追い続けながら、シャッターボタンを押し続けて連写する。
+・撮りたい構図でカメラを構えておき、被写体が入ってきたら、シャッターボタンを押し続けて連写する。
+■よりスムーズにピント合わせをしたい
+・入ってくる被写体に近い場所にあらかじめピントを合わせておく。
+■被写体が動いてブレてしまうとき
+・シャッタースピードをより高速（【1/2000秒】等）に設定する。"</string>
+    <string name="TIPSID_MOTIF_STARS">"ーーーモードの設定についてーーー
+星空がくっきりと鮮やかに撮れます。長い時間、シャッターが開くようにシャッタースピードが設定されます。
+ 
+ーーー撮影テクニックについてーーー
+■カメラぶれを防ぎたい
+・カメラを三脚に固定して、セルフタイマーで撮影する。
+■周囲の景色も含めた星景写真を撮りたい
+・ズームレンズの広角側や、広角レンズで撮影する。
+ 
+ーーーカメラ操作のヒントーーー
+■ノイズ（ざらつき）を抑えたい
+・開放絞り値（開放F値）の明るい単焦点レンズで撮影する。
+■被写体が暗すぎる場合
+・【ISO6400】以上など、ISO感度を高い数字に設定する。
+■被写体が明るすぎる場合
+・【ISO400】以下など、ISO感度を低い数字に設定する。"</string>
+    <string name="TIPSID_MOTIF_STREET">"ーーーモードの設定についてーーー
+建築物や街並みがバランスの取れた階調と色合いで撮れます。
+ 
+ーーー撮影テクニックについてーーー
+■カメラぶれを防ぎたい
+・三脚、または、テーブルや柵などを活用したり、脇を締めるなどでカメラが動かないようにしっかり固定して撮影する。
+・三脚などでカメラを固定した場合は手ブレ補正はOFFにしてください。
+■広い画角で建物や街並みを撮りたい
+・ズームレンズの広角側や広角レンズで撮影する。"</string>
+    <string name="TIPSID_MOTIF_TREE_VIEWING">"ーーーモードの設定についてーーー
+桜が自然な色合いできれいに撮れます。
+ 
+ーーーカメラ操作のヒントーーー
+■被写体にピントが合わない場合（緑のフォーカスポイントが表示されない場合）
+・AFエリアモードを【ワイドエリアAF(L)】【ワイドエリアAF(S)】【シングルポイントAF】など、エリアを狭めた設定にする。
+■被写体が暗すぎる場合
+・露出補正を＋側に設定する。
+■被写体が明るすぎる場合
+・露出補正を－側に設定する。
+■色鮮やかに撮影したい
+・ピクチャーコントロールを【風景】や【ビビッド】に設定。"</string>
+    <string name="abc_action_bar_home_description">ホームに戻る</string>
+    <string name="abc_action_bar_up_description">前に戻る</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
+    <string name="abc_action_mode_done">完了</string>
+    <string name="abc_activity_chooser_view_see_all">すべて表示</string>
+    <string name="abc_activitychooserview_choose_application">アプリの選択</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">検索…</string>
+    <string name="abc_searchview_description_clear">検索キーワードを削除</string>
+    <string name="abc_searchview_description_query">検索キーワード</string>
+    <string name="abc_searchview_description_search">検索</string>
+    <string name="abc_searchview_description_submit">検索キーワードを送信</string>
+    <string name="abc_searchview_description_voice">音声検索</string>
+    <string name="abc_shareactionprovider_share_with">共有</string>
+    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="app_name">SnapBridge</string>
+    <string name="auto_upload_text0">停止</string>
+    <string name="auto_upload_text1">Wi-Fi接続時</string>
+    <string name="auto_upload_text1_min">Wi-Fi</string>
+    <string name="auto_upload_text2">常時</string>
+    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="call_notification_answer_action">応答</string>
+    <string name="call_notification_answer_video_action">ビデオ</string>
+    <string name="call_notification_decline_action">拒否</string>
+    <string name="call_notification_hang_up_action">通話終了</string>
+    <string name="call_notification_incoming_text">着信</string>
+    <string name="call_notification_ongoing_text">通話中</string>
+    <string name="call_notification_screening_text">着信をスクリーニング中</string>
+    <string name="camera0_change">カメラの切り替え</string>
+    <string name="camera0_connect_type0_title">カメラの電波圏外</string>
+    <string name="camera0_connect_type1_text">Wi-Fiを使ってカメラから画像を転送中です。</string>
+    <string name="camera0_connect_type1_title">Wi-Fiで転送中</string>
+    <string name="camera0_connect_type2_text">「自動転送」「位置情報」「時刻情報」機能を使うためにはBluetoothに切り替える必要があります。</string>
+    <string name="camera0_connect_type2_title">Wi-Fi接続状態です。Wi-Fi接続を終了しますか?</string>
+    <string name="camera0_connect_type3_text">Bluetoothを使ってカメラから画像を転送中です。</string>
+    <string name="camera0_connect_type3_title">Bluetoothで転送中</string>
+    <string name="camera0_connect_type4_title">Bluetoothで接続中</string>
+    <string name="camera0_connect_type5_title">Bluetooth接続待機中</string>
+    <string name="camera0_connect_type6_title">カメラとWi-Fi接続していません</string>
+    <string name="camera0_delete">カメラの解除</string>
+    <string name="camera0_nfc_text">ペアリングを開始しますか？</string>
+    <string name="camera10_cell1_title">ペアリング (Bluetooth)</string>
+    <string name="camera10_title">接続方法</string>
+    <string name="camera1_sync_location_info0">"カメラで撮影した位置情報付きの画像は、個人情報に結びつく可能性があります。
+Webサービスなどで公開する場合には、ご注意ください。
+また、位置情報取得の利用規制がされている国がありますので、旅行代理店や大使館などで確認をお願いいたします。"</string>
+    <string name="camera1_sync_location_info1">場所によっては位置情報の測位、及び、同期に時間がかかる場合があります。</string>
+    <string name="camera2_camera_none">該当カメラなし</string>
+    <string name="camera3_nfc_error0">ペアリング登録は最大5台までです。</string>
+    <string name="camera3_nfc_error1">既にペアリング済みです。</string>
+    <string name="camera3_nfc_title">カメラからNFCの信号を受信</string>
+    <string name="camera3_searching">検索中</string>
+    <string name="camera4_btn_text">設定画面を開く</string>
+    <string name="camera4_title">カメラとWi-Fi接続</string>
+    <string name="camera5_btn_close">確認しました</string>
+    <string name="camera5_lbl_text">"画面の指示に従い、カメラ名を選び、「ペアリング」をタップします。
+
+最後にカメラで「OK」ボタンを押せばペアリング完了です。"</string>
+    <string name="camera6_pairing">ペアリング中</string>
+    <string name="camera7_list_title">ペアリングするカメラ名を選択</string>
+    <string name="camera7_text">"カメラからの通信を受信しています。
+カメラの液晶モニターに表示されている、カメラ名を下記のリストから選んでください。"</string>
+    <string name="camera_dialog_wifi_unsupport_text">お使いのカメラはWi-Fiに接続できないため、リモート撮影ができません。</string>
+    <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
+    <string name="clear_text_end_icon_content_description">テキストを消去</string>
+    <string name="close_drawer">ナビゲーションメニューを閉じる</string>
+    <string name="close_sheet">シートを閉じる</string>
+    <string name="cloud0_nis_link">NIKON IMAGE SPACEとは?</string>
+    <string name="common_google_play_services_enable_button">有効にする</string>
+    <string name="common_google_play_services_enable_text">%1$sの実行には、Google Play開発者サービスの有効化が必要です。</string>
+    <string name="common_google_play_services_enable_title">Google Play開発者サービスの有効化</string>
+    <string name="common_google_play_services_install_button">インストール</string>
+    <string name="common_google_play_services_install_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いの端末にはインストールされていません。</string>
+    <string name="common_google_play_services_install_title">Google Play開発者サービスの入手</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 開発者サービスの利用</string>
+    <string name="common_google_play_services_notification_ticker">Google Play開発者サービスのエラー</string>
+    <string name="common_google_play_services_unknown_issue">「%1$s」で Google Play 開発者サービスに問題が発生しています。もう一度お試しください。</string>
+    <string name="common_google_play_services_unsupported_text">「%1$s」の実行には Google Play 開発者サービスが必要ですが、お使いの端末ではサポートされていません。</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">%1$sの実行にはGoogle Play開発者サービスの更新が必要です。</string>
+    <string name="common_google_play_services_update_title">Google Play開発者サービスの更新</string>
+    <string name="common_google_play_services_updating_text">%1$sの実行にはGoogle Play開発者サービスが必要ですが、このサービスは現在更新中です。</string>
+    <string name="common_google_play_services_wear_update_text">Google Play開発者サービスの新しいバージョンが必要です。まもなく自動更新されます。</string>
+    <string name="common_open_on_phone">スマートフォンで開く</string>
+    <string name="common_pairing">ペアリング</string>
+    <string name="common_signin_button_text">ログイン</string>
+    <string name="common_signin_button_text_long">Googleにログイン</string>
+    <string name="copy_toast_msg">リンクをクリップボードにコピーしました</string>
+    <string name="default_error_message">入力値が無効です</string>
+    <string name="dialog_pairing_text">Nikon IDの登録には、カメラとのペアリングが必要です。カメラとペアリングを行いますか？</string>
+    <string name="error_icon_content_description">エラー</string>
+    <string name="error_remote2">カメラで画質モードがRAWまたはTIFFに設定されています。リモート撮影は可能ですが、撮影した画像はスマートフォンに転送できません。</string>
+    <string name="error_remote3">カメラがタイム撮影設定のためリモート撮影を行うことができません。</string>
+    <string name="error_remote4">カメラのシャッタースピードがフラッシュ撮影同調速度になっているためリモート撮影を行うことができません。</string>
+    <string name="error_remote5">カメラがバルブ撮影設定のためライブビューがOFFとなります。タイム撮影を行いますか?</string>
+    <string name="error_remote6">タイム撮影を行いますか?</string>
+    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
+    <string name="fallback_menu_item_copy_link">リンクをコピー</string>
+    <string name="fallback_menu_item_open_in_browser">ブラウザで開く</string>
+    <string name="fallback_menu_item_share_link">リンクの共有</string>
+    <string name="gallery1_blank_text">カメラから転送した画像が表示されます。</string>
+    <string name="gallery1_blank_title">カメラと接続して画像を取り込もう</string>
+    <string name="gallery_dialog_delete_text">画像を削除しますか?</string>
+    <string name="gcm_fallback_notification_channel_label">その他</string>
+    <string name="icon_content_description">ダイアログ アイコン</string>
+    <string name="in_progress">処理しています</string>
+    <string name="indeterminate">オンでもオフでもありません</string>
+    <string name="installation_cancelled">インストールをキャンセルしました。</string>
+    <string name="installation_failed">インストールできませんでした。</string>
+    <string name="installing_module">モジュールをインストールしています:</string>
+    <string name="item_view_role_description">タブ</string>
+    <string name="material_clock_toggle_content_description">午前または午後を選択</string>
+    <string name="material_hour_selection">時刻を選択してください</string>
+    <string name="material_hour_suffix">%1$s時</string>
+    <string name="material_minute_selection">分を選択</string>
+    <string name="material_minute_suffix">%1$s分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">時刻を時計で入力するモードに切り替えます。</string>
+    <string name="material_timepicker_hour">時間</string>
+    <string name="material_timepicker_minute">分</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">時間を選択</string>
+    <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
+    <string name="mtrl_badge_numberless_content_description">新しい通知</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d 件以上の新しい通知</string>
+    <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
+    <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
+    <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">日付を選択してください</string>
+    <string name="mtrl_picker_date_header_unselected">選択した日付</string>
+    <string name="mtrl_picker_day_of_week_column_header">曜日の列: %1$s</string>
+    <string name="mtrl_picker_invalid_format">形式が無効です。</string>
+    <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
+    <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s 年に移動</string>
+    <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
+    <string name="mtrl_picker_range_header_selected">%1$s～%2$s</string>
+    <string name="mtrl_picker_range_header_title">期間を選択してください</string>
+    <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日付</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="mynikon0_btn_install">インストール</string>
+    <string name="mynikon0_btn_launch">起動</string>
+    <string name="mynikon0_date_format">yyyy.MM.dd</string>
+    <string name="mynikon0_tab0">Photo Life</string>
+    <string name="mynikon0_tab1">ニュース</string>
+    <string name="mynikon0_tab2">アプリ</string>
+    <string name="nav_app_bar_navigate_up_description">上へ移動</string>
+    <string name="nav_app_bar_open_drawer_description">ナビゲーション ドロワーを開く</string>
+    <string name="navigation_menu">ナビゲーションメニュー</string>
+    <string name="none0">-</string>
+    <string name="none1">- / -</string>
+    <string name="none2">- -</string>
+    <string name="not_selected">未選択</string>
+    <string name="off">オフ</string>
+    <string name="ok">OK</string>
+    <string name="on">オン</string>
+    <string name="password_toggle_content_description">パスワードを表示</string>
+    <string name="progress">進行状況:</string>
+    <string name="receive_progress_cancel">カメラからの画像の転送をキャンセルしました</string>
+    <string name="regist0_nikon_id_login">Nikon IDでログイン</string>
+    <string name="regist0_or">または</string>
+    <string name="regist4_next">登録する</string>
+    <string name="remote1_time_text0">シャッターボタンでタイム撮影を開始</string>
+    <string name="remote1_time_text1">シャッターボタンでタイム撮影を終了</string>
+    <string name="remote1_wb0">オート</string>
+    <string name="remote2_btn_item0">画像転送設定</string>
+    <string name="retry">再試行</string>
+    <string name="review_btn_link">ご意見はこちら</string>
+    <string name="review_btn_no">評価しない</string>
+    <string name="review_btn_yes">評価する</string>
+    <string name="review_text0">いつもご利用いただきありがとうございます。ぜひSnapBridgeの評価にご協力ください。</string>
+    <string name="review_text1">ご利用に関してご意見がある場合は、下記でご報告ください。</string>
+    <string name="review_title">SnapBridgeの評価</string>
+    <string name="search_menu_title">検索</string>
+    <string name="selected">選択済み</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tab">タブ</string>
+    <string name="template_percent">%1$dパーセント。</string>
+    <string name="tutorial5_info1">この設定は後で変更可能です。</string>
+    <string name="tutorial5_next">設定を完了する</string>
+    <string name="warning_liveview0">ISO感度: リモート撮影でサポートしていない設定になっているため、100または25600に設定します。</string>
+    <string name="warning_liveview0_ISO_800">ISO感度: リモート撮影でサポートしていない設定になっているため、800または25600に設定します。</string>
+    <string name="warning_liveview0_SHUTTER_MODE">シャッターモード：リモート撮影でサポートしていない設定になっているため、シャッタースピードに設定します。</string>
+    <string name="warning_liveview1">ホワイトバランス: リモート撮影でサポートしていない設定になっているため、オートに設定します。</string>
+    <string name="transfer_queue_status">進行状況 %1$d/%2$d · 待機 %3$d · 失敗 %4$d</string>
+    <string name="setting_section_camera">接続と自動転送</string>
+    <string name="setting_section_storage">画像の保存</string>
+    <string name="setting_section_system">システムアクセス</string>
+    <string name="setting_background">バックグラウンド動作とバッテリー</string>
+    <string name="setting_notifications">通知</string>
+    <string name="setting_permissions">権限</string>
+    <string name="setting_debug_logs">デバッグログ</string>
+    <string name="setting_debug_logs_summary">Android ログの SnapBridgeLogger と SnapBridgeTransfer で確認できます。</string>
+    <string name="setting_section_about">このアプリについて</string>
+</resources>

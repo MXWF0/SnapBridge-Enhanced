@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#ff0d0d0d" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="56.0dip" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="18.0dip" android:textColor="@color/u2220_white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:maxLines="2" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView android:orientation="vertical" android:id="@id/tips_content_text_linearLayout1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="24.0dip" android:layout_marginHorizontal="20.0dip" android:layout_marginVertical="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:id="@id/tips_content_text_linearLayout2" android:background="@drawable/shape_my_shoot_setting_cell_item" android:paddingLeft="22.0dip" android:paddingTop="16.0dip" android:paddingRight="22.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="22.0dip" android:paddingVertical="16.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="@color/u2220_white" android:id="@id/tips_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

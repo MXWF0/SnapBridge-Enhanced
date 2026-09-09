@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" package="com.nikon.snapbridge.cmru" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <queries>
+        <package android:name="com.mypicturetown.gadget.mypt"/>
+        <package android:name="com.nikon.wu.wmau"/>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="29" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="true"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.nikon.snapbridge.cmru.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.nikon.snapbridge.cmru.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="com.nikon.snapbridge.cmru.SnapBridgeApplication" android:resizeableActivity="false" android:supportsRtl="false" android:theme="@style/AppTheme">
+        <meta-data android:name="firebase_analytics_collection_enabled" android:value="false"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/app_name" android:launchMode="singleInstance" android:name="com.nikon.snapbridge.cmru.ui.init.NkLLicenceActivity" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="bptcm"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/com.nikon.snapbridge.cmru"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="snapbridgehost" android:scheme="snapbridgescheme"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.nikon.snapbridge.cmru.presentation.filter.FilterActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name="com.nikon.snapbridge.cmru.presentation.filter.FolderSelectActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name="com.nikon.snapbridge.cmru.presentation.filter.ItemSelectActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name="com.nikon.snapbridge.cmru.presentation.bleremotecontroller.BleRemoteControllerActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name="com.nikon.snapbridge.cmru.presentation.bleremotecontroller.SpecialShootingModeSelectActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name="com.nikon.snapbridge.cmru.presentation.firmup.FirmUpActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.nikon.snapbridge.cmru.frontend.controller.regist.NklRegisterNewAuthCustomTabActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="nikonimagespace.com" android:path="/sso" android:scheme="snapbridge"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="application_auth" android:scheme="snapbridge"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="login" android:path="/error" android:scheme="snapbridge"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleInstance" android:name="com.nikon.snapbridge.cmru.frontend.RestartActivity" android:process=":restart_process" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.nikon.snapbridge.cmru.frontend.NklBackendReceiver">
+            <intent-filter>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_CAMERA_BATTERY_STATUS"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_IMAGE_TRANSFER_STATUS"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_CAMERA_NOT_FOUND"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_IMAGE_TRANSFER_START"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_IMAGE_TRANSFER_FINISHED"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_CAMERA_UPDATED_INFO"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_WMU_AUTO_TRANSFER_WAIT_LIST_ADDED"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_WIFI_STATION_AUTO_TRANSFER_WAIT_LIST_ADDED"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.web.NOTIFY_WEB_NIS_LOGOUT"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.web.NOTIFY_WEB_NIS_UPLOAD_ERROR"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.web.NOTIFY_WEB_NIS_UPLOAD_START"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.web.NOTIFY_WEB_NIS_UPLOAD_FINISHED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.nikon.snapbridge.cmru.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <service android:foregroundServiceType="connectedDevice|location" android:name="com.nikon.snapbridge.cmru.backend.presentation.services.camera.CameraService" android:process=".SnapBridgeCameraService"/>
+        <service android:foregroundServiceType="dataSync" android:name="com.nikon.snapbridge.cmru.backend.presentation.services.web.WebService"/>
+        <activity android:exported="false" android:name="com.adobe.marketing.mobile.assurance.AssuranceFullScreenTakeoverActivity"/>
+        <activity android:exported="false" android:name="com.adobe.marketing.mobile.assurance.AssuranceErrorDisplayActivity"/>
+        <activity android:exported="false" android:name="com.adobe.marketing.mobile.assurance.AssuranceQuickConnectActivity"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:authorities="com.nikon.snapbridge.cmru.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="11003"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+    </application>
+</manifest>
