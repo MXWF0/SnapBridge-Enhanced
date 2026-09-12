@@ -43,6 +43,10 @@
     .line 1
     invoke-virtual {p1}, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/ActiveCameraConnectionStatus;->isDeepSleep()Z
 
+    move-result v0
+
+    sput-boolean v0, LN2/y;->h:Z
+
     .line 2
     .line 3
     .line 4
@@ -89,6 +93,21 @@
     .line 25
     .line 26
     sput-object p1, LN2/y;->c:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;
+
+    sget-boolean v0, LN2/y;->h:Z
+
+    if-eqz v0, :enhanced_state_ready
+
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;->NOT_CONNECTED:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;
+
+    if-ne p1, v0, :enhanced_state_ready
+
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;->NOT_CONNECTED:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;
+
+    sput-object v0, LN2/y;->b:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;
+
+    :enhanced_state_ready
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
 
     .line 27
     .line 28

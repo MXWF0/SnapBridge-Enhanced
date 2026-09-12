@@ -10031,6 +10031,8 @@
 
     invoke-static {v0}, LN2/q0;->o(Ljava/lang/Runnable;)V
 
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+
     return-void
 .end method
 

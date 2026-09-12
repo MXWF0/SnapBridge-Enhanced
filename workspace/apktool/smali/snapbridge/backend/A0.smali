@@ -770,6 +770,32 @@
 
     move-result-wide v0
 
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v5
+
+    iget-object v5, v5, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->f:Lsnapbridge/backend/O4;
+
+    iget-boolean v5, v5, Lsnapbridge/backend/O4;->v0:Z
+
+    if-nez v5, :enhanced_foreground_retry
+
+    const-wide/16 v0, 0x1388
+
+    const/4 v5, 0x1
+
+    iget p1, p0, Lsnapbridge/backend/A0;->d:I
+
+    shl-int/2addr v5, p1
+
+    int-to-long v5, v5
+
+    mul-long/2addr v0, v5
+
+    goto :enhanced_retry_delay_ready
+
+    :enhanced_foreground_retry
+
     iget p1, p0, Lsnapbridge/backend/A0;->d:I
 
     add-int/lit8 p1, p1, 0x1
@@ -777,6 +803,12 @@
     int-to-long v5, p1
 
     mul-long/2addr v0, v5
+
+    :enhanced_retry_delay_ready
+
+    iget p1, p0, Lsnapbridge/backend/A0;->d:I
+
+    add-int/lit8 p1, p1, 0x1
 
     sget-object v5, Lsnapbridge/backend/C0;->h:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
 
