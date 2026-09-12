@@ -50,6 +50,12 @@
     .line 4
     invoke-virtual {v0, v1}, LN2/X;->W(Z)V
 
+    sget-object v0, LN2/y$b;->c:LN2/y$b;
+
+    sput-object v0, LN2/y;->e:LN2/y$b;
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+
     .line 5
     .line 6
     .line 7
@@ -80,6 +86,12 @@
 
     .line 4
     invoke-virtual {v0, v1}, LN2/X;->W(Z)V
+
+    sget-object v0, LN2/y$b;->d:LN2/y$b;
+
+    sput-object v0, LN2/y;->e:LN2/y$b;
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
 
     .line 5
     .line 6
@@ -163,6 +175,12 @@
 
 .method public final onProgress(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraWiFiConnectProgress;)V
     .locals 2
+
+    sget-object v0, LN2/y$b;->b:LN2/y$b;
+
+    sput-object v0, LN2/y;->e:LN2/y$b;
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
 
     .line 1
     sget-object v0, LN2/X$e;->e:[I

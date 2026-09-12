@@ -1303,4 +1303,7 @@
     <item type="id" name="home_recent_transfer_3" />
     <item type="id" name="home_recent_transfer_3_name" />
     <item type="id" name="btn_transfer_pause" />
+    <item type="id" name="home_connection_state" />
+    <item type="id" name="setting_btn_power_transfer" />
+    <item type="id" name="home_status_detail" />
 </resources>

@@ -58,6 +58,8 @@
 
 .field public S:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$NotificationStore;
 
+.field public W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
 .field public e:Lsnapbridge/backend/Vd;
 
 .field public f:Lsnapbridge/backend/O4;
@@ -4965,7 +4967,7 @@
 .end method
 
 .method public onCreate()V
-    .locals 2
+    .locals 3
 
     .line 1
     invoke-super {p0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/BaseService;->onCreate()V
@@ -5030,6 +5032,34 @@
     .line 33
     invoke-virtual {v0, p0}, Lsnapbridge/backend/de;->injectMembers(Ljava/lang/Object;)V
 
+    new-instance v0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
+    invoke-direct {v0, p0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;-><init>(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;)V
+
+    iput-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
+    new-instance v1, Landroid/content/IntentFilter;
+
+    invoke-direct {v1}, Landroid/content/IntentFilter;-><init>()V
+
+    const-string v0, "android.intent.action.BATTERY_CHANGED"
+
+    invoke-virtual {v1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+    const-string v0, "android.os.action.POWER_SAVE_MODE_CHANGED"
+
+    invoke-virtual {v1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+    const-string v0, "com.nikon.snapbridge.cmru.ENHANCED_POWER_CHANGED"
+
+    invoke-virtual {v1, v0}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
+    const/4 v2, 0x4
+
+    invoke-virtual {p0, v0, v1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+
     .line 34
     .line 35
     .line 36
@@ -5056,6 +5086,10 @@
     .line 7
     .line 8
     invoke-virtual {v0, v3, v2}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
+    invoke-virtual {p0, v0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     .line 9
     .line 10
@@ -6759,6 +6793,10 @@
     .line 13
     .line 14
     .line 15
+    move-result-object p1
+
+    invoke-static {p0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedNotificationText;->build(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;Ljava/lang/String;)Ljava/lang/String;
+
     move-result-object p1
 
     .line 16

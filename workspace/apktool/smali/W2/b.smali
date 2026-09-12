@@ -440,6 +440,10 @@
 
     invoke-virtual {p0, v2}, Lb3/L;->i(I)Landroid/widget/Button;
 
+    const v2, 0x7f0805dc
+
+    invoke-virtual {p0, v2}, Lb3/L;->i(I)Landroid/widget/Button;
+
     .line 209
     .line 210
     .line 211
@@ -1820,13 +1824,22 @@
     :cond_setting_camera
     const v0, 0x7f0805cf
 
-    if-ne p1, v0, :cond_setting_background
+    if-ne p1, v0, :cond_setting_power_transfer
 
     new-instance p1, LO2/b;
 
     invoke-direct {p1}, LO2/b;-><init>()V
 
     invoke-virtual {p1}, Lb3/L;->s()V
+
+    goto :goto_3
+
+    :cond_setting_power_transfer
+    const v0, 0x7f0805dc
+
+    if-ne p1, v0, :cond_setting_background
+
+    invoke-static {p0}, LW2/EnhancedPowerSettings;->show(Landroid/view/View;)V
 
     goto :goto_3
 

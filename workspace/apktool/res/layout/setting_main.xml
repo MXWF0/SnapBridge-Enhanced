@@ -26,6 +26,15 @@
                 <Button android:contentDescription="@string/MID_COMMON_NICKNAME" android:id="@id/btn_item0" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
             </RelativeLayout>
             <TextView android:textSize="@dimen/fsize_13dp" android:textStyle="bold" android:textColor="@color/_a0a0a0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="8.0dip" android:text="@string/setting_section_system" />
+            <RelativeLayout android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="62.0dip">
+                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/setting0_btn4_icon" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <LinearLayout android:orientation="vertical" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_46dp" android:layout_marginRight="@dimen/margin_40dp">
+                    <TextView android:textSize="@dimen/fsize_16dp" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_power_transfer" />
+                    <TextView android:textSize="@dimen/fsize_12dp" android:textColor="@color/_a0a0a0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_power_transfer_summary" />
+                </LinearLayout>
+                <Button android:contentDescription="@string/setting_power_transfer" android:id="@id/setting_btn_power_transfer" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </RelativeLayout>
             <RelativeLayout android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="52.0dip">
                 <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/camera1_btn4_icon" android:layout_centerVertical="true" />
                 <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
@@ -50,11 +59,11 @@
             </LinearLayout>
             <TextView android:textSize="@dimen/fsize_13dp" android:textStyle="bold" android:textColor="@color/_a0a0a0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_16dp" android:layout_marginTop="@dimen/margin_16dp" android:layout_marginRight="@dimen/margin_16dp" android:layout_marginBottom="8.0dip" android:text="@string/setting_section_about" />
             <RelativeLayout android:background="@drawable/btn_blank2_normal" android:layout_width="fill_parent" android:layout_height="58.0dip">
-                <ImageView android:background="@null" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/setting0_btn7_icon" android:layout_centerVertical="true" />
+                <ImageView android:background="@null" android:tint="@color/yellow" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/setting0_btn7_icon" android:layout_centerVertical="true" />
                 <ImageView android:background="@null" android:layout_width="8.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/margin_16dp" android:src="@drawable/btn_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
                 <LinearLayout android:orientation="vertical" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/margin_46dp" android:layout_marginRight="@dimen/margin_40dp">
                     <TextView android:textSize="@dimen/fsize_16dp" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_github_update" />
-                    <TextView android:textSize="@dimen/fsize_12dp" android:textColor="@color/_a0a0a0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_github_update_summary" />
+                    <TextView android:textSize="@dimen/fsize_12dp" android:textColor="@color/_a0a0a0" android:ellipsize="end" android:maxLines="2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_github_update_summary" />
                 </LinearLayout>
                 <Button android:contentDescription="@string/setting_github_update" android:id="@id/setting_btn_github_update" android:background="@drawable/btn_blank0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
             </RelativeLayout>

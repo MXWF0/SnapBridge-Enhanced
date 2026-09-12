@@ -39,6 +39,14 @@
     .end annotation
 .end field
 
+.field public static h:Z
+
+.field public static i:I
+
+.field public static j:I
+
+.field public static k:I
+
 
 # direct methods
 .method static constructor <clinit>()V
@@ -74,6 +82,12 @@
     .line 14
     .line 15
     sput-object v0, LN2/y;->e:LN2/y$b;
+
+    const/4 v1, -0x1
+
+    sput v1, LN2/y;->j:I
+
+    sput v1, LN2/y;->k:I
 
     .line 16
     .line 17

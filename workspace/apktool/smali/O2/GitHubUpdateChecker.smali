@@ -75,6 +75,119 @@
     return-void
 .end method
 
+.method private static isReleaseNewer(Ljava/lang/String;)Z
+    .locals 8
+
+    if-eqz p0, :return_false
+
+    :try_start_version
+    const-string v0, "v"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_no_prefix
+
+    const/4 v1, 0x1
+
+    invoke-virtual {p0, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    :cond_no_prefix
+    const-string v0, "\\."
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v0
+
+    array-length v1, v0
+
+    const/4 v2, 0x0
+
+    if-lez v1, :return_false_try
+
+    aget-object v3, v0, v2
+
+    invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v3
+
+    const/4 v4, 0x1
+
+    if-le v3, v4, :cond_major_one
+
+    const/4 v5, 0x1
+
+    goto :return_version
+
+    :cond_major_one
+    if-ge v3, v4, :cond_major_one_exact
+
+    const/4 v5, 0x0
+
+    goto :return_version
+
+    :cond_major_one_exact
+    if-le v1, v4, :return_false_try
+
+    aget-object v3, v0, v4
+
+    invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v3
+
+    const/4 v4, 0x2
+
+    if-le v3, v4, :cond_minor_two
+
+    const/4 v5, 0x1
+
+    goto :return_version
+
+    :cond_minor_two
+    if-ge v3, v4, :cond_minor_two_exact
+
+    const/4 v5, 0x0
+
+    goto :return_version
+
+    :cond_minor_two_exact
+    if-le v1, v4, :return_false_try
+
+    aget-object v3, v0, v4
+
+    invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v3
+
+    if-lez v3, :return_false_try
+
+    const/4 v5, 0x1
+
+    :return_version
+    :try_end_version
+    return v5
+
+    :return_false_try
+    const/4 v5, 0x0
+
+    goto :return_version
+
+    :catch_version
+    const/4 v5, 0x0
+
+    return v5
+
+    :return_false
+    const/4 v5, 0x0
+
+    return v5
+
+    .catch Ljava/lang/NumberFormatException; {:try_start_version .. :try_end_version} :catch_version
+.end method
+
 # virtual methods
 .method public final run()V
     .locals 12
@@ -83,7 +196,7 @@
 
     const/4 v1, 0x1
 
-    if-ne v0, v1, :cond_error_ui
+    if-ne v0, v1, :cond_no_update_or_error
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -172,6 +285,25 @@
 
     return-void
 
+    :cond_no_update_or_error
+    const/4 v1, 0x3
+
+    if-ne v0, v1, :cond_error_ui
+
+    iget-object v0, p0, LO2/GitHubUpdateChecker;->a:Landroid/app/Activity;
+
+    const v1, 0x7f110514
+
+    const/4 v2, 0x0
+
+    invoke-static {v0, v1, v2}, Landroid/widget/Toast;->makeText(Landroid/content/Context;II)Landroid/widget/Toast;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Landroid/widget/Toast;->show()V
+
+    return-void
+
     :cond_error_ui
     const/4 v1, 0x2
 
@@ -215,6 +347,14 @@
 
     invoke-virtual {v1, v2}, Ljava/net/URLConnection;->setReadTimeout(I)V
 
+    const-string v2, "GET"
+
+    invoke-virtual {v1, v2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, Ljava/net/URLConnection;->setUseCaches(Z)V
+
     const-string v2, "Accept"
 
     const-string v3, "application/vnd.github+json"
@@ -223,7 +363,13 @@
 
     const-string v2, "User-Agent"
 
-    const-string v3, "SnapBridge-Enhanced-v1.1"
+    const-string v3, "SnapBridge-Enhanced/1.2"
+
+    invoke-virtual {v1, v2, v3}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v2, "Cache-Control"
+
+    const-string v3, "no-cache"
 
     invoke-virtual {v1, v2, v3}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -292,6 +438,25 @@
     move-result-object v5
 
     iput-object v5, v3, LO2/GitHubUpdateChecker;->c:Ljava/lang/String;
+
+    invoke-static {v5}, LO2/GitHubUpdateChecker;->isReleaseNewer(Ljava/lang/String;)Z
+
+    move-result v6
+
+    if-eqz v6, :cond_mark_current
+
+    const/4 v6, 0x1
+
+    iput v6, v3, LO2/GitHubUpdateChecker;->b:I
+
+    goto :cond_release_state_done
+
+    :cond_mark_current
+    const/4 v6, 0x3
+
+    iput v6, v3, LO2/GitHubUpdateChecker;->b:I
+
+    :cond_release_state_done
 
     const-string v5, "body"
 

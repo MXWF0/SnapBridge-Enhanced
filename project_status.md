@@ -2,78 +2,91 @@
 
 ## 当前结果
 
-SnapBridge Enhanced v1.1 已完成构建和本轮可执行验证。
+SnapBridge Enhanced v1.2 已完成五阶段增量、GitHub/UI 优化、静态审计和最终未签名构建。
 
-最终 APK：`workspace/build/SnapBridge-Enhanced-v1.1.apk`
+最终 APK：`workspace/build/SnapBridge-Enhanced-v1.2-unsigned.apk`
 
-文件大小：`69137074` 字节
+文件大小：`68931954` 字节
 
-SHA-256：`2449A989279E14577F5AF9DDF00E5CB8673A387B226CB83EAC9C8CBD2DFE1F70`
+SHA-256：`7CF947E07EED97E8F871C513B274DF18817C4667D66CC7CE40465727C335B696`
 
-包名为 `com.nikon.snapbridge.cmru`，versionName 为 `SnapBridge-Enhanced v1.1`，versionCode 为 `21333011`，minSdk 23，targetSdk 35。
+包名为 `com.nikon.snapbridge.cmru`，versionName 为 `SnapBridge-Enhanced v1.2`，versionCode 为 `21333012`，minSdk 23，targetSdk 35。
 
-## v1.1 修改范围
+## 五阶段实现
 
-### 连接状态与恢复
+### Stage 1：真实连接状态与重连
 
-- 保留原有扫描、连接派发、蓝牙关闭、无相机、连接错误和 PTP 异常诊断。
-- 深度休眠等待相机使用 `WAITING_CAMERA`，开始重连使用 `RECONNECTING`。
-- 后端重连冷却由固定 1 秒改为 1、2、3、4 秒线性退避。
-- 没有改动 Nikon BLE Authentication、Nikon PTP、JNI、Native `.so`、相机认证、加密、扫描次数或协议命令。
+- 主页状态来自现有 BLE、Wi-Fi/PTP、认证和自动传图回调，区分等待、扫描、蓝牙认证、蓝牙连接、Wi-Fi/PTP、远程控制、重连和失败。
+- 深度休眠且 PTP 未连接时把过期的 BLE `CONNECTED` 修正为未连接，避免主页显示陈旧状态。
+- 前台重连保持 1、2、3、4 秒线性退避；后台改为 5、10、20、40 秒退避。
 
-### 自动传图与主页
+Stage 1 未签名构建：`704218859C1F16417B212E4A4F2D316FE3D89EF6A59E50BD527D47ACB8C7BF1F`。
 
-- 继续使用后端现有队列、成功/总数/等待/失败统计、任务去重与手动单张失败重试。
-- 传输进度条增加暂停/继续按钮，分别调用现有 `stopCameraImageTransfer` 和 `resumeCameraImageTransfer`。
-- 主页读取本地数据库最新三条记录，显示缩略图和 MediaStore `DISPLAY_NAME`，点击复用原相册入口。
-- 自动传图尺寸枚举只有 2MP、8MP 和原图；16MP 没有真实后端枚举，因此未添加。
+### Stage 2：BLE 优先与自动传图尺寸
 
-### 遥控拍摄
+- 保留原有 BLE 优先、Wi-Fi/PTP、LiveView 和遥控链路，不改 Nikon 协议层。
+- 自动传图 UI 只允许 2MP 和 8MP；原图枚举及其原有非自动传图路径保留。
+- 已核对遥控退出后的原有连接恢复调用链。
 
-- 静态核对确认现有实现已经包含触点坐标对焦、对焦驱动状态与结果、横屏方向处理、手势检测、遥控页常亮、曝光参数读取、相机电量和连接状态。
-- 参数值与可选范围继续来自相机能力，没有增加硬编码伪造值，也没有重写遥控协议。
+Stage 2 未签名构建：`E72A11F911E59E1017F871E58F069535F4B5C31500AEFCAEC6F4556F7AEC2E22`。
 
-### GitHub 更新
+### Stage 3：手机省电控制
 
-- 设置页“关于”分组增加 GitHub 更新入口。
-- 请求 `MXWF0/SnapBridge-Enhanced` 的 latest Release，显示当前版本、最新版本和 Release 说明。
-- 只允许打开 Release 网页，不后台下载、不静默安装。
+- CameraService 进程监听手机电池、充电状态和系统 Battery Saver。
+- 低于设置阈值（10%、15%、20%、30%）或进入 Battery Saver 时暂停自动传图，BLE 连接保持；充电或电量达到阈值加 5 个百分点时恢复。
+- 设置页增加关闭、10%、15%、20%、30%选项，并通过应用内广播同步到服务进程。
 
-## 最终验证
+Stage 3 未签名构建：`D38DE22F25D389546D32CEEF697CB0347A6C290CA9A7354A4BD4F4FCBFDC889D`。
 
-- 未签名 APK SHA-256：`25A4B7D51261DEBB3B3EBBACB16E55FCD04435A855F12CC7D9B20D08A3723969`。
-- 对齐 APK SHA-256：`8BB986BDB4594A5BF7563A54D4C957C3D1294475F92A6D597497A4B2714E3266`。
-- 签名 APK SHA-256：`2449A989279E14577F5AF9DDF00E5CB8673A387B226CB83EAC9C8CBD2DFE1F70`。
-- Apktool 2.11.1 与 AAPT2 构建通过，zipalign 校验通过。
-- APK Signature Scheme v1、v2、v3 为 `true`，签名者数量为 1。
-- 设备 `dumpsys package` 确认 versionCode `21333011`、versionName `SnapBridge-Enhanced v1.1` 和新的更新时间。
-- ADB 安装器同时返回旧外部 profile 与新 DEX checksum 不匹配警告和 `Completed with warning(s)`；这会令命令退出码为 1，但不代表安装未完成。后续版本确认、启动和编译验证均针对新包。
-- `cmd package compile -m verify -f com.nikon.snapbridge.cmru` 返回 `Success`。
-- 冷启动返回 `Status: ok`、`LaunchState: COLD`、`TotalTime: 229ms`，应用进程存活。
-- 应用进程日志中 `FATAL EXCEPTION`、`VerifyError`、`NoSuchMethodError`、`NoSuchFieldError` 和 `UnsatisfiedLinkError` 匹配数为 0。
-- 原版与最终包的权限、feature、minSdk、targetSdk 和启动项等关键 badging 均为 31 行，差异为 0。
-- 两个 APK 均包含 16 个 Native `.so`，逐文件 SHA-256 差异为 0。
-- 真机主页显示最近三张缩略图及媒体库文件名；测试记录已被系统相册移入回收站，因此 `DISPLAY_NAME` 合法地包含相册生成的回收站前缀。
-- 点击缩略图进入原有照片流程并出现相机 Wi-Fi 切换提示。
-- GitHub 检查真机返回最新 Release `v1.0` 及其说明，当前版本显示为 `v1.1`，没有崩溃。
+### Stage 4：单一实时通知
 
-## 未完成真机验证
+- 复用 CameraService 原有前台通知及通知 ID，不创建第二个常驻通知。
+- 通知读取真实相机名、连接模式、BLE/PTP 状态、自动传图状态、成功/总数/剩余计数，并显示省电暂停原因。
 
-相机 Wi-Fi 切换停在 Android 系统“正在搜索设备”页面，没有建立本轮 Wi-Fi/PTP 会话。以下项目仍不能标记为真机通过：
+Stage 4 未签名构建：`0F5444DF8F2DD47248D4BD27C07DBF0B0B5144655F4D04B465E4B3F57980423B`。
 
-- 自动连接、深度休眠唤醒和后台恢复
-- 有在途任务时的暂停、继续、去重和失败重试
-- 2MP、8MP 与原图的实际传输结果
-- LiveView、触点对焦、AF、曝光参数控制和远程拍摄退出恢复
+### Stage 5：主页真实数据
 
-这些项目的调用链和界面已构建通过，但需要相机处于可连接状态后再做端到端验证。
+- 主页增加真实相机电量图标和文字、连接模式、自动传图状态、真实传输计数和远程/PTP 数据提供的剩余可拍张数。
+- 电量通过现有 `ICameraService.getActiveCameraBatteryStatus` 回调读取；断开连接时清空，不显示旧值。
+- 剩余可拍张数和曝光等数据只在已有 PTP/遥控数据有效时显示，不新增虚构值；无效或断开时清空。
 
-## 已知限制
+Stage 5 修订后中间包：`6AE854AFBD968772FFF11CCA25560CCC6380D450E4DB088196F04A1B8BB79FFD`。
 
-- 最终 APK 使用本地测试证书，不是 Nikon 生产证书，不能覆盖官方签名版本。
-- GitHub latest Release 当前为 `v1.0`，所以 v1.1 客户端会如实显示“当前 v1.1 / 最新 v1.0”；检查器不把版本字符串擅自改写为更新结论。
-- 构建工程是 Apktool/Smali 工程，静态核对和冷启动不能替代真实相机协议测试。
+### GitHub 与 UI 优化
 
-## 清理结果
+- GitHub 更新检查解析 `vX.Y.Z` 版本号，仅在 Release 高于当前 v1.2 时显示更新对话框；已是最新版本时直接提示。
+- 请求使用 GET、禁用缓存和 v1.2 User-Agent；保留 Release 说明和浏览器跳转，不自动下载或安装 APK。
+- 主页状态文字和实时详情使用状态面板呈现，设置页 GitHub 入口增加可操作摘要。
 
-`workspace/build` 只保留最终 `SnapBridge-Enhanced-v1.1.apk`。旧 v1.0 构建产物、未签名/对齐中间包、签名旁文件、测试截图/XML 和可再生的 `workspace/apktool/build` 已删除。
+本轮 UI/GitHub 修订未签名构建：`F4B60AD3A93E7753D0B0E94DF46433D9399A6B455A6F2BBEE2CEFCE678AD11ED`。
+
+Android 13+ 广播兼容性修订后未签名构建：`7CF947E07EED97E8F871C513B274DF18817C4667D66CC7CE40465727C335B696`。
+
+## 最终审计与构建
+
+- 修正 Android 23 可运行性问题：动态电池接收器仍使用两参数 `registerReceiver`；CameraService 电池/省电接收器改用带 `RECEIVER_EXPORTED` 标志的重载，避免 targetSdk 35 启动时的 `SecurityException`。
+- 修正省电接收器状态判断：仅在低电量或 Battery Saver 条件满足时暂停，已暂停时不重复 stop；恢复保留 5 个百分点迟滞。
+- 修正通知增强调用位置：只在 `updateServiceNotification` 组装同一个通知的正文，不污染服务销毁异常日志。
+- 更新器的当前版本字符串、设置摘要和 User-Agent 已同步为 v1.2。
+- 更新器增加版本比较、无更新提示和禁用缓存请求；主页状态面板与设置页 GitHub 入口完成视觉优化。
+- 未修改 Nikon BLE Authentication、Nikon PTP、`bleclient`、`ptpclient`、JNI、Native `.so`、相机认证或加密逻辑。
+- 五阶段均使用 Apktool 2.11.1 与 AAPT2 构建；最终包 `aapt2 dump badging` 确认 versionCode `21333012`、versionName `SnapBridge-Enhanced v1.2`、minSdk `23`、targetSdk `35`。
+- 最终 APK ZIP 共 2573 个条目，逐条读取无错误。
+- 临时测试证书签名包已在 Android 设备上完成冷启动、主界面、菜单抽屉、应用程序选项与 GitHub 更新入口冒烟测试；更新入口显示“当前版本已是最新版本”，未观察到应用崩溃。
+
+## 未完成验证
+
+本轮额外完成了临时测试签名和无相机设备冒烟测试，但没有真实相机端到端测试。因此以下项目仍不能标记为真机通过：
+
+- BLE 自动连接、深度休眠唤醒、后台恢复和后台退避；
+- 有在途任务时的暂停、继续、去重和失败重试；
+- 2MP、8MP 与原图的真实传输结果；
+- Wi-Fi/PTP、LiveView、触点对焦、AF、曝光参数、遥控拍摄退出恢复；
+- Android 设备实际通知展示和系统省电状态切换。
+
+最终仓库构建包未签名，不能直接覆盖官方签名版本；测试签名包仅用于本地验证，不作为发布包。
+
+## 工程清理
+
+`workspace/build` 保留当前 `SnapBridge-Enhanced-v1.2-unsigned.apk` 和用于对照的 v1.1 基线包；Stage 1–5 中间包和可再生的 `workspace/apktool/build` 已删除。

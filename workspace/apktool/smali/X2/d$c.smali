@@ -60,6 +60,8 @@
     .line 10
     sput-object v0, LN2/y;->e:LN2/y$b;
 
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+
     .line 11
     .line 12
     sget-object v0, LN2/q0;->e:LN2/j;
@@ -110,6 +112,8 @@
     .line 9
     .line 10
     sput-object v1, LN2/y;->e:LN2/y$b;
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
 
     .line 11
     .line 12
@@ -240,6 +244,12 @@
 
 .method public final onProgress(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraWiFiDirectConnectProgress;)V
     .locals 0
+
+    sget-object p1, LN2/y$b;->b:LN2/y$b;
+
+    sput-object p1, LN2/y;->e:LN2/y$b;
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
 
     .line 1
     return-void

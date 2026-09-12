@@ -97,6 +97,8 @@
     .line 25
     invoke-static {v2}, LN2/q0;->p(Ljava/lang/Runnable;)V
 
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+
     .line 26
     .line 27
     .line 28

@@ -55,6 +55,12 @@
     .line 4
     sput-boolean v0, LN2/q0;->l:Z
 
+    const/4 v1, 0x0
+
+    sput v1, LN2/y;->i:I
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+
     .line 5
     .line 6
     iget-object v0, p0, LO2/A$e;->a:LO2/A;
@@ -117,6 +123,12 @@
 
     .line 2
     sput-boolean v0, LN2/q0;->l:Z
+
+    const/4 v1, 0x0
+
+    sput v1, LN2/y;->i:I
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
 
     .line 3
     .line 4
@@ -185,6 +197,30 @@
         }
     .end annotation
 
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraConnectProgress;->LSS_AUTHENTICATION_REQUEST:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraConnectProgress;
+
+    if-ne p1, v0, :check_auth_complete
+
+    const/4 v0, 0x1
+
+    sput v0, LN2/y;->i:I
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+
+    goto :post_progress
+
+    :check_auth_complete
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraConnectProgress;->LSS_AUTHENTICATION_COMPLETE:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraConnectProgress;
+
+    if-ne p1, v0, :post_progress
+
+    const/4 v0, 0x0
+
+    sput v0, LN2/y;->i:I
+
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+
+    :post_progress
     .line 1
     new-instance v0, LO2/A$e$a;
 
