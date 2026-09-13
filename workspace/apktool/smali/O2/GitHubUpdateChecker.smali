@@ -76,18 +76,24 @@
 .end method
 
 .method private static isReleaseNewer(Ljava/lang/String;)Z
-    .locals 8
+    .locals 12
 
-    if-eqz p0, :return_false
+    if-eqz p0, :version_false
 
     :try_start_version
-    const-string v0, "v"
+    const-string v0, "-"
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    const-string v1, "v"
+
+    invoke-virtual {p0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
 
-    if-eqz v1, :cond_no_prefix
+    if-eqz v1, :candidate_normalized
 
     const/4 v1, 0x1
 
@@ -95,102 +101,243 @@
 
     move-result-object p0
 
-    :cond_no_prefix
-    const-string v0, "\\."
+    :candidate_normalized
+    const-string v1, "[.-]"
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {p0, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
-    move-result-object v0
+    move-result-object v2
 
-    array-length v1, v0
+    invoke-static {}, LN2/q0;->y()Ljava/lang/String;
 
-    const/4 v2, 0x0
+    move-result-object v3
 
-    if-lez v1, :return_false_try
+    const-string v4, "v"
 
-    aget-object v3, v0, v2
+    invoke-virtual {v3, v4}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
 
-    invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+    move-result v5
 
-    move-result v3
+    if-ltz v5, :current_version_missing
 
-    const/4 v4, 0x1
+    add-int/lit8 v5, v5, 0x1
 
-    if-le v3, v4, :cond_major_one
+    invoke-virtual {v3, v5}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object v3
+
+    const-string v4, "-"
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v4
+
+    goto :current_normalized
+
+    :current_version_missing
+    const/4 v4, 0x0
+
+    :current_normalized
+    const-string v5, "[.-]"
+
+    invoke-virtual {v3, v5}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+
+    move-result-object v5
+
+    const/4 v6, 0x0
+
+    array-length v7, v2
+
+    if-lez v7, :version_false_try
+
+    aget-object v7, v2, v6
+
+    invoke-static {v7}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v6
+
+    const/4 v7, 0x1
+
+    array-length v8, v2
+
+    if-le v8, v7, :candidate_minor_zero
+
+    aget-object v8, v2, v7
+
+    invoke-static {v8}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v7
+
+    goto :candidate_patch
+
+    :candidate_minor_zero
+    const/4 v7, 0x0
+
+    :candidate_patch
+    const/4 v8, 0x2
+
+    array-length v9, v2
+
+    if-le v9, v8, :candidate_patch_zero
+
+    aget-object v9, v2, v8
+
+    invoke-static {v9}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v8
+
+    goto :current_major
+
+    :candidate_patch_zero
+    const/4 v8, 0x0
+
+    :current_major
+    const/4 v9, 0x0
+
+    array-length v10, v5
+
+    if-lez v10, :version_false_try
+
+    aget-object v10, v5, v9
+
+    invoke-static {v10}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v9
+
+    const/4 v10, 0x1
+
+    array-length v11, v5
+
+    if-le v11, v10, :current_minor_zero
+
+    aget-object v11, v5, v10
+
+    invoke-static {v11}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v10
+
+    goto :current_patch
+
+    :current_minor_zero
+    const/4 v10, 0x0
+
+    :current_patch
+    const/4 v11, 0x2
+
+    array-length v2, v5
+
+    if-le v2, v11, :current_patch_zero
+
+    aget-object v2, v5, v11
+
+    invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+
+    move-result v11
+
+    goto :compare_versions
+
+    :current_patch_zero
+    const/4 v11, 0x0
+
+    :compare_versions
+    if-le v6, v9, :compare_major_equal
 
     const/4 v5, 0x1
 
-    goto :return_version
+    return v5
 
-    :cond_major_one
-    if-ge v3, v4, :cond_major_one_exact
+    :compare_major_equal
+    if-ge v6, v9, :compare_minor
 
+    goto :version_false_try
+
+    :compare_minor
+    if-le v7, v10, :compare_minor_equal
+
+    const/4 v5, 0x1
+
+    return v5
+
+    :compare_minor_equal
+    if-ge v7, v10, :compare_patch_values
+
+    goto :version_false_try
+
+    :compare_patch_values
+    if-le v8, v11, :compare_equal
+
+    const/4 v5, 0x1
+
+    return v5
+
+    :compare_equal
+    if-ge v8, v11, :compare_prerelease
+
+    goto :version_false_try
+
+    :compare_prerelease
+    if-eqz v0, :candidate_stable
+
+    if-nez v4, :version_false_try
+
+    goto :version_false_try
+
+    :candidate_stable
+    if-eqz v4, :version_false_try
+
+    const/4 v5, 0x1
+
+    return v5
+
+    :version_false_try
     const/4 v5, 0x0
 
-    goto :return_version
-
-    :cond_major_one_exact
-    if-le v1, v4, :return_false_try
-
-    aget-object v3, v0, v4
-
-    invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v3
-
-    const/4 v4, 0x2
-
-    if-le v3, v4, :cond_minor_two
-
-    const/4 v5, 0x1
-
-    goto :return_version
-
-    :cond_minor_two
-    if-ge v3, v4, :cond_minor_two_exact
-
-    const/4 v5, 0x0
-
-    goto :return_version
-
-    :cond_minor_two_exact
-    if-le v1, v4, :return_false_try
-
-    aget-object v3, v0, v4
-
-    invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
-
-    move-result v3
-
-    if-lez v3, :return_false_try
-
-    const/4 v5, 0x1
-
-    :return_version
     :try_end_version
     return v5
 
-    :return_false_try
-    const/4 v5, 0x0
-
-    goto :return_version
-
-    :catch_version
+    :version_false
     const/4 v5, 0x0
 
     return v5
 
-    :return_false
+    :version_parse_error
     const/4 v5, 0x0
 
     return v5
 
-    .catch Ljava/lang/NumberFormatException; {:try_start_version .. :try_end_version} :catch_version
+    .catch Ljava/lang/NumberFormatException; {:try_start_version .. :try_end_version} :version_parse_error
 .end method
 
 # virtual methods
 .method public final run()V
     .locals 12
+
+    iget-object v2, p0, LO2/GitHubUpdateChecker;->a:Landroid/app/Activity;
+
+    invoke-virtual {v2}, Landroid/app/Activity;->isFinishing()Z
+
+    move-result v3
+
+    if-eqz v3, :activity_not_finishing
+
+    return-void
+
+    :activity_not_finishing
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v4, 0x11
+
+    if-lt v3, v4, :activity_alive
+
+    invoke-virtual {v2}, Landroid/app/Activity;->isDestroyed()Z
+
+    move-result v3
+
+    if-eqz v3, :activity_alive
+
+    return-void
+
+    :activity_alive
 
     iget v0, p0, LO2/GitHubUpdateChecker;->b:I
 
@@ -207,6 +354,16 @@
     const v3, 0x7f1104f1
 
     invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v4, "%1$s"
+
+    invoke-static {}, LN2/q0;->y()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v2, v4, v5}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -329,7 +486,7 @@
     :try_start_io
     new-instance v1, Ljava/net/URL;
 
-    const-string v2, "https://api.github.com/repos/MXWF0/SnapBridge-Enhanced/releases/latest"
+    const-string v2, "https://api.github.com/repos/MXWF0/SnapBridge-Enhanced/releases?per_page=20"
 
     invoke-direct {v1, v2}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
@@ -363,7 +520,21 @@
 
     const-string v2, "User-Agent"
 
-    const-string v3, "SnapBridge-Enhanced/1.2"
+    const-string v3, "SnapBridge-Enhanced"
+
+    invoke-static {}, LN2/q0;->y()Ljava/lang/String;
+
+    move-result-object v4
+
+    const-string v5, "/"
+
+    invoke-virtual {v3, v5}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
 
     invoke-virtual {v1, v2, v3}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -413,13 +584,121 @@
     :cond_read_done
     invoke-virtual {v2}, Ljava/io/BufferedReader;->close()V
 
-    new-instance v2, Lorg/json/JSONObject;
+    new-instance v2, Lorg/json/JSONArray;
 
     invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-direct {v2, v3}, Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+
+    const/4 v5, 0x0
+
+    const/4 v11, 0x0
+
+    invoke-static {}, LN2/q0;->y()Ljava/lang/String;
+
+    move-result-object v6
+
+    const-string v8, "v"
+
+    invoke-virtual {v6, v8}, Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+
+    move-result v9
+
+    if-ltz v9, :current_release_stable
+
+    add-int/lit8 v9, v9, 0x1
+
+    invoke-virtual {v6, v9}, Ljava/lang/String;->substring(I)Ljava/lang/String;
+
+    move-result-object v6
+
+    const-string v8, "-"
+
+    invoke-virtual {v6, v8}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+
+    move-result v6
+
+    goto :release_loop
+
+    :current_release_stable
+    const/4 v6, 0x0
+
+    :release_loop
+    invoke-virtual {v2}, Lorg/json/JSONArray;->length()I
+
+    move-result v7
+
+    if-ge v5, v7, :releases_none
+
+    invoke-virtual {v2, v5}, Lorg/json/JSONArray;->optJSONObject(I)Lorg/json/JSONObject;
+
+    move-result-object v7
+
+    if-eqz v7, :release_next
+
+    const-string v8, "draft"
+
+    const/4 v9, 0x0
+
+    invoke-virtual {v7, v8, v9}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
+
+    move-result v8
+
+    if-eqz v8, :release_check_prerelease
+
+    goto :release_next
+
+    :release_check_prerelease
+    const-string v8, "prerelease"
+
+    invoke-virtual {v7, v8, v9}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;Z)Z
+
+    move-result v8
+
+    if-ne v8, v6, :release_next
+
+    const-string v8, "tag_name"
+
+    const-string v9, ""
+
+    invoke-virtual {v7, v8, v9}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v8
+
+    invoke-static {v8}, LO2/GitHubUpdateChecker;->isReleaseNewer(Ljava/lang/String;)Z
+
+    move-result v9
+
+    if-eqz v9, :release_next
+
+    move-object v11, v7
+
+    goto :release_selected
+
+    :release_next
+    add-int/lit8 v5, v5, 0x1
+
+    goto :release_loop
+
+    :releases_none
+    new-instance v3, LO2/GitHubUpdateChecker;
+
+    iget-object v5, p0, LO2/GitHubUpdateChecker;->a:Landroid/app/Activity;
+
+    const/4 v6, 0x3
+
+    invoke-direct {v3, v5, v6}, LO2/GitHubUpdateChecker;-><init>(Landroid/app/Activity;I)V
+
+    invoke-virtual {v1}, Ljava/net/HttpURLConnection;->disconnect()V
+
+    invoke-virtual {v5, v3}, Landroid/app/Activity;->runOnUiThread(Ljava/lang/Runnable;)V
+
+    return-void
+
+    :release_selected
+    move-object v2, v11
 
     new-instance v3, LO2/GitHubUpdateChecker;
 

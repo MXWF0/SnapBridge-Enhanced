@@ -1647,10 +1647,10 @@ Please rate this app."</string>
     <string name="setting_debug_logs_summary">Available in Android logs under SnapBridgeLogger and SnapBridgeTransfer.</string>
     <string name="setting_section_about">About</string>
     <string name="setting_github_update">GitHub updates</string>
-    <string name="setting_github_update_summary">Current: v1.2 · tap to check latest release</string>
+    <string name="setting_github_update_summary">Tap to check the latest release</string>
     <string name="update_checking">Checking GitHub Releases…</string>
     <string name="update_title">SnapBridge Enhanced update</string>
-    <string name="update_current">Current: v1.2</string>
+    <string name="update_current">Current: %1$s</string>
     <string name="update_latest">Latest: %1$s</string>
     <string name="update_open_release">Open release</string>
     <string name="update_close">Close</string>
@@ -1670,7 +1670,7 @@ Please rate this app."</string>
     <string name="enhanced_state_reconnecting">Reconnecting to camera</string>
     <string name="enhanced_state_failed">Connection failed</string>
     <string name="setting_power_transfer">Smart transfer power control</string>
-    <string name="setting_power_transfer_summary">Pause automatic transfer on low phone battery or Battery Saver</string>
+    <string name="setting_power_transfer_summary">Pause automatic transfer on low camera/phone battery or Battery Saver</string>
     <string name="power_transfer_title">Pause automatic transfer at</string>
     <string name="power_transfer_off">Off</string>
     <string name="power_transfer_10">10%</string>
@@ -1684,6 +1684,10 @@ Please rate this app."</string>
     <string name="notification_remaining">remaining</string>
     <string name="notification_paused_battery">Paused: low phone battery</string>
     <string name="notification_paused_saver">Paused: Battery Saver</string>
+    <string name="notification_paused_camera">Paused: camera battery low; automatic transfer is paused</string>
     <string name="home_detail_battery">Camera battery</string>
     <string name="home_detail_remaining_shots">Shots remaining</string>
+    <string name="enhanced_transfer_size_unresolved">The download size could not be determined. Check the camera connection and try again.</string>
+    <string name="enhanced_transfer_8mp_unavailable">This camera does not support 8MP transfer.</string>
+    <string name="enhanced_transfer_original_failed">Original format transfer failed. No 2MP fallback was used; check the Wi-Fi/PTP or camera connection and try again.</string>
 </resources>

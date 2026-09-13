@@ -4482,6 +4482,9 @@
     <public type="id" name="home_connection_state" id="0x7f0805db" />
     <public type="id" name="setting_btn_power_transfer" id="0x7f0805dc" />
     <public type="id" name="home_status_detail" id="0x7f0805dd" />
+    <public type="id" name="v_original" id="0x7f0805de" />
+    <public type="id" name="iv_original" id="0x7f0805df" />
+    <public type="id" name="btn_original" id="0x7f0805e0" />
     <public type="integer" name="abc_config_activityDefaultDur" id="0x7f090000" />
     <public type="integer" name="abc_config_activityShortDur" id="0x7f090001" />
     <public type="integer" name="app_bar_elevation_anim_duration" id="0x7f090002" />
@@ -6130,6 +6133,10 @@
     <public type="string" name="home_detail_battery" id="0x7f110512" />
     <public type="string" name="home_detail_remaining_shots" id="0x7f110513" />
     <public type="string" name="update_no_update" id="0x7f110514" />
+    <public type="string" name="notification_paused_camera" id="0x7f110515" />
+    <public type="string" name="enhanced_transfer_size_unresolved" id="0x7f110516" />
+    <public type="string" name="enhanced_transfer_8mp_unavailable" id="0x7f110517" />
+    <public type="string" name="enhanced_transfer_original_failed" id="0x7f110518" />
     <public type="style" name="AlertDialog.AppCompat" id="0x7f120000" />
     <public type="style" name="AlertDialog.AppCompat.Light" id="0x7f120001" />
     <public type="style" name="AndroidRadioButtonStyle" id="0x7f120002" />

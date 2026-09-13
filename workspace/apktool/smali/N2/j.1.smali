@@ -96,6 +96,8 @@
 
 .field public final d0:LN2/j$e;
 
+.field public aa:Ljava/lang/Runnable;
+
 .field public x:Landroid/widget/FrameLayout;
 
 .field public y:LX2/d;
@@ -7094,482 +7096,9 @@
     :cond_3
     invoke-static {v0}, Ljava/util/Locale;->setDefault(Ljava/util/Locale;)V
 
-    .line 492
-    .line 493
-    .line 494
-    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
-
-    .line 495
-    .line 496
-    .line 497
-    move-result-object v0
-
-    .line 498
-    check-cast v0, Lcom/nikon/snapbridge/cmru/SnapBridgeApplication;
-
-    .line 499
-    .line 500
-    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
-
-    .line 501
-    .line 502
-    .line 503
-    new-instance v3, Landroid/content/Intent;
-
-    .line 504
-    .line 505
-    const-class v4, Lcom/nikon/snapbridge/cmru/backend/presentation/services/web/WebService;
-
-    .line 506
-    .line 507
-    invoke-direct {v3, v0, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
-
-    .line 508
-    .line 509
-    .line 510
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    .line 511
-    .line 512
-    .line 513
-    move-result-object v4
-
-    .line 514
-    const v7, 0x7f0d0002
-
-    .line 515
-    .line 516
-    .line 517
-    invoke-static {v4, v7}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
-
-    .line 518
-    .line 519
-    .line 520
-    move-result-object v4
-
-    .line 521
-    const-string v7, "decodeResource(this.resources, R.mipmap.ic_notice)"
-
-    .line 522
-    .line 523
-    invoke-static {v4, v7}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 524
-    .line 525
-    .line 526
-    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
-
-    .line 527
-    .line 528
-    .line 529
-    move-result-object v7
-
-    .line 530
-    const v8, 0x7f0d0003
-
-    .line 531
-    .line 532
-    .line 533
-    invoke-static {v7, v8}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
-
-    .line 534
-    .line 535
-    .line 536
-    move-result-object v7
-
-    .line 537
-    const-string v8, "decodeResource(this.reso\u2026s, R.mipmap.ic_statusbar)"
-
-    .line 538
-    .line 539
-    invoke-static {v7, v8}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 540
-    .line 541
-    .line 542
-    new-instance v8, Landroid/os/Bundle;
-
-    .line 543
-    .line 544
-    invoke-direct {v8}, Landroid/os/Bundle;-><init>()V
-
-    .line 545
-    .line 546
-    .line 547
-    const-string v9, "notificationLargeIcon"
-
-    .line 548
-    .line 549
-    invoke-virtual {v8, v9, v4}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
-
-    .line 550
-    .line 551
-    .line 552
-    const-string v4, "notificationSmallIcon"
-
-    .line 553
-    .line 554
-    invoke-virtual {v8, v4, v7}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
-
-    .line 555
-    .line 556
-    .line 557
-    const v4, 0x7f1102a0
-
-    .line 558
-    .line 559
-    .line 560
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 561
-    .line 562
-    .line 563
-    move-result-object v4
-
-    .line 564
-    const-string v7, "notificationMessage"
-
-    .line 565
-    .line 566
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 567
-    .line 568
-    .line 569
-    const v4, 0x7f1102a1
-
-    .line 570
-    .line 571
-    .line 572
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 573
-    .line 574
-    .line 575
-    move-result-object v4
-
-    .line 576
-    const-string v7, "notificationMessage2"
-
-    .line 577
-    .line 578
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 579
-    .line 580
-    .line 581
-    const v4, 0x7f11029e
-
-    .line 582
-    .line 583
-    .line 584
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 585
-    .line 586
-    .line 587
-    move-result-object v4
-
-    .line 588
-    const-string v7, "notificationMessage3"
-
-    .line 589
-    .line 590
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 591
-    .line 592
-    .line 593
-    const v4, 0x7f11029a
-
-    .line 594
-    .line 595
-    .line 596
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 597
-    .line 598
-    .line 599
-    move-result-object v4
-
-    .line 600
-    const-string v7, "notificationMessage4"
-
-    .line 601
-    .line 602
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 603
-    .line 604
-    .line 605
-    const v4, 0x7f11029b
-
-    .line 606
-    .line 607
-    .line 608
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 609
-    .line 610
-    .line 611
-    move-result-object v4
-
-    .line 612
-    const-string v7, "notificationMessage5"
-
-    .line 613
-    .line 614
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 615
-    .line 616
-    .line 617
-    const v4, 0x7f11029c
-
-    .line 618
-    .line 619
-    .line 620
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 621
-    .line 622
-    .line 623
-    move-result-object v4
-
-    .line 624
-    const-string v7, "notificationMessage6"
-
-    .line 625
-    .line 626
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 627
-    .line 628
-    .line 629
-    const v4, 0x7f11029d
-
-    .line 630
-    .line 631
-    .line 632
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 633
-    .line 634
-    .line 635
-    move-result-object v4
-
-    .line 636
-    const-string v7, "notificationMessage7"
-
-    .line 637
-    .line 638
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 639
-    .line 640
-    .line 641
-    const v4, 0x7f11029f
-
-    .line 642
-    .line 643
-    .line 644
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 645
-    .line 646
-    .line 647
-    move-result-object v4
-
-    .line 648
-    const-string v7, "notificationMessage8"
-
-    .line 649
-    .line 650
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 651
-    .line 652
-    .line 653
-    const v4, 0x7f1102b8
-
-    .line 654
-    .line 655
-    .line 656
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 657
-    .line 658
-    .line 659
-    move-result-object v4
-
-    .line 660
-    const-string v7, "notificationMessage9"
-
-    .line 661
-    .line 662
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 663
-    .line 664
-    .line 665
-    const v4, 0x7f1102de
-
-    .line 666
-    .line 667
-    .line 668
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 669
-    .line 670
-    .line 671
-    move-result-object v4
-
-    .line 672
-    const-string v7, "notificationMessage10"
-
-    .line 673
-    .line 674
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 675
-    .line 676
-    .line 677
-    const v4, 0x7f110413
-
-    .line 678
-    .line 679
-    .line 680
-    invoke-virtual {v0, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
-
-    .line 681
-    .line 682
-    .line 683
-    move-result-object v4
-
-    .line 684
-    const-string v7, "notificationTitle"
-
-    .line 685
-    .line 686
-    invoke-virtual {v8, v7, v4}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 687
-    .line 688
-    .line 689
-    new-instance v4, Landroid/content/Intent;
-
-    .line 690
-    .line 691
-    const-string v7, "android.intent.action.MAIN"
-
-    .line 692
-    .line 693
-    invoke-direct {v4, v7}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
-
-    .line 694
-    .line 695
-    .line 696
-    new-instance v7, Landroid/content/ComponentName;
-
-    .line 697
-    .line 698
-    const-string v9, "com.nikon.snapbridge.cmru"
-
-    .line 699
-    .line 700
-    const-string v10, "com.nikon.snapbridge.cmru.ui.init.NkLLicenceActivity"
-
-    .line 701
-    .line 702
-    invoke-direct {v7, v9, v10}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    .line 703
-    .line 704
-    .line 705
-    invoke-virtual {v4, v7}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
-
-    .line 706
-    .line 707
-    .line 708
-    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
-
-    .line 709
-    .line 710
-    .line 711
-    move-result-object v7
-
-    .line 712
-    invoke-virtual {v4, v7}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
-
-    .line 713
-    .line 714
-    .line 715
-    const-string v7, "android.intent.category.DEFAULT"
-
-    .line 716
-    .line 717
-    invoke-virtual {v4, v7}, Landroid/content/Intent;->removeCategory(Ljava/lang/String;)V
-
-    .line 718
-    .line 719
-    .line 720
-    const-string v7, "android.intent.category.LAUNCHER"
-
-    .line 721
-    .line 722
-    invoke-virtual {v4, v7}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
-
-    .line 723
-    .line 724
-    .line 725
-    const/high16 v7, 0x10000000
-
-    .line 726
-    .line 727
-    invoke-virtual {v4, v7}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
-
-    .line 728
-    .line 729
-    .line 730
-    const-string v7, "param"
-
-    .line 731
-    .line 732
+    goto :skip_web_service_bundle
+    :skip_web_service_bundle
     const/4 v9, -0x1
-
-    .line 733
-    invoke-virtual {v4, v7, v9}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
-
-    .line 734
-    .line 735
-    .line 736
-    const/high16 v7, 0x12000000
-
-    .line 737
-    .line 738
-    invoke-static {v0, v9, v4, v7}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
-
-    .line 739
-    .line 740
-    .line 741
-    move-result-object v4
-
-    .line 742
-    const-string v7, "notificationIntent"
-
-    .line 743
-    .line 744
-    invoke-virtual {v8, v7, v4}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
-
-    .line 745
-    .line 746
-    .line 747
-    invoke-virtual {v3, v8}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
-
-    .line 748
-    .line 749
-    .line 750
-    invoke-virtual {v0, v3}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 751
     .line 752
@@ -7741,14 +7270,256 @@
     .line 839
     invoke-virtual {p0, p1}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
+    new-instance v0, LN2/b;
+
+    const/4 v1, 0x5
+
+    invoke-direct {v0, p0, v1}, LN2/b;-><init>(LN2/j;I)V
+
+    iput-object v0, p0, LN2/j;->aa:Ljava/lang/Runnable;
+
+    invoke-static {v0}, LN2/q0;->p(Ljava/lang/Runnable;)V
+
     .line 840
     .line 841
     .line 842
     return-void
 .end method
 
+.method public final startWebService()V
+    .locals 12
+
+    invoke-virtual {p0}, Landroid/app/Activity;->getApplication()Landroid/app/Application;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/nikon/snapbridge/cmru/SnapBridgeApplication;
+
+    new-instance v1, Landroid/content/Intent;
+
+    const-class v2, Lcom/nikon/snapbridge/cmru/backend/presentation/services/web/WebService;
+
+    invoke-direct {v1, v0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+
+    move-result-object v2
+
+    const v6, 0x7f0d0002
+
+    invoke-static {v2, v6}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
+
+    move-result-object v3
+
+    const-string v6, "decodeResource(this.resources, R.mipmap.ic_notice)"
+
+    invoke-static {v3, v6}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const v6, 0x7f0d0003
+
+    invoke-static {v2, v6}, Landroid/graphics/BitmapFactory;->decodeResource(Landroid/content/res/Resources;I)Landroid/graphics/Bitmap;
+
+    move-result-object v4
+
+    const-string v6, "decodeResource(this.resources, R.mipmap.ic_statusbar)"
+
+    invoke-static {v4, v6}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v5, Landroid/os/Bundle;
+
+    invoke-direct {v5}, Landroid/os/Bundle;-><init>()V
+
+    const-string v6, "notificationLargeIcon"
+
+    invoke-virtual {v5, v6, v3}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+
+    const-string v6, "notificationSmallIcon"
+
+    invoke-virtual {v5, v6, v4}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+
+    const v7, 0x7f1102a0
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f1102a1
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage2"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f11029e
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage3"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f11029a
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage4"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f11029b
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage5"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f11029c
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage6"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f11029d
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage7"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f11029f
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage8"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f1102b8
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage9"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f1102de
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationMessage10"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const v7, 0x7f110413
+
+    invoke-virtual {v0, v7}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v7
+
+    const-string v6, "notificationTitle"
+
+    invoke-virtual {v5, v6, v7}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance v9, Landroid/content/Intent;
+
+    const-string v6, "android.intent.action.MAIN"
+
+    invoke-direct {v9, v6}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    new-instance v10, Landroid/content/ComponentName;
+
+    const-string v6, "com.nikon.snapbridge.cmru"
+
+    const-string v7, "com.nikon.snapbridge.cmru.ui.init.NkLLicenceActivity"
+
+    invoke-direct {v10, v6, v7}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {v9, v10}, Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-virtual {v9, v6}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+
+    const-string v6, "android.intent.category.DEFAULT"
+
+    invoke-virtual {v9, v6}, Landroid/content/Intent;->removeCategory(Ljava/lang/String;)V
+
+    const-string v6, "android.intent.category.LAUNCHER"
+
+    invoke-virtual {v9, v6}, Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+
+    const/high16 v6, 0x10000000
+
+    invoke-virtual {v9, v6}, Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+
+    const-string v6, "param"
+
+    const/4 v7, -0x1
+
+    invoke-virtual {v9, v6, v7}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+
+    const/high16 v6, 0x12000000
+
+    invoke-static {v0, v7, v9, v6}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+
+    move-result-object v9
+
+    const-string v6, "notificationIntent"
+
+    invoke-virtual {v5, v6, v9}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+
+    invoke-virtual {v1, v5}, Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
+
+    invoke-virtual {p0, v1}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+
+    return-void
+.end method
+
 .method public final onDestroy()V
     .locals 7
+
+    iget-object v0, p0, LN2/j;->aa:Ljava/lang/Runnable;
+
+    if-eqz v0, :skip_web_service_start
+
+    sget-object v1, LN2/q0;->k:Landroid/os/Handler;
+
+    invoke-virtual {v1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    const/4 v1, 0x0
+
+    iput-object v1, p0, LN2/j;->aa:Ljava/lang/Runnable;
+
+    :skip_web_service_start
 
     .line 1
     iget-object v0, p0, LN2/j;->x:Landroid/widget/FrameLayout;

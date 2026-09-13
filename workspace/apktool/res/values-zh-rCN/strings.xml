@@ -1619,10 +1619,10 @@ SnapBridge启动时，链接将会重新建立。"</string>
     <string name="setting_debug_logs_summary">可在 Android 日志中查看 SnapBridgeLogger 和 SnapBridgeTransfer。</string>
     <string name="setting_section_about">关于</string>
     <string name="setting_github_update">GitHub 更新</string>
-    <string name="setting_github_update_summary">当前版本：v1.2 · 轻触检查最新 Release</string>
+    <string name="setting_github_update_summary">轻触检查最新 Release</string>
     <string name="update_checking">正在检查 GitHub Release…</string>
     <string name="update_title">SnapBridge Enhanced 更新</string>
-    <string name="update_current">当前版本：v1.2</string>
+    <string name="update_current">当前版本：%1$s</string>
     <string name="update_latest">最新版本：%1$s</string>
     <string name="update_open_release">打开 Release</string>
     <string name="update_close">关闭</string>
@@ -1642,7 +1642,7 @@ SnapBridge启动时，链接将会重新建立。"</string>
     <string name="enhanced_state_reconnecting">重连中</string>
     <string name="enhanced_state_failed">连接失败</string>
     <string name="setting_power_transfer">智能传输省电</string>
-    <string name="setting_power_transfer_summary">手机低电量或系统省电模式下暂停自动传输</string>
+    <string name="setting_power_transfer_summary">相机/手机低电量或系统省电模式下暂停自动传输</string>
     <string name="power_transfer_title">自动传输暂停阈值</string>
     <string name="power_transfer_off">关闭</string>
     <string name="power_transfer_10">10%</string>
@@ -1656,6 +1656,10 @@ SnapBridge启动时，链接将会重新建立。"</string>
     <string name="notification_remaining">剩余</string>
     <string name="notification_paused_battery">已暂停：手机电量低</string>
     <string name="notification_paused_saver">已暂停：系统省电模式</string>
+    <string name="notification_paused_camera">相机电量较低，已暂停自动传输</string>
     <string name="home_detail_battery">相机电量</string>
     <string name="home_detail_remaining_shots">剩余可拍</string>
+    <string name="enhanced_transfer_size_unresolved">无法确定下载尺寸，请检查相机连接后重试。</string>
+    <string name="enhanced_transfer_8mp_unavailable">此相机不支持 8MP 传输。</string>
+    <string name="enhanced_transfer_original_failed">原始格式传输失败，未降级为2MP。请检查Wi-Fi/PTP或相机连接后重试。</string>
 </resources>

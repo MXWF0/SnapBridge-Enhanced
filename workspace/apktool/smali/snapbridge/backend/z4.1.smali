@@ -294,8 +294,6 @@
     if-eq v7, v0, :cond_7
 
     .line 27
-    sget-object v0, Lsnapbridge/backend/D4;->d:[I
-
     iget-object v7, v4, Lsnapbridge/backend/O4;->c:Lsnapbridge/backend/x5;
 
     invoke-virtual {v7}, Lsnapbridge/backend/x5;->a()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferSetting;
@@ -305,6 +303,37 @@
     invoke-virtual {v7}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferSetting;->getSize()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
 
     move-result-object v7
+
+    sget-object v8, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    if-ne v7, v8, :cond_resolve_thumbnail_size
+
+    const-string v8, "autoTransfer image size requested/saved=%s resolved=%s"
+
+    const/4 v9, 0x2
+
+    new-array v9, v9, [Ljava/lang/Object;
+
+    const/4 v10, 0x0
+
+    aput-object v7, v9, v10
+
+    const/4 v10, 0x1
+
+    sget-object v11, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;
+
+    aput-object v11, v9, v10
+
+    sget-object v12, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
+
+    invoke-virtual {v12, v8, v9}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    move-object v0, v11
+
+    goto :goto_2
+
+    :cond_resolve_thumbnail_size
+    sget-object v0, Lsnapbridge/backend/D4;->d:[I
 
     invoke-virtual {v7}, Ljava/lang/Enum;->ordinal()I
 

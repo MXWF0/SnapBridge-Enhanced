@@ -29,7 +29,7 @@
 
 # virtual methods
 .method public final run()V
-    .locals 13
+    .locals 14
 
     .line 1
     const/4 v0, 0x2
@@ -59,31 +59,6 @@
     .line 12
     .line 13
     .line 14
-    const-wide/16 v1, 0xfa
-
-    .line 15
-    .line 16
-    :try_start_0
-    invoke-static {v1, v2}, Ljava/lang/Thread;->sleep(J)V
-    :try_end_0
-    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 17
-    .line 18
-    .line 19
-    goto :goto_0
-
-    .line 20
-    :catch_0
-    move-exception v1
-
-    .line 21
-    invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
-
-    .line 22
-    .line 23
-    .line 24
-    :goto_0
     sget-object v1, LN2/q0;->g:LN2/X;
 
     .line 25
@@ -900,10 +875,103 @@
 
     .line 421
     .line 422
-    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;->IMAGE_2MP:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;
+    invoke-virtual {v0}, LN2/X;->A()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    move-result-object v0
+
+    if-eqz v0, :size_unresolved
+
+    sget-object v5, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_8MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    if-ne v0, v5, :size_resolved
+
+    sget-object v5, LN2/q0;->g:LN2/X;
+
+    invoke-virtual {v5}, LN2/X;->K()Z
+
+    move-result v5
+
+    if-eqz v5, :size_unsupported
+
+    :size_resolved
+
+    invoke-virtual {v0}, Ljava/lang/Enum;->name()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;->valueOf(Ljava/lang/String;)Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;
+
+    move-result-object v1
+
+    const-string v5, "SnapBridgeTransfer"
+
+    const-string v6, "DIAG_TRANSFER_SIZE_RESOLVED size="
+
+    invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-virtual {v6, v7}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v6
+
+    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    goto :start_auto_transfer
+
+    :size_unresolved
+    const-string v5, "SnapBridgeTransfer"
+
+    const-string v6, "DIAG_TRANSFER_SIZE_UNRESOLVED"
+
+    invoke-static {v5, v6}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v7, LN2/q0;->e:LN2/j;
+
+    const v6, 0x7f110516
+
+    invoke-virtual {v7, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    const/4 v6, -0x6
+
+    invoke-static {v6, v7, v5}, LN2/q0;->W(ILandroid/content/Context;Ljava/lang/String;)V
+
+    goto :cond_8
+
+    :size_unsupported
+    const-string v5, "SnapBridgeTransfer"
+
+    const-string v6, "DIAG_TRANSFER_SIZE_UNSUPPORTED size=IMAGE_8MP"
+
+    invoke-static {v5, v6}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v7, LN2/q0;->e:LN2/j;
+
+    const v6, 0x7f110517
+
+    invoke-virtual {v7, v6}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v5
+
+    const/4 v6, -0x6
+
+    invoke-static {v6, v7, v5}, LN2/q0;->W(ILandroid/content/Context;Ljava/lang/String;)V
+
+    goto :cond_8
+
+    :start_auto_transfer
 
     .line 423
     .line 424
+    sget-object v0, LN2/q0;->g:LN2/X;
+
+    const/4 v13, 0x1
+    iput-boolean v13, v0, LN2/X;->v:Z
+
+    iput-object v1, v0, LN2/X;->u:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;
+
     invoke-virtual {v0, v4, v1}, LN2/X;->N(Ljava/util/List;Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;)V
 
     .line 425

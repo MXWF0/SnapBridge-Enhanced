@@ -418,6 +418,10 @@
     .line 186
     if-gt p1, v5, :cond_3
 
+    sget-object p1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;
+
+    if-eq v2, p1, :cond_original_failed
+
     .line 187
     .line 188
     sget-object p1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;->IMAGE_8MP:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraReceiveImageSize;
@@ -470,6 +474,17 @@
     .line 211
     .line 212
     .line 213
+    goto :goto_2
+
+    :cond_original_failed
+    const-string p1, "Original auto-transfer failed; do not downgrade to 2MP."
+
+    new-array v5, v4, [Ljava/lang/Object;
+
+    invoke-virtual {v3, p1, v5}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->e(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    invoke-virtual {v0, p2}, Lsnapbridge/backend/Y2;->a(Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;)V
+
     goto :goto_2
 
     .line 214

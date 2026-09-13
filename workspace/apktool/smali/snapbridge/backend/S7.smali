@@ -696,6 +696,41 @@
     throw p1
 .end method
 
+.method public final b(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraActiveCameraConnectionStatusListener;)V
+    .locals 2
+
+    iget-object v0, p0, Lsnapbridge/backend/S7;->D:Ljava/util/HashSet;
+
+    monitor-enter v0
+
+    :try_start_0
+    iget-object v1, p0, Lsnapbridge/backend/S7;->D:Ljava/util/HashSet;
+
+    invoke-virtual {v1, p1}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
+
+    invoke-virtual {v1}, Ljava/util/HashSet;->isEmpty()Z
+
+    move-result v1
+
+    if-eqz v1, :remove_done
+
+    invoke-virtual {p0}, Lsnapbridge/backend/S7;->a()V
+
+    :remove_done
+    monitor-exit v0
+
+    return-void
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_remove
+
+    :catchall_remove
+    move-exception p1
+
+    monitor-exit v0
+
+    throw p1
+.end method
+
 .method public final b()V
     .locals 10
 

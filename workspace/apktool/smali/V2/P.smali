@@ -242,13 +242,18 @@
     move-result v0
 
     .line 44
-    if-eqz v0, :cond_1
+    if-eqz v0, :unsupported_8mp
 
     .line 45
     .line 46
     const/4 v1, 0x2
 
     .line 47
+    goto :goto_0
+
+    :unsupported_8mp
+    const/4 v1, 0x0
+
     goto :goto_0
 
     .line 48
@@ -522,6 +527,14 @@
     :cond_3
     if-ne p1, v2, :cond_4
 
+    sget-object v3, LN2/q0;->g:LN2/X;
+
+    invoke-virtual {v3}, LN2/X;->K()Z
+
+    move-result v3
+
+    if-eqz v3, :unsupported_8mp_click
+
     .line 48
     .line 49
     sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_8MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
@@ -529,6 +542,27 @@
     .line 50
     .line 51
     goto :goto_1
+
+    :unsupported_8mp_click
+    const-string v3, "SnapBridgeTransfer"
+
+    const-string v4, "DIAG_TRANSFER_SIZE_UNSUPPORTED requested=IMAGE_8MP"
+
+    invoke-static {v3, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v3, LN2/q0;->e:LN2/j;
+
+    const v4, 0x7f110517
+
+    invoke-virtual {v3, v4}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v4
+
+    const/4 v0, -0x6
+
+    invoke-static {v0, v3, v4}, LN2/q0;->W(ILandroid/content/Context;Ljava/lang/String;)V
+
+    return-void
 
     .line 52
     :cond_4

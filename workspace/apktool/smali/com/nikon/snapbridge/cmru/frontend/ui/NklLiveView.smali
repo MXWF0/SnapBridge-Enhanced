@@ -46,6 +46,14 @@
 
 .field public m:LV2/K;
 
+.field public final q:Landroid/view/GestureDetector;
+
+.field public r:Z
+
+.field public final s:Landroid/view/ScaleGestureDetector;
+
+.field public t:Z
+
 
 # direct methods
 .method static constructor <clinit>()V
@@ -103,6 +111,26 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+
+    new-instance v0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView$d;
+
+    invoke-direct {v0, p0}, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView$d;-><init>(Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;)V
+
+    new-instance p2, Landroid/view/GestureDetector;
+
+    invoke-direct {p2, p1, v0}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
+
+    iput-object p2, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->q:Landroid/view/GestureDetector;
+
+    new-instance v0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView$e;
+
+    invoke-direct {v0, p0}, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView$e;-><init>(Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;)V
+
+    new-instance p2, Landroid/view/ScaleGestureDetector;
+
+    invoke-direct {p2, p1, v0}, Landroid/view/ScaleGestureDetector;-><init>(Landroid/content/Context;Landroid/view/ScaleGestureDetector$OnScaleGestureListener;)V
+
+    iput-object p2, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->s:Landroid/view/ScaleGestureDetector;
 
     .line 2
     .line 3
@@ -240,13 +268,267 @@
     .line 71
     iput-boolean p1, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->l:Z
 
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->t:Z
+
     .line 72
     .line 73
     return-void
 .end method
 
+.method public final pinchZoom(F)Z
+    .locals 5
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->m:LV2/K;
+
+    if-eqz v0, :return_false
+
+    iget-object v0, v0, LV2/K;->a:LV2/k;
+
+    iget-object v1, v0, LV2/k;->h1:Landroid/view/View;
+
+    invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
+
+    move-result v1
+
+    if-nez v1, :return_false
+
+    const/high16 v1, 0x3f860000    # 1.046875f
+
+    cmpl-float v1, p1, v1
+
+    if-lez v1, :check_wide
+
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;->TELE:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;
+
+    goto :direction_ready
+
+    :check_wide
+    const/high16 v1, 0x3f730000    # 0.94921875f
+
+    cmpg-float v1, p1, v1
+
+    if-ltz v1, :wide
+
+    goto :return_false
+
+    :wide
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;->WIDE:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;
+
+    :direction_ready
+    iget-boolean v2, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->t:Z
+
+    if-eqz v2, :start_zoom
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :start_zoom
+    sget-object v2, LN2/q0;->g:LN2/X;
+
+    iget-object v2, v2, LN2/X;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;
+
+    if-eqz v2, :return_false
+
+    iget v3, v0, LV2/k;->o1:I
+
+    iget-object v4, v0, LV2/k;->u1:LV2/k$q;
+
+    :try_start_0
+    invoke-interface {v2, v1, v3, v4}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;->startDriveZZoom(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;ILcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraZZoomDriveListener;)V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->t:Z
+
+    :try_end_0
+    return v0
+    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    sget-object v0, LN2/q0;->a:Landroid/view/animation/AccelerateInterpolator;
+
+    :return_false
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final zoomGesture(Landroid/view/MotionEvent;)Z
+    .locals 7
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->m:LV2/K;
+
+    if-eqz v0, :return_false
+
+    iget-object v0, v0, LV2/K;->a:LV2/k;
+
+    iget-object v1, v0, LV2/k;->h1:Landroid/view/View;
+
+    invoke-virtual {v1}, Landroid/view/View;->getVisibility()I
+
+    move-result v1
+
+    if-nez v1, :return_false
+
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
+
+    move-result v1
+
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    move-result v2
+
+    int-to-float v2, v2
+
+    const/high16 v3, 0x3f000000    # 0.5f
+
+    mul-float/2addr v2, v3
+
+    cmpg-float v1, v1, v2
+
+    if-gez v1, :tele
+
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;->WIDE:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;
+
+    goto :direction_ready
+
+    :tele
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;->TELE:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;
+
+    :direction_ready
+    sget-object v2, LN2/q0;->g:LN2/X;
+
+    iget-object v2, v2, LN2/X;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;
+
+    if-eqz v2, :return_false
+
+    iget v3, v0, LV2/k;->o1:I
+
+    iget-object v4, v0, LV2/k;->u1:LV2/k$q;
+
+    :try_start_0
+    invoke-interface {v2, v1, v3, v4}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;->startDriveZZoom(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/ZZoomDriveDirection;ILcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraZZoomDriveListener;)V
+
+    new-instance v5, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView$f;
+
+    invoke-direct {v5, p0}, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView$f;-><init>(Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;)V
+
+    const/16 v6, 0x140
+
+    const/4 v0, 0x0
+
+    invoke-static {v5, v6, v0}, LN2/q0;->q(Ljava/lang/Runnable;II)V
+    :try_end_0
+    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :catch_0
+    sget-object v0, LN2/q0;->a:Landroid/view/animation/AccelerateInterpolator;
+
+    :return_false
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final stopGestureZoom()V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->t:Z
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->m:LV2/K;
+
+    if-eqz v0, :return
+
+    iget-object v0, v0, LV2/K;->a:LV2/k;
+
+    sget-object v1, LN2/q0;->g:LN2/X;
+
+    iget-object v1, v1, LN2/X;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;
+
+    if-eqz v1, :return
+
+    iget-object v0, v0, LV2/k;->u1:LV2/k$q;
+
+    :try_start_0
+    invoke-interface {v1, v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;->stopDriveZZoom(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraZZoomDriveListener;)V
+    :try_end_0
+    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    sget-object v0, LN2/q0;->a:Landroid/view/animation/AccelerateInterpolator;
+
+    :return
+    return-void
+.end method
+
 
 # virtual methods
+.method public final focusSingleTap(Landroid/view/MotionEvent;)Z
+    .locals 5
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->d:Landroid/graphics/Bitmap;
+
+    if-eqz v0, :return_false
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->c:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/liveview/CameraLiveViewDetailCommon;
+
+    if-eqz v0, :return_false
+
+    invoke-virtual {v0}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/liveview/CameraLiveViewDetailCommon;->getWholeSize()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/liveview/CameraLiveViewSize;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
+
+    move-result v1
+
+    int-to-float v1, v1
+
+    invoke-virtual {v0}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/liveview/CameraLiveViewSize;->getWidth()I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    div-float/2addr v1, v0
+
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
+
+    move-result v0
+
+    div-float/2addr v0, v1
+
+    float-to-int v2, v0
+
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->getY()F
+
+    move-result v0
+
+    div-float/2addr v0, v1
+
+    float-to-int v3, v0
+
+    invoke-virtual {p0, v2, v3}, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->e(II)V
+
+    const/4 v4, 0x1
+
+    return v4
+
+    :return_false
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
 .method public final a(Ljava/util/List;)V
     .locals 4
     .annotation system Ldalvik/annotation/Signature;
@@ -1762,6 +2044,26 @@
 .method public final onTouchEvent(Landroid/view/MotionEvent;)Z
     .locals 3
 
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->s:Landroid/view/ScaleGestureDetector;
+
+    invoke-virtual {v0, p1}, Landroid/view/ScaleGestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->q:Landroid/view/GestureDetector;
+
+    invoke-virtual {v0, p1}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
+
+    sget-object v0, LV2/k;->F1:LV2/k;
+
+    if-eqz v0, :after_f1
+
+    invoke-virtual {v0}, LV2/k;->V()V
+
+    :after_f1
+
+    const/4 v0, 0x1
+
+    return v0
+
     .line 1
     sget-object v0, LV2/k;->F1:LV2/k;
 
@@ -1830,6 +2132,19 @@
     .line 31
     if-nez v0, :cond_4
 
+    iget-boolean v1, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->r:Z
+
+    if-eqz v1, :continue_action_down
+
+    const/4 v1, 0x0
+
+    iput-boolean v1, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->r:Z
+
+    const/4 v1, 0x1
+
+    goto :cond_4
+
+    :continue_action_down
     .line 32
     .line 33
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/frontend/ui/NklLiveView;->m:LV2/K;

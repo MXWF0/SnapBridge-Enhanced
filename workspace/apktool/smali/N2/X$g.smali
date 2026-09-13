@@ -107,6 +107,54 @@
     sput-object v0, LN2/y;->b:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;
 
     :enhanced_state_ready
+    sget-object v0, LN2/y;->c:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;->NOT_CONNECTED:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;
+    if-ne v0, v1, :status_stats_ready
+    sget-object v0, LN2/y;->b:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;->CONNECTED:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;
+    if-ne v0, v1, :clear_status_stats
+    goto :status_stats_ready
+
+    :clear_status_stats
+    const/4 v0, -0x1
+    sput v0, LN2/y;->j:I
+    sput v0, LN2/y;->k:I
+    const/4 v0, 0x0
+    sput-object v0, LN2/q0;->p:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferStatus;
+    sput v0, LN2/y;->m:I
+    sput v0, LN2/y;->i:I
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraConnectionMode;->PAIRING:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraConnectionMode;
+    sput-object v0, LN2/y;->d:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraConnectionMode;
+    sget v0, LN2/y;->l:I
+    add-int/lit8 v0, v0, 0x1
+    sput v0, LN2/y;->l:I
+
+    :status_stats_ready
+    sget-object v2, LN2/y;->c:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;
+
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;->NOT_CONNECTED:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;
+
+    if-ne v2, v0, :enhanced_state_connected
+
+    sget-object v2, LN2/y;->b:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;
+
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;->CONNECTED:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBleConnectionState;
+
+    if-ne v2, v0, :enhanced_state_idle
+
+    :enhanced_state_connected
+    sget-object v2, LN2/y$b;->c:LN2/y$b;
+
+    sput-object v2, LN2/y;->e:LN2/y$b;
+
+    goto :enhanced_state_update
+
+    :enhanced_state_idle
+    sget-object v2, LN2/y$b;->a:LN2/y$b;
+
+    sput-object v2, LN2/y;->e:LN2/y$b;
+
+    :enhanced_state_update
     invoke-static {}, LO2/EnhancedHomeStatus;->update()V
 
     .line 27

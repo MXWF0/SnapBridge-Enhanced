@@ -22882,6 +22882,24 @@
     .line 1
     sget-object v0, Lsnapbridge/backend/l7;->p:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
 
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->isCameraImageTransferResumeAllowed()Z
+
+    move-result v4
+
+    if-nez v4, :resume_allowed
+
+    const/4 v1, 0x0
+
+    new-array v2, v1, [Ljava/lang/Object;
+
+    const-string v3, "resumeCameraImageTransfer blocked by enhanced power state."
+
+    invoke-virtual {v0, v3, v2}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    return-void
+
+    :resume_allowed
+
     .line 2
     .line 3
     const/4 v1, 0x0
@@ -24059,43 +24077,6 @@
     .line 19
     .line 20
     .line 21
-    if-eqz p1, :cond_0
-
-    .line 22
-    .line 23
-    sget-object v3, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
-
-    .line 24
-    .line 25
-    if-ne p1, v3, :cond_0
-
-    .line 26
-    .line 27
-    iget-object p1, v1, Lsnapbridge/backend/Kv;->a:Lsnapbridge/backend/Iv;
-
-    .line 28
-    .line 29
-    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_2MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
-
-    .line 30
-    .line 31
-    check-cast p1, Lsnapbridge/backend/Jv;
-
-    .line 32
-    .line 33
-    iget-object p1, p1, Lsnapbridge/backend/Jv;->a:Lsnapbridge/backend/Hv;
-
-    .line 34
-    .line 35
-    invoke-virtual {p1, v1}, Lsnapbridge/backend/Hv;->b(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;)V
-
-    .line 36
-    .line 37
-    .line 38
-    goto :goto_0
-
-    .line 39
-    :cond_0
     iget-object v1, v1, Lsnapbridge/backend/Kv;->a:Lsnapbridge/backend/Iv;
 
     .line 40

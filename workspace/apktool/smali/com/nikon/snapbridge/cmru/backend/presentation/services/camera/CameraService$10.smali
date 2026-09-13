@@ -46,6 +46,18 @@
     .line 1
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$10;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
 
+    iget-object v0, v0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
+    invoke-virtual {v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;->onCameraConnected()V
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$10;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    iget-object v0, v0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
+    invoke-virtual {v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;->refreshCameraBattery()V
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$10;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
     .line 2
     .line 3
     invoke-virtual {v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->switchForegroundService()V
@@ -61,6 +73,10 @@
 
     .line 1
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$10;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    iget-object v1, v0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
+
+    invoke-virtual {v1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;->onCameraDisconnected()V
 
     .line 2
     .line 3

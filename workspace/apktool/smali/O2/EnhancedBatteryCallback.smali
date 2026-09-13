@@ -2,11 +2,14 @@
 .super Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraGetBatteryStatusListener$Stub;
 .source "EnhancedBatteryCallback.java"
 
+.field private final a:I
+
 # direct methods
 
-.method public constructor <init>()V
+.method public constructor <init>(I)V
     .locals 0
 
+    iput p1, p0, LO2/EnhancedBatteryCallback;->a:I
     invoke-direct {p0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraGetBatteryStatusListener$Stub;-><init>()V
     return-void
 .end method
@@ -14,7 +17,11 @@
 # virtual methods
 
 .method public final onCompleted(Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBatteryStatus;)V
-    .locals 1
+    .locals 2
+
+    sget v0, LN2/y;->l:I
+    iget v1, p0, LO2/EnhancedBatteryCallback;->a:I
+    if-ne v0, v1, :return
 
     if-eqz p1, :reset
 
@@ -25,19 +32,29 @@
     invoke-virtual {p1}, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraBatteryStatus;->getBatteryLevel()I
     move-result p1
     sput p1, LN2/y;->j:I
+    const/4 v0, 0x0
+    sput v0, LN2/y;->m:I
     invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+    :return
     return-void
 
     :reset
     const/4 p1, -0x1
     sput p1, LN2/y;->j:I
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
     return-void
 .end method
 
 .method public final onError(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/entities/CameraGetBatteryStatusErrorCode;)V
-    .locals 0
+    .locals 2
+
+    sget v0, LN2/y;->l:I
+    iget v1, p0, LO2/EnhancedBatteryCallback;->a:I
+    if-ne v0, v1, :return_error
 
     const/4 p1, -0x1
     sput p1, LN2/y;->j:I
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
+    :return_error
     return-void
 .end method

@@ -4873,7 +4873,151 @@
 .end method
 
 .method public final close()V
-    .locals 6
+    .locals 12
+
+    iget-object v0, p0, Lsnapbridge/backend/ll;->d:Lsnapbridge/backend/jl;
+
+    iget-object v1, v0, Lsnapbridge/backend/jl;->a:Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageType;
+
+    sget-object v2, Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageType;->STILL_JPEG:Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageType;
+
+    if-ne v1, v2, :size_bounds_done
+
+    iget-object v1, p0, Lsnapbridge/backend/ll;->a:Lsnapbridge/backend/hl;
+
+    iget-object v1, v1, Lsnapbridge/backend/hl;->i:Landroid/net/Uri;
+
+    if-eqz v1, :size_bounds_done
+
+    :try_start_size_bounds
+    iget-object v2, p0, Lsnapbridge/backend/ll;->o:Landroid/content/Context;
+
+    invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+
+    move-result-object v2
+
+    const-string v3, "r"
+
+    invoke-virtual {v2, v1, v3}, Landroid/content/ContentResolver;->openFileDescriptor(Landroid/net/Uri;Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
+
+    move-result-object v2
+
+    if-eqz v2, :size_bounds_done
+
+    new-instance v3, Landroid/graphics/BitmapFactory$Options;
+
+    invoke-direct {v3}, Landroid/graphics/BitmapFactory$Options;-><init>()V
+
+    const/4 v4, 0x1
+
+    iput-boolean v4, v3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
+
+    invoke-virtual {v2}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
+
+    move-result-object v4
+
+    const/4 v5, 0x0
+
+    invoke-static {v4, v5, v3}, Landroid/graphics/BitmapFactory;->decodeFileDescriptor(Ljava/io/FileDescriptor;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+
+    iget v4, v3, Landroid/graphics/BitmapFactory$Options;->outWidth:I
+
+    iget v5, v3, Landroid/graphics/BitmapFactory$Options;->outHeight:I
+
+    new-instance v6, Ljava/lang/StringBuilder;
+
+    const-string v7, "DIAG_TRANSFER_SIZE_ACTUAL requested="
+
+    invoke-direct {v6, v7}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v7, v0, Lsnapbridge/backend/jl;->b:Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v7, " actual="
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v7, "x"
+
+    invoke-virtual {v6, v7}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v6
+
+    const-string v7, "SnapBridgeTransfer"
+
+    invoke-static {v7, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    mul-int v6, v4, v5
+
+    const v7, 0x3d0900
+
+    iget-object v8, v0, Lsnapbridge/backend/jl;->b:Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;
+
+    sget-object v9, Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;->IMAGE_2MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;
+
+    if-ne v8, v9, :size_bounds_check_8mp
+
+    if-gt v6, v7, :size_bounds_mismatch
+
+    goto :size_bounds_close
+
+    :size_bounds_check_8mp
+    sget-object v9, Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;->IMAGE_8MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;
+
+    if-ne v8, v9, :size_bounds_check_original
+
+    if-le v6, v7, :size_bounds_mismatch
+
+    goto :size_bounds_close
+
+    :size_bounds_check_original
+    sget-object v9, Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/smartdevice/SmartDeviceImageSize;
+
+    if-ne v8, v9, :size_bounds_close
+
+    if-lez v6, :size_bounds_close
+
+    goto :size_bounds_close
+
+    :size_bounds_mismatch
+    const-string v6, "SnapBridgeTransfer"
+
+    const-string v7, "SIZE_MISMATCH requested="
+
+    invoke-static {v8}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v8
+
+    invoke-virtual {v7, v8}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-static {v6, v7}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :size_bounds_close
+    invoke-virtual {v2}, Landroid/os/ParcelFileDescriptor;->close()V
+    :try_end_size_bounds
+    .catch Ljava/io/IOException; {:try_start_size_bounds .. :try_end_size_bounds} :size_bounds_io
+
+    goto :size_bounds_done
+
+    :size_bounds_io
+    move-exception v2
+
+    const-string v3, "SnapBridgeTransfer"
+
+    const-string v4, "SIZE_MISMATCH unable_to_read_actual_dimensions"
+
+    invoke-static {v3, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :size_bounds_done
 
     .line 1
     iget-object v0, p0, Lsnapbridge/backend/ll;->a:Lsnapbridge/backend/hl;

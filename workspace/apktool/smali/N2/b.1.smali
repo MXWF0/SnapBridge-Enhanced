@@ -11,17 +11,16 @@
 
 .field public final synthetic b:LN2/j;
 
-
 # direct methods
 .method public synthetic constructor <init>(LN2/j;I)V
     .locals 0
 
     .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
     iput p2, p0, LN2/b;->a:I
 
     iput-object p1, p0, LN2/b;->b:LN2/j;
-
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
 .end method
@@ -73,6 +72,13 @@
     .line 19
     .line 20
     .line 21
+    return-void
+
+:pswitch_5
+    iget-object v0, p0, LN2/b;->b:LN2/j;
+
+    invoke-virtual {v0}, LN2/j;->startWebService()V
+
     return-void
 
     .line 22
@@ -1004,6 +1010,22 @@
     .line 491
     iput-object v3, v0, LN2/j;->y:LX2/d;
 
+    new-instance v4, Landroid/content/Intent;
+
+    const-string v5, "com.nikon.snapbridge.cmru.backend.camera.ENHANCED_TRANSFER_POWER_QUERY"
+
+    invoke-direct {v4, v5}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v4, v5}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+
+    move-result-object v4
+
+    invoke-virtual {v0, v4}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+
     .line 492
     .line 493
     iget-object v4, v2, Lb3/x;->i:Landroid/widget/FrameLayout;
@@ -1195,6 +1217,10 @@
 
     .line 589
     .line 590
+    invoke-virtual {v1, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+
+    const-string v2, "com.nikon.snapbridge.cmru.backend.camera.ENHANCED_TRANSFER_POWER_STATE"
+
     invoke-virtual {v1, v2}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
 
     .line 591
@@ -1398,5 +1424,6 @@
         :pswitch_2
         :pswitch_1
         :pswitch_0
+        :pswitch_5
     .end packed-switch
 .end method

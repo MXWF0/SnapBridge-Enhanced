@@ -38,7 +38,7 @@
 
 # virtual methods
 .method public final onConnected()V
-    .locals 2
+    .locals 3
 
     .line 1
     iget-object v0, p0, LX2/d$c;->a:LX2/d;
@@ -46,6 +46,32 @@
     .line 2
     .line 3
     invoke-virtual {v0}, LX2/d;->F()V
+
+    sget-object v1, LN2/q0;->g:LN2/X;
+
+    invoke-virtual {v1}, LN2/X;->A()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    if-ne v1, v2, :original_error_checked
+
+    sget-object v1, LN2/q0;->e:LN2/j;
+
+    const v2, 0x7f110518
+
+    invoke-virtual {v1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v0, -0x6
+
+    invoke-static {v0, v1, v2}, LN2/q0;->W(ILandroid/content/Context;Ljava/lang/String;)V
+
+    iget-object v0, p0, LX2/d$c;->a:LX2/d;
+
+    :original_error_checked
 
     .line 4
     .line 5

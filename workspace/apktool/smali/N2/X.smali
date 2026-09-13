@@ -6381,7 +6381,7 @@
 
 # virtual methods
 .method public final A()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
-    .locals 3
+    .locals 5
 
     .line 1
     iget-object v0, p0, LN2/X;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;
@@ -6415,6 +6415,20 @@
     .line 14
     move-result-object v0
 
+    const-string v2, "SnapBridgeTransfer"
+
+    const-string v3, "DIAG_TRANSFER_SIZE_SAVED transport=WIFI size="
+
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 15
     return-object v0
 
@@ -6426,6 +6440,20 @@
     .line 18
     .line 19
     move-result-object v0
+
+    const-string v2, "SnapBridgeTransfer"
+
+    const-string v3, "DIAG_TRANSFER_SIZE_SAVED transport=BTC size="
+
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v4
+
+    invoke-virtual {v3, v4}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -7270,9 +7298,29 @@
     .line 3
     if-nez v0, :cond_0
 
-    .line 4
-    .line 5
-    return-void
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_START_BINDER_MISSING"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v0, LN2/q0;->e:LN2/j;
+
+    iget-object v1, v0, LN2/j;->y:LX2/d;
+
+    if-eqz v1, :clear_context
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, LX2/d;->setProgressVisible(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->w(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setConnectStatus0(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setReceiveActive(Z)V
+
+    goto :clear_context
 
     .line 6
     :cond_0
@@ -7656,7 +7704,27 @@
 
     .line 166
     :catch_1
-    sget-object p1, LN2/q0;->a:Landroid/view/animation/AccelerateInterpolator;
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_START_REMOTE_EXCEPTION"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v0, LN2/q0;->e:LN2/j;
+
+    iget-object v1, v0, LN2/j;->y:LX2/d;
+
+    if-eqz v1, :clear_context
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, LX2/d;->setProgressVisible(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->w(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setConnectStatus0(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setReceiveActive(Z)V
 
     .line 167
     .line 168
@@ -8117,7 +8185,7 @@
 .end method
 
 .method public final U(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;)V
-    .locals 2
+    .locals 4
 
     .line 1
     iget-object v0, p0, LN2/X;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;
@@ -8132,6 +8200,20 @@
 
     .line 6
     :cond_0
+    const-string v1, "SnapBridgeTransfer"
+
+    const-string v2, "DIAG_TRANSFER_SIZE_REQUESTED size="
+
+    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     :try_start_0
     sget-boolean v1, LN2/q0;->u:Z
 
@@ -8150,7 +8232,64 @@
 
     .line 14
     :cond_1
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    if-ne p1, v1, :save_btc_setting
+
+    invoke-static {}, LN2/X;->M()Z
+
+    move-result v1
+
+    if-eqz v1, :original_wifi_unavailable
+
+    invoke-interface {v0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;->saveRemoteImageAutoTransferSetting(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;)V
+
     invoke-interface {v0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;->saveRemoteImageAutoTransferSettingForBtc(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;)V
+
+    const-string v1, "SnapBridgeTransfer"
+
+    const-string v2, "DIAG_TRANSFER_ORIGINAL_WIFI_FALLBACK_REQUEST"
+
+    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v1, LN2/q0;->e:LN2/j;
+
+    iget-object v1, v1, LN2/j;->y:LX2/d;
+
+    new-instance v2, LN2/u;
+
+    const/4 v3, -0x1
+
+    invoke-direct {v2, v1, v3}, LN2/u;-><init>(LX2/d;I)V
+
+    invoke-static {v2}, LN2/q0;->p(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    :original_wifi_unavailable
+    const-string v1, "SnapBridgeTransfer"
+
+    const-string v2, "DIAG_TRANSFER_ORIGINAL_WIFI_UNAVAILABLE"
+
+    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v2, LN2/q0;->e:LN2/j;
+
+    const v3, 0x7f110518
+
+    invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v3
+
+    const/4 v1, -0x6
+
+    invoke-static {v1, v2, v3}, LN2/q0;->W(ILandroid/content/Context;Ljava/lang/String;)V
+
+    goto :goto_0
+
+    :save_btc_setting
+    invoke-interface {v0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;->saveRemoteImageAutoTransferSettingForBtc(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;)V
+
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -8386,6 +8525,20 @@
 
     .line 4
     .line 5
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, LN2/X;->j:Z
+
+    const/4 v0, -0x1
+
+    invoke-interface {p1, v0}, LN2/A;->t(I)V
+
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_QUEUE_PAUSE_FAILED"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     return-void
 
     .line 6
@@ -8434,7 +8587,19 @@
 
     .line 26
     :catch_0
-    sget-object p1, LN2/q0;->a:Landroid/view/animation/AccelerateInterpolator;
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, LN2/X;->j:Z
+
+    const/4 v0, -0x1
+
+    invoke-interface {p1, v0}, LN2/A;->t(I)V
+
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_QUEUE_PAUSE_FAILED"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 27
     .line 28

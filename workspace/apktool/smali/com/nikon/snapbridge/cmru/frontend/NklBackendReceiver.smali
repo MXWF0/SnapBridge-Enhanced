@@ -62,6 +62,36 @@
     .line 6
     const-string v2, ""
 
+    const-string v3, "com.nikon.snapbridge.cmru.backend.camera.ENHANCED_TRANSFER_POWER_STATE"
+
+    invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :check_camera_battery
+
+    const-string v3, "paused"
+
+    const/4 v4, 0x0
+
+    invoke-virtual {p2, v3, v4}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+
+    move-result v3
+
+    sget-object v4, LN2/q0;->e:LN2/j;
+
+    if-eqz v4, :power_state_return
+
+    iget-object v4, v4, LN2/j;->y:LX2/d;
+
+    if-eqz v4, :power_state_return
+
+    invoke-virtual {v4, v3}, LX2/d;->setTransferPowerPaused(Z)V
+
+    :power_state_return
+    return-void
+
+    :check_camera_battery
     .line 7
     .line 8
     const-string v3, "com.nikon.snapbridge.cmru.backend.camera.NOTIFY_CAMERA_BATTERY_STATUS"
@@ -78,6 +108,11 @@
     .line 14
     if-eqz v3, :cond_1
 
+    const-string v4, "OBJECT"
+    invoke-virtual {p2, v4}, Landroid/content/Intent;->hasExtra(Ljava/lang/String;)Z
+    move-result v4
+    if-eqz v4, :camera_battery_missing_object
+
     .line 15
     .line 16
     invoke-static {p2}, Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraBatteryStatusNotification;->fromIntent(Landroid/content/Intent;)Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraBatteryStatusNotification;
@@ -86,6 +121,8 @@
     .line 18
     .line 19
     move-result-object p2
+
+    if-eqz p2, :camera_battery_null_object
 
     .line 20
     invoke-virtual {p2}, Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraBatteryStatusNotification;->getAlertLevel()Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraBatteryStatusNotification$AlertLevel;
@@ -138,6 +175,18 @@
 
     .line 44
     .line 45
+    :camera_battery_missing_object
+    const-string v3, "SnapBridgeBackend"
+    const-string v4, "Ignoring camera battery notification without OBJECT"
+    invoke-static {v3, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    return-void
+
+    :camera_battery_null_object
+    const-string v3, "SnapBridgeBackend"
+    const-string v4, "Ignoring camera battery notification with null OBJECT"
+    invoke-static {v3, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    return-void
+
     :cond_1
     const-string v3, "com.nikon.snapbridge.cmru.backend.camera.NOTIFY_WMU_AUTO_TRANSFER_WAIT_LIST_ADDED"
 
@@ -405,6 +454,49 @@
     .line 173
     .line 174
     move-result-object v0
+
+    sget-object v2, Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;->FAILED_COMMUNICATION_TO_CAMERA:Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;
+
+    if-ne v0, v2, :check_original_invalid_format
+
+    goto :original_failure_candidate
+
+    :check_original_invalid_format
+    sget-object v2, Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;->INVALID_FORMAT:Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;
+
+    if-ne v0, v2, :check_original_system_error
+
+    goto :original_failure_candidate
+
+    :check_original_system_error
+    sget-object v2, Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;->SYSTEM_ERROR:Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;
+
+    if-ne v0, v2, :original_failure_checks_done
+
+    :original_failure_candidate
+    sget-object v2, LN2/q0;->g:LN2/X;
+
+    invoke-virtual {v2}, LN2/X;->A()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    move-result-object v2
+
+    sget-object v4, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    if-ne v2, v4, :original_failure_checks_done
+
+    const v2, 0x7f110518
+
+    invoke-virtual {p1, v2}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v2
+
+    const/4 v3, -0x6
+
+    invoke-static {v3, p1, v2}, LN2/q0;->W(ILandroid/content/Context;Ljava/lang/String;)V
+
+    goto :goto_2
+
+    :original_failure_checks_done
 
     .line 175
     sget-object v2, Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;->WRITE_STORAGE_PERMISSION_DENIED:Lcom/nikon/snapbridge/cmru/backend/presentation/notification/camera/CameraImageTransferNotification$ResultCode;

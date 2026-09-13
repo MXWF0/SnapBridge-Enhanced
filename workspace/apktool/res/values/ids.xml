@@ -1306,4 +1306,7 @@
     <item type="id" name="home_connection_state" />
     <item type="id" name="setting_btn_power_transfer" />
     <item type="id" name="home_status_detail" />
+    <item type="id" name="v_original" />
+    <item type="id" name="iv_original" />
+    <item type="id" name="btn_original" />
 </resources>

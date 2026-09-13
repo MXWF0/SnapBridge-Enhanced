@@ -47,6 +47,10 @@
 
 .field public static k:I
 
+.field public static l:I
+
+.field public static m:I
+
 
 # direct methods
 .method static constructor <clinit>()V
@@ -88,6 +92,12 @@
     sput v1, LN2/y;->j:I
 
     sput v1, LN2/y;->k:I
+
+    const/4 v1, 0x0
+
+    sput v1, LN2/y;->l:I
+
+    sput v1, LN2/y;->m:I
 
     .line 16
     .line 17

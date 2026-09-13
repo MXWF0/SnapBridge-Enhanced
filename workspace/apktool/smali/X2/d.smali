@@ -35,6 +35,8 @@
 
 .field public final G:LX2/d$c;
 
+.field public final H:LX2/TransferPauseController;
+
 .field public i:LX2/d$f;
 
 .field public j:Z
@@ -253,6 +255,8 @@
     new-instance v4, LX2/TransferPauseController;
 
     invoke-direct {v4, v3}, LX2/TransferPauseController;-><init>(Landroid/widget/Button;)V
+
+    iput-object v4, p0, LX2/d;->H:LX2/TransferPauseController;
 
     invoke-virtual {v3, v4}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2589,6 +2593,16 @@
     .line 2
     .line 3
     return-object v0
+.end method
+
+.method public final setTransferPowerPaused(Z)V
+    .locals 1
+
+    iget-object v0, p0, LX2/d;->H:LX2/TransferPauseController;
+
+    invoke-virtual {v0, p1}, LX2/TransferPauseController;->u(Z)V
+
+    return-void
 .end method
 
 .method public final n()V

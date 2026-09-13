@@ -59,12 +59,28 @@
     sget-object v5, LN2/y;->e:LN2/y$b;
     sget-object v6, LN2/y$b;->b:LN2/y$b;
     if-ne v5, v6, :check_failed
+    invoke-static {}, LN2/q0;->C()Z
+    move-result v6
+    if-eqz v6, :show_connecting
+    sget-object v5, LN2/y$b;->c:LN2/y$b;
+    sput-object v5, LN2/y;->e:LN2/y$b;
+    goto :check_remote
+
+    :show_connecting
     const v2, 0x7f1104fd
     goto :set_state
 
     :check_failed
     sget-object v6, LN2/y$b;->d:LN2/y$b;
     if-ne v5, v6, :check_remote
+    invoke-static {}, LN2/q0;->C()Z
+    move-result v6
+    if-eqz v6, :show_failed
+    sget-object v5, LN2/y$b;->c:LN2/y$b;
+    sput-object v5, LN2/y;->e:LN2/y$b;
+    goto :check_remote
+
+    :show_failed
     const v2, 0x7f110502
     goto :set_state
 
@@ -170,6 +186,43 @@
     :set_state
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(I)V
 
+    const v5, 0x7f1104fa
+    if-eq v2, v5, :show_prompt
+    const v5, 0x7f1104fc
+    if-eq v2, v5, :show_prompt
+    const v5, 0x7f1104fd
+    if-eq v2, v5, :show_prompt
+    const v5, 0x7f110501
+    if-eq v2, v5, :show_prompt
+    goto :hide_prompt
+
+    :show_prompt
+    const/4 v5, 0x0
+    invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    move-result-object v6
+    check-cast v6, Landroid/view/View;
+    invoke-virtual {v6, v5}, Landroid/view/View;->setVisibility(I)V
+    if-eqz v3, :state_visibility_done
+    invoke-virtual {v3, v5}, Landroid/view/View;->setVisibility(I)V
+    goto :state_visibility_done
+
+    :hide_prompt
+    const/16 v5, 0x8
+    invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    move-result-object v6
+    check-cast v6, Landroid/view/View;
+    invoke-virtual {v6, v5}, Landroid/view/View;->setVisibility(I)V
+    const-string v5, ""
+    invoke-virtual {v1, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    if-eqz v3, :state_visibility_done
+    const-string v5, ""
+    invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    const/16 v5, 0x8
+    invoke-virtual {v3, v5}, Landroid/view/View;->setVisibility(I)V
+    :state_visibility_done
+
     invoke-static {}, LN2/q0;->C()Z
     move-result v5
     if-eqz v5, :disconnected
@@ -177,17 +230,33 @@
     sget v6, LN2/y;->j:I
     const/4 v7, -0x1
     if-ne v6, v7, :battery_ready
+    sget v8, LN2/y;->m:I
+    const/4 v9, 0x2
+    if-ge v8, v9, :battery_ready
+    add-int/lit8 v8, v8, 0x1
+    sput v8, LN2/y;->m:I
+    sget v9, LN2/y;->l:I
+    add-int/lit8 v9, v9, 0x1
+    sput v9, LN2/y;->l:I
     const/4 v6, -0x2
     sput v6, LN2/y;->j:I
     sget-object v6, LN2/q0;->g:LN2/X;
     iget-object v6, v6, LN2/X;->a:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;
     if-eqz v6, :battery_request_reset
     new-instance v7, LO2/EnhancedBatteryCallback;
-    invoke-direct {v7}, LO2/EnhancedBatteryCallback;-><init>()V
+    invoke-direct {v7, v9}, LO2/EnhancedBatteryCallback;-><init>(I)V
     :try_start_0
     invoke-interface {v6, v7}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraService;->getActiveCameraBatteryStatus(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraGetBatteryStatusListener;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :battery_remote
+    new-instance v8, Landroid/os/Handler;
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+    move-result-object v10
+    invoke-direct {v8, v10}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+    new-instance v7, LO2/EnhancedBatteryTimeout;
+    invoke-direct {v7, v9}, LO2/EnhancedBatteryTimeout;-><init>(I)V
+    const-wide/16 v10, 0x1388
+    invoke-virtual {v8, v7, v10, v11}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
     goto :battery_ready
 
     :battery_remote
@@ -324,13 +393,37 @@
     invoke-virtual {v3, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
     return-void
 
-    :disconnected
+:disconnected
     const/4 v5, -0x1
     sput v5, LN2/y;->j:I
     sput v5, LN2/y;->k:I
+    const/4 v5, 0x0
+    sput v5, LN2/y;->m:I
+    sget v5, LN2/y;->l:I
+    add-int/lit8 v5, v5, 0x1
+    sput v5, LN2/y;->l:I
+    const v5, 0x7f1104fd
+    if-eq v2, v5, :keep_disconnected_state
+    const v5, 0x7f1104fa
+    if-eq v2, v5, :keep_disconnected_state
+    const v5, 0x7f1104fc
+    if-eq v2, v5, :keep_disconnected_state
+    const v5, 0x7f110501
+    if-eq v2, v5, :keep_disconnected_state
+    const/16 v5, 0x8
+    invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
+    move-result-object v6
+    check-cast v6, Landroid/view/View;
+    invoke-virtual {v6, v5}, Landroid/view/View;->setVisibility(I)V
+    const-string v5, ""
+    invoke-virtual {v1, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    :keep_disconnected_state
     if-eqz v3, :disconnected_icon
     const-string v5, ""
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    const/16 v5, 0x8
+    invoke-virtual {v3, v5}, Landroid/view/View;->setVisibility(I)V
     :disconnected_icon
     if-eqz v4, :return
     const v5, 0x7f070322

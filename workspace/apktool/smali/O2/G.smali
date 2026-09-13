@@ -20,6 +20,10 @@
 
 .field public p:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/AutoLinkSettingInfo;
 
+.field public q:Landroid/view/View;
+
+.field public r:Landroid/widget/ImageView;
+
 
 # virtual methods
 .method public final n()V
@@ -147,7 +151,7 @@
 .end method
 
 .method public final onClick(Landroid/view/View;)V
-    .locals 2
+    .locals 4
 
     .line 1
     invoke-virtual {p1}, Landroid/view/View;->getId()I
@@ -230,6 +234,14 @@
     .line 42
     move-result-object p1
 
+    sget-object v2, LN2/q0;->g:LN2/X;
+
+    invoke-virtual {v2}, LN2/X;->K()Z
+
+    move-result v2
+
+    if-eqz v2, :unsupported_8mp_autolink
+
     .line 43
     sget-object v0, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_8MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
 
@@ -245,13 +257,50 @@
     .line 49
     .line 50
     .line 51
+    goto :goto_0
+
+    :unsupported_8mp_autolink
+    const-string v2, "SnapBridgeTransfer"
+
+    const-string v3, "DIAG_TRANSFER_SIZE_UNSUPPORTED requested=IMAGE_8MP"
+
+    invoke-static {v2, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v2, LN2/q0;->e:LN2/j;
+
+    const v3, 0x7f110517
+
+    invoke-virtual {v2, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v3
+
+    const/4 v0, -0x6
+
+    invoke-static {v0, v2, v3}, LN2/q0;->W(ILandroid/content/Context;Ljava/lang/String;)V
+
+    return-void
+
     :cond_1
+    const p1, 0x7f0805e0
+
+    if-ne v0, p1, :goto_0
+
+    invoke-virtual {v1}, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/AutoLinkSettingInfo;->getCameraImageAutoTransfer()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferSetting;
+
+    move-result-object p1
+
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    invoke-virtual {p1, v0}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferSetting;->setSize(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;)V
+
+    invoke-virtual {p0}, LO2/G;->u()V
+
     :goto_0
     return-void
 .end method
 
 .method public final u()V
-    .locals 8
+    .locals 9
 
     .line 1
     iget-object v0, p0, LO2/G;->p:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/AutoLinkSettingInfo;
@@ -347,6 +396,10 @@
     .line 48
     invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
 
+    iget-object v2, p0, LO2/G;->q:Landroid/view/View;
+
+    invoke-virtual {v2, v1}, Landroid/view/View;->setVisibility(I)V
+
     .line 49
     .line 50
     .line 51
@@ -360,31 +413,27 @@
     .line 55
     const/16 v3, 0x8
 
-    .line 56
-    .line 57
-    if-eqz v1, :cond_0
+    iget-object v2, p0, LO2/G;->l:Landroid/view/View;
 
-    .line 58
-    .line 59
+    if-eqz v1, :enhanced_hide_8mp
+
     invoke-virtual {v1}, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/DisplayRegisteredCameraInfo;->isSupport8MP()Z
 
-    .line 60
-    .line 61
-    .line 62
     move-result v4
 
-    .line 63
-    if-nez v4, :cond_1
+    if-eqz v4, :enhanced_hide_8mp
 
-    .line 64
-    .line 65
-    :cond_0
+    goto :enhanced_8mp_ready
+
+    :enhanced_hide_8mp
+    iget-object v2, p0, LO2/G;->l:Landroid/view/View;
+
     invoke-virtual {v2, v3}, Landroid/view/View;->setVisibility(I)V
 
-    .line 66
-    .line 67
-    .line 68
-    :cond_1
+    :enhanced_8mp_ready
+
+    .line 56
+    .line 57
     invoke-virtual {v0}, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/AutoLinkSettingInfo;->getCameraImageAutoTransfer()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferSetting;
 
     .line 69
@@ -405,9 +454,13 @@
 
     sget-object v6, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_8MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
 
+    sget-object v8, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
     if-eq v2, v4, :enhanced_size_valid
 
     if-eq v2, v6, :enhanced_size_valid
+
+    if-eq v2, v8, :enhanced_size_valid
 
     invoke-virtual {v0}, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/AutoLinkSettingInfo;->getCameraImageAutoTransfer()Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferSetting;
 
@@ -430,6 +483,8 @@
     .line 81
     iget-object v7, p0, LO2/G;->n:Landroid/widget/ImageView;
 
+    iget-object v8, p0, LO2/G;->r:Landroid/widget/ImageView;
+
     .line 82
     .line 83
     if-ne v2, v4, :cond_2
@@ -450,6 +505,8 @@
     .line 91
     .line 92
     invoke-virtual {v6, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    invoke-virtual {v8, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 93
     .line 94
@@ -513,6 +570,8 @@
     .line 123
     invoke-virtual {v6, v0}, Landroid/widget/ImageView;->setVisibility(I)V
 
+    invoke-virtual {v8, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
     .line 124
     .line 125
     .line 126
@@ -520,20 +579,14 @@
 
     .line 127
     :cond_3
-    invoke-static {v5}, LN2/q0;->H0(Z)I
-
-    .line 128
-    .line 129
-    .line 130
-    move-result v0
-
-    .line 131
-    invoke-virtual {v7, v0}, Landroid/widget/ImageView;->setVisibility(I)V
+    invoke-virtual {v7, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 132
     .line 133
     .line 134
     invoke-virtual {v6, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    invoke-virtual {v8, v3}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 135
     .line 136
@@ -548,6 +601,18 @@
     .line 140
     .line 141
     invoke-virtual {v6, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    invoke-virtual {v8, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    sget-object v2, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    if-ne v0, v2, :goto_0
+
+    invoke-static {v5}, LN2/q0;->H0(Z)I
+
+    move-result v0
+
+    invoke-virtual {v8, v0}, Landroid/widget/ImageView;->setVisibility(I)V
 
     .line 142
     .line 143

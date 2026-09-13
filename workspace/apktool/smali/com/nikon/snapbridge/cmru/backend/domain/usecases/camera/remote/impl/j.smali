@@ -806,6 +806,17 @@
 
     .line 76
     :cond_4
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    move-object/from16 v4, p3
+
+    if-ne v4, v0, :fallback_2mp_thumbnail
+
+    invoke-virtual {v9, v1}, Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/remote/impl/a;->a(Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/remote/CameraAutoTransferImageForRemoteUseCase$ReceiveImageErrorCode;)V
+
+    goto/16 :goto_9
+
+    :fallback_2mp_thumbnail
     sget-object v4, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_2MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
 
     move-object/from16 v1, p0
@@ -863,6 +874,8 @@
 
     .line 80
     :cond_6
+    move-object v14, v1
+
     invoke-virtual/range {p3 .. p3}, Ljava/lang/Enum;->ordinal()I
 
     move-result v0
@@ -902,6 +915,17 @@
 
     .line 85
     :cond_9
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
+    move-object/from16 v4, p3
+
+    if-ne v4, v0, :fallback_2mp_communication
+
+    invoke-virtual {v9, v14}, Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/remote/impl/a;->a(Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/remote/CameraAutoTransferImageForRemoteUseCase$ReceiveImageErrorCode;)V
+
+    goto/16 :goto_9
+
+    :fallback_2mp_communication
     sget-object v4, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_2MP:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
 
     move-object/from16 v1, p0
