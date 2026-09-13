@@ -82,7 +82,7 @@
 
 # virtual methods
 .method public final declared-synchronized a()V
-    .locals 3
+    .locals 4
 
     .line 1
     monitor-enter p0
@@ -126,7 +126,26 @@
 
     .line 20
     .line 21
+    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v3, 0x21
+
+    if-lt v2, v3, :legacy_register
+
+    const/4 v2, 0x2
+
+    invoke-virtual {v1, p0, v0, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+
+    move-result-object v2
+
+    goto :registered
+
+    :legacy_register
     invoke-virtual {v1, p0, v0}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+
+    move-result-object v2
+
+    :registered
 
     .line 22
     .line 23

@@ -97,6 +97,7 @@
         <receiver android:enabled="true" android:exported="false" android:name="com.nikon.snapbridge.cmru.frontend.NklBackendReceiver">
             <intent-filter>
                 <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_CAMERA_BATTERY_STATUS"/>
+                <action android:name="com.nikon.snapbridge.cmru.backend.camera.ENHANCED_TRANSFER_POWER_STATE"/>
                 <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_IMAGE_TRANSFER_STATUS"/>
                 <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_CAMERA_NOT_FOUND"/>
                 <action android:name="com.nikon.snapbridge.cmru.backend.camera.NOTIFY_IMAGE_TRANSFER_START"/>

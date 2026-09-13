@@ -1642,7 +1642,7 @@ SnapBridge启动时，链接将会重新建立。"</string>
     <string name="enhanced_state_reconnecting">重连中</string>
     <string name="enhanced_state_failed">连接失败</string>
     <string name="setting_power_transfer">智能传输省电</string>
-    <string name="setting_power_transfer_summary">手机低电量或系统省电模式下暂停自动传输</string>
+    <string name="setting_power_transfer_summary">相机/手机低电量或系统省电模式下暂停自动传输</string>
     <string name="power_transfer_title">自动传输暂停阈值</string>
     <string name="power_transfer_off">关闭</string>
     <string name="power_transfer_10">10%</string>
@@ -1656,6 +1656,7 @@ SnapBridge启动时，链接将会重新建立。"</string>
     <string name="notification_remaining">剩余</string>
     <string name="notification_paused_battery">已暂停：手机电量低</string>
     <string name="notification_paused_saver">已暂停：系统省电模式</string>
+    <string name="notification_paused_camera">相机电量较低，已暂停自动传输</string>
     <string name="home_detail_battery">相机电量</string>
     <string name="home_detail_remaining_shots">剩余可拍</string>
 </resources>

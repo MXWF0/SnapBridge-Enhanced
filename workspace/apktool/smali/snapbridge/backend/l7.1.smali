@@ -22882,6 +22882,24 @@
     .line 1
     sget-object v0, Lsnapbridge/backend/l7;->p:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
 
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->isCameraImageTransferResumeAllowed()Z
+
+    move-result v4
+
+    if-nez v4, :resume_allowed
+
+    const/4 v1, 0x0
+
+    new-array v2, v1, [Ljava/lang/Object;
+
+    const-string v3, "resumeCameraImageTransfer blocked by enhanced power state."
+
+    invoke-virtual {v0, v3, v2}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    return-void
+
+    :resume_allowed
+
     .line 2
     .line 3
     const/4 v1, 0x0

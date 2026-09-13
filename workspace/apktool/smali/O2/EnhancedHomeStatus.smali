@@ -329,8 +329,8 @@
     sput v5, LN2/y;->j:I
     sput v5, LN2/y;->k:I
     if-eqz v3, :disconnected_icon
-    const-string v5, ""
-    invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    const v5, 0x7f1101ae
+    invoke-virtual {v3, v5}, Landroid/widget/TextView;->setText(I)V
     :disconnected_icon
     if-eqz v4, :return
     const v5, 0x7f070322

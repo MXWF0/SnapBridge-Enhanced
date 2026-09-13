@@ -31,7 +31,9 @@
 
     const/16 v6, 0xf
 
-    invoke-interface {v1, v5, v6}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    const/16 v7, 0xa
+
+    invoke-interface {v1, v5, v7}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
 
     move-result v1
 

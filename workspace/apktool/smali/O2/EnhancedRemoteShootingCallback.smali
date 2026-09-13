@@ -27,6 +27,7 @@
 
     const/4 v0, -0x1
     sput v0, LN2/y;->k:I
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
     return-void
 .end method
 
@@ -47,6 +48,7 @@
     :reset
     const/4 p1, -0x1
     sput p1, LN2/y;->k:I
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
     return-void
 .end method
 

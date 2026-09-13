@@ -180,9 +180,18 @@
 
     const/4 v2, 0x2
 
-    if-ne v1, v2, :battery_reason
+    if-ne v1, v2, :camera_reason
 
     const v1, 0x7f110511
+
+    goto :reason
+
+    :camera_reason
+    const/4 v2, 0x3
+
+    if-ne v1, v2, :battery_reason
+
+    const v1, 0x7f110515
 
     goto :reason
 

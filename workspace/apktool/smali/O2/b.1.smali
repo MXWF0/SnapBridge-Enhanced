@@ -1683,6 +1683,14 @@
     .line 206
     iput-object v1, p1, LO2/G;->l:Landroid/view/View;
 
+    const v1, 0x7f0805de
+
+    invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    iput-object v1, p1, LO2/G;->q:Landroid/view/View;
+
     .line 207
     .line 208
     const v1, 0x7f080463
@@ -1759,6 +1767,20 @@
     .line 246
     .line 247
     .line 248
+    invoke-virtual {p1, v1}, Lb3/L;->i(I)Landroid/widget/Button;
+
+    const v1, 0x7f0805df
+
+    invoke-virtual {p1, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/ImageView;
+
+    iput-object v1, p1, LO2/G;->r:Landroid/widget/ImageView;
+
+    const v1, 0x7f0805e0
+
     invoke-virtual {p1, v1}, Lb3/L;->i(I)Landroid/widget/Button;
 
     .line 249

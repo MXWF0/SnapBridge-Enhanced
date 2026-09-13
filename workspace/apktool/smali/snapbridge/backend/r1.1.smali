@@ -148,6 +148,39 @@
     .line 55
     if-eqz p2, :cond_5
 
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v0, 0x1f
+
+    if-lt v1, v0, :permission_checked
+
+    iget-object v1, p1, Lsnapbridge/backend/u1;->c:Landroid/content/Context;
+
+    const-string v0, "android.permission.BLUETOOTH_SCAN"
+
+    invoke-virtual {v1, v0}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
+
+    move-result v1
+
+    const/4 v0, -0x1
+
+    if-ne v1, v0, :permission_checked
+
+    sget-object p1, Lsnapbridge/backend/u1;->k:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
+
+    const/4 v0, 0x0
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "Bluetooth scan permission missing; skip Bluetooth-on rescan."
+
+    invoke-virtual {p1, v1, v0}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :permission_checked
+    const/4 v0, 0x0
+
     .line 56
     .line 57
     :try_start_0

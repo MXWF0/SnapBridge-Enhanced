@@ -7270,9 +7270,29 @@
     .line 3
     if-nez v0, :cond_0
 
-    .line 4
-    .line 5
-    return-void
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_START_BINDER_MISSING"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v0, LN2/q0;->e:LN2/j;
+
+    iget-object v1, v0, LN2/j;->y:LX2/d;
+
+    if-eqz v1, :clear_context
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, LX2/d;->setProgressVisible(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->w(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setConnectStatus0(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setReceiveActive(Z)V
+
+    goto :clear_context
 
     .line 6
     :cond_0
@@ -7656,7 +7676,27 @@
 
     .line 166
     :catch_1
-    sget-object p1, LN2/q0;->a:Landroid/view/animation/AccelerateInterpolator;
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_START_REMOTE_EXCEPTION"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v0, LN2/q0;->e:LN2/j;
+
+    iget-object v1, v0, LN2/j;->y:LX2/d;
+
+    if-eqz v1, :clear_context
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, LX2/d;->setProgressVisible(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->w(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setConnectStatus0(Z)V
+
+    invoke-virtual {v1, v2}, LX2/d;->setReceiveActive(Z)V
 
     .line 167
     .line 168
@@ -8386,6 +8426,20 @@
 
     .line 4
     .line 5
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, LN2/X;->j:Z
+
+    const/4 v0, -0x1
+
+    invoke-interface {p1, v0}, LN2/A;->t(I)V
+
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_QUEUE_PAUSE_FAILED"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     return-void
 
     .line 6
@@ -8434,7 +8488,19 @@
 
     .line 26
     :catch_0
-    sget-object p1, LN2/q0;->a:Landroid/view/animation/AccelerateInterpolator;
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, LN2/X;->j:Z
+
+    const/4 v0, -0x1
+
+    invoke-interface {p1, v0}, LN2/A;->t(I)V
+
+    const-string v0, "SnapBridgeTransfer"
+
+    const-string v1, "DIAG_TRANSFER_QUEUE_PAUSE_FAILED"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 27
     .line 28

@@ -361,7 +361,7 @@
 .end method
 
 .method public final registerListener(Lcom/nikon/snapbridge/cmru/backend/domain/abilities/camera/BleScanAbility$Listener;)V
-    .locals 3
+    .locals 5
 
     .line 1
     iget-object v0, p0, Lsnapbridge/backend/u1;->a:Ljava/util/HashSet;
@@ -409,7 +409,26 @@
 
     .line 22
     .line 23
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v4, 0x21
+
+    if-lt v3, v4, :legacy_register
+
+    const/4 v3, 0x2
+
+    invoke-virtual {p1, v1, v2, v3}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+
+    move-result-object v3
+
+    goto :registered
+
+    :legacy_register
     invoke-virtual {p1, v1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+
+    move-result-object v3
+
+    :registered
 
     .line 24
     .line 25

@@ -1670,7 +1670,7 @@ Please rate this app."</string>
     <string name="enhanced_state_reconnecting">Reconnecting to camera</string>
     <string name="enhanced_state_failed">Connection failed</string>
     <string name="setting_power_transfer">Smart transfer power control</string>
-    <string name="setting_power_transfer_summary">Pause automatic transfer on low phone battery or Battery Saver</string>
+    <string name="setting_power_transfer_summary">Pause automatic transfer on low camera/phone battery or Battery Saver</string>
     <string name="power_transfer_title">Pause automatic transfer at</string>
     <string name="power_transfer_off">Off</string>
     <string name="power_transfer_10">10%</string>
@@ -1684,6 +1684,7 @@ Please rate this app."</string>
     <string name="notification_remaining">remaining</string>
     <string name="notification_paused_battery">Paused: low phone battery</string>
     <string name="notification_paused_saver">Paused: Battery Saver</string>
+    <string name="notification_paused_camera">Paused: camera battery low; automatic transfer is paused</string>
     <string name="home_detail_battery">Camera battery</string>
     <string name="home_detail_remaining_shots">Shots remaining</string>
 </resources>

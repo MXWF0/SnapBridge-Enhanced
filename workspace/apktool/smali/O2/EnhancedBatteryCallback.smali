@@ -31,6 +31,7 @@
     :reset
     const/4 p1, -0x1
     sput p1, LN2/y;->j:I
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
     return-void
 .end method
 
@@ -39,5 +40,6 @@
 
     const/4 p1, -0x1
     sput p1, LN2/y;->j:I
+    invoke-static {}, LO2/EnhancedHomeStatus;->update()V
     return-void
 .end method
