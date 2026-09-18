@@ -5019,6 +5019,36 @@
 
     :size_bounds_done
 
+    iget-object v0, p0, Lsnapbridge/backend/ll;->a:Lsnapbridge/backend/hl;
+
+    iget-object v0, v0, Lsnapbridge/backend/hl;->i:Landroid/net/Uri;
+
+    iget-object v1, p0, Lsnapbridge/backend/ll;->a:Lsnapbridge/backend/hl;
+
+    iget-object v1, v1, Lsnapbridge/backend/hl;->e:Ljava/lang/String;
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    const-string v3, "DIAG_TRANSFER_FILE uri="
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    const-string v3, " name="
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    const-string v3, "SnapBridgeTransfer"
+
+    invoke-static {v3, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 1
     iget-object v0, p0, Lsnapbridge/backend/ll;->a:Lsnapbridge/backend/hl;
 

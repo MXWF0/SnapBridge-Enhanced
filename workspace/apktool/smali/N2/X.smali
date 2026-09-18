@@ -6388,6 +6388,7 @@
 
     .line 2
     .line 3
+    # Keep v1 as the nullable enum return register; diagnostic strings use v2-v4.
     const/4 v1, 0x0
 
     .line 4

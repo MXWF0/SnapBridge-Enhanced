@@ -83,7 +83,7 @@
 
     .line 9
     .line 10
-    const/16 v0, 0xa
+    const/16 v0, 0x4
 
     .line 11
     .line 12
@@ -148,7 +148,13 @@
     const/4 v1, 0x0
 
     .line 6
+    invoke-virtual {p9}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->getFailedCount()I
+
+    move-result v1
+
     iput v1, v0, Lsnapbridge/backend/Y2;->s:I
+
+    const/4 v1, 0x0
 
     .line 7
     .line 8
@@ -394,7 +400,7 @@
 .end method
 
 .method public final a(Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;)V
-    .locals 4
+    .locals 7
 
     .line 9
     iget-boolean v0, p0, Lsnapbridge/backend/Y2;->u:Z
@@ -437,21 +443,71 @@
 
     move-result v3
 
-    .line 15
+    sget-object v4, Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;->SUCCESS:Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;
+
+    if-ne p1, v4, :cond_record_failure
+
+    const/4 v3, 0x0
+
     invoke-interface {v0, v1, v2, v3}, Lsnapbridge/backend/i0;->a(JI)V
 
-    .line 16
-    iget-object v0, p0, Lsnapbridge/backend/Y2;->k:Lsnapbridge/backend/i0;
+    goto :cond_record_done
 
-    iget-object v1, p0, Lsnapbridge/backend/Y2;->j:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;
+    :cond_record_failure
 
-    .line 17
-    invoke-virtual {v1}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->getId()J
+    add-int/lit8 v3, v3, 0x1
 
-    move-result-wide v1
+    const/4 v4, 0x4
 
-    .line 18
+    if-le v3, v4, :cond_record_store
+
+    move v3, v4
+
+    :cond_record_store
+
+    invoke-interface {v0, v1, v2, v3}, Lsnapbridge/backend/i0;->a(JI)V
+
     invoke-interface {v0, v1, v2}, Lsnapbridge/backend/i0;->a(J)V
+
+    :cond_record_done
+
+    iget-object v4, p0, Lsnapbridge/backend/Y2;->h:Lsnapbridge/backend/W4;
+
+    invoke-virtual {v4}, Lsnapbridge/backend/W4;->a()Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
+
+    move-result-object v4
+
+    const/4 v5, 0x4
+
+    new-array v5, v5, [Ljava/lang/Object;
+
+    const/4 v6, 0x0
+
+    aput-object p1, v5, v6
+
+    const/4 v6, 0x1
+
+    aput-object v4, v5, v6
+
+    const/4 v6, 0x2
+
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v4
+
+    aput-object v4, v5, v6
+
+    const/4 v6, 0x3
+
+    iget-object v4, p0, Lsnapbridge/backend/Y2;->t:Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraImageDetailUseCase$ErrorCode;
+
+    aput-object v4, v5, v6
+
+    sget-object v4, Lsnapbridge/backend/Y2;->y:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
+
+    const-string v6, "DIAG_TRANSFER result=%s connectionMode=%s retryCount=%d lastError=%s"
+
+    invoke-virtual {v4, v6, v5}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->i(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 19
     iget-object v0, p0, Lsnapbridge/backend/Y2;->r:Lsnapbridge/backend/A4;
@@ -718,15 +774,19 @@
 
     if-gt p1, v2, :cond_9
 
+    iget-object v2, p0, Lsnapbridge/backend/Y2;->h:Lsnapbridge/backend/W4;
+
+    invoke-virtual {v2}, Lsnapbridge/backend/W4;->a()Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
+
+    move-result-object v2
+
+    if-eqz v2, :retry_camera_wait
+
     .line 51
     :try_start_0
-    sget-object v2, Lsnapbridge/backend/Y2;->A:Ljava/lang/Integer;
+    invoke-virtual {p0}, Lsnapbridge/backend/Y2;->c()J
 
-    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
-
-    move-result v2
-
-    int-to-long v2, v2
+    move-result-wide v2
 
     invoke-static {v2, v3}, Ljava/lang/Thread;->sleep(J)V
 
@@ -971,6 +1031,56 @@
     invoke-virtual {p0, p1}, Lsnapbridge/backend/Y2;->a(Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;)V
 
     return v4
+
+    :retry_camera_wait
+
+    sget-object v2, Lsnapbridge/backend/Y2;->y:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
+
+    new-array v3, v4, [Ljava/lang/Object;
+
+    const-string v5, "DIAG_TRANSFER waiting_for_camera"
+
+    invoke-virtual {v2, v5, v3}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->i(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    return v4
+.end method
+
+.method public final c()J
+    .locals 2
+
+    iget v0, p0, Lsnapbridge/backend/Y2;->s:I
+
+    if-lez v0, :retry_delay_2s
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :retry_delay_10s
+
+    const-wide/16 v0, 0x1388
+
+    return-wide v0
+
+    :retry_delay_10s
+
+    const/4 v1, 0x2
+
+    if-ne v0, v1, :retry_delay_30s
+
+    const-wide/16 v0, 0x2710
+
+    return-wide v0
+
+    :retry_delay_30s
+
+    const-wide/32 v0, 0x7530
+
+    return-wide v0
+
+    :retry_delay_2s
+
+    const-wide/16 v0, 0x7d0
+
+    return-wide v0
 .end method
 
 .method public final b()I

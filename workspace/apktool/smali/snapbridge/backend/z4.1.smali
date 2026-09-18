@@ -119,6 +119,14 @@
     check-cast v9, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;
 
     .line 7
+    invoke-virtual {v9}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->getFailedCount()I
+
+    move-result v10
+
+    const/4 v11, 0x4
+
+    if-ge v10, v11, :goto_1
+
     invoke-virtual {v5, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 8

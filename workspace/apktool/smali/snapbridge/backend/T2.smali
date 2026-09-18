@@ -205,30 +205,16 @@
     .line 83
     .line 84
     :pswitch_0
-    const-wide/16 p1, 0x3e8
+    iget-object p1, v0, Lsnapbridge/backend/Y2;->h:Lsnapbridge/backend/W4;
 
-    .line 85
-    .line 86
-    :try_start_0
-    invoke-static {p1, p2}, Ljava/lang/Thread;->sleep(J)V
-    :try_end_0
-    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+    invoke-virtual {p1}, Lsnapbridge/backend/W4;->a()Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
 
-    .line 87
-    .line 88
-    .line 89
+    move-result-object p1
+
+    if-eqz p1, :cond_5
+
     goto :goto_0
 
-    .line 90
-    :catch_0
-    move-exception p1
-
-    .line 91
-    invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
-
-    .line 92
-    .line 93
-    .line 94
     :goto_0
     iget-object p1, v0, Lsnapbridge/backend/Y2;->w:Lsnapbridge/backend/Gj;
 

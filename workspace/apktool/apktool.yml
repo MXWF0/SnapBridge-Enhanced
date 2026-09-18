@@ -12,8 +12,8 @@ packageInfo:
   forcedPackageId: 127
   renameManifestPackage: null
 versionInfo:
-  versionCode: 21333012
-  versionName: SnapBridge-Enhanced v1.2
+  versionCode: 21333013
+  versionName: SnapBridge-Enhanced v1.3
 sharedLibrary: false
 sparseResources: false
 compactEntries: false

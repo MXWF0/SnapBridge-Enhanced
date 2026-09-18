@@ -1,8 +1,16 @@
-# SnapBridge Enhanced v1.2
+# SnapBridge Enhanced v1.3
 
-这是基于 SnapBridge 2.13.3（versionCode 21333012，targetSdk 35）制作的上层界面、诊断和兼容性改进工程。修改集中在 Apktool 资源与 Smali 层，没有改动 Nikon BLE Authentication、Nikon PTP、`bleclient`、`ptpclient`、JNI、Native `.so`、相机认证或加密逻辑。
+这是基于最终 SnapBridge Enhanced v1.2 的增量版本（versionCode 21333013，targetSdk 35）。修改集中在 Apktool 资源与 Smali 层，没有改动 Nikon BLE Authentication、Nikon PTP、`bleclient`、`ptpclient`、JNI、Native `.so`、相机认证或加密逻辑。
 
 本仓库不是 Nikon 官方项目。原版 APK 和本地测试签名证书只用于本地对照与测试，不应上传。
+
+## v1.3 增量
+
+- 自动传图失败写回持久化失败次数，按 2/5/10/30 秒退避，最多 4 次；相机离线时不继续消耗任务退避计时，恢复连接后由现有队列重新推进，成功后清除失败状态并避免重复对象句柄下载。
+- 已审计现有 PTP `GetPartialImageAction`，其 `maxSize`/尺寸参数不是可安全恢复的字节 offset；本版采用任务级恢复，不伪造字节级断点，服务重建后沿用对象句柄队列和已有 MediaStore/SAF URI 记录。
+- 后台重连退避为 5/10/30/60 秒，前台快速重连保持原有行为；8MP、Original 和 Remote 继续复用现有 O4/BTC/PTP 生命周期。
+- 保存前替换文件系统不允许的字符，保留原文件名和扩展名，重名沿用编号规则，不修改 EXIF；诊断日志记录连接模式、结果、重试次数、最后错误、URI/名称和实际尺寸。
+- 修复启动时 `N2.X.A()` 异常路径把已用于字符串日志的寄存器作为枚举返回造成的 `VerifyError` 闪退；常驻通知改为可由用户关闭，关闭后同一状态不再重挂，连接、传输或暂停状态发生变化时才重新显示。
 
 ## v1.2 更新
 
@@ -34,19 +42,29 @@
 
 ## 最终 APK
 
-文件：[workspace/build/SnapBridge-Enhanced-v1.2-unsigned.apk](workspace/build/SnapBridge-Enhanced-v1.2-unsigned.apk)
+发布签名文件：[workspace/build/SnapBridge-Enhanced-v1.3.apk](workspace/build/SnapBridge-Enhanced-v1.3.apk)
 
-文件大小：`68935164` 字节
+发布签名包大小：`69157640` 字节
 
-SHA-256：`4691A1B5F2D1C5A0E45D6EFCBF6F10EB986D6793FD67F29FA146DCA2C6210712`
+发布签名包 SHA-256：`6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`
 
-该包未签名，不能直接安装。本轮另生成了仅供本地设备冒烟的测试签名包 `workspace/build/SnapBridge-Enhanced-v1.2-continuation-signed.apk`，SHA-256 为 `3AE13055C86FF895BC0ADC8E55F9ED9027EC3219FA81FEC0FE03121235537248`；没有生成发布签名包、上传或覆盖官方签名版本。
+签名校验：v1、v2、v3 通过；沿用 v1.2 的证书 SHA-256：`27d4958763f4d46004d6be36df99ab95fc7e147220f25b2941c562843c715ad9`。
+
+对应未签名文件：[workspace/build/base-unsigned.apk](workspace/build/base-unsigned.apk)
+
+文件大小：`68938748` 字节
+
+SHA-256：`30830E3DFBF56D64FC31130CE3B5CBC97233E84AC5267540A0156770F49B302C`
+
+签名私钥位于被 `.gitignore` 排除的 `workspace/signing/phase3-test-20260908.p12`（别名 `snapbridge-phase3-test`），必须安全备份，不能上传；该证书是本地测试证书，不等同于生产发布证书。v1.3 已用同一证书在 Android 设备上完成 v1.2→v1.3 覆盖安装和冷启动测试。本轮未 Push 或创建 GitHub Release。
 
 ## 验证范围
 
-- 五个阶段、本轮 UI/GitHub 修订和 Android 13+ 广播兼容性修复均通过 Apktool 2.11.1 与 AAPT2 构建；最终包的 `aapt2 dump badging` 确认为 versionCode `21333012`、versionName `SnapBridge-Enhanced v1.2`、minSdk `23`、targetSdk `35`。
+- v1.3 增量源码已通过 Apktool 2.11.1 与 AAPT2 构建；当前未签名包的 `aapt2 dump badging` 确认为 versionCode `21333013`、versionName `SnapBridge-Enhanced v1.3`、minSdk `23`、targetSdk `35`。
 - 最终 APK ZIP 可完整读取（2573 个条目，无坏条目），与 v1.1 基线的 16 个 Native `lib/*` 条目长度和 CRC 一致；资源和 Smali 静态审计通过，首页失败态与连接入口已在 Android 设备上复测。
-- 使用临时测试证书完成签名并安装到 Android 设备；本次重建三次冷启动样本为 325/305/351 ms，均 `Status: ok`（此前同包样本为 338/354/305、381/304 ms），`cmd package compile -m verify`、服务存活检查、QUERY/STATE 广播冒烟和故障过滤通过，且 `NklBackendReceiver` 已实际匹配 `ENHANCED_TRANSFER_POWER_STATE`。延后 WebService Runnable 在 Activity 销毁时会被移除，快速启动后立即强停未留下 SnapBridge 服务；成功双击变焦事件会被 LiveView 消费，不再同时提交触点对焦。省电触发前已手动暂停的队列现在由服务保留暂停状态；无电源暂停的查询应答不会清除手动暂停，电源暂停期间按钮不可误触恢复。真实相机端到端仍未验证，因此不能把相机低电量通知、当前文件边界暂停/恢复、Wi-Fi/PTP、LiveView、双击/双指变焦、遥控、在途队列和后台恢复标记为真机通过。
+- v1.2 临时测试签名包曾安装到 Android 设备并通过冷启动、服务存活和广播冒烟；这些历史结果不代表 v1.3 已完成真机相机验证。真实相机端到端仍未验证，因此不能把相机低电量通知、当前文件边界暂停/恢复、Wi-Fi/PTP、LiveView、双击/双指变焦、遥控、在途队列和后台恢复标记为真机通过。
+- v1.3 改包名测试包已在同一台 Android 设备完成 `cmd package compile -m verify`、冷启动和 `NOTIFICATION_DISMISSED` 服务 action 冒烟；设备未连接 Nikon 相机，因此通知真正被系统划掉及状态变化后重挂仍待现场确认。
+- 最终与 v1.2 同证书的 v1.3 包已在同一设备完成 v1.2→v1.3 覆盖安装；再次 `compile -m verify`、三次冷启动（397/257/302 ms）和通知关闭 action 均通过，crash buffer 为空。
 - 本轮补充自动传输启动 Binder 缺失时的进度/活动状态清理；重新签名安装后四次冷启动均为 `Status: ok`、总耗时 317/334/296/270 ms，QUERY 与缺少 `OBJECT` 的电量广播均返回 `result=0`，强停后无残留 SnapBridge 服务或新增崩溃日志。
 - 随后补充相机电量错误缓存清理、无效手机电池 `scale` 和空 Parcelable 输入处理；最新测试签名包三次冷启动为 `Status: ok`、总耗时 404/434/387 ms，编译校验、QUERY、缺少 `OBJECT` 的电量广播和应用内电源设置广播均通过。
 - 修复电量查询断开竞态后的测试包已包含 `ScaleGestureDetector` 双指变焦路径，完成 `compile -m verify`、冷启动和服务存活检查；无相机环境只能证明加载与生命周期不崩溃，捏合方向和相机响应仍待真机验证。
@@ -57,7 +75,7 @@ SHA-256：`4691A1B5F2D1C5A0E45D6EFCBF6F10EB986D6793FD67F29FA146DCA2C6210712`
 - `workspace/apktool`：当前可构建工程，也是修改来源。
 - `workspace/build`：当前未签名构建产物。
 - `scripts/build.ps1`：构建未签名 APK。
-- `scripts/sign.ps1`：使用显式证书对齐并签名（本轮仅使用临时测试证书做本地冒烟，未生成发布签名包）。
+- `scripts/sign.ps1`：使用显式证书对齐并签名；本轮升级兼容包使用 `workspace/signing/phase3-test-20260908.p12`，保持与 v1.2 相同的证书指纹。
 - `scripts/install.ps1`：安装到已连接的 Android 设备（仅用于本地测试设备冒烟）。
 - `analysis.md`：原版静态分析。
 - `project_status.md`：阶段记录、哈希和未验证范围。
@@ -66,7 +84,7 @@ SHA-256：`4691A1B5F2D1C5A0E45D6EFCBF6F10EB986D6793FD67F29FA146DCA2C6210712`
 ## 本地构建
 
 ```powershell
-.\scripts\build.ps1 -OutputApk workspace\build\SnapBridge-Enhanced-v1.2-unsigned.apk
+.\scripts\build.ps1 -OutputApk workspace\build\base-unsigned.apk
 ```
 
 签名脚本要求显式提供证书路径、别名，以及 `SNAPBRIDGE_STORE_PASSWORD`、`SNAPBRIDGE_KEY_PASSWORD` 环境变量。证书目录不会上传到 GitHub。

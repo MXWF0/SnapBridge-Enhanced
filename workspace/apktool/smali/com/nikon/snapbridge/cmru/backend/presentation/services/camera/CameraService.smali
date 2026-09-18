@@ -62,6 +62,10 @@
 
 .field public X:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/ICameraActiveCameraConnectionStatusListener;
 
+.field public Y:Z
+
+.field public Z:Ljava/lang/String;
+
 .field public e:Lsnapbridge/backend/Vd;
 
 .field public f:Lsnapbridge/backend/O4;
@@ -5691,6 +5695,38 @@
     .line 10
     invoke-virtual {v0, v4, v3}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
+    if-eqz p1, :notification_dismiss_check_done
+
+    move-object/from16 v5, p1
+
+    invoke-virtual {v5}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    move-result-object v5
+
+    if-eqz v5, :notification_dismiss_check_done
+
+    const-string v6, "com.nikon.snapbridge.cmru.backend.camera.NOTIFICATION_DISMISSED"
+
+    invoke-virtual {v6, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v6
+
+    if-eqz v6, :notification_dismiss_check_done
+
+    const/4 v6, 0x1
+
+    iput-boolean v6, v1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
+
+    const/4 v6, 0x0
+
+    invoke-virtual {v1, v6}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
+
+    const/4 v6, 0x1
+
+    return v6
+
+    :notification_dismiss_check_done
+
     .line 11
     .line 12
     .line 13
@@ -6788,6 +6824,16 @@
     :goto_0
     invoke-virtual {p0, v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->updateServiceNotification(Z)V
 
+    if-eqz p1, :notification_foreground_super
+
+    iget-boolean v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
+
+    if-eqz v0, :notification_foreground_super
+
+    return-void
+
+    :notification_foreground_super
+
     .line 31
     .line 32
     .line 33
@@ -6876,7 +6922,7 @@
 .end method
 
 .method public updateServiceNotification(Z)V
-    .locals 3
+    .locals 4
 
     .line 1
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -6909,6 +6955,30 @@
     .line 14
     .line 15
     move-result-object p1
+
+    iget-object v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Z:Ljava/lang/String;
+
+    if-eqz v1, :notification_state_changed
+
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :notification_state_changed
+
+    iget-boolean v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
+
+    if-eqz v1, :notification_state_changed
+
+    return-void
+
+    :notification_state_changed
+
+    const/4 v1, 0x0
+
+    iput-boolean v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
+
+    iput-object p1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Z:Ljava/lang/String;
 
     invoke-static {p0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedNotificationText;->build(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;Ljava/lang/String;)Ljava/lang/String;
 
@@ -7067,6 +7137,36 @@
     .line 88
     .line 89
     .line 90
+    move-result-object p1
+
+    new-instance v1, Landroid/content/Intent;
+
+    const-class v2, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    invoke-direct {v1, p0, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    const-string v2, "com.nikon.snapbridge.cmru.backend.camera.NOTIFICATION_DISMISSED"
+
+    invoke-virtual {v1, v2}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+
+    move-result-object v1
+
+    const v2, 0xc000000
+
+    const/16 v3, 0x5342
+
+    invoke-static {p0, v3, v1, v2}, Landroid/app/PendingIntent;->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v1}, Landroid/app/Notification$Builder;->setDeleteIntent(Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
+
+    move-result-object p1
+
+    const/4 v2, 0x0
+
+    invoke-virtual {p1, v2}, Landroid/app/Notification$Builder;->setOngoing(Z)Landroid/app/Notification$Builder;
+
     move-result-object p1
 
     .line 91

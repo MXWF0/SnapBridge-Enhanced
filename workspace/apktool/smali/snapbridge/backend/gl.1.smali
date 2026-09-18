@@ -1528,6 +1528,22 @@
     .line 3
     move-object/from16 v0, p1
 
+    const-string v14, "[/:*?<>|]"
+
+    const-string v15, "_"
+
+    invoke-virtual {v0, v14, v15}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v14, "\\"
+
+    invoke-virtual {v0, v14, v15}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v0
+
+    move-object/from16 p1, v0
+
     .line 4
     .line 5
     const/4 v2, 0x2

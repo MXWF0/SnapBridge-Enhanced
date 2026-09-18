@@ -2,23 +2,49 @@
 
 ## 当前结果
 
-SnapBridge Enhanced v1.2 已完成本轮源码修复、静态审计、构建、签名和设备冒烟验证。
+SnapBridge Enhanced v1.3 已完成本轮增量源码修改、Apktool/AAPT2 构建校验、Android 设备复测和 release 签名，尚未 Push 或创建 GitHub Release，等待真实相机回归确认。
 
-最终未签名构建输入：`workspace/build/base-unsigned.apk`
+## SnapBridge Enhanced v1.3 增量（2026-09-18）
 
-未签名包大小：`68938393` 字节
+- 自动传图失败会写回持久化 `failedCount`，同一对象句柄仍由数据库唯一约束去重；队列最多重试 4 次，退避为 2/5/10/30 秒，达到上限后保留记录但不再重复下载。成功路径清零失败次数并由现有完成回调移除队列记录。
+- 任务级恢复沿用现有 `AutoTransferImage` 数据库队列、对象句柄和 `SmartDeviceImageSummary` 的 MediaStore/SAF URI 记录。已审计 `GetPartialImageAction`：现有 `offset/maxSize` 是尺寸/单次读取参数，不是可安全恢复的字节偏移；本版不伪造字节级断点，重连后重新当前文件任务。
+- 任务检测到相机连接源为空时立即返回等待，不继续消耗退避计时；相机重新出现后复用现有 BLE 广播/连接管理入口重新取队列。后台连接退避改为 5/10/30/60 秒，前台快速重连保持不变。
+- 8MP、Original 和 Remote 的高速链路继续由现有 O4/BTC/PTP 生命周期管理；本轮只调整任务等待与队列恢复，没有新增长期占用 Wi-Fi/PTP 的连接。
+- 保存链路继续优先复用 MediaStore/SAF；默认保留原文件名和扩展名，写入前仅替换 Android/文件系统不允许的字符，重复文件沿现有 `_1`、`_2` 规则处理，未修改 EXIF。保存后的 URI、文件名和实际 JPEG 尺寸加入 `SnapBridgeTransfer` 诊断日志。
+- 新增简洁诊断字段：`DIAG_TRANSFER result/connectionMode/retryCount/lastError`、`DIAG_TRANSFER waiting_for_camera`、`DIAG_TRANSFER_FILE uri/name`，并沿用已有 requested/actual/`SIZE_MISMATCH` 日志；可用 Logcat 导出，不记录相机密钥或地址。
+- 版本元数据更新为 `SnapBridge-Enhanced v1.3`、versionCode `21333013`。本轮未修改 Nikon BLE 认证、PTP/JNI 或 Native `.so`。
 
-未签名包 SHA-256：`3A32E91BE2077FA8BE8064311997D176F94EE7FE4832B2AD9615A777A6F278BD`
+当前未签名构建输入：`workspace/build/base-unsigned.apk`，大小 `68938748` 字节，构建 SHA-256：`30830E3DFBF56D64FC31130CE3B5CBC97233E84AC5267540A0156770F49B302C`。对应 release 签名包见下方设备复测记录。
 
-最终签名 APK：`workspace/build/SnapBridge-Enhanced-v1.2.apk`
+## v1.3 设备复测与发布签名（2026-09-18）
 
-签名包大小：`69157640` 字节
+- 在连接设备 `22081212C` 上从系统 DropBox 复现了安装前 v1.2 的真实启动崩溃：`N2.X.A()` 的 `VerifyError`。随后使用当前源码重建并签名 v1.3，通过 `adb install -r -d` 以同一包名覆盖安装成功；设备显示 versionCode `21333013`、versionName `SnapBridge-Enhanced v1.3`。
+- v1.3 在设备上通过 `cmd package compile -m verify`；连续冷启动样本为 `Status: ok`，Activity 总耗时 316/295/309/319 ms，`NkLLicenceActivity` 保持 resumed，WebService 与 CameraService 均存活。安装后 crash buffer 为空，最新 `ApplicationExitInfo` 仅为测试用 `force-stop`，未再出现 `VerifyError`、`FATAL EXCEPTION`、`NoSuchMethodError`、`NoClassDefFoundError` 或 `UnsatisfiedLinkError`。
+- 无已登记/在线 Nikon 相机时，CameraService 不进入前台服务状态，打开软件不会重新挂出常驻通知；直接发送 `NOTIFICATION_DISMISSED` action 后服务仍存活且无崩溃。系统通知划掉后的真实删除回调和相机连接/传输状态变化后的重新显示仍需真实相机现场确认。
+- 生成可发布且保持 v1.2 升级兼容的签名包：`workspace/build/SnapBridge-Enhanced-v1.3.apk`，大小 `69157640` 字节，SHA-256 `6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`；v1/v2/v3 签名校验通过。该包沿用 v1.2 的证书指纹 `27d4958763f4d46004d6be36df99ab95fc7e147220f25b2941c562843c715ad9`，证书文件为被 `.gitignore` 排除的 `workspace/signing/phase3-test-20260908.p12`，别名 `snapbridge-phase3-test`，不得遗失或上传。
+- 已用同一证书完成 v1.2→v1.3 的设备覆盖安装，PackageManager 报告 `PACKAGE_UPDATED`，无需卸载旧包；该证书仍是本地测试证书，不等同于 Google Play/生产签名证书，正式发布前应由项目所有者确认是否继续使用并安全备份。
+- 最终同证书包再次通过 `cmd package compile -m verify`；冷启动样本为 `Status: ok`、Activity 总耗时 397/257/302 ms；发送 `NOTIFICATION_DISMISSED` action 返回 0，crash buffer 为空。发布 APK 哈希在重复校验中仍为 `6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`。
+- 与 v1.1 基线的 16 个 Native `.so` 条目长度和 CRC 仍为 `NATIVE_DIFF=0`；未修改 Nikon BLE 认证、PTP、JNI 或 Native `.so`，未 Push/Release。
 
-签名包 SHA-256：`BC5691E317B4090B5DADE511AD29FEBDF53E289DAC53BC38B8C490FFBEE77E4B`
+设备启动日志曾复现 v1.2 的 `VerifyError`：`N2.X.A()` 声明返回 `CameraImageAutoTransferImageSize`，旧安装包异常分支却把用于字符串日志的寄存器返回。当前 v1.3 源码保持空枚举返回寄存器与日志寄存器分离，避免该启动期类校验闪退；改包名测试包已通过冷启动和服务 action 冒烟。
+
+本轮没有连接真实 Nikon 相机，因此自动重试、杀进程恢复、相机关机再开、蓝牙开关、Wi-Fi 失败、文件重名、自定义目录和 Android 存储兼容性仍待现场验证；不把无相机设备构建或冷启动当作真机功能通过。
+
+v1.2 基线未签名构建输入：`workspace/build/base-unsigned.apk`
+
+v1.2 基线未签名包大小：`68938393` 字节
+
+v1.2 基线未签名包 SHA-256：`3A32E91BE2077FA8BE8064311997D176F94EE7FE4832B2AD9615A777A6F278BD`
+
+v1.2 基线签名 APK：`workspace/build/SnapBridge-Enhanced-v1.2.apk`
+
+v1.2 基线签名包大小：`69157640` 字节
+
+v1.2 基线签名包 SHA-256：`BC5691E317B4090B5DADE511AD29FEBDF53E289DAC53BC38B8C490FFBEE77E4B`
 
 签名方式为本地临时测试证书 `snapbridge-phase3-test`，不是生产发布证书。
 
-包名为 `com.nikon.snapbridge.cmru`，versionName 为 `SnapBridge-Enhanced v1.2`，versionCode 为 `21333012`，minSdk 23，targetSdk 35。
+v1.2 基线包名为 `com.nikon.snapbridge.cmru`，versionName 为 `SnapBridge-Enhanced v1.2`，versionCode 为 `21333012`，minSdk 23，targetSdk 35。
 
 ## 本轮最终修复（2026-09-13）
 
@@ -26,10 +52,10 @@ SnapBridge Enhanced v1.2 已完成本轮源码修复、静态审计、构建、�
 - 自动传图任务现在完整保留 Original 请求，修复 `IMAGE_ORIGINAL` 因未命中枚举映射而落到 `IMAGE_2MP` 的问题；自动传输失败时也不再重试 2MP 冒充原图，失败通过既有通知明确反馈。8MP 仍按相机能力门控，JPEG 下载后按实际分辨率记录 `SIZE_MISMATCH`；Remote/手动 Original 继续使用现有 Wi-Fi Direct/PTP 原图链路。
 - 连接状态以现有 BLE、认证、BTC、Wi-Fi/PTP 和 Remote 回调为源；断开、深度休眠和重连会话清理旧 PTP、电量、剩余张数和传输统计，电量查询具备会话校验、5 秒超时和有限重试。
 - 低电量、省电模式和手动暂停分离；手动暂停不会被自动恢复，任一省电原因仍在时不会恢复，断线不发送 resume，当前文件沿用既有边界完成后再暂停；相机低电量仍通过通知提示。
-- 主页和通知只显示真实连接方式、暂停原因和传输数量；黄色状态提示仅在认证、传输或重连等必要过渡状态短暂显示。前台常驻通知保留服务必需的常驻形态，通知在 CameraService 所在进程的连接状态回调中重新提交，正文直接读取服务侧 `ActiveCameraConnectionStatus` 的 BLE/PTP 状态且只提醒一次，避免陈旧地停留在“等待相机”。
+- 主页和通知只显示真实连接方式、暂停原因和传输数量；黄色状态提示仅在认证、传输或重连等必要过渡状态短暂显示。前台服务通知仍沿用同一通知通道，但改为可由用户关闭；删除回调会停止前台展示并记录当前状态，同一状态不再重挂，连接、传输或暂停状态发生变化时才重新出现，避免陈旧地停留在“等待相机”。
 - GitHub 更新器从 PackageManager 读取版本，稳定版和 prerelease 分开比较；Activity 销毁后不再弹更新对话框。
 - LiveView 单击 AF 仅在单击确认后触发，和双击变焦、双指缩放分离；未新增 Remote 功能，也未修改 Nikon BLE/PTP/JNI/Native `.so` 通信层。
-- `aapt2 dump badging`、APK 编译校验、v1/v2/v3 签名和 Android 设备冷启动均通过；最终包与本轮源码构建输入一致，16 个 Native `.so` 条目的长度和 CRC 与 v1.1 基线一致。V2324A 设备上的前台 CameraService 已通过 `cmd package compile -m verify` 和冷启动，未出现 `NoSuchMethodError`、`VerifyError` 或 `FATAL EXCEPTION`；无相机时常驻通知显示“等待相机”属于空闲态，标记 `ONLY_ALERT_ONCE|NO_CLEAR|FOREGROUND_SERVICE`，服务进程已注册独立连接监听，真实连接链路切换仍需现场相机确认。
+- `aapt2 dump badging`、APK 编译校验和 Android 设备冷启动均通过；最终包与本轮源码构建输入一致，16 个 Native `.so` 条目的长度和 CRC 与 v1.1 基线一致。V2324A 改包名 v1.3 测试包的 CameraService 已通过冷启动和 `NOTIFICATION_DISMISSED` action 冒烟，未出现 `NoSuchMethodError`、`VerifyError` 或 `FATAL EXCEPTION`；真实相机链路和状态变化触发的通知重挂仍需现场确认。
 - 当前设备没有真实 Nikon 相机，因此 2MP、8MP、Original→Wi-Fi、连续传图、锁屏后台、断线重连、低电量暂停恢复、手动暂停和 Remote 进出仍待你使用真实相机确认；本记录不把静态分析或设备冷启动记为真机通过。
 
 ## 本轮延续验证（2026-09-13）

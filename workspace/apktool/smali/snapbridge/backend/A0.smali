@@ -780,17 +780,37 @@
 
     if-nez v5, :enhanced_foreground_retry
 
+    iget p1, p0, Lsnapbridge/backend/A0;->d:I
+
+    if-nez p1, :enhanced_background_delay_10
+
     const-wide/16 v0, 0x1388
+
+    goto :enhanced_retry_delay_ready
+
+    :enhanced_background_delay_10
 
     const/4 v5, 0x1
 
-    iget p1, p0, Lsnapbridge/backend/A0;->d:I
+    if-ne p1, v5, :enhanced_background_delay_30
 
-    shl-int/2addr v5, p1
+    const-wide/16 v0, 0x2710
 
-    int-to-long v5, v5
+    goto :enhanced_retry_delay_ready
 
-    mul-long/2addr v0, v5
+    :enhanced_background_delay_30
+
+    const/4 v5, 0x2
+
+    if-ne p1, v5, :enhanced_background_delay_60
+
+    const-wide/32 v0, 0x7530
+
+    goto :enhanced_retry_delay_ready
+
+    :enhanced_background_delay_60
+
+    const-wide/32 v0, 0xea60
 
     goto :enhanced_retry_delay_ready
 
