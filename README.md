@@ -44,6 +44,8 @@
 
 发布签名文件：[workspace/build/SnapBridge-Enhanced-v1.3.apk](workspace/build/SnapBridge-Enhanced-v1.3.apk)
 
+GitHub Release：[SnapBridge-Enhanced v1.3](https://github.com/MXWF0/SnapBridge-Enhanced/releases/tag/v1.3)
+
 发布签名包大小：`69157640` 字节
 
 发布签名包 SHA-256：`6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`
@@ -56,7 +58,7 @@
 
 SHA-256：`30830E3DFBF56D64FC31130CE3B5CBC97233E84AC5267540A0156770F49B302C`
 
-签名私钥位于被 `.gitignore` 排除的 `workspace/signing/phase3-test-20260908.p12`（别名 `snapbridge-phase3-test`），必须安全备份，不能上传；该证书是本地测试证书，不等同于生产发布证书。v1.3 已用同一证书在 Android 设备上完成 v1.2→v1.3 覆盖安装和冷启动测试。本轮未 Push 或创建 GitHub Release。
+签名私钥位于被 `.gitignore` 排除的 `workspace/signing/phase3-test-20260908.p12`（别名 `snapbridge-phase3-test`），必须安全备份，不能上传；该证书是本地测试证书，不等同于生产发布证书。v1.3 已用同一证书在 Android 设备上完成 v1.2→v1.3 覆盖安装和冷启动测试，签名 APK 已发布到上面的 GitHub Release。
 
 ## 验证范围
 

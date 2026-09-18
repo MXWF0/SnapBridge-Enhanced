@@ -2,7 +2,7 @@
 
 ## 当前结果
 
-SnapBridge Enhanced v1.3 已完成本轮增量源码修改、Apktool/AAPT2 构建校验、Android 设备复测和 release 签名，尚未 Push 或创建 GitHub Release，等待真实相机回归确认。
+SnapBridge Enhanced v1.3 已完成本轮增量源码修改、Apktool/AAPT2 构建校验、Android 设备复测和 release 签名，已推送到 GitHub 并创建正式 Release；真实相机回归仍等待现场确认。
 
 ## SnapBridge Enhanced v1.3 增量（2026-09-18）
 
@@ -24,7 +24,7 @@ SnapBridge Enhanced v1.3 已完成本轮增量源码修改、Apktool/AAPT2 构�
 - 生成可发布且保持 v1.2 升级兼容的签名包：`workspace/build/SnapBridge-Enhanced-v1.3.apk`，大小 `69157640` 字节，SHA-256 `6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`；v1/v2/v3 签名校验通过。该包沿用 v1.2 的证书指纹 `27d4958763f4d46004d6be36df99ab95fc7e147220f25b2941c562843c715ad9`，证书文件为被 `.gitignore` 排除的 `workspace/signing/phase3-test-20260908.p12`，别名 `snapbridge-phase3-test`，不得遗失或上传。
 - 已用同一证书完成 v1.2→v1.3 的设备覆盖安装，PackageManager 报告 `PACKAGE_UPDATED`，无需卸载旧包；该证书仍是本地测试证书，不等同于 Google Play/生产签名证书，正式发布前应由项目所有者确认是否继续使用并安全备份。
 - 最终同证书包再次通过 `cmd package compile -m verify`；冷启动样本为 `Status: ok`、Activity 总耗时 397/257/302 ms；发送 `NOTIFICATION_DISMISSED` action 返回 0，crash buffer 为空。发布 APK 哈希在重复校验中仍为 `6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`。
-- 与 v1.1 基线的 16 个 Native `.so` 条目长度和 CRC 仍为 `NATIVE_DIFF=0`；未修改 Nikon BLE 认证、PTP、JNI 或 Native `.so`，未 Push/Release。
+- 与 v1.1 基线的 16 个 Native `.so` 条目长度和 CRC 仍为 `NATIVE_DIFF=0`；未修改 Nikon BLE 认证、PTP、JNI 或 Native `.so`。已推送 `main` 并创建正式 GitHub Release：[SnapBridge-Enhanced v1.3](https://github.com/MXWF0/SnapBridge-Enhanced/releases/tag/v1.3)，Release 资产为同一 SHA-256 的签名 APK。
 
 设备启动日志曾复现 v1.2 的 `VerifyError`：`N2.X.A()` 声明返回 `CameraImageAutoTransferImageSize`，旧安装包异常分支却把用于字符串日志的寄存器返回。当前 v1.3 源码保持空枚举返回寄存器与日志寄存器分离，避免该启动期类校验闪退；改包名测试包已通过冷启动和服务 action 冒烟。
 
