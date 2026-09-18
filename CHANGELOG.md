@@ -6,7 +6,7 @@
 
 - 在真实 Android 设备上复现并确认旧 v1.2 的启动 `VerifyError` 来源；v1.3 以同一包名覆盖安装后通过 `cmd package compile -m verify` 和连续冷启动，Activity、WebService、CameraService 均正常，无新的运行时崩溃。
 - 无相机时 CameraService 不进入前台服务，打开软件不会持续创建常驻通知；`NOTIFICATION_DISMISSED` action 冒烟通过。真实通知划掉和相机状态变化后的重新显示仍待相机现场确认。
-- 生成保持 v1.2 升级兼容的签名包 `workspace/build/SnapBridge-Enhanced-v1.3.apk`（SHA-256：`6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`），v1/v2/v3 校验通过。沿用 v1.2 的本地测试证书，已在设备上完成 v1.2→v1.3 覆盖安装；该证书不是生产签名，未上传 GitHub。
+- 生成保持 v1.2 升级兼容的签名包 `workspace/build/SnapBridge-Enhanced-v1.3.apk`（SHA-256：`6E149A7AFC65708ECC3BC58080FD191824D846E303A723EE670593B10E9519FF`），v1/v2/v3 校验通过。沿用 v1.2 的本地测试证书，已在设备上完成 v1.2→v1.3 覆盖安装；该证书不是生产签名，私钥未上传 GitHub，签名 APK 已上传至 [v1.3 Release](https://github.com/MXWF0/SnapBridge-Enhanced/releases/tag/v1.3)。
 
 ### 可靠传输与恢复
 
@@ -24,7 +24,7 @@
 
 ### 构建边界
 
-- 已用 Apktool 2.11.1/AAPT2 构建未签名 APK，并由本地 release 密钥生成签名包；本轮未 Push/Release，未修改 Nikon BLE 认证、PTP、JNI 或 Native `.so`。真实相机回归仍待用户现场确认。
+- 已用 Apktool 2.11.1/AAPT2 构建未签名 APK，并由本地 release 密钥生成签名包；已推送 `main` 并创建正式 [v1.3 GitHub Release](https://github.com/MXWF0/SnapBridge-Enhanced/releases/tag/v1.3)，未修改 Nikon BLE 认证、PTP、JNI 或 Native `.so`。真实相机回归仍待用户现场确认。
 - 未签名输入为 `workspace/build/base-unsigned.apk`，大小 `68938748` 字节，SHA-256 为 `30830E3DFBF56D64FC31130CE3B5CBC97233E84AC5267540A0156770F49B302C`；release 签名包信息见本节“设备复测与 release 包”。
 
 ## SnapBridge-Enhanced v1.2 本轮修复 — 2026-09-13
