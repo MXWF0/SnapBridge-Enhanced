@@ -65,13 +65,8 @@
 
     .line 10
     .line 11
-    .line 12
     const/4 v0, 0x1
 
-    .line 13
-    add-int/2addr v3, v0
-
-    .line 14
     new-instance v4, Lsnapbridge/backend/Sg;
 
     .line 15
@@ -159,6 +154,13 @@
     .line 57
     iput v3, v0, Lsnapbridge/backend/Rg;->e:I
 
+    if-nez v3, :persist_failed_count
+
+    const/4 v4, 0x0
+
+    iput-object v4, v0, Lsnapbridge/backend/Rg;->d:Ljava/util/Date;
+
+    :persist_failed_count
     .line 58
     .line 59
     iget-object p1, p1, Lsnapbridge/backend/ai;->a:LI3/f;

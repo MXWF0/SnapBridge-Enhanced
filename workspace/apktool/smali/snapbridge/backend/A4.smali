@@ -26,7 +26,7 @@
 
 
 # virtual methods
-.method public final a(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageSummary;Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;)V
+.method public final a(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageSummary;Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;I)V
     .locals 2
 
     .line 1
@@ -37,6 +37,15 @@
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 4
+    sget-object v0, Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;->SUCCESS:Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/CameraAutoTransferImageUseCase$ResultCode;
+
+    if-ne p2, v0, :result_not_success
+
+    invoke-virtual {p1}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
+    return-void
+
+    :result_not_success
     .line 5
     .line 6
     sget-object v0, Lsnapbridge/backend/D4;->e:[I
@@ -75,6 +84,17 @@
     if-eq p2, v0, :cond_0
 
     .line 22
+    const/16 v0, 0x5
+
+    if-lt p3, v0, :schedule_retry
+
+    invoke-virtual {p1}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
+    goto :goto_0
+
+    :schedule_retry
+    invoke-virtual {p1, p3}, Lsnapbridge/backend/O4;->scheduleAutoTransferRetry(I)V
+
     .line 23
     goto :goto_0
 

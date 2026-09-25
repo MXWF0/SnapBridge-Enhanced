@@ -32,8 +32,18 @@
 .method public final onConnect()V
     .locals 6
 
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "Camera controller onConnect"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 1
     iget-object v0, p0, Lsnapbridge/backend/I4;->a:Lsnapbridge/backend/O4;
+
+    invoke-virtual {v0}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
+    invoke-virtual {v0}, Lsnapbridge/backend/O4;->q()V
 
     .line 2
     .line 3

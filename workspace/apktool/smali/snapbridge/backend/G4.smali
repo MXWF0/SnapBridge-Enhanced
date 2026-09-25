@@ -241,6 +241,26 @@
 .method public final onDisconnect()V
     .locals 4
 
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "BLE repository onDisconnect: real GATT state is disconnected; enter reconnect"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v0, LN2/y$b;->b:LN2/y$b;
+
+    sput-object v0, LN2/y;->e:LN2/y$b;
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
+
+    invoke-virtual {v0, v1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->updateServiceNotification(Z)V
+
     .line 1
     sget-object v0, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
 

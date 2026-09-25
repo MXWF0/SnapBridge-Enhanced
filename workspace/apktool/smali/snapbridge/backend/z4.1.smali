@@ -123,9 +123,37 @@
 
     move-result v10
 
-    const/4 v11, 0x4
+    const/4 v11, 0x5
 
     if-ge v10, v11, :goto_1
+
+    iget-boolean v15, v4, Lsnapbridge/backend/O4;->O0:Z
+
+    if-eqz v15, :queue_check_next_attempt
+
+    goto :queue_retry_ready
+
+    :queue_check_next_attempt
+
+    invoke-virtual {v9}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->getLastFailedAt()Ljava/util/Date;
+
+    move-result-object v13
+
+    if-eqz v13, :queue_retry_ready
+
+    new-instance v14, Ljava/util/Date;
+
+    invoke-direct {v14}, Ljava/util/Date;-><init>()V
+
+    invoke-virtual {v13, v14}, Ljava/util/Date;->after(Ljava/util/Date;)Z
+
+    move-result v13
+
+    if-eqz v13, :queue_retry_ready
+
+    goto :goto_1
+
+    :queue_retry_ready
 
     invoke-virtual {v5, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
@@ -300,6 +328,14 @@
     if-eq v7, v1, :cond_8
 
     if-eq v7, v0, :cond_7
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v14
+
+    const/4 v15, 0x1
+
+    invoke-virtual {v14, v15}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
 
     .line 27
     iget-object v7, v4, Lsnapbridge/backend/O4;->c:Lsnapbridge/backend/x5;
@@ -747,6 +783,12 @@
     iget-object v1, v0, Lsnapbridge/backend/P2;->d:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferStatus;
 
     invoke-virtual {v1}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferStatus;->startTransfer()V
+
+    iget-object v3, v4, Lsnapbridge/backend/O4;->U0:Landroid/os/PowerManager$WakeLock;
+
+    const-wide/32 v8, 0x1b7740
+
+    invoke-virtual {v3, v8, v9}, Landroid/os/PowerManager$WakeLock;->acquire(J)V
 
     .line 71
     invoke-virtual {v0}, Lsnapbridge/backend/P2;->a()V

@@ -119,6 +119,12 @@
 .method public final onSuccess()V
     .locals 4
 
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "BLE connect success"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 1
     sget-object v0, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
 
@@ -173,6 +179,14 @@
 
     .line 24
     iput-boolean v1, v2, Lsnapbridge/backend/O4;->O0:Z
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
 
     .line 25
     .line 26

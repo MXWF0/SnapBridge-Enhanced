@@ -899,6 +899,28 @@
 .method public onConnectionStateChange(Landroid/bluetooth/BluetoothGatt;II)V
     .locals 2
 
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "GATT callback status="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, " newState="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "SnapBridgeEnhanced"
+
+    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 1
     const/4 p2, 0x2
 
@@ -1385,6 +1407,22 @@
 .method public onServicesDiscovered(Landroid/bluetooth/BluetoothGatt;I)V
     .locals 3
 
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "GATT services discovered status="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "SnapBridgeEnhanced"
+
+    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 1
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/bleclient/BleConnection$3;->a:Lcom/nikon/snapbridge/cmru/bleclient/BleConnection;
 
@@ -1471,6 +1509,32 @@
     .line 43
     .line 44
     invoke-static {p2, v0}, Lsnapbridge/bleclient/q0;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+    sget-object v0, Lcom/nikon/snapbridge/cmru/bleclient/services/lss/BleLssService;->LSS_UUID:Ljava/util/UUID;
+
+    invoke-virtual {p1, v0}, Landroid/bluetooth/BluetoothGatt;->getService(Ljava/util/UUID;)Landroid/bluetooth/BluetoothGattService;
+
+    move-result-object v0
+
+    if-nez v0, :lss_service_ready
+
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "GATT service discovery omitted Nikon LSS; retry connection"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/bleclient/BleConnection$3;->a:Lcom/nikon/snapbridge/cmru/bleclient/BleConnection;
+
+    sget-object v1, Lcom/nikon/snapbridge/cmru/bleclient/BleErrorCodes;->ERROR:Lcom/nikon/snapbridge/cmru/bleclient/BleErrorCodes;
+
+    invoke-static {v0, v1}, Lcom/nikon/snapbridge/cmru/bleclient/BleConnection;->n(Lcom/nikon/snapbridge/cmru/bleclient/BleConnection;Lcom/nikon/snapbridge/cmru/bleclient/BleErrorCodes;)V
+
+    invoke-static {v0}, Lcom/nikon/snapbridge/cmru/bleclient/BleConnection;->w(Lcom/nikon/snapbridge/cmru/bleclient/BleConnection;)V
+
+    return-void
+
+    :lss_service_ready
 
     .line 45
     .line 46

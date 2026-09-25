@@ -201,7 +201,7 @@
 .end method
 
 .method public final onReceive(Landroid/content/Context;Landroid/content/Intent;)V
-    .locals 1
+    .locals 2
 
     .line 1
     const/4 p1, 0x0
@@ -251,6 +251,8 @@
     .line 23
     move-result p2
 
+    const/4 v1, 0x0
+
     .line 24
     const/16 v0, 0xa
 
@@ -258,6 +260,15 @@
     .line 26
     if-eq p2, v0, :cond_1
 
+    const/16 v0, 0xc
+
+    if-ne p2, v0, :state_default
+
+    const/4 v1, 0x1
+
+    goto :cond_1
+
+    :state_default
     .line 27
     .line 28
     sget-object p2, Lsnapbridge/backend/E1;->f:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
@@ -289,11 +300,29 @@
 
     .line 41
     .line 42
-    const-string v0, "state is STATE_OFF."
+    const-string v0, "Bluetooth adapter transition; reset stale links."
 
     .line 43
     .line 44
     invoke-virtual {p2, v0, p1}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    if-nez v1, :keep_transfer_on_radio_on
+
+    const-string p1, "SnapBridgeEnhanced"
+
+    const-string p2, "Bluetooth OFF; cancel in-flight transfer tasks"
+
+    invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->f:Lsnapbridge/backend/O4;
+
+    invoke-virtual {p1}, Lsnapbridge/backend/O4;->u()V
+
+    :keep_transfer_on_radio_on
 
     .line 45
     .line 46
@@ -374,6 +403,22 @@
     .line 84
     .line 85
     :cond_3
+    if-eqz v1, :goto_0
+
+    const-string p1, "SnapBridgeEnhanced"
+
+    const-string p2, "Bluetooth ON broadcast; resume background scan"
+
+    invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object p1
+
+    iget-object p1, p1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->f:Lsnapbridge/backend/O4;
+
+    invoke-virtual {p1}, Lsnapbridge/backend/O4;->s()V
+
     :goto_0
     return-void
 .end method

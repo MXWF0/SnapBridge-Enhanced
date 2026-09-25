@@ -2,6 +2,9 @@
 .super Ljava/lang/Thread;
 .source "SourceFile"
 
+# interfaces
+.implements Landroid/os/Handler$Callback;
+
 
 # static fields
 .field public static final Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
@@ -74,6 +77,8 @@
 
 .field public final Q:Ljava/util/concurrent/LinkedBlockingQueue;
 
+.field public final R0:Landroid/os/Handler;
+
 .field public final R:Lsnapbridge/backend/Y;
 
 .field public final S:Lsnapbridge/backend/C;
@@ -83,6 +88,8 @@
 .field public final U:Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/management/b;
 
 .field public final V:Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/management/b;
+
+.field public final U0:Landroid/os/PowerManager$WakeLock;
 
 .field public W:Lsnapbridge/backend/a2;
 
@@ -229,6 +236,16 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
+
+    new-instance v2, Landroid/os/Handler;
+
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+
+    move-result-object v1
+
+    invoke-direct {v2, v1, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
+
+    iput-object v2, v0, Lsnapbridge/backend/O4;->R0:Landroid/os/Handler;
 
     const/4 v1, 0x0
 
@@ -544,6 +561,30 @@
     .line 59
     iput-object v1, v0, Lsnapbridge/backend/O4;->s:Landroid/content/Context;
 
+    const-string v2, "power"
+
+    invoke-virtual {v1, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/os/PowerManager;
+
+    const/4 v2, 0x1
+
+    const-string v0, "SnapBridgeEnhanced:AutoTransfer"
+
+    invoke-virtual {v1, v2, v0}, Landroid/os/PowerManager;->newWakeLock(ILjava/lang/String;)Landroid/os/PowerManager$WakeLock;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, Landroid/os/PowerManager$WakeLock;->setReferenceCounted(Z)V
+
+    move-object v0, p0
+
+    iput-object v1, v0, Lsnapbridge/backend/O4;->U0:Landroid/os/PowerManager$WakeLock;
+
     move-object/from16 v1, p19
 
     .line 60
@@ -687,10 +728,171 @@
     return-void
 .end method
 
+.method public final releaseAutoTransferWakeLock()V
+    .locals 2
+
+    iget-object v0, p0, Lsnapbridge/backend/O4;->U0:Landroid/os/PowerManager$WakeLock;
+
+    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->isHeld()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v0}, Landroid/os/PowerManager$WakeLock;->release()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final cancelAutoTransferRetry()V
+    .locals 2
+
+    iget-object v0, p0, Lsnapbridge/backend/O4;->R0:Landroid/os/Handler;
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
+
+    return-void
+.end method
+
+.method public final scheduleAutoTransferRetry(I)V
+    .locals 8
+
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
+    const-wide/16 v0, 0x7d0
+
+    if-lez p1, :retry_delay_ready
+
+    const/4 v2, 0x1
+
+    if-ne p1, v2, :retry_delay_5s
+
+    goto :retry_delay_ready
+
+    :retry_delay_5s
+    const/4 v2, 0x2
+
+    if-ne p1, v2, :retry_delay_10s
+
+    const-wide/16 v0, 0x1388
+
+    goto :retry_delay_ready
+
+    :retry_delay_10s
+    const/4 v2, 0x3
+
+    if-ne p1, v2, :retry_delay_30s
+
+    const-wide/16 v0, 0x2710
+
+    goto :retry_delay_ready
+
+    :retry_delay_30s
+    const-wide/32 v0, 0x7530
+
+    :retry_delay_ready
+    iget-object v2, p0, Lsnapbridge/backend/O4;->R0:Landroid/os/Handler;
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v2, v3, v0, v1}, Landroid/os/Handler;->sendEmptyMessageDelayed(IJ)Z
+
+    const-string v2, "SnapBridgeEnhanced"
+
+    const-string v4, "AutoTransfer retry scheduled"
+
+    invoke-static {v2, v4}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    sget-object v2, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v4
+
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v5
+
+    const/4 v6, 0x2
+
+    new-array v6, v6, [Ljava/lang/Object;
+
+    const/4 v7, 0x0
+
+    aput-object v4, v6, v7
+
+    aput-object v5, v6, v3
+
+    const-string v4, "DIAG_TRANSFER retry_scheduled failedCount=%d delayMs=%d"
+
+    invoke-virtual {v2, v4, v6}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->i(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v3}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
+
+    return-void
+.end method
+
+.method public final handleMessage(Landroid/os/Message;)Z
+    .locals 4
+
+    iget v0, p1, Landroid/os/Message;->what:I
+
+    const/4 v1, 0x1
+
+    if-ne v0, v1, :retry_message_unhandled
+
+    sget-object v0, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
+
+    const/4 v2, 0x0
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    const-string v3, "DIAG_TRANSFER retry_due"
+
+    invoke-virtual {v0, v3, v2}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->i(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v2, "AutoTransfer retry due"
+
+    invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    iget-object v0, p0, Lsnapbridge/backend/O4;->o:Lsnapbridge/backend/W4;
+
+    invoke-virtual {v0}, Lsnapbridge/backend/W4;->a()Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
+
+    move-result-object v0
+
+    if-eqz v0, :retry_message_handled
+
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->f()Ljava/lang/Boolean;
+
+    :retry_message_handled
+    return v1
+
+    :retry_message_unhandled
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
 
 # virtual methods
 .method public final a(Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AdvertiseCameraInfo;)V
     .locals 4
+
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "BLE camera advertisement received"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     sget-object v0, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
 
@@ -711,6 +913,16 @@
 
     .line 15
     :cond_0
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v0
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
+
     new-instance v0, Lsnapbridge/backend/z0;
 
     iget-object v1, p0, Lsnapbridge/backend/O4;->a:Lsnapbridge/backend/u1;
@@ -1055,6 +1267,8 @@
 
     invoke-virtual {v0, v2, v1}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
 
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->releaseAutoTransferWakeLock()V
+
     .line 2
     new-instance v0, Lsnapbridge/backend/E3;
 
@@ -1208,6 +1422,16 @@
 
     .line 14
     :cond_0
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v2
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v2, v3}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
+
     iget-object v2, p0, Lsnapbridge/backend/O4;->q:Lsnapbridge/backend/Q2;
 
     .line 15
@@ -1729,6 +1953,8 @@
     .line 8
     invoke-virtual {v0, v3, v2}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
 
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->releaseAutoTransferWakeLock()V
+
     .line 9
     .line 10
     .line 11
@@ -2013,7 +2239,7 @@
 
     .line 99
     .line 100
-    goto :goto_1
+    goto :goto_0
 
     .line 101
     :cond_2
@@ -2349,12 +2575,8 @@
     :catch_0
     sget-object v0, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
 
-    .line 30
-    .line 31
     new-array v2, v1, [Ljava/lang/Object;
 
-    .line 32
-    .line 33
     const-string v3, "isSavingImageStop:Catch"
 
     .line 34
@@ -3443,6 +3665,58 @@
 
 .method public final q()V
     .locals 4
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "AutoTransfer queue drive pending="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v1, p0, Lsnapbridge/backend/O4;->A0:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, " running="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lsnapbridge/backend/O4;->B0:Ljava/util/ArrayList;
+
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    const-string v1, " messages="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lsnapbridge/backend/O4;->Q:Ljava/util/concurrent/LinkedBlockingQueue;
+
+    invoke-virtual {v1}, Ljava/util/concurrent/LinkedBlockingQueue;->size()I
+
+    move-result v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "SnapBridgeEnhanced"
+
+    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "AutoTransfer queue drive"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1
     sget-object v0, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
@@ -5586,6 +5860,14 @@
     .line 84
     invoke-virtual {v0, v2, v1}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
 
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v2
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v2, v3}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
+
     .line 85
     .line 86
     .line 87
@@ -5595,6 +5877,14 @@
     .line 89
     .line 90
     move-result-object v0
+
+    const-string v1, "SnapBridgeEnhanced"
+
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 91
     invoke-virtual {p0, v0}, Lsnapbridge/backend/O4;->a(Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/BleLibScannerRepository$ScanMode;)V
@@ -5606,6 +5896,12 @@
 
     .line 95
     :cond_1
+    const-string v2, "SnapBridgeEnhanced"
+
+    const-string v3, "Background scan gated by settings or camera registration"
+
+    invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     new-array v1, v1, [Ljava/lang/Object;
 
     .line 96
@@ -5621,6 +5917,20 @@
     .line 102
     invoke-virtual {p0}, Lsnapbridge/backend/O4;->w()V
 
+    iget-boolean v3, p0, Lsnapbridge/backend/O4;->O0:Z
+
+    if-eqz v3, :switch_foreground_after_scan_stop
+
+    goto :goto_0
+
+    :switch_foreground_after_scan_stop
+
+    invoke-static {}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->getCameraService()Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->switchForegroundService()V
+
     .line 103
     .line 104
     .line 105
@@ -5630,6 +5940,8 @@
 
 .method public final t()V
     .locals 9
+
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
 
     .line 1
     sget-object v0, Lsnapbridge/backend/O4;->Q0:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
@@ -6143,6 +6455,8 @@
 .method public final u()V
     .locals 10
 
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
     .line 1
     const/4 v0, 0x1
 
@@ -6163,6 +6477,8 @@
     .line 8
     .line 9
     invoke-virtual {v1, v4, v3}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    invoke-virtual {p0}, Lsnapbridge/backend/O4;->releaseAutoTransferWakeLock()V
 
     .line 10
     .line 11
