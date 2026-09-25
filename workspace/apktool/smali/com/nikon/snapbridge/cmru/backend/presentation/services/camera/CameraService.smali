@@ -66,6 +66,10 @@
 
 .field public Z:Ljava/lang/String;
 
+.field public aa:Z
+
+.field public ab:Z
+
 .field public e:Lsnapbridge/backend/Vd;
 
 .field public f:Lsnapbridge/backend/O4;
@@ -702,7 +706,7 @@
 
     if-eqz v1, :cond_0
 
-    return v0
+    goto :cond_0
 
     :catch_0
     move-exception v1
@@ -718,7 +722,7 @@
 
     invoke-virtual {v2, v1, v3}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    return v0
+    goto :cond_0
 
     .line 36
     :cond_0
@@ -732,7 +736,88 @@
 
     move-result v0
 
-    xor-int/lit8 v0, v0, 0x1
+    if-eqz v0, :foreground_needed
+
+    iget-object v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->t:Lsnapbridge/backend/W4;
+
+    invoke-virtual {v1}, Lsnapbridge/backend/W4;->a()Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
+
+    move-result-object v0
+
+    if-eqz v0, :connection_type_checked
+
+    goto :foreground_needed
+
+    :connection_type_checked
+
+    iget-object v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->f:Lsnapbridge/backend/O4;
+
+    iget-boolean v0, v1, Lsnapbridge/backend/O4;->O0:Z
+
+    if-nez v0, :foreground_needed
+
+    iget-boolean v0, v1, Lsnapbridge/backend/O4;->I0:Z
+
+    if-nez v0, :foreground_needed
+
+    iget-object v2, v1, Lsnapbridge/backend/O4;->C:Lsnapbridge/backend/U;
+
+    invoke-virtual {v2}, Lsnapbridge/backend/U;->a()Z
+
+    move-result v0
+
+    if-nez v0, :foreground_needed
+
+    iget-boolean v0, v1, Lsnapbridge/backend/O4;->w0:Z
+
+    if-nez v0, :foreground_needed
+
+    iget-boolean v0, v1, Lsnapbridge/backend/O4;->x0:Z
+
+    if-nez v0, :foreground_needed
+
+    iget-boolean v0, v1, Lsnapbridge/backend/O4;->y0:Z
+
+    if-nez v0, :foreground_needed
+
+    iget-object v2, v1, Lsnapbridge/backend/O4;->A0:Ljava/util/ArrayList;
+
+    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :pending_transfer_tasks_checked
+
+    goto :foreground_needed
+
+    :pending_transfer_tasks_checked
+    iget-object v2, v1, Lsnapbridge/backend/O4;->B0:Ljava/util/ArrayList;
+
+    invoke-virtual {v2}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-nez v0, :retry_message_checked
+
+    goto :foreground_needed
+
+    :retry_message_checked
+    iget-object v2, v1, Lsnapbridge/backend/O4;->R0:Landroid/os/Handler;
+
+    const/4 v3, 0x1
+
+    invoke-virtual {v2, v3}, Landroid/os/Handler;->hasMessages(I)Z
+
+    move-result v0
+
+    if-nez v0, :foreground_needed
+
+    const/4 v0, 0x0
+
+    return v0
+
+    :foreground_needed
+    const/4 v0, 0x1
 
     return v0
 .end method
@@ -1421,8 +1506,6 @@
     .line 205
     goto/16 :goto_4
 
-    .line 206
-    .line 207
     :cond_7
     iget-object v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->o:Lsnapbridge/backend/Je;
 
@@ -4504,6 +4587,41 @@
 
     .line 1704
     :cond_4b
+    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v6, 0x1d
+
+    if-lt v2, v6, :background_location_not_required
+
+    const/16 v6, 0x1f
+
+    if-ge v2, v6, :background_location_not_required
+
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    const-string v6, "android.permission.ACCESS_BACKGROUND_LOCATION"
+
+    invoke-virtual {v2, v6}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
+
+    move-result v2
+
+    if-ne v4, v2, :background_location_not_required
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "selectServiceNotificationMessage() BACKGROUND_LOCATION permissionMessage return."
+
+    invoke-virtual {v5, v1, v0}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->S:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$NotificationStore;
+
+    iget-object v0, v0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$NotificationStore;->k:Ljava/lang/String;
+
+    return-object v0
+
+    :background_location_not_required
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 1705
@@ -4756,6 +4874,14 @@
 
     .line 1
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->S:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService$NotificationStore;
+
+    if-nez v0, :service_type_store_ready
+
+    const/16 v0, 0x10
+
+    return v0
+
+    :service_type_store_ready
 
     .line 2
     .line 3
@@ -5189,6 +5315,12 @@
     .line 7
     .line 8
     invoke-virtual {v0, v3, v2}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->d(Ljava/lang/String;[Ljava/lang/Object;)V
+
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v2, "CameraService onDestroy"
+
+    invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->W:Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedPowerReceiver;
 
@@ -5646,6 +5778,12 @@
     .line 226
     .line 227
     :goto_3
+    iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->f:Lsnapbridge/backend/O4;
+
+    invoke-virtual {v0}, Lsnapbridge/backend/O4;->cancelAutoTransferRetry()V
+
+    invoke-virtual {v0}, Lsnapbridge/backend/O4;->releaseAutoTransferWakeLock()V
+
     invoke-virtual {p0, v1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
 
     .line 228
@@ -5713,13 +5851,15 @@
 
     if-eqz v6, :notification_dismiss_check_done
 
+    const-string v5, "SnapBridgeEnhanced"
+
+    const-string v6, "CameraService notification dismissed; foreground connection preserved"
+
+    invoke-static {v5, v6}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     const/4 v6, 0x1
 
     iput-boolean v6, v1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
-
-    const/4 v6, 0x0
-
-    invoke-virtual {v1, v6}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
 
     const/4 v6, 0x1
 
@@ -6108,6 +6248,8 @@
 
     .line 195
     :goto_3
+    if-eqz p1, :camera_service_sticky_restart
+
     if-eqz v4, :cond_7
 
     .line 196
@@ -6193,6 +6335,21 @@
     return v3
 
     .line 239
+    :camera_service_sticky_restart
+    const/4 v5, 0x1
+
+    iput-boolean v5, v1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->aa:Z
+
+    const-string v6, "SnapBridgeEnhanced"
+
+    const-string v7, "CameraService START_STICKY restore"
+
+    invoke-static {v6, v7}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    invoke-virtual {v1, v5}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
+
+    goto :cond_7
+
     :cond_7
     iget-object v0, v1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->l:Lsnapbridge/backend/Oe;
 
@@ -6662,69 +6819,39 @@
     .line 9
     .line 10
     .line 11
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->aa:Z
+
+    invoke-virtual {p0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->a()Z
+
+    move-result v0
+
     invoke-virtual {p0, v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
 
-    .line 12
-    .line 13
-    .line 14
-    :try_start_0
-    iget-object p1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->l:Lsnapbridge/backend/Oe;
+    if-nez v0, :on_task_removed_keep
 
-    .line 15
-    .line 16
-    iget-object p1, p1, Lsnapbridge/backend/Oe;->e:Lcom/nikon/snapbridge/cmru/backend/presentation/services/web/IWebService;
+    const-string v1, "SnapBridgeEnhanced"
 
-    .line 17
-    .line 18
-    if-nez p1, :cond_0
+    const-string v2, "CameraService onTaskRemoved keep=false stopSelf"
 
-    .line 19
-    .line 20
-    goto :goto_0
+    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 21
-    :cond_0
-    invoke-interface {p1, v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/web/IWebService;->setForegroundService(Z)V
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 22
-    .line 23
-    .line 24
-    goto :goto_0
-
-    .line 25
-    :catch_0
-    move-exception p1
-
-    .line 26
-    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->T:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
-
-    .line 27
-    .line 28
-    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 29
-    .line 30
-    .line 31
-    move-result-object p1
-
-    .line 32
-    new-array v0, v0, [Ljava/lang/Object;
-
-    .line 33
-    .line 34
-    invoke-virtual {v1, p1, v0}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->e(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    .line 35
-    .line 36
-    .line 37
-    :goto_0
     invoke-virtual {p0}, Landroid/app/Service;->stopSelf()V
+
+    goto :on_task_removed_done
+
+    :on_task_removed_keep
+    const-string v1, "SnapBridgeEnhanced"
+
+    const-string v2, "CameraService onTaskRemoved keep=true"
+
+    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 38
     .line 39
     .line 40
+    :on_task_removed_done
     return-void
 .end method
 
@@ -6756,7 +6883,7 @@
 .end method
 
 .method public setForegroundService(Z)V
-    .locals 1
+    .locals 2
 
     .line 1
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->h:Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/syncmanagement/b;
@@ -6826,18 +6953,38 @@
 
     if-eqz p1, :notification_foreground_super
 
-    iget-boolean v0, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
+    iget-boolean v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
 
-    if-eqz v0, :notification_foreground_super
+    if-eqz v1, :notification_foreground_super
+
+    iget-boolean v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->ab:Z
+
+    if-eqz v1, :notification_foreground_super
 
     return-void
 
     :notification_foreground_super
 
+    if-eqz p1, :foreground_log_off
+
+    const-string v1, "CameraService foreground=ON"
+
+    goto :foreground_log_ready
+
+    :foreground_log_off
+    const-string v1, "CameraService foreground=OFF"
+
+    :foreground_log_ready
+    const-string v0, "SnapBridgeEnhanced"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 31
     .line 32
     .line 33
     invoke-super {p0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/BaseService;->setForegroundService(Z)V
+
+    iput-boolean p1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->ab:Z
 
     .line 34
     .line 35
@@ -6846,7 +6993,7 @@
 .end method
 
 .method public switchForegroundService()V
-    .locals 4
+    .locals 1
 
     .line 1
     invoke-virtual {p0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->a()Z
@@ -6856,63 +7003,6 @@
     .line 4
     move-result v0
 
-    .line 5
-    :try_start_0
-    iget-object v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->l:Lsnapbridge/backend/Oe;
-
-    .line 6
-    .line 7
-    iget-object v1, v1, Lsnapbridge/backend/Oe;->e:Lcom/nikon/snapbridge/cmru/backend/presentation/services/web/IWebService;
-
-    .line 8
-    .line 9
-    if-nez v1, :cond_0
-
-    .line 10
-    .line 11
-    goto :goto_0
-
-    .line 12
-    :cond_0
-    invoke-interface {v1, v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/web/IWebService;->setForegroundService(Z)V
-    :try_end_0
-    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 13
-    .line 14
-    .line 15
-    goto :goto_0
-
-    .line 16
-    :catch_0
-    move-exception v1
-
-    .line 17
-    sget-object v2, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->T:Lcom/nikon/snapbridge/cmru/backend/utils/BackendLogger;
-
-    .line 18
-    .line 19
-    invoke-virtual {v1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
-
-    .line 20
-    .line 21
-    .line 22
-    move-result-object v1
-
-    .line 23
-    const/4 v3, 0x0
-
-    .line 24
-    new-array v3, v3, [Ljava/lang/Object;
-
-    .line 25
-    .line 26
-    invoke-virtual {v2, v1, v3}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->e(Ljava/lang/String;[Ljava/lang/Object;)V
-
-    .line 27
-    .line 28
-    .line 29
-    :goto_0
     invoke-virtual {p0, v0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->setForegroundService(Z)V
 
     .line 30
@@ -6921,8 +7011,140 @@
     return-void
 .end method
 
+.method public final createFallbackNotification()V
+    .locals 5
+
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    invoke-static {v0}, LF2/b;->d(Landroid/content/Context;)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+
+    move-result-object v2
+
+    iget v2, v2, Landroid/content/pm/ApplicationInfo;->icon:I
+
+    invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setSmallIcon(I)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    const-string v2, "SnapBridge Enhanced"
+
+    invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setContentTitle(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    const-string v2, ""
+
+    invoke-static {p0, v2}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedNotificationText;->build(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    iget-object v3, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Z:Ljava/lang/String;
+
+    if-eqz v3, :fallback_notification_state_changed
+
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v3
+
+    if-eqz v3, :fallback_notification_state_changed
+
+    iget-boolean v3, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
+
+    if-eqz v3, :fallback_notification_state_changed
+
+    return-void
+
+    :fallback_notification_state_changed
+    const/4 v3, 0x0
+
+    iput-boolean v3, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
+
+    iput-object v2, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Z:Ljava/lang/String;
+
+    invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setOnlyAlertOnce(Z)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+
+    move-result-object v4
+
+    invoke-virtual {v4, v3}, Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
+
+    move-result-object v3
+
+    if-eqz v3, :fallback_notification_delete_intent
+
+    const/4 v4, 0x0
+
+    const v2, 0xc000000
+
+    invoke-static {v0, v4, v3, v2}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setContentIntent(Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    :fallback_notification_delete_intent
+    new-instance v2, Landroid/content/Intent;
+
+    const-class v3, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;
+
+    invoke-direct {v2, p0, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    const-string v3, "com.nikon.snapbridge.cmru.backend.camera.NOTIFICATION_DISMISSED"
+
+    invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+
+    move-result-object v2
+
+    const/16 v3, 0x5342
+
+    const v4, 0xc000000
+
+    invoke-static {p0, v3, v2, v4}, Landroid/app/PendingIntent;->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setDeleteIntent(Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    const/4 v2, 0x1
+
+    invoke-virtual {v1, v2}, Landroid/app/Notification$Builder;->setOngoing(Z)Landroid/app/Notification$Builder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Landroid/app/Notification$Builder;->build()Landroid/app/Notification;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/BaseService;->a:Landroid/app/Notification;
+
+    return-void
+.end method
+
 .method public updateServiceNotification(Z)V
-    .locals 4
+    .locals 6
 
     .line 1
     sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
@@ -6945,6 +7167,8 @@
 
     .line 10
     .line 11
+    invoke-virtual {p0}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->createFallbackNotification()V
+
     goto :goto_0
 
     .line 12
@@ -6956,11 +7180,37 @@
     .line 15
     move-result-object p1
 
+    invoke-static {p0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedNotificationText;->build(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v2
+
+    new-instance v3, Ljava/lang/StringBuilder;
+
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    const-string v4, "|"
+
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
     iget-object v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Z:Ljava/lang/String;
 
     if-eqz v1, :notification_state_changed
 
-    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -6978,11 +7228,9 @@
 
     iput-boolean v1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Y:Z
 
-    iput-object p1, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Z:Ljava/lang/String;
+    iput-object v3, p0, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;->Z:Ljava/lang/String;
 
-    invoke-static {p0, p1}, Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/EnhancedNotificationText;->build(Lcom/nikon/snapbridge/cmru/backend/presentation/services/camera/CameraService;Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object p1
+    move-object p1, v2
 
     .line 16
     new-instance v0, Landroid/app/Notification$Builder;
@@ -7163,7 +7411,7 @@
 
     move-result-object p1
 
-    const/4 v2, 0x0
+    const/4 v2, 0x1
 
     invoke-virtual {p1, v2}, Landroid/app/Notification$Builder;->setOngoing(Z)Landroid/app/Notification$Builder;
 

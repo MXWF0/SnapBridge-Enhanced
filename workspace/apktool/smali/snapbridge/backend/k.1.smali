@@ -280,6 +280,15 @@
     check-cast v4, Lsnapbridge/backend/b5;
 
     .line 104
+    iget-boolean v5, v4, Lsnapbridge/backend/b5;->o:Z
+
+    if-nez v5, :ptp_session_active
+
+    sget-object v3, Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;->NOT_CONNECTED:Lcom/nikon/snapbridge/cmru/backend/domain/entities/camera/CameraPtpConnectionState;
+
+    goto :goto_5
+
+    :ptp_session_active
     .line 105
     iget-object v4, v4, Lsnapbridge/backend/b5;->k:Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
 

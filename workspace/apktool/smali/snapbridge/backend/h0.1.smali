@@ -106,14 +106,9 @@
 .end method
 
 .method public final a(J)V
-    .locals 5
+    .locals 9
 
     .line 4
-    new-instance v0, Ljava/util/Date;
-
-    invoke-direct {v0}, Ljava/util/Date;-><init>()V
-
-    .line 5
     iget-object v1, p0, Lsnapbridge/backend/h0;->a:Ljava/util/ArrayList;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -143,6 +138,52 @@
     if-nez v3, :cond_0
 
     .line 7
+    invoke-virtual {v2}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->getFailedCount()I
+
+    move-result v5
+
+    const-wide/16 v7, 0x7d0
+
+    if-lez v5, :fallback_delay_ready
+
+    const/4 v6, 0x1
+
+    if-ne v5, v6, :fallback_delay_count_two
+
+    goto :fallback_delay_ready
+
+    :fallback_delay_count_two
+    const/4 v6, 0x2
+
+    if-ne v5, v6, :fallback_delay_count_three
+
+    const-wide/16 v7, 0x1388
+
+    goto :fallback_delay_ready
+
+    :fallback_delay_count_three
+    const/4 v6, 0x3
+
+    if-ne v5, v6, :fallback_delay_count_four
+
+    const-wide/16 v7, 0x2710
+
+    goto :fallback_delay_ready
+
+    :fallback_delay_count_four
+    const-wide/32 v7, 0x7530
+
+    :fallback_delay_ready
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v3
+
+    add-long/2addr v3, v7
+
+    new-instance v0, Ljava/util/Date;
+
+    invoke-direct {v0, v3, v4}, Ljava/util/Date;-><init>(J)V
+
     invoke-virtual {v2, v0}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->setLastFailedAt(Ljava/util/Date;)V
 
     :cond_1
@@ -183,6 +224,12 @@
 
     .line 10
     invoke-virtual {v1, p3}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->setFailedCount(I)V
+
+    if-nez p3, :cond_1
+
+    const/4 v3, 0x0
+
+    invoke-virtual {v1, v3}, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/AutoTransferImage;->setLastFailedAt(Ljava/util/Date;)V
 
     :cond_1
     return-void

@@ -36,7 +36,7 @@
 
 # virtual methods
 .method public final execute(Lcom/nikon/snapbridge/cmru/backend/data/abilities/transaction/TransactionData;)Ljava/lang/Object;
-    .locals 7
+    .locals 11
 
     .line 1
     iget-object v0, p0, Lsnapbridge/backend/d0;->b:Lsnapbridge/backend/g0;
@@ -56,15 +56,6 @@
     .line 8
     .line 9
     .line 10
-    new-instance v0, Ljava/util/Date;
-
-    .line 11
-    .line 12
-    invoke-direct {v0}, Ljava/util/Date;-><init>()V
-
-    .line 13
-    .line 14
-    .line 15
     new-instance v3, Lsnapbridge/backend/Sg;
 
     .line 16
@@ -150,6 +141,50 @@
     .line 56
     .line 57
     if-eqz v3, :cond_0
+
+    iget v4, v3, Lsnapbridge/backend/Rg;->e:I
+
+    const-wide/16 v6, 0x7d0
+
+    if-lez v4, :retry_delay_ready
+
+    const/4 v5, 0x1
+
+    if-ne v4, v5, :retry_delay_count_two
+
+    goto :retry_delay_ready
+
+    :retry_delay_count_two
+    const/4 v5, 0x2
+
+    if-ne v4, v5, :retry_delay_count_three
+
+    const-wide/16 v6, 0x1388
+
+    goto :retry_delay_ready
+
+    :retry_delay_count_three
+    const/4 v5, 0x3
+
+    if-ne v4, v5, :retry_delay_count_four
+
+    const-wide/16 v6, 0x2710
+
+    goto :retry_delay_ready
+
+    :retry_delay_count_four
+    const-wide/32 v6, 0x7530
+
+    :retry_delay_ready
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v8
+
+    add-long/2addr v8, v6
+
+    new-instance v0, Ljava/util/Date;
+
+    invoke-direct {v0, v8, v9}, Ljava/util/Date;-><init>(J)V
 
     .line 58
     .line 59

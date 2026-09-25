@@ -957,6 +957,12 @@
 .method public startScan(Lcom/nikon/snapbridge/cmru/bleclient/BleScanSetting;)Lcom/nikon/snapbridge/cmru/bleclient/BleScanStartResultCodes;
     .locals 3
 
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "BLE scan start requested"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 1
     sget-object v0, Lcom/nikon/snapbridge/cmru/bleclient/BleScan;->l:Ljava/lang/String;
 
@@ -1097,6 +1103,12 @@
 
 .method public stopScan()V
     .locals 2
+
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "BLE scan stop requested"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1
     iget-object v0, p0, Lcom/nikon/snapbridge/cmru/bleclient/BleScan;->i:Ljava/lang/Object;

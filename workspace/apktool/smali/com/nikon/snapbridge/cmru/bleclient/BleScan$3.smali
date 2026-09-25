@@ -40,6 +40,22 @@
 .method public onScanFailed(I)V
     .locals 4
 
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "BLE scan failed code="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "SnapBridgeEnhanced"
+
+    invoke-static {v1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     .line 1
     invoke-super {p0, p1}, Landroid/bluetooth/le/ScanCallback;->onScanFailed(I)V
 
@@ -165,6 +181,12 @@
 
 .method public onScanResult(ILandroid/bluetooth/le/ScanResult;)V
     .locals 3
+
+    const-string v0, "SnapBridgeEnhanced"
+
+    const-string v1, "BLE scan result received"
+
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 1
     invoke-super {p0, p1, p2}, Landroid/bluetooth/le/ScanCallback;->onScanResult(ILandroid/bluetooth/le/ScanResult;)V
