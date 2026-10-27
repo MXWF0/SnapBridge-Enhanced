@@ -1,6 +1,15 @@
 # 更新日志
 
-## SnapBridge-Enhanced v1.3 增量开发 — 2026-09-18
+## SnapBridge-Enhanced v1.3.1 — 2026-10-27
+
+- 修正后台查找相机时重复停扫/重扫造成的扫描过频，统一限流窗口及可取消的异步重试，取消后不再残留旧重试任务。
+- 补充扫描、BTC 空闲释放与传图队列诊断，保留原版认证和通信实现；传输恢复表述为“断线后任务恢复”，不承诺字节级续传。
+- 公开维护来源整理为 enhanced/、patches/ 和 scripts/，完整本地 workspace 保留。prepare 支持从本地 base.apk 重建，移除与重写 DEX 不匹配的原编译 profile。
+- 使用既有签名保持覆盖安装兼容；独立重建与发布包有效内容一致，Native 库与基线一致。vivo X100 Pro/Android 16 已有后台锁屏传图现场记录及用户数小时手测反馈，最终包通过实际安装代码的扫描调度回归、运行时 DEX 校验与短时后台服务检查；第二品牌及最终包拔 USB 长测尚未验证。
+
+正式包及版本说明：[v1.3.1 Release](https://github.com/MXWF0/SnapBridge-Enhanced/releases/tag/v1.3.1)。
+
+## SnapBridge-Enhanced v1.3 — 2026-09-18
 
 ### 设备复测与 release 包
 
@@ -27,7 +36,7 @@
 - 已用 Apktool 2.11.1/AAPT2 构建未签名 APK，并由本地 release 密钥生成签名包；已推送 `main` 并创建正式 [v1.3 GitHub Release](https://github.com/MXWF0/SnapBridge-Enhanced/releases/tag/v1.3)，未修改 Nikon BLE 认证、PTP、JNI 或 Native `.so`。真实相机回归仍待用户现场确认。
 - 未签名输入为 `workspace/build/base-unsigned.apk`，大小 `68938748` 字节，SHA-256 为 `30830E3DFBF56D64FC31130CE3B5CBC97233E84AC5267540A0156770F49B302C`；release 签名包信息见本节“设备复测与 release 包”。
 
-## SnapBridge-Enhanced v1.2 本轮修复 — 2026-09-13
+## SnapBridge-Enhanced v1.2 — 2026-09-13
 
 ### 修复内容
 
@@ -45,7 +54,7 @@
 - `aapt2 dump badging`、编译校验、v1/v2/v3 签名、覆盖安装和 Android 设备冷启动通过；与 v1.1 基线的 16 个 Native `.so` 条目长度和 CRC 一致。覆盖安装后的 V2324A 前台服务无 `NoSuchMethodError`、`VerifyError`、`NoClassDefFoundError` 或 `FATAL EXCEPTION`；无相机时通知显示“等待相机”属于预期空闲态，保持前台服务标记，连接状态切换需现场相机确认。
 - 当前设备没有真实 Nikon 相机，2MP、8MP、Original→Wi-Fi、连续传图、锁屏后台、断线重连、低电量暂停恢复、手动暂停和 Remote 进出仍待现场真机确认，未将静态/冷启动验证记为相机功能通过。
 
-## SnapBridge-Enhanced v1.2 — 2026-09-13
+### 初版内容
 
 ### 五阶段增量
 

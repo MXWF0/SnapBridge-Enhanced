@@ -1,31 +1,26 @@
 [CmdletBinding()]
 param(
-    [string]$SourceDir = 'workspace\apktool',
+    [string]$SourceDir = 'workspace\prepared-apktool',
     [string]$OutputApk = 'workspace\build\base-unsigned.apk',
-    [string]$ApktoolJar = 'E:\codex\tools\apktool_2.11.1.jar',
-    [string]$JavaExe = 'E:\codex\tools\jadx-1.5.5\jre\bin\java.exe'
+    [string]$ApktoolJar,
+    [string]$JavaExe
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 $repoRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
+. (Join-Path $PSScriptRoot 'ToolResolver.ps1')
 $sourcePath = if ([IO.Path]::IsPathRooted($SourceDir)) { $SourceDir } else { Join-Path $repoRoot $SourceDir }
 $outputPath = if ([IO.Path]::IsPathRooted($OutputApk)) { $OutputApk } else { Join-Path $repoRoot $OutputApk }
-$apktoolPath = if ([IO.Path]::IsPathRooted($ApktoolJar)) { $ApktoolJar } else { Join-Path $repoRoot $ApktoolJar }
-$javaPath = if ([IO.Path]::IsPathRooted($JavaExe)) { $JavaExe } else { Join-Path $repoRoot $JavaExe }
+$apktoolPath = Resolve-Apktool $ApktoolJar $repoRoot
+$javaPath = Resolve-Java $JavaExe $repoRoot
 
 if (!(Test-Path -LiteralPath $sourcePath -PathType Container)) {
     throw "Apktool source directory not found: $sourcePath"
 }
 if (!(Test-Path -LiteralPath (Join-Path $sourcePath 'AndroidManifest.xml') -PathType Leaf)) {
     throw "Decoded AndroidManifest.xml not found: $sourcePath"
-}
-if (!(Test-Path -LiteralPath $apktoolPath -PathType Leaf)) {
-    throw "Apktool jar not found: $apktoolPath"
-}
-if (!(Test-Path -LiteralPath $javaPath -PathType Leaf)) {
-    throw "Java runtime not found: $javaPath"
 }
 
 $manifestText = Get-Content -LiteralPath (Join-Path $sourcePath 'AndroidManifest.xml') -Raw
@@ -36,10 +31,14 @@ if ($manifestText -notmatch 'package="com\.nikon\.snapbridge\.cmru"') {
 $outputDirectory = Split-Path -Parent $outputPath
 New-Item -ItemType Directory -Path $outputDirectory -Force | Out-Null
 if (Test-Path -LiteralPath $outputPath -PathType Leaf) {
-    Remove-Item -LiteralPath $outputPath -Force
+    throw "Output already exists; choose a new -OutputApk: $outputPath"
 }
 
-& $javaPath -jar $apktoolPath b $sourcePath -o $outputPath --use-aapt2
+if ($apktoolPath.EndsWith('.jar', [StringComparison]::OrdinalIgnoreCase)) {
+    & $javaPath -jar $apktoolPath b $sourcePath -o $outputPath --use-aapt2
+} else {
+    & $apktoolPath b $sourcePath -o $outputPath --use-aapt2
+}
 if ($LASTEXITCODE -ne 0) {
     throw "Apktool build failed with exit code $LASTEXITCODE."
 }
@@ -92,4 +91,4 @@ for ($entryIndex = 0; $entryIndex -lt $entryCount; $entryIndex++) {
 }
 [IO.File]::WriteAllBytes($outputPath, $apkBytes)
 
-Get-FileHash -LiteralPath $outputPath -Algorithm SHA256
+Get-Item -LiteralPath $outputPath | Select-Object FullName, Length

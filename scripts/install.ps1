@@ -1,7 +1,8 @@
 [CmdletBinding()]
 param(
     [string]$ApkPath = 'workspace\build\base-signed.apk',
-    [string]$AdbExe = 'E:\codex\tools\android-sdk\platform-tools\adb.exe',
+    [string]$AdbExe,
+    [string]$AndroidSdk,
     [string]$PackageName = 'com.nikon.snapbridge.cmru'
 )
 
@@ -9,14 +10,12 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 $repoRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
+. (Join-Path $PSScriptRoot 'ToolResolver.ps1')
 $apkPath = if ([IO.Path]::IsPathRooted($ApkPath)) { $ApkPath } else { Join-Path $repoRoot $ApkPath }
-$adbPath = if ([IO.Path]::IsPathRooted($AdbExe)) { $AdbExe } else { Join-Path $repoRoot $AdbExe }
+$adbPath = Resolve-Adb $AdbExe $AndroidSdk $repoRoot
 
 if (!(Test-Path -LiteralPath $apkPath -PathType Leaf)) {
     throw "Signed APK not found: $apkPath"
-}
-if (!(Test-Path -LiteralPath $adbPath -PathType Leaf)) {
-    throw "adb not found: $adbPath"
 }
 
 & $adbPath 'get-state'
