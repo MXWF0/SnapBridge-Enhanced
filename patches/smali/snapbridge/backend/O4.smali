@@ -3151,6 +3151,18 @@
 .method public final n()V
     .locals 3
 
+    iget-object v0, p0, Lsnapbridge/backend/O4;->n:Lsnapbridge/backend/k5;
+    iget-object v0, v0, Lsnapbridge/backend/k5;->a:Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/l;
+    check-cast v0, Lsnapbridge/backend/b5;
+    iget-object v0, v0, Lsnapbridge/backend/b5;->k:Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
+    sget-object v1, Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;->WIFI:Lcom/nikon/snapbridge/cmru/backend/data/repositories/camera/connection/CameraControllerRepository$ConnectionType;
+    if-ne v0, v1, :check_auto_link_disconnect
+
+    const-string v0, "Auto-link cleanup kept the active Wi-Fi controller"
+    invoke-static {v0}, Lcom/mxwf/sbenhanced/EnhancedLogger;->info(Ljava/lang/String;)V
+    return-void
+
+    :check_auto_link_disconnect
     .line 1
     iget-boolean v0, p0, Lsnapbridge/backend/O4;->I0:Z
 

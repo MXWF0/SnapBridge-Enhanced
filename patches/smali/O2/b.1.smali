@@ -3269,7 +3269,23 @@
 
     .line 117
     .line 118
+    if-eq v3, v4, :auto_download_size_8mp
+
+    sget-object v4, Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;->IMAGE_ORIGINAL:Lcom/nikon/snapbridge/cmru/backend/data/entities/camera/CameraImageAutoTransferImageSize;
+
     if-ne v3, v4, :cond_4
+
+    sget-object v0, LN2/q0;->e:LN2/j;
+
+    const v3, 0x7f110210
+
+    invoke-virtual {v0, v3}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_1
+
+    :auto_download_size_8mp
 
     .line 119
     .line 120

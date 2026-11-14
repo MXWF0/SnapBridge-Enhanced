@@ -344,6 +344,13 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/nikon/snapbridge/cmru/backend/utils/SnapBridgeLogger;->t(Ljava/lang/String;[Ljava/lang/Object;)V
 
+    invoke-virtual {p2}, Ljava/lang/Enum;->name()Ljava/lang/String;
+    move-result-object v1
+    const-string v2, "AutoTransfer download start size="
+    invoke-virtual {v2, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v1
+    invoke-static {v1}, Lcom/mxwf/sbenhanced/EnhancedLogger;->info(Ljava/lang/String;)V
+
     .line 2
     iget-object v1, p0, Lsnapbridge/backend/Y2;->d:Lcom/nikon/snapbridge/cmru/backend/domain/usecases/camera/imagemanagement/c;
 

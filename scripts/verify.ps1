@@ -6,7 +6,7 @@ param(
     [string]$BaseApk = 'base.apk',
     [string]$ReportPath,
     [string]$ExpectedPackage = 'com.nikon.snapbridge.cmru',
-    [string]$ExpectedVersionCode = '21333014',
+    [string]$ExpectedVersionCode = '21333015',
     [string]$ApktoolJar,
     [string]$JavaExe,
     [string]$AndroidSdk,
